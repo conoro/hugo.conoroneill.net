@@ -1,0 +1,13 @@
+baseurl = "http://conoroneill.net/"
+languageCode = "en-us"
+title = "Cross Dominant"
+theme = "purehugo"
+Paginate = 10
+disqusShortname = "crossdominant"
+rssURI = "feed"
+
+[params]
+  twitterName = "conoro"
+  githubName = "conoro"
+  description = "Mixed laterality since 1968"
+  google_analytics = "UA-88610-4"
