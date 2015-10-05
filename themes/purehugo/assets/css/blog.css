@@ -15,6 +15,10 @@ html, button, input, select, textarea,
     font-family: "Source Sans Pro", serif;
 }
 
+input#gsc-i-id1 {
+    color: black;
+}
+
 a {
     text-decoration: none;
     color: rgb(61, 146, 201);
