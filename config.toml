@@ -4,7 +4,6 @@ title = "Cross Dominant"
 theme = "purehugo"
 Paginate = 10
 disqusShortname = "crossdominant"
-rssURI = "feed"
 uglyUrls=false
 
 [params]
