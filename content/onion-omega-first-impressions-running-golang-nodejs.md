@@ -1,7 +1,5 @@
 +++
-Categories = []
 Description = "This new $25 IoT board sits between microcontrollers and Raspberry Pis. Its small size is the big attraction. But language support is currently weak at this early stage"
-Tags = []
 date = "2015-11-14T12:54:48Z"
 title = "First impressions of @OnionIoT Omega. Also running #golang 1.1.2 and #nodejs 0.10.5 on MIPS"
 

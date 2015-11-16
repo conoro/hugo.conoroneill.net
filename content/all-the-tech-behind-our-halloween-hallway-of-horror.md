@@ -1,7 +1,5 @@
 +++
-Categories = []
 Description = "This year's Halloween brought to you by 3x Arduino, 1x Banana Pi, 1x ESP8266 and some Adafruit modules"
-Tags = []
 date = "2015-11-03T08:22:29Z"
 title = "All the gory tech behind our Halloween Hallway of Horror"
 

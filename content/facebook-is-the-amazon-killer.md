@@ -1,7 +1,5 @@
 +++
-Categories = []
 Description = "Just as no one expected a book seller to dominate the cloud, I think the company that will disrupt Amazon is Facebook."
-Tags = ["IaaS", "PaaS", "Facebook", "Amazon", "AWS"]
 date = "2015-10-23T13:54:25+01:00"
 title = "Facebook is the Amazon AWS Killer"
 
