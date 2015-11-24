@@ -7,7 +7,7 @@ slug = "orson-scott-card-comments-about-enders-game-on-amazon"
 +++
 
 #"Orson Scott Card Comments About Ender's Game on Amazon"
-
+  
 
  <div class="posterous_bookmarklet_entry">
  <blockquote><div style="margin-left: 0.5em;">
