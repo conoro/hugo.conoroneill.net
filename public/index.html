@@ -1,0 +1,990 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross Dominant &middot; Cross Dominant</title>
+
+    <meta name="description" content="Mixed laterality since 1968">
+
+    <meta name="generator" content="Hugo 0.15" />
+    <meta name="twitter:card" content="summary">
+    
+    <meta name="twitter:title" content="Cross Dominant &middot; Cross Dominant">
+    <meta name="twitter:description" content="Mixed laterality since 1968">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Cross Dominant &middot; Cross Dominant">
+    <meta property="og:description" content="Mixed laterality since 1968">
+
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="http://conoroneill.net//css/all.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="alternate" type="application/rss+xml" title="Cross Dominant" href="http://conoroneill.net/index.xml" />
+</head>
+<body>
+
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+        <hgroup>
+            <h1 class="brand-title"><a href="http://conoroneill.net/">Cross Dominant</a></h1>
+            <h2 class="brand-tagline"> Mixed laterality since 1968 </h2>
+        </hgroup>			
+        <nav class="nav">
+            <ul class="nav-list">
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="https://twitter.com/conoro"><i class="fa fa-twitter"></i> Twitter</a>
+                </li>
+                
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="https://github.com/conoro "><i class="fa fa-github-alt"></i> github</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="http://conoroneill.net/index.xml"><i class="fa fa-rss"></i> rss</a>
+                </li>
+            </ul>
+        </nav>
+		<script>
+  (function() {
+    var cx = '001461447920948202874:5htheqgvd1w';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+    </div>
+</div>
+
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            
+            <div class="posts">
+                
+                <h1 class="content-subhead">18 Nov 2015, 17:38</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/blogging-from-my-phone-with-droidedit-hugo-github-travis/" class="post-title">Blogging from my phone with DroidEdit, Hugo, GitHub and Travis</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">16 Nov 2015, 22:35</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/onion-omega-first-impressions-running-golang-nodejs/" class="post-title">First impressions of @OnionIoT Omega. Also running #golang 1.1.2 and #nodejs 0.10.5 on MIPS</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        
+
+<p>I did a splurge of backing IoT KickStarters a few months ago and the <a href="https://onion.io/omega/">Onion Omega</a> is the first one to land in my postbox. It&rsquo;s a tiny (barely bigger than an SD card) board running the same basic guts as many OpenWRT routers i.e. 400 MHz Atheros MIPS CPU with 64MB of DRAM and 16MB of Flash.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/omega_sd.jpg" alt="Onion Omega" /></p>
+
+<p>If you&rsquo;re not familiar with <a href="https://openwrt.org/">OpenWRT</a>, it&rsquo;s an Open Source community replacement firmware for many routers (similar to DD-WRT that I&rsquo;ve used many times) and is Linux under the hood. You generally do your own custom Firmware builds which bundle exactly what you want but you can also install packages via the opkg tool.</p>
+
+<p>Obviously 400MHz with tiny RAM cannot compete with an RPi but it is far more powerful than most MCUs and runs Linux. The question is whether this middle ground addresses a big enough market, particularly when the price point is almost the same as an RPi Model A and you need to buy add-on cards to work easily with it. I&rsquo;m not sure yet.</p>
+
+<p>The Onion team are currently building a Web UI and an IoT &ldquo;Cloud&rdquo; as value-adds and of course everything is OpenSource.</p>
+
+<p>The fact that it just launched means that the software story isn&rsquo;t great right now. The KickStarter mentions things like Node but that isn&rsquo;t available in a supported way. Also the effort around accessing GPIOs etc is focused on Python. And add-on boards like the OLED screen I bought have no support yet.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/omega_kit.jpg" alt="Onion Omega Kit" /></p>
+
+<h2 id="summary-opinion:6373a9f13467451d12a87cf58bb7873b">Summary Opinion</h2>
+
+<p>Overall it&rsquo;s a nice board but the lack of &ldquo;buzz&rdquo; around it has me a little worried. The number one thing that projects like this need is community. I think the CHiP might steal a lot of its thunder with more welly at a much lower pricepoint. But perhaps a focus on realtime embedded applications will help here.</p>
+
+<p>I&rsquo;d like to see a library like WiringPi built for it that can easily have wrappers for others languages implemented.</p>
+
+<p>I think it&rsquo;ll be ideal as a home API server that I can put anywhere and forget about.</p>
+
+<p>Another area it could shine, due to its tiny size and low power consumption is robotics. See my comment below about <a href="http://gobot.io/">Gobot</a>.</p>
+
+<h2 id="node-js-partial-success:6373a9f13467451d12a87cf58bb7873b">Node.js partial success</h2>
+
+<p>After an initial play around with it, I decided to try out Node and Go. Node was <a href="https://community.onion.io/topic/46/simple-node-js-wrapper-samples">built by a community member</a> but is back on version 0.10.5.</p>
+
+<p>I copied the Node executable and libv8 to a USB stick and plugged that into the Onion standard &ldquo;dock&rdquo;. I mounted it and ran hello world successfully. Hurrah!</p>
+
+<p>But then I realised it doesn&rsquo;t have NPM. So I put together a simple Tweeting App, did the NPM install on my Fedora VM and then copied everything to the USB stick.</p>
+
+<p>The code which ran fine on Fedora crapped out with &ldquo;not authenticated&rdquo; on the Onion. I tried two other Twitter modules with the same result. I wasn&rsquo;t able to see any other error apart from Twitter complaining about authentication.</p>
+
+<p>So I gave up on Node for the moment.</p>
+
+<h2 id="golang-1-1-2-first-failed-attempt:6373a9f13467451d12a87cf58bb7873b">Golang 1.1.2 first failed attempt</h2>
+
+<p>On to Go and a giant big rabbit hole.</p>
+
+<p>So you can&rsquo;t get a recent version of Go for MIPS. However, one smart person <a href="https://github.com/GeertJohan/openwrt-go">forked OpenWRT and added Go support</a> via <a href="https://gcc.gnu.org/onlinedocs/gccgo/Invoking-gccgo.html">gccgo</a>. Yay it&rsquo;s Go, boo it&rsquo;s Go 1.1.2.</p>
+
+<p>But I thought it&rsquo;d be a good experience to try building OpenWRT from scratch anyway. The <a href="https://github.com/GeertJohan/openwrt-go/issues/2">instructions here</a> and <a href="http://www.sajalkayan.com/post/golang-openwrt-mips.html">here</a> are pretty straightforward and I managed to build the Gnu cross-compile toolchain inside a Fedora 22 VM on Windows 10.</p>
+
+<p>NOTE: DO NOT DO THE FOLLOWING. IT DIDN&rsquo;T WORK. FOLLOW THE STEPS LATER FOR CLEAN NEW OPENWRT</p>
+
+<pre><code>git clone git@github.com:GeertJohan/openwrt-go.git openwrt
+cd openwrt
+./scripts/feeds update -a
+./scripts/feeds install -a
+cp ~/Desktop/scons-2.3.5.tar.gz dl (needed to download this manually as it was missing)
+cp ~/Desktop/openssl-1.0.2c.tar.gz dl (needed to download this manually as it was missing)
+make menuconfig
+</code></pre>
+
+<p>In menuconfig you have to enable a few things:</p>
+
+<ul>
+<li>-&gt; Advanced configuration options</li>
+<li>&ndash;&gt; Toolchain options</li>
+<li>&mdash;&gt; C library implementation</li>
+<li>&mdash;-&gt; Use eglibc</li>
+<li>-&gt; Advanced configuration options</li>
+<li>&ndash;&gt; Toolchain options</li>
+<li>&mdash;&gt; Select Build/Install gccgo</li>
+</ul>
+
+<p>Then save and exit, followed by:</p>
+
+<pre><code>make
+</code></pre>
+
+<p>Several hours later on my old i7 laptop, I had everything I needed.</p>
+
+<p>Then a simple helloworld Web Server helloweb.go that only uses standard library features:</p>
+
+<pre><code>package main
+
+import (
+    &quot;fmt&quot;
+    &quot;net/http&quot;
+)
+
+func handler(w http.ResponseWriter, r *http.Request) {
+    fmt.Fprintf(w, &quot;Hi there, I love %s!&quot;, r.URL.Path[1:])
+}
+
+func main() {
+    http.HandleFunc(&quot;/&quot;, handler)
+    http.ListenAndServe(&quot;:8080&quot;, nil)
+}
+</code></pre>
+
+<p>Create ~/openwrt.config which consists of</p>
+
+<pre><code>export STAGING_DIR=/home/conor/openwrt/staging_dir 
+export TOOLCHAIN_DIR=$STAGING_DIR/toolchain-mips_34kc_gcc-4.8-linaro_glibc-2.19 
+export LDCFLAGS=$TOOLCHAIN_DIR/usr/lib 
+export LD_LIBRARY_PATH=$TOOLCHAIN_DIR/usr/lib 
+export PATH=$TOOLCHAIN_DIR/bin:$PATH
+</code></pre>
+
+<p>Then build it:</p>
+
+<pre><code>. ~/openwrt.config
+mips_gccgo -Wall -o helloweb_static_libgo helloweb.go -static-libgo
+</code></pre>
+
+<p>I copied it over to the Onion but no joy. It just kept saying &ldquo;not found&rdquo;. Distant memories told me this was related to libraries and versions but nothing I tried worked. So I took a break.</p>
+
+<h2 id="golang-1-1-2-second-successful-attempt:6373a9f13467451d12a87cf58bb7873b">Golang 1.1.2 second successful attempt</h2>
+
+<p>A while later I decided that what I needed to do was build OpenWRT for the Onion but then I hit a blocker. Onion support was added to OpenWRT in July but the latest version of the toolchain that included Go was from May. So I bit the bullet and manually &ldquo;cherry-picked&rdquo; <a href="https://github.com/GeertJohan/openwrt-go/commits/add-gccgo-and-libgo?author=GeertJohan">all of the author&rsquo;s changes</a> from the older toolchain into the latest version of OpenWRT.</p>
+
+<p>You can get <a href="https://gist.github.com/conoro/887362ebdbbada2cfbc6">the patchfile I generated here</a> and apply it.</p>
+
+<p>NOTE: THESE STEPS WORK OK.</p>
+
+<p>Now to build from scratch again:</p>
+
+<pre><code>sudo dnf install -y subversion binutils bzip2 gcc gcc-c++ gawk gettext flex ncurses-devel zlib-devel zlib-static make patch unzip perl-ExtUtils-MakeMaker glibc glibc-devel glibc-static quilt sed sdcc intltool sharutils bison wget
+
+. ~/openwrt.config   (see the contents of that file in the first failed attempt)
+
+rm -rf ~/openwrt
+git clone git://git.openwrt.org/openwrt.git openwrt
+cd openwrt
+</code></pre>
+
+<pre><code>nano feeds.conf.default
+</code></pre>
+
+<p>and append the following:</p>
+
+<pre><code>src-git onion https://github.com/OnionIoT/OpenWRT-Packages.git
+</code></pre>
+
+<p>Then:</p>
+
+<pre><code>scripts/feeds update -a
+
+make menuconfig
+</code></pre>
+
+<p>Note you have to include the same menuconfig settings as before i.e.</p>
+
+<ul>
+<li>-&gt; Advanced configuration options</li>
+<li>&ndash;&gt; Toolchain options</li>
+<li>&mdash;&gt; C library implementation</li>
+<li>&mdash;-&gt; Use eglibc</li>
+<li>-&gt; Advanced configuration options</li>
+<li>&ndash;&gt; Toolchain options</li>
+<li>&mdash;&gt; Select Build/Install gccgo</li>
+</ul>
+
+<p>Plus the following for both the Onion and USB stick. This uses <a href="https://github.com/OnionIoT/OpenWRT-Packages/wiki/Setting-Up-the-Cross-Compile-Environment">some instructions from the Onion site</a>:</p>
+
+<ol>
+<li>Target System is Atheros AR7xxx/AR9xxx</li>
+<li>Subtarget is Generic</li>
+<li>Target Profile is Onion Omega</li>
+<li>Target Images is squashfs</li>
+<li>Add kmod-fs-vfat</li>
+<li>Add kmod-nls-cp437</li>
+</ol>
+
+<pre><code>make
+</code></pre>
+
+<p>Several hours later again, I finally had <a href="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin">a version of the firmware that included Go support</a> and ran on the Onion by doing the following on the Onion:</p>
+
+<pre><code>cd /tmp
+scp conor@192.168.0.9:/mnt/disk2/software/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin .
+sysupgrade openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin 
+</code></pre>
+
+<h2 id="hello-world-web-server-in-go-on-the-onion-omega:6373a9f13467451d12a87cf58bb7873b">Hello World Web Server in Go on the Onion Omega</h2>
+
+<p>Back to helloworld on the Fedora 22 VM:</p>
+
+<pre><code>alias mips_gccgo='mips-openwrt-linux-gccgo -Wl,-R,/home/conor/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_glibc-2.19/lib/gcc/mips-openwrt-linux-gnu/4.8.3 -L /home/conor/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8.0-linaro_glibc-2.19/lib'
+
+mips_gccgo -Wall -o helloweb_static_libgo helloweb.go -static-libgo
+</code></pre>
+
+<p>Copy to the Onion and run it with a simple ./helloweb_static_libgo</p>
+
+<p>Hurrah, Hello World in Go on the Onion!</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/go_on_onion_omega_02.jpg" alt="I love mac and cheese" /></p>
+
+<h2 id="tweeting-from-the-onion-omega-in-go:6373a9f13467451d12a87cf58bb7873b">Tweeting from the Onion Omega in Go</h2>
+
+<p>I should have left it at that but no, I wanted to Tweet from the Onion. My problems multiplied. Basically, gccgo doesn&rsquo;t have all the bells and whistles of recent Go and can&rsquo;t handle included packages easily. After some reading and playing, I managed to build a Tweeting App that used the <a href="https://github.com/kurrik/twittergo">Twittergo package</a>. Note you need a local Fedora version of <a href="https://golang.org/dl/">Go installed and configured</a> for &ldquo;go get&rdquo; to work (or just git clone). My $GOPATH is /home/conor/gitwork/go</p>
+
+<p>I used the <a href="https://github.com/kurrik/twittergo-examples/blob/master/tweet/main.go">example from Twittergo</a> to send the tweet, with the same mods to remove paths from the imports as the other files.</p>
+
+<pre><code class="language-bash">. ~/openwrt.config
+
+cd ~/gitwork/go/src/github.com
+go get github.com/kurrik/twittergo
+go get github.com/kurrik/oauth1a
+go get github.com/kurrik/json
+cd kurrik/json
+mips-openwrt-linux-gccgo -c json.go
+cd ../oauth1a
+mips-openwrt-linux-gccgo -c oauth1a.go userconfig.go
+cd ../twittergo
+cp ../json/json.o .
+cp ../oauth1a/oauth1a.o .
+emacs twittergo.go  (change github.com/kurrik/oauth1a to oauth1a)
+emacs models.go  (change github.com/kurrik/json to json)
+mips-openwrt-linux-gccgo -c twittergo.go models.go
+emacs tweetomega.go
+mips_gccgo -Wall -o tweetomega main.go -static-libgo json.o  oauth1a.o twittergo.o
+gedit CREDENTIALS
+</code></pre>
+
+<p>I was nearly there. The code ran but threw an error almost immediately about x509 root certs being missing. I ran all of the following, which seemed to fix it (but I&rsquo;m not sure if all needed):</p>
+
+<pre><code class="language-bash">opkg update
+opkg install ca-certificates
+opkg install openssl-util
+opkg install curl
+wget http://curl.haxx.se/ca/cacert.pem
+mv cacert.pem /etc/ssl/certs/ca-certificates.crt
+scp conor@192.168.0.9:/mnt/disk2/software/CREDENTIALS .
+scp conor@192.168.0.9:/mnt/disk2/software/tweetomega .
+./tweetomega
+</code></pre>
+
+<p>And finally ta-daaaa, a Tweet from the Omega:</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/hushvine_onion_01.jpg" alt="Tweetin Omega" /></p>
+
+<p>I now suspect that the Node.js error may have been exactly the same thing but just hidden so I&rsquo;ll go back and try the same for it.</p>
+
+<h2 id="final-notes:6373a9f13467451d12a87cf58bb7873b">Final notes</h2>
+
+<ol>
+<li>That custom firmware I built is missing all of the Onion&rsquo;s own stuff and I&rsquo;m not sure how to add that. However you can easily re-install the latest factory Onion image by wgetting it using the URL you find <a href="http://cloud.onion.io/api/firmware/stable.json">in this file</a> into /tmp using sysupgrade name_of_image.</li>
+<li>We really need Go 1.6 to support MIPS. I think the Onion is a great device for running Go. We might even get <a href="http://gobot.io/">Gobots</a> running.</li>
+</ol>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">03 Nov 2015, 08:22</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/all-the-tech-behind-our-halloween-hallway-of-horror/" class="post-title">All the gory tech behind our Halloween Hallway of Horror</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        
+
+<p>Despite starting weeks earlier than usual, Halloween still involved a day of last minute panic to bring everything together. The end result was this:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FClhSNwFfT0" frameborder="0" allowfullscreen></iframe>
+
+<p>The basic setup was an update of ideas from previous years and consisted of the following.</p>
+
+<h2 id="3d-printed-mummy-in-coffin-doorbell:308bcb7036a2d3eb810a4711be2b8022">3D-printed Mummy in Coffin Doorbell</h2>
+
+<p>This was my favourite aspect of the whole thing. I spotted a <a href="http://www.thingiverse.com/thing:32905">cool 3D design on Thingiverse</a> and realised I could turn it into a doorbell by dremeling a hole in the back and hot-glueing the mummy to a simple push button.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/mummy01b.jpg" alt="Mummy Doorbell 1" /></p>
+
+<p>In fact the button was one I originally bought in 2012 when I got back into electronics. There was a small bug in my debounce code which I discovered too late and meant that kids had to press the button twice. But overall only a few failed to figure it out.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/mummy02b.jpg" alt="Mummy Doorbell 2" /></p>
+
+<h2 id="adafruit-audio-breakout-board-and-amp-with-speakers:308bcb7036a2d3eb810a4711be2b8022">Adafruit Audio breakout board and amp with speakers</h2>
+
+<p>I had intended everything to be Arduino and ESP8266 (running Arduino code) only so I needed some way of playing the scream. In previous years <a href="http://conoroneill.net/the-raspberrypi-doorbell-of-dooooooooommmmmmmm/">I used a Raspberry Pi</a> (successfully) and <a href="http://conoroneill.net/a-tech-halloween-mainly-made-of-fail/">a really crappy device</a> (less successfully).</p>
+
+<p>In a bizarre twist to the <a href="https://www.indiegogo.com/projects/be-maker-kit-plus-free-lessons-on-electronics-from-zero-to-internet-of-things">BE Maker Kit Indiegogo scam</a>, one of the people involved somehow got a Florida company to provide free electronics to the right amount. I used this to buy the <a href="http://www.adafruit.com/products/1381">Adafruit VS1053 Audio board</a> and <a href="https://www.adafruit.com/products/987">Adafruit MAX98306 Audio Amp</a>. The wiring on this looks complicated but it&rsquo;s straight out of their tutorial.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/vs1053.jpg" alt="Scary Sounds" /></p>
+
+<p>Audio was courtesy of <a href="https://rg3.github.io/youtube-dl/">youtube-dl</a> and <a href="http://winff.org/html_new/">WinFF</a> on <a href="https://www.youtube.com/watch?v=BFqHyCoypfM">this clip from YouTube</a>.</p>
+
+<p>The Arduino Nano for this was the &ldquo;Master&rdquo; device. It detected the doorbell press and then started playing the file on the SD card and sent a high signal both to the Banana Pi for the LED strip and the Arduino Uno for the relays controlling the skull. It&rsquo;s basically the Adafruit demo VS1053 code with a few extra lines added by me. The code for that <a href="https://gist.github.com/conoro/58a028f7399b4e50619e">is here on Gist</a>.</p>
+
+<h2 id="wifi-controlled-rgb-led-strip-using-a-banana-pi:308bcb7036a2d3eb810a4711be2b8022">Wifi Controlled RGB LED Strip using a Banana Pi</h2>
+
+<p>I finally ordered a bog-standard <a href="http://eud.dx.com/product/waterproof-72w-4300lm-300-5050-smd-led-rgb-light-flexible-strip-w-44-key-controller-844233947">5 metre 5050 RGB LED strip from dx.com</a> over the summer. The value on these things is just staggering at less than €20.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/sku_233947_1.jpg" alt="RGB LED" /></p>
+
+<p>They come with a dedicated remote control and just need a decent PSU to provide the power. Myself and the kids had great fun illuminating my entire home office in a range of colours.</p>
+
+<p>But the challenge for Halloween was how to control it. I could have run <a href="http://www.lirc.org/html/irrecord.html">irrecord</a> on an <a href="http://www.hardkernel.com/main/products/prdt_info.php?g_code=G141578608433">ODROID C1</a> or <a href="http://www.bananapi.org/p/product.html">Banana Pi</a> to reverse engineer the remote control protocol and then use <a href="http://eud.dx.com/product/38khz-ir-infrared-transmitter-module-for-arduino-844135040">the RC transmitter</a> I bought on DX. But luckily someone <a href="http://hackaday.com/2015/08/25/esp8266-in-commercial-products/">told Hackaday about the first ESP8266-powered commercial product</a> they had found. It was a <a href="http://es.aliexpress.com/item/rgb-strip-WiFi-controller-1-port-control-15-rgb-lights-communicate-with-Android-phone-to-dim/32301423622.html">€9 Wifi H801 control module</a> for RGB LED strips! I just had to get one.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/Rgbww-tira-llevada-regulador-wifi-1-port-control-200-luces-comunicar-con-tel%C3%A9fono-Android-a-trav%C3%A9s.jpg_350x350.jpg" alt="Wifi RGB LED" /></p>
+
+<p>It&rsquo;s a brilliant little box that is easy to wire up and has a simple Android App for control. You connect to the internal Wifi Access Point it provides to do this. Here is the brilliant piece: You then use the app to tell the module to connect to your own Wifi router and then you do the same with the phone. Now your RGB LED strip is on your network!</p>
+
+<p>But it gets better. A very smart person <a href="https://www.domoticz.com/forum/viewtopic.php?f=38&amp;t=7957">reverse-engineered the basic over-the-air protocol</a> that the app uses to control the Wifi module. Unfortunately he was using a slightly different module to me and it didn&rsquo;t work. I then spent a week of evenings learning all about <a href="https://www.wireshark.org/">Wireshark</a> and <a href="https://en.wikipedia.org/wiki/Netcat">Netcat</a>. I was able to do the same as him and find the basic UDP control protocol (only minor difference in the packets)</p>
+
+<p>In summary:</p>
+
+<ul>
+<li>OFF: \xfb\xeb\x00\x00\x00\x00\x00\x9f\x97\x9d\x00</li>
+<li>RED: \xfb\xeb\xff\x00\x00\x00\x00\x9f\x97\x9d\x00</li>
+<li>GREEN: \xfb\xeb\x00\xff\x00\x00\x00\x9f\x97\x9d\x00</li>
+<li>BLUE: \xfb\xeb\x00\x00\xff\x00\x00\x9f\x97\x9d\x00</li>
+</ul>
+
+<p>My plan was to use a <a href="http://nodemcu.com/index_en.html">NodeMCU ESP8266 module</a> to send the relevant commands, using either NodeMCU LUA or the <a href="https://github.com/esp8266/Arduino">Arduino port to ESP8266</a> but I ran out of time to experiment.</p>
+
+<p>So I had Netcat working happily on the Banana Pi running Fedora but I also needed to be able to use the GPIO pins to tell the BPi when to turn on/off the LED strip. I then made the classic mistake of panicking on Halloween morning and switching to the RaspberryPi so I could use <a href="http://wiringpi.com/">WiringPi</a> for GPIO. Except the Netcat commands hung on the RPi (still no idea why).</p>
+
+<p>Some Googling revealed that WiringPi had been <a href="https://github.com/LeMaker/WiringBP">ported to Raspbian on the BPi</a> so I tried that. Same Netcat problem! So I took a chance and re-inserted the Fedora SD card and downloaded the BPi version of WiringPi. Result! It compiled and ran perfectly.</p>
+
+<p>The I moved on to several hours of trying to write a Bash script to monitor a GPIO pin using WiringPi and control the RGB LED strip with echo/netcat. All I will say about that is I am never ever writing a Bash script again (space-sensitive around brackets/equals for the love of god). This is the final result and, to be fair, it worked seamlessly:</p>
+
+<pre><code class="language-bash">
+#!/bin/bash
+sets=`/usr/local/bin/gpio mode 7 down`
+setit=$sets
+state=&quot;low&quot;
+echo -e '\xfb\xeb\x00\x00\x00\x00\x00\x9f\x97\x9d\x00' | nc -v -u 192.168.0.128 30977
+sleep 1
+while :
+do
+    pins=`/usr/local/bin/gpio read 7`
+    if [ $pins = &quot;1&quot; ]; then
+        if [ $state = &quot;low&quot; ]; then
+            echo -e '\xfb\xeb\xff\x00\x00\x00\x00\x9f\x97\x9d\x00' | nc -v -u 192.168.0.128 30977
+            state=&quot;high&quot;
+            echo high 
+        fi
+    else
+        if [ $state = &quot;high&quot; ]; then
+           echo -e '\xfb\xeb\x00\x00\x00\x00\x00\x9f\x97\x9d\x00' | nc -v -u 192.168.0.128 30977
+           state=&quot;low&quot;
+           echo low
+        fi
+    fi
+done
+
+</code></pre>
+
+<p>But I was so horrified by Bash, I did a quick and dirty re-write <a href="https://gist.github.com/conoro/935e0fa3acc90d066b9a">to Go this morning</a>. It uses the <a href="https://github.com/hugozhu/rpi">Golang bindings to WiringPi</a> and seems to work very well.</p>
+
+<p>So the strip was now sorted. On to the rotating skull.</p>
+
+<h2 id="an-anatomically-correct-skull-with-scary-eyes:308bcb7036a2d3eb810a4711be2b8022">An anatomically correct skull with scary eyes</h2>
+
+<p>The skull idea came from a wonderful <a href="http://www.tested.com/art/makers/530668-how-make-realistic-horror-skull-prop/">tested.com video</a> where special effects artist Frank Ippolito bought a cheap skull on Amazon and then used latex, cotton wool and paint to turn it into a horrific burn-victim thing.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v8w4hufoujg" frameborder="0" allowfullscreen></iframe>
+
+<p>I thought we could do the same and found a skull on Amazon UK. It arrived and looked great apart from the lack of a movable jaw. But it then sat there for months with no progress due to me being artistically challenged.</p>
+
+<p>As an alternative I thought about doing something with eyes so I got some half-eyes from Amazon too They were a smidge small but fit for purpose. I grabbed some of my old tiny micro-servos which I have never found a use for and hot-glued the eyes to them. A bit of messing with the range of movement and I had a vaguely spooky setup.</p>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/EagDgNoEpTc" frameborder="0" allowfullscreen></iframe>
+
+<p>But the fact that you could see the servos and they move pretty slowly meant I was a bit disappointed. I tried to vamp them up a bit more by adding neopixel ring but it was too big so I switched to a single funky Adafruit RGB neopixel on each one. So now I had 6 wires coming out of each eye.</p>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/30LBjo5oG3I" frameborder="0" allowfullscreen></iframe>
+
+<p>Finally on Saturday morning I went to finish this bit and decided it was too much work to get the Arduino code tweaked to do 2x Neopixels and 2x servos and somehow trigger them on/off on a potentially rotating head. At this point I found the silly fake-eye pingpong balls from last year. A quick cut in the back and I hot-glued a Neopixel to each one. I then hot-glued the eyes into the skull and wired the Neopixels to an Arduino Nano.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/skull_top.jpg" alt="Skull Arduino" /></p>
+
+<p>I stuck the Nano and a Lipo battery to the top of the skull and covered it with a cool Buff. Having the eyes on permanently removed a little bit of the element of surprise but I still thought it worked well. The code for the Neopixels was just the <a href="https://github.com/adafruit/Adafruit_NeoPixel/blob/master/examples/strandtest/strandtest.ino">standard Adafruit strand test</a>.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/buff_skull.jpg" alt="Buff Skull" /></p>
+
+<h2 id="making-the-skull-rotate:308bcb7036a2d3eb810a4711be2b8022">Making the skull rotate</h2>
+
+<p>I had always known I would rotate the skull in some fashion but for a while I wasn&rsquo;t sure how. Quite a few weeks ago I came up with the idea to cement a hex driver into the bottom of the skull and sit it on top of a cheap crap €20 electric screwdriver I got ages ago from Woodies.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/screwdriver1.jpg" alt="Screwdriver1" /></p>
+
+<p>As a screwdriver it was rubbish due to slowness and lack of torque. As a skull-rotator it was awesome, spinning the skull around at high speed.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/screwdriver2.jpg" alt="Screwdriver2" /></p>
+
+<p>Of course I left the difficult bits until a week before Halloween when I sat down and tried to figure out how to control it all. The first attempt was with a dirt cheap double relay board I got 3 years ago and never used. But I couldn&rsquo;t figure out how to make it go forwards and reverse. I then tried an old knock-off Adafruit Motor Shield but it couldn&rsquo;t deliver enough juice (even with a 7.2V LiPo) to overcome the motor&rsquo;s inertia. Finally I <a href="http://arduino-info.wikispaces.com/ArduinoPower">found a relay circuit</a> that did forward/reverse and it worked like a charm.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/DC_Motor_2SPDT_Relay-450.jpg" alt="Circuit" /></p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/relay2.jpg" alt="Relay" /></p>
+
+<p>But how was I going to handle starting/stopping the skull so it was facing away (and potentially covered) initially and then rotating at the right time and stopping in the right position? Of course I left that to Halloween itself.</p>
+
+<p>I used polystyrene and duct tape to brace the screwdriver. Then I setup two limit switches. I then applied power. The head spun around and ripped the switches off their mounts. Damn. So another quick executive decision was made. The head would start rotating when the doorbell was pressed and then stop after 10-15 seconds. Which meant some kids would get the full scary effect whilst others would see the flashing eyes before they got to the door.</p>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/_alMNaewNXw" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="tying-it-all-together:308bcb7036a2d3eb810a4711be2b8022">Tying it all together</h2>
+
+<p>This turned out to be pretty easy. I have a ton of decent wire from a dead Christmas tree light string and used that to connect everything up. The doorbell connected to one Arudino which then toggled a pin which the other Arduinos were connected to. After N seconds, it toggled the pin the other way to shut it all down.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/wiring.jpg" alt="Wiring" /></p>
+
+<p>It worked very very well.</p>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/JvAI6WQglpk" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="next-year:308bcb7036a2d3eb810a4711be2b8022">Next year?</h2>
+
+<p>Hmm not sure. I wanted to do something with ghosts flying down zip wires a few years ago but I just didn&rsquo;t have the knowhow. I&rsquo;m feeling a lot more confident about that now.</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">23 Oct 2015, 13:54</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/facebook-is-the-amazon-killer/" class="post-title">Facebook is the Amazon AWS Killer</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>AWS is now an $8Bn business for Amazon. Could anyone have predicted that in 1997 or even 2007? This week I was talking to a few people about who might be able to disrupt AWS. It won&rsquo;t be easy. We immediately discounted the old guys like HP, IBM, Dell etc and even Google seems to be a complete also-ran in IaaS. Microsoft Azure might have potential.</p>
+
+<p>PaaS is separate as it&rsquo;s higher up the stack and makes use of IaaS. I expect Open Source PaaS like <a href="http://www.openshift.com/">OpenShift 3</a> to grow very quickly in the coming years as it makes deployment and management of Apps incredibly easy. Where PaaS might hurt AWS is in abstracting what IaaS you are using, so as long as the feature set is there, you don&rsquo;t care where your Apps are running (apart from Geo lag and data protection laws).</p>
+
+<p>One of the people I talked to thinks that AWS will be slayed by a startup who may not even exist yet. He also felt that smart VPSes like <a href="http://www.digitalocean.com">DigitalOcean</a> might do it. I&rsquo;m a huge fan of DO and gained enormous reliability and speed by switching to it from Google Compute Engine/CloudSQL whilst reducing my bill by 2/3rds. But it still feels like an SME/SMB or individual developer solution.</p>
+
+<p>So I&rsquo;m predicting it&rsquo;ll be Facebook. Why? Think about the following:</p>
+
+<ul>
+<li>They understand building things at massive scale on a global basis</li>
+<li>They build their <a href="http://www.thejournal.ie/facebook-building-data-centre-in-meath-2161944-Jun2015/">own datacenters</a></li>
+<li>They built the <a href="http://www.theguardian.com/technology/2015/sep/25/facebook-datacentre-lulea-sweden-node-pole">most energy efficient computing facility</a> ever</li>
+<li>They created the <a href="http://www.opencompute.org/">Open Compute</a> project</li>
+<li>They have incubated some <a href="https://github.com/facebook">incredible Open Source projects</a> like <a href="http://cassandra.apache.org/">Cassandra</a> and <a href="https://facebook.github.io/react/">React</a></li>
+<li>They use PHP. Forget I mentioned that ;-)</li>
+<li>They understand that <a href="http://ben-evans.com/benedictevans/2015/6/19/presentation-mobile-is-eating-the-world">mobile is eating the world</a> and they own <a href="https://parse.com/">Parse</a></li>
+<li>They understand real-time messaging <a href="https://www.whatsapp.com/">at massive scale</a></li>
+<li>They could do this in their sleep</li>
+</ul>
+
+<p>The big open question is how they do their virtualisation and containerisation. If they have that nailed, then I think they might go for it.</p>
+
+<p>Let&rsquo;s re-visit this post in 5 years.</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">29 Sep 2015, 17:35</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/running-the-latest-chromium-45-on-debian-jessie-on-your-raspberry-pi-2/" class="post-title">Running the latest Chromium 45 on Debian Jessie on your Raspberry Pi 2</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>For some odd reason, Google and others stopped auto-generating armhf binaries of <a href="https://www.chromium.org/Home">Chromium</a> last year. Version 37 was the last one I could find. Luckily the Ubuntu guys have been building it all along and their version 45 installs really easily on the <a href="https://www.raspberrypi.org/blog/raspbian-jessie-is-here/">all-new Debian/Raspbian Jessie</a> on your Raspberry Pi 2.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/09/pi_heart_chrome.png" alt="Pi loves Chromium" /></p>
+
+<p>This was a surprise as this kind of thing usually degenerates into dependency hell.</p>
+
+<p>Here you go (updatred to mention libgcrypt):</p>
+
+<pre><code class="language-bash">wget http://ftp.us.debian.org/debian/pool/main/libg/libgcrypt11/libgcrypt11_1.5.0-5+deb7u3_armhf.deb
+wget http://launchpadlibrarian.net/218525709/chromium-browser_45.0.2454.85-0ubuntu0.14.04.1.1097_armhf.deb
+wget http://launchpadlibrarian.net/218525711/chromium-codecs-ffmpeg-extra_45.0.2454.85-0ubuntu0.14.04.1.1097_armhf.deb
+sudo dpkg -i libgcrypt11_1.5.0-5+deb7u3_armhf.deb
+sudo dpkg -i chromium-codecs-ffmpeg-extra_45.0.2454.85-0ubuntu0.14.04.1.1097_armhf.deb
+sudo dpkg -i chromium-browser_45.0.2454.85-0ubuntu0.14.04.1.1097_armhf.deb
+</code></pre>
+
+<p>It even appears correctly in your desktop menus!</p>
+
+<p>Note: Some users reporting issues in comments that I&rsquo;m not seeing.</p>
+
+<p>Apart from security fixes and the latest Chromium features, you also get full access to most of the Apps and Extensions in the Chrome Web Store. This includes the <a href="http://www.espruino.com/Order#distributors">Espruino</a> Chrome <a href="https://chrome.google.com/webstore/detail/espruino-web-ide/bleoifhkdalbjfbobjackfdifdneehpo">App</a>, which means you or your kids now have everything you need to develop and deploy Embedded and IoT projects for under €100. Honestly, that&rsquo;s revolutionary.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/09/pi_plus_espruino_small.jpg" alt="Pi loves Espruino" /></p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">20 Sep 2015, 13:03</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/tingodb-and-sqlite-instead-of-mongodb-and-mysql-for-tiny-projects-or-raspberry-pi/" class="post-title">TingoDB and SQLite instead of MongoDB and MySQL for tiny projects or Raspberry Pi</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        
+
+<p>As an old Embedded guy who actually cares about resource usage, I&rsquo;ve been bothered for quite a while by the number of trivial Node.js projects out there that require a full-blown MongoDB or MySQL server to operate. It&rsquo;s a particular problem on the Raspberry Pi or small <a href="https://www.digitalocean.com/">DigitalOcean</a> Droplets. In many cases a simple SQLite DB or TingoDB is more than sufficient.</p>
+
+<p>If your Web App has 2 registered users and 100 visitors per day, may just maybe you don&rsquo;t need MongoDB or MySQL. I have a set of small Node.js projects now where I use the following combinations and they all work well. Anything you are doing in-house on a Raspberry Pi should absolutely use one of these. In fact I&rsquo;m not even sure recent Mongos run on the RPi 1?</p>
+
+<h2 id="dulcimer-levelup-and-leveldb:b9c1e366c3521fb5cdf8cf868ebc63d4">Dulcimer, LevelUP and LevelDB</h2>
+
+<p><a href="https://github.com/google/leveldb">LevelDB</a> and <a href="https://github.com/Level/levelup">LevelUP</a> are well known and widely used. I think <a href="https://github.com/fritzy/Dulcimer">Dulcimer</a> probably less so. It&rsquo;s a <a href="http://mongoosejs.com/">Mongoose-ish</a> ORM for LevelDB. I was able to tie it into <a href="http://passportjs.org/">PassportJS</a> without much effort to handle users/sessions/etc. I have two setups using it and both have been running for many months on d&rsquo;internet with zero problems. In one case it&rsquo;s a small stats dashboard running on DigitalOcean with a few registered users who check it maybe once a day. The other one is a registration system for people requesting access to some internal work resources. All submissions go into LevelDB. This is running on <a href="https://www.openshift.com/products/online">OpenShift Online</a>.</p>
+
+<h2 id="tingodb-and-tungus:b9c1e366c3521fb5cdf8cf868ebc63d4">TingoDB and Tungus</h2>
+
+<p>Of the NoSQL file-based databases, this seems to have the lowest profile and I think it deserves a <em>lot</em> of attention. <a href="https://github.com/sergeyksv/tingodb">TingoDB</a> emulates most of the common MongoDB APIs and <a href="https://github.com/sergeyksv/tungus">Tungus</a> emulates most of the Mongoose ones. I was able to take a <a href="https://github.com/sahat/tvshow-tracker">random Node.js project</a> off GitHub which is based on MongoDB/Mongoose/Mongoskin and get it running using TingoDB/Tungus on an RPi with only a tiny bit of fiddling with the <a href="https://github.com/rschmukler/agenda/">Agenda</a> module. This is huge for those wanting to do NoSQL on Raspberry Pi. I&rsquo;ll be playing a lot more with this setup in the coming weeks. You really should too.</p>
+
+<h2 id="sqlite-knex-and-bookshelf:b9c1e366c3521fb5cdf8cf868ebc63d4">SQLite, Knex and Bookshelf</h2>
+
+<p>Whilst the whole hipster dev world thinks NoSQL is the answer to everything, good old relational databases just keep on trucking. I&rsquo;ve used <a href="https://www.sqlite.org/">SQLite</a> many times over the years for simple projects and it has always worked well. I hadn&rsquo;t realised until recently that the main SQL ORMs on Node.js support it out of the box. So again, if you have a project that needs a relational DB and doesn&rsquo;t need huge scale, you should be looking at SQLite. I&rsquo;m currently wrapping up a simple in-house project using SQLite with <a href="http://knexjs.org/">Knex</a> and <a href="http://bookshelfjs.org/">Bookshelf</a> on a Raspberry Pi. The DB hold simple relationships between devices and their status.</p>
+
+<p>The latter two setups above also have the big advantage that you can use them in development or in the early production stages and then you can drop in MongoDB or MySQL at a later stage if needed, without any re-coding.</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">20 Sep 2015, 11:38</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/running-zeromq-with-node-js-on-raspberry-pi/" class="post-title">Running ZeroMQ with Node.js on Raspberry Pi</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p><a href="http://zeromq.org/">ZeroMQ</a> is a lightweight messaging library and looks ideal for lower powered devices like the RPi. Building and running is pretty easy. These are really just notes for myself for future reference.</p>
+
+<p>I don&rsquo;t actually need a messaging system yet but I wanted to play around with one. Running a simple Request / Reply setup with Node.js on both Windows 10 and RPi was interesting. One advantage a message queue gives you over REST is that the receiver can be out of action and still get all transmitted messages when it recovers. You also have things like Pub/Sub etc. I&rsquo;ve been running the code <a href="http://blog.rastating.com/using-zeromq-with-node-js/">from here</a> 100% reliably for two days now on both setups. At some point I&rsquo;ll check max throughput on a Pi.</p>
+
+<p>Installation on Raspberry Pi:</p>
+
+<pre><code class="language-bash">cd
+sudo apt-get install libtool pkg-config build-essential autoconf automake
+mkdir build
+cd build/
+wget https://download.libsodium.org/libsodium/releases/libsodium-1.0.3.tar.gz
+tar -zxvf libsodium-1.0.3.tar.gz
+cd libsodium-1.0.3/
+./configure
+make
+sudo make install
+cd ..
+wget http://download.zeromq.org/zeromq-4.1.3.tar.gz
+tar -zxvf zeromq-4.1.3.tar.gz
+cd zeromq-4.1.3/
+./configure
+make
+sudo make install
+sudo ldconfig
+</code></pre>
+
+<p>Test code for Request / Reply <a href="http://blog.rastating.com/using-zeromq-with-node-js/">from here</a>:</p>
+
+<p>server.js:</p>
+
+<pre><code class="language-javascript">var zmq = require(&quot;zmq&quot;);  
+var socket = zmq.socket(&quot;req&quot;);  
+var counter = 0;
+
+// Just a helper function for logging to the console with a timestamp.
+function logToConsole (message) {  
+    console.log(&quot;[&quot; + new Date().toLocaleTimeString() + &quot;] &quot; + message);
+}
+
+function sendMessage (message) {  
+    logToConsole(&quot;Sending: &quot; + message);
+    socket.send(message);
+}
+
+// Add a callback for the event that is invoked when we receive a message.
+socket.on(&quot;message&quot;, function (message) {  
+    // Convert the message into a string and log to the console.
+    logToConsole(&quot;Response: &quot; + message.toString(&quot;utf8&quot;));
+});
+
+// Begin listening for connections on all IP addresses on port 9998.
+socket.bind(&quot;tcp://*:9998&quot;, function (error) {  
+    if (error) {
+        logToConsole(&quot;Failed to bind socket: &quot; + error.message);
+        process.exit(0);
+    }
+    else {
+        logToConsole(&quot;Server listening on port 9998&quot;);
+
+        // Increment the counter and send the value to the clients every second.
+        setInterval(function () { sendMessage(counter++); }, 1000);
+    }
+});
+</code></pre>
+
+<p>client.js:</p>
+
+<pre><code class="language-javascript">var zmq = require(&quot;zmq&quot;);  
+var socket = zmq.socket(&quot;rep&quot;);
+
+// Just a helper function for logging to the console with a timestamp.
+function logToConsole (message) {  
+    console.log(&quot;[&quot; + new Date().toLocaleTimeString() + &quot;] &quot; + message);
+}
+
+// Add a callback for the event that is invoked when we receive a message.
+socket.on(&quot;message&quot;, function (message) {  
+    // Convert the message into a string and log to the console.
+    logToConsole(&quot;Received message: &quot; + message.toString(&quot;utf8&quot;));
+
+    // Send the message back aa a reply to the server.
+    socket.send(message);
+});
+
+// Connect to the server instance.
+socket.connect('tcp://127.0.0.1:9998');  
+</code></pre>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">23 Aug 2015, 14:42</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/til-you-can-import-3d-models-from-tinkercad-to-minecraft-how-cool-is-that/" class="post-title">TIL you can import 3D models from Tinkercad to Minecraft. How cool is that?</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>We had friends over from the US last weekend and their kids loved my <a href="http://printrbot.com/project/simple-makers/">Printrbot 3D printer</a>. They had learned <a href="https://www.tinkercad.com/">Tinkercad</a> in school so that&rsquo;s what they used to create things so they could print them out. They are now hounding their parents for a printer. Oops :-) But I noticed a &ldquo;Download to Minecraft&rdquo; option in Tinkercad and finally just had a chance to try it out. Wow!</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/08/tinker02b.jpg" alt="In Tinkercad" /></p>
+
+<p><a href="http://blog.tinkercad.com/2013/08/15/tinkercraft/">It&rsquo;s incredibly easy</a>. Take any model from Tinkercad and pick the Minecraft option. You may have to tweak the sizing when you are doing it seriously. Then install the <a href="http://www.mcedit.net/downloads.html">MCEdit Minecraft editor</a> and import the file into one of your worlds. Then load up Minecraft and thar she blows.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/08/tinker01b.jpg" alt="In Minecraft" /></p>
+
+<p>I totally love the intersection of 3D design, 3D printing and Minecraft - the real and the virtual coming together. The younger kids are gonna be psyched when I show em!</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">22 Jul 2015, 08:14</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/creating-an-otp-fob-compatible-with-google-authenticator-using-an-espruino-pico/" class="post-title">Creating an OTP fob compatible with Google Authenticator using an Espruino Pico</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>Now that the <a href="http://www.espruino.com/">Espruino Pico</a> has (beta) HID support, it can pretend to be a keyboard or mouse (or other HID compatible device). This makes it possible to send characters to the active window on your Windows/Linux/Mac PC. I&rsquo;ve cobbled together some code which turns the Pico into a device like a YubiKey. Press the button and get the latest auth code pasted automatically for you.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/espruino_otp.jpg" alt="Espruino Pico OTP" /></p>
+
+<p>This code is basically just from three sources, merged together with a few tiny tweaks by me.</p>
+
+<ul>
+<li><a href="https://github.com/Caligatio/jsSHA">jsSHA, a JavaScript implementation of SHA/HMAC</a></li>
+<li><a href="https://blog.nraboy.com/2014/10/generate-time-based-one-time-passwords-javascript/">Generate Time-Based One-Time Passwords With JavaScript</a></li>
+<li><a href="http://www.espruino.com/USB">Espruino HID Example</a></li>
+</ul>
+
+<p>(Note I&rsquo;ve just discovered that Espruino has its own hmac implementation so I can possibly drop jsSHA)</p>
+
+<p>The main thing you need for this is your Google Authenticator Secret. Unfortunately you can only get this when you have access to the original QR code that you scanned (it&rsquo;s in the URL). But if you are setting up 2FA access to a new service e.g. Digital Ocean, then you can grab the secret and save it in the code. If your system also uses a PIN (e.g. SSO on some corporate sites), save that in the code too.</p>
+
+<p>You&rsquo;ll need a very recent pre-release Firmware for this to work at all e.g. <a href="http://www.espruino.com/binaries/git/commits/d3b43aab7efcc42e6f1584c340bd855b1e5af4c6/">from here</a></p>
+
+<p>Once that&rsquo;s flashed, go into Settings on the Web IDE and make sure &ldquo;Set Current Time&rdquo; is ticked in the Communications section. Auth Fobs rely on having an accurate time and that setting keeps unsetting itself on my PC.</p>
+
+<p>Now copy the code below onto the Espruino using the Web IDE and then type save() to make sure it can survive a power-cycle. Remove and re-insert the Pico, press the button and you should get the auth code you need.</p>
+
+<p>Now for the bad news: This currently doesn&rsquo;t work on my Windows 8.1 PC but works semi-reliably on my work MBP. Once the HID code makes it to production, I&rsquo;m sure it will work fine.</p>
+
+<pre><code class="language-javascript">// Code assembled by Conor O'Neill from three sources. None of it copyright me.
+// This code copyright Brian Turek https://github.com/Caligatio/jsSHA https://github.com/Caligatio/jsSHA/blob/master/LICENSE
+'use strict';(function(E){function t(c,a,e){var g=0,b=[],d=0,f,k,l,h,m,w,n,q=!1,r=!1,p=[],t=[],v,u=!1;e=e||{};f=e.encoding||&quot;UTF8&quot;;v=e.numRounds||1;l=y(a,f);if(v!==parseInt(v,10)||1&gt;v)throw Error(&quot;numRounds must a integer &gt;= 1&quot;);if(&quot;SHA-1&quot;===c)m=512,w=z,n=F,h=160;else throw Error(&quot;Chosen SHA variant is not supported&quot;);k=x(c);this.setHMACKey=function(a,b,d){var e;if(!0===r)throw Error(&quot;HMAC key already set&quot;);if(!0===q)throw Error(&quot;Cannot set HMAC key after finalizing hash&quot;);if(!0===u)throw Error(&quot;Cannot set HMAC key after calling update&quot;);
+f=(d||{}).encoding||&quot;UTF8&quot;;b=y(b,f)(a);a=b.binLen;b=b.value;e=m&gt;&gt;&gt;3;d=e/4-1;if(e&lt;a/8){for(b=n(b,a,0,x(c));b.length&lt;=d;)b.push(0);b[d]&amp;=4294967040}else if(e&gt;a/8){for(;b.length&lt;=d;)b.push(0);b[d]&amp;=4294967040}for(a=0;a&lt;=d;a+=1)p[a]=b[a]^909522486,t[a]=b[a]^1549556828;k=w(p,k);g=m;r=!0};this.update=function(a){var c,e,f,h=0,n=m&gt;&gt;&gt;5;c=l(a,b,d);a=c.binLen;e=c.value;c=a&gt;&gt;&gt;5;for(f=0;f&lt;c;f+=n)h+m&lt;=a&amp;&amp;(k=w(e.slice(f,f+n),k),h+=m);g+=h;b=e.slice(h&gt;&gt;&gt;5);d=a%m;u=!0};this.getHash=function(a,e){var f,l,m;if(!0===
+r)throw Error(&quot;Cannot call getHash after setting HMAC key&quot;);m=A(e);switch(a){case &quot;HEX&quot;:f=function(a){return B(a,m)};break;case &quot;B64&quot;:f=function(a){return C(a,m)};break;case &quot;BYTES&quot;:f=D;break;default:throw Error(&quot;format must be HEX, B64, or BYTES&quot;);}if(!1===q)for(k=n(b,d,g,k),l=1;l&lt;v;l+=1)k=n(k,h,0,x(c));q=!0;return f(k)};this.getHMAC=function(a,e){var f,l,p;if(!1===r)throw Error(&quot;Cannot call getHMAC without first setting HMAC key&quot;);p=A(e);switch(a){case &quot;HEX&quot;:f=function(a){return B(a,p)};break;case &quot;B64&quot;:f=
+function(a){return C(a,p)};break;case &quot;BYTES&quot;:f=D;break;default:throw Error(&quot;outputFormat must be HEX, B64, or BYTES&quot;);}!1===q&amp;&amp;(l=n(b,d,g,k),k=w(t,x(c)),k=n(l,h,m,k));q=!0;return f(k)}}function G(c,a,e){var g=c.length,b,d,f,k,l;a=a||[0];e=e||0;l=e&gt;&gt;&gt;3;if(0!==g%2)throw Error(&quot;String of HEX type must be in byte increments&quot;);for(b=0;b&lt;g;b+=2){d=parseInt(c.substr(b,2),16);if(isNaN(d))throw Error(&quot;String of HEX type contains invalid characters&quot;);k=(b&gt;&gt;&gt;1)+l;for(f=k&gt;&gt;&gt;2;a.length&lt;=f;)a.push(0);a[f]|=d&lt;&lt;
+8*(3-k%4)}return{value:a,binLen:4*g+e}}function H(c,a,e){var g=[],b,d,f,k,g=a||[0];e=e||0;d=e&gt;&gt;&gt;3;for(b=0;b&lt;c.length;b+=1)a=c.charCodeAt(b),k=b+d,f=k&gt;&gt;&gt;2,g.length&lt;=f&amp;&amp;g.push(0),g[f]|=a&lt;&lt;8*(3-k%4);return{value:g,binLen:8*c.length+e}}function I(c,a,e){var g=[],b=0,d,f,k,l,h,m,g=a||[0];e=e||0;a=e&gt;&gt;&gt;3;if(-1===c.search(/^[a-zA-Z0-9=+\/]+$/))throw Error(&quot;Invalid character in base-64 string&quot;);f=c.indexOf(&quot;=&quot;);c=c.replace(/\=/g,&quot;&quot;);if(-1!==f&amp;&amp;f&lt;c.length)throw Error(&quot;Invalid '=' found in base-64 string&quot;);
+for(f=0;f&lt;c.length;f+=4){h=c.substr(f,4);for(k=l=0;k&lt;h.length;k+=1)d=&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/&quot;.indexOf(h[k]),l|=d&lt;&lt;18-6*k;for(k=0;k&lt;h.length-1;k+=1){m=b+a;for(d=m&gt;&gt;&gt;2;g.length&lt;=d;)g.push(0);g[d]|=(l&gt;&gt;&gt;16-8*k&amp;255)&lt;&lt;8*(3-m%4);b+=1}}return{value:g,binLen:8*b+e}}function B(c,a){var e=&quot;&quot;,g=4*c.length,b,d;for(b=0;b&lt;g;b+=1)d=c[b&gt;&gt;&gt;2]&gt;&gt;&gt;8*(3-b%4),e+=&quot;0123456789abcdef&quot;.charAt(d&gt;&gt;&gt;4&amp;15)+&quot;0123456789abcdef&quot;.charAt(d&amp;15);return a.outputUpper?e.toUpperCase():e}function C(c,
+a){var e=&quot;&quot;,g=4*c.length,b,d,f;for(b=0;b&lt;g;b+=3)for(f=b+1&gt;&gt;&gt;2,d=c.length&lt;=f?0:c[f],f=b+2&gt;&gt;&gt;2,f=c.length&lt;=f?0:c[f],f=(c[b&gt;&gt;&gt;2]&gt;&gt;&gt;8*(3-b%4)&amp;255)&lt;&lt;16|(d&gt;&gt;&gt;8*(3-(b+1)%4)&amp;255)&lt;&lt;8|f&gt;&gt;&gt;8*(3-(b+2)%4)&amp;255,d=0;4&gt;d;d+=1)8*b+6*d&lt;=32*c.length?e+=&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/&quot;.charAt(f&gt;&gt;&gt;6*(3-d)&amp;63):e+=a.b64Pad;return e}function D(c){var a=&quot;&quot;,e=4*c.length,g,b;for(g=0;g&lt;e;g+=1)b=c[g&gt;&gt;&gt;2]&gt;&gt;&gt;8*(3-g%4)&amp;255,a+=String.fromCharCode(b);return a}function A(c){var a={outputUpper:!1,b64Pad:&quot;=&quot;};
+c=c||{};a.outputUpper=c.outputUpper||!1;a.b64Pad=c.b64Pad||&quot;=&quot;;if(&quot;boolean&quot;!==typeof a.outputUpper)throw Error(&quot;Invalid outputUpper formatting option&quot;);if(&quot;string&quot;!==typeof a.b64Pad)throw Error(&quot;Invalid b64Pad formatting option&quot;);return a}function y(c,a){var e;switch(a){case &quot;UTF8&quot;:case &quot;UTF16BE&quot;:case &quot;UTF16LE&quot;:break;default:throw Error(&quot;encoding must be UTF8, UTF16BE, or UTF16LE&quot;);}switch(c){case &quot;HEX&quot;:e=G;break;case &quot;TEXT&quot;:e=function(e,b,d){var f=[],c=[],l=0,h,m,p,n,q,f=b||[0];b=d||0;p=b&gt;&gt;&gt;3;if(&quot;UTF8&quot;===
+a)for(h=0;h&lt;e.length;h+=1)for(d=e.charCodeAt(h),c=[],128&gt;d?c.push(d):2048&gt;d?(c.push(192|d&gt;&gt;&gt;6),c.push(128|d&amp;63)):55296&gt;d||57344&lt;=d?c.push(224|d&gt;&gt;&gt;12,128|d&gt;&gt;&gt;6&amp;63,128|d&amp;63):(h+=1,d=65536+((d&amp;1023)&lt;&lt;10|e.charCodeAt(h)&amp;1023),c.push(240|d&gt;&gt;&gt;18,128|d&gt;&gt;&gt;12&amp;63,128|d&gt;&gt;&gt;6&amp;63,128|d&amp;63)),m=0;m&lt;c.length;m+=1){q=l+p;for(n=q&gt;&gt;&gt;2;f.length&lt;=n;)f.push(0);f[n]|=c[m]&lt;&lt;8*(3-q%4);l+=1}else if(&quot;UTF16BE&quot;===a||&quot;UTF16LE&quot;===a)for(h=0;h&lt;e.length;h+=1){d=e.charCodeAt(h);&quot;UTF16LE&quot;===a&amp;&amp;(m=d&amp;255,d=m&lt;&lt;8|d&gt;&gt;&gt;8);q=l+p;for(n=q&gt;&gt;&gt;
+2;f.length&lt;=n;)f.push(0);f[n]|=d&lt;&lt;8*(2-q%4);l+=2}return{value:f,binLen:8*l+b}};break;case &quot;B64&quot;:e=I;break;case &quot;BYTES&quot;:e=H;break;default:throw Error(&quot;format must be HEX, TEXT, B64, or BYTES&quot;);}return e}function r(c,a){return c&lt;&lt;a|c&gt;&gt;&gt;32-a}function p(c,a){var e=(c&amp;65535)+(a&amp;65535);return((c&gt;&gt;&gt;16)+(a&gt;&gt;&gt;16)+(e&gt;&gt;&gt;16)&amp;65535)&lt;&lt;16|e&amp;65535}function u(c,a,e,g,b){var d=(c&amp;65535)+(a&amp;65535)+(e&amp;65535)+(g&amp;65535)+(b&amp;65535);return((c&gt;&gt;&gt;16)+(a&gt;&gt;&gt;16)+(e&gt;&gt;&gt;16)+(g&gt;&gt;&gt;16)+(b&gt;&gt;&gt;16)+(d&gt;&gt;&gt;16)&amp;65535)&lt;&lt;16|d&amp;65535}function x(c){if(&quot;SHA-1&quot;===
+c)c=[1732584193,4023233417,2562383102,271733878,3285377520];else throw Error(&quot;No SHA variants supported&quot;);return c}function z(c,a){var e=[],g,b,d,f,k,l,h;g=a[0];b=a[1];d=a[2];f=a[3];k=a[4];for(h=0;80&gt;h;h+=1)e[h]=16&gt;h?c[h]:r(e[h-3]^e[h-8]^e[h-14]^e[h-16],1),l=20&gt;h?u(r(g,5),b&amp;d^~b&amp;f,k,1518500249,e[h]):40&gt;h?u(r(g,5),b^d^f,k,1859775393,e[h]):60&gt;h?u(r(g,5),b&amp;d^b&amp;f^d&amp;f,k,2400959708,e[h]):u(r(g,5),b^d^f,k,3395469782,e[h]),k=f,f=d,d=r(b,30),b=g,g=l;a[0]=p(g,a[0]);a[1]=p(b,a[1]);a[2]=p(d,a[2]);a[3]=p(f,a[3]);
+a[4]=p(k,a[4]);return a}function F(c,a,e,g){var b;for(b=(a+65&gt;&gt;&gt;9&lt;&lt;4)+15;c.length&lt;=b;)c.push(0);c[a&gt;&gt;&gt;5]|=128&lt;&lt;24-a%32;c[b]=a+e;e=c.length;for(a=0;a&lt;e;a+=16)g=z(c.slice(a,a+16),g);return g}&quot;function&quot;===typeof define&amp;&amp;define.amd?define(function(){return t}):&quot;undefined&quot;!==typeof exports?&quot;undefined&quot;!==typeof module&amp;&amp;module.exports?module.exports=exports=t:exports=t:E.jsSHA=t})(this);
+
+// This code copyright Nic Raboy https://blog.nraboy.com/2014/10/generate-time-based-one-time-passwords-javascript/
+TOTP = function() {
+
+    var dec2hex = function(s) {
+        return (s &lt; 15.5 ? &quot;0&quot; : &quot;&quot;) + Math.round(s).toString(16);
+    };
+
+    var hex2dec = function(s) {
+        return parseInt(s, 16);
+    };
+
+    var leftpad = function(s, l, p) {
+        if(l + 1 &gt;= s.length) {
+            s = Array(l + 1 - s.length).join(p) + s;
+        }
+        return s;
+    };
+
+    var base32tohex = function(base32) {
+        var base32chars = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ234567&quot;;
+        var bits = &quot;&quot;;
+        var hex = &quot;&quot;;
+        for(var i = 0; i &lt; base32.length; i++) {
+            var val = base32chars.indexOf(base32.charAt(i).toUpperCase());
+            bits += leftpad(val.toString(2), 5, '0');
+        }
+        for(var i = 0; i + 4 &lt;= bits.length; i+=4) {
+            var chunk = bits.substr(i, 4);
+            hex = hex + parseInt(chunk, 2).toString(16) ;
+        }
+        return hex;
+    };
+
+    this.getOTP = function(secret) {
+        try {
+            var epoch = Math.round(new Date().getTime() / 1000.0);
+            var time = leftpad(dec2hex(Math.floor(epoch / 30)), 16, &quot;0&quot;);
+            var hmacObj = new jsSHA(&quot;SHA-1&quot;, &quot;HEX&quot;);
+            hmacObj.setHMACKey(base32tohex(secret), &quot;HEX&quot;)
+            hmacObj.update(time);
+            var hmac = hmacObj.getHMAC(&quot;HEX&quot;);
+            var offset = hex2dec(hmac.substring(hmac.length - 1));
+            var otp = (hex2dec(hmac.substr(offset * 2, 8)) &amp; hex2dec(&quot;7fffffff&quot;)) + &quot;&quot;;
+            otp = (otp).substr(otp.length - 6, 6);
+        } catch (error) {
+            throw error;
+        }
+        return otp;
+    };
+
+}
+
+var totpObj = new TOTP();
+
+// This code copyright Gordon Williams, Pur3 Ltd.,  https://github.com/espruino/Espruino/blob/master/LICENSE
+var kb = require(&quot;USBKeyboard&quot;);
+
+setWatch(function() {
+  // These two lines by Conor O'Neill :-)
+    var pin = &quot;put_your_PIN_Prefix_here&quot;;
+  kb.type(pin + totpObj.getOTP(&quot;put_your_google_authenticator_secret_here&quot;).toString(), function() {
+        kb.tap(kb.KEY.ENTER);
+    });
+}, BTN, {debounce:100,repeat:true, edge:&quot;rising&quot;});
+
+</code></pre>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">11 Jul 2015, 19:56</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/node-v01040-and-v0127-for-arm-v7-raspberry-pi-2-banana-pi-odroid-c1-available/" class="post-title">Node v0.10.40 and v0.12.7 for ARM v7 and v6 (Raspberry Pi, Raspberry Pi 2, Banana Pi, ODroid C1) available</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>I compiled both on a Banana Pi for a change. Nothing special for the 0.12 build, and ./configure &ndash;without-snapshot for the 0.10 build.</p>
+
+<p>&ldquo;make test&rdquo; threw up the usual 7 minor errors or so.</p>
+
+<p>I ran both Banana Pi and Raspberry Pi 2 without any immediate obvious issues.</p>
+
+<p>Enjoy.</p>
+
+<ul>
+<li><a href="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v7.tar.gz">node-v0.10.40-linux-arm-v7.tar.gz</a></li>
+
+<li><p><a href="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/node-v0.12.7-linux-arm-v7.tar.gz">node-v0.12.7-linux-arm-v7.tar.gz</a></p></li>
+
+<li><p><a href="http://blog.nodejs.org/2015/07/09/node-v0-10-40-maintenance/">node v0.10.40 release notes</a></p></li>
+
+<li><p><a href="http://blog.nodejs.org/2015/07/10/node-v0-12-7-stable/">node-v0.12.7 release notes</a></p></li>
+</ul>
+
+<pre><code class="language-bash">mkdir nodetemp
+cd nodetemp
+wget http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v7.tar.gz
+tar -zxvf node-v0.10.40-linux-arm-v7.tar.gz
+cd usr/local
+sudo cp -R * /usr/local/
+</code></pre>
+
+<p>UPDATE: I also built 0.10.40 for Raspberry Pi 1 (i.e. Original Model) ARM V6 on a Series 1 Model B:
+* <a href="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v6.tar.gz">node-v0.10.40-linux-arm-v6.tar.gz</a></p>
+
+<p>UPDATE 2: I also built 0.12.7 for Raspberry Pi 1 (i.e. Original Model) ARM V6 on a Series 1 Model B:
+* <a href="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/09/node-v0.12.7-linux-arm-v6.tar.gz">node-v0.12.7-linux-arm-v6.tar.gz</a></p>
+
+                    </div>
+                </section>
+                
+            </div>
+            
+<div class="pagination">
+  <nav role="pagination" class="post-list-pagination">
+      
+    <span class="post-list-pagination-item post-list-pagination-item-current">Page 1 of 73</span>
+    
+      <a href="/page/2/" class="post-list-pagination-item pure-button post-list-pagination-item-next">
+        Older&nbsp;<i class="fa fa-angle-double-right"></i>
+      </a>
+    
+  </nav>
+</div>
+
+
+            <div class="footer">
+    <div class="pure-menu pure-menu-horizontal pure-menu-open">
+        <ul>
+            <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a>. Copyright Conor O'Neill 2010</li>
+        </ul>
+    </div>
+</div>
+<script src="http://conoroneill.net/js/all.min.js"></script>
+        </div>
+    </div>
+</div>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-88610-4', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

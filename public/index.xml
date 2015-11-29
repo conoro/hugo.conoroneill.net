@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cross Dominant</title>
+    <link>http://conoroneill.net/</link>
+    <description>Recent content on Cross Dominant</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Nov 2015 17:38:29 +0000</lastBuildDate>
+    <atom:link href="http://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blogging from my phone with DroidEdit, Hugo, GitHub and Travis</title>
+      <link>http://conoroneill.net/blogging-from-my-phone-with-droidedit-hugo-github-travis/</link>
+      <pubDate>Wed, 18 Nov 2015 17:38:29 +0000</pubDate>
+      
+      <guid>http://conoroneill.net/blogging-from-my-phone-with-droidedit-hugo-github-travis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First impressions of @OnionIoT Omega. Also running #golang 1.1.2 and #nodejs 0.10.5 on MIPS</title>
+      <link>http://conoroneill.net/onion-omega-first-impressions-running-golang-nodejs/</link>
+      <pubDate>Mon, 16 Nov 2015 22:35:48 +0000</pubDate>
+      
+      <guid>http://conoroneill.net/onion-omega-first-impressions-running-golang-nodejs/</guid>
+      <description>
+
+&lt;p&gt;I did a splurge of backing IoT KickStarters a few months ago and the &lt;a href=&#34;https://onion.io/omega/&#34;&gt;Onion Omega&lt;/a&gt; is the first one to land in my postbox. It&amp;rsquo;s a tiny (barely bigger than an SD card) board running the same basic guts as many OpenWRT routers i.e. 400 MHz Atheros MIPS CPU with 64MB of DRAM and 16MB of Flash.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/omega_sd.jpg&#34; alt=&#34;Onion Omega&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re not familiar with &lt;a href=&#34;https://openwrt.org/&#34;&gt;OpenWRT&lt;/a&gt;, it&amp;rsquo;s an Open Source community replacement firmware for many routers (similar to DD-WRT that I&amp;rsquo;ve used many times) and is Linux under the hood. You generally do your own custom Firmware builds which bundle exactly what you want but you can also install packages via the opkg tool.&lt;/p&gt;
+
+&lt;p&gt;Obviously 400MHz with tiny RAM cannot compete with an RPi but it is far more powerful than most MCUs and runs Linux. The question is whether this middle ground addresses a big enough market, particularly when the price point is almost the same as an RPi Model A and you need to buy add-on cards to work easily with it. I&amp;rsquo;m not sure yet.&lt;/p&gt;
+
+&lt;p&gt;The Onion team are currently building a Web UI and an IoT &amp;ldquo;Cloud&amp;rdquo; as value-adds and of course everything is OpenSource.&lt;/p&gt;
+
+&lt;p&gt;The fact that it just launched means that the software story isn&amp;rsquo;t great right now. The KickStarter mentions things like Node but that isn&amp;rsquo;t available in a supported way. Also the effort around accessing GPIOs etc is focused on Python. And add-on boards like the OLED screen I bought have no support yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/omega_kit.jpg&#34; alt=&#34;Onion Omega Kit&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;summary-opinion:6373a9f13467451d12a87cf58bb7873b&#34;&gt;Summary Opinion&lt;/h2&gt;
+
+&lt;p&gt;Overall it&amp;rsquo;s a nice board but the lack of &amp;ldquo;buzz&amp;rdquo; around it has me a little worried. The number one thing that projects like this need is community. I think the CHiP might steal a lot of its thunder with more welly at a much lower pricepoint. But perhaps a focus on realtime embedded applications will help here.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d like to see a library like WiringPi built for it that can easily have wrappers for others languages implemented.&lt;/p&gt;
+
+&lt;p&gt;I think it&amp;rsquo;ll be ideal as a home API server that I can put anywhere and forget about.&lt;/p&gt;
+
+&lt;p&gt;Another area it could shine, due to its tiny size and low power consumption is robotics. See my comment below about &lt;a href=&#34;http://gobot.io/&#34;&gt;Gobot&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;node-js-partial-success:6373a9f13467451d12a87cf58bb7873b&#34;&gt;Node.js partial success&lt;/h2&gt;
+
+&lt;p&gt;After an initial play around with it, I decided to try out Node and Go. Node was &lt;a href=&#34;https://community.onion.io/topic/46/simple-node-js-wrapper-samples&#34;&gt;built by a community member&lt;/a&gt; but is back on version 0.10.5.&lt;/p&gt;
+
+&lt;p&gt;I copied the Node executable and libv8 to a USB stick and plugged that into the Onion standard &amp;ldquo;dock&amp;rdquo;. I mounted it and ran hello world successfully. Hurrah!&lt;/p&gt;
+
+&lt;p&gt;But then I realised it doesn&amp;rsquo;t have NPM. So I put together a simple Tweeting App, did the NPM install on my Fedora VM and then copied everything to the USB stick.&lt;/p&gt;
+
+&lt;p&gt;The code which ran fine on Fedora crapped out with &amp;ldquo;not authenticated&amp;rdquo; on the Onion. I tried two other Twitter modules with the same result. I wasn&amp;rsquo;t able to see any other error apart from Twitter complaining about authentication.&lt;/p&gt;
+
+&lt;p&gt;So I gave up on Node for the moment.&lt;/p&gt;
+
+&lt;h2 id=&#34;golang-1-1-2-first-failed-attempt:6373a9f13467451d12a87cf58bb7873b&#34;&gt;Golang 1.1.2 first failed attempt&lt;/h2&gt;
+
+&lt;p&gt;On to Go and a giant big rabbit hole.&lt;/p&gt;
+
+&lt;p&gt;So you can&amp;rsquo;t get a recent version of Go for MIPS. However, one smart person &lt;a href=&#34;https://github.com/GeertJohan/openwrt-go&#34;&gt;forked OpenWRT and added Go support&lt;/a&gt; via &lt;a href=&#34;https://gcc.gnu.org/onlinedocs/gccgo/Invoking-gccgo.html&#34;&gt;gccgo&lt;/a&gt;. Yay it&amp;rsquo;s Go, boo it&amp;rsquo;s Go 1.1.2.&lt;/p&gt;
+
+&lt;p&gt;But I thought it&amp;rsquo;d be a good experience to try building OpenWRT from scratch anyway. The &lt;a href=&#34;https://github.com/GeertJohan/openwrt-go/issues/2&#34;&gt;instructions here&lt;/a&gt; and &lt;a href=&#34;http://www.sajalkayan.com/post/golang-openwrt-mips.html&#34;&gt;here&lt;/a&gt; are pretty straightforward and I managed to build the Gnu cross-compile toolchain inside a Fedora 22 VM on Windows 10.&lt;/p&gt;
+
+&lt;p&gt;NOTE: DO NOT DO THE FOLLOWING. IT DIDN&amp;rsquo;T WORK. FOLLOW THE STEPS LATER FOR CLEAN NEW OPENWRT&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone git@github.com:GeertJohan/openwrt-go.git openwrt
+cd openwrt
+./scripts/feeds update -a
+./scripts/feeds install -a
+cp ~/Desktop/scons-2.3.5.tar.gz dl (needed to download this manually as it was missing)
+cp ~/Desktop/openssl-1.0.2c.tar.gz dl (needed to download this manually as it was missing)
+make menuconfig
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In menuconfig you have to enable a few things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;-&amp;gt; Advanced configuration options&lt;/li&gt;
+&lt;li&gt;&amp;ndash;&amp;gt; Toolchain options&lt;/li&gt;
+&lt;li&gt;&amp;mdash;&amp;gt; C library implementation&lt;/li&gt;
+&lt;li&gt;&amp;mdash;-&amp;gt; Use eglibc&lt;/li&gt;
+&lt;li&gt;-&amp;gt; Advanced configuration options&lt;/li&gt;
+&lt;li&gt;&amp;ndash;&amp;gt; Toolchain options&lt;/li&gt;
+&lt;li&gt;&amp;mdash;&amp;gt; Select Build/Install gccgo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then save and exit, followed by:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;make
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Several hours later on my old i7 laptop, I had everything I needed.&lt;/p&gt;
+
+&lt;p&gt;Then a simple helloworld Web Server helloweb.go that only uses standard library features:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package main
+
+import (
+    &amp;quot;fmt&amp;quot;
+    &amp;quot;net/http&amp;quot;
+)
+
+func handler(w http.ResponseWriter, r *http.Request) {
+    fmt.Fprintf(w, &amp;quot;Hi there, I love %s!&amp;quot;, r.URL.Path[1:])
+}
+
+func main() {
+    http.HandleFunc(&amp;quot;/&amp;quot;, handler)
+    http.ListenAndServe(&amp;quot;:8080&amp;quot;, nil)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Create ~/openwrt.config which consists of&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export STAGING_DIR=/home/conor/openwrt/staging_dir 
+export TOOLCHAIN_DIR=$STAGING_DIR/toolchain-mips_34kc_gcc-4.8-linaro_glibc-2.19 
+export LDCFLAGS=$TOOLCHAIN_DIR/usr/lib 
+export LD_LIBRARY_PATH=$TOOLCHAIN_DIR/usr/lib 
+export PATH=$TOOLCHAIN_DIR/bin:$PATH
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then build it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;. ~/openwrt.config
+mips_gccgo -Wall -o helloweb_static_libgo helloweb.go -static-libgo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I copied it over to the Onion but no joy. It just kept saying &amp;ldquo;not found&amp;rdquo;. Distant memories told me this was related to libraries and versions but nothing I tried worked. So I took a break.&lt;/p&gt;
+
+&lt;h2 id=&#34;golang-1-1-2-second-successful-attempt:6373a9f13467451d12a87cf58bb7873b&#34;&gt;Golang 1.1.2 second successful attempt&lt;/h2&gt;
+
+&lt;p&gt;A while later I decided that what I needed to do was build OpenWRT for the Onion but then I hit a blocker. Onion support was added to OpenWRT in July but the latest version of the toolchain that included Go was from May. So I bit the bullet and manually &amp;ldquo;cherry-picked&amp;rdquo; &lt;a href=&#34;https://github.com/GeertJohan/openwrt-go/commits/add-gccgo-and-libgo?author=GeertJohan&#34;&gt;all of the author&amp;rsquo;s changes&lt;/a&gt; from the older toolchain into the latest version of OpenWRT.&lt;/p&gt;
+
+&lt;p&gt;You can get &lt;a href=&#34;https://gist.github.com/conoro/887362ebdbbada2cfbc6&#34;&gt;the patchfile I generated here&lt;/a&gt; and apply it.&lt;/p&gt;
+
+&lt;p&gt;NOTE: THESE STEPS WORK OK.&lt;/p&gt;
+
+&lt;p&gt;Now to build from scratch again:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo dnf install -y subversion binutils bzip2 gcc gcc-c++ gawk gettext flex ncurses-devel zlib-devel zlib-static make patch unzip perl-ExtUtils-MakeMaker glibc glibc-devel glibc-static quilt sed sdcc intltool sharutils bison wget
+
+. ~/openwrt.config   (see the contents of that file in the first failed attempt)
+
+rm -rf ~/openwrt
+git clone git://git.openwrt.org/openwrt.git openwrt
+cd openwrt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;nano feeds.conf.default
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and append the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;src-git onion https://github.com/OnionIoT/OpenWRT-Packages.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;scripts/feeds update -a
+
+make menuconfig
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note you have to include the same menuconfig settings as before i.e.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;-&amp;gt; Advanced configuration options&lt;/li&gt;
+&lt;li&gt;&amp;ndash;&amp;gt; Toolchain options&lt;/li&gt;
+&lt;li&gt;&amp;mdash;&amp;gt; C library implementation&lt;/li&gt;
+&lt;li&gt;&amp;mdash;-&amp;gt; Use eglibc&lt;/li&gt;
+&lt;li&gt;-&amp;gt; Advanced configuration options&lt;/li&gt;
+&lt;li&gt;&amp;ndash;&amp;gt; Toolchain options&lt;/li&gt;
+&lt;li&gt;&amp;mdash;&amp;gt; Select Build/Install gccgo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Plus the following for both the Onion and USB stick. This uses &lt;a href=&#34;https://github.com/OnionIoT/OpenWRT-Packages/wiki/Setting-Up-the-Cross-Compile-Environment&#34;&gt;some instructions from the Onion site&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Target System is Atheros AR7xxx/AR9xxx&lt;/li&gt;
+&lt;li&gt;Subtarget is Generic&lt;/li&gt;
+&lt;li&gt;Target Profile is Onion Omega&lt;/li&gt;
+&lt;li&gt;Target Images is squashfs&lt;/li&gt;
+&lt;li&gt;Add kmod-fs-vfat&lt;/li&gt;
+&lt;li&gt;Add kmod-nls-cp437&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;make
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Several hours later again, I finally had &lt;a href=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin&#34;&gt;a version of the firmware that included Go support&lt;/a&gt; and ran on the Onion by doing the following on the Onion:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd /tmp
+scp conor@192.168.0.9:/mnt/disk2/software/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin .
+sysupgrade openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;hello-world-web-server-in-go-on-the-onion-omega:6373a9f13467451d12a87cf58bb7873b&#34;&gt;Hello World Web Server in Go on the Onion Omega&lt;/h2&gt;
+
+&lt;p&gt;Back to helloworld on the Fedora 22 VM:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;alias mips_gccgo=&#39;mips-openwrt-linux-gccgo -Wl,-R,/home/conor/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_glibc-2.19/lib/gcc/mips-openwrt-linux-gnu/4.8.3 -L /home/conor/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8.0-linaro_glibc-2.19/lib&#39;
+
+mips_gccgo -Wall -o helloweb_static_libgo helloweb.go -static-libgo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy to the Onion and run it with a simple ./helloweb_static_libgo&lt;/p&gt;
+
+&lt;p&gt;Hurrah, Hello World in Go on the Onion!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/go_on_onion_omega_02.jpg&#34; alt=&#34;I love mac and cheese&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tweeting-from-the-onion-omega-in-go:6373a9f13467451d12a87cf58bb7873b&#34;&gt;Tweeting from the Onion Omega in Go&lt;/h2&gt;
+
+&lt;p&gt;I should have left it at that but no, I wanted to Tweet from the Onion. My problems multiplied. Basically, gccgo doesn&amp;rsquo;t have all the bells and whistles of recent Go and can&amp;rsquo;t handle included packages easily. After some reading and playing, I managed to build a Tweeting App that used the &lt;a href=&#34;https://github.com/kurrik/twittergo&#34;&gt;Twittergo package&lt;/a&gt;. Note you need a local Fedora version of &lt;a href=&#34;https://golang.org/dl/&#34;&gt;Go installed and configured&lt;/a&gt; for &amp;ldquo;go get&amp;rdquo; to work (or just git clone). My $GOPATH is /home/conor/gitwork/go&lt;/p&gt;
+
+&lt;p&gt;I used the &lt;a href=&#34;https://github.com/kurrik/twittergo-examples/blob/master/tweet/main.go&#34;&gt;example from Twittergo&lt;/a&gt; to send the tweet, with the same mods to remove paths from the imports as the other files.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;. ~/openwrt.config
+
+cd ~/gitwork/go/src/github.com
+go get github.com/kurrik/twittergo
+go get github.com/kurrik/oauth1a
+go get github.com/kurrik/json
+cd kurrik/json
+mips-openwrt-linux-gccgo -c json.go
+cd ../oauth1a
+mips-openwrt-linux-gccgo -c oauth1a.go userconfig.go
+cd ../twittergo
+cp ../json/json.o .
+cp ../oauth1a/oauth1a.o .
+emacs twittergo.go  (change github.com/kurrik/oauth1a to oauth1a)
+emacs models.go  (change github.com/kurrik/json to json)
+mips-openwrt-linux-gccgo -c twittergo.go models.go
+emacs tweetomega.go
+mips_gccgo -Wall -o tweetomega main.go -static-libgo json.o  oauth1a.o twittergo.o
+gedit CREDENTIALS
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I was nearly there. The code ran but threw an error almost immediately about x509 root certs being missing. I ran all of the following, which seemed to fix it (but I&amp;rsquo;m not sure if all needed):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;opkg update
+opkg install ca-certificates
+opkg install openssl-util
+opkg install curl
+wget http://curl.haxx.se/ca/cacert.pem
+mv cacert.pem /etc/ssl/certs/ca-certificates.crt
+scp conor@192.168.0.9:/mnt/disk2/software/CREDENTIALS .
+scp conor@192.168.0.9:/mnt/disk2/software/tweetomega .
+./tweetomega
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And finally ta-daaaa, a Tweet from the Omega:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/hushvine_onion_01.jpg&#34; alt=&#34;Tweetin Omega&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I now suspect that the Node.js error may have been exactly the same thing but just hidden so I&amp;rsquo;ll go back and try the same for it.&lt;/p&gt;
+
+&lt;h2 id=&#34;final-notes:6373a9f13467451d12a87cf58bb7873b&#34;&gt;Final notes&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;That custom firmware I built is missing all of the Onion&amp;rsquo;s own stuff and I&amp;rsquo;m not sure how to add that. However you can easily re-install the latest factory Onion image by wgetting it using the URL you find &lt;a href=&#34;http://cloud.onion.io/api/firmware/stable.json&#34;&gt;in this file&lt;/a&gt; into /tmp using sysupgrade name_of_image.&lt;/li&gt;
+&lt;li&gt;We really need Go 1.6 to support MIPS. I think the Onion is a great device for running Go. We might even get &lt;a href=&#34;http://gobot.io/&#34;&gt;Gobots&lt;/a&gt; running.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>All the gory tech behind our Halloween Hallway of Horror</title>
+      <link>http://conoroneill.net/all-the-tech-behind-our-halloween-hallway-of-horror/</link>
+      <pubDate>Tue, 03 Nov 2015 08:22:29 +0000</pubDate>
+      
+      <guid>http://conoroneill.net/all-the-tech-behind-our-halloween-hallway-of-horror/</guid>
+      <description>
+
+&lt;p&gt;Despite starting weeks earlier than usual, Halloween still involved a day of last minute panic to bring everything together. The end result was this:&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/FClhSNwFfT0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The basic setup was an update of ideas from previous years and consisted of the following.&lt;/p&gt;
+
+&lt;h2 id=&#34;3d-printed-mummy-in-coffin-doorbell:308bcb7036a2d3eb810a4711be2b8022&#34;&gt;3D-printed Mummy in Coffin Doorbell&lt;/h2&gt;
+
+&lt;p&gt;This was my favourite aspect of the whole thing. I spotted a &lt;a href=&#34;http://www.thingiverse.com/thing:32905&#34;&gt;cool 3D design on Thingiverse&lt;/a&gt; and realised I could turn it into a doorbell by dremeling a hole in the back and hot-glueing the mummy to a simple push button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/mummy01b.jpg&#34; alt=&#34;Mummy Doorbell 1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In fact the button was one I originally bought in 2012 when I got back into electronics. There was a small bug in my debounce code which I discovered too late and meant that kids had to press the button twice. But overall only a few failed to figure it out.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/mummy02b.jpg&#34; alt=&#34;Mummy Doorbell 2&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;adafruit-audio-breakout-board-and-amp-with-speakers:308bcb7036a2d3eb810a4711be2b8022&#34;&gt;Adafruit Audio breakout board and amp with speakers&lt;/h2&gt;
+
+&lt;p&gt;I had intended everything to be Arduino and ESP8266 (running Arduino code) only so I needed some way of playing the scream. In previous years &lt;a href=&#34;http://conoroneill.net/the-raspberrypi-doorbell-of-dooooooooommmmmmmm/&#34;&gt;I used a Raspberry Pi&lt;/a&gt; (successfully) and &lt;a href=&#34;http://conoroneill.net/a-tech-halloween-mainly-made-of-fail/&#34;&gt;a really crappy device&lt;/a&gt; (less successfully).&lt;/p&gt;
+
+&lt;p&gt;In a bizarre twist to the &lt;a href=&#34;https://www.indiegogo.com/projects/be-maker-kit-plus-free-lessons-on-electronics-from-zero-to-internet-of-things&#34;&gt;BE Maker Kit Indiegogo scam&lt;/a&gt;, one of the people involved somehow got a Florida company to provide free electronics to the right amount. I used this to buy the &lt;a href=&#34;http://www.adafruit.com/products/1381&#34;&gt;Adafruit VS1053 Audio board&lt;/a&gt; and &lt;a href=&#34;https://www.adafruit.com/products/987&#34;&gt;Adafruit MAX98306 Audio Amp&lt;/a&gt;. The wiring on this looks complicated but it&amp;rsquo;s straight out of their tutorial.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/vs1053.jpg&#34; alt=&#34;Scary Sounds&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Audio was courtesy of &lt;a href=&#34;https://rg3.github.io/youtube-dl/&#34;&gt;youtube-dl&lt;/a&gt; and &lt;a href=&#34;http://winff.org/html_new/&#34;&gt;WinFF&lt;/a&gt; on &lt;a href=&#34;https://www.youtube.com/watch?v=BFqHyCoypfM&#34;&gt;this clip from YouTube&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Arduino Nano for this was the &amp;ldquo;Master&amp;rdquo; device. It detected the doorbell press and then started playing the file on the SD card and sent a high signal both to the Banana Pi for the LED strip and the Arduino Uno for the relays controlling the skull. It&amp;rsquo;s basically the Adafruit demo VS1053 code with a few extra lines added by me. The code for that &lt;a href=&#34;https://gist.github.com/conoro/58a028f7399b4e50619e&#34;&gt;is here on Gist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;wifi-controlled-rgb-led-strip-using-a-banana-pi:308bcb7036a2d3eb810a4711be2b8022&#34;&gt;Wifi Controlled RGB LED Strip using a Banana Pi&lt;/h2&gt;
+
+&lt;p&gt;I finally ordered a bog-standard &lt;a href=&#34;http://eud.dx.com/product/waterproof-72w-4300lm-300-5050-smd-led-rgb-light-flexible-strip-w-44-key-controller-844233947&#34;&gt;5 metre 5050 RGB LED strip from dx.com&lt;/a&gt; over the summer. The value on these things is just staggering at less than €20.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/sku_233947_1.jpg&#34; alt=&#34;RGB LED&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;They come with a dedicated remote control and just need a decent PSU to provide the power. Myself and the kids had great fun illuminating my entire home office in a range of colours.&lt;/p&gt;
+
+&lt;p&gt;But the challenge for Halloween was how to control it. I could have run &lt;a href=&#34;http://www.lirc.org/html/irrecord.html&#34;&gt;irrecord&lt;/a&gt; on an &lt;a href=&#34;http://www.hardkernel.com/main/products/prdt_info.php?g_code=G141578608433&#34;&gt;ODROID C1&lt;/a&gt; or &lt;a href=&#34;http://www.bananapi.org/p/product.html&#34;&gt;Banana Pi&lt;/a&gt; to reverse engineer the remote control protocol and then use &lt;a href=&#34;http://eud.dx.com/product/38khz-ir-infrared-transmitter-module-for-arduino-844135040&#34;&gt;the RC transmitter&lt;/a&gt; I bought on DX. But luckily someone &lt;a href=&#34;http://hackaday.com/2015/08/25/esp8266-in-commercial-products/&#34;&gt;told Hackaday about the first ESP8266-powered commercial product&lt;/a&gt; they had found. It was a &lt;a href=&#34;http://es.aliexpress.com/item/rgb-strip-WiFi-controller-1-port-control-15-rgb-lights-communicate-with-Android-phone-to-dim/32301423622.html&#34;&gt;€9 Wifi H801 control module&lt;/a&gt; for RGB LED strips! I just had to get one.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/Rgbww-tira-llevada-regulador-wifi-1-port-control-200-luces-comunicar-con-tel%C3%A9fono-Android-a-trav%C3%A9s.jpg_350x350.jpg&#34; alt=&#34;Wifi RGB LED&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s a brilliant little box that is easy to wire up and has a simple Android App for control. You connect to the internal Wifi Access Point it provides to do this. Here is the brilliant piece: You then use the app to tell the module to connect to your own Wifi router and then you do the same with the phone. Now your RGB LED strip is on your network!&lt;/p&gt;
+
+&lt;p&gt;But it gets better. A very smart person &lt;a href=&#34;https://www.domoticz.com/forum/viewtopic.php?f=38&amp;amp;t=7957&#34;&gt;reverse-engineered the basic over-the-air protocol&lt;/a&gt; that the app uses to control the Wifi module. Unfortunately he was using a slightly different module to me and it didn&amp;rsquo;t work. I then spent a week of evenings learning all about &lt;a href=&#34;https://www.wireshark.org/&#34;&gt;Wireshark&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Netcat&#34;&gt;Netcat&lt;/a&gt;. I was able to do the same as him and find the basic UDP control protocol (only minor difference in the packets)&lt;/p&gt;
+
+&lt;p&gt;In summary:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OFF: \xfb\xeb\x00\x00\x00\x00\x00\x9f\x97\x9d\x00&lt;/li&gt;
+&lt;li&gt;RED: \xfb\xeb\xff\x00\x00\x00\x00\x9f\x97\x9d\x00&lt;/li&gt;
+&lt;li&gt;GREEN: \xfb\xeb\x00\xff\x00\x00\x00\x9f\x97\x9d\x00&lt;/li&gt;
+&lt;li&gt;BLUE: \xfb\xeb\x00\x00\xff\x00\x00\x9f\x97\x9d\x00&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My plan was to use a &lt;a href=&#34;http://nodemcu.com/index_en.html&#34;&gt;NodeMCU ESP8266 module&lt;/a&gt; to send the relevant commands, using either NodeMCU LUA or the &lt;a href=&#34;https://github.com/esp8266/Arduino&#34;&gt;Arduino port to ESP8266&lt;/a&gt; but I ran out of time to experiment.&lt;/p&gt;
+
+&lt;p&gt;So I had Netcat working happily on the Banana Pi running Fedora but I also needed to be able to use the GPIO pins to tell the BPi when to turn on/off the LED strip. I then made the classic mistake of panicking on Halloween morning and switching to the RaspberryPi so I could use &lt;a href=&#34;http://wiringpi.com/&#34;&gt;WiringPi&lt;/a&gt; for GPIO. Except the Netcat commands hung on the RPi (still no idea why).&lt;/p&gt;
+
+&lt;p&gt;Some Googling revealed that WiringPi had been &lt;a href=&#34;https://github.com/LeMaker/WiringBP&#34;&gt;ported to Raspbian on the BPi&lt;/a&gt; so I tried that. Same Netcat problem! So I took a chance and re-inserted the Fedora SD card and downloaded the BPi version of WiringPi. Result! It compiled and ran perfectly.&lt;/p&gt;
+
+&lt;p&gt;The I moved on to several hours of trying to write a Bash script to monitor a GPIO pin using WiringPi and control the RGB LED strip with echo/netcat. All I will say about that is I am never ever writing a Bash script again (space-sensitive around brackets/equals for the love of god). This is the final result and, to be fair, it worked seamlessly:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;
+#!/bin/bash
+sets=`/usr/local/bin/gpio mode 7 down`
+setit=$sets
+state=&amp;quot;low&amp;quot;
+echo -e &#39;\xfb\xeb\x00\x00\x00\x00\x00\x9f\x97\x9d\x00&#39; | nc -v -u 192.168.0.128 30977
+sleep 1
+while :
+do
+    pins=`/usr/local/bin/gpio read 7`
+    if [ $pins = &amp;quot;1&amp;quot; ]; then
+        if [ $state = &amp;quot;low&amp;quot; ]; then
+            echo -e &#39;\xfb\xeb\xff\x00\x00\x00\x00\x9f\x97\x9d\x00&#39; | nc -v -u 192.168.0.128 30977
+            state=&amp;quot;high&amp;quot;
+            echo high 
+        fi
+    else
+        if [ $state = &amp;quot;high&amp;quot; ]; then
+           echo -e &#39;\xfb\xeb\x00\x00\x00\x00\x00\x9f\x97\x9d\x00&#39; | nc -v -u 192.168.0.128 30977
+           state=&amp;quot;low&amp;quot;
+           echo low
+        fi
+    fi
+done
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But I was so horrified by Bash, I did a quick and dirty re-write &lt;a href=&#34;https://gist.github.com/conoro/935e0fa3acc90d066b9a&#34;&gt;to Go this morning&lt;/a&gt;. It uses the &lt;a href=&#34;https://github.com/hugozhu/rpi&#34;&gt;Golang bindings to WiringPi&lt;/a&gt; and seems to work very well.&lt;/p&gt;
+
+&lt;p&gt;So the strip was now sorted. On to the rotating skull.&lt;/p&gt;
+
+&lt;h2 id=&#34;an-anatomically-correct-skull-with-scary-eyes:308bcb7036a2d3eb810a4711be2b8022&#34;&gt;An anatomically correct skull with scary eyes&lt;/h2&gt;
+
+&lt;p&gt;The skull idea came from a wonderful &lt;a href=&#34;http://www.tested.com/art/makers/530668-how-make-realistic-horror-skull-prop/&#34;&gt;tested.com video&lt;/a&gt; where special effects artist Frank Ippolito bought a cheap skull on Amazon and then used latex, cotton wool and paint to turn it into a horrific burn-victim thing.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/v8w4hufoujg&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I thought we could do the same and found a skull on Amazon UK. It arrived and looked great apart from the lack of a movable jaw. But it then sat there for months with no progress due to me being artistically challenged.&lt;/p&gt;
+
+&lt;p&gt;As an alternative I thought about doing something with eyes so I got some half-eyes from Amazon too They were a smidge small but fit for purpose. I grabbed some of my old tiny micro-servos which I have never found a use for and hot-glued the eyes to them. A bit of messing with the range of movement and I had a vaguely spooky setup.&lt;/p&gt;
+
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/EagDgNoEpTc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;But the fact that you could see the servos and they move pretty slowly meant I was a bit disappointed. I tried to vamp them up a bit more by adding neopixel ring but it was too big so I switched to a single funky Adafruit RGB neopixel on each one. So now I had 6 wires coming out of each eye.&lt;/p&gt;
+
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/30LBjo5oG3I&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Finally on Saturday morning I went to finish this bit and decided it was too much work to get the Arduino code tweaked to do 2x Neopixels and 2x servos and somehow trigger them on/off on a potentially rotating head. At this point I found the silly fake-eye pingpong balls from last year. A quick cut in the back and I hot-glued a Neopixel to each one. I then hot-glued the eyes into the skull and wired the Neopixels to an Arduino Nano.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/skull_top.jpg&#34; alt=&#34;Skull Arduino&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I stuck the Nano and a Lipo battery to the top of the skull and covered it with a cool Buff. Having the eyes on permanently removed a little bit of the element of surprise but I still thought it worked well. The code for the Neopixels was just the &lt;a href=&#34;https://github.com/adafruit/Adafruit_NeoPixel/blob/master/examples/strandtest/strandtest.ino&#34;&gt;standard Adafruit strand test&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/buff_skull.jpg&#34; alt=&#34;Buff Skull&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;making-the-skull-rotate:308bcb7036a2d3eb810a4711be2b8022&#34;&gt;Making the skull rotate&lt;/h2&gt;
+
+&lt;p&gt;I had always known I would rotate the skull in some fashion but for a while I wasn&amp;rsquo;t sure how. Quite a few weeks ago I came up with the idea to cement a hex driver into the bottom of the skull and sit it on top of a cheap crap €20 electric screwdriver I got ages ago from Woodies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/screwdriver1.jpg&#34; alt=&#34;Screwdriver1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a screwdriver it was rubbish due to slowness and lack of torque. As a skull-rotator it was awesome, spinning the skull around at high speed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/screwdriver2.jpg&#34; alt=&#34;Screwdriver2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course I left the difficult bits until a week before Halloween when I sat down and tried to figure out how to control it all. The first attempt was with a dirt cheap double relay board I got 3 years ago and never used. But I couldn&amp;rsquo;t figure out how to make it go forwards and reverse. I then tried an old knock-off Adafruit Motor Shield but it couldn&amp;rsquo;t deliver enough juice (even with a 7.2V LiPo) to overcome the motor&amp;rsquo;s inertia. Finally I &lt;a href=&#34;http://arduino-info.wikispaces.com/ArduinoPower&#34;&gt;found a relay circuit&lt;/a&gt; that did forward/reverse and it worked like a charm.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/DC_Motor_2SPDT_Relay-450.jpg&#34; alt=&#34;Circuit&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/relay2.jpg&#34; alt=&#34;Relay&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But how was I going to handle starting/stopping the skull so it was facing away (and potentially covered) initially and then rotating at the right time and stopping in the right position? Of course I left that to Halloween itself.&lt;/p&gt;
+
+&lt;p&gt;I used polystyrene and duct tape to brace the screwdriver. Then I setup two limit switches. I then applied power. The head spun around and ripped the switches off their mounts. Damn. So another quick executive decision was made. The head would start rotating when the doorbell was pressed and then stop after 10-15 seconds. Which meant some kids would get the full scary effect whilst others would see the flashing eyes before they got to the door.&lt;/p&gt;
+
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/_alMNaewNXw&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;tying-it-all-together:308bcb7036a2d3eb810a4711be2b8022&#34;&gt;Tying it all together&lt;/h2&gt;
+
+&lt;p&gt;This turned out to be pretty easy. I have a ton of decent wire from a dead Christmas tree light string and used that to connect everything up. The doorbell connected to one Arudino which then toggled a pin which the other Arduinos were connected to. After N seconds, it toggled the pin the other way to shut it all down.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/wiring.jpg&#34; alt=&#34;Wiring&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It worked very very well.&lt;/p&gt;
+
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/JvAI6WQglpk&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;next-year:308bcb7036a2d3eb810a4711be2b8022&#34;&gt;Next year?&lt;/h2&gt;
+
+&lt;p&gt;Hmm not sure. I wanted to do something with ghosts flying down zip wires a few years ago but I just didn&amp;rsquo;t have the knowhow. I&amp;rsquo;m feeling a lot more confident about that now.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Facebook is the Amazon AWS Killer</title>
+      <link>http://conoroneill.net/facebook-is-the-amazon-killer/</link>
+      <pubDate>Fri, 23 Oct 2015 13:54:25 +0100</pubDate>
+      
+      <guid>http://conoroneill.net/facebook-is-the-amazon-killer/</guid>
+      <description>&lt;p&gt;AWS is now an $8Bn business for Amazon. Could anyone have predicted that in 1997 or even 2007? This week I was talking to a few people about who might be able to disrupt AWS. It won&amp;rsquo;t be easy. We immediately discounted the old guys like HP, IBM, Dell etc and even Google seems to be a complete also-ran in IaaS. Microsoft Azure might have potential.&lt;/p&gt;
+
+&lt;p&gt;PaaS is separate as it&amp;rsquo;s higher up the stack and makes use of IaaS. I expect Open Source PaaS like &lt;a href=&#34;http://www.openshift.com/&#34;&gt;OpenShift 3&lt;/a&gt; to grow very quickly in the coming years as it makes deployment and management of Apps incredibly easy. Where PaaS might hurt AWS is in abstracting what IaaS you are using, so as long as the feature set is there, you don&amp;rsquo;t care where your Apps are running (apart from Geo lag and data protection laws).&lt;/p&gt;
+
+&lt;p&gt;One of the people I talked to thinks that AWS will be slayed by a startup who may not even exist yet. He also felt that smart VPSes like &lt;a href=&#34;http://www.digitalocean.com&#34;&gt;DigitalOcean&lt;/a&gt; might do it. I&amp;rsquo;m a huge fan of DO and gained enormous reliability and speed by switching to it from Google Compute Engine/CloudSQL whilst reducing my bill by 2/3rds. But it still feels like an SME/SMB or individual developer solution.&lt;/p&gt;
+
+&lt;p&gt;So I&amp;rsquo;m predicting it&amp;rsquo;ll be Facebook. Why? Think about the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;They understand building things at massive scale on a global basis&lt;/li&gt;
+&lt;li&gt;They build their &lt;a href=&#34;http://www.thejournal.ie/facebook-building-data-centre-in-meath-2161944-Jun2015/&#34;&gt;own datacenters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;They built the &lt;a href=&#34;http://www.theguardian.com/technology/2015/sep/25/facebook-datacentre-lulea-sweden-node-pole&#34;&gt;most energy efficient computing facility&lt;/a&gt; ever&lt;/li&gt;
+&lt;li&gt;They created the &lt;a href=&#34;http://www.opencompute.org/&#34;&gt;Open Compute&lt;/a&gt; project&lt;/li&gt;
+&lt;li&gt;They have incubated some &lt;a href=&#34;https://github.com/facebook&#34;&gt;incredible Open Source projects&lt;/a&gt; like &lt;a href=&#34;http://cassandra.apache.org/&#34;&gt;Cassandra&lt;/a&gt; and &lt;a href=&#34;https://facebook.github.io/react/&#34;&gt;React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;They use PHP. Forget I mentioned that ;-)&lt;/li&gt;
+&lt;li&gt;They understand that &lt;a href=&#34;http://ben-evans.com/benedictevans/2015/6/19/presentation-mobile-is-eating-the-world&#34;&gt;mobile is eating the world&lt;/a&gt; and they own &lt;a href=&#34;https://parse.com/&#34;&gt;Parse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;They understand real-time messaging &lt;a href=&#34;https://www.whatsapp.com/&#34;&gt;at massive scale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;They could do this in their sleep&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The big open question is how they do their virtualisation and containerisation. If they have that nailed, then I think they might go for it.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s re-visit this post in 5 years.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Running the latest Chromium 45 on Debian Jessie on your Raspberry Pi 2</title>
+      <link>http://conoroneill.net/running-the-latest-chromium-45-on-debian-jessie-on-your-raspberry-pi-2/</link>
+      <pubDate>Tue, 29 Sep 2015 17:35:11 +0100</pubDate>
+      
+      <guid>http://conoroneill.net/running-the-latest-chromium-45-on-debian-jessie-on-your-raspberry-pi-2/</guid>
+      <description>&lt;p&gt;For some odd reason, Google and others stopped auto-generating armhf binaries of &lt;a href=&#34;https://www.chromium.org/Home&#34;&gt;Chromium&lt;/a&gt; last year. Version 37 was the last one I could find. Luckily the Ubuntu guys have been building it all along and their version 45 installs really easily on the &lt;a href=&#34;https://www.raspberrypi.org/blog/raspbian-jessie-is-here/&#34;&gt;all-new Debian/Raspbian Jessie&lt;/a&gt; on your Raspberry Pi 2.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/09/pi_heart_chrome.png&#34; alt=&#34;Pi loves Chromium&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was a surprise as this kind of thing usually degenerates into dependency hell.&lt;/p&gt;
+
+&lt;p&gt;Here you go (updatred to mention libgcrypt):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;wget http://ftp.us.debian.org/debian/pool/main/libg/libgcrypt11/libgcrypt11_1.5.0-5+deb7u3_armhf.deb
+wget http://launchpadlibrarian.net/218525709/chromium-browser_45.0.2454.85-0ubuntu0.14.04.1.1097_armhf.deb
+wget http://launchpadlibrarian.net/218525711/chromium-codecs-ffmpeg-extra_45.0.2454.85-0ubuntu0.14.04.1.1097_armhf.deb
+sudo dpkg -i libgcrypt11_1.5.0-5+deb7u3_armhf.deb
+sudo dpkg -i chromium-codecs-ffmpeg-extra_45.0.2454.85-0ubuntu0.14.04.1.1097_armhf.deb
+sudo dpkg -i chromium-browser_45.0.2454.85-0ubuntu0.14.04.1.1097_armhf.deb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It even appears correctly in your desktop menus!&lt;/p&gt;
+
+&lt;p&gt;Note: Some users reporting issues in comments that I&amp;rsquo;m not seeing.&lt;/p&gt;
+
+&lt;p&gt;Apart from security fixes and the latest Chromium features, you also get full access to most of the Apps and Extensions in the Chrome Web Store. This includes the &lt;a href=&#34;http://www.espruino.com/Order#distributors&#34;&gt;Espruino&lt;/a&gt; Chrome &lt;a href=&#34;https://chrome.google.com/webstore/detail/espruino-web-ide/bleoifhkdalbjfbobjackfdifdneehpo&#34;&gt;App&lt;/a&gt;, which means you or your kids now have everything you need to develop and deploy Embedded and IoT projects for under €100. Honestly, that&amp;rsquo;s revolutionary.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/09/pi_plus_espruino_small.jpg&#34; alt=&#34;Pi loves Espruino&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TingoDB and SQLite instead of MongoDB and MySQL for tiny projects or Raspberry Pi</title>
+      <link>http://conoroneill.net/tingodb-and-sqlite-instead-of-mongodb-and-mysql-for-tiny-projects-or-raspberry-pi/</link>
+      <pubDate>Sun, 20 Sep 2015 13:03:54 +0100</pubDate>
+      
+      <guid>http://conoroneill.net/tingodb-and-sqlite-instead-of-mongodb-and-mysql-for-tiny-projects-or-raspberry-pi/</guid>
+      <description>
+
+&lt;p&gt;As an old Embedded guy who actually cares about resource usage, I&amp;rsquo;ve been bothered for quite a while by the number of trivial Node.js projects out there that require a full-blown MongoDB or MySQL server to operate. It&amp;rsquo;s a particular problem on the Raspberry Pi or small &lt;a href=&#34;https://www.digitalocean.com/&#34;&gt;DigitalOcean&lt;/a&gt; Droplets. In many cases a simple SQLite DB or TingoDB is more than sufficient.&lt;/p&gt;
+
+&lt;p&gt;If your Web App has 2 registered users and 100 visitors per day, may just maybe you don&amp;rsquo;t need MongoDB or MySQL. I have a set of small Node.js projects now where I use the following combinations and they all work well. Anything you are doing in-house on a Raspberry Pi should absolutely use one of these. In fact I&amp;rsquo;m not even sure recent Mongos run on the RPi 1?&lt;/p&gt;
+
+&lt;h2 id=&#34;dulcimer-levelup-and-leveldb:b9c1e366c3521fb5cdf8cf868ebc63d4&#34;&gt;Dulcimer, LevelUP and LevelDB&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/google/leveldb&#34;&gt;LevelDB&lt;/a&gt; and &lt;a href=&#34;https://github.com/Level/levelup&#34;&gt;LevelUP&lt;/a&gt; are well known and widely used. I think &lt;a href=&#34;https://github.com/fritzy/Dulcimer&#34;&gt;Dulcimer&lt;/a&gt; probably less so. It&amp;rsquo;s a &lt;a href=&#34;http://mongoosejs.com/&#34;&gt;Mongoose-ish&lt;/a&gt; ORM for LevelDB. I was able to tie it into &lt;a href=&#34;http://passportjs.org/&#34;&gt;PassportJS&lt;/a&gt; without much effort to handle users/sessions/etc. I have two setups using it and both have been running for many months on d&amp;rsquo;internet with zero problems. In one case it&amp;rsquo;s a small stats dashboard running on DigitalOcean with a few registered users who check it maybe once a day. The other one is a registration system for people requesting access to some internal work resources. All submissions go into LevelDB. This is running on &lt;a href=&#34;https://www.openshift.com/products/online&#34;&gt;OpenShift Online&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;tingodb-and-tungus:b9c1e366c3521fb5cdf8cf868ebc63d4&#34;&gt;TingoDB and Tungus&lt;/h2&gt;
+
+&lt;p&gt;Of the NoSQL file-based databases, this seems to have the lowest profile and I think it deserves a &lt;em&gt;lot&lt;/em&gt; of attention. &lt;a href=&#34;https://github.com/sergeyksv/tingodb&#34;&gt;TingoDB&lt;/a&gt; emulates most of the common MongoDB APIs and &lt;a href=&#34;https://github.com/sergeyksv/tungus&#34;&gt;Tungus&lt;/a&gt; emulates most of the Mongoose ones. I was able to take a &lt;a href=&#34;https://github.com/sahat/tvshow-tracker&#34;&gt;random Node.js project&lt;/a&gt; off GitHub which is based on MongoDB/Mongoose/Mongoskin and get it running using TingoDB/Tungus on an RPi with only a tiny bit of fiddling with the &lt;a href=&#34;https://github.com/rschmukler/agenda/&#34;&gt;Agenda&lt;/a&gt; module. This is huge for those wanting to do NoSQL on Raspberry Pi. I&amp;rsquo;ll be playing a lot more with this setup in the coming weeks. You really should too.&lt;/p&gt;
+
+&lt;h2 id=&#34;sqlite-knex-and-bookshelf:b9c1e366c3521fb5cdf8cf868ebc63d4&#34;&gt;SQLite, Knex and Bookshelf&lt;/h2&gt;
+
+&lt;p&gt;Whilst the whole hipster dev world thinks NoSQL is the answer to everything, good old relational databases just keep on trucking. I&amp;rsquo;ve used &lt;a href=&#34;https://www.sqlite.org/&#34;&gt;SQLite&lt;/a&gt; many times over the years for simple projects and it has always worked well. I hadn&amp;rsquo;t realised until recently that the main SQL ORMs on Node.js support it out of the box. So again, if you have a project that needs a relational DB and doesn&amp;rsquo;t need huge scale, you should be looking at SQLite. I&amp;rsquo;m currently wrapping up a simple in-house project using SQLite with &lt;a href=&#34;http://knexjs.org/&#34;&gt;Knex&lt;/a&gt; and &lt;a href=&#34;http://bookshelfjs.org/&#34;&gt;Bookshelf&lt;/a&gt; on a Raspberry Pi. The DB hold simple relationships between devices and their status.&lt;/p&gt;
+
+&lt;p&gt;The latter two setups above also have the big advantage that you can use them in development or in the early production stages and then you can drop in MongoDB or MySQL at a later stage if needed, without any re-coding.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Running ZeroMQ with Node.js on Raspberry Pi</title>
+      <link>http://conoroneill.net/running-zeromq-with-node-js-on-raspberry-pi/</link>
+      <pubDate>Sun, 20 Sep 2015 11:38:46 +0100</pubDate>
+      
+      <guid>http://conoroneill.net/running-zeromq-with-node-js-on-raspberry-pi/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://zeromq.org/&#34;&gt;ZeroMQ&lt;/a&gt; is a lightweight messaging library and looks ideal for lower powered devices like the RPi. Building and running is pretty easy. These are really just notes for myself for future reference.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t actually need a messaging system yet but I wanted to play around with one. Running a simple Request / Reply setup with Node.js on both Windows 10 and RPi was interesting. One advantage a message queue gives you over REST is that the receiver can be out of action and still get all transmitted messages when it recovers. You also have things like Pub/Sub etc. I&amp;rsquo;ve been running the code &lt;a href=&#34;http://blog.rastating.com/using-zeromq-with-node-js/&#34;&gt;from here&lt;/a&gt; 100% reliably for two days now on both setups. At some point I&amp;rsquo;ll check max throughput on a Pi.&lt;/p&gt;
+
+&lt;p&gt;Installation on Raspberry Pi:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd
+sudo apt-get install libtool pkg-config build-essential autoconf automake
+mkdir build
+cd build/
+wget https://download.libsodium.org/libsodium/releases/libsodium-1.0.3.tar.gz
+tar -zxvf libsodium-1.0.3.tar.gz
+cd libsodium-1.0.3/
+./configure
+make
+sudo make install
+cd ..
+wget http://download.zeromq.org/zeromq-4.1.3.tar.gz
+tar -zxvf zeromq-4.1.3.tar.gz
+cd zeromq-4.1.3/
+./configure
+make
+sudo make install
+sudo ldconfig
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Test code for Request / Reply &lt;a href=&#34;http://blog.rastating.com/using-zeromq-with-node-js/&#34;&gt;from here&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;server.js:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var zmq = require(&amp;quot;zmq&amp;quot;);  
+var socket = zmq.socket(&amp;quot;req&amp;quot;);  
+var counter = 0;
+
+// Just a helper function for logging to the console with a timestamp.
+function logToConsole (message) {  
+    console.log(&amp;quot;[&amp;quot; + new Date().toLocaleTimeString() + &amp;quot;] &amp;quot; + message);
+}
+
+function sendMessage (message) {  
+    logToConsole(&amp;quot;Sending: &amp;quot; + message);
+    socket.send(message);
+}
+
+// Add a callback for the event that is invoked when we receive a message.
+socket.on(&amp;quot;message&amp;quot;, function (message) {  
+    // Convert the message into a string and log to the console.
+    logToConsole(&amp;quot;Response: &amp;quot; + message.toString(&amp;quot;utf8&amp;quot;));
+});
+
+// Begin listening for connections on all IP addresses on port 9998.
+socket.bind(&amp;quot;tcp://*:9998&amp;quot;, function (error) {  
+    if (error) {
+        logToConsole(&amp;quot;Failed to bind socket: &amp;quot; + error.message);
+        process.exit(0);
+    }
+    else {
+        logToConsole(&amp;quot;Server listening on port 9998&amp;quot;);
+
+        // Increment the counter and send the value to the clients every second.
+        setInterval(function () { sendMessage(counter++); }, 1000);
+    }
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;client.js:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var zmq = require(&amp;quot;zmq&amp;quot;);  
+var socket = zmq.socket(&amp;quot;rep&amp;quot;);
+
+// Just a helper function for logging to the console with a timestamp.
+function logToConsole (message) {  
+    console.log(&amp;quot;[&amp;quot; + new Date().toLocaleTimeString() + &amp;quot;] &amp;quot; + message);
+}
+
+// Add a callback for the event that is invoked when we receive a message.
+socket.on(&amp;quot;message&amp;quot;, function (message) {  
+    // Convert the message into a string and log to the console.
+    logToConsole(&amp;quot;Received message: &amp;quot; + message.toString(&amp;quot;utf8&amp;quot;));
+
+    // Send the message back aa a reply to the server.
+    socket.send(message);
+});
+
+// Connect to the server instance.
+socket.connect(&#39;tcp://127.0.0.1:9998&#39;);  
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TIL you can import 3D models from Tinkercad to Minecraft. How cool is that?</title>
+      <link>http://conoroneill.net/til-you-can-import-3d-models-from-tinkercad-to-minecraft-how-cool-is-that/</link>
+      <pubDate>Sun, 23 Aug 2015 14:42:32 +0100</pubDate>
+      
+      <guid>http://conoroneill.net/til-you-can-import-3d-models-from-tinkercad-to-minecraft-how-cool-is-that/</guid>
+      <description>&lt;p&gt;We had friends over from the US last weekend and their kids loved my &lt;a href=&#34;http://printrbot.com/project/simple-makers/&#34;&gt;Printrbot 3D printer&lt;/a&gt;. They had learned &lt;a href=&#34;https://www.tinkercad.com/&#34;&gt;Tinkercad&lt;/a&gt; in school so that&amp;rsquo;s what they used to create things so they could print them out. They are now hounding their parents for a printer. Oops :-) But I noticed a &amp;ldquo;Download to Minecraft&amp;rdquo; option in Tinkercad and finally just had a chance to try it out. Wow!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/08/tinker02b.jpg&#34; alt=&#34;In Tinkercad&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.tinkercad.com/2013/08/15/tinkercraft/&#34;&gt;It&amp;rsquo;s incredibly easy&lt;/a&gt;. Take any model from Tinkercad and pick the Minecraft option. You may have to tweak the sizing when you are doing it seriously. Then install the &lt;a href=&#34;http://www.mcedit.net/downloads.html&#34;&gt;MCEdit Minecraft editor&lt;/a&gt; and import the file into one of your worlds. Then load up Minecraft and thar she blows.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/08/tinker01b.jpg&#34; alt=&#34;In Minecraft&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I totally love the intersection of 3D design, 3D printing and Minecraft - the real and the virtual coming together. The younger kids are gonna be psyched when I show em!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating an OTP fob compatible with Google Authenticator using an Espruino Pico</title>
+      <link>http://conoroneill.net/creating-an-otp-fob-compatible-with-google-authenticator-using-an-espruino-pico/</link>
+      <pubDate>Wed, 22 Jul 2015 08:14:26 +0100</pubDate>
+      
+      <guid>http://conoroneill.net/creating-an-otp-fob-compatible-with-google-authenticator-using-an-espruino-pico/</guid>
+      <description>&lt;p&gt;Now that the &lt;a href=&#34;http://www.espruino.com/&#34;&gt;Espruino Pico&lt;/a&gt; has (beta) HID support, it can pretend to be a keyboard or mouse (or other HID compatible device). This makes it possible to send characters to the active window on your Windows/Linux/Mac PC. I&amp;rsquo;ve cobbled together some code which turns the Pico into a device like a YubiKey. Press the button and get the latest auth code pasted automatically for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/espruino_otp.jpg&#34; alt=&#34;Espruino Pico OTP&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This code is basically just from three sources, merged together with a few tiny tweaks by me.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Caligatio/jsSHA&#34;&gt;jsSHA, a JavaScript implementation of SHA/HMAC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.nraboy.com/2014/10/generate-time-based-one-time-passwords-javascript/&#34;&gt;Generate Time-Based One-Time Passwords With JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.espruino.com/USB&#34;&gt;Espruino HID Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(Note I&amp;rsquo;ve just discovered that Espruino has its own hmac implementation so I can possibly drop jsSHA)&lt;/p&gt;
+
+&lt;p&gt;The main thing you need for this is your Google Authenticator Secret. Unfortunately you can only get this when you have access to the original QR code that you scanned (it&amp;rsquo;s in the URL). But if you are setting up 2FA access to a new service e.g. Digital Ocean, then you can grab the secret and save it in the code. If your system also uses a PIN (e.g. SSO on some corporate sites), save that in the code too.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll need a very recent pre-release Firmware for this to work at all e.g. &lt;a href=&#34;http://www.espruino.com/binaries/git/commits/d3b43aab7efcc42e6f1584c340bd855b1e5af4c6/&#34;&gt;from here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once that&amp;rsquo;s flashed, go into Settings on the Web IDE and make sure &amp;ldquo;Set Current Time&amp;rdquo; is ticked in the Communications section. Auth Fobs rely on having an accurate time and that setting keeps unsetting itself on my PC.&lt;/p&gt;
+
+&lt;p&gt;Now copy the code below onto the Espruino using the Web IDE and then type save() to make sure it can survive a power-cycle. Remove and re-insert the Pico, press the button and you should get the auth code you need.&lt;/p&gt;
+
+&lt;p&gt;Now for the bad news: This currently doesn&amp;rsquo;t work on my Windows 8.1 PC but works semi-reliably on my work MBP. Once the HID code makes it to production, I&amp;rsquo;m sure it will work fine.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// Code assembled by Conor O&#39;Neill from three sources. None of it copyright me.
+// This code copyright Brian Turek https://github.com/Caligatio/jsSHA https://github.com/Caligatio/jsSHA/blob/master/LICENSE
+&#39;use strict&#39;;(function(E){function t(c,a,e){var g=0,b=[],d=0,f,k,l,h,m,w,n,q=!1,r=!1,p=[],t=[],v,u=!1;e=e||{};f=e.encoding||&amp;quot;UTF8&amp;quot;;v=e.numRounds||1;l=y(a,f);if(v!==parseInt(v,10)||1&amp;gt;v)throw Error(&amp;quot;numRounds must a integer &amp;gt;= 1&amp;quot;);if(&amp;quot;SHA-1&amp;quot;===c)m=512,w=z,n=F,h=160;else throw Error(&amp;quot;Chosen SHA variant is not supported&amp;quot;);k=x(c);this.setHMACKey=function(a,b,d){var e;if(!0===r)throw Error(&amp;quot;HMAC key already set&amp;quot;);if(!0===q)throw Error(&amp;quot;Cannot set HMAC key after finalizing hash&amp;quot;);if(!0===u)throw Error(&amp;quot;Cannot set HMAC key after calling update&amp;quot;);
+f=(d||{}).encoding||&amp;quot;UTF8&amp;quot;;b=y(b,f)(a);a=b.binLen;b=b.value;e=m&amp;gt;&amp;gt;&amp;gt;3;d=e/4-1;if(e&amp;lt;a/8){for(b=n(b,a,0,x(c));b.length&amp;lt;=d;)b.push(0);b[d]&amp;amp;=4294967040}else if(e&amp;gt;a/8){for(;b.length&amp;lt;=d;)b.push(0);b[d]&amp;amp;=4294967040}for(a=0;a&amp;lt;=d;a+=1)p[a]=b[a]^909522486,t[a]=b[a]^1549556828;k=w(p,k);g=m;r=!0};this.update=function(a){var c,e,f,h=0,n=m&amp;gt;&amp;gt;&amp;gt;5;c=l(a,b,d);a=c.binLen;e=c.value;c=a&amp;gt;&amp;gt;&amp;gt;5;for(f=0;f&amp;lt;c;f+=n)h+m&amp;lt;=a&amp;amp;&amp;amp;(k=w(e.slice(f,f+n),k),h+=m);g+=h;b=e.slice(h&amp;gt;&amp;gt;&amp;gt;5);d=a%m;u=!0};this.getHash=function(a,e){var f,l,m;if(!0===
+r)throw Error(&amp;quot;Cannot call getHash after setting HMAC key&amp;quot;);m=A(e);switch(a){case &amp;quot;HEX&amp;quot;:f=function(a){return B(a,m)};break;case &amp;quot;B64&amp;quot;:f=function(a){return C(a,m)};break;case &amp;quot;BYTES&amp;quot;:f=D;break;default:throw Error(&amp;quot;format must be HEX, B64, or BYTES&amp;quot;);}if(!1===q)for(k=n(b,d,g,k),l=1;l&amp;lt;v;l+=1)k=n(k,h,0,x(c));q=!0;return f(k)};this.getHMAC=function(a,e){var f,l,p;if(!1===r)throw Error(&amp;quot;Cannot call getHMAC without first setting HMAC key&amp;quot;);p=A(e);switch(a){case &amp;quot;HEX&amp;quot;:f=function(a){return B(a,p)};break;case &amp;quot;B64&amp;quot;:f=
+function(a){return C(a,p)};break;case &amp;quot;BYTES&amp;quot;:f=D;break;default:throw Error(&amp;quot;outputFormat must be HEX, B64, or BYTES&amp;quot;);}!1===q&amp;amp;&amp;amp;(l=n(b,d,g,k),k=w(t,x(c)),k=n(l,h,m,k));q=!0;return f(k)}}function G(c,a,e){var g=c.length,b,d,f,k,l;a=a||[0];e=e||0;l=e&amp;gt;&amp;gt;&amp;gt;3;if(0!==g%2)throw Error(&amp;quot;String of HEX type must be in byte increments&amp;quot;);for(b=0;b&amp;lt;g;b+=2){d=parseInt(c.substr(b,2),16);if(isNaN(d))throw Error(&amp;quot;String of HEX type contains invalid characters&amp;quot;);k=(b&amp;gt;&amp;gt;&amp;gt;1)+l;for(f=k&amp;gt;&amp;gt;&amp;gt;2;a.length&amp;lt;=f;)a.push(0);a[f]|=d&amp;lt;&amp;lt;
+8*(3-k%4)}return{value:a,binLen:4*g+e}}function H(c,a,e){var g=[],b,d,f,k,g=a||[0];e=e||0;d=e&amp;gt;&amp;gt;&amp;gt;3;for(b=0;b&amp;lt;c.length;b+=1)a=c.charCodeAt(b),k=b+d,f=k&amp;gt;&amp;gt;&amp;gt;2,g.length&amp;lt;=f&amp;amp;&amp;amp;g.push(0),g[f]|=a&amp;lt;&amp;lt;8*(3-k%4);return{value:g,binLen:8*c.length+e}}function I(c,a,e){var g=[],b=0,d,f,k,l,h,m,g=a||[0];e=e||0;a=e&amp;gt;&amp;gt;&amp;gt;3;if(-1===c.search(/^[a-zA-Z0-9=+\/]+$/))throw Error(&amp;quot;Invalid character in base-64 string&amp;quot;);f=c.indexOf(&amp;quot;=&amp;quot;);c=c.replace(/\=/g,&amp;quot;&amp;quot;);if(-1!==f&amp;amp;&amp;amp;f&amp;lt;c.length)throw Error(&amp;quot;Invalid &#39;=&#39; found in base-64 string&amp;quot;);
+for(f=0;f&amp;lt;c.length;f+=4){h=c.substr(f,4);for(k=l=0;k&amp;lt;h.length;k+=1)d=&amp;quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/&amp;quot;.indexOf(h[k]),l|=d&amp;lt;&amp;lt;18-6*k;for(k=0;k&amp;lt;h.length-1;k+=1){m=b+a;for(d=m&amp;gt;&amp;gt;&amp;gt;2;g.length&amp;lt;=d;)g.push(0);g[d]|=(l&amp;gt;&amp;gt;&amp;gt;16-8*k&amp;amp;255)&amp;lt;&amp;lt;8*(3-m%4);b+=1}}return{value:g,binLen:8*b+e}}function B(c,a){var e=&amp;quot;&amp;quot;,g=4*c.length,b,d;for(b=0;b&amp;lt;g;b+=1)d=c[b&amp;gt;&amp;gt;&amp;gt;2]&amp;gt;&amp;gt;&amp;gt;8*(3-b%4),e+=&amp;quot;0123456789abcdef&amp;quot;.charAt(d&amp;gt;&amp;gt;&amp;gt;4&amp;amp;15)+&amp;quot;0123456789abcdef&amp;quot;.charAt(d&amp;amp;15);return a.outputUpper?e.toUpperCase():e}function C(c,
+a){var e=&amp;quot;&amp;quot;,g=4*c.length,b,d,f;for(b=0;b&amp;lt;g;b+=3)for(f=b+1&amp;gt;&amp;gt;&amp;gt;2,d=c.length&amp;lt;=f?0:c[f],f=b+2&amp;gt;&amp;gt;&amp;gt;2,f=c.length&amp;lt;=f?0:c[f],f=(c[b&amp;gt;&amp;gt;&amp;gt;2]&amp;gt;&amp;gt;&amp;gt;8*(3-b%4)&amp;amp;255)&amp;lt;&amp;lt;16|(d&amp;gt;&amp;gt;&amp;gt;8*(3-(b+1)%4)&amp;amp;255)&amp;lt;&amp;lt;8|f&amp;gt;&amp;gt;&amp;gt;8*(3-(b+2)%4)&amp;amp;255,d=0;4&amp;gt;d;d+=1)8*b+6*d&amp;lt;=32*c.length?e+=&amp;quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/&amp;quot;.charAt(f&amp;gt;&amp;gt;&amp;gt;6*(3-d)&amp;amp;63):e+=a.b64Pad;return e}function D(c){var a=&amp;quot;&amp;quot;,e=4*c.length,g,b;for(g=0;g&amp;lt;e;g+=1)b=c[g&amp;gt;&amp;gt;&amp;gt;2]&amp;gt;&amp;gt;&amp;gt;8*(3-g%4)&amp;amp;255,a+=String.fromCharCode(b);return a}function A(c){var a={outputUpper:!1,b64Pad:&amp;quot;=&amp;quot;};
+c=c||{};a.outputUpper=c.outputUpper||!1;a.b64Pad=c.b64Pad||&amp;quot;=&amp;quot;;if(&amp;quot;boolean&amp;quot;!==typeof a.outputUpper)throw Error(&amp;quot;Invalid outputUpper formatting option&amp;quot;);if(&amp;quot;string&amp;quot;!==typeof a.b64Pad)throw Error(&amp;quot;Invalid b64Pad formatting option&amp;quot;);return a}function y(c,a){var e;switch(a){case &amp;quot;UTF8&amp;quot;:case &amp;quot;UTF16BE&amp;quot;:case &amp;quot;UTF16LE&amp;quot;:break;default:throw Error(&amp;quot;encoding must be UTF8, UTF16BE, or UTF16LE&amp;quot;);}switch(c){case &amp;quot;HEX&amp;quot;:e=G;break;case &amp;quot;TEXT&amp;quot;:e=function(e,b,d){var f=[],c=[],l=0,h,m,p,n,q,f=b||[0];b=d||0;p=b&amp;gt;&amp;gt;&amp;gt;3;if(&amp;quot;UTF8&amp;quot;===
+a)for(h=0;h&amp;lt;e.length;h+=1)for(d=e.charCodeAt(h),c=[],128&amp;gt;d?c.push(d):2048&amp;gt;d?(c.push(192|d&amp;gt;&amp;gt;&amp;gt;6),c.push(128|d&amp;amp;63)):55296&amp;gt;d||57344&amp;lt;=d?c.push(224|d&amp;gt;&amp;gt;&amp;gt;12,128|d&amp;gt;&amp;gt;&amp;gt;6&amp;amp;63,128|d&amp;amp;63):(h+=1,d=65536+((d&amp;amp;1023)&amp;lt;&amp;lt;10|e.charCodeAt(h)&amp;amp;1023),c.push(240|d&amp;gt;&amp;gt;&amp;gt;18,128|d&amp;gt;&amp;gt;&amp;gt;12&amp;amp;63,128|d&amp;gt;&amp;gt;&amp;gt;6&amp;amp;63,128|d&amp;amp;63)),m=0;m&amp;lt;c.length;m+=1){q=l+p;for(n=q&amp;gt;&amp;gt;&amp;gt;2;f.length&amp;lt;=n;)f.push(0);f[n]|=c[m]&amp;lt;&amp;lt;8*(3-q%4);l+=1}else if(&amp;quot;UTF16BE&amp;quot;===a||&amp;quot;UTF16LE&amp;quot;===a)for(h=0;h&amp;lt;e.length;h+=1){d=e.charCodeAt(h);&amp;quot;UTF16LE&amp;quot;===a&amp;amp;&amp;amp;(m=d&amp;amp;255,d=m&amp;lt;&amp;lt;8|d&amp;gt;&amp;gt;&amp;gt;8);q=l+p;for(n=q&amp;gt;&amp;gt;&amp;gt;
+2;f.length&amp;lt;=n;)f.push(0);f[n]|=d&amp;lt;&amp;lt;8*(2-q%4);l+=2}return{value:f,binLen:8*l+b}};break;case &amp;quot;B64&amp;quot;:e=I;break;case &amp;quot;BYTES&amp;quot;:e=H;break;default:throw Error(&amp;quot;format must be HEX, TEXT, B64, or BYTES&amp;quot;);}return e}function r(c,a){return c&amp;lt;&amp;lt;a|c&amp;gt;&amp;gt;&amp;gt;32-a}function p(c,a){var e=(c&amp;amp;65535)+(a&amp;amp;65535);return((c&amp;gt;&amp;gt;&amp;gt;16)+(a&amp;gt;&amp;gt;&amp;gt;16)+(e&amp;gt;&amp;gt;&amp;gt;16)&amp;amp;65535)&amp;lt;&amp;lt;16|e&amp;amp;65535}function u(c,a,e,g,b){var d=(c&amp;amp;65535)+(a&amp;amp;65535)+(e&amp;amp;65535)+(g&amp;amp;65535)+(b&amp;amp;65535);return((c&amp;gt;&amp;gt;&amp;gt;16)+(a&amp;gt;&amp;gt;&amp;gt;16)+(e&amp;gt;&amp;gt;&amp;gt;16)+(g&amp;gt;&amp;gt;&amp;gt;16)+(b&amp;gt;&amp;gt;&amp;gt;16)+(d&amp;gt;&amp;gt;&amp;gt;16)&amp;amp;65535)&amp;lt;&amp;lt;16|d&amp;amp;65535}function x(c){if(&amp;quot;SHA-1&amp;quot;===
+c)c=[1732584193,4023233417,2562383102,271733878,3285377520];else throw Error(&amp;quot;No SHA variants supported&amp;quot;);return c}function z(c,a){var e=[],g,b,d,f,k,l,h;g=a[0];b=a[1];d=a[2];f=a[3];k=a[4];for(h=0;80&amp;gt;h;h+=1)e[h]=16&amp;gt;h?c[h]:r(e[h-3]^e[h-8]^e[h-14]^e[h-16],1),l=20&amp;gt;h?u(r(g,5),b&amp;amp;d^~b&amp;amp;f,k,1518500249,e[h]):40&amp;gt;h?u(r(g,5),b^d^f,k,1859775393,e[h]):60&amp;gt;h?u(r(g,5),b&amp;amp;d^b&amp;amp;f^d&amp;amp;f,k,2400959708,e[h]):u(r(g,5),b^d^f,k,3395469782,e[h]),k=f,f=d,d=r(b,30),b=g,g=l;a[0]=p(g,a[0]);a[1]=p(b,a[1]);a[2]=p(d,a[2]);a[3]=p(f,a[3]);
+a[4]=p(k,a[4]);return a}function F(c,a,e,g){var b;for(b=(a+65&amp;gt;&amp;gt;&amp;gt;9&amp;lt;&amp;lt;4)+15;c.length&amp;lt;=b;)c.push(0);c[a&amp;gt;&amp;gt;&amp;gt;5]|=128&amp;lt;&amp;lt;24-a%32;c[b]=a+e;e=c.length;for(a=0;a&amp;lt;e;a+=16)g=z(c.slice(a,a+16),g);return g}&amp;quot;function&amp;quot;===typeof define&amp;amp;&amp;amp;define.amd?define(function(){return t}):&amp;quot;undefined&amp;quot;!==typeof exports?&amp;quot;undefined&amp;quot;!==typeof module&amp;amp;&amp;amp;module.exports?module.exports=exports=t:exports=t:E.jsSHA=t})(this);
+
+// This code copyright Nic Raboy https://blog.nraboy.com/2014/10/generate-time-based-one-time-passwords-javascript/
+TOTP = function() {
+
+    var dec2hex = function(s) {
+        return (s &amp;lt; 15.5 ? &amp;quot;0&amp;quot; : &amp;quot;&amp;quot;) + Math.round(s).toString(16);
+    };
+
+    var hex2dec = function(s) {
+        return parseInt(s, 16);
+    };
+
+    var leftpad = function(s, l, p) {
+        if(l + 1 &amp;gt;= s.length) {
+            s = Array(l + 1 - s.length).join(p) + s;
+        }
+        return s;
+    };
+
+    var base32tohex = function(base32) {
+        var base32chars = &amp;quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ234567&amp;quot;;
+        var bits = &amp;quot;&amp;quot;;
+        var hex = &amp;quot;&amp;quot;;
+        for(var i = 0; i &amp;lt; base32.length; i++) {
+            var val = base32chars.indexOf(base32.charAt(i).toUpperCase());
+            bits += leftpad(val.toString(2), 5, &#39;0&#39;);
+        }
+        for(var i = 0; i + 4 &amp;lt;= bits.length; i+=4) {
+            var chunk = bits.substr(i, 4);
+            hex = hex + parseInt(chunk, 2).toString(16) ;
+        }
+        return hex;
+    };
+
+    this.getOTP = function(secret) {
+        try {
+            var epoch = Math.round(new Date().getTime() / 1000.0);
+            var time = leftpad(dec2hex(Math.floor(epoch / 30)), 16, &amp;quot;0&amp;quot;);
+            var hmacObj = new jsSHA(&amp;quot;SHA-1&amp;quot;, &amp;quot;HEX&amp;quot;);
+            hmacObj.setHMACKey(base32tohex(secret), &amp;quot;HEX&amp;quot;)
+            hmacObj.update(time);
+            var hmac = hmacObj.getHMAC(&amp;quot;HEX&amp;quot;);
+            var offset = hex2dec(hmac.substring(hmac.length - 1));
+            var otp = (hex2dec(hmac.substr(offset * 2, 8)) &amp;amp; hex2dec(&amp;quot;7fffffff&amp;quot;)) + &amp;quot;&amp;quot;;
+            otp = (otp).substr(otp.length - 6, 6);
+        } catch (error) {
+            throw error;
+        }
+        return otp;
+    };
+
+}
+
+var totpObj = new TOTP();
+
+// This code copyright Gordon Williams, Pur3 Ltd.,  https://github.com/espruino/Espruino/blob/master/LICENSE
+var kb = require(&amp;quot;USBKeyboard&amp;quot;);
+
+setWatch(function() {
+  // These two lines by Conor O&#39;Neill :-)
+    var pin = &amp;quot;put_your_PIN_Prefix_here&amp;quot;;
+  kb.type(pin + totpObj.getOTP(&amp;quot;put_your_google_authenticator_secret_here&amp;quot;).toString(), function() {
+        kb.tap(kb.KEY.ENTER);
+    });
+}, BTN, {debounce:100,repeat:true, edge:&amp;quot;rising&amp;quot;});
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Node v0.10.40 and v0.12.7 for ARM v7 and v6 (Raspberry Pi, Raspberry Pi 2, Banana Pi, ODroid C1) available</title>
+      <link>http://conoroneill.net/node-v01040-and-v0127-for-arm-v7-raspberry-pi-2-banana-pi-odroid-c1-available/</link>
+      <pubDate>Sat, 11 Jul 2015 19:56:57 +0100</pubDate>
+      
+      <guid>http://conoroneill.net/node-v01040-and-v0127-for-arm-v7-raspberry-pi-2-banana-pi-odroid-c1-available/</guid>
+      <description>&lt;p&gt;I compiled both on a Banana Pi for a change. Nothing special for the 0.12 build, and ./configure &amp;ndash;without-snapshot for the 0.10 build.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;make test&amp;rdquo; threw up the usual 7 minor errors or so.&lt;/p&gt;
+
+&lt;p&gt;I ran both Banana Pi and Raspberry Pi 2 without any immediate obvious issues.&lt;/p&gt;
+
+&lt;p&gt;Enjoy.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v7.tar.gz&#34;&gt;node-v0.10.40-linux-arm-v7.tar.gz&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/node-v0.12.7-linux-arm-v7.tar.gz&#34;&gt;node-v0.12.7-linux-arm-v7.tar.gz&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blog.nodejs.org/2015/07/09/node-v0-10-40-maintenance/&#34;&gt;node v0.10.40 release notes&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blog.nodejs.org/2015/07/10/node-v0-12-7-stable/&#34;&gt;node-v0.12.7 release notes&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir nodetemp
+cd nodetemp
+wget http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v7.tar.gz
+tar -zxvf node-v0.10.40-linux-arm-v7.tar.gz
+cd usr/local
+sudo cp -R * /usr/local/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;UPDATE: I also built 0.10.40 for Raspberry Pi 1 (i.e. Original Model) ARM V6 on a Series 1 Model B:
+* &lt;a href=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v6.tar.gz&#34;&gt;node-v0.10.40-linux-arm-v6.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;UPDATE 2: I also built 0.12.7 for Raspberry Pi 1 (i.e. Original Model) ARM V6 on a Series 1 Model B:
+* &lt;a href=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/09/node-v0.12.7-linux-arm-v6.tar.gz&#34;&gt;node-v0.12.7-linux-arm-v6.tar.gz&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Save your Yahoo Pipes as Node.js Apps for posterity</title>
+      <link>http://conoroneill.net/save-your-yahoo-pipes-as-nodejs-apps-for-posterity/</link>
+      <pubDate>Sat, 06 Jun 2015 15:06:15 +0100</pubDate>
+      
+      <guid>http://conoroneill.net/save-your-yahoo-pipes-as-nodejs-apps-for-posterity/</guid>
+      <description>&lt;p&gt;I swore I&amp;rsquo;d never use another Yahoo product after the cultural terrorism of their Geocities shutdown. Now one of their few bright lights of the past decade, Pipes, is biting the dust. However a very very smart person wrote a program called &lt;a href=&#34;https://github.com/neyric/pipes2js&#34;&gt;pipes2js&lt;/a&gt; three years ago which you may find useful. It converts your Pipes to Node.js apps!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/06/rip_pipes.png&#34; alt=&#34;RIP Pipes&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Installation is a tiny bit different from the instructions as it doesn&amp;rsquo;t seem to be on NPM any more. Here&amp;rsquo;s what worked for me on a Fedora 22 Virtual Box. I assume OSX would be similar. I might try Windows 8.1 later for the laugh.&lt;/p&gt;
+
+&lt;p&gt;The steps are as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;sudo npm install -g git://github.com/neyric/pipes2js.git&lt;/li&gt;
+&lt;li&gt;Go to &lt;a href=&#34;https://pipes.yahoo.com/pipes/&#34;&gt;Yahoo Pipes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Get the ID of each Pipe from its URL&lt;/li&gt;
+&lt;li&gt;pipes2js the_id_of_your_pipe&lt;/li&gt;
+&lt;li&gt;cd pipes/the_id_of_your_pipe/&lt;/li&gt;
+&lt;li&gt;Edit package.json and change &amp;ldquo;pipes2js&amp;rdquo;: &amp;ldquo;0.0.1&amp;rdquo; to &amp;ldquo;pipes2js&amp;rdquo;: &amp;ldquo;git://github.com/neyric/pipes2js.git&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;npm install .&lt;/li&gt;
+&lt;li&gt;node run.js&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The sad reality for me is that most of my Pipes are no longer functional as they use the old brilliantly simple but deprecated Twitter APIs (shakes fist at Twitter too). But it&amp;rsquo;s nice to be able to keep some sort of copy and give 2 fingers to the purple charlatans.&lt;/p&gt;
+
+&lt;p&gt;Update: It runs fine on Windows 8.1 if you have the various Visual Studio Express bits installed to compile Native Node modules. You may also have to run pipes2js with the full path to pipes2js.cmd so Windows can find it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Node.js web-server running on Windows 10 IoT on a @Raspberry_Pi 2. Wow!</title>
+      <link>http://conoroneill.net/a-nodejs-web-server-running-on-windows-10-iot-on-a-raspberry_pi-2-wow/</link>
+      <pubDate>Fri, 01 May 2015 17:49:50 +0100</pubDate>
+      
+      <guid>http://conoroneill.net/a-nodejs-web-server-running-on-windows-10-iot-on-a-raspberry_pi-2-wow/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been Snarky McSnarkenstein about Windows 10 IoT on Raspberry Pi for quite a while. When it was originally announced, everyone seemed to think they were getting full-blown Windows for free on Pi. Many still think this. What you actually get is a GUI-less version of Windows on to which you can deploy Universal Apps (and others). So unlike Raspbian on Pi, you can&amp;rsquo;t actually develop on it, you have to have full Windows 10 running somewhere else to develop, compile, deploy and debug. Or as I said on Twitter:&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Install Visual Studio 2015 on your PC to develop Win10 IoT Apps for &lt;a href=&#34;https://twitter.com/Raspberry_Pi&#34;&gt;@Raspberry_Pi&lt;/a&gt;&amp;quot;. Install Fortran on your PDP-11 to use your ZX Spectrum?&lt;/p&gt;&amp;mdash; Conor O&amp;#39;Neill (@conoro) &lt;a href=&#34;https://twitter.com/conoro/status/593662573347794944&#34;&gt;April 30, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;OK, snark over. Let&amp;rsquo;s give this thing a go.&lt;/p&gt;
+
+&lt;p&gt;Several hours later&amp;hellip;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Installation is still a nightmare in this Preview version. Between clicking on hidden EULAs and installers failing with nonsense errors, not to mention having to install Windows 10 Preview in VirtualBox, this is not for the faint of heart.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/05/Win_10_IOT_RPi.jpg&#34; alt=&#34;Win 10 VBox&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The RaspberryPi bit was ok and creating the image on an SD Card worked fine. Win 10 IoT booted first time with no issues.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/05/win10_iot_rpi_05.jpg&#34; alt=&#34;Win 10 IoT on Pi&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After several more rounds of messing with Visual Studio, I followed the Hello World Tutorial and pointed it at my Pi. I was rather shocked to see it worked!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/05/Win_10_IOT_RPi_02.jpg&#34; alt=&#34;Screen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That was the point the scales fell from my eyes. This is actually a very powerful offering to anyone who uses Microsoft tools already. You can build Drag n Drop Universal Apps which deploy just as easily to the Pi as they do to Windows Desktop/Tablets/Phones. I think Kiosks and Control Dashboards could be a big seller here, particularly for the Pi Compute Module. Obviously Visual Studio itself is damned powerful and is considered by most people, even MSFT haters, to be the most powerful IDE available today.&lt;/p&gt;
+
+&lt;p&gt;Then I decided to go a step further. Could I get a Node.js program to deploy?&lt;/p&gt;
+
+&lt;p&gt;A bunch more stupid installers later&amp;hellip;&amp;hellip;..&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/05/Win_10_IOT_RPi_04.jpg&#34; alt=&#34;Node.js on Vis Studio&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Deploy the code, annnnnnd&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/05/win10_iot.jpg&#34; alt=&#34;Node.js on Pi&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh wow, that is a bit brain melting. So now I have a web-server on Node.js on Windows on Pi on ARM, all debuggable with some kick-ass tools on my PC.&lt;/p&gt;
+
+&lt;p&gt;The only major criticism I can make is that I&amp;rsquo;d like every single piece including VisStudio and all the add-ons to be installable with a command-line package manager. Much easier for everyone.&lt;/p&gt;
+
+&lt;p&gt;I doff my cap to you Mr Nadella, this really is the new Microsoft.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/05/doff_cap.gif&#34; alt=&#34;Cap&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Node v0.12.2 for ARM V6/V7 including Raspberry Pi, Raspberry Pi 2 and ODROID-C1</title>
+      <link>http://conoroneill.net/node-v0122-for-arm-v6v7-including-raspberry-pi-raspberry-pi-2-and-odroid-c1/</link>
+      <pubDate>Fri, 03 Apr 2015 11:32:07 +0100</pubDate>
+      
+      <guid>http://conoroneill.net/node-v0122-for-arm-v6v7-including-raspberry-pi-raspberry-pi-2-and-odroid-c1/</guid>
+      <description>&lt;p&gt;As with Node 0.12.0 and 0.12.1, there are no-precompiled ARM versions of &lt;a href=&#34;http://blog.nodejs.org/2015/03/31/node-v0-12-2-stable/&#34;&gt;0.12.2&lt;/a&gt; on the main site.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/02/nodejs.jpg&#34; alt=&#34;Node.js&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve built for &lt;a href=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/04/node-v0.12.2-linux-arm-pi.tar.gz&#34;&gt;Pi 1 (ARM v6)&lt;/a&gt; and &lt;a href=&#34;http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/04/node-v0.12.2-linux-arm-v7.tar.gz&#34;&gt;ODROID-C1/Pi2 (ARM v7)&lt;/a&gt;. The latter was built on an &lt;a href=&#34;http://www.hardkernel.com/main/products/prdt_info.php?g_code=G141578608433&#34;&gt;ODROID-C1&lt;/a&gt; and it seems to run fine on the Pi 2 since both are ARM v7. It took 1 hr 15 mins to compile compared to 4+ hrs on the Pi 1.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;make test&amp;rdquo; on the ODROID gave the same results as on the Pi 1: [10:33|% 100|+ 784|-   4]: Done&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Download compiled version of Node.js 0.12.1 Stable for Raspberry Pi here</title>
+      <link>http://conoroneill.net/download-compiled-version-of-nodejs-0121-stable-for-raspberry-pi-here/</link>
+      <pubDate>Thu, 26 Mar 2015 09:56:57 +0000</pubDate>
+      
+      <guid>http://conoroneill.net/download-compiled-version-of-nodejs-0121-stable-for-raspberry-pi-here/</guid>
+      <description>&lt;p&gt;Unfortunately, just like 0.12.0, the 0.12.1 release of Node won&amp;rsquo;t compile on Raspberry Pi (pre 2) so I took a patch from &lt;a href=&#34;http://iojs.org&#34;&gt;io.js&lt;/a&gt; and was able to build it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/02/nodejs.jpg&#34; alt=&#34;Node.js&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem is due to recent releases of Raspbian mis-identifying the ARM version so Node tries to build for V7 instead of V6. These &lt;a href=&#34;https://github.com/bnoordhuis/io.js/commit/6f7494292e22b1f1050abeaa43f257ac466edf2b&#34;&gt;two&lt;/a&gt; &lt;a href=&#34;https://github.com/bnoordhuis/io.js/commit/8afcc5e701538e5a442a0334d781eac202cc4e1d&#34;&gt;changes&lt;/a&gt; from this &lt;a href=&#34;https://github.com/iojs/io.js/issues/283&#34;&gt;io.js thread&lt;/a&gt; sort it out.&lt;/p&gt;
+
+&lt;p&gt;I set the Raspberry Pi B+ to Turbo mode and it took 4ish hours to build&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/03/node-v0.12.1-linux-arm-pi.tar.gz&#34;&gt;Download here&lt;/a&gt; and enjoy.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;wget https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/03/node-v0.12.1-linux-arm-pi.tar.gz
+tar -zxvf node-v0.12.1-linux-arm-pi.tar.gz
+cd node-v0.12.1-linux-arm-pi
+sudo cp -R * /usr/local/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Updated files:
+* &lt;a href=&#34;https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/03/configure&#34;&gt;configure&lt;/a&gt;
+* &lt;a href=&#34;https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/03/cpu.cc&#34;&gt;cpu.cc&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Diffs:
+* configure&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-diff&#34;&gt;493a494,495
+&amp;gt;     o[&#39;variables&#39;][&#39;arm_fpu&#39;] = &#39;vfpv3&#39;
+&amp;gt;     o[&#39;variables&#39;][&#39;arm_neon&#39;] = int(is_arm_neon())
+495,496d496
+&amp;lt;   elif is_arch_armv6():
+&amp;lt;     o[&#39;variables&#39;][&#39;arm_version&#39;] = &#39;6&#39;
+498c498,500
+&amp;lt;     o[&#39;variables&#39;][&#39;arm_version&#39;] = &#39;default&#39;
+---
+&amp;gt;     o[&#39;variables&#39;][&#39;arm_fpu&#39;] = &#39;vfpv2&#39;
+&amp;gt;     o[&#39;variables&#39;][&#39;arm_neon&#39;] = 0
+&amp;gt;     o[&#39;variables&#39;][&#39;arm_version&#39;] = &#39;6&#39; if is_arch_armv6() else &#39;default&#39;
+500,501d501
+&amp;lt;   o[&#39;variables&#39;][&#39;arm_fpu&#39;] = &#39;vfpv3&#39;  # V8 3.18 no longer supports VFP2.
+&amp;lt;   o[&#39;variables&#39;][&#39;arm_neon&#39;] = int(is_arm_neon())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;cpu.cc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-diff&#34;&gt;368c368
+&amp;lt;     // We try to correct this by looking at the &#39;elf_platform&#39;
+---
+&amp;gt;     // We try to correct this by looking at the &#39;elf_format&#39;
+374c374
+&amp;lt;       char* processor = cpu_info.ExtractField(&amp;quot;model name&amp;quot;);
+---
+&amp;gt;       char* processor = cpu_info.ExtractField(&amp;quot;Processor&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make Test Output: [25:08|% 100|+ 775|-   6]: Done
+(failures seem to be timeouts mainly)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Download compiled version of Node.js 0.12.0 Stable for Raspberry Pi here</title>
+      <link>http://conoroneill.net/download-compiled-version-of-nodejs-0120-stable-for-raspberry-pi-here/</link>
+      <pubDate>Sun, 08 Feb 2015 12:45:55 +0000</pubDate>
+      
+      <guid>http://conoroneill.net/download-compiled-version-of-nodejs-0120-stable-for-raspberry-pi-here/</guid>
+      <description>&lt;p&gt;Unfortunately the &lt;a href=&#34;http://blog.nodejs.org/2015/02/06/node-v0-12-0-stable/&#34;&gt;0.12.0 release&lt;/a&gt; of Node won&amp;rsquo;t compile on a non-V2 Raspberry Pi so I took a patch from &lt;a href=&#34;http://iojs.org&#34;&gt;io.js&lt;/a&gt; and was able to build it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/02/nodejs.jpg&#34; alt=&#34;Node.js&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem is due to recent releases of Raspbian mis-identifying the ARM version so Node tries to build for V7 instead of V6. These &lt;a href=&#34;https://github.com/bnoordhuis/io.js/commit/6f7494292e22b1f1050abeaa43f257ac466edf2b&#34;&gt;two&lt;/a&gt; &lt;a href=&#34;https://github.com/bnoordhuis/io.js/commit/8afcc5e701538e5a442a0334d781eac202cc4e1d&#34;&gt;changes&lt;/a&gt; from this &lt;a href=&#34;https://github.com/iojs/io.js/issues/283&#34;&gt;io.js thread&lt;/a&gt; sort it out.&lt;/p&gt;
+
+&lt;p&gt;It took a lonnnngggg time to build directly on my RPi Model B+.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/02/node-v0.12.0-linux-arm-pi.tar.gz&#34;&gt;Download here&lt;/a&gt; and enjoy.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;wget https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/02/node-v0.12.0-linux-arm-pi.tar.gz
+tar -zxvf node-v0.12.0-linux-arm-pi.tar.gz
+cd node-v0.12.0-linux-arm-pi
+sudo cp -R * /usr/local/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Works perfectly for &lt;a href=&#34;http://harpjs.com/&#34;&gt;Harp.js&lt;/a&gt;, including the ever-problematic node-sass with its native bits.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross Dominant &middot; Cross Dominant</title>
+
+    <meta name="description" content="Mixed laterality since 1968">
+
+    <meta name="generator" content="Hugo 0.15" />
+    <meta name="twitter:card" content="summary">
+    
+    <meta name="twitter:title" content="Cross Dominant &middot; Cross Dominant">
+    <meta name="twitter:description" content="Mixed laterality since 1968">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Cross Dominant &middot; Cross Dominant">
+    <meta property="og:description" content="Mixed laterality since 1968">
+
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="http://conoroneill.net//css/all.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="alternate" type="application/rss+xml" title="Cross Dominant" href="http://conoroneill.net/index.xml" />
+</head>
+<body>
+
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+        <hgroup>
+            <h1 class="brand-title"><a href="http://conoroneill.net/">Cross Dominant</a></h1>
+            <h2 class="brand-tagline"> Mixed laterality since 1968 </h2>
+        </hgroup>			
+        <nav class="nav">
+            <ul class="nav-list">
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="https://twitter.com/conoro"><i class="fa fa-twitter"></i> Twitter</a>
+                </li>
+                
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="https://github.com/conoro "><i class="fa fa-github-alt"></i> github</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="http://conoroneill.net/index.xml"><i class="fa fa-rss"></i> rss</a>
+                </li>
+            </ul>
+        </nav>
+		<script>
+  (function() {
+    var cx = '001461447920948202874:5htheqgvd1w';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+    </div>
+</div>
+
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            
+            <div class="posts">
+                
+                <h1 class="content-subhead">06 Jun 2015, 15:06</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/save-your-yahoo-pipes-as-nodejs-apps-for-posterity/" class="post-title">Save your Yahoo Pipes as Node.js Apps for posterity</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>I swore I&rsquo;d never use another Yahoo product after the cultural terrorism of their Geocities shutdown. Now one of their few bright lights of the past decade, Pipes, is biting the dust. However a very very smart person wrote a program called <a href="https://github.com/neyric/pipes2js">pipes2js</a> three years ago which you may find useful. It converts your Pipes to Node.js apps!</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/06/rip_pipes.png" alt="RIP Pipes" /></p>
+
+<p>Installation is a tiny bit different from the instructions as it doesn&rsquo;t seem to be on NPM any more. Here&rsquo;s what worked for me on a Fedora 22 Virtual Box. I assume OSX would be similar. I might try Windows 8.1 later for the laugh.</p>
+
+<p>The steps are as follows:</p>
+
+<ul>
+<li>sudo npm install -g git://github.com/neyric/pipes2js.git</li>
+<li>Go to <a href="https://pipes.yahoo.com/pipes/">Yahoo Pipes</a></li>
+<li>Get the ID of each Pipe from its URL</li>
+<li>pipes2js the_id_of_your_pipe</li>
+<li>cd pipes/the_id_of_your_pipe/</li>
+<li>Edit package.json and change &ldquo;pipes2js&rdquo;: &ldquo;0.0.1&rdquo; to &ldquo;pipes2js&rdquo;: &ldquo;git://github.com/neyric/pipes2js.git&rdquo;</li>
+<li>npm install .</li>
+<li>node run.js</li>
+</ul>
+
+<p>The sad reality for me is that most of my Pipes are no longer functional as they use the old brilliantly simple but deprecated Twitter APIs (shakes fist at Twitter too). But it&rsquo;s nice to be able to keep some sort of copy and give 2 fingers to the purple charlatans.</p>
+
+<p>Update: It runs fine on Windows 8.1 if you have the various Visual Studio Express bits installed to compile Native Node modules. You may also have to run pipes2js with the full path to pipes2js.cmd so Windows can find it.</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">01 May 2015, 17:49</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/a-nodejs-web-server-running-on-windows-10-iot-on-a-raspberry_pi-2-wow/" class="post-title">A Node.js web-server running on Windows 10 IoT on a @Raspberry_Pi 2. Wow!</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>I&rsquo;ve been Snarky McSnarkenstein about Windows 10 IoT on Raspberry Pi for quite a while. When it was originally announced, everyone seemed to think they were getting full-blown Windows for free on Pi. Many still think this. What you actually get is a GUI-less version of Windows on to which you can deploy Universal Apps (and others). So unlike Raspbian on Pi, you can&rsquo;t actually develop on it, you have to have full Windows 10 running somewhere else to develop, compile, deploy and debug. Or as I said on Twitter:</p>
+
+<p><blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">&quot;Install Visual Studio 2015 on your PC to develop Win10 IoT Apps for <a href="https://twitter.com/Raspberry_Pi">@Raspberry_Pi</a>&quot;. Install Fortran on your PDP-11 to use your ZX Spectrum?</p>&mdash; Conor O&#39;Neill (@conoro) <a href="https://twitter.com/conoro/status/593662573347794944">April 30, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>OK, snark over. Let&rsquo;s give this thing a go.</p>
+
+<p>Several hours later&hellip;&hellip;</p>
+
+<p>Installation is still a nightmare in this Preview version. Between clicking on hidden EULAs and installers failing with nonsense errors, not to mention having to install Windows 10 Preview in VirtualBox, this is not for the faint of heart.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/05/Win_10_IOT_RPi.jpg" alt="Win 10 VBox" /></p>
+
+<p>The RaspberryPi bit was ok and creating the image on an SD Card worked fine. Win 10 IoT booted first time with no issues.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/05/win10_iot_rpi_05.jpg" alt="Win 10 IoT on Pi" /></p>
+
+<p>After several more rounds of messing with Visual Studio, I followed the Hello World Tutorial and pointed it at my Pi. I was rather shocked to see it worked!</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/05/Win_10_IOT_RPi_02.jpg" alt="Screen" /></p>
+
+<p>That was the point the scales fell from my eyes. This is actually a very powerful offering to anyone who uses Microsoft tools already. You can build Drag n Drop Universal Apps which deploy just as easily to the Pi as they do to Windows Desktop/Tablets/Phones. I think Kiosks and Control Dashboards could be a big seller here, particularly for the Pi Compute Module. Obviously Visual Studio itself is damned powerful and is considered by most people, even MSFT haters, to be the most powerful IDE available today.</p>
+
+<p>Then I decided to go a step further. Could I get a Node.js program to deploy?</p>
+
+<p>A bunch more stupid installers later&hellip;&hellip;..</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/05/Win_10_IOT_RPi_04.jpg" alt="Node.js on Vis Studio" /></p>
+
+<p>Deploy the code, annnnnnd</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/05/win10_iot.jpg" alt="Node.js on Pi" /></p>
+
+<p>Oh wow, that is a bit brain melting. So now I have a web-server on Node.js on Windows on Pi on ARM, all debuggable with some kick-ass tools on my PC.</p>
+
+<p>The only major criticism I can make is that I&rsquo;d like every single piece including VisStudio and all the add-ons to be installable with a command-line package manager. Much easier for everyone.</p>
+
+<p>I doff my cap to you Mr Nadella, this really is the new Microsoft.</p>
+
+<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/05/doff_cap.gif" alt="Cap" /></p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">03 Apr 2015, 11:32</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/node-v0122-for-arm-v6v7-including-raspberry-pi-raspberry-pi-2-and-odroid-c1/" class="post-title">Node v0.12.2 for ARM V6/V7 including Raspberry Pi, Raspberry Pi 2 and ODROID-C1</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>As with Node 0.12.0 and 0.12.1, there are no-precompiled ARM versions of <a href="http://blog.nodejs.org/2015/03/31/node-v0-12-2-stable/">0.12.2</a> on the main site.</p>
+
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/02/nodejs.jpg" alt="Node.js" /></p>
+
+<p>I&rsquo;ve built for <a href="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/04/node-v0.12.2-linux-arm-pi.tar.gz">Pi 1 (ARM v6)</a> and <a href="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/04/node-v0.12.2-linux-arm-v7.tar.gz">ODROID-C1/Pi2 (ARM v7)</a>. The latter was built on an <a href="http://www.hardkernel.com/main/products/prdt_info.php?g_code=G141578608433">ODROID-C1</a> and it seems to run fine on the Pi 2 since both are ARM v7. It took 1 hr 15 mins to compile compared to 4+ hrs on the Pi 1.</p>
+
+<p>&ldquo;make test&rdquo; on the ODROID gave the same results as on the Pi 1: [10:33|% 100|+ 784|-   4]: Done</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">26 Mar 2015, 09:56</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/download-compiled-version-of-nodejs-0121-stable-for-raspberry-pi-here/" class="post-title">Download compiled version of Node.js 0.12.1 Stable for Raspberry Pi here</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>Unfortunately, just like 0.12.0, the 0.12.1 release of Node won&rsquo;t compile on Raspberry Pi (pre 2) so I took a patch from <a href="http://iojs.org">io.js</a> and was able to build it.</p>
+
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/02/nodejs.jpg" alt="Node.js" /></p>
+
+<p>The problem is due to recent releases of Raspbian mis-identifying the ARM version so Node tries to build for V7 instead of V6. These <a href="https://github.com/bnoordhuis/io.js/commit/6f7494292e22b1f1050abeaa43f257ac466edf2b">two</a> <a href="https://github.com/bnoordhuis/io.js/commit/8afcc5e701538e5a442a0334d781eac202cc4e1d">changes</a> from this <a href="https://github.com/iojs/io.js/issues/283">io.js thread</a> sort it out.</p>
+
+<p>I set the Raspberry Pi B+ to Turbo mode and it took 4ish hours to build</p>
+
+<p><a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/03/node-v0.12.1-linux-arm-pi.tar.gz">Download here</a> and enjoy.</p>
+
+<pre><code class="language-javascript">wget https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/03/node-v0.12.1-linux-arm-pi.tar.gz
+tar -zxvf node-v0.12.1-linux-arm-pi.tar.gz
+cd node-v0.12.1-linux-arm-pi
+sudo cp -R * /usr/local/
+</code></pre>
+
+<p>Updated files:
+* <a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/03/configure">configure</a>
+* <a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/03/cpu.cc">cpu.cc</a></p>
+
+<p>Diffs:
+* configure</p>
+
+<pre><code class="language-diff">493a494,495
+&gt;     o['variables']['arm_fpu'] = 'vfpv3'
+&gt;     o['variables']['arm_neon'] = int(is_arm_neon())
+495,496d496
+&lt;   elif is_arch_armv6():
+&lt;     o['variables']['arm_version'] = '6'
+498c498,500
+&lt;     o['variables']['arm_version'] = 'default'
+---
+&gt;     o['variables']['arm_fpu'] = 'vfpv2'
+&gt;     o['variables']['arm_neon'] = 0
+&gt;     o['variables']['arm_version'] = '6' if is_arch_armv6() else 'default'
+500,501d501
+&lt;   o['variables']['arm_fpu'] = 'vfpv3'  # V8 3.18 no longer supports VFP2.
+&lt;   o['variables']['arm_neon'] = int(is_arm_neon())
+</code></pre>
+
+<ul>
+<li>cpu.cc</li>
+</ul>
+
+<pre><code class="language-diff">368c368
+&lt;     // We try to correct this by looking at the 'elf_platform'
+---
+&gt;     // We try to correct this by looking at the 'elf_format'
+374c374
+&lt;       char* processor = cpu_info.ExtractField(&quot;model name&quot;);
+---
+&gt;       char* processor = cpu_info.ExtractField(&quot;Processor&quot;);
+</code></pre>
+
+<ul>
+<li>Make Test Output: [25:08|% 100|+ 775|-   6]: Done
+(failures seem to be timeouts mainly)</li>
+</ul>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">08 Feb 2015, 12:45</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/download-compiled-version-of-nodejs-0120-stable-for-raspberry-pi-here/" class="post-title">Download compiled version of Node.js 0.12.0 Stable for Raspberry Pi here</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>Unfortunately the <a href="http://blog.nodejs.org/2015/02/06/node-v0-12-0-stable/">0.12.0 release</a> of Node won&rsquo;t compile on a non-V2 Raspberry Pi so I took a patch from <a href="http://iojs.org">io.js</a> and was able to build it.</p>
+
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/02/nodejs.jpg" alt="Node.js" /></p>
+
+<p>The problem is due to recent releases of Raspbian mis-identifying the ARM version so Node tries to build for V7 instead of V6. These <a href="https://github.com/bnoordhuis/io.js/commit/6f7494292e22b1f1050abeaa43f257ac466edf2b">two</a> <a href="https://github.com/bnoordhuis/io.js/commit/8afcc5e701538e5a442a0334d781eac202cc4e1d">changes</a> from this <a href="https://github.com/iojs/io.js/issues/283">io.js thread</a> sort it out.</p>
+
+<p>It took a lonnnngggg time to build directly on my RPi Model B+.</p>
+
+<p><a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/02/node-v0.12.0-linux-arm-pi.tar.gz">Download here</a> and enjoy.</p>
+
+<pre><code class="language-javascript">wget https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/02/node-v0.12.0-linux-arm-pi.tar.gz
+tar -zxvf node-v0.12.0-linux-arm-pi.tar.gz
+cd node-v0.12.0-linux-arm-pi
+sudo cp -R * /usr/local/
+</code></pre>
+
+<p>Works perfectly for <a href="http://harpjs.com/">Harp.js</a>, including the ever-problematic node-sass with its native bits.</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">04 Jan 2015, 13:42</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/bandon-flood-warning-data-now-scraped-to-google-fusion-tables-using-nodejs/" class="post-title">Bandon Flood Warning data now scraped to Google Fusion Tables using Node.js on ODROID-C1 and OpenShift</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        
+
+<p>After 3 years running as a Python script on a file server, the Bandon FEWS scraper is now running on an ODROID-C1 under Node.js and soon on OpenShift.</p>
+
+<h2 id="introduction:68488b35c9290c9755b8db0d35a0e512">Introduction</h2>
+
+<p>Cork County Council in Ireland has a site called <a href="http://www.bandonfloodwarning.ie/">Bandon FEWS</a> (Bandon Flood Early Warning System). When the Bandon river hits certain levels near Bandon town, it alerts registered users via SMS in case they need to take emergency measures. It&rsquo;s a very useful service and is very necessary due to the regular flooding that occurs. However the historical river level data is not available in any useful form and that&rsquo;s the point of this project.</p>
+
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/01/Nov09Hickeys.jpg" alt="Hickey's Bandon" title="Flooding in 2009" /></p>
+
+<p>In November 2011, I created <a href="http://conoroneill.com/2011/11/17/bandon-flood-fews-open-data-now-available/">a simple Python script</a> which scrapes the site every 15 minutes and saves the river level to a Google Fusions Table &ldquo;spreadsheet&rdquo; <a href="https://www.google.com/fusiontables/DataSource?docid=103YIcARoxuaWT7NfZ8mVBzY554sF_3ONYC1N3DE#rows:id=1">here</a>. This now has (with a few interruptions) 3 years of data which anyone can query, re-use or slice-dice and mashup with weather info. Not that anyone has done this :-)</p>
+
+<p>The script has been running on a small home Ubuntu fileserver all this time but stopped working mid-December 2014 either due to changes with the page structure of the Council site or as unexpected fallout from upgrading to Ubuntu 14.04. I have therefore re-written it in Node.js which has the big added advantage that there are free hosting possibilities for this code such as my employer Red Hat&rsquo;s <a href="https://www.openshift.com/">OpenShift</a>.</p>
+
+<p>Code is now available on <a href="https://github.com/conoro/bandonfews-nodejs">GitHub here</a>.</p>
+
+<p>The code started as Google&rsquo;s example G+ OAuth code but now has the bulk of the functionality completed. It is running reliably under Supervisor on an <a href="http://www.hardkernel.com/main/products/prdt_info.php?g_code=G141578608433">ODROID-C1</a> single-board computer on my desk.</p>
+
+<p>To use it for something else on Fusion Tables, the main thing you need to do is setup an App in the <a href="https://console.developers.google.com/project?authuser=0">Google API Console</a>, enable Fusion Tables API access and use those keys in the placeholders in the config files.</p>
+
+<h2 id="files:68488b35c9290c9755b8db0d35a0e512">Files</h2>
+
+<ul>
+<li>main.js - The main code</li>
+<li>bandonfews.conf - Supervisor config file. Copy to /etc/supervisor/conf.d/bandonfews.conf then <code>sudo supervisorctl reread</code> and <code>sudo supervisorctl reread</code></li>
+<li>tokens-example.json - rename to tokens.json. Will be auto-generated by the code on first run in any case</li>
+<li>config-example.json - Rename to config.json and fill out the Google OAuth API key/secret, the URL of the FEWS site and the id of the Fusion Table</li>
+<li>index.html - Placeholder for upcoming landing page</li>
+<li>server.js - Placeholder for upcoming API server</li>
+<li>package.json - Required Node.js packages. <code>npm install</code> to install everything</li>
+<li>.gitignore - Stuff that shouldn&rsquo;t go under Git control</li>
+</ul>
+
+<h2 id="openshift-environment-variables:68488b35c9290c9755b8db0d35a0e512">OpenShift Environment Variables</h2>
+
+<p>If you are running on OpenShift, you need a way to set various keys etc without adding them to files in Git which could potentially leak accidentally if you also put a copy up on GitHub. So set the following (mirroring the equivalent ones in config.json and tokens.json):</p>
+
+<p><code>rhc set-env access_token=&quot;blah&quot; token_type=&quot;Bearer&quot; refresh_token=&quot;blah&quot; expiry_date=1419970265050 client_id=&quot;blah&quot; client_secret=&quot;blah&quot; redirect_url=&quot;http://localhost&quot; fews_url=&quot;http://www.bandonfloodwarning.ie/main.php&quot; fusiontables_id=&quot;blah&quot; -a bandonfews</code></p>
+
+<h2 id="to-do:68488b35c9290c9755b8db0d35a0e512">TO-DO</h2>
+
+<ul>
+<li>The first time run is currently broken for the OAuth credentials. Easy fix coming.</li>
+<li>OpenShift is SIGINT&rsquo;ing it for some unknown reason after a random time which is why it&rsquo;s running on the ODROID for the moment</li>
+<li>It should have a simple Express based API so others can avoid the pain of dealing with the Fusion Tables API for basic queries</li>
+<li>It should have a simple landing page showing the latest water level and maybe a graph</li>
+<li>It should add back in the functionality of the old Python code for posting to COSM</li>
+<li>???</li>
+</ul>
+
+<h2 id="release-notes:68488b35c9290c9755b8db0d35a0e512">Release Notes</h2>
+
+<ul>
+<li>04/01/2015 - First public usable version</li>
+</ul>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">21 Dec 2014, 17:44</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/introducing-fitbits-first-sports-tracker-for-superheroes-the-fitbat/" class="post-title">Introducing FitBit&#39;s first sports tracker for Superheroes - The FitBat</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>Finally the product that Superheroes everywhere have been crying out for - The FitBat. I&rsquo;m sure the protector of Gotham would approve.</p>
+
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/fitbat.jpg" alt="FitBat" title="FitBat" /></p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">13 Dec 2014, 19:59</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/say-hello-to-my-little-friend-the-fitbit-xl-with-external-battery-by-conor/" class="post-title">Say hello to my little friend. The Fitbit XL with external battery by Conor</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>My first Fitbit died in the washing machine and they kindly replaced it for free. The replacement&rsquo;s battery started acting up recently and finally gave up the ghost last night. You won&rsquo;t believe what happens next ;-)</p>
+
+<p>I figured out how to take apart the Fitbit One on the original dead one so this time I managed to do it with no damage. I de-soldered the battery and tried the old one instead. No joy. I&rsquo;ve found some Chinese suppliers of 55mAh Lipos but I don&rsquo;t have the patience to wait. One slightly too big battery and some hot-glue later and I give you the FitBit One XL.</p>
+
+<p>Now that I know it works, I&rsquo;ll remove most of the hot glue and try some Shoe Goo instead.
+Front
+<img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/fitbit1.jpg" alt="Front" title="Front" /></p>
+
+<p>Back
+<img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/fitbit2.jpg" alt="Back" title="Back" /></p>
+
+<p>Wearables.
+<img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/fitbit3.jpg" alt="In its clip" title="In its clip" /></p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">13 Dec 2014, 14:35</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/some-of-my-old-red-hat-floppy-disks-from-2000-2004/" class="post-title">Some of my old Red Hat floppy disks from 2000-2004</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>We had to empty our attic to get the house insulated this week. I uncovered some old Red Hat and Fedora floppies and CDs. I previously had much older ones but was quite ruthless about reusing floppies in the old days!</p>
+
+<p>The very first Linux I installed was Slackware on a self-built AMD K5 PC in Sunnyvale in 1996 (I&rsquo;ve never built a PC with Intel CPUs! Current box is self-built FX-8 Eight Core 8370). I was so traumatised by the Slackware experience, as a Windows 95 user, that I didn&rsquo;t try again until &lsquo;97 with Red Hat Linux 4. My oldest floppy is from Red Hat 6.2 in 2000:</p>
+
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/redhat_62b.jpg" alt="Red Hat 6.2" title="Red Hat 6.2" /></p>
+
+<p>I then found a guy in the UK who would burn each new release of Red Hat onto CDs and send them to you for a few quid. That kept me going for ages. Here&rsquo;s a Red Hat 7.0 boot floppy cunningly reusing a Windows NT disk:</p>
+
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/redhat_70b.jpg" alt="Red Hat 7.0" title="Red Hat 7.0" /></p>
+
+<p>Then Red Hat 7.3 updates on CD</p>
+
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/redhat_73b.jpg" alt="Red Hat 7.3" title="Red Hat 7.3" /></p>
+
+<p>And finally Fedora Core 1 boot disk:</p>
+
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/fedora_fc1b.jpg" alt="Fedora Core 1" title="Fedora Core 1" /></p>
+
+<p>Next week I finally rid myself of the last vestiges of Ubuntu and move the home-office file server to CentOS 7 :-) I&rsquo;m baaaaaaaack.</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">29 Nov 2014, 15:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://conoroneill.net/conors-thanksgiving-tech-miscellany/" class="post-title">Conor&#39;s Thanksgiving Tech Miscellany</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>As always, so many great tech things happening out there, so little time to blog them, let alone do anything useful with them.</p>
+
+<p>These posts are like a curated, contextualised version of my <a href="https://pinboard.in/u:conoro">Pinboard account</a>. Here&rsquo;s hoping y&rsquo;all find something useful below.</p>
+
+<ul>
+<li><p><strong>ATOM</strong> - The <a href="https://atom.io/">Atom editor</a> by GitHub is coming along nicely and even works well <a href="https://chocolatey.org/packages/atom">on Windows now</a>. I also discovered that Windows now has a package installer called <a href="https://chocolatey.org/packages/atom">Chocolatey</a> which is pretty cool. I still think building an editor on a browser engine is somehow wrong tho.</p></li>
+
+<li><p><strong>Google Compute Engine</strong> - I moved an old Django web-app to <a href="https://cloud.google.com/compute/">Google Compute Engine</a> recently. This has previously run seamlessly on a variety of dedicated server providers, on Amazon EC2 and on Amazon EC2 + RDS. It has been anything but seamless on GCE with multiple access errors to CloudSQL per week and random server reboots. Sure, cloud servers should be treated like <a href="http://www.slideshare.net/randybias/architectures-for-open-and-scalable-clouds">cattle and not pets</a> (my fave Ops phrase recently) but this isn&rsquo;t good enough from Google. I couldn&rsquo;t recommend it to anyone for small production deployments. And unless you are willing to pay for support, you are stuck with &ldquo;community support&rdquo; on Stack Overflow if you have problems. This is pretty ridiculous when they are providing $300 worth of credits (or 60 days) for free. If the bloody thing is unreliable and support is barely accessible, the free offer basically sends people away for life. If you want public cloud, stick with EC2.</p></li>
+
+<li><p><strong>OpenShift</strong> - Now that I&rsquo;m a RedHatter (getting the red fedora on Tuesday, woohoo!), I&rsquo;ve been playing around with <a href="https://www.openshift.com/products/online">OpenShift Online</a>. It&rsquo;s a really easy to use git-based flow into a PaaS and I&rsquo;ve got both Node and Go apps running on the free tier with no effort. MongoDB is running nicely for me there too. It&rsquo;s a great way to bootstrap an API server and if you are looking to do something with Open Data, it would make a superb base. It also helps that it&rsquo;s from a company that has Open Source built into its DNA, not just as a morketing tool.</p></li>
+
+<li><p><strong>Yosemite</strong> - If the trackpad on your MBP goes all weird and refuses to click on stuff after you &ldquo;upgrade&rdquo; to Yosemite, <a href="http://support.apple.com/kb/PH14222?viewlocale=en_US">this trick worked for me</a> where you reset the PRAM.</p></li>
+
+<li><p><strong>Hudl 2</strong> - We got a <a href="http://www.tesco.com/direct/hudl2-8-wi-fi-tablet/454-7907.prd?pageLevel=&amp;skuId=397-7926">Tesco Hudl 2</a> Android tablet for my 8yo daughter for her birthday. If you want to buy from Ireland, you can get from Tesco UK Online and use your Parcel Motel address for delivery. Initial impressions have been overwhelmingly positive. The 8.3&rdquo; full-HD screen is superb, the Intel CPU is surprisingly fast, the back camera is good and the stock Android experience is great. It also takes SD cards and has HDMI out. XBMC/Kodi runs beautifully on it too. The only two tiny negatives are that it is quite heavy and there are too many unremovable Tesco UK widgets on some of the home screens. If you are in the market for an Android tablet this Christmas, I honestly haven&rsquo;t been able to find anything that comes close for even a lot more money. I see almost no practical difference between it and my latest-model iPad Mini which is hugely more expensive.</p></li>
+
+<li><p><strong>Google Cardboard Apps</strong> - <a href="https://play.google.com/store/apps/details?id=com.visor.visionhacker&amp;hl=en">Reality Hacker</a> is a Google Cardboard App which is completely head-wrecking and full of awesome. It basically gives you a filtered view of what the phone camera can see. You immediately feel like you are in a Sci-Fi movie or you are Robocop. If you haven&rsquo;t bought a bunch of Google Cardboards as stocking fillers this Christmas, you and your Android-owning friends/family are missing out big time. I get mine from Elecfreaks in China but it&rsquo;s a long wait. I assume someone in Europe is dong them at this stage?</p></li>
+
+<li><p><strong>Just Dance</strong> - <a href="http://www.google.com/intl/en_ie/chrome/devices/chromecast/index.html">Chromecast</a> is another bloody bargain that we aren&rsquo;t using massively but I still like the fact that it is there. It can do a lot more than Netflix. Once I explained to the 8yo that she can cast any YouTube video from her Hudl to the TV, she was hooked. But the app that showed what&rsquo;s really possible with a €39 TV dongle is <a href="https://play.google.com/store/apps/details?id=com.ubisoft.dance.JustDance&amp;hl=en">Just Dance Now</a>. Instead of the usual Wii and Wiimotes that we use in our house for Just Dance, you use your Android phone, a free App and Chromecast. It works perfectly. The kids were very impressed. The only teeny tiny downside is that they are now moving their arms around quickly with a large €600 phone in their hands rather than a small cheap Wiimote!</p></li>
+
+<li><p><strong>Chromebooks</strong> - Still waiting for the perfect Chromebook that I can dual-boot into Linux. It seems <em>all</em> Chromebooks on Amazon UK are 2GB only, which is ridiculous. I want 4GB, 32GB SSD, 13&rdquo;, a Haswell CPU and non-disastrous build quality. Too much to ask?</p></li>
+
+<li><p><strong>Stupid MBP</strong> - If Apple are such design geniuses, why do MBPs still have a Caps Lock key and the utterly ridiculous § key? Do yourself a favour and install both <a href="https://pqrs.org/osx/karabiner/index.html.en">Karabiner</a> and <a href="https://pqrs.org/osx/karabiner/seil.html.en">Seil</a>. Caps Lock is now a second Shift key for me and the stupid key is now #.</p></li>
+
+<li><p><strong>iBeacons and BLE</strong> - <a href="http://developer.radiusnetworks.com/2014/11/18/beacon-transmission-with-android-5.html">Android 5.0</a> now lets phones act as (i)-Beacons. Very useful for event check-in.</p></li>
+
+<li><p><strong>Plex Media Server</strong> - I&rsquo;ve had a few goes at installing Plex over the years but never had much success with it. I hate &ldquo;library&rdquo; features on most media apps (glares at almost all Android music players) and much prefer a folder view of the world. But Plex gets very confused if it finds multiple directories called something like &ldquo;Season 1&rdquo;. So after a big media clean-up on directory names, it now seems to work ok. We need it in our house due to the inability to install XBMC on iOS devices and their lack of any media playing app that can use SMB shares. So far so good and they have just announced the one thing I needed before I let the kids use Plex - <a href="https://blog.plex.tv/2014/11/20/introducing-plex-home/">family controls</a>.</p></li>
+
+<li><p><strong>Hook.io</strong> - Marak, one of the original founders of a certain Node company, is back promoting his <a href="https://github.com/bigcompany/hook.io">hook.io</a> platform again. Very interesting approach to webhooks and micro-services. Open source now too.</p></li>
+
+<li><p><strong>Hackathons</strong> - I cringed recently at a conference in London where some big name tech companies were running a &ldquo;hackathon&rdquo;. Participants were directed to build web-apps which had to use the &ldquo;sponsors&rdquo; products and which would result in some really shitty prizes. A Raspberry Pi, for fucks sake, all £35 worth. I was stunned to see people had turned up to waste their day working for free for someone else on this. To what end? Which is why I adore <a href="http://lav.io/2014/11/stupid-projects-from-the-stupid-hackathon/">Stupid Projects from the Stupid Hackathon</a> which has the best/worst ideas from the Stupid Shit No One Needs &amp; Terrible Ideas Hackathon.</p></li>
+
+<li><p><strong>Espruino</strong> - I&rsquo;m really delighted that the <a href="https://www.kickstarter.com/projects/gfw/espruino-pico-javascript-on-a-usb-stick">Espruino Pico Kickstarter</a> by Gordon Williams got backed and hit several of the stretch goals. The idea of a tiny USB stick that can emulate a KB/Mouse and is fully programmable to control hardware in JavaScript via your Chrome browser is just too cool. It also has Scratch-style blocks programming. I said it already on Twitter but I think this might be a better tool than raw Arduino for getting kids into programming and hacking and hardware. But it needs a bigger community of contributors which I hope it&rsquo;ll get from all the Pico backers. Speaking of which, I am 7 months overdue doing a full debug of the NRF24L01 code to figure out why they can talk Espruino to Espruino and Arduino to Arduino but not Espruino to Arduino or vice versa.</p></li>
+
+<li><p><strong>Wireless Comms</strong> - Also speaking of the NRF24L01, <a href="https://github.com/TMRh20/RF24">this branch</a> of the main Arduino and Raspberry Pi library seems a lot better than the one I used previously. Next week I&rsquo;ll blog about my wireless switch which uses the sample code with a few tiny changes.</p></li>
+
+<li><p><strong>Hot and Sticky</strong> - I love hot glue but so far I&rsquo;ve hated hot glue guns. Unreliable, clunky, awkward pieces of crap that take 5+ minutes to heat up. Then a few weeks ago, I discovered the <a href="http://www.amazon.co.uk/Bosch-Lithium-Ion-Cordless-Glue-Pen/dp/B00CI8FDUO">Bosch GluePen</a>. A lithium battery powered piece of brilliance that charges via micro-USB and heats up in 10 seconds. 10 seconds! Of course I bought one. Love it to bits.</p></li>
+
+<li><p><strong>Ron Swanson</strong> - <a href="https://www.youtube.com/watch?v=Q8gGsuWouDE">Nick Offerman&rsquo;s Handcrafted Wood Emojis</a>. Nuff said.</p></li>
+
+<li><p><strong>Lenovo and Dabs Hell</strong> - Absolutely horrendous experience buying a Lenovo E555 laptop from dabs4work.ie. I&rsquo;ve been a Dabs customer for absolutely years and previously never had hassle with them, even with returns. But they now have a brain-dead policy that you must deal with the manufacturer first to arrange an RMA and only then contact them. The E555 that arrived was a piece of garbage. The space bar was hanging off, the keyboard looked like it cost 15c to make, the screen was randomly covered in colour blocks, the USB ports would&rsquo;t recognise a mouse and the whole machine froze solid every few minutes and needed a hard reboot. It took days of trying to ring Lenovo/IBM/Medion (which one depended on who you talked to) to get a return approved. Eventually I got an email saying I had contacted the wrong department followed 10 minutes later by an RMA approval! Complete clowns. Avoid avoid avoid Lenovo. Then I got on to Dabs where I clicked &ldquo;arrange collection&rdquo; which of course failed on the last step. This was followed by a series of emails, at a rate of one per day, where I tried to arrange collection. The courier arrived 2 days after promised and I finally got a refund whereby I immediately bought an Acer on Amazon instead. 18 days of grief spells the end of a very long buying relationship with Dabs. When are these companies going to realise that people may come for prices but they stay for customer service (ditto Google Compute Engine). In comparison I bought some second hand DDR2 memory from an eBay seller in the UK. One of the RAM modules was faulty. They sent me a replacement immediately and asked me to return the dodgy one only when I got it. That&rsquo;s how you keep repeat business.</p></li>
+</ul>
+
+                    </div>
+                </section>
+                
+            </div>
+            
+<div class="pagination">
+  <nav role="pagination" class="post-list-pagination">
+      
+      <a href="/" class="post-list-pagination-item pure-button post-list-pagination-item-prev">
+        <i class="fa fa-angle-double-left"></i>&nbsp;Newer
+      </a>
+      
+    <span class="post-list-pagination-item post-list-pagination-item-current">Page 2 of 73</span>
+    
+      <a href="/page/3/" class="post-list-pagination-item pure-button post-list-pagination-item-next">
+        Older&nbsp;<i class="fa fa-angle-double-right"></i>
+      </a>
+    
+  </nav>
+</div>
+
+
+            <div class="footer">
+    <div class="pure-menu pure-menu-horizontal pure-menu-open">
+        <ul>
+            <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a>. Copyright Conor O'Neill 2010</li>
+        </ul>
+    </div>
+</div>
+<script src="http://conoroneill.net/js/all.min.js"></script>
+        </div>
+    </div>
+</div>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-88610-4', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
