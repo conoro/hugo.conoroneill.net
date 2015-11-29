@@ -21,8 +21,7 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push "https://${GH_TOKEN}@${GH_REF}" origin master > /dev/null 2>&1
+git push "https://${GH_TOKEN}@${GH_REF}" origin master
 
 # Come Back
 cd ..
-
