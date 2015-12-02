@@ -12,6 +12,10 @@ hugo # if using a theme, replace by `hugo -t <yourtheme>`
 cd public
 
 git pull origin master
+git branch temp
+git checkout temp
+git checkout -B master temp
+git branch -d temp
 
 # Add changes to git.
 git add -A
