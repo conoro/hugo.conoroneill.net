@@ -18,7 +18,7 @@ git checkout -B master temp
 git branch -d temp
 
 # Add changes to git.
-git add -A
+git add -A :/
 
 # Commit changes.
 msg="rebuilding site `date`"
@@ -28,6 +28,7 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
+echo -e "https://blah@${GH_REF}"
 git push "https://${GH_TOKEN}@${GH_REF}" origin master
 
 # Come Back
