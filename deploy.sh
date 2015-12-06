@@ -8,9 +8,6 @@ git config --global user.name "Conor O'Neill"
 git config credential.helper "store --file=.git/credentials"
 echo "https://${GH_TOKEN}:@github.com" > .git/credentials
   
-sed -i 's/git@github.com:/https:\/\/${CONOR}@github.com\//' .gitmodules
-sed -i 's/git@github.com:/https:\/\/${CONOR}@github.com\//' .git/config
-  
 # Build the project.
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
