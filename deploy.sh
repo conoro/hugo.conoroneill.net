@@ -12,7 +12,7 @@ hugo # if using a theme, replace by `hugo -t <yourtheme>`
 cd public
 
 # Add changes to git.
-git add -A :/
+git add -A
 
 # Commit changes.
 msg="rebuilding site `date`"
