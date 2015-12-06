@@ -33,8 +33,7 @@ slug = "yeah-so-i-got-an-ipad-let-the-flaming-commence"
 <li>VPN setup looks easy enough. Will do that later.</li>
 <li>But yeah, it's the perfect TV Second Screen. No doubt about it :-)</li>
 </ol>
-<p>&nbsp;</p>
+
 <p>Go on then, hit me with your favourite Apps. I've grabbed some of the interesting Top Selling free ones already. Thrilled to see Dropbox there. I also bought Instapaper and Keynote.</p>
 <p>Looking forward to the Asus Transformer Prime in the new year ;-)</p>
 <p>&nbsp;</p>
- 
