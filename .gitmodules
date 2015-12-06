@@ -1,7 +1,3 @@
 [submodule "public"]
 	path = public
 	url = git@github.com:conoro/conoro.github.io.git
-[submodule "conoro.github.io"]
-	path = conoro.github.io
-	url = git@github.com:conoro/conoro.github.io.git
-	branch = master
