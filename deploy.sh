@@ -11,12 +11,6 @@ hugo # if using a theme, replace by `hugo -t <yourtheme>`
 # Go To Public folder
 cd public
 
-git pull origin master
-git branch temp
-git checkout temp
-git checkout -B master temp
-git branch -d temp
-
 # Add changes to git.
 git add -A :/
 
@@ -28,8 +22,7 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-echo -e "https://blah@${GH_REF}"
-git push "https://${GH_TOKEN}@${GH_REF}" origin master
+git push origin master
 
 # Come Back
 cd ..
