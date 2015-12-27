@@ -17,7 +17,7 @@ The real intent was so I could blog from devices that don't run Hugo like phones
 
 For Android I quickly found the superb [DroidEdit](https://play.google.com/store/apps/details?id=com.aor.droidedit.pro&hl=en) which has Git support built-in. It was dead easy to use it to generate a new post and add that to my repo. So I would have almost WordPress-level of easiness in blogging on the fly. Its only real drawback is the lack of Markdown syntax highlighting.
 
-![DroidEdit](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/Screenshot_2015-12-27-16-15-54.png)
+![DroidEdit](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/droidedit.png)
 
 Except then I tried to get it working with Travis. Several weekends of effort trying to wrangle the Git sub-module setup into submission ended in total frustration. Finally today I said "sod sub-modules" and went old-school "copy the files from one repo to the other and commit them there". And ye know what? [It worked](https://travis-ci.org/conoro/hugo.conoroneill.net)!
 
