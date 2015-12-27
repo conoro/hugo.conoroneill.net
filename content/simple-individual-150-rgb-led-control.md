@@ -1,7 +1,5 @@
 +++
-Categories = []
 Description = "Controlling each LED in a 150 RGB LED strip with an Arduino Nano"
-Tags = []
 date = "2015-12-27T11:34:18Z"
 title = "Simple Christmas Control of each LED in a 150 RGB LED WS2812 strip"
 
