@@ -14,4 +14,4 @@ cd ${REPO}
 git remote
 git add -A :/
 git commit -a -m "latest via travis"
-git push "https://${GH_TOKEN}@${GH_REPO}" master
+git push "https://${GH_TOKEN}@${GH_REPO}" master > /dev/null 2>&1
