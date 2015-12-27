@@ -2,7 +2,6 @@ language: go
 go:
   - 1.5.1
 sudo: required
-# Handle git submodules yourself
 env:
   global:
   - USER: Conor O'Neill
@@ -16,7 +15,6 @@ git:
 # Use sed to replace the SSH URL with the public URL, then initialize submodules
 before_install:
   - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-  - git submodule update --init --recursive
 install:
   - sudo pip install Pygments
   - go get github.com/spf13/hugo
