@@ -11,7 +11,7 @@ I've talked about [the ESP8266](http://espressif.com/en/products/esp8266/) const
 
 The number of projects and initiatives that have grown up around ESP8266 is impossible to keep track of. Ones to check out are:
 
-* [NodeMCU](http://nodemcu.com/index_en.html) - A really nice [dev board](http://www.electrodragon.com/product/nodemcu-lua-amica-r2-esp8266-wifi-board/) and Lua-based stack. This is what I used for most of this year but will be switching to [Espruino]()
+* [NodeMCU](http://nodemcu.com/index_en.html) - A really nice [dev board](http://www.electrodragon.com/product/nodemcu-lua-amica-r2-esp8266-wifi-board/) and Lua-based stack. This is what I used for most of this year but will be switching to [Espruino](http://www.espruino.com/)
 * [Espruino on ESP8266](https://github.com/tve/EspruinoDocs/blob/master/boards/EspruinoESP8266.md) - Still in heavy development but feels like a complete winner. JavaScript + Wifi for $4 is a killer solution.
 * [Cesanta Smart.js](https://blog.cesanta.com/esp8266-and-iot-smartjs-starter-guide) - A Dublin-based company. Ex-Googlers I think. Similar to Espruino but without the community. Wish they'd join forces instead.
 * [Arduino](https://github.com/esp8266/Arduino/) - Yup, you can run a huge amount of Arduino code straight on the ESP8266. Really exciting to have this. Only drawback is that native AVR code and (I think) interrupt-driven code will not compile. Also far fewer IOs than normal Arduinos.
@@ -77,7 +77,7 @@ I got a [Doogee X5 Android phone for €55](http://www.dx.com/p/presale-doogee-x
 
 One of my daughters got the lowest-level Kindle Fire as a Christmas present. The specs are garbage. She loves it. It does absolutely everything she needs and she hasn't asked to use the iPad Mini once since she got it.
 
-I seriously doubt I'll ever buy a premium phone on contract again. Once One Plus return to removable backs, replaceable batteries and SD card slots, I'll jump to either them or the Wileyfox.
+I seriously doubt I'll ever buy a premium phone on contract again. Once One Plus return to removable backs, replaceable batteries and SD card slots, I'll jump to either them or the Wileyfox. Apart from the camera, there is practically nothing on my Galaxy S6 that I couldn't do with an S4 or HTC Sensation. And they are both more robust and have replaceable batteries and SD card slots.
 
 # Linux everywhere
 Everywhere. This makes me happy. I was very surprised my other daughter was more than happy to get an old hand-me-down laptop running Fedora 23. As long as it had Chrome, YouTube, Kodi and Minecraft she didn't give a damn what the OS was. The OS is irrelevant to all my kids. In our house we segue seamlessly from Android to iOS to Windows to OSX to Fedora to Raspbian. The only things that matter are the apps and the content.
@@ -90,6 +90,8 @@ Our entire extended family is on WhatsApp including grandparents. SMS is dead to
 * Tweens/Smallies: Viber, Snapchat and some WhatsApp to the (grand)parents
 * No one: Telegram.
 * Curveball - Tweens using Instagram comments as a weird chat channel
+
+Top tip - WhatsApp needs a phone number, Viber doesn't. Many many smaller kids have tablets, not phones. WhatsApp really missing out here. Our solution is to put free Tesco Mobile SIMs in old phones and never put credit on them. Gets over the WhatsApp problem.
 
 # 2FA and Authy
 Two Factor Authentication is a complete pain in the neck. It really is.
