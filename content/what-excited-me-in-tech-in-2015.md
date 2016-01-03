@@ -47,6 +47,8 @@ And then I found [Go](http://golang.org) and immediately felt comfortable. It's 
 
 I think Node.js and Go will dominate software development over the next few years.
 
+Left-field: Go is slowly getting some Android capabilities. Google should go all-in on it and replace Java. If Apple can manage it so well with the move to Swift on iOS (and they used 3 CPU architectures on Mac!), why not? It would kill all the Oracle problems completely and move them away from a legacy language.
+
 # Scriptcraft & Minecraft
 Minecraft continues to dominate my younger kids' lives. From Stampy to Servers, they are never bored playing it or watching videos about it. My buddy Walter built the amazing [Scriptcraft](http://scriptcraftjs.org/) which enables you to build mods and control Minecraft in, yes you guessed it, JavaScript. [His book](http://www.peachpit.com/store/beginners-guide-to-writing-minecraft-plugins-in-javascript-9780133930146) is a must-read for anyone looking for an interesting way to teach kids how to program. I really want to try out some stuff where it interfaces with the real world. I think Microsoft are missing a trick by not rowing in behind Walter and this wonderful project.
 
@@ -88,10 +90,13 @@ Our entire extended family is on WhatsApp including grandparents. SMS is dead to
 * Adults: WhatsApp. Tiny amount of FB Messenger
 * Teens: FB Messenger, some Viber and some WhatsApp to the (grand)parents
 * Tweens/Smallies: Viber, Snapchat and some WhatsApp to the (grand)parents
+* Youngest: Uses Hangouts to her cousin. Including live video!
 * No one: Telegram.
 * Curveball - Tweens using Instagram comments as a weird chat channel
 
 Top tip - WhatsApp needs a phone number, Viber doesn't. Many many smaller kids have tablets, not phones. WhatsApp really missing out here. Our solution is to put free Tesco Mobile SIMs in old phones and never put credit on them. Gets over the WhatsApp problem.
+
+9yo yesterday: "What's 'Messaging' on my iPhone". Me: "It's SMS". Her: "What's that". Me: "Texts". Her: "Ah ok. Why are there so many apps for messaging? Why not just one?"
 
 # 2FA and Authy
 Two Factor Authentication is a complete pain in the neck. It really is.
