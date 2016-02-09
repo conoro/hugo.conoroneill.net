@@ -175,12 +175,12 @@ Then build that, scp it to the Omega and run it. Then open http://ip-of-your-oni
 Note I also built this using the Windows setup for comparison and it worked too.
 
 ## Database
-Not so much luck with embedded databases I'm afraid. I'll have to stick to JSON files only.
+Not so much luck with embedded databases I'm afraid. I'll have to stick to JSON files only (or try [kv](https://github.com/cznic/kv), [diskv](https://github.com/peterbourgon/diskv), [gkvlite](https://github.com/steveyen/gkvlite)).
 
 * [Bolt](https://github.com/boltdb/bolt) has some native code which isn't available on MIPS32 so it won't compile. Otherwise I'm using this on another project.
 * [go-sqlite3](https://github.com/mattn/go-sqlite3) has a C library dependency so it also won't cross-compile.
 * I gave up trying to get [ql](https://github.com/cznic/ql) to do anything, even on Windows and Linux. It doesn't like standard SQL syntax and I ran out of patience with the lack of example code.
-* [tiedot](https://github.com/HouzuoGuo/tiedot) generates a large number of massive files which the Onion wouldn't be able to handle. If I can get it down to LevelDB sizes, I might retry.
+* [tiedot](https://github.com/HouzuoGuo/tiedot) generates a large number of massive files which the Onion wouldn't be able to handle. If I can get it down to LevelDB sizes, I might retry. Actually it doesn't like 32-bit systems so forget that.
 * [goleveldb](https://github.com/syndtr/goleveldb) looked like it would be perfect but it crashes trying to open a DB it created on the Onion. I have a feeling this is a bug in the MIPS32 port of Go. The crash happens in the Snappy library from what I can see. It can create an empty DB. it can read an empty DB but it crashes on a DB that has entries whether the DB was created on the Onion or on Windows. Anyway, here's the code which crashes if you want to try it out yourself:
 
 ```bash
