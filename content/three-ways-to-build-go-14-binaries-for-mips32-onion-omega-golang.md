@@ -20,7 +20,7 @@ Due to the lack of storage on the Omega, you won't be able to install the full G
 
 I've been able to build the binaries on Linux, Windows and in a Docker container. All are easy.
 
-## Linux (or Linux VM on Windows)
+# Linux (or Linux VM on Windows)
 Following [Cathal's simple instructions](http://www.black-swift.com/forum/suggestion-box/59-go-1-4-2-on-black-swift), I was able to build Go for MIPS32 in a few minutes in a Linux VM on my main Windows machine. I then cross-compiled a Hello World and scp'ed it to the Omega. It worked first time!
 
 My steps:
@@ -41,12 +41,12 @@ vi helloworld.go
 go build helloworld.go
 ```
 
-## Windows 10
+# Windows 10
 I was very surprised this worked but of course Go is strongly cross-platform. My standard build setup for Node.js native modules did the trick. You'll probably need Visual Studio Community 2015 and Git for Windows. Then:
 
 Open a CMD prompt (note I have all my code on D: drive)
 
-```
+```dos
 d:
 cd gitwork
 git clone https://github.com/gomini/go-mips32.git
@@ -58,7 +58,7 @@ make.bat
 
 I then created a simple CMD file which sets everything up when I need to build for MIPS so it doesn't interfere with my main Go install.
 
-```bat
+```dos
 set GOOS=linux
 set GOARCH=mips32
 set GOROOT=d:\gitwork\go-mips32
@@ -71,7 +71,9 @@ When I launch that, I can do the usual go build filename.go. Note that the MIPS 
 
 For Windows I use WinSCP to copy the files to the Omega. For some reason Filezilla SFTP has a problem talking to it.
 
-## Docker Container on Windows
+# Docker Container on Windows
+
+## Hello World
 To get more familiar with Docker I decided to create a Docker image that others can use. That turned out to be pretty easy too. Here is the Dockerfile:
 
 ```
@@ -115,15 +117,17 @@ And you can grab the image from [Docker Hub here](https://hub.docker.com/r/conor
 
 The full set of steps for Windows are as follows:
 
-1. Install [Docker Toolbox for Windows](https://www.docker.com/products/docker-toolbox). It'll also install VirtualBox if you don't already have it.
-2. Run a Docker shell and type:
+* Install [Docker Toolbox for Windows](https://www.docker.com/products/docker-toolbox). It'll also install VirtualBox if you don't already have it.
+* Run a Docker shell and type:
 
 ```
-docker run -t -i conoro/go-mips32:v2 /bin/sh
+docker run -t -i conoro/go-mips32:v1 /bin/sh
 ```
 
-3. You'll now be at a Linux prompt and you can type:   _go version_
-4. Then create a Hello World using:    _vi helloworld.go_
+(Note v2 has some problems I need to fix so you'll need to manually install openssh and git)
+
+* You'll now be at a Linux prompt and you can type:   _go version_
+* Then create a Hello World using:    _vi helloworld.go_
 
 ```go
 package main
@@ -135,10 +139,11 @@ func main() {
 }
 ```
 
-5. Compile it with:   _go build helloworld.go_
-6. Copy it to the Onion Omega with:     _scp helloworld root@ip-of-your-onion/helloworld_
-7. Open a shell on your Omega with the webapp or Putty and just type:   _helloworld_
+* Compile it with:   _go build helloworld.go_
+* Copy it to the Onion Omega with:     _scp helloworld root@ip-of-your-onion/helloworld_
+* Open a shell on your Omega with the webapp or Putty and just type:   _helloworld_
 
+## Web App
 A more advanced example which also works perfectly is to run a web-app using the [Gin](https://github.com/gin-gonic/gin) framework. For that, all you need to do is:
 
 ```bash
@@ -169,6 +174,44 @@ Then build that, scp it to the Omega and run it. Then open http://ip-of-your-oni
 
 Note I also built this using the Windows setup for comparison and it worked too.
 
+## Database
+Not so much luck with embedded databases I'm afraid. I'll have to stick to JSON files only.
+
+* [Bolt](https://github.com/boltdb/bolt) has some native code which isn't available on MIPS32 so it won't compile. Otherwise I'm using this on another project.
+* [go-sqlite3](https://github.com/mattn/go-sqlite3) has a C library dependency so it also won't cross-compile.
+* I gave up trying to get [ql](https://github.com/cznic/ql) to do anything, even on Windows and Linux. It doesn't like standard SQL syntax and I ran out of patience with the lack of example code.
+* [tiedot](https://github.com/HouzuoGuo/tiedot) generates a large number of massive files which the Onion wouldn't be able to handle. If I can get it down to LevelDB sizes, I might retry.
+* [goleveldb](https://github.com/syndtr/goleveldb) looked like it would be perfect but it crashes trying to open a DB it created on the Onion. I have a feeling this is a bug in the MIPS32 port of Go. The crash happens in the Snappy library from what I can see. It can create an empty DB. it can read an empty DB but it crashes on a DB that has entries whether the DB was created on the Onion or on Windows. Anyway, here's the code which crashes if you want to try it out yourself:
+
+```bash
+go get github.com/syndtr/goleveldb/leveldb
+```
+
+then in vi:
+
+```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/syndtr/goleveldb/leveldb"
+)
+
+func main() {
+	db, _ := leveldb.OpenFile("./leveltest.db", nil)
+	defer db.Close()
+	data, err := db.Get([]byte("keyyeah"), nil)
+	if err == leveldb.ErrNotFound {
+		_ = db.Put([]byte("keyyeah"), []byte("valueyeah"), nil)
+		fmt.Println("Inserted Key/Value")
+	}
+	data, _ = db.Get([]byte("keyyeah"), nil)
+	fmt.Println(string(data))
+}
+```
+
+# Conclusion
 I'm looking forward to running a lot more code on the Omega now.
 
 Next step with the Dockerfile is to add some shared directories so I can develop in the main OS and just use Docker for the compilation piece.
