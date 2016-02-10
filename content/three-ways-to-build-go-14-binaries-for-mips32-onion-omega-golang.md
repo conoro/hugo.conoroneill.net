@@ -87,14 +87,14 @@ ENV GOROOT /usr/local/go
 
 RUN set -ex \
 	&& apk add --no-cache --virtual .build-deps \
-		bash \
-    git \
-    file \
-		ca-certificates \
-		gcc \
-		musl-dev \
-		openssl \
-    openssh \
+        bash \
+        git \
+        file \
+        ca-certificates \
+        gcc \
+        musl-dev \
+        openssl \
+        openssh \
 	\
   && cd /usr/local/ \
 	&& git clone "$GOLANG_SRC_URL" go \
@@ -124,7 +124,7 @@ The full set of steps for Windows are as follows:
 docker run -t -i conoro/go-mips32:v1 /bin/sh
 ```
 
-(Note v2 has some problems I need to fix so you'll need to manually install openssh and git)
+(Note v2 has some problems I need to fix so you'll need to manually install openssh and git on v1)
 
 * You'll now be at a Linux prompt and you can type:   _go version_
 * Then create a Hello World using:    _vi helloworld.go_
@@ -175,43 +175,16 @@ Then build that, scp it to the Omega and run it. Then open http://ip-of-your-oni
 Note I also built this using the Windows setup for comparison and it worked too.
 
 ## Database
-Not so much luck with embedded databases I'm afraid. I'll have to stick to JSON files only (or try [kv](https://github.com/cznic/kv), [diskv](https://github.com/peterbourgon/diskv), [gkvlite](https://github.com/steveyen/gkvlite)).
+Not so much luck with embedded databases I'm afraid. I suspect Bolt and LevelDB are using some more advanced filesystem features which are causing issues on OpenWRT. I lack the expertise to debug.
 
-* [Bolt](https://github.com/boltdb/bolt) has some native code which isn't available on MIPS32 so it won't compile. Otherwise I'm using this on another project.
+* [Bolt](https://github.com/boltdb/bolt) has some CPU specific code which prevented building. I added an entry for MIPS32 (based on i386) and it then cross-compiled but throws error EINVAL when opening DB. Possibly OpenWRT FS related or down to bug in the Go MIPS port. But I'm using Bolt with Stow successfully on another non-MIPS32 project.
 * [go-sqlite3](https://github.com/mattn/go-sqlite3) has a C library dependency so it also won't cross-compile.
 * I gave up trying to get [ql](https://github.com/cznic/ql) to do anything, even on Windows and Linux. It doesn't like standard SQL syntax and I ran out of patience with the lack of example code.
+* [kv](https://github.com/cznic/kv) has no sample code and my frustration levels with nothing working meant I gave up instantly
 * [tiedot](https://github.com/HouzuoGuo/tiedot) generates a large number of massive files which the Onion wouldn't be able to handle. If I can get it down to LevelDB sizes, I might retry. Actually it doesn't like 32-bit systems so forget that.
-* [goleveldb](https://github.com/syndtr/goleveldb) looked like it would be perfect but it crashes trying to open a DB it created on the Onion. I have a feeling this is a bug in the MIPS32 port of Go. The crash happens in the Snappy library from what I can see. It can create an empty DB. it can read an empty DB but it crashes on a DB that has entries whether the DB was created on the Onion or on Windows. Anyway, here's the code which crashes if you want to try it out yourself:
-
-```bash
-go get github.com/syndtr/goleveldb/leveldb
-```
-
-then in vi:
-
-```go
-package main
-
-import (
-	"fmt"
-
-	"github.com/syndtr/goleveldb/leveldb"
-)
-
-func main() {
-	db, _ := leveldb.OpenFile("./leveltest.db", nil)
-	defer db.Close()
-	data, err := db.Get([]byte("keyyeah"), nil)
-	if err == leveldb.ErrNotFound {
-		_ = db.Put([]byte("keyyeah"), []byte("valueyeah"), nil)
-		fmt.Println("Inserted Key/Value")
-	}
-	data, _ = db.Get([]byte("keyyeah"), nil)
-	fmt.Println(string(data))
-}
-```
+* [goleveldb](https://github.com/syndtr/goleveldb) looked like it would be perfect but it crashes trying to open a DB it created on the Onion. I have a feeling this is a bug in the MIPS32 port of Go. The crash happens in the Snappy library from what I can see. It can create an empty DB and it can read an empty DB but it crashes on a DB that has entries whether the DB was created on the Onion or on Windows.
+* [gkvlite](https://github.com/steveyen/gkvlite) - It works! Hurrah! Well the sample code works. Now to try it on some simple stuff I've done elsewhere
+* [diskv](https://github.com/peterbourgon/diskv) - Double hurrah, it seems to work too.
 
 # Conclusion
 I'm looking forward to running a lot more code on the Omega now.
-
-Next step with the Dockerfile is to add some shared directories so I can develop in the main OS and just use Docker for the compilation piece.
