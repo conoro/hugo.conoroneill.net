@@ -1,0 +1,131 @@
+3.7.0-rc1 - 11th Jan 2016
+
+RHMAP-2129 - Update Cordova cli to the latest version to support Cordova plugins via npm Gorkem Ercan
+
+RHMAP-2506 - Container can't start because of incorrect config property name in ose-placeholders.js Gerard Ryan
+
+RHMAP-2507 - Winston logger trying to log to file in container causes uncaught exception Gerard Ryan
+
+RHMAP-2508 - Containers can't start because of missing '*APIkey' envvars Gerard Ryan
+
+RHMAP-2509 - fh-metrics container fails to start because mongo hosts in wrong format for fh-db Gerard Ryan
+
+RHMAP-2510 - fh-messaging container dies with uncaught exception because of misconfigured logger Gerard Ryan
+
+RHMAP-2719 - Get fh-messaging & fh-metrics back to working state on Openshift Gerard Ryan
+
+RHMAP-3588 - fh-metrics service does not start Gerard Ryan
+
+RHMAP-737 - Support Android M Granular permissions Daniel Passos
+
+RHMAP-778 - Apply latest fh-amqp-js changes to fh-ditch in 3.x stream Phil Brookes
+
+RHMAP-1259 - FeedHenry engineering repositories vulnerability inspection Bruno Oliveira
+
+RHMAP-1644 - Update fh-digger-node to mitigate vulnerabilities Gorkem Ercan
+
+RHMAP-3328 - Release fh-android-sdk 3.0.0 Daniel Passos
+
+RHMAP-662 - Do not conduct Git backups on all Git servers Phil Brookes
+
+RHMAP-714 - Android M support Daniel Passos
+
+RHMAP-829 - _id Parameter Is Not Populated When A Submission Is Complete Niall Donnelly
+
+RHMAP-1111 - update to the latest cordova-lib version Gorkem Ercan
+
+RHMAP-1279 - Add a $fh.forms Global Listener API To Listen For All Events Niall Donnelly
+
+RHMAP-1302 - Refactor Download Submission API To Include Event Driven Approach Niall Donnelly
+
+RHMAP-1317 - Disconnect fh-ditch from the platform message bus Craig Brookes
+
+RHMAP-1456 - fh-api-mapper template - QE Verify Phase 1 functionality Cian Clarke
+
+RHMAP-1511 - SAML documentation updates Bruno Oliveira
+
+RHMAP-1517 - Add A "getSubmissionByLocalId" accessor function to the Submissions Model Niall Donnelly
+
+RHMAP-1603 - update cordova-lib version to latest Gorkem Ercan
+
+RHMAP-1604 - Change default android platform to 3.7.2 Gorkem Ercan
+
+RHMAP-1605 - Handle gradle/ant difference when signing cordova applications Gorkem Ercan
+
+RHMAP-1606 - Create a template for basic hybrid apps Gorkem Ercan
+
+RHMAP-1762 - Applications with urban airship support can not be lauched on Android Gorkem Ercan
+
+RHMAP-1824 - Flurry plugin depends on urbanairship Gorkem Ercan
+
+RHMAP-1897 - Project created using Cordova CLI 5 is not possible to build Gorkem Ercan
+
+RHMAP-1955 - Timeout issue when building cocoapods project Corinne Krych
+
+RHMAP-1958 - Remove Monkeytalk Cordova plugin Gorkem Ercan
+
+RHMAP-1963 - Update hello-ios-swift to Swift2.0 syntax Corinne Krych
+
+RHMAP-2006 - Adjust ios sync app to common design Corinne Krych
+
+RHMAP-2210 - update 'fh-ios-sdk-blank app' to use cocoapod with Build Farm Corinne Krych
+
+RHMAP-2459 - Use fh-cluster to handle clustering & backoff at component startup Gerard Ryan
+
+RHMAP-2513 - update ose-placeholders for events and notifications config changes Gerard Ryan
+
+RHMAP-2598 - Build farm updates to support Android M Michael Nairn
+
+RHMAP-2631 - Add SAML Android template app in studio Daniel Passos
+
+RHMAP-2632 - Add SAML iOS template app in studio Daniel Passos
+
+RHMAP-2633 - Add SAML Windows template app in studio Daniel Passos
+
+RHMAP-2663 - Auth API Android code sample is wrong Summers Pittman
+
+RHMAP-2664 - OAuth requests fail if there is an Anchor in the returned URL Summers Pittman
+
+RHMAP-2665 - FHAuthSession.verify example code uses synchronous http Summers Pittman
+
+RHMAP-2754 - creating and destroying the sync client twice will throw a npe Summers Pittman
+
+RHMAP-2761 - Sync Client needs a non destructive way to stop sync Summers Pittman
+
+RHMAP-3135 - Construct Push_Server_URL inside of the SDK Daniel Passos
+
+RHMAP-3138 - Re-add fh-api-mapper template to 3.7.0 Jason Madigan
+
+RHMAP-3146 - Create HelloWorld template for Windows Erik Jan de Wit
+
+RHMAP-3153 - Improve EAP init.d script for Ubuntu Matthias Wessendorf
+
+RHMAP-3200 - iOS Blank app revisited Corinne Krych
+
+RHMAP-3224 - Polish UART tests for UPS Matthias Wessendorf
+
+RHMAP-3306 - Push helloWorld in ObjC revisited Corinne Krych
+
+RHMAP-3324 - Templates config for 3.7.0 release Corinne Krych
+
+RHMAP-3452 - Munin graph showing Tomcat thread usage Pat Cremin
+
+RHMAP-3456 - Enable WNS variant creation for Cordova projects Erik Jan de Wit
+
+RHMAP-3471 - Use cordova-lib pinned versions for advanced cordova apps Gorkem Ercan
+
+RHMAP-3477 - Slash in fhconfig.json pushServerURL for Windows Cordova is not added when a different Push variant already exists Matthias Wessendorf
+
+RHMAP-3519 - Provide a debug command for Nighwatch.js Wojciech Trocki
+
+RHMAP-3578 - Quintile sync: update not sent Corinne Krych
+
+RHMAP-3584 - maxBuffer errors when building a large repo Wei Li
+
+RHMAP-3708 - Update staging BF to point Android builds at new Engineering BF (meh1) Jason Madigan
+
+RHMAP-2925 - Enable force sync on iOS Corinne Krych
+
+RHMAP-3480 - Move existing Cordova Sync Demo to a new repo Erik Jan de Wit
+
+RHMAP-3533 - Don't capitalise the name of the Grid displayed on-screen Ciaran Byrne
