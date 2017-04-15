@@ -5,6 +5,7 @@ theme = "purehugo"
 Paginate = 10
 disqusShortname = "crossdominant"
 uglyUrls=false
+publishdir = "docs"
 
 [params]
   twitterName = "conoro"

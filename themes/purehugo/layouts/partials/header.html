@@ -29,7 +29,8 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/all.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ .RSSlink }}" />
+    {{ if .RSSLink }}
+      <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }}
+
 </head>
 <body>
-
