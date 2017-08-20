@@ -12,12 +12,12 @@ A couple of weeks ago, I took my Galaxy S6 out for a run in the rain and it died
 
 So the same day it died, I ordered a cheap replacement backup phone which arrived within 2 days from [Amazon UK](https://www.amazon.co.uk/BLU-Life-Mark-SIM-Free-Smartphone/dp/B01CG0U6U0/). Yep, you can order and receive a new phone from the UK faster than two groups of circus clowns in Dublin can fix a mistake they made.
 
-![BLU Life Mark](http://conoroneill.com.s3.amazonaws.com/wp-content/uploads/2016/10/grey.png)
+![BLU Life Mark](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/10/grey.png)
 
 
 The [BLU Life Mark](http://bluproducts.com/life-mark) is an utterly generic low-mid range Android phone from a US-based company. It's very similar to the Wileyfox Swift I got my mother-in-law a few months back, which she loves.
 
-![BLU Life Mark Bits](http://conoroneill.com.s3.amazonaws.com/wp-content/uploads/2016/10/blu_life_mark_bits.jpg)
+![BLU Life Mark Bits](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/10/blu_life_mark_bits.jpg)
 
 This won't be a long review as there really isn't anything new to say about modern smartphones. Slabs of glass that still can't tell the difference between accidental and intended touch or learn anything about your usage and optimise accordingly.
 
