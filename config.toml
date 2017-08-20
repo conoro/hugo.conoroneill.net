@@ -1,4 +1,4 @@
-baseurl = "https://conoroneill.net"
+baseurl = "https://conoroneill.net/"
 languageCode = "en-us"
 title = "Cross Dominant"
 theme = "purehugo"
