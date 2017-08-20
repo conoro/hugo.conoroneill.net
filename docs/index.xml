@@ -6,10 +6,20 @@
     <description>Recent content on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Nov 2016 20:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Aug 2017 18:11:00 +0100</lastBuildDate>
     
 	<atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Puck.js with the Kulight RGB Bluetooth Lightbulb</title>
+      <link>https://conoroneill.net/using-puck-js-with-kulight-rgb-bluetooth-lightbulb/</link>
+      <pubDate>Sun, 20 Aug 2017 18:11:00 +0100</pubDate>
+      
+      <guid>https://conoroneill.net/using-puck-js-with-kulight-rgb-bluetooth-lightbulb/</guid>
+      <description>I have a massive backlog of tech posts to do but I never quite finish the projects to the level I want and they are left hanging. So I&amp;rsquo;m going to start posting more WIP stuff from now on and hopefully they&amp;rsquo;ll be useful to someone.
+I&amp;rsquo;ve been a long-time fan of the Espruino project created by Gordon Willams and have had great fun with the original board, the Pico and Puck.</description>
+    </item>
     
     <item>
       <title>All the grisly details of Skeletony and the Halloween Doorbell of Doooooom V2.0</title>
