@@ -6,7 +6,7 @@ title = "First impressions of @OnionIoT Omega. Also running #golang 1.1.2 and #n
 +++
 I did a splurge of backing IoT KickStarters a few months ago and the [Onion Omega](https://onion.io/omega/) is the first one to land in my postbox. It's a tiny (barely bigger than an SD card) board running the same basic guts as many OpenWRT routers i.e. 400 MHz Atheros MIPS CPU with 64MB of DRAM and 16MB of Flash. 
 
-![Onion Omega](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/omega_sd.jpg)
+![Onion Omega](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/omega_sd.jpg)
 
 If you're not familiar with [OpenWRT](https://openwrt.org/), it's an Open Source community replacement firmware for many routers (similar to DD-WRT that I've used many times) and is Linux under the hood. You generally do your own custom Firmware builds which bundle exactly what you want but you can also install packages via the opkg tool.
 
@@ -16,7 +16,7 @@ The Onion team are currently building a Web UI and an IoT "Cloud" as value-adds 
 
 The fact that it just launched means that the software story isn't great right now. The KickStarter mentions things like Node but that isn't available in a supported way. Also the effort around accessing GPIOs etc is focused on Python. And add-on boards like the OLED screen I bought have no support yet.
 
-![Onion Omega Kit](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/omega_kit.jpg)
+![Onion Omega Kit](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/omega_kit.jpg)
 
 ## Summary Opinion
 Overall it's a nice board but the lack of "buzz" around it has me a little worried. The number one thing that projects like this need is community. I think the CHiP might steal a lot of its thunder with more welly at a much lower pricepoint. But perhaps a focus on realtime embedded applications will help here.
@@ -169,7 +169,7 @@ Plus the following for both the Onion and USB stick. This uses [some instruction
 make
 ```
 
-Several hours later again, I finally had [a version of the firmware that included Go support](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin) and ran on the Onion by doing the following on the Onion:
+Several hours later again, I finally had [a version of the firmware that included Go support](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin) and ran on the Onion by doing the following on the Onion:
 
 ```
 cd /tmp
@@ -189,7 +189,7 @@ Copy to the Onion and run it with a simple ./helloweb_static_libgo
 
 Hurrah, Hello World in Go on the Onion!
 
-![I love mac and cheese](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/go_on_onion_omega_02.jpg)
+![I love mac and cheese](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/go_on_onion_omega_02.jpg)
 
 ## Tweeting from the Onion Omega in Go
 I should have left it at that but no, I wanted to Tweet from the Onion. My problems multiplied. Basically, gccgo doesn't have all the bells and whistles of recent Go and can't handle included packages easily. After some reading and playing, I managed to build a Tweeting App that used the [Twittergo package](https://github.com/kurrik/twittergo). Note you need a local Fedora version of [Go installed and configured](https://golang.org/dl/) for "go get" to work (or just git clone). My $GOPATH is /home/conor/gitwork/go 
@@ -235,7 +235,7 @@ scp conor@192.168.0.9:/mnt/disk2/software/tweetomega .
 
 And finally ta-daaaa, a Tweet from the Omega:
 
-![Tweetin Omega](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/hushvine_onion_01.jpg)
+![Tweetin Omega](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/hushvine_onion_01.jpg)
 
 I now suspect that the Node.js error may have been exactly the same thing but just hidden so I'll go back and try the same for it.
 

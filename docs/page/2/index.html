@@ -26,7 +26,7 @@
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="http://conoroneill.net//css/all.min.css">
+    <link rel="stylesheet" href="https://conoroneill.net//css/all.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link rel="alternate" type="application/rss+xml" title="Cross Dominant" href="" />
@@ -38,7 +38,7 @@
     <div class="sidebar pure-u-1 pure-u-md-1-4">
     <div class="header">
         <hgroup>
-            <h1 class="brand-title"><a href="http://conoroneill.net/">Cross Dominant</a></h1>
+            <h1 class="brand-title"><a href="https://conoroneill.net/">Cross Dominant</a></h1>
             <h2 class="brand-tagline"> Mixed laterality since 1968 </h2>
         </hgroup>			
         <nav class="nav">
@@ -54,7 +54,7 @@
                 </li>
                 
                 <li class="nav-item">
-                    <a class="pure-button" href="http://conoroneill.net/index.xml"><i class="fa fa-rss"></i> rss</a>
+                    <a class="pure-button" href="https://conoroneill.net/index.xml"><i class="fa fa-rss"></i> rss</a>
                 </li>
             </ul>
         </nav>
@@ -84,7 +84,7 @@
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://conoroneill.net/simple-individual-150-rgb-led-control/" class="post-title">Simple Christmas Control of each LED in a 150 RGB LED WS2812 strip</a>
+                        <a href="https://conoroneill.net/simple-individual-150-rgb-led-control/" class="post-title">Simple Christmas Control of each LED in a 150 RGB LED WS2812 strip</a>
 
                         <p class="post-meta">
                             
@@ -122,7 +122,7 @@
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://conoroneill.net/onion-omega-first-impressions-running-golang-nodejs/" class="post-title">First impressions of @OnionIoT Omega. Also running #golang 1.1.2 and #nodejs 0.10.5 on MIPS</a>
+                        <a href="https://conoroneill.net/onion-omega-first-impressions-running-golang-nodejs/" class="post-title">First impressions of @OnionIoT Omega. Also running #golang 1.1.2 and #nodejs 0.10.5 on MIPS</a>
 
                         <p class="post-meta">
                             
@@ -135,7 +135,7 @@
 
 <p>I did a splurge of backing IoT KickStarters a few months ago and the <a href="https://onion.io/omega/">Onion Omega</a> is the first one to land in my postbox. It&rsquo;s a tiny (barely bigger than an SD card) board running the same basic guts as many OpenWRT routers i.e. 400 MHz Atheros MIPS CPU with 64MB of DRAM and 16MB of Flash.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/omega_sd.jpg" alt="Onion Omega" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/omega_sd.jpg" alt="Onion Omega" /></p>
 
 <p>If you&rsquo;re not familiar with <a href="https://openwrt.org/">OpenWRT</a>, it&rsquo;s an Open Source community replacement firmware for many routers (similar to DD-WRT that I&rsquo;ve used many times) and is Linux under the hood. You generally do your own custom Firmware builds which bundle exactly what you want but you can also install packages via the opkg tool.</p>
 
@@ -145,7 +145,7 @@
 
 <p>The fact that it just launched means that the software story isn&rsquo;t great right now. The KickStarter mentions things like Node but that isn&rsquo;t available in a supported way. Also the effort around accessing GPIOs etc is focused on Python. And add-on boards like the OLED screen I bought have no support yet.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/omega_kit.jpg" alt="Onion Omega Kit" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/omega_kit.jpg" alt="Onion Omega Kit" /></p>
 
 <h2 id="summary-opinion">Summary Opinion</h2>
 
@@ -303,7 +303,7 @@ make menuconfig
 <pre><code>make
 </code></pre>
 
-<p>Several hours later again, I finally had <a href="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin">a version of the firmware that included Go support</a> and ran on the Onion by doing the following on the Onion:</p>
+<p>Several hours later again, I finally had <a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin">a version of the firmware that included Go support</a> and ran on the Onion by doing the following on the Onion:</p>
 
 <pre><code>cd /tmp
 scp conor@192.168.0.9:/mnt/disk2/software/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin .
@@ -323,7 +323,7 @@ mips_gccgo -Wall -o helloweb_static_libgo helloweb.go -static-libgo
 
 <p>Hurrah, Hello World in Go on the Onion!</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/go_on_onion_omega_02.jpg" alt="I love mac and cheese" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/go_on_onion_omega_02.jpg" alt="I love mac and cheese" /></p>
 
 <h2 id="tweeting-from-the-onion-omega-in-go">Tweeting from the Onion Omega in Go</h2>
 
@@ -367,7 +367,7 @@ scp conor@192.168.0.9:/mnt/disk2/software/tweetomega .
 
 <p>And finally ta-daaaa, a Tweet from the Omega:</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/hushvine_onion_01.jpg" alt="Tweetin Omega" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/hushvine_onion_01.jpg" alt="Tweetin Omega" /></p>
 
 <p>I now suspect that the Node.js error may have been exactly the same thing but just hidden so I&rsquo;ll go back and try the same for it.</p>
 
@@ -385,7 +385,7 @@ scp conor@192.168.0.9:/mnt/disk2/software/tweetomega .
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://conoroneill.net/all-the-tech-behind-our-halloween-hallway-of-horror/" class="post-title">All the gory tech behind our Halloween Hallway of Horror</a>
+                        <a href="https://conoroneill.net/all-the-tech-behind-our-halloween-hallway-of-horror/" class="post-title">All the gory tech behind our Halloween Hallway of Horror</a>
 
                         <p class="post-meta">
                             
@@ -406,11 +406,11 @@ scp conor@192.168.0.9:/mnt/disk2/software/tweetomega .
 
 <p>This was my favourite aspect of the whole thing. I spotted a <a href="http://www.thingiverse.com/thing:32905">cool 3D design on Thingiverse</a> and realised I could turn it into a doorbell by dremeling a hole in the back and hot-glueing the mummy to a simple push button.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/mummy01b.jpg" alt="Mummy Doorbell 1" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/mummy01b.jpg" alt="Mummy Doorbell 1" /></p>
 
 <p>In fact the button was one I originally bought in 2012 when I got back into electronics. There was a small bug in my debounce code which I discovered too late and meant that kids had to press the button twice. But overall only a few failed to figure it out.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/mummy02b.jpg" alt="Mummy Doorbell 2" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/mummy02b.jpg" alt="Mummy Doorbell 2" /></p>
 
 <h2 id="adafruit-audio-breakout-board-and-amp-with-speakers">Adafruit Audio breakout board and amp with speakers</h2>
 
@@ -418,7 +418,7 @@ scp conor@192.168.0.9:/mnt/disk2/software/tweetomega .
 
 <p>In a bizarre twist to the <a href="https://www.indiegogo.com/projects/be-maker-kit-plus-free-lessons-on-electronics-from-zero-to-internet-of-things">BE Maker Kit Indiegogo scam</a>, one of the people involved somehow got a Florida company to provide free electronics to the right amount. I used this to buy the <a href="http://www.adafruit.com/products/1381">Adafruit VS1053 Audio board</a> and <a href="https://www.adafruit.com/products/987">Adafruit MAX98306 Audio Amp</a>. The wiring on this looks complicated but it&rsquo;s straight out of their tutorial.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/vs1053.jpg" alt="Scary Sounds" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/vs1053.jpg" alt="Scary Sounds" /></p>
 
 <p>Audio was courtesy of <a href="https://rg3.github.io/youtube-dl/">youtube-dl</a> and <a href="http://winff.org/html_new/">WinFF</a> on <a href="https://www.youtube.com/watch?v=BFqHyCoypfM">this clip from YouTube</a>.</p>
 
@@ -428,13 +428,13 @@ scp conor@192.168.0.9:/mnt/disk2/software/tweetomega .
 
 <p>I finally ordered a bog-standard <a href="http://eud.dx.com/product/waterproof-72w-4300lm-300-5050-smd-led-rgb-light-flexible-strip-w-44-key-controller-844233947">5 metre 5050 RGB LED strip from dx.com</a> over the summer. The value on these things is just staggering at less than €20.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/sku_233947_1.jpg" alt="RGB LED" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/sku_233947_1.jpg" alt="RGB LED" /></p>
 
 <p>They come with a dedicated remote control and just need a decent PSU to provide the power. Myself and the kids had great fun illuminating my entire home office in a range of colours.</p>
 
 <p>But the challenge for Halloween was how to control it. I could have run <a href="http://www.lirc.org/html/irrecord.html">irrecord</a> on an <a href="http://www.hardkernel.com/main/products/prdt_info.php?g_code=G141578608433">ODROID C1</a> or <a href="http://www.bananapi.org/p/product.html">Banana Pi</a> to reverse engineer the remote control protocol and then use <a href="http://eud.dx.com/product/38khz-ir-infrared-transmitter-module-for-arduino-844135040">the RC transmitter</a> I bought on DX. But luckily someone <a href="http://hackaday.com/2015/08/25/esp8266-in-commercial-products/">told Hackaday about the first ESP8266-powered commercial product</a> they had found. It was a <a href="http://es.aliexpress.com/item/rgb-strip-WiFi-controller-1-port-control-15-rgb-lights-communicate-with-Android-phone-to-dim/32301423622.html">€9 Wifi H801 control module</a> for RGB LED strips! I just had to get one.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/Rgbww-tira-llevada-regulador-wifi-1-port-control-200-luces-comunicar-con-tel%C3%A9fono-Android-a-trav%C3%A9s.jpg_350x350.jpg" alt="Wifi RGB LED" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/Rgbww-tira-llevada-regulador-wifi-1-port-control-200-luces-comunicar-con-tel%C3%A9fono-Android-a-trav%C3%A9s.jpg_350x350.jpg" alt="Wifi RGB LED" /></p>
 
 <p>It&rsquo;s a brilliant little box that is easy to wire up and has a simple Android App for control. You connect to the internal Wifi Access Point it provides to do this. Here is the brilliant piece: You then use the app to tell the module to connect to your own Wifi router and then you do the same with the phone. Now your RGB LED strip is on your network!</p>
 
@@ -506,27 +506,27 @@ done
 
 <p>Finally on Saturday morning I went to finish this bit and decided it was too much work to get the Arduino code tweaked to do 2x Neopixels and 2x servos and somehow trigger them on/off on a potentially rotating head. At this point I found the silly fake-eye pingpong balls from last year. A quick cut in the back and I hot-glued a Neopixel to each one. I then hot-glued the eyes into the skull and wired the Neopixels to an Arduino Nano.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/skull_top.jpg" alt="Skull Arduino" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/skull_top.jpg" alt="Skull Arduino" /></p>
 
 <p>I stuck the Nano and a Lipo battery to the top of the skull and covered it with a cool Buff. Having the eyes on permanently removed a little bit of the element of surprise but I still thought it worked well. The code for the Neopixels was just the <a href="https://github.com/adafruit/Adafruit_NeoPixel/blob/master/examples/strandtest/strandtest.ino">standard Adafruit strand test</a>.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/buff_skull.jpg" alt="Buff Skull" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/buff_skull.jpg" alt="Buff Skull" /></p>
 
 <h2 id="making-the-skull-rotate">Making the skull rotate</h2>
 
 <p>I had always known I would rotate the skull in some fashion but for a while I wasn&rsquo;t sure how. Quite a few weeks ago I came up with the idea to cement a hex driver into the bottom of the skull and sit it on top of a cheap crap €20 electric screwdriver I got ages ago from Woodies.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/screwdriver1.jpg" alt="Screwdriver1" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/screwdriver1.jpg" alt="Screwdriver1" /></p>
 
 <p>As a screwdriver it was rubbish due to slowness and lack of torque. As a skull-rotator it was awesome, spinning the skull around at high speed.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/screwdriver2.jpg" alt="Screwdriver2" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/screwdriver2.jpg" alt="Screwdriver2" /></p>
 
 <p>Of course I left the difficult bits until a week before Halloween when I sat down and tried to figure out how to control it all. The first attempt was with a dirt cheap double relay board I got 3 years ago and never used. But I couldn&rsquo;t figure out how to make it go forwards and reverse. I then tried an old knock-off Adafruit Motor Shield but it couldn&rsquo;t deliver enough juice (even with a 7.2V LiPo) to overcome the motor&rsquo;s inertia. Finally I <a href="http://arduino-info.wikispaces.com/ArduinoPower">found a relay circuit</a> that did forward/reverse and it worked like a charm.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/DC_Motor_2SPDT_Relay-450.jpg" alt="Circuit" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/DC_Motor_2SPDT_Relay-450.jpg" alt="Circuit" /></p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/relay2.jpg" alt="Relay" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/relay2.jpg" alt="Relay" /></p>
 
 <p>But how was I going to handle starting/stopping the skull so it was facing away (and potentially covered) initially and then rotating at the right time and stopping in the right position? Of course I left that to Halloween itself.</p>
 
@@ -538,7 +538,7 @@ done
 
 <p>This turned out to be pretty easy. I have a ton of decent wire from a dead Christmas tree light string and used that to connect everything up. The doorbell connected to one Arudino which then toggled a pin which the other Arduinos were connected to. After N seconds, it toggled the pin the other way to shut it all down.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/11/wiring.jpg" alt="Wiring" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/wiring.jpg" alt="Wiring" /></p>
 
 <p>It worked very very well.</p>
 
@@ -555,7 +555,7 @@ done
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://conoroneill.net/facebook-is-the-amazon-killer/" class="post-title">Facebook is the Amazon AWS Killer</a>
+                        <a href="https://conoroneill.net/facebook-is-the-amazon-killer/" class="post-title">Facebook is the Amazon AWS Killer</a>
 
                         <p class="post-meta">
                             
@@ -595,7 +595,7 @@ done
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://conoroneill.net/running-the-latest-chromium-45-on-debian-jessie-on-your-raspberry-pi-2/" class="post-title">Running the latest Chromium 45 on Debian Jessie on your Raspberry Pi 2</a>
+                        <a href="https://conoroneill.net/running-the-latest-chromium-45-on-debian-jessie-on-your-raspberry-pi-2/" class="post-title">Running the latest Chromium 45 on Debian Jessie on your Raspberry Pi 2</a>
 
                         <p class="post-meta">
                             
@@ -606,7 +606,7 @@ done
                     <div class="post-description">
                         <p>For some odd reason, Google and others stopped auto-generating armhf binaries of <a href="https://www.chromium.org/Home">Chromium</a> last year. Version 37 was the last one I could find. Luckily the Ubuntu guys have been building it all along and their version 45 installs really easily on the <a href="https://www.raspberrypi.org/blog/raspbian-jessie-is-here/">all-new Debian/Raspbian Jessie</a> on your Raspberry Pi 2.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/09/pi_heart_chrome.png" alt="Pi loves Chromium" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/09/pi_heart_chrome.png" alt="Pi loves Chromium" /></p>
 
 <p>This was a surprise as this kind of thing usually degenerates into dependency hell.</p>
 
@@ -626,7 +626,7 @@ sudo dpkg -i chromium-browser_45.0.2454.85-0ubuntu0.14.04.1.1097_armhf.deb
 
 <p>Apart from security fixes and the latest Chromium features, you also get full access to most of the Apps and Extensions in the Chrome Web Store. This includes the <a href="http://www.espruino.com/Order#distributors">Espruino</a> Chrome <a href="https://chrome.google.com/webstore/detail/espruino-web-ide/bleoifhkdalbjfbobjackfdifdneehpo">App</a>, which means you or your kids now have everything you need to develop and deploy Embedded and IoT projects for under €100. Honestly, that&rsquo;s revolutionary.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/09/pi_plus_espruino_small.jpg" alt="Pi loves Espruino" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/09/pi_plus_espruino_small.jpg" alt="Pi loves Espruino" /></p>
 
                     </div>
                 </section>
@@ -635,7 +635,7 @@ sudo dpkg -i chromium-browser_45.0.2454.85-0ubuntu0.14.04.1.1097_armhf.deb
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://conoroneill.net/tingodb-and-sqlite-instead-of-mongodb-and-mysql-for-tiny-projects-or-raspberry-pi/" class="post-title">TingoDB and SQLite instead of MongoDB and MySQL for tiny projects or Raspberry Pi</a>
+                        <a href="https://conoroneill.net/tingodb-and-sqlite-instead-of-mongodb-and-mysql-for-tiny-projects-or-raspberry-pi/" class="post-title">TingoDB and SQLite instead of MongoDB and MySQL for tiny projects or Raspberry Pi</a>
 
                         <p class="post-meta">
                             
@@ -671,7 +671,7 @@ sudo dpkg -i chromium-browser_45.0.2454.85-0ubuntu0.14.04.1.1097_armhf.deb
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://conoroneill.net/running-zeromq-with-node-js-on-raspberry-pi/" class="post-title">Running ZeroMQ with Node.js on Raspberry Pi</a>
+                        <a href="https://conoroneill.net/running-zeromq-with-node-js-on-raspberry-pi/" class="post-title">Running ZeroMQ with Node.js on Raspberry Pi</a>
 
                         <p class="post-meta">
                             
@@ -775,7 +775,7 @@ socket.connect('tcp://127.0.0.1:9998');
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://conoroneill.net/til-you-can-import-3d-models-from-tinkercad-to-minecraft-how-cool-is-that/" class="post-title">TIL you can import 3D models from Tinkercad to Minecraft. How cool is that?</a>
+                        <a href="https://conoroneill.net/til-you-can-import-3d-models-from-tinkercad-to-minecraft-how-cool-is-that/" class="post-title">TIL you can import 3D models from Tinkercad to Minecraft. How cool is that?</a>
 
                         <p class="post-meta">
                             
@@ -786,11 +786,11 @@ socket.connect('tcp://127.0.0.1:9998');
                     <div class="post-description">
                         <p>We had friends over from the US last weekend and their kids loved my <a href="http://printrbot.com/project/simple-makers/">Printrbot 3D printer</a>. They had learned <a href="https://www.tinkercad.com/">Tinkercad</a> in school so that&rsquo;s what they used to create things so they could print them out. They are now hounding their parents for a printer. Oops :-) But I noticed a &ldquo;Download to Minecraft&rdquo; option in Tinkercad and finally just had a chance to try it out. Wow!</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/08/tinker02b.jpg" alt="In Tinkercad" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/08/tinker02b.jpg" alt="In Tinkercad" /></p>
 
 <p><a href="http://blog.tinkercad.com/2013/08/15/tinkercraft/">It&rsquo;s incredibly easy</a>. Take any model from Tinkercad and pick the Minecraft option. You may have to tweak the sizing when you are doing it seriously. Then install the <a href="http://www.mcedit.net/downloads.html">MCEdit Minecraft editor</a> and import the file into one of your worlds. Then load up Minecraft and thar she blows.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/08/tinker01b.jpg" alt="In Minecraft" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/08/tinker01b.jpg" alt="In Minecraft" /></p>
 
 <p>I totally love the intersection of 3D design, 3D printing and Minecraft - the real and the virtual coming together. The younger kids are gonna be psyched when I show em!</p>
 
@@ -801,7 +801,7 @@ socket.connect('tcp://127.0.0.1:9998');
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://conoroneill.net/creating-an-otp-fob-compatible-with-google-authenticator-using-an-espruino-pico/" class="post-title">Creating an OTP fob compatible with Google Authenticator using an Espruino Pico</a>
+                        <a href="https://conoroneill.net/creating-an-otp-fob-compatible-with-google-authenticator-using-an-espruino-pico/" class="post-title">Creating an OTP fob compatible with Google Authenticator using an Espruino Pico</a>
 
                         <p class="post-meta">
                             
@@ -812,7 +812,7 @@ socket.connect('tcp://127.0.0.1:9998');
                     <div class="post-description">
                         <p>Now that the <a href="http://www.espruino.com/">Espruino Pico</a> has (beta) HID support, it can pretend to be a keyboard or mouse (or other HID compatible device). This makes it possible to send characters to the active window on your Windows/Linux/Mac PC. I&rsquo;ve cobbled together some code which turns the Pico into a device like a YubiKey. Press the button and get the latest auth code pasted automatically for you.</p>
 
-<p><img src="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/espruino_otp.jpg" alt="Espruino Pico OTP" /></p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/07/espruino_otp.jpg" alt="Espruino Pico OTP" /></p>
 
 <p>This code is basically just from three sources, merged together with a few tiny tweaks by me.</p>
 
@@ -887,8 +887,8 @@ TOTP = function() {
             var epoch = Math.round(new Date().getTime() / 1000.0);
             var time = leftpad(dec2hex(Math.floor(epoch / 30)), 16, &quot;0&quot;);
             var hmacObj = new jsSHA(&quot;SHA-1&quot;, &quot;HEX&quot;);
-            hmacObj.setHMACKey(base32tohex(secret), &quot;HEX&quot;)
-            hmacObj.update(time);
+			hmacObj.setHMACKey(base32tohex(secret), &quot;HEX&quot;)
+			hmacObj.update(time);
             var hmac = hmacObj.getHMAC(&quot;HEX&quot;);
             var offset = hex2dec(hmac.substring(hmac.length - 1));
             var otp = (hex2dec(hmac.substr(offset * 2, 8)) &amp; hex2dec(&quot;7fffffff&quot;)) + &quot;&quot;;
@@ -908,7 +908,7 @@ var kb = require(&quot;USBKeyboard&quot;);
 
 setWatch(function() {
   // These two lines by Conor O'Neill :-)
-    var pin = &quot;put_your_PIN_Prefix_here&quot;;
+	var pin = &quot;put_your_PIN_Prefix_here&quot;;
   kb.type(pin + totpObj.getOTP(&quot;put_your_google_authenticator_secret_here&quot;).toString(), function() {
         kb.tap(kb.KEY.ENTER);
     });
@@ -923,7 +923,7 @@ setWatch(function() {
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://conoroneill.net/node-v01040-and-v0127-for-arm-v7-raspberry-pi-2-banana-pi-odroid-c1-available/" class="post-title">Node v0.10.40 and v0.12.7 for ARM v7 and v6 (Raspberry Pi, Raspberry Pi 2, Banana Pi, ODroid C1) available</a>
+                        <a href="https://conoroneill.net/node-v01040-and-v0127-for-arm-v7-raspberry-pi-2-banana-pi-odroid-c1-available/" class="post-title">Node v0.10.40 and v0.12.7 for ARM v7 and v6 (Raspberry Pi, Raspberry Pi 2, Banana Pi, ODroid C1) available</a>
 
                         <p class="post-meta">
                             
@@ -941,9 +941,9 @@ setWatch(function() {
 <p>Enjoy.</p>
 
 <ul>
-<li><a href="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v7.tar.gz">node-v0.10.40-linux-arm-v7.tar.gz</a></li>
+<li><a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v7.tar.gz">node-v0.10.40-linux-arm-v7.tar.gz</a></li>
 
-<li><p><a href="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/node-v0.12.7-linux-arm-v7.tar.gz">node-v0.12.7-linux-arm-v7.tar.gz</a></p></li>
+<li><p><a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/07/node-v0.12.7-linux-arm-v7.tar.gz">node-v0.12.7-linux-arm-v7.tar.gz</a></p></li>
 
 <li><p><a href="http://blog.nodejs.org/2015/07/09/node-v0-10-40-maintenance/">node v0.10.40 release notes</a></p></li>
 
@@ -952,17 +952,17 @@ setWatch(function() {
 
 <pre><code class="language-bash">mkdir nodetemp
 cd nodetemp
-wget http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v7.tar.gz
+wget https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v7.tar.gz
 tar -zxvf node-v0.10.40-linux-arm-v7.tar.gz
 cd usr/local
 sudo cp -R * /usr/local/
 </code></pre>
 
 <p>UPDATE: I also built 0.10.40 for Raspberry Pi 1 (i.e. Original Model) ARM V6 on a Series 1 Model B:
-* <a href="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v6.tar.gz">node-v0.10.40-linux-arm-v6.tar.gz</a></p>
+* <a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v6.tar.gz">node-v0.10.40-linux-arm-v6.tar.gz</a></p>
 
 <p>UPDATE 2: I also built 0.12.7 for Raspberry Pi 1 (i.e. Original Model) ARM V6 on a Series 1 Model B:
-* <a href="http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2015/09/node-v0.12.7-linux-arm-v6.tar.gz">node-v0.12.7-linux-arm-v6.tar.gz</a></p>
+* <a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/09/node-v0.12.7-linux-arm-v6.tar.gz">node-v0.12.7-linux-arm-v6.tar.gz</a></p>
 
                     </div>
                 </section>
@@ -993,7 +993,7 @@ sudo cp -R * /usr/local/
         </ul>
     </div>
 </div>
-<script src="http://conoroneill.net/js/all.min.js"></script>
+<script src="https://conoroneill.net/js/all.min.js"></script>
         </div>
     </div>
 </div>

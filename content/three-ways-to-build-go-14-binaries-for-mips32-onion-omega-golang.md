@@ -9,7 +9,7 @@ title = "Three ways to build Go 1.4 binaries for MIPS32 Onion Omega #golang #doc
 
 I previously [wrote about using gccgo](http://conoroneill.net/onion-omega-first-impressions-running-golang-nodejs/) to build Go binaries for the [Onion Omega](https://onion.io/) due to Go's lack of support for MIPS CPUs. But TBH it's a pain in the butt. Things were looking up when it was revealed that Go 1.6 would have MIPS support but sadly it's for MIPS64 only, for datacenter applications I guess.
 
-![Onion Omega](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2016/02/onion_omega_small.jpg)
+![Onion Omega](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/02/onion_omega_small.jpg)
 
 
 However [Cathal Garvey](https://twitter.com/onetruecathal) discovered a [GitHub repo](https://github.com/gomini/go-mips32) where some lovely person has ported v1.4.2 of Go to MIPS32 and it works perfectly on the Onion Omega (and presumably all other Atheros AR9331 boards).
@@ -170,7 +170,7 @@ func main() {
 ```
 Then build that, scp it to the Omega and run it. Then open http://ip-of-your-onion:8080/ping to see everything working nicely.
 
-![Gin Ping Onion Omega](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2016/02/gin_ping_omega.jpg)
+![Gin Ping Onion Omega](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/02/gin_ping_omega.jpg)
 
 Note I also built this using the Windows setup for comparison and it worked too.
 

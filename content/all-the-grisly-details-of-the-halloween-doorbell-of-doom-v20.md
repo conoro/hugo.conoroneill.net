@@ -13,7 +13,7 @@ After the [silly complexity](http://conoroneill.net/all-the-tech-behind-our-hall
 
 The kids' favourite thing from all our Halloweens was the doorbell that made scary sounds. So that became the focus. As I hadn't really done anything with my two [C.H.I.P.s](https://getchip.com/pages/chip), I picked one to handle the bulk of the activity. I immediately became a big fan of its small size, built-in Wifi and simple Linux UI.
 
-![Image](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2016/11/chip01c.jpg)
+![Image](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/11/chip01c.jpg)
 
 
 But of course I couldn't leave it at that. I hauled out an old cheap scary mini skeleton we bought a few years back in Woodies and decided to add him to the mix. 
@@ -85,7 +85,7 @@ To show your own image you need to create it in Windows Paint (for realz) as a 1
 ## Doorbell Enclosure
 I had a few goes at creating an enclosure for the doorbell button itself in [Autodesk Fusion 360](http://www.autodesk.com/products/fusion-360/overview). The end-result was fine but not perfect. 
 
-![Image](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2016/11/doorbell03c.jpg)
+![Image](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/11/doorbell03c.jpg)
 
 
 * [Fusion 360 File](https://github.com/conoro/halloween2016/blob/master/Doorbell_Casing_04.f3d)
@@ -105,7 +105,7 @@ I needed an enclosure for the OLED screen. That worked well but was slightly too
 
 I ran the wiring for the screen and the switch iself in through the letterbox and had the C.H.I.P. dangling inside and powered by a phone charger.
 
-![Image](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2016/11/doorbell01c.jpg)
+![Image](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/11/doorbell01c.jpg)
 
 ## Skeletony
 Now that the main aim of the project was achieved I could relax since if nothing else worked, I still had the doorbell. I thought more about Skeletony and started "upgrading" him in iterations.
@@ -122,7 +122,7 @@ This glitched a lot but again, huge impact for such a simple idea. I ripped Skel
 ### Guts
 I hot-glued some creepy crawlies to his belly to hide all of the electronics.
 
-![Image](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2016/11/skeletony01c.jpg)
+![Image](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/11/skeletony01c.jpg)
 
 
 ### Ears
@@ -144,13 +144,13 @@ It all worked beautifully until the day itself and, as ever, something went wron
 
 I powered him from two USB powerbanks on his back. (The two were an unsuccessful attempt to deal with the servo glitching).
 
-![Image](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2016/11/skeletony02c.jpg)
+![Image](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/11/skeletony02c.jpg)
 
 
 ## LED strips
 Just a quick note about the analogue RGB LED strips I put down to guide people to the door. Wow, did they exceed expectations! They lit up the entire house and make it look extremely spooky. The spookiness doesn't really come across in the video. These were bog standard 5050 waterproof strips that you can get on DX.com or [Aliexpress](https://www.aliexpress.com/item-img/Tanbaby-RGB-Led-Strip-5050-Waterproof-flexible-Rope-44key-RGB-LED-controller-12V-5A-60W-Power/32452459271.html).
 
-![Image](http://conoroneill.net.s3.amazonaws.com/wp-content/uploads/2016/11/led_strip_5050.jpg)
+![Image](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/11/led_strip_5050.jpg)
 
 
 ## Rotating Lightbulbs
