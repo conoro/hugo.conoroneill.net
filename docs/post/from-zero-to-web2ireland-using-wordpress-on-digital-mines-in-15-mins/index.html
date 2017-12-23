@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" From Zero to Web2Ireland using Wordpress on Digital Mines in 15 mins &middot;  Cross Dominant" />
+  	<meta property="og:site_name" content="Cross Dominant" />
+  	<meta property="og:url" content="https://conoroneill.net/post/from-zero-to-web2ireland-using-wordpress-on-digital-mines-in-15-mins/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2011-01-20T17:20:00Z" />
+
+    
+    
+
+  <title>
+     From Zero to Web2Ireland using Wordpress on Digital Mines in 15 mins &middot;  Cross Dominant
+  </title>
+
+    <meta name="description" content="Mixed laterality since 1968" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
+	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+
+    
+        <link href="index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
+    
+    <meta name="generator" content="Hugo 0.29" />
+
+    <link rel="canonical" href="https://conoroneill.net/post/from-zero-to-web2ireland-using-wordpress-on-digital-mines-in-15-mins/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88610-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+
+        
+    </ul>
+
+
+    
+    <a class="subscribe-button icon-feed" href="index.xml">Subscribe</a> </div>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">From Zero to Web2Ireland using Wordpress on Digital Mines in 15 mins</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2011-01-20T17:20:00Z">
+            Jan 20, 2011
+          </time>
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>#&ldquo;From Zero to Web2Ireland using Wordpress on Digital Mines in 15 mins&rdquo;</p>
+
+<p><div style="background-color: transparent; margin: 0px;"><span style="font-family: Arial;"><span style="font-size: 15px;">We decided to move <a href="http://Web2Ireland.org">Web2Ireland.org</a> over to <a href="http://www.digitalmines.com/">Digital Mines</a> for AWS hosting. I&rsquo;m a big fan of how easy Digital Mines has made the deployment of Amazon servers. I thought it might be useful to show the steps to get a Wordpress blog up and running with such a setup.&nbsp;</span></span></div>
+<p />
+<div style="background-color: transparent; margin: 0px;"><span style="font-family: Arial;"><span style="font-size: 15px;">Note this doesn&rsquo;t include the incredibly simple steps to sign-up for Digital Mines itself and to click &ldquo;Deploy&rdquo; to get your server. All of the steps below were carried out in <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">Putty</a> on Windows connected by SSH to the deployed server.<br /> </span></span>
+<ul>
+<li style="font-family: Times New Roman; font-size: medium;"><span style="font-family: Arial; font-size: 15px;">Setup Apache, MySQL and PHP <br />sudo tasksel <br /></span><span style="font-family: Arial; font-size: 15px;">Select LAMP server <br /></span><span style="font-family: Arial; font-size: 15px;">Give a root password for MySQL when asked </span></li>
+<li style="font-family: Times New Roman; font-size: medium;"><span style="font-family: Arial; font-size: 15px;">Create directory for Wordpress <br />cd /var/www <br /></span><span style="font-family: Arial; font-size: 15px;">sudo mkdir vhosts <br /></span><span style="font-family: Arial; font-size: 15px;">cd vhosts/ <br /></span><span style="font-family: Arial; font-size: 15px;">sudo mkdir <a href="http://blahblahblah.com">blahblahblah.com</a> <br /></span><span style="font-family: Arial; font-size: 15px;">cd </span><span style="font-family: Arial; font-size: 15px;"><a href="http://blahblahblah.com">blahblahblah.com</a> </span></li>
+<li style="font-family: Times New Roman; font-size: medium;"><span style="font-family: Arial; font-size: 15px;">Get and uncompress Wordpress <br />sudo wget <a href="http://wordpress.org/latest.zip">http://wordpress.org/latest.zip</a> <br /></span><span style="font-family: Arial; font-size: 15px;">sudo apt-get install unzip <br /></span><span style="font-family: Arial; font-size: 15px;">sudo unzip latest.zip <br /></span><span style="font-family: Arial; font-size: 15px;">sudo rm latest.zip <br /></span><span style="font-family: Arial; font-size: 15px;">sudo chown -R www-data.www-data * <br /></span><span style="font-family: Arial; font-size: 15px;">cd wordpress/ <br /></span><span style="font-family: Arial; font-size: 15px;">sudo mv * .. <br /></span><span style="font-family: Arial; font-size: 15px;">cd .. <br /></span><span style="font-family: Arial; font-size: 15px;">sudo rm -rf wordpress/ </span></li>
+<li style="font-size: medium;"><span style="font-family: Arial; font-size: 15px;">Create a database for Wordpress <br />mysql -u root -p <br /></span><span style="font-size: 15px;"><span style="font-family: courier new, monospace;">c</span></span><span style="font-size: 15px;"><span style="font-family: courier new, monospace;">reate database blahblah; <br /></span></span><span style="font-family: courier new, monospace; font-size: small;"><span style="font-size: 15px;">GRANT ALL PRIVILEGES ON blahblah.* TO &ldquo;blahblahuser&rdquo;@&ldquo;localhost&rdquo; IDENTIFIED BY &ldquo;blahblahpassword&rdquo;;</span><span style="font-size: 15px;">quit; </span></span></li>
+<li style="font-family: Times New Roman; font-size: medium;"><span style="font-family: Arial; font-size: 15px;">Tell Wordpress about the Database <br /></span><span style="font-family: Arial; font-size: 15px;">sudo cp wp-config-sample.php wp-config.php <br /></span><span style="font-family: Arial; font-size: 15px;">sudo vim wp-config.php <br /></span><span style="font-family: Arial; font-size: 15px;">Edit the database details in that file </span></li>
+<li style="font-family: Times New Roman; font-size: medium;"><span style="font-family: arial; font-size: small;"><span style="font-size: 11pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">Configure Apache <br /></span></span><span style="font-family: arial; font-size: small;"><span style="font-size: 11pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">cd /etc/apache2/</span><span style="font-size: 11pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; text-decoration: none; vertical-align: baseline;">sites-enabled/ <br /></span></span><span style="font-family: arial; font-size: small;"><span style="font-family: Arial; font-size: 15px;">sudo cp 000-default </span><span style="font-family: Arial; font-size: 15px;"><a href="http://blahblahblah.com">blahblahblah.com</a> <br />sudo rm 000-default <br /></span></span><span style="font-family: Arial; font-size: 15px;">sudo vim <a href="http://blahblahblah.com">blahblahblah.com</a>&nbsp;<br /></span><span style="font-family: courier new, monospace; font-size: 15px;">&lt;VirtualHost *:80&gt; </span><span style="font-family: courier new, monospace; font-size: 15px;">&nbsp;<br /></span><span style="font-family: courier new, monospace; font-size: 15px;">ServerAdmin <a href="mailto:conor@blahblah.com">conor@blahblah.com</a> </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />ServerName <a href="http://blahblahblah.com">blahblahblah.com</a> </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />ServerAlias <a href="http://www.blahblahblah.com">www.blahblahblah.com</a> </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />DocumentRoot /var/www/vhosts/<a href="http://blahblahblah.com">blahblahblah.com</a> </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />&lt;Directory /&gt; </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />Options FollowSymLinks </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />AllowOverride None </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />&lt;/Directory&gt; </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />&lt;Directory /var/www/vhosts/<a href="http://blahblahblah.com">blahblahblah.com</a>&gt; </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />Options Indexes FollowSymLinks MultiViews </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />AllowOverride All </span><span style="font-family: courier new, monospace; font-size: 15px;"> Order allow,deny </span><span style="font-family: courier new, monospace; font-size: 15px;"> allow from all </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />&lt;/Directory&gt; </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />ErrorLog ${APACHE_LOG_DIR}/error.log </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br /># alert, emerg. </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />LogLevel warn </span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />CustomLog ${APACHE_LOG_DIR}/access.log combined</span><span style="font-family: courier new, monospace; font-size: 15px;"> <br />&lt;/VirtualHost&gt; </span></li>
+<li><span style="font-family: Arial;"><span style="font-size: 15px;">Setup URL rewriting</span></span>&nbsp;<br /><span style="font-family: Arial;"><span style="font-size: 15px;">sudo vim /var/www/vhosts/<a href="http://blahblahblah.com/.htaccess">blahblahblah.com/.htaccess</a></span></span> <br /><span style="font-size: 15px;"><span style="font-family: courier new, monospace;">&lt;IfModule mod_rewrite.c&gt; <br />RewriteEngine On <br />RewriteBase / <br />RewriteRule ^index.php$ - [L] <br />RewriteCond %{REQUEST_FILENAME} !-f <br />RewriteCond %{REQUEST_FILENAME} !-d <br />RewriteRule . /index.php [L] &lt;/IfModule&gt; </span></span> <br /><span style="font-family: Arial;"><span style="font-size: 15px;">sudo a2enmod rewrite</span></span> <br /><span style="font-family: Arial; font-size: 15px;">sudo service apache2 restart </span></li>
+<li style="font-family: Times New Roman; font-size: medium;"><span style="font-family: Arial; font-size: 15px;">Install APC for improved performance <br /></span><span style="font-family: Arial; font-size: 15px;">sudo apt-get install php-apc <br /></span><span style="font-family: Arial; font-size: 15px;">cd /etc/php5/conf.d <br /></span><span style="font-family: Arial; font-size: 15px;">sudo vim apc.ini <br /></span><span style="font-family: courier new, monospace; font-size: 15px;">extension=apc.so <br /></span><span style="font-family: courier new, monospace; font-size: 15px;">apc.enabled=1 <br /></span><span style="font-family: courier new, monospace; font-size: 15px;">apc.enable_cli=1 <br /></span><span style="font-family: courier new, monospace; font-size: 15px;">apc.shm_segments=1 <br /></span><span style="font-family: courier new, monospace; font-size: 15px;">apc.shm_size=32 <br /></span><span style="font-family: courier new, monospace; font-size: 15px;">apc.cache_by_default=1 <br /></span><span style="font-family: courier new, monospace; font-size: 15px;">apc.stat=1 </span></li>
+<li><span style="font-family: Arial; font-size: 15px;">Restart Apache sudo service apache2 restart</span></li>
+</ul>
+<div><span style="font-family: Arial;"><span style="font-size: 15px;">Outside of that we had to:</span></span></div>
+<div>
+<ul>
+<li><span style="font-family: Arial; font-size: 15px;">Move DNS servers from old provider to DNSMadeEasy&nbsp;</span></li>
+<li><span style="font-family: Arial; font-size: 15px;">Add an entry to AuthSMTP to handle email sending</span></li>
+<li><span style="font-family: Arial; font-size: 15px;">Do a Database Import/Export from existing Web2Ireland server</span></li>
+<li><span style="font-family: Arial; font-size: 15px;">Copy over theme files and old uploads from existing Web2Ireland server</span></li>
+</ul>
+<div><span style="font-family: Arial;"><span style="font-size: 15px;">Obviously you want to install other performance doo-dahs like Donncha&rsquo;s WP-Supercache too.&nbsp;</span></span></div>
+<p />
+<div><span style="font-family: Arial;"><span style="font-size: 15px;">Done!</span></span></div>
+<p />
+<div><span style="font-family: Arial;"><span style="font-size: 15px;">If you want to know the couple of steps to get Putty talking to your server, let me know in the comments.</span></span></div>
+<p />
+<p />
+</div>
+</div></p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
+  
+  <p>Tech guy who likes running slowly</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
+    <span class="author-link icon-link"><a href="https://conoroneill.com">https://conoroneill.com</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=From%20Zero%20to%20Web2Ireland%20using%20Wordpress%20on%20Digital%20Mines%20in%2015%20mins&amp;url=https%3a%2f%2fconoroneill.net%2fpost%2ffrom-zero-to-web2ireland-using-wordpress-on-digital-mines-in-15-mins%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fconoroneill.net%2fpost%2ffrom-zero-to-web2ireland-using-wordpress-on-digital-mines-in-15-mins%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fconoroneill.net%2fpost%2ffrom-zero-to-web2ireland-using-wordpress-on-digital-mines-in-15-mins%2f&amp;description=From%20Zero%20to%20Web2Ireland%20using%20Wordpress%20on%20Digital%20Mines%20in%2015%20mins"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fconoroneill.net%2fpost%2ffrom-zero-to-web2ireland-using-wordpress-on-digital-mines-in-15-mins%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'crossdominant';
+  var disqus_url = 'https:\/\/conoroneill.net\/post\/from-zero-to-web2ireland-using-wordpress-on-digital-mines-in-15-mins\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cross Dominant</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
+    
+</body>
+</html>
+

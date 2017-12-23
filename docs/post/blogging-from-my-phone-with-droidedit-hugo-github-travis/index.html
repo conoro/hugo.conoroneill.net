@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Blogging from my phone with DroidEdit, Hugo, GitHub Pages and Travis &middot;  Cross Dominant" />
+  	<meta property="og:site_name" content="Cross Dominant" />
+  	<meta property="og:url" content="https://conoroneill.net/post/blogging-from-my-phone-with-droidedit-hugo-github-travis/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2015-12-27T16:38:29Z" />
+
+    
+    
+
+  <title>
+     Blogging from my phone with DroidEdit, Hugo, GitHub Pages and Travis &middot;  Cross Dominant
+  </title>
+
+    <meta name="description" content="Mixed laterality since 1968" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
+	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+
+    
+        <link href="index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
+    
+    <meta name="generator" content="Hugo 0.29" />
+
+    <link rel="canonical" href="https://conoroneill.net/post/blogging-from-my-phone-with-droidedit-hugo-github-travis/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88610-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+
+        
+    </ul>
+
+
+    
+    <a class="subscribe-button icon-feed" href="index.xml">Subscribe</a> </div>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Blogging from my phone with DroidEdit, Hugo, GitHub Pages and Travis</h1>
+        <small>A cool Android text editor plus some back-end tooling makes for a very useful blogging platform.</small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2015-12-27T16:38:29Z">
+            Dec 27, 2015
+          </time>
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>I switched this blog to the superb Go-based tool <a href="https://gohugo.io/overview/usage/">Hugo</a> earlier in the year. Its staggering speed compared to HarpJS and Hexo plus a single executable you can drop in anywhere, make it a no-brainer for static blogs.</p>
+
+<p>I continued to host for free on <a href="https://pages.github.com/">GitHub Pages</a> which means I never ever ever have to worry about WordPress security exploits or badly written plugins again. However using GH Pages means you are quite limited in how things work.</p>
+
+<p>For several months I used Hugo in the recommended way of having <a href="https://github.com/conoro/hugo.conoroneill.net">one Git repo</a> for the blog&rsquo;s &ldquo;source files&rdquo; and then the original <a href="https://github.com/conoro/conoro.github.io">conoro.github.io repo</a> as a Git sub-module for the deployed HTML. I&rsquo;ve never heard a good word said about Git sub-modules and now I understand why. Nasty awkward things that mess everything up if you blink wrong. But it worked ok-ish until I decided to try <a href="https://travis-ci.org">Travis CI</a>.</p>
+
+<p>Travis is a continuous integration tool that can watch for changes in your GitHub repos and then run &ldquo;jobs&rdquo; on them. It&rsquo;s mainly used for building software but there is no reason you can&rsquo;t use it for building a blog. So the initial idea was that I would git add/commit a new blog post in my source repo and then Travis would run Hugo on it and commit the generated HTML to the blog, thereby publishing it.</p>
+
+<p>The real intent was so I could blog from devices that don&rsquo;t run Hugo like phones and tablets. Of course they&rsquo;d somehow need to support a text editor and Git but not Hugo itself.</p>
+
+<p>For Android I quickly found the superb <a href="https://play.google.com/store/apps/details?id=com.aor.droidedit.pro&amp;hl=en">DroidEdit</a> which has Git support built-in. It was dead easy to use it to generate a new post and add that to my repo. So I would have almost WordPress-level of easiness in blogging on the fly. Its only real drawback is the lack of Markdown syntax highlighting.</p>
+
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/droidedit.png" alt="DroidEdit" /></p>
+
+<p>Except then I tried to get it working with Travis. Several weekends of effort trying to wrangle the Git sub-module setup into submission ended in total frustration. Finally today I said &ldquo;sod sub-modules&rdquo; and went old-school &ldquo;copy the files from one repo to the other and commit them there&rdquo;. And ye know what? <a href="https://travis-ci.org/conoro/hugo.conoroneill.net">It worked</a>!</p>
+
+<p>There&rsquo;s a few bits in there to do with using https:// instead of git://. But the critical one-off steps on your PC are:</p>
+
+<ol>
+<li>get a <a href="https://github.com/settings/applications">Github token</a> for Travis</li>
+<li>Then <a href="https://docs.travis-ci.com/user/encryption-keys/">install Travis locally</a></li>
+<li>and encrypt your token via:
+<code>bash
+travis encrypt GH_TOKEN=&lt;secret token here&gt;  
+</code></li>
+<li>Finally add that output to the &ldquo;secure&rdquo; string in .travis.yml.</li>
+</ol>
+
+<p>So here you go with the files you need to do the same:</p>
+
+<p>.travis.yml</p>
+
+<pre><code class="language-yaml">language: go
+go:
+  - 1.5.1
+sudo: required
+env:
+  global:
+  - USER: Conor O'Neill
+  - EMAIL: cwjoneill@gmail.com
+  - GH_REF: github.com/conoro/conoro.github.io.git
+  - REPO: conoro.github.io
+  - GH_REPO: github.com/conoro/${REPO}.git
+  - secure: &quot;hHQScM7MWsK/74fvtoBn7lKuTKx1XlU08Ee4UD6ce0wfKNdE/W8z2dn8qzEsSw3YaoU6AULQgXthX+LVAXVZr1wIC6H9Kvjilaj+9ffRXFKrUv79q8s4EiOKqIvYGla5XlhIzP1Qu1qyLCA4dzgaQF6Cn2jB9AkkObnd8YArf3aW3LUbAnRy0ySo0A/QRupN/ckb81LXYnfbzQZB9zniBIhvGPipR0KdQL7GePShPWDeXJPpblo5kEXiIvHo7b1XYx+xACmaQR9PdoDgoTCAFqz2tJzCU92PnbIGw4Jv/ZdnWmt8Z6/4dO73UhcE3PokPvmg7tdsHbFWxhEzg0NaC7cvYsH3xWy9uTipwYLRd3eGbBt+htCZOj+slNHzREkPJBtEBw+b4iLDAr0T5V0kyflgsGOcgSXPyLIKsI0rHFRVAsZxowowK1UjZ05tnSIlFcIK8DX9c0JoXpM2ktOUt8/2EPCbaoKv17HW4BVDb7vXR8VzBf5MY4qku9NrmmYTMJXrzcdQU8JrbASPlHyF79n5xiiyg74Vq2OYCgHPg1nzmSrC1YgQu0W5WXNjWo9jt8h9C3ztuNYvDJkKkXl7KZDTq/s2XEzpzuLIA4rdTX+7lUB93ggN2YFeh6LV+kq58L8BpMPyiT8kxZLMF0HFTzaRNNwymelkPsV/+QZydro=&quot;
+git:
+  submodules: false
+# Use sed to replace the SSH URL with the public URL, then initialize submodules
+before_install:
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+install:
+  - sudo pip install Pygments
+  - go get github.com/spf13/hugo
+script: bash ./deploy.sh
+</code></pre>
+
+<p>deploy.sh</p>
+
+<pre><code class="language-bash">#!/bin/bash
+
+echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
+
+git config --global user.email &quot;cwjoneill@gmail.com&quot;
+git config --global user.name &quot;Conor O'Neill&quot;
+
+# Build the project.
+hugo # if using a theme, replace by `hugo -t &lt;yourtheme&gt;`
+
+git clone https://github.com/conoro/conoro.github.io.git
+cp -R public/* ${REPO}
+cd ${REPO}
+git remote
+git add -A :/
+git commit -a -m &quot;latest via travis&quot;
+git push &quot;https://${GH_TOKEN}@${GH_REPO}&quot; master &gt; /dev/null 2&gt;&amp;1
+</code></pre>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
+  
+  <p>Tech guy who likes running slowly</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
+    <span class="author-link icon-link"><a href="https://conoroneill.com">https://conoroneill.com</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Blogging%20from%20my%20phone%20with%20DroidEdit%2c%20Hugo%2c%20GitHub%20Pages%20and%20Travis&amp;url=https%3a%2f%2fconoroneill.net%2fpost%2fblogging-from-my-phone-with-droidedit-hugo-github-travis%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fconoroneill.net%2fpost%2fblogging-from-my-phone-with-droidedit-hugo-github-travis%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fconoroneill.net%2fpost%2fblogging-from-my-phone-with-droidedit-hugo-github-travis%2f&amp;description=Blogging%20from%20my%20phone%20with%20DroidEdit%2c%20Hugo%2c%20GitHub%20Pages%20and%20Travis"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fconoroneill.net%2fpost%2fblogging-from-my-phone-with-droidedit-hugo-github-travis%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'crossdominant';
+  var disqus_url = 'https:\/\/conoroneill.net\/post\/blogging-from-my-phone-with-droidedit-hugo-github-travis\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cross Dominant</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
+    
+</body>
+</html>
+

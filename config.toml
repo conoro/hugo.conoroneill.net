@@ -1,14 +1,28 @@
 baseurl = "https://conoroneill.net/"
 languageCode = "en-us"
 title = "Cross Dominant"
-theme = "purehugo"
+theme = "casper"
 Paginate = 10
 disqusShortname = "crossdominant"
 uglyUrls=false
 publishdir = "docs"
+rssuri = "index.xml"
 
 [params]
   twitterName = "conoro"
   githubName = "conoro"
+  instagramName = "cwjoneill"
   description = "Mixed laterality since 1968"
   google_analytics = "UA-88610-4"
+  cover = "img/ZXSpectrum48k.jpg"
+  author = "Conor O'Neill"
+  authorlocation = "Bandon, Cork, Ireland"
+  authorwebsite = "https://conoroneill.net"
+  bio= "Tech guy who likes running slowly"
+  logo = "img/cross_dominant.png"
+  googleAnalyticsUserID = "UA-88610-1"
+  linkedinName = "conoroneill"
+  RSSLink = "index.xml"
+
+
+
