@@ -8,6 +8,9 @@ uglyUrls=false
 publishdir = "docs"
 rssuri = "index.xml"
 
+[permalinks]
+  post="/:slug/"
+
 [params]
   twitterName = "conoro"
   githubName = "conoro"

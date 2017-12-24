@@ -26,7 +26,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="https://conoroneill.net/images/favicon.ico">
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
 	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
 
     <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
@@ -83,24 +83,17 @@
 
 
 
-
 <header class="main-header post-head no-cover">
-    <nav class="main-nav overlay clearfix">
+  <nav class="main-nav clearfix">
 
 
-      
-        <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/conors_bandon_blog.png" alt="Home" /></a>
-      
-      
-        
-          <a class="menu-button icon-feed" href="index.xml">&nbsp;&nbsp;Subscribe</a>
-        
-      
-    </nav>
-
-    
-
-
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
 </header>
 
 
@@ -110,28 +103,24 @@
 
 
 
-  <article class="post ">
+  <article class="post post">
+
     <header class="post-header">
-      <nav class="breadcrumb">
-        
-        
-        
-      </nav>
-
-
         <h1 class="post-title">Arduino and Raspberry Pi communicating over 2.4GHz with cheap nRF24L01&#43; modules</h1>
         <small></small>
 
         <section class="post-meta">
+        
+          <time class="post-date" datetime="2013-09-07T15:51:57&#43;01:00">
+            Sep 7, 2013
+          </time>
         
          
         </section>
     </header>
 
     <section class="post-content">
-
-
-<p>#&ldquo;Arduino and Raspberry Pi communicating over 2.4GHz with cheap nRF24L01+ modules&rdquo;</p>
+      <p>#&ldquo;Arduino and Raspberry Pi communicating over 2.4GHz with cheap nRF24L01+ modules&rdquo;</p>
 
 <p>I&rsquo;ve had a lot of fun over the past year messing with wireless comms. The 433Mhz/434MHz dirt-cheap modules are fantastic for Arduino, particularly when used with the <a href="http://www.airspayce.com/mikem/arduino/">VirtualWire library</a> which makes them trivial to setup. I&rsquo;ve been able to send sensor data and RC car commands using them with just a few lines of code. However, there isn&rsquo;t a version of VirtualWire for RaspberryPi and I don&rsquo;t have the time/skills to port the Arduino one.</p>
 
@@ -391,14 +380,6 @@ The Raspberry Pi libraries and sample code are obviously in C which is probably 
 
 <p>I haven&rsquo;t done any major distance testing on the modules. In our house, which has concrete internal walls, two modules could communicate from one room to the next but not from one end of the house to the other. They also worked successfully with one module inside an oil tank in the garden and the other one inside the house &lt;10m away. I&rsquo;ll try some open air testing soon.</p>
 
-
-
-
-
-
-
-
-
     </section>
 
 
@@ -407,7 +388,7 @@ The Raspberry Pi libraries and sample code are obviously in C which is probably 
 
     
     <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/conors_bandon_blog.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
     </figure>
     
 
@@ -424,7 +405,7 @@ The Raspberry Pi libraries and sample code are obviously in C which is probably 
   
   <div class="author-meta">
     <span class="author-location icon-location">Bandon, Cork, Ireland</span>
-    <span class="author-link icon-link"><a href="https://conoroneill.com">https://conoroneill.com</a></span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
   </div>
 </section>
 
@@ -432,7 +413,7 @@ The Raspberry Pi libraries and sample code are obviously in C which is probably 
 
     
 <section class="share">
-  <h4>Share this page</h4>
+  <h4>Share this post</h4>
   <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Arduino%20and%20Raspberry%20Pi%20communicating%20over%202.4GHz%20with%20cheap%20nRF24L01%2b%20modules&amp;url=https%3a%2f%2fconoroneill.net%2farduino-and-raspberry-pi-communicating-over-2-4ghz-with-cheap-nrf24l01-modules%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>

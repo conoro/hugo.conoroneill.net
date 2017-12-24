@@ -26,7 +26,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="https://conoroneill.net/images/favicon.ico">
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
 	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
 
     <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
@@ -83,24 +83,17 @@
 
 
 
-
 <header class="main-header post-head no-cover">
-    <nav class="main-nav overlay clearfix">
+  <nav class="main-nav clearfix">
 
 
-      
-        <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/conors_bandon_blog.png" alt="Home" /></a>
-      
-      
-        
-          <a class="menu-button icon-feed" href="index.xml">&nbsp;&nbsp;Subscribe</a>
-        
-      
-    </nav>
-
-    
-
-
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
 </header>
 
 
@@ -110,28 +103,24 @@
 
 
 
-  <article class="post ">
+  <article class="post post">
+
     <header class="post-header">
-      <nav class="breadcrumb">
-        
-        
-        
-      </nav>
-
-
         <h1 class="post-title">Creating a valid ops file in JSON format for Minecraft 1.7.9</h1>
         <small>I challenge the Mojang guys to do a new MC Windows exe Server installation and then setup an Ops file without knowledge of UUIDs and JSON. A terrible upgrade experience.</small>
 
         <section class="post-meta">
+        
+          <time class="post-date" datetime="2014-06-01T15:48:21&#43;01:00">
+            Jun 1, 2014
+          </time>
         
          
         </section>
     </header>
 
     <section class="post-content">
-
-
-<p>Our 8yo wanted a local server on his laptop today so I grabbed the latest 1.7.9 server exe from the Minecraft site and ran it in its own directory. It created the usual files and gave a GUI-style interface with no obvious console like the raw Java version. Fionn then asked me to make him an Op so he could change things. And it was all downhill from there.</p>
+      <p>Our 8yo wanted a local server on his laptop today so I grabbed the latest 1.7.9 server exe from the Minecraft site and ran it in its own directory. It created the usual files and gave a GUI-style interface with no obvious console like the raw Java version. Fionn then asked me to make him an Op so he could change things. And it was all downhill from there.</p>
 
 <p>The standard ops.txt was missing but there was an ops.json containing just two square brackets. No amount of messing with creating an ops.txt or putting his username inside the brackets of the json file worked. Over an hour of googling finally got me close. In the recent versions of Minecraft, they have moved to using JSON instead of .txt for config files and they are rolling out the idea of UUIDs so that you can easily change your username. Both are reasonable changes but implemented terribly in this case. Unless the format of your json file in 100% correct, it doesn&rsquo;t throw an error, it just deletes it!</p>
 
@@ -172,14 +161,6 @@
 
 <p>That should be all you need. Leave a comment if any problems with it.</p>
 
-
-
-
-
-
-
-
-
     </section>
 
 
@@ -188,7 +169,7 @@
 
     
     <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/conors_bandon_blog.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
     </figure>
     
 
@@ -205,7 +186,7 @@
   
   <div class="author-meta">
     <span class="author-location icon-location">Bandon, Cork, Ireland</span>
-    <span class="author-link icon-link"><a href="https://conoroneill.com">https://conoroneill.com</a></span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
   </div>
 </section>
 
@@ -213,7 +194,7 @@
 
     
 <section class="share">
-  <h4>Share this page</h4>
+  <h4>Share this post</h4>
   <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Creating%20a%20valid%20ops%20file%20in%20JSON%20format%20for%20Minecraft%201.7.9&amp;url=https%3a%2f%2fconoroneill.net%2fcreating-a-valid-ops-file-in-json-format-for-minecraft-179%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>

@@ -26,7 +26,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="https://conoroneill.net/images/favicon.ico">
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
 	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
 
     <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
@@ -83,24 +83,17 @@
 
 
 
-
 <header class="main-header post-head no-cover">
-    <nav class="main-nav overlay clearfix">
+  <nav class="main-nav clearfix">
 
 
-      
-        <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/conors_bandon_blog.png" alt="Home" /></a>
-      
-      
-        
-          <a class="menu-button icon-feed" href="index.xml">&nbsp;&nbsp;Subscribe</a>
-        
-      
-    </nav>
-
-    
-
-
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
 </header>
 
 
@@ -110,38 +103,26 @@
 
 
 
-  <article class="post ">
+  <article class="post post">
+
     <header class="post-header">
-      <nav class="breadcrumb">
-        
-        
-        
-      </nav>
-
-
         <h1 class="post-title">Getting OpenVPN working on Android</h1>
         <small></small>
 
         <section class="post-meta">
+        
+          <time class="post-date" datetime="2010-08-23T07:52:08&#43;01:00">
+            Aug 23, 2010
+          </time>
         
          
         </section>
     </header>
 
     <section class="post-content">
-
-
-<p>#&ldquo;Getting OpenVPN working on Android&rdquo;</p>
+      <p>#&ldquo;Getting OpenVPN working on Android&rdquo;</p>
 
 <p>There are many uses for a VPN and they are generally very easy to setup on desktop computers. The experience with phones can be variable. iPhone is a doddle but Android is a horror (see my last post). The built-in PPTN VPN is utterly broken and does not work over 3G at all or for more than a few minutes on Wifi. The steps to get an alternative working on a HTC Desire are as follows:<br /> <ol><li>Brace yourself</li><li>Install Windows OpenVPN and get it working on your PC with your VPN provider</li><li>Root your Android phone. If you don&#39;t know how to do this, stop reading now.</li><li>Replace the standard ROM with the latest community Froyo. Either <a href="http://forum.xda-developers.com/showthread.php?t=719544">Cyanogen 6.0 Nightly</a> or <a href="http://forum.xda-developers.com/showthread.php?t=690477">DeFroST </a>are good(I use DeFroST). OpenDesire does not seem to work in the later steps of this process and I haven&#39;t had a chance to try any of the Modaco ones with Sense still enabled.</li> <li>Install the Google Apps add-on too if your ROM doesn&#39;t include them.</li><li>In Android Market, install the &quot;OpenVPN Settings App&quot;</li><li>Note this is not the same as the OpenVPN Settings Page in Network-&gt;Settings. I wasted a ridiculous amount of time trying to get Cert files etc working there. Avoid it. That settings page is the source of most of the confusion around OpenVPN on all the forums. I&#39;m sure there is a use for it if you have your own keys/certs etc but not for generic VPN users.</li> <li>Copy the config directory from C:Program FilesOpenVPN (including the sub-dir) on your PC to a directory like openvpn on the SD Card on your phone</li><li>Go to that OpenVPN Settings App you installed</li><li>Tell it where you have stored the config files and it should show you the configurations you copied from the PC</li> <li>Tap on the config you want and all going well, it will connect for you</li><li>You are in business!</li><li>I&#39;ve noticed that it sometimes disconnects after a minute or so and then reconnects and stays solid after that.</li> <li>All of the above works on both WiFi and 3G</li></ol><br />So Google, any ETA on fixing all those built-in VPN bugs?</p>
-
-
-
-
-
-
-
-
 
     </section>
 
@@ -151,7 +132,7 @@
 
     
     <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/conors_bandon_blog.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
     </figure>
     
 
@@ -168,7 +149,7 @@
   
   <div class="author-meta">
     <span class="author-location icon-location">Bandon, Cork, Ireland</span>
-    <span class="author-link icon-link"><a href="https://conoroneill.com">https://conoroneill.com</a></span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
   </div>
 </section>
 
@@ -176,7 +157,7 @@
 
     
 <section class="share">
-  <h4>Share this page</h4>
+  <h4>Share this post</h4>
   <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Getting%20OpenVPN%20working%20on%20Android&amp;url=https%3a%2f%2fconoroneill.net%2fgetting-openvpn-working-on-android%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>

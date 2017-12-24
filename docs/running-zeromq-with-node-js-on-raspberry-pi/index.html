@@ -26,7 +26,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="https://conoroneill.net/images/favicon.ico">
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
 	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
 
     <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
@@ -83,24 +83,17 @@
 
 
 
-
 <header class="main-header post-head no-cover">
-    <nav class="main-nav overlay clearfix">
+  <nav class="main-nav clearfix">
 
 
-      
-        <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/conors_bandon_blog.png" alt="Home" /></a>
-      
-      
-        
-          <a class="menu-button icon-feed" href="index.xml">&nbsp;&nbsp;Subscribe</a>
-        
-      
-    </nav>
-
-    
-
-
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
 </header>
 
 
@@ -110,28 +103,24 @@
 
 
 
-  <article class="post ">
+  <article class="post post">
+
     <header class="post-header">
-      <nav class="breadcrumb">
-        
-        
-        
-      </nav>
-
-
         <h1 class="post-title">Running ZeroMQ with Node.js on Raspberry Pi</h1>
         <small>ZeroMQ is a lightweight messaging library and looks ideal for lower powered devices like the RPi. Building and running is pretty easy. These are more notes for myself for future reference.</small>
 
         <section class="post-meta">
+        
+          <time class="post-date" datetime="2015-09-20T11:38:46&#43;01:00">
+            Sep 20, 2015
+          </time>
         
          
         </section>
     </header>
 
     <section class="post-content">
-
-
-<p><a href="http://zeromq.org/">ZeroMQ</a> is a lightweight messaging library and looks ideal for lower powered devices like the RPi. Building and running is pretty easy. These are really just notes for myself for future reference.</p>
+      <p><a href="http://zeromq.org/">ZeroMQ</a> is a lightweight messaging library and looks ideal for lower powered devices like the RPi. Building and running is pretty easy. These are really just notes for myself for future reference.</p>
 
 <p>I don&rsquo;t actually need a messaging system yet but I wanted to play around with one. Running a simple Request / Reply setup with Node.js on both Windows 10 and RPi was interesting. One advantage a message queue gives you over REST is that the receiver can be out of action and still get all transmitted messages when it recovers. You also have things like Pub/Sub etc. I&rsquo;ve been running the code <a href="http://blog.rastating.com/using-zeromq-with-node-js/">from here</a> 100% reliably for two days now on both setups. At some point I&rsquo;ll check max throughput on a Pi.</p>
 
@@ -219,14 +208,6 @@ socket.on(&quot;message&quot;, function (message) {
 socket.connect('tcp://127.0.0.1:9998');  
 </code></pre>
 
-
-
-
-
-
-
-
-
     </section>
 
 
@@ -235,7 +216,7 @@ socket.connect('tcp://127.0.0.1:9998');
 
     
     <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/conors_bandon_blog.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
     </figure>
     
 
@@ -252,7 +233,7 @@ socket.connect('tcp://127.0.0.1:9998');
   
   <div class="author-meta">
     <span class="author-location icon-location">Bandon, Cork, Ireland</span>
-    <span class="author-link icon-link"><a href="https://conoroneill.com">https://conoroneill.com</a></span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
   </div>
 </section>
 
@@ -260,7 +241,7 @@ socket.connect('tcp://127.0.0.1:9998');
 
     
 <section class="share">
-  <h4>Share this page</h4>
+  <h4>Share this post</h4>
   <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Running%20ZeroMQ%20with%20Node.js%20on%20Raspberry%20Pi&amp;url=https%3a%2f%2fconoroneill.net%2frunning-zeromq-with-node-js-on-raspberry-pi%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>

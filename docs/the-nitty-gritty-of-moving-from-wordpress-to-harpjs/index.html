@@ -26,7 +26,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="https://conoroneill.net/images/favicon.ico">
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
 	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
 
     <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
@@ -83,24 +83,17 @@
 
 
 
-
 <header class="main-header post-head no-cover">
-    <nav class="main-nav overlay clearfix">
+  <nav class="main-nav clearfix">
 
 
-      
-        <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/conors_bandon_blog.png" alt="Home" /></a>
-      
-      
-        
-          <a class="menu-button icon-feed" href="index.xml">&nbsp;&nbsp;Subscribe</a>
-        
-      
-    </nav>
-
-    
-
-
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
 </header>
 
 
@@ -110,28 +103,24 @@
 
 
 
-  <article class="post ">
+  <article class="post post">
+
     <header class="post-header">
-      <nav class="breadcrumb">
-        
-        
-        
-      </nav>
-
-
         <h1 class="post-title">The nitty-gritty of moving from WordPress to HarpJS</h1>
         <small>It wasn&#39;t easy but I&#39;m now nearly happy with my all-new GitHub-Pages-hosted HarpJS-generated static blog. Here are all the gory details.</small>
 
         <section class="post-meta">
+        
+          <time class="post-date" datetime="2014-03-16T18:33:02Z">
+            Mar 16, 2014
+          </time>
         
          
         </section>
     </header>
 
     <section class="post-content">
-
-
-<p>As I said in the previous posts, the move from WP to HarpJS was not exactly smooth. But I&rsquo;m glad I&rsquo;ve done it as I finally learned how to use a lot of things like Jade that I&rsquo;ve long-fingered for years.</p>
+      <p>As I said in the previous posts, the move from WP to HarpJS was not exactly smooth. But I&rsquo;m glad I&rsquo;ve done it as I finally learned how to use a lot of things like Jade that I&rsquo;ve long-fingered for years.</p>
 
 <p>The first step was to get the original content out of WordPress. This had the added twist that the conoroneill.net blog actually started out as a Posterous blog which I imported into WordPress when I realised that Posterous was a dead-end. So the first two years of posts have some &ldquo;interesting&rdquo; problems in them.</p>
 
@@ -203,14 +192,6 @@ find . -name "*.md" -exec sh -c 'NEWDIR=`basename "$1" .md` ; mkdir "$NEWDIR" ; 
 
 <p>Update 4: Damn and blast, I forgot about /feed not redirecting too. So I created a /feed directory and put the feed.jade file in there as index.jade and set layout to false in a new _data.json file in that directory (after trying 20 other things!).</p>
 
-
-
-
-
-
-
-
-
     </section>
 
 
@@ -219,7 +200,7 @@ find . -name "*.md" -exec sh -c 'NEWDIR=`basename "$1" .md` ; mkdir "$NEWDIR" ; 
 
     
     <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/conors_bandon_blog.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
     </figure>
     
 
@@ -236,7 +217,7 @@ find . -name "*.md" -exec sh -c 'NEWDIR=`basename "$1" .md` ; mkdir "$NEWDIR" ; 
   
   <div class="author-meta">
     <span class="author-location icon-location">Bandon, Cork, Ireland</span>
-    <span class="author-link icon-link"><a href="https://conoroneill.com">https://conoroneill.com</a></span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
   </div>
 </section>
 
@@ -244,7 +225,7 @@ find . -name "*.md" -exec sh -c 'NEWDIR=`basename "$1" .md` ; mkdir "$NEWDIR" ; 
 
     
 <section class="share">
-  <h4>Share this page</h4>
+  <h4>Share this post</h4>
   <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=The%20nitty-gritty%20of%20moving%20from%20WordPress%20to%20HarpJS&amp;url=https%3a%2f%2fconoroneill.net%2fthe-nitty-gritty-of-moving-from-wordpress-to-harpjs%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>

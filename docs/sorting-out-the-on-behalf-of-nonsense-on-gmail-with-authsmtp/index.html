@@ -26,7 +26,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="https://conoroneill.net/images/favicon.ico">
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
 	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
 
     <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
@@ -83,24 +83,17 @@
 
 
 
-
 <header class="main-header post-head no-cover">
-    <nav class="main-nav overlay clearfix">
+  <nav class="main-nav clearfix">
 
 
-      
-        <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/conors_bandon_blog.png" alt="Home" /></a>
-      
-      
-        
-          <a class="menu-button icon-feed" href="index.xml">&nbsp;&nbsp;Subscribe</a>
-        
-      
-    </nav>
-
-    
-
-
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
 </header>
 
 
@@ -110,38 +103,26 @@
 
 
 
-  <article class="post ">
+  <article class="post post">
+
     <header class="post-header">
-      <nav class="breadcrumb">
-        
-        
-        
-      </nav>
-
-
         <h1 class="post-title">Sorting out the &#39;On Behalf Of&#39; Nonsense on GMail with AuthSMTP</h1>
         <small></small>
 
         <section class="post-meta">
+        
+          <time class="post-date" datetime="2011-01-07T10:18:42Z">
+            Jan 7, 2011
+          </time>
         
          
         </section>
     </header>
 
     <section class="post-content">
-
-
-<p>#&ldquo;Sorting out the \&ldquo;On Behalf Of\&rdquo; Nonsense on GMail with AuthSMTP&rdquo;</p>
+      <p>#&ldquo;Sorting out the \&ldquo;On Behalf Of\&rdquo; Nonsense on GMail with AuthSMTP&rdquo;</p>
 
 <p>I have long been pained by GMails handling of multiple &quot;From&quot; accounts. We use Google Apps For Your Domain which we generally like apart from that one feature.<p /><div>Obviously we have accounts like sales@ and support@ which are accessed by more than one of us. On the face of it GMail allows you to send from these addresses using your main account. So I can send a mail when logged in as conor@ but have it appear to be From sales@.</div> <p /><div>But Google insists on sticking an additional header called &quot;Sender&quot; which identifies that it really was conor@ who sent the mail. That then appears in the recipients Outlook Inbox as &quot;From conor@blah on behalf of sales@blah&quot;. This completely defeats the purpose of having generic group addresses. It means we can&#39;t have seamless &quot;tonight Matthew I&#39;m going to be Support&quot;.</div> <p /><div>But it turns out Google does have a solution for it and you can continue to use the web interface. When you are setting up those extra accounts you can tell Google not to use their servers to send but to use another SMTP server. They generally expect that to be your own mail server but we actually use <a href="http://www.authsmtp.com/">AuthSMTP</a> for all our automated sending from EC2 and it works perfectly here too. It&#39;s a very inexpensive solution which has never let us down. Highly recommended. (Note - enable SSL on your AuthSMTP account but don&#39;t on GMail).</div> <p /><div>Job done!</div></p>
-
-
-
-
-
-
-
-
 
     </section>
 
@@ -151,7 +132,7 @@
 
     
     <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/conors_bandon_blog.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
     </figure>
     
 
@@ -168,7 +149,7 @@
   
   <div class="author-meta">
     <span class="author-location icon-location">Bandon, Cork, Ireland</span>
-    <span class="author-link icon-link"><a href="https://conoroneill.com">https://conoroneill.com</a></span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
   </div>
 </section>
 
@@ -176,7 +157,7 @@
 
     
 <section class="share">
-  <h4>Share this page</h4>
+  <h4>Share this post</h4>
   <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Sorting%20out%20the%20%27On%20Behalf%20Of%27%20Nonsense%20on%20GMail%20with%20AuthSMTP&amp;url=https%3a%2f%2fconoroneill.net%2fsorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
