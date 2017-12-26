@@ -3,7 +3,7 @@ Categories = []
 Description = "An unofficial port of Go 1.4 to MIPS32 means the Onion Omega and other Atheros AR9331 boards can run proper Go binaries without the need for gccgo. Here are three ways (Linux, Windows and Docker) you can build those binaries."
 Tags = []
 date = "2016-02-08T17:43:26Z"
-title = "Three ways to build Go 1.4 binaries for MIPS32 Onion Omega #golang #docker"
+title = "Three ways to build Go 1.4 binaries for MIPS32 Onion Omega %23golang %23docker"
 
 +++
 
