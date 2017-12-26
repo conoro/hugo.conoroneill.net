@@ -1,7 +1,7 @@
 +++
 Description = "This new $25 IoT board sits between microcontrollers and Raspberry Pis. Its small size is the big attraction. But language support is currently weak at this early stage"
 date = "2015-11-16T22:35:48Z"
-title = "First impressions of @OnionIoT Omega. Also running #golang 1.1.2 and #nodejs 0.10.5 on MIPS"
+title = "First impressions of @OnionIoT Omega. Also running golang 1.1.2 and nodejs 0.10.5 on MIPS"
 
 +++
 I did a splurge of backing IoT KickStarters a few months ago and the [Onion Omega](https://onion.io/omega/) is the first one to land in my postbox. It's a tiny (barely bigger than an SD card) board running the same basic guts as many OpenWRT routers i.e. 400 MHz Atheros MIPS CPU with 64MB of DRAM and 16MB of Flash. 

@@ -3,7 +3,7 @@ Categories = []
 Description = "I'm still flabbergasted you can get a https cert for $0 to run a secure web-server on a $5 computer behind an Asus RT-AC68 Merlin router"
 Tags = []
 date = "2015-12-30T17:15:23Z"
-title = "Auto-tweeting the #Bandon floods with Twilio, Tasker, Let's Encrypt, a #PiZero, golang, Caddy and an Asus router"
+title = "Auto-tweeting the Bandon floods with Twilio, Tasker, Let's Encrypt, a PiZero, golang, Caddy and an Asus router"
 
 +++
 ## Intro
