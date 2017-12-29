@@ -6,10 +6,31 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Dec 2017 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2017 17:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Media Players in 2017</title>
+      <link>https://conoroneill.net/my-media-players-in-2017/</link>
+      <pubDate>Fri, 29 Dec 2017 17:00:00 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/my-media-players-in-2017/</guid>
+      <description>Our journey with media players started a long time ago by adding a hardware hack to an original pre-360 XBOX so it could run XBMC. We&amp;rsquo;ve gone through a bunch of devices since, with the Raspberry Pi being the mainstay since 2012, until its lack of x265, 4K and Netflix meant we had to look elsewhere in 2017.
+Quick side-note: By complete coincidence, XMBC has just been released today on the XBOX One.</description>
+    </item>
+    
+    <item>
+      <title>Solved - Missing synced contacts on new iPhone 8</title>
+      <link>https://conoroneill.net/solved-missing-synced-contacts-on-iphone-8/</link>
+      <pubDate>Thu, 28 Dec 2017 08:00:00 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/solved-missing-synced-contacts-on-iphone-8/</guid>
+      <description>The parents both got new iPhone 8&amp;rsquo;s for Christmas. I figured it&amp;rsquo;d take 10 minutes to tranfer them from a 5s and a 6 respectively. Boy was I wrong.
+Five hours later I finally had them both working ok. Hopefully this post will save you some of my pain with these magical seamless awesome incredible devices (as Tim likes to call them).
+ Builtin transfer process - Make sure you have Bluetooth on.</description>
+    </item>
     
     <item>
       <title>End of an era - Our Wii is going in the attic</title>
@@ -61,11 +82,11 @@ But there are others I love equally where it&amp;rsquo;s mostly about what they 
     </item>
     
     <item>
-      <title>Three ways to build Go 1.4 binaries for MIPS32 Onion Omega #golang #docker</title>
-      <link>https://conoroneill.net/three-ways-to-build-go-1.4-binaries-for-mips32-onion-omega-#golang-%23docker/</link>
+      <title>Three ways to build Go 1.4 binaries for MIPS32 Onion Omega</title>
+      <link>https://conoroneill.net/three-ways-to-build-go-1.4-binaries-for-mips32-onion-omega/</link>
       <pubDate>Mon, 08 Feb 2016 17:43:26 +0000</pubDate>
       
-      <guid>https://conoroneill.net/three-ways-to-build-go-1.4-binaries-for-mips32-onion-omega-#golang-%23docker/</guid>
+      <guid>https://conoroneill.net/three-ways-to-build-go-1.4-binaries-for-mips32-onion-omega/</guid>
       <description>I previously wrote about using gccgo to build Go binaries for the Onion Omega due to Go&amp;rsquo;s lack of support for MIPS CPUs. But TBH it&amp;rsquo;s a pain in the butt. Things were looking up when it was revealed that Go 1.6 would have MIPS support but sadly it&amp;rsquo;s for MIPS64 only, for datacenter applications I guess.
 However Cathal Garvey discovered a GitHub repo where some lovely person has ported v1.</description>
     </item>
@@ -83,11 +104,11 @@ The email: </description>
     </item>
     
     <item>
-      <title>How cheaply can you build a full Raspberry #PiZero computer?</title>
-      <link>https://conoroneill.net/how-cheaply-can-you-build-a-full-raspberry-#pizero-computer/</link>
+      <title>How cheaply can you build a full Raspberry PiZero computer?</title>
+      <link>https://conoroneill.net/how-cheaply-can-you-build-a-full-raspberry-pizero-computer/</link>
       <pubDate>Fri, 01 Jan 2016 10:59:32 +0000</pubDate>
       
-      <guid>https://conoroneill.net/how-cheaply-can-you-build-a-full-raspberry-#pizero-computer/</guid>
+      <guid>https://conoroneill.net/how-cheaply-can-you-build-a-full-raspberry-pizero-computer/</guid>
       <description>When the incredible $5 Pi Zero was launched, the usual suspects were so busy snarking how it wasn&amp;rsquo;t really $5, that they completely missed what an important moment in computer history this is. You know the type. The ones who would have ridiculed Tim Berners-Lee&amp;rsquo;s design for the web. Or would have told Linus in no uncertain terms that he was misguided and that microkernels were the future.
 Whilst you can&amp;rsquo;t turn on a #PiZero for $5, you also can&amp;rsquo;t connect to the LAN with your $1500 Macbook Pro without buying an adapter.</description>
     </item>
@@ -112,11 +133,11 @@ ESP8266 $1 Wifi modules I&amp;rsquo;ve talked about the ESP8266 constantly all y
     </item>
     
     <item>
-      <title>Auto-tweeting the #Bandon floods with Twilio, Tasker, Let&#39;s Encrypt, a #PiZero, golang, Caddy and an Asus router</title>
-      <link>https://conoroneill.net/auto-tweeting-the-#bandon-floods-with-twilio-tasker-lets-encrypt-a-%23pizero-golang-caddy-and-an-asus-router/</link>
+      <title>Auto-tweeting the Bandon floods with Twilio, Tasker, Let&#39;s Encrypt, a PiZero, golang, Caddy and an Asus router</title>
+      <link>https://conoroneill.net/auto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router/</link>
       <pubDate>Wed, 30 Dec 2015 17:15:23 +0000</pubDate>
       
-      <guid>https://conoroneill.net/auto-tweeting-the-#bandon-floods-with-twilio-tasker-lets-encrypt-a-%23pizero-golang-caddy-and-an-asus-router/</guid>
+      <guid>https://conoroneill.net/auto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router/</guid>
       <description>Intro I haven&amp;rsquo;t blogged properly about the $5 Raspberry Pi Zero computer yet, despite Tweeting non-stop about it. I will soon. In the meantime, I&amp;rsquo;ll just repeat that
 It&amp;rsquo;s a major moment in computing
  The inclusion of a free one on the cover of the MagPi Magazine will be remembered for years to come.
@@ -144,11 +165,11 @@ So I was chuffed that it arrived on Christmas Eve.</description>
     </item>
     
     <item>
-      <title>First impressions of @OnionIoT Omega. Also running #golang 1.1.2 and #nodejs 0.10.5 on MIPS</title>
-      <link>https://conoroneill.net/first-impressions-of-onioniot-omega.-also-running-#golang-1.1.2-and-%23nodejs-0.10.5-on-mips/</link>
+      <title>First impressions of @OnionIoT Omega. Also running golang 1.1.2 and nodejs 0.10.5 on MIPS</title>
+      <link>https://conoroneill.net/first-impressions-of-onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/</link>
       <pubDate>Mon, 16 Nov 2015 22:35:48 +0000</pubDate>
       
-      <guid>https://conoroneill.net/first-impressions-of-onioniot-omega.-also-running-#golang-1.1.2-and-%23nodejs-0.10.5-on-mips/</guid>
+      <guid>https://conoroneill.net/first-impressions-of-onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/</guid>
       <description>I did a splurge of backing IoT KickStarters a few months ago and the Onion Omega is the first one to land in my postbox. It&amp;rsquo;s a tiny (barely bigger than an SD card) board running the same basic guts as many OpenWRT routers i.e. 400 MHz Atheros MIPS CPU with 64MB of DRAM and 16MB of Flash.
 If you&amp;rsquo;re not familiar with OpenWRT, it&amp;rsquo;s an Open Source community replacement firmware for many routers (similar to DD-WRT that I&amp;rsquo;ve used many times) and is Linux under the hood.</description>
     </item>
