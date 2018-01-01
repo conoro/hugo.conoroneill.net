@@ -30,10 +30,11 @@ Other mods include an on-off switch, a buzzer, a loudspeaker and various LEDs on
 
 The buzzer is a little weak so I'll order something bigger. I'm running it directly off an IO pin which is probably a terrible idea. I'll wire it to a transistor at some point. (Update: I re-wired to use a simple BC547 transistor to turn on/off the buzzer connected to +/- and the entire badge now vibrates strongly.)
 
-The loudspeaker was a replacement for the disc ones we provided at NodeConf EU. TBH those discs were pretty rubbish. Gordon did a great job figuring out how to [double the voltage swing](https://nodeconfeubadge.org/workshop/sound/) to increase the volume but they were still pretty quiet. These green ones are much much louder and very usable. Here it is in action. Impressive eh? ;-)
+The loudspeaker was a replacement for the disc ones we provided at NodeConf EU. TBH those discs were pretty rubbish. Gordon did a great job figuring out how to [double the voltage swing](https://nodeconfeubadge.org/workshop/sound/) to increase the volume but they were still pretty quiet. These green ones are much much louder and very usable. Here's one in action. Impressive eh? ;-)
 
 {{< youtube JM48SXzoVJc >}}
 
+&nbsp;
 I had ordered some microphone modules for the event but the arrived afterwards. It turns out they were useless. They only trigger on/off for loud sounds. So avoid [these](https://www.ebay.ie/sch/i.html?_nkw=Microphone+Sensor+AVR+PIC&_sacat=0) if you are searching on eBay. I've ordered some alternatives to see if they are better.
 
 Another small fail was my order of some generic PIR detectors which I couldn't get working well. It turns out they needed 5V not 3.3V. I'm waiting on some 3.3V modules to see if they behave or not.
