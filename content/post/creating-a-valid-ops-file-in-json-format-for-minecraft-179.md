@@ -2,11 +2,11 @@
 date = "2014-06-01T15:48:21+01:00"
 draft = false
 title = "Creating a valid ops file in JSON format for Minecraft 1.7.9"
-description = "This Post is no longer accurate. Please do not follow the instructions here."
+description = "This Post is no longer relevant. Please do not follow the instructions here."
 slug = "creating-a-valid-ops-file-in-json-format-for-minecraft-179"
 +++
 
-*This Post is no longer accurate. Please do not follow the instructions here.*
+*This Post is no longer relevant. Please do not follow the instructions here.*
  
 Our 8yo wanted a local server on his laptop today so I grabbed the latest 1.7.9 server exe from the Minecraft site and ran it in its own directory. It created the usual files and gave a GUI-style interface with no obvious console like the raw Java version. Fionn then asked me to make him an Op so he could change things. And it was all downhill from there.
 
@@ -48,4 +48,4 @@ So after more than 10 attempts, this is what you need:
 
 That should be all you need. Leave a comment if any problems with it.
 
-*This Post is no longer accurate. Please do not follow the instructions here.*
+*This Post is no longer relevant. Please do not follow the instructions here.*
