@@ -2,10 +2,12 @@
 date = "2014-06-01T15:48:21+01:00"
 draft = false
 title = "Creating a valid ops file in JSON format for Minecraft 1.7.9"
-description = "I challenge the Mojang guys to do a new MC Windows exe Server installation and then setup an Ops file without knowledge of UUIDs and JSON. A terrible upgrade experience."
+description = "This Post is no longer accurate. Please do not follow the instructions here."
 slug = "creating-a-valid-ops-file-in-json-format-for-minecraft-179"
 +++
 
+*This Post is no longer accurate. Please do not follow the instructions here.*
+ 
 Our 8yo wanted a local server on his laptop today so I grabbed the latest 1.7.9 server exe from the Minecraft site and ran it in its own directory. It created the usual files and gave a GUI-style interface with no obvious console like the raw Java version. Fionn then asked me to make him an Op so he could change things. And it was all downhill from there.
 
 The standard ops.txt was missing but there was an ops.json containing just two square brackets. No amount of messing with creating an ops.txt or putting his username inside the brackets of the json file worked. Over an hour of googling finally got me close. In the recent versions of Minecraft, they have moved to using JSON instead of .txt for config files and they are rolling out the idea of UUIDs so that you can easily change your username. Both are reasonable changes but implemented terribly in this case. Unless the format of your json file in 100% correct, it doesn't throw an error, it just deletes it!
@@ -46,3 +48,4 @@ So after more than 10 attempts, this is what you need:
 
 That should be all you need. Leave a comment if any problems with it.
 
+*This Post is no longer accurate. Please do not follow the instructions here.*
