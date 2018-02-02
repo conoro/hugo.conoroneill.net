@@ -171,17 +171,32 @@
 </ul>
 
 <pre><code class="language-python">from __future__ import unicode_literals
+from androidhelper import Android
+droid = Android()
+
 import youtube_dl
 
-url = raw_input(&quot;YouTube URL?: &quot;)
+def input_default(prompt, default):
+    return raw_input(&quot;%s [%s] &quot; % (prompt, default)) or default
+
+#getClipboard
+if droid.getClipboard().result.startswith('https://youtu'):
+    clipboard = droid.getClipboard().result
+else:
+    clipboard = &quot;&quot;
+
+url = input_default(&quot;YouTube URL?: &quot;, clipboard)
 
 ydl_opts = {
     'nocheckcertificate': True,
     'outtmpl': '%(title)s.%(ext)s'
 }
+
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([url])
 </code></pre>
+
+<p>(Latest code here on <a href="https://gist.github.com/conoro/d63c9f326ee65647a717b0283f21683f">GitHub Gist</a>)</p>
 
 <ul>
 <li>Tap the small floppy disk icon to save the file</li>
@@ -198,7 +213,7 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 <li>Launch QPython</li>
 <li>Tap the Projects icon (large unlabelled one above the sign-in link)</li>
 <li><code>get-youtube</code> will be listed there</li>
-<li>Run it and paste in any YouTube URL</li>
+<li>Run it and paste in any YouTube URL (if the clipboard has a YouTube URL, it&rsquo;ll be pre-populated, so just hit Enter on your on-screen keyboard. Tap near the cursor if the keyboard has not appeared.)</li>
 <li>The video will download to <code>/storage/emulated/0/qpython</code></li>
 <li>The video will automatically appear in MX Player when you launch it</li>
 <li>You can delete it in MX Player once you are done</li>
