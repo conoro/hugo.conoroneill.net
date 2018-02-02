@@ -70,5 +70,7 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 * Go to Projects
 * Long press the icon for `get-youtube` in Projects
 * Woohoo, now you have a Home Screen shortcut to download a video whenever. Just tap and paste in the YouTube URL
+* And remember it's not just for YouTube, it works for Vimeo, BBC iPlayer and [many more](https://rg3.github.io/youtube-dl/supportedsites.html)
+* Note: Re-run the `pip install -U youtube-dl` step above if it ever stops working. The developers are in a constant battle with YouTube to keep it working
 
 Enjoy
