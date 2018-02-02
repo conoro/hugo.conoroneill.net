@@ -6,10 +6,20 @@
     <description>Recent content on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2018 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Feb 2018 08:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Downloading YouTube videos  on Android for offline viewing later</title>
+      <link>https://conoroneill.net/downloading-youtube-videos-for-offline-viewing-on-android/</link>
+      <pubDate>Fri, 02 Feb 2018 08:00:00 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/downloading-youtube-videos-for-offline-viewing-on-android/</guid>
+      <description>One of the all-time great tools of the internet era is youtube-dl. It enables you to download any YouTube video for watching offline/later. It has been a fantastic boon over the years for watching all my hundreds of subscribed channels when in planes, trains, automobiles and treadmills. It&amp;rsquo;s also the basis for my own YTPodders tool for generating podcasts from videos.
+Normally I run it on the PC and copy the files to the mobile devices, tablets or media players.</description>
+    </item>
     
     <item>
       <title>I may have over-blinged my NodeConf EU badge</title>
@@ -517,7 +527,7 @@ It uses the bucket name and root upload directory from ./s3_blog_config.json {&a
       <pubDate>Sun, 01 Jun 2014 15:48:21 +0100</pubDate>
       
       <guid>https://conoroneill.net/creating-a-valid-ops-file-in-json-format-for-minecraft-179/</guid>
-      <description>This Post is no longer accurate. Please do not follow the instructions here.
+      <description>This Post is no longer relevant. Please do not follow the instructions here.
 Our 8yo wanted a local server on his laptop today so I grabbed the latest 1.7.9 server exe from the Minecraft site and ran it in its own directory. It created the usual files and gave a GUI-style interface with no obvious console like the raw Java version. Fionn then asked me to make him an Op so he could change things.</description>
     </item>
     

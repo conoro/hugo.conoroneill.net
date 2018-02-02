@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Cross Dominant</title>
+    <link>https://conoroneill.net/tags/python/</link>
+    <description>Recent content in Python on Cross Dominant</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Feb 2018 08:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://conoroneill.net/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Downloading YouTube videos  on Android for offline viewing later</title>
+      <link>https://conoroneill.net/downloading-youtube-videos-for-offline-viewing-on-android/</link>
+      <pubDate>Fri, 02 Feb 2018 08:00:00 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/downloading-youtube-videos-for-offline-viewing-on-android/</guid>
+      <description>One of the all-time great tools of the internet era is youtube-dl. It enables you to download any YouTube video for watching offline/later. It has been a fantastic boon over the years for watching all my hundreds of subscribed channels when in planes, trains, automobiles and treadmills. It&amp;rsquo;s also the basis for my own YTPodders tool for generating podcasts from videos.
+Normally I run it on the PC and copy the files to the mobile devices, tablets or media players.</description>
+    </item>
+    
+  </channel>
+</rss>
