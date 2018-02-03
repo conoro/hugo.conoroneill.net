@@ -34,6 +34,12 @@ pip install -U youtube-dl
 * Paste my crappy code in to the editor
 
 ```python
+# get-youtube.py 
+# Wrapper around youtube-dl for Android
+# Grabs URL from clipboard if it's a YouTube one. Otherwises prompts for URL
+# See https://conoroneill.net/downloading-youtube-videos-for-offline-viewing-on-android/ for instructions
+# Copyright Conor O'Neill 2018. Apache License 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt
+
 from __future__ import unicode_literals
 from androidhelper import Android
 droid = Android()
@@ -43,16 +49,15 @@ import youtube_dl
 def input_default(prompt, default):
     return raw_input("%s [%s] " % (prompt, default)) or default
 
-#getClipboard
+# If clipboard URL is a YouTube one, grab it and automatically download
 if droid.getClipboard().result.startswith('https://youtu'):
-    clipboard = droid.getClipboard().result
+    url = droid.getClipboard().result
 else:
-    clipboard = ""
-
-url = input_default("YouTube URL?: ", clipboard)
+    # Either the clipboard is empty or it has a non-YouTube URL. User must paste the required URL.    
+    url = raw_input("YouTube URL?: ")
 
 ydl_opts = {
-    'nocheckcertificate': True,
+    'nocheckcertificate': True, 
     'outtmpl': '%(title)s.%(ext)s'
 }
 
@@ -74,7 +79,9 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 * Launch QPython
 * Tap the Projects icon (large unlabelled one above the sign-in link)
 * `get-youtube` will be listed there
-* Run it and paste in any YouTube URL (if the clipboard has a YouTube URL, it'll be pre-populated, so just hit Enter on your on-screen keyboard. Tap near the cursor if the keyboard has not appeared.)
+* Tap it to run it
+* If the clipboard has a YouTube URL, it'll automatically download the video. 
+* Otherwise if the clipboard is empty or has a non-YouTube video URL you must paste it by long-pressing at the cursor and tapping Paste. Then tap again near the cursor if the keyboard has not appeared, and tap Enter.
 * The video will download to `/storage/emulated/0/qpython`
 * The video will automatically appear in MX Player when you launch it
 * You can delete it in MX Player once you are done
@@ -84,7 +91,7 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 * Go back into QPython
 * Go to Projects
 * Long press the icon for `get-youtube` in Projects
-* Woohoo, now you have a Home Screen shortcut to download a video whenever. Just tap and paste in the YouTube URL
+* Woohoo, now you have a Home Screen shortcut to download a video whenever. Just copy the video URL and launch get-youtube
 * And remember it's not just for YouTube, it works for Vimeo, BBC iPlayer and [many more](https://rg3.github.io/youtube-dl/supportedsites.html)
 * Note: Re-run the `pip install -U youtube-dl` step above if it ever stops working. The developers are in a constant battle with YouTube to keep it working
 
