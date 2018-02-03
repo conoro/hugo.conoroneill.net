@@ -20,7 +20,7 @@ It's really easy to set it up since it's written in Python and doesn't need to b
 
 ## Installation
 
-* Install [QPython](https://play.google.com/store/apps/details?id=org.qpython.qpy)
+* Install [QPython](https://play.google.com/store/apps/details?id=org.qpython.qpy) (Make sure to pick QPython2 not 3)
 * Launch QPython
 * Tap the Terminal Icon
 * Install `youtube-dl` with:
