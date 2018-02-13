@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Retro on Cross Dominant</title>
+    <link>https://conoroneill.net/tags/retro/</link>
+    <description>Recent content in Retro on Cross Dominant</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Feb 2018 08:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://conoroneill.net/tags/retro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Running new C code on a 1982 ZX Spectrum in 2018</title>
+      <link>https://conoroneill.net/running-c-code-on-a-1982-zx-spectrum-in-2018/</link>
+      <pubDate>Tue, 13 Feb 2018 08:00:00 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/running-c-code-on-a-1982-zx-spectrum-in-2018/</guid>
+      <description>The 1980s home computer retro scene remains very vibrant. I dip a toe in every so often and recently have been enjoying the new Speccy games that I&amp;rsquo;ve found on Indie Retro News.
+One thing that caught my eye with these releases was the mentions of &amp;ldquo;engines&amp;rdquo;. It turns out that people have been building games engines for the ZX Spectrum for years. Mostly in C it seems and mostly using the z88dk toolchain.</description>
+    </item>
+    
+  </channel>
+</rss>
