@@ -6,10 +6,20 @@
     <description>Recent content on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Feb 2018 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Mar 2018 09:31:22 +0000</lastBuildDate>
     
 	<atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Support this project to add Allwinner VPU support to the official Linux kernel</title>
+      <link>https://conoroneill.net/supporting-allwinner-vpu-support-kickstarter/</link>
+      <pubDate>Sat, 17 Mar 2018 09:31:22 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/supporting-allwinner-vpu-support-kickstarter/</guid>
+      <description>Anyone who has any interaction with technology benefits from all of the work done by Open Source developers around the world from the past few decades. Unfortunately there are far more takers than givers. I think there is a strong chance that many OSS developers will become burnt out and disenchanted with building things for free when others reap the commercial rewards.
+Many of the Chinese silicon and box companies are particularly bad at providing proper maintanined OS support for their devices.</description>
+    </item>
     
     <item>
       <title>Running new C code on a 1982 ZX Spectrum in 2018</title>

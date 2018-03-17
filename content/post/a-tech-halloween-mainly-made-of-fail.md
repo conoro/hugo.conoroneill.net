@@ -13,6 +13,7 @@ This year I decided to be completely out of character and start Halloween prepar
 The reality was that almost everything took 4x as long to do as expected and I killed more tech trying to test things than actually survived. If you add in lots of work, travel and relentless human viruses and it was not a great month.
 
 So this evening was a little less extreme than expected but seems to be going well so far.
+
 <h2>Screaming Skulls</h2>
 These are some dirt cheap flashing LED skulls from Lidl, wired to an Arduino and relay, plus PIR sensor and an audio module connected to portable speakers.
 
@@ -33,6 +34,7 @@ I used the same bloody audio module on a portable "brains, brains, brains" sound
 <a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2013/10/brains.jpg"><img class="aligncenter size-full wp-image-1183" alt="brains" src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2013/10/brains.jpg" width="1024" height="768" /></a>
 
 httpv://www.youtube.com/watch?v=mv09-JhG9F4
+
 <h2>Motors and Relays</h2>
 All of the movement projects relied on motors/servos. I thought I only had ones which I had salvaged from a dead HP inkjet. None were strong enough and could only lift one plastic mouse.
 
@@ -46,9 +48,11 @@ Then I thought of my 13 year old Black and Decker drill which I had recently str
 I followed an Instructable. The head ended up 4 times too big. I stopped. The kids liked playing <em>in</em> it tho.
 
 <a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2013/10/steve.jpg"><img class="aligncenter size-large wp-image-1184" alt="steve" src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2013/10/steve-1024x937.jpg" width="584" height="534" /></a>
+
 <h2>Pumpkin</h2>
 Actually pretty good but then, all I did was to print out a stencil and cut around it. Damn, we're now out of tea-lights so two bright-white LEDs will have to do instead.
 
 <a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2013/10/pumpkin.jpg"><img class="aligncenter size-full wp-image-1185" alt="pumpkin" src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2013/10/pumpkin.jpg" width="1024" height="576" /></a>
+
 <h2>Rockets</h2>
 Next year will involve rockets, lots of rockets.
