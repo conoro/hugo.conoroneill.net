@@ -19,3 +19,5 @@ So when an opportunity arises to support people who want to improve this situati
 The great people at [Bootlin in France](https://bootlin.com/) have a KickStarter which ends in 30 hours. They aim to provide complete Linux support for the Allwinner VPU - for hardware accelerated video decoding and encoding. An enormous number of Android TV boxes and SBCs use Allwinner SoCs but the company itself is unwilling to do Linux properly. By funding someone to do it properly we can all do our little bit to improve the OSS ecosystem and maybe even shame a lot of the silicon and board vendors into financially supporting their communities. It's in their own long-term financial interest to do so.
 
 Head over [to the KickStarter](https://www.kickstarter.com/projects/bootlin/allwinner-vpu-support-in-the-official-linux-kernel/description) and send them a few quid. They've already passed the initial funding goal but it would be fantastic to also get x265 support.
+
+Update: They hit the stretch goal for x265 decoding. Well done everyone!
