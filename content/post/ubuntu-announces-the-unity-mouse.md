@@ -1,4 +1,5 @@
 +++
+aliases = ["/ubuntu-announces-the-unity-mouse/","/2011/11/25/ubuntu-announces-the-unity-mouse"]
 date = "2011-11-25T11:24:17Z"
 draft = false
 title = "Ubuntu Announces the Unity Mouse"

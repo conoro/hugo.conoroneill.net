@@ -1,4 +1,5 @@
 +++
+aliases = ["/lego-bring-back-beautiful/","/2011/12/22/lego-bring-back-beautiful"]
 date = "2011-12-22T10:54:00Z"
 draft = false
 title = "LEGO - Bring Back Beautiful"

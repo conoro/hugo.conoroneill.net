@@ -1,4 +1,5 @@
 +++
+aliases = ["/focus-on-the-user-supposedly-a-more-relevant-google/","/2012/01/23/focus-on-the-user-supposedly-a-more-relevant-google"]
 date = "2012-01-23T15:38:27Z"
 draft = false
 title = "Focus on the User - Supposedly a more 'relevant' Google"

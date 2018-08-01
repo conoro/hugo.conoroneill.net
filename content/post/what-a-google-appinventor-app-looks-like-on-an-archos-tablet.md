@@ -1,4 +1,5 @@
 +++
+aliases = ["/what-a-google-appinventor-app-looks-like-on-an-archos-tablet/","/2011/03/23/what-a-google-appinventor-app-looks-like-on-an-archos-tablet"]
 date = "2011-03-23T08:42:08Z"
 draft = false
 title = "What a Google AppInventor App looks like on an Archos Tablet"

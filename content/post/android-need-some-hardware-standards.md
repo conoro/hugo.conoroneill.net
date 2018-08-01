@@ -1,4 +1,5 @@
 +++
+aliases = ["/android-need-some-hardware-standards/","/2010/04/04/android-need-some-hardware-standards"]
 date = "2010-04-04T18:10:52+01:00"
 draft = false
 title = "Android need some hardware standards"

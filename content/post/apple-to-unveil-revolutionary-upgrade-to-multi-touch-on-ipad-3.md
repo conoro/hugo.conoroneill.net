@@ -1,4 +1,5 @@
 +++
+aliases = ["/apple-to-unveil-revolutionary-upgrade-to-multi-touch-on-ipad-3/","/2012/01/13/apple-to-unveil-revolutionary-upgrade-to-multi-touch-on-ipad-3"]
 date = "2012-01-13T13:42:34Z"
 draft = false
 title = "Apple to unveil revolutionary upgrade to multi-touch on iPad 3"

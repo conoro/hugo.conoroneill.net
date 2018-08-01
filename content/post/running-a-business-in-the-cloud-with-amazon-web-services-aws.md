@@ -1,4 +1,5 @@
 +++
+aliases = ["/running-a-business-in-the-cloud-with-amazon-web-services-aws/","/2012/09/04/running-a-business-in-the-cloud-with-amazon-web-services-aws"]
 date = "2012-09-04T12:44:29+01:00"
 draft = false
 title = "Running a business in the Cloud with Amazon Web Services #AWS"

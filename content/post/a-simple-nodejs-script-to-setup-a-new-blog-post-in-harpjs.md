@@ -1,4 +1,5 @@
 +++
+aliases = ["/a-simple-nodejs-script-to-setup-a-new-blog-post-in-harpjs/","/2014/06/23/a-simple-nodejs-script-to-setup-a-new-blog-post-in-harpjs"]
 date = "2014-06-23T07:27:27+01:00"
 draft = false
 title = "A simple Node.js script to setup a new blog post in Harp.js"

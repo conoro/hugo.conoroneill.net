@@ -1,4 +1,5 @@
 +++
+aliases = ["/ulster-bank-now-using-visa-debit-cards-instead-of-laser-cheaper-ryanair/","/2010/06/03/ulster-bank-now-using-visa-debit-cards-instead-of-laser-cheaper-ryanair"]
 date = "2010-06-03T09:47:53+01:00"
 draft = false
 title = "Ulster Bank now using Visa Debit Cards instead of Laser. Cheaper Ryanair?"

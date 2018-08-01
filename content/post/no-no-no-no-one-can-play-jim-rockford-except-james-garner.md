@@ -1,4 +1,5 @@
 +++
+aliases = ["/no-no-no-no-one-can-play-jim-rockford-except-james-garner/","/2010/03/01/no-no-no-no-one-can-play-jim-rockford-except-james-garner"]
 date = "2010-03-01T16:21:22Z"
 draft = false
 title = "No No No. No-one can play Jim Rockford except James Garner"

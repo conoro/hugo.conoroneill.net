@@ -1,4 +1,5 @@
 +++
+aliases = ["/another-opportunity-missed-by-old-school-media/","/2010/02/17/another-opportunity-missed-by-old-school-media"]
 date = "2010-02-17T09:54:49Z"
 draft = false
 title = "Another opportunity missed by old-school media"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-daily-mash-masterchef-upgraded-to-class-b-drug/","/2010/03/23/the-daily-mash-masterchef-upgraded-to-class-b-drug"]
 date = "2010-03-23T10:02:47Z"
 draft = false
 title = "The Daily Mash - MASTERCHEF UPGRADED TO CLASS B DRUG"

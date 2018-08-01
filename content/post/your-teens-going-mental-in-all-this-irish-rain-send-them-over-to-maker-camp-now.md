@@ -1,4 +1,5 @@
 +++
+aliases = ["/your-teens-going-mental-in-all-this-irish-rain-send-them-over-to-maker-camp-now/","/2012/07/16/your-teens-going-mental-in-all-this-irish-rain-send-them-over-to-maker-camp-now"]
 date = "2012-07-16T19:35:57+01:00"
 draft = false
 title = "Your teens going mental in all this Irish rain? Send them over to Maker Camp now"

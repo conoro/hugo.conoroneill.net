@@ -1,4 +1,5 @@
 +++
+aliases = ["/flash-html5-and-mobile-apps/","/2010/02/07/flash-html5-and-mobile-apps"]
 date = "2010-02-07T19:45:52Z"
 draft = false
 title = "Flash, HTML5, and Mobile Apps"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/microsoft-really-taking-node-js-seriously/","/2011/12/11/microsoft-really-taking-node-js-seriously"]
 date = "2011-12-11T12:09:00Z"
 draft = false
 title = "Microsoft really taking Node.js seriously"

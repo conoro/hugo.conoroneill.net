@@ -1,4 +1,5 @@
 +++
+aliases = ["/htc-desire-android-phone-coming-soon-to-vodafone-ireland/","/2010/03/31/htc-desire-android-phone-coming-soon-to-vodafone-ireland"]
 date = "2010-03-31T08:28:00+01:00"
 draft = false
 title = "HTC Desire Android phone coming soon to Vodafone Ireland"

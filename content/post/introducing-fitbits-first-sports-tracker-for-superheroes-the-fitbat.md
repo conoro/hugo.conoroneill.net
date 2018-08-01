@@ -1,4 +1,5 @@
 +++
+aliases = ["/introducing-fitbits-first-sports-tracker-for-superheroes-the-fitbat/","/2014/12/21/introducing-fitbits-first-sports-tracker-for-superheroes-the-fitbat"]
 date = "2014-12-21T17:44:19Z"
 draft = false
 title = "Introducing FitBit's first sports tracker for Superheroes - The FitBat"

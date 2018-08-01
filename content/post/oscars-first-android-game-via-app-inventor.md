@@ -1,4 +1,5 @@
 +++
+aliases = ["/oscars-first-android-game-via-app-inventor/","/2011/03/06/oscars-first-android-game-via-app-inventor"]
 date = "2011-03-06T20:17:00Z"
 draft = false
 title = "Oscar's First Android Game via App Inventor"

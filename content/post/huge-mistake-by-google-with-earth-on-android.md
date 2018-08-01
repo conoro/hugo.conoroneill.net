@@ -1,4 +1,5 @@
 +++
+aliases = ["/huge-mistake-by-google-with-earth-on-android/","/2010/02/22/huge-mistake-by-google-with-earth-on-android"]
 date = "2010-02-22T21:13:29Z"
 draft = false
 title = "Huge mistake by Google with Earth on Android"

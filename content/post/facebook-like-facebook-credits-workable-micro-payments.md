@@ -1,4 +1,5 @@
 +++
+aliases = ["/facebook-like-facebook-credits-workable-micro-payments/","/2011/06/06/facebook-like-facebook-credits-workable-micro-payments"]
 date = "2011-06-06T11:29:00+01:00"
 draft = false
 title = "Facebook Like + Facebook Credits = Workable Micro-Payments?"

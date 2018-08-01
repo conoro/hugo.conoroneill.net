@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-utter-imbecilic-brain-dead-stupidity-of-the-amazon-app-store-for-android/","/2011/03/22/the-utter-imbecilic-brain-dead-stupidity-of-the-amazon-app-store-for-android"]
 date = "2011-03-22T17:53:00Z"
 draft = false
 title = "The Utter Imbecilic Brain-dead Stupidity of the Amazon App Store for Android"

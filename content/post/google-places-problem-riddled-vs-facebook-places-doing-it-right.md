@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-places-problem-riddled-vs-facebook-places-doing-it-right/","/2011/02/13/google-places-problem-riddled-vs-facebook-places-doing-it-right"]
 date = "2011-02-13T13:16:42Z"
 draft = false
 title = "Google Places Problem-Riddled vs Facebook Places Doing It Right"

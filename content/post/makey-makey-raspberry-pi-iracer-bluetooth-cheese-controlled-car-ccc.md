@@ -1,4 +1,5 @@
 +++
+aliases = ["/makey-makey-raspberry-pi-iracer-bluetooth-cheese-controlled-car-ccc/","/2012/12/29/makey-makey-raspberry-pi-iracer-bluetooth-cheese-controlled-car-ccc"]
 date = "2012-12-29T18:45:16Z"
 draft = false
 title = "MaKey MaKey + Raspberry Pi + iRacer + Bluetooth = Cheese Controlled Car (CCC)"

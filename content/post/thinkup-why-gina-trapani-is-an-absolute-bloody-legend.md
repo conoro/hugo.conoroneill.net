@@ -1,4 +1,5 @@
 +++
+aliases = ["/thinkup-why-gina-trapani-is-an-absolute-bloody-legend/","/2011/11/16/thinkup-why-gina-trapani-is-an-absolute-bloody-legend"]
 date = "2011-11-16T10:14:00Z"
 draft = false
 title = "ThinkUp - Why Gina Trapani is an absolute bloody legend."

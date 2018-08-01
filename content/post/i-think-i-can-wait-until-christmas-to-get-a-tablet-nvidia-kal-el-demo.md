@@ -1,4 +1,5 @@
 +++
+aliases = ["/i-think-i-can-wait-until-christmas-to-get-a-tablet-nvidia-kal-el-demo/","/2011/05/30/i-think-i-can-wait-until-christmas-to-get-a-tablet-nvidia-kal-el-demo"]
 date = "2011-05-30T09:12:00+01:00"
 draft = false
 title = "I think I can wait until Christmas to get a Tablet -> NVIDIA Kal-El Demo"

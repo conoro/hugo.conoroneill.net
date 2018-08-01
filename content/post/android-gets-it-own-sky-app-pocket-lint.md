@@ -1,4 +1,5 @@
 +++
+aliases = ["/android-gets-it-own-sky-app-pocket-lint/","/2010/07/27/android-gets-it-own-sky-app-pocket-lint"]
 date = "2010-07-27T11:23:25+01:00"
 draft = false
 title = "Android gets it own Sky+ app - Pocket-lint"

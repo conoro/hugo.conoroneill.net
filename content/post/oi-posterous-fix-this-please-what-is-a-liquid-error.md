@@ -1,4 +1,5 @@
 +++
+aliases = ["/oi-posterous-fix-this-please-what-is-a-liquid-error/","/2011/03/02/oi-posterous-fix-this-please-what-is-a-liquid-error"]
 date = "2011-03-02T17:15:28Z"
 draft = false
 title = "Oi Posterous, fix this please. What is a Liquid Error?"

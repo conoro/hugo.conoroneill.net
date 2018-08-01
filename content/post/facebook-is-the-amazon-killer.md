@@ -1,8 +1,10 @@
 +++
-Description = "Just as no one expected a book seller to dominate the cloud, I think the company that will disrupt Amazon is Facebook."
+aliases = ["/facebook-is-the-amazon-aws-killer/","/2015/10/23/facebook-is-the-amazon-aws-killer"]
 date = "2015-10-23T13:54:25+01:00"
+draft = false
 title = "Facebook is the Amazon AWS Killer"
-
+description = " "
+slug = "facebook-is-the-amazon-aws-killer"
 +++
 AWS is now an $8Bn business for Amazon. Could anyone have predicted that in 1997 or even 2007? This week I was talking to a few people about who might be able to disrupt AWS. It won't be easy. We immediately discounted the old guys like HP, IBM, Dell etc and even Google seems to be a complete also-ran in IaaS. Microsoft Azure might have potential.
 

@@ -1,10 +1,10 @@
 +++
-Categories = []
-Description = "YTPodders grabs the latest videos from your favourite YouTube users and channels, converts them to MP3, saves them in your Dropbox and provides a podcast URL that you can subscribe to on your podcasting app on your phone."
-Tags = []
+aliases = ["/introducing-ytpodders-get-your-fave-youtubers-as-audio-podcasts-on-your-phone/","/2016/05/02/introducing-ytpodders-get-your-fave-youtubers-as-audio-podcasts-on-your-phone"]
 date = "2016-05-02T19:32:32+01:00"
+draft = false
 title = "Introducing YTPodders - Get your fave YouTubers as audio podcasts on your phone"
-
+description = " "
+slug = "introducing-ytpodders-get-your-fave-youtubers-as-audio-podcasts-on-your-phone"
 +++
 Like my kids, I love regular YouTubers. My particular favourites are the tech, craft, metal and woodworking people who make amazing things every week. [Those](https://www.youtube.com/channel/UCjA8vRlL1c7BDixQRJ39-LQ) [gals](https://www.youtube.com/user/darbinorvar) [and](https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ) [guys](https://www.youtube.com/user/jimmydiresta) [have](https://www.youtube.com/channel/UCHWvlZ6jGmXKYa1w8yRVcbA) [to](https://www.youtube.com/channel/UCETeXD_3awsQv-9rSdCYXQQ) [be](https://www.youtube.com/user/urbanTrash) [watched](https://www.youtube.com/user/Jayscustomcreations) [to](https://www.youtube.com/channel/UCYdkEm-NjhS8TmLVt_qZy9g) [really](https://www.youtube.com/channel/UCkhZ3X6pVbrEs_VzIPfwWgQ) [get](https://www.youtube.com/user/arduinoversusevil) [the](https://www.youtube.com/user/colinfurze) [value](https://www.youtube.com/channel/UCV8D6u7_jkuGf_iUvNzXpmg) [from](https://www.youtube.com/user/rusticman1973) [them](https://www.youtube.com/user/JoergSprave) [and](https://www.youtube.com/channel/UCpV7D0LoRbYhdx2G-whWyog) [here's](https://www.youtube.com/channel/UCfCKUsN2HmXfjiOJc7z7xBw) [a](https://www.youtube.com/channel/UC6x7GwJxuoABSosgVXDYtTw) [few](https://www.youtube.com/channel/UCUaiGrBfRCaC6pL7ZnZjWbg) [more](https://www.youtube.com/channel/UCHvBHWBzzB7NyU5tIiEZHBg) [worth](https://www.youtube.com/user/punishedprops) [looking](https://www.youtube.com/user/stevinmarin) [at](https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA) [too](https://www.youtube.com/user/testedcom), [of](https://www.youtube.com/channel/UCupK5wJGXHDemXmHFMCMtHA) [course](https://www.youtube.com/user/DrunkenWoodworker) [not](https://www.youtube.com/user/thebenheckshow) [forgetting](https://www.youtube.com/user/Matthiaswandel) [these](https://www.youtube.com/user/ferrynick) [other](https://www.youtube.com/user/makemagazine) [gems](https://www.youtube.com/user/benbrandt22).
 

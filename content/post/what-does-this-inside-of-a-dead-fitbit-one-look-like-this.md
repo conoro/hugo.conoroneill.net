@@ -1,4 +1,5 @@
 +++
+aliases = ["/what-does-this-inside-of-a-dead-fitbit-one-look-like-this/","/2013/06/08/what-does-this-inside-of-a-dead-fitbit-one-look-like-this"]
 date = "2013-06-08T13:03:43+01:00"
 draft = false
 title = "What does this inside of a dead Fitbit One look like? This:"

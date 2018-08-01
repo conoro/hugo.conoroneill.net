@@ -1,4 +1,5 @@
 +++
+aliases = ["/android-not-suitable-for-the-enterprise/","/2010/08/22/android-not-suitable-for-the-enterprise"]
 date = "2010-08-22T15:51:46+01:00"
 draft = false
 title = "Android not suitable for the Enterprise?"

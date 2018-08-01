@@ -1,4 +1,5 @@
 +++
+aliases = ["/swiftkey-x-instantly-the-best-on-screen-android-keyboard/","/2011/05/28/swiftkey-x-instantly-the-best-on-screen-android-keyboard"]
 date = "2011-05-28T14:53:00+01:00"
 draft = false
 title = "SwiftKey X - Instantly the best on-screen Android Keyboard"

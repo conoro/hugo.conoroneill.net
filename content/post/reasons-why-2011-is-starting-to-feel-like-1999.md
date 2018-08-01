@@ -1,4 +1,5 @@
 +++
+aliases = ["/reasons-why-2011-is-starting-to-feel-like-1999/","/2011/05/08/reasons-why-2011-is-starting-to-feel-like-1999"]
 date = "2011-05-08T11:57:51+01:00"
 draft = false
 title = "Reasons Why 2011 is Starting to Feel Like 1999"

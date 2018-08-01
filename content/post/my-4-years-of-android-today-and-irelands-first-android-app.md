@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-4-years-of-android-today-and-irelands-first-android-app/","/2012/11/25/my-4-years-of-android-today-and-irelands-first-android-app"]
 date = "2012-11-25T16:09:28Z"
 draft = false
 title = "My 4 years of Android today and Ireland's first Android App"

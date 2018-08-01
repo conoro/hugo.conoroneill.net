@@ -1,4 +1,5 @@
 +++
+aliases = ["/outraged-blogger-is-automatically-being-followed-by-her-abusive-ex-husband-on-google-buzz/","/2010/02/12/outraged-blogger-is-automatically-being-followed-by-her-abusive-ex-husband-on-google-buzz"]
 date = "2010-02-12T16:51:07Z"
 draft = false
 title = "Outraged Blogger Is Automatically Being Followed By Her Abusive Ex-Husband On Google Buzz"

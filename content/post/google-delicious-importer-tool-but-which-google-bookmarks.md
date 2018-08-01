@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-delicious-importer-tool-but-which-google-bookmarks/","/2011/02/18/google-delicious-importer-tool-but-which-google-bookmarks"]
 date = "2011-02-18T09:35:00Z"
 draft = false
 title = "Google Delicious Importer Tool - But which Google Bookmarks?"

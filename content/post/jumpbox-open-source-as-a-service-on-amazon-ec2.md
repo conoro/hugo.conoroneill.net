@@ -1,4 +1,5 @@
 +++
+aliases = ["/jumpbox-open-source-as-a-service-on-amazon-ec2/","/2010/03/31/jumpbox-open-source-as-a-service-on-amazon-ec2"]
 date = "2010-03-31T09:40:53+01:00"
 draft = false
 title = "JumpBox - Open Source as a Service on Amazon EC2"

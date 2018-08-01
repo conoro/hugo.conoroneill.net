@@ -1,4 +1,5 @@
 +++
+aliases = ["/dr-cooper-explains-how-new-buzz-messages-appear/","/2010/02/16/dr-cooper-explains-how-new-buzz-messages-appear"]
 date = "2010-02-16T09:35:45Z"
 draft = false
 title = "Dr Cooper explains how new Buzz messages appear"

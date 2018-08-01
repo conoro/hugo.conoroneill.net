@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-to-browse-windows-7-shares-from-ubuntu-when-it-suddenly-stops-working/","/2010/09/08/how-to-browse-windows-7-shares-from-ubuntu-when-it-suddenly-stops-working"]
 date = "2010-09-08T20:04:11+01:00"
 draft = false
 title = "How to browse Windows 7 shares from Ubuntu when it suddenly stops working"

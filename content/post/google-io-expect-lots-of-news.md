@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-io-expect-lots-of-news/","/2010/05/19/google-io-expect-lots-of-news"]
 date = "2010-05-19T09:07:45+01:00"
 draft = false
 title = "Google I/O - Expect lots of news"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/any-opinions-on-15-4-laptops/","/2011/03/19/any-opinions-on-15-4-laptops"]
 date = "2011-03-19T14:45:57Z"
 draft = false
 title = "Any opinions on 15.4' laptops?"

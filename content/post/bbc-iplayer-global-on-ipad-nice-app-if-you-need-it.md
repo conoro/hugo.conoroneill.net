@@ -1,4 +1,5 @@
 +++
+aliases = ["/bbc-iplayer-global-on-ipad-nice-app-if-you-need-it/","/2012/03/04/bbc-iplayer-global-on-ipad-nice-app-if-you-need-it"]
 date = "2012-03-04T13:46:33Z"
 draft = false
 title = "BBC iPlayer Global on iPad - Nice App if you need it"

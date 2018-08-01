@@ -1,4 +1,5 @@
 +++
+aliases = ["/from-zero-to-web2ireland-using-wordpress-on-digital-mines-in-15-mins/","/2011/01/20/from-zero-to-web2ireland-using-wordpress-on-digital-mines-in-15-mins"]
 date = "2011-01-20T17:20:00Z"
 draft = false
 title = "From Zero to Web2Ireland using Wordpress on Digital Mines in 15 mins"

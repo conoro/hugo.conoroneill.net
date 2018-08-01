@@ -1,4 +1,5 @@
 +++
+aliases = ["/has-the-horror-of-upgrading-windows-on-your-sage-machine-improved/","/2011/03/20/has-the-horror-of-upgrading-windows-on-your-sage-machine-improved"]
 date = "2011-03-20T12:45:18Z"
 draft = false
 title = "Has the Horror of upgrading Windows on your Sage machine improved?"

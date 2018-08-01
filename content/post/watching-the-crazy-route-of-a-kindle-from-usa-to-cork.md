@@ -1,4 +1,5 @@
 +++
+aliases = ["/watching-the-crazy-route-of-a-kindle-from-usa-to-cork/","/2011/05/30/watching-the-crazy-route-of-a-kindle-from-usa-to-cork"]
 date = "2011-05-30T10:26:12+01:00"
 draft = false
 title = "Watching the crazy route of a Kindle from USA to Cork"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-mobile-broadband-setup-due-to-eircoms-uselessness/","/2010/04/10/my-mobile-broadband-setup-due-to-eircoms-uselessness"]
 date = "2010-04-10T18:10:00+01:00"
 draft = false
 title = "My Mobile Broadband setup due to Eircom's Uselessness"

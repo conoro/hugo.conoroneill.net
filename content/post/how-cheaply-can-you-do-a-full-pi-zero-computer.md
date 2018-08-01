@@ -1,7 +1,10 @@
 +++
-Description = ""
+aliases = ["/how-cheaply-can-you-build-a-full-raspberry-pizero-computer/","/2016/01/01/how-cheaply-can-you-build-a-full-raspberry-pizero-computer"]
 date = "2016-01-01T10:59:32Z"
+draft = false
 title = "How cheaply can you build a full Raspberry PiZero computer?"
+description = " "
+slug = "how-cheaply-can-you-build-a-full-raspberry-pizero-computer"
 +++
 
 When the incredible [$5 Pi Zero was launched](https://www.raspberrypi.org/blog/raspberry-pi-zero/), the usual suspects were so busy snarking how it wasn't really $5, that they completely missed what an important moment in computer history this is. You know the type. The ones who would have ridiculed Tim Berners-Lee's design for the web. Or would have told Linus in no uncertain terms that he was misguided and that microkernels were the future.

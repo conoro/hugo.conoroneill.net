@@ -1,4 +1,5 @@
 +++
+aliases = ["/running-debian-linux-gcc-emacs-git-node-js-npm-and-harpjs-on-samsung-galaxy-s4-oh-my/","/2014/03/14/running-debian-linux-gcc-emacs-git-node-js-npm-and-harpjs-on-samsung-galaxy-s4-oh-my"]
 date = "2014-03-14T20:50:00Z"
 draft = false
 title = "Running Debian Linux, GCC, Emacs, Git, Node.js, npm and HarpJS on Samsung Galaxy S4. Oh my."

@@ -1,4 +1,5 @@
 +++
+aliases = ["/rolling-up-my-sleeves-to-build-a-cross-platform-mobile-app-with-feedhenry/","/2011/07/17/rolling-up-my-sleeves-to-build-a-cross-platform-mobile-app-with-feedhenry"]
 date = "2011-07-17T10:53:00+01:00"
 draft = false
 title = "Rolling Up My Sleeves to Build a Cross-Platform Mobile App with FeedHenry"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/this-week-ill-be-mostly-calling-myself-dr-strangelove/","/2010/07/12/this-week-ill-be-mostly-calling-myself-dr-strangelove"]
 date = "2010-07-12T07:24:44+01:00"
 draft = false
 title = "This week I'll be mostly calling myself Dr Strangelove "

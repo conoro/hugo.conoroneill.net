@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-pebble-watch-just-fits-in-every-way/","/2014/01/01/my-pebble-watch-just-fits-in-every-way"]
 date = "2014-01-01T20:33:58Z"
 draft = false
 title = "My Pebble watch just fits, in every way."

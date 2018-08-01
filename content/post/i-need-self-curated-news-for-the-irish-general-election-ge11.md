@@ -1,4 +1,5 @@
 +++
+aliases = ["/i-need-self-curated-news-for-the-irish-general-election-ge11/","/2011/01/23/i-need-self-curated-news-for-the-irish-general-election-ge11"]
 date = "2011-01-23T19:16:18Z"
 draft = false
 title = "I need self-curated news for the Irish General Election #ge11"

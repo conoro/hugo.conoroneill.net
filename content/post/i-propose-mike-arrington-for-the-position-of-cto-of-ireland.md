@@ -1,4 +1,5 @@
 +++
+aliases = ["/i-propose-mike-arrington-for-the-position-of-cto-of-ireland/","/2010/06/08/i-propose-mike-arrington-for-the-position-of-cto-of-ireland"]
 date = "2010-06-08T08:54:23+01:00"
 draft = false
 title = "I propose Mike @Arrington for the position of CTO of Ireland"

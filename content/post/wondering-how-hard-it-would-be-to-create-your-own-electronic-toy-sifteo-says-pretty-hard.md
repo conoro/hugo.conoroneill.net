@@ -1,4 +1,5 @@
 +++
+aliases = ["/wondering-how-hard-it-would-be-to-create-your-own-electronic-toy-sifteo-says-pretty-hard/","/2012/12/06/wondering-how-hard-it-would-be-to-create-your-own-electronic-toy-sifteo-says-pretty-hard"]
 date = "2012-12-06T13:51:57Z"
 draft = false
 title = "Wondering how hard it would be to create your own electronic toy? @sifteo says pretty hard!"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/cloudsplit-real-time-cloud-analytics-real-time-spending-insight/","/2010/02/08/cloudsplit-real-time-cloud-analytics-real-time-spending-insight"]
 date = "2010-02-08T15:18:46Z"
 draft = false
 title = "CloudSplit - Real-time Cloud Analytics. Real-time spending insight"

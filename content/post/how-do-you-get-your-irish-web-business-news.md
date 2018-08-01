@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-do-you-get-your-irish-web-business-news/","/2010/02/23/how-do-you-get-your-irish-web-business-news"]
 date = "2010-02-23T12:16:28Z"
 draft = false
 title = "How do you get your Irish web business news?"

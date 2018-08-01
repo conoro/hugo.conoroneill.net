@@ -1,4 +1,5 @@
 +++
+aliases = ["/fund-allwinner-vpu-support-kickstarter/","/2018/03/17/fund-allwinner-vpu-support-kickstarter"]
 date = "2018-03-17T09:31:22Z"
 draft = false
 title = "Fund this project to add Allwinner VPU support to the official Linux kernel"

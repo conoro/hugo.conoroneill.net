@@ -1,4 +1,5 @@
 +++
+aliases = ["/orson-scott-card-comments-about-enders-game-on-amazon/","/2011/05/26/orson-scott-card-comments-about-enders-game-on-amazon"]
 date = "2011-05-26T10:48:00+01:00"
 draft = false
 title = "Orson Scott Card Comments About Ender's Game on Amazon"

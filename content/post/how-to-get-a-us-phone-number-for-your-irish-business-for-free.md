@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-to-get-a-us-phone-number-for-your-irish-business-for-free/","/2011/02/19/how-to-get-a-us-phone-number-for-your-irish-business-for-free"]
 date = "2011-02-19T17:12:59Z"
 draft = false
 title = "How to get a US Phone Number for your Irish Business for Free"

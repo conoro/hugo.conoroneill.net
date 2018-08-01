@@ -1,4 +1,5 @@
 +++
+aliases = ["/quick-google-nows-your-chance-facebook-is-down/","/2012/03/07/quick-google-nows-your-chance-facebook-is-down"]
 date = "2012-03-07T07:46:06Z"
 draft = false
 title = "Quick Google+, Now's Your Chance, Facebook is Down"

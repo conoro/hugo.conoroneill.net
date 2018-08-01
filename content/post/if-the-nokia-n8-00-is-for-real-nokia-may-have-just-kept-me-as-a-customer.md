@@ -1,4 +1,5 @@
 +++
+aliases = ["/if-the-nokia-n8-00-is-for-real-nokia-may-have-just-kept-me-as-a-customer/","/2010/02/11/if-the-nokia-n8-00-is-for-real-nokia-may-have-just-kept-me-as-a-customer"]
 date = "2010-02-11T14:43:28Z"
 draft = false
 title = "If the Nokia N8-00 is for real, Nokia may have just kept me as a customer"

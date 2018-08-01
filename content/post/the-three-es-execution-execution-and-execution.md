@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-three-es-execution-execution-and-execution/","/2010/03/10/the-three-es-execution-execution-and-execution"]
 date = "2010-03-10T10:10:38Z"
 draft = false
 title = "The Three Es - Execution, Execution and Execution"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/creating-a-valid-ops-file-in-json-format-for-minecraft-179/","/2014/06/01/creating-a-valid-ops-file-in-json-format-for-minecraft-179"]
 date = "2014-06-01T15:48:21+01:00"
 draft = false
 title = "Creating a valid ops file in JSON format for Minecraft 1.7.9"

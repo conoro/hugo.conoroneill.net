@@ -1,4 +1,5 @@
 +++
+aliases = ["/controlling-an-i-racer-rc-car-using-a-wii-balance-board-and-raspberry_pi/","/2013/05/07/controlling-an-i-racer-rc-car-using-a-wii-balance-board-and-raspberry_pi"]
 date = "2013-05-07T08:17:38+01:00"
 draft = false
 title = "Controlling an i-racer RC car using a Wii Balance Board and @Raspberry_Pi"

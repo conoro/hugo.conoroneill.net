@@ -1,4 +1,5 @@
 +++
+aliases = ["/swype-beta-re-opened/","/2010/12/21/swype-beta-re-opened"]
 date = "2010-12-21T03:22:00Z"
 draft = false
 title = "Swype Beta Re-Opened"

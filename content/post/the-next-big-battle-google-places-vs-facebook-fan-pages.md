@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-next-big-battle-google-places-vs-facebook-fan-pages/","/2010/08/15/the-next-big-battle-google-places-vs-facebook-fan-pages"]
 date = "2010-08-15T19:12:18+01:00"
 draft = false
 title = "The Next Big Battle: Google Places vs Facebook Fan Pages"

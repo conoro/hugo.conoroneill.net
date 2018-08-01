@@ -1,4 +1,5 @@
 +++
+aliases = ["/play-your-video-files-in-google-docs/","/2011/01/07/play-your-video-files-in-google-docs"]
 date = "2011-01-07T17:50:00Z"
 draft = false
 title = "Play your video files in Google Docs"

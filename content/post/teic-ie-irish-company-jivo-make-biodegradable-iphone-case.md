@@ -1,4 +1,5 @@
 +++
+aliases = ["/teic-ie-irish-company-jivo-make-biodegradable-iphone-case/","/2010/02/15/teic-ie-irish-company-jivo-make-biodegradable-iphone-case"]
 date = "2010-02-15T14:00:25Z"
 draft = false
 title = "Teic.ie - Irish company Jivo make biodegradable iPhone case"

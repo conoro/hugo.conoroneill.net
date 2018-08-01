@@ -1,4 +1,5 @@
 +++
+aliases = ["/run-the-espruino-js-interpreter-on-windows/","/2014/02/01/run-the-espruino-js-interpreter-on-windows"]
 date = "2014-02-01T16:13:22Z"
 draft = false
 title = "Run the @espruino JS interpreter on Windows"

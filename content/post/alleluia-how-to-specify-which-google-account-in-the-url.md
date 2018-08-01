@@ -1,4 +1,5 @@
 +++
+aliases = ["/alleluia-how-to-specify-which-google-account-in-the-url/","/2012/05/11/alleluia-how-to-specify-which-google-account-in-the-url"]
 date = "2012-05-11T18:05:35+01:00"
 draft = false
 title = "Alleluia - How to specify which Google Account in the URL"

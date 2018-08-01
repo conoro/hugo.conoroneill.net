@@ -1,4 +1,5 @@
 +++
+aliases = ["/second-sugru-hack-sky-remote/","/2010/07/25/second-sugru-hack-sky-remote"]
 date = "2010-07-25T12:44:00+01:00"
 draft = false
 title = "Second Sugru Hack - Sky+ Remote"

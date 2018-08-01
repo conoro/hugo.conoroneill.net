@@ -1,4 +1,5 @@
 +++
+aliases = ["/wantsies-angry-birds-on-the-advent-vega-android-tablet/","/2010/11/25/wantsies-angry-birds-on-the-advent-vega-android-tablet"]
 date = "2010-11-25T13:35:00Z"
 draft = false
 title = "Wantsies - Angry Birds on the Advent Vega Android Tablet"

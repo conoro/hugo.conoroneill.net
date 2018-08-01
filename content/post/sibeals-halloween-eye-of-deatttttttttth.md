@@ -1,4 +1,5 @@
 +++
+aliases = ["/sibeals-halloween-eye-of-deatttttttttth/","/2012/11/01/sibeals-halloween-eye-of-deatttttttttth"]
 date = "2012-11-01T18:17:47Z"
 draft = false
 title = "Sibal's Halloween Eye of Deatttttttttth"

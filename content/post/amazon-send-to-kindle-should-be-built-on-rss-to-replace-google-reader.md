@@ -1,4 +1,5 @@
 +++
+aliases = ["/amazon-send-to-kindle-should-be-built-on-rss-to-replace-google-reader/","/2013/03/20/amazon-send-to-kindle-should-be-built-on-rss-to-replace-google-reader"]
 date = "2013-03-20T13:57:14Z"
 draft = false
 title = "Amazon 'Send to Kindle' should be built on RSS to replace Google Reader"

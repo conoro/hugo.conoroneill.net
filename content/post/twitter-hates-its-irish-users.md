@@ -1,4 +1,5 @@
 +++
+aliases = ["/twitter-hates-its-irish-users/","/2010/03/13/twitter-hates-its-irish-users"]
 date = "2010-03-13T08:16:00Z"
 draft = false
 title = "Twitter Hates its Irish Users"

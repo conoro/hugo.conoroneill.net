@@ -1,10 +1,9 @@
 +++
-Categories = []
-Description = "A phone that's good enough for 90% of people at a great price"
-Tags = []
-draft = false
+aliases = ["/quick-review-of-the-blu-life-mark-android-phone/","/2016/10/02/quick-review-of-the-blu-life-mark-android-phone"]
 date = "2016-10-02T17:45:00+01:00"
+draft = false
 title = "Quick review of the BLU Life Mark £80 Android phone"
+description = " "
 slug = "quick-review-of-the-blu-life-mark-android-phone"
 +++
 

@@ -1,4 +1,5 @@
 +++
+aliases = ["/automatically-backup-your-wordpress-site-to-dropbox/","/2011/05/04/automatically-backup-your-wordpress-site-to-dropbox"]
 date = "2011-05-04T18:39:00+01:00"
 draft = false
 title = "Automatically Backup Your WordPress Site to Dropbox"

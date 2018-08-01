@@ -1,4 +1,5 @@
 +++
+aliases = ["/migrating-google-rich-snippets-to-schema-org/","/2011/06/03/migrating-google-rich-snippets-to-schema-org"]
 date = "2011-06-03T11:46:00+01:00"
 draft = false
 title = "Migrating Google Rich Snippets to schema.org"

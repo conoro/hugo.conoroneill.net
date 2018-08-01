@@ -1,4 +1,5 @@
 +++
+aliases = ["/could-ubercab-work-in-ireland/","/2010/08/31/could-ubercab-work-in-ireland"]
 date = "2010-08-31T10:02:14+01:00"
 draft = false
 title = "Could UberCab work in Ireland?"

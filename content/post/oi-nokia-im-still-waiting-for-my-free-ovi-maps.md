@@ -1,4 +1,5 @@
 +++
+aliases = ["/oi-nokia-im-still-waiting-for-my-free-ovi-maps/","/2010/03/30/oi-nokia-im-still-waiting-for-my-free-ovi-maps"]
 date = "2010-03-30T09:43:00+01:00"
 draft = false
 title = "Oi Nokia. I'm still waiting for my free Ovi Maps"

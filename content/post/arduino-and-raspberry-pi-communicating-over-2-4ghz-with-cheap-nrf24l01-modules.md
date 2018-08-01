@@ -1,4 +1,5 @@
 +++
+aliases = ["/arduino-and-raspberry-pi-communicating-over-2-4ghz-with-cheap-nrf24l01-modules/","/2013/09/07/arduino-and-raspberry-pi-communicating-over-2-4ghz-with-cheap-nrf24l01-modules"]
 date = "2013-09-07T15:51:57+01:00"
 draft = false
 title = "Arduino and Raspberry Pi communicating over 2.4GHz with cheap nRF24L01+ modules"

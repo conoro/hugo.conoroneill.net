@@ -1,4 +1,5 @@
 +++
+aliases = ["/hexapod-monster-great-apart-from-the-soldering/","/2011/01/23/hexapod-monster-great-apart-from-the-soldering"]
 date = "2011-01-23T12:39:00Z"
 draft = false
 title = "Hexapod Monster great - apart from the soldering"

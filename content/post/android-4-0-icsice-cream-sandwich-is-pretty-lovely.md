@@ -1,4 +1,5 @@
 +++
+aliases = ["/android-4-0-icsice-cream-sandwich-is-pretty-lovely/","/2011/12/17/android-4-0-icsice-cream-sandwich-is-pretty-lovely"]
 date = "2011-12-17T20:07:00Z"
 draft = false
 title = "Android 4.0 (ICS/Ice Cream Sandwich) is Pretty Lovely"

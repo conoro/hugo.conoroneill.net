@@ -1,4 +1,5 @@
 +++
+aliases = ["/was-anyone-else-a-member-of-fireballs-club-from-the-1970s-bullet-comic/","/2014/02/02/was-anyone-else-a-member-of-fireballs-club-from-the-1970s-bullet-comic"]
 date = "2014-02-02T14:12:30Z"
 draft = false
 title = "Was anyone else a member of Fireball's Club from the 1970s Bullet comic?"

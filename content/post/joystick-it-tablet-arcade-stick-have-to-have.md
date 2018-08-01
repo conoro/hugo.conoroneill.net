@@ -1,4 +1,5 @@
 +++
+aliases = ["/joystick-it-tablet-arcade-stick-have-to-have/","/2011/01/16/joystick-it-tablet-arcade-stick-have-to-have"]
 date = "2011-01-16T19:15:00Z"
 draft = false
 title = "JOYSTICK-IT Tablet Arcade Stick - Have to have!"

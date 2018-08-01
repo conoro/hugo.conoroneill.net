@@ -1,4 +1,5 @@
 +++
+aliases = ["/poll-do-you-have-an-lcdplasma-tv-with-hdmi/","/2012/03/03/poll-do-you-have-an-lcdplasma-tv-with-hdmi"]
 date = "2012-03-03T14:25:21Z"
 draft = false
 title = "Poll - Do you have an LCD/Plasma TV with HDMI?"

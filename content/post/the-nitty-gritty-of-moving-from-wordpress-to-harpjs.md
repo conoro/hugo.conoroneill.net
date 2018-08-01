@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-nitty-gritty-of-moving-from-wordpress-to-harpjs/","/2014/03/16/the-nitty-gritty-of-moving-from-wordpress-to-harpjs"]
 date = "2014-03-16T18:33:02Z"
 draft = false
 title = "The nitty-gritty of moving from WordPress to HarpJS"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/if-vt-220-terminals-had-been-invented-in-the-80s/","/2012/04/05/if-vt-220-terminals-had-been-invented-in-the-80s"]
 date = "2012-04-05T09:58:14+01:00"
 draft = false
 title = "If VT-220 terminals had been invented in the 80s"

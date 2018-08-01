@@ -1,4 +1,5 @@
 +++
+aliases = ["/fabulous-printable-geeky-valentines-day-labels-from-evil-mad-scientist/","/2014/02/12/fabulous-printable-geeky-valentines-day-labels-from-evil-mad-scientist"]
 date = "2014-02-12T21:20:01Z"
 draft = false
 title = "Fabulous printable geeky Valentine's Day labels from Evil Mad Scientist"

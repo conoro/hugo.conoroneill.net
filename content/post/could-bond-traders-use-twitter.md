@@ -1,4 +1,5 @@
 +++
+aliases = ["/could-bond-traders-use-twitter/","/2010/12/05/could-bond-traders-use-twitter"]
 date = "2010-12-05T10:54:44Z"
 draft = false
 title = "Could Bond Traders use Twitter?"

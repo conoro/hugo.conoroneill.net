@@ -1,4 +1,5 @@
 +++
+aliases = ["/irish-blog-awards-coda/","/2011/03/25/irish-blog-awards-coda"]
 date = "2011-03-25T10:30:26Z"
 draft = false
 title = "Irish Blog Awards Coda"

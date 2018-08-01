@@ -1,4 +1,5 @@
 +++
+aliases = ["/american-the-bill-hicks-story-in-ifi-tomorrow-go/","/2010/04/15/american-the-bill-hicks-story-in-ifi-tomorrow-go"]
 date = "2010-04-15T07:44:17+01:00"
 draft = false
 title = "American: The Bill Hicks Story in IFI tomorrow. Go."

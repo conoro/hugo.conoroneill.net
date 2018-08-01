@@ -1,4 +1,5 @@
 +++
+aliases = ["/sibeal-fionn-and-siofra-use-littlebits-for-the-first-time/","/2012/08/22/sibeal-fionn-and-siofra-use-littlebits-for-the-first-time"]
 date = "2012-08-22T08:42:25+01:00"
 draft = false
 title = "Sibal, Fionn and Sofra use littleBits for the first time"

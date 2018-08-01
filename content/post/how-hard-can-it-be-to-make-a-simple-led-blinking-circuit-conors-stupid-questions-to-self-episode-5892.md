@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-hard-can-it-be-to-make-a-simple-led-blinking-circuit-conors-stupid-questions-to-self-episode-5892/","/2014/02/15/how-hard-can-it-be-to-make-a-simple-led-blinking-circuit-conors-stupid-questions-to-self-episode-5892"]
 date = "2014-02-15T14:09:34Z"
 draft = false
 title = "How hard can it be to make a simple LED blinking circuit? Conor's stupid questions to self, Episode 5892"

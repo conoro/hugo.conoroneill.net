@@ -1,4 +1,5 @@
 +++
+aliases = ["/gmail-killer-no-way-in-hell/","/2010/11/15/gmail-killer-no-way-in-hell"]
 date = "2010-11-15T11:14:05Z"
 draft = false
 title = "GMail Killer? No way in hell."

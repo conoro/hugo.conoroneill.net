@@ -1,4 +1,5 @@
 +++
+aliases = ["/5th-avenue-frogger-some-day-all-games-will-be-made-this-way/","/2012/06/12/5th-avenue-frogger-some-day-all-games-will-be-made-this-way"]
 date = "2012-06-12T08:09:29+01:00"
 draft = false
 title = "5th Avenue Frogger - Some day all games will be made this way"

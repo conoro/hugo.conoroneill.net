@@ -1,4 +1,5 @@
 +++
+aliases = ["/using-the-amazon-appstore-from-outside-the-us-including-paid-apps-android-modaco/","/2011/04/02/using-the-amazon-appstore-from-outside-the-us-including-paid-apps-android-modaco"]
 date = "2011-04-02T16:58:00+01:00"
 draft = false
 title = "Using the Amazon Appstore from outside the US (including paid apps) - Android @ MoDaCo"

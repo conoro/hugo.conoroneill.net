@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-very-real-danger-of-cheap-lithium-polymer-lipo-batteries-and-accessories/","/2013/11/03/the-very-real-danger-of-cheap-lithium-polymer-lipo-batteries-and-accessories"]
 date = "2013-11-03T17:11:26Z"
 draft = false
 title = "The very real danger of cheap Lithium Polymer (LiPo) batteries and accessories"

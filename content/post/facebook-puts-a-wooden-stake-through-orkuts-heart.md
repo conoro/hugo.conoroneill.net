@@ -1,4 +1,5 @@
 +++
+aliases = ["/facebook-puts-a-wooden-stake-through-orkuts-heart/","/2010/05/19/facebook-puts-a-wooden-stake-through-orkuts-heart"]
 date = "2010-05-19T08:55:00+01:00"
 draft = false
 title = "Facebook Puts a Wooden Stake Through Orkut's Heart"

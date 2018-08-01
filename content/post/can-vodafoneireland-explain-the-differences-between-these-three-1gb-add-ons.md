@@ -1,4 +1,5 @@
 +++
+aliases = ["/can-vodafoneireland-explain-the-differences-between-these-three-1gb-add-ons/","/2011/08/08/can-vodafoneireland-explain-the-differences-between-these-three-1gb-add-ons"]
 date = "2011-08-08T12:54:16+01:00"
 draft = false
 title = "Can @vodafoneireland Explain The Differences Between These Three 1GB Add-Ons?"

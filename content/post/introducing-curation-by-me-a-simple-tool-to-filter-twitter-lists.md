@@ -1,4 +1,5 @@
 +++
+aliases = ["/introducing-curation-by-me-a-simple-tool-to-filter-twitter-lists/","/2011/01/26/introducing-curation-by-me-a-simple-tool-to-filter-twitter-lists"]
 date = "2011-01-26T20:30:00Z"
 draft = false
 title = "Introducing 'Curation by Me' - A simple tool to filter Twitter Lists"

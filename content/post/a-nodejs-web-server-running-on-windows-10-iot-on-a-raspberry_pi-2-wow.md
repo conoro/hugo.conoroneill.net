@@ -1,4 +1,5 @@
 +++
+aliases = ["/a-nodejs-web-server-running-on-windows-10-iot-on-a-raspberry_pi-2-wow/","/2015/05/01/a-nodejs-web-server-running-on-windows-10-iot-on-a-raspberry_pi-2-wow"]
 date = "2015-05-01T17:49:50+01:00"
 draft = false
 title = "A Node.js web-server running on Windows 10 IoT on a @Raspberry_Pi 2. Wow!"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/happy-30th-birthday-zx-spectrum-heres-mine-still-in-action/","/2012/04/23/happy-30th-birthday-zx-spectrum-heres-mine-still-in-action"]
 date = "2012-04-23T22:22:39+01:00"
 draft = false
 title = "Happy 30th Birthday ZX Spectrum - Here's mine, still in action"

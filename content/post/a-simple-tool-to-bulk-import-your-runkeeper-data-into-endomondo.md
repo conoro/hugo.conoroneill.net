@@ -1,4 +1,5 @@
 +++
+aliases = ["/a-simple-tool-to-bulk-import-your-runkeeper-data-into-endomondo/","/2013/03/12/a-simple-tool-to-bulk-import-your-runkeeper-data-into-endomondo"]
 date = "2013-03-12T10:43:51Z"
 draft = false
 title = "A simple tool to bulk import your RunKeeper data into Endomondo"

@@ -1,3 +1,13 @@
++++
+aliases = ["/i-tried-out-more-google-cardboard-apps-still-stunned-what-dollar10-can-achieve/","/2014/12/18/i-tried-out-more-google-cardboard-apps-still-stunned-what-dollar10-can-achieve"]
+date = "2014-12-18T11:06:20+01:00"
+draft = false
+title = "I tried out more Google Cardboard Apps and I'm still stunned what $10 can achieve"
+description = ""
+slug = "i-tried-out-more-google-cardboard-apps-still-stunned-what-dollar10-can-achieve"
++++
+
+
 Of course Google Cardboard isn't up there with Oculus but I still have my jaw on the floor over what it can do. These are some of the apps I've tried out this week.
 
 ![Cardboard](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/cardboard.png "Cardboard")

@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-first-stab-at-silicone-mould-making-to-cast-an-rc-car-suspension-part/","/2013/06/08/my-first-stab-at-silicone-mould-making-to-cast-an-rc-car-suspension-part"]
 date = "2013-06-08T21:03:31+01:00"
 draft = false
 title = "My first stab at silicone mould making to cast an RC car suspension part"

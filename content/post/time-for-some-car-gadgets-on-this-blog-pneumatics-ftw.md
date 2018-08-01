@@ -1,4 +1,5 @@
 +++
+aliases = ["/time-for-some-car-gadgets-on-this-blog-pneumatics-ftw/","/2011/01/06/time-for-some-car-gadgets-on-this-blog-pneumatics-ftw"]
 date = "2011-01-06T19:16:03Z"
 draft = false
 title = "Time for some car gadgets on this blog. Pneumatics FTW."

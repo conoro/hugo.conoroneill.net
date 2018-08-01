@@ -1,4 +1,5 @@
 +++
+aliases = ["/with-acquisition-of-instagram-facebook-reveals-all-new-look/","/2012/04/09/with-acquisition-of-instagram-facebook-reveals-all-new-look"]
 date = "2012-04-09T18:18:37+01:00"
 draft = false
 title = "With acquisition of Instagram, Facebook reveals all-new look"

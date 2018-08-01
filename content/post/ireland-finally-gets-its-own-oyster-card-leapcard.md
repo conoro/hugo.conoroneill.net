@@ -1,4 +1,5 @@
 +++
+aliases = ["/ireland-finally-gets-its-own-oyster-card-leapcard/","/2011/12/12/ireland-finally-gets-its-own-oyster-card-leapcard"]
 date = "2011-12-12T13:03:00Z"
 draft = false
 title = "Ireland Finally Gets Its Own Oyster Card - LeapCard"

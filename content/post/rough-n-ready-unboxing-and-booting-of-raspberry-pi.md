@@ -1,4 +1,5 @@
 +++
+aliases = ["/rough-n-ready-unboxing-and-booting-of-raspberry-pi/","/2012/05/08/rough-n-ready-unboxing-and-booting-of-raspberry-pi"]
 date = "2012-05-08T20:35:17+01:00"
 draft = false
 title = "Rough n Ready Unboxing and Booting of Raspberry Pi"

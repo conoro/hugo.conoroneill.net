@@ -1,10 +1,9 @@
 +++
-Categories = []
-Description = "It started as just a *small* battery upgrade and then spiralled out of control"
-Tags = ["espruino", "nodeconfeu", "puckjs", "javascript", "lifepo4"]
-draft = false
+aliases = ["/i-may-have-over-blinged-my-nodeconf-eu-badge/","/2018/01/01/i-may-have-over-blinged-my-nodeconf-eu-badge"]
 date = "2018-01-01T12:00:00+00:00"
+draft = false
 title = "I may have over-blinged my NodeConf EU badge"
+description = " "
 slug = "i-may-have-over-blinged-my-nodeconf-eu-badge"
 +++
 
@@ -14,7 +13,7 @@ I hope you've continued to learn about Espruino and the power of JavaScript on t
 
 I've been having lots of fun with LEDs, NeoPixel rings, BLE and general messing.
 
-![Prototype Badge](/img/2018/01/nceubadge_bling_1.jpg)
+![Prototype Badge](/images/2018/01/nceubadge_bling_1.jpg)
 
 Of course if you use NeoPixels you're going to burn through that CR2032 battery pretty damn quickly. Like really really quickly :-) My first attempt to solve this, which worked well, was to use various sizes of LiPo batteries connected to the power pins via an LD1117 voltage regulator. I had some full size regulators sitting around but they took up too much room. So I ordered some SMT ones and they were just as good. Note you should _not_ connect a LiPo directly to the power pins. Fully charged they get to 4.2 volts which will probably kill the microcontroller.
 
@@ -24,7 +23,7 @@ The downsides are [1] You need [special chargers](https://www.gearbest.com/charg
 
 You can see the ridiculously overesized one on the badge here. I'll be [buying more](https://www.gearbest.com/batteries-and-cases/pp_1113456.html).
 
-![Prototype Badge](/img/2018/01/nceubadge_bling_2.jpg)
+![Prototype Badge](/images/2018/01/nceubadge_bling_2.jpg)
 
 Other mods include an on-off switch, a buzzer, a loudspeaker and various LEDs on the front (no NeoPixels in the picture, I'm awaiting on a big ring of them).
 

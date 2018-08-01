@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-first-sugru-hack-the-elc-toy-train-track/","/2010/06/27/my-first-sugru-hack-the-elc-toy-train-track"]
 date = "2010-06-27T10:58:00+01:00"
 draft = false
 title = "My First Sugru Hack. The ELC Toy Train Track."

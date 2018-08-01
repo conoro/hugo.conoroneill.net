@@ -1,4 +1,5 @@
 +++
+aliases = ["/vibram-fivefingers-cult-member-after-2-weeks-vff/","/2011/03/27/vibram-fivefingers-cult-member-after-2-weeks-vff"]
 date = "2011-03-27T14:56:47+01:00"
 draft = false
 title = "Vibram FiveFingers Cult Member After 2 Weeks #VFF"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/your-prayers-answered-old-chapel-temperature-server-now-online/","/2013/04/23/your-prayers-answered-old-chapel-temperature-server-now-online"]
 date = "2013-04-23T09:00:19+01:00"
 draft = false
 title = "Your prayers answered, Old Chapel temperature server now online"

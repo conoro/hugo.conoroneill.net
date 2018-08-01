@@ -1,4 +1,5 @@
 +++
+aliases = ["/im-speaking-at-the-offsite-conference-next-week-about-aws-apis-saas-etc/","/2012/09/17/im-speaking-at-the-offsite-conference-next-week-about-aws-apis-saas-etc"]
 date = "2012-09-17T16:36:23+01:00"
 draft = false
 title = "I'm speaking at the OFFSITE Conference next week about AWS, APIs, SaaS etc"

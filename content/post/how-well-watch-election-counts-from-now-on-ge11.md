@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-well-watch-election-counts-from-now-on-ge11/","/2011/02/26/how-well-watch-election-counts-from-now-on-ge11"]
 date = "2011-02-26T11:49:00Z"
 draft = false
 title = "How we'll watch election counts from now on? #ge11"

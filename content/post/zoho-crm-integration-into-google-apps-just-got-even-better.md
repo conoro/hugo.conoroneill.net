@@ -1,4 +1,5 @@
 +++
+aliases = ["/zoho-crm-integration-into-google-apps-just-got-even-better/","/2011/03/27/zoho-crm-integration-into-google-apps-just-got-even-better"]
 date = "2011-03-27T18:32:00+01:00"
 draft = false
 title = "Zoho CRM integration into Google Apps just got even better"

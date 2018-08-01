@@ -1,4 +1,5 @@
 +++
+aliases = ["/learn-electronics-with-an-arduino-and-raspberry_pi-on-an-old-philips-tv/","/2012/06/08/learn-electronics-with-an-arduino-and-raspberry_pi-on-an-old-philips-tv"]
 date = "2012-06-08T13:29:06+01:00"
 draft = false
 title = "Learn electronics with an Arduino and @Raspberry_Pi on an old Philips TV"

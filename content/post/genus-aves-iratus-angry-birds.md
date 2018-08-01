@@ -1,4 +1,5 @@
 +++
+aliases = ["/genus-aves-iratus-angry-birds/","/2010/11/22/genus-aves-iratus-angry-birds"]
 date = "2010-11-22T10:44:00Z"
 draft = false
 title = "Genus Aves Iratus (Angry Birds)"

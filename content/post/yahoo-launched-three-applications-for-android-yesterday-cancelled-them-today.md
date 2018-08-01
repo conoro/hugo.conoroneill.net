@@ -1,4 +1,5 @@
 +++
+aliases = ["/yahoo-launched-three-applications-for-android-yesterday-cancelled-them-today/","/2010/07/03/yahoo-launched-three-applications-for-android-yesterday-cancelled-them-today"]
 date = "2010-07-03T11:29:10+01:00"
 draft = false
 title = "Yahoo launched three applications for Android yesterday. Cancelled them today."

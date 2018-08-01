@@ -1,4 +1,5 @@
 +++
+aliases = ["/dave-barry-super-bowl-was-great-and-so-was-the-game/","/2010/02/09/dave-barry-super-bowl-was-great-and-so-was-the-game"]
 date = "2010-02-09T11:44:48Z"
 draft = false
 title = "Dave Barry: Super Bowl was great - and so was the game "

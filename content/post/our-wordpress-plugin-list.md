@@ -1,4 +1,5 @@
 +++
+aliases = ["/our-wordpress-plugin-list/","/2010/02/04/our-wordpress-plugin-list"]
 date = "2010-02-04T19:55:20Z"
 draft = false
 title = "Our Wordpress plugin list"

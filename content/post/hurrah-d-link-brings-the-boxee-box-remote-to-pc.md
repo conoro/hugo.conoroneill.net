@@ -1,4 +1,5 @@
 +++
+aliases = ["/hurrah-d-link-brings-the-boxee-box-remote-to-pc/","/2011/07/06/hurrah-d-link-brings-the-boxee-box-remote-to-pc"]
 date = "2011-07-06T18:04:00+01:00"
 draft = false
 title = "Hurrah - D-Link brings the Boxee Box remote to PC"

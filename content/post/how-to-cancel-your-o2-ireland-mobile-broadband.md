@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-to-cancel-your-o2-ireland-mobile-broadband/","/2010/02/06/how-to-cancel-your-o2-ireland-mobile-broadband"]
 date = "2010-02-06T15:09:00Z"
 draft = false
 title = "How to cancel your O2 Ireland Mobile Broadband"

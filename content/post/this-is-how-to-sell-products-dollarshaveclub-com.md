@@ -1,4 +1,5 @@
 +++
+aliases = ["/this-is-how-to-sell-products-dollarshaveclub-com/","/2012/03/06/this-is-how-to-sell-products-dollarshaveclub-com"]
 date = "2012-03-06T13:29:59Z"
 draft = false
 title = "This is how to sell products - DollarShaveClub.com"

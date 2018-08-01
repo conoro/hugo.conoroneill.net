@@ -1,4 +1,5 @@
 +++
+aliases = ["/business-priorities-vs-customer-needs/","/2010/07/07/business-priorities-vs-customer-needs"]
 date = "2010-07-07T08:40:17+01:00"
 draft = false
 title = "Business Priorities vs Customer Needs"

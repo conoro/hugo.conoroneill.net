@@ -1,4 +1,5 @@
 +++
+aliases = ["/unofficial-mario-kart-64-on-android-and-an-89-tablet/","/2012/04/01/unofficial-mario-kart-64-on-android-and-an-89-tablet"]
 date = "2012-04-01T13:24:04+01:00"
 draft = false
 title = "Unofficial Mario Kart 64 on Android and an $89 Tablet"

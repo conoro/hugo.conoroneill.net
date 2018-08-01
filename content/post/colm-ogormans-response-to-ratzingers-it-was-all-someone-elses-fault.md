@@ -1,4 +1,5 @@
 +++
+aliases = ["/colm-ogormans-response-to-ratzingers-it-was-all-someone-elses-fault/","/2010/03/20/colm-ogormans-response-to-ratzingers-it-was-all-someone-elses-fault"]
 date = "2010-03-20T18:21:37Z"
 draft = false
 title = "Colm O'Gorman's response to Ratzinger's 'it was all someone else's fault'"

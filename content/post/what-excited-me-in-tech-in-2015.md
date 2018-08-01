@@ -1,7 +1,10 @@
 +++
-Description = "A completely random braindump of tech stuff that got my juices flowing this year"
+aliases = ["/what-excited-conor-in-tech-in-2015/","/2015/12/31/what-excited-conor-in-tech-in-2015"]
 date = "2015-12-31T21:20:12Z"
+draft = false
 title = "What excited Conor in tech in 2015?"
+description = " "
+slug = "what-excited-conor-in-tech-in-2015"
 +++
 
 A completely random braindump of stuff that got my juices flowing this year.

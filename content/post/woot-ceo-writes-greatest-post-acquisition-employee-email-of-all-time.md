@@ -1,4 +1,5 @@
 +++
+aliases = ["/woot-ceo-writes-greatest-post-acquisition-employee-email-of-all-time/","/2010/07/01/woot-ceo-writes-greatest-post-acquisition-employee-email-of-all-time"]
 date = "2010-07-01T15:41:56+01:00"
 draft = false
 title = "Woot CEO writes greatest post-acquisition employee email of all time"

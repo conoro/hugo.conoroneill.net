@@ -1,4 +1,5 @@
 +++
+aliases = ["/interesting-way-to-order-impossible-things-from-abroad/","/2010/10/12/interesting-way-to-order-impossible-things-from-abroad"]
 date = "2010-10-12T23:05:00+01:00"
 draft = false
 title = "Interesting way to order 'impossible' things from abroad"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/17-years-of-cork-ancestral-project-nothing-online/","/2011/06/06/17-years-of-cork-ancestral-project-nothing-online"]
 date = "2011-06-06T12:04:00+01:00"
 draft = false
 title = "17 Years of Cork Ancestral Project - Nothing Online"

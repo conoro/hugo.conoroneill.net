@@ -1,4 +1,5 @@
 +++
+aliases = ["/if-the-internet-is-remembered-for-one-thing-in-2012-let-it-be-nail-clippers-with-10x-magnifier/","/2012/05/04/if-the-internet-is-remembered-for-one-thing-in-2012-let-it-be-nail-clippers-with-10x-magnifier"]
 date = "2012-05-04T16:27:11+01:00"
 draft = false
 title = "If the internet is remembered for one thing in 2012, let it be Nail Clippers with 10X Magnifier"

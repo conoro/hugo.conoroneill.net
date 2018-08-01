@@ -1,4 +1,5 @@
 +++
+aliases = ["/using-a-wii-nunchuck-instead-of-cheese-to-control-i-racer-rc-car-on-raspberry_pi-and-arduino/","/2013/03/05/using-a-wii-nunchuck-instead-of-cheese-to-control-i-racer-rc-car-on-raspberry_pi-and-arduino"]
 date = "2013-03-05T09:06:40Z"
 draft = false
 title = "Using a Wii Nunchuck instead of Cheese to control i-Racer RC car on @Raspberry_Pi and @Arduino"

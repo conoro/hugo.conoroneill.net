@@ -1,4 +1,5 @@
 +++
+aliases = ["/ah-come-onnnn-google-you-gotta-be-kidding-me-google-incompatible/","/2011/06/28/ah-come-onnnn-google-you-gotta-be-kidding-me-google-incompatible"]
 date = "2011-06-28T19:40:01+01:00"
 draft = false
 title = "Ah come onnnn Google, you gotta be kidding me. Google+ incompatible?"

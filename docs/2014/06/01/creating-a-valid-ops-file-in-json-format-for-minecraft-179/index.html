@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Creating a valid ops file in JSON format for Minecraft 1.7.9 &middot;  Cross Dominant" />
+  	<meta property="og:site_name" content="Cross Dominant" />
+  	<meta property="og:url" content="https://conoroneill.net/2014/06/01/creating-a-valid-ops-file-in-json-format-for-minecraft-179/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2014-06-01T15:48:21&#43;01:00" />
+
+    
+    
+
+  <title>
+     Creating a valid ops file in JSON format for Minecraft 1.7.9 &middot;  Cross Dominant
+  </title>
+
+    <meta name="description" content="Mixed laterality since 1968" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
+	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+
+    
+        <link href="index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
+    
+    <meta name="generator" content="Hugo 0.42.1" />
+
+    <link rel="canonical" href="https://conoroneill.net/2014/06/01/creating-a-valid-ops-file-in-json-format-for-minecraft-179/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88610-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+
+        
+    </ul>
+
+
+    
+    <a class="subscribe-button icon-feed" href="index.xml">Subscribe</a> </div>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Creating a valid ops file in JSON format for Minecraft 1.7.9</h1>
+        <small>This Post is no longer relevant. Please do not follow the instructions here.</small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2014-06-01T15:48:21&#43;01:00">
+            Jun 1, 2014
+          </time>
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p><em>This Post is no longer relevant. Please do not follow the instructions here.</em></p>
+
+<p>Our 8yo wanted a local server on his laptop today so I grabbed the latest 1.7.9 server exe from the Minecraft site and ran it in its own directory. It created the usual files and gave a GUI-style interface with no obvious console like the raw Java version. Fionn then asked me to make him an Op so he could change things. And it was all downhill from there.</p>
+
+<p>The standard ops.txt was missing but there was an ops.json containing just two square brackets. No amount of messing with creating an ops.txt or putting his username inside the brackets of the json file worked. Over an hour of googling finally got me close. In the recent versions of Minecraft, they have moved to using JSON instead of .txt for config files and they are rolling out the idea of UUIDs so that you can easily change your username. Both are reasonable changes but implemented terribly in this case. Unless the format of your json file in 100% correct, it doesn&rsquo;t throw an error, it just deletes it!</p>
+
+<p>So after more than 10 attempts, this is what you need:</p>
+
+<ul>
+<li><p>Find your UUID. Note that several sites claim to generate this for you but they are missing the dashes in the UUID. The one that worked for me was <a href="http://minecraft-techworld.com/uuid-lookup-tool">this one</a>. Enter your username and get something like 54d61e19-71cc-477d-8215-8a11c41f5211 back.</p></li>
+
+<li><p>Edit ops.json in a text editor and replace the contents as follows:</p></li>
+</ul>
+
+<pre><code class="language-javascript">[
+  {
+    &quot;uuid&quot;: &quot;54d61e19-71cc-477d-8215-8a11c41f5211&quot;,
+    &quot;name&quot;: &quot;bobloblaw&quot;,
+    &quot;level&quot;: 4
+  }
+] 
+</code></pre>
+
+<ul>
+<li>If you need more than one Op, do it like so.
+<code>javascript
+[
+{
+&quot;uuid&quot;: &quot;54d61e19-71cc-477d-8215-8a11c41f5211&quot;,
+&quot;name&quot;: &quot;bobloblaw&quot;,
+&quot;level&quot;: 4
+},
+{
+&quot;uuid&quot;: &quot;44d61e69-6166-444d-8665-6a11567f5211&quot;,
+&quot;name&quot;: &quot;mrsmines&quot;,
+&quot;level&quot;: 4
+}
+] 
+</code></li>
+</ul>
+
+<p>That should be all you need. Leave a comment if any problems with it.</p>
+
+<p><em>This Post is no longer relevant. Please do not follow the instructions here.</em></p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
+  
+  <p>Tech guy who likes running slowly</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Creating%20a%20valid%20ops%20file%20in%20JSON%20format%20for%20Minecraft%201.7.9&amp;url=https%3a%2f%2fconoroneill.net%2f2014%2f06%2f01%2fcreating-a-valid-ops-file-in-json-format-for-minecraft-179%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fconoroneill.net%2f2014%2f06%2f01%2fcreating-a-valid-ops-file-in-json-format-for-minecraft-179%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fconoroneill.net%2f2014%2f06%2f01%2fcreating-a-valid-ops-file-in-json-format-for-minecraft-179%2f&amp;description=Creating%20a%20valid%20ops%20file%20in%20JSON%20format%20for%20Minecraft%201.7.9"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fconoroneill.net%2f2014%2f06%2f01%2fcreating-a-valid-ops-file-in-json-format-for-minecraft-179%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'crossdominant';
+  var disqus_url = 'https:\/\/conoroneill.net\/2014\/06\/01\/creating-a-valid-ops-file-in-json-format-for-minecraft-179\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cross Dominant</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
+    
+</body>
+</html>
+

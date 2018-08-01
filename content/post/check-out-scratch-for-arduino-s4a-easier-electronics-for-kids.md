@@ -1,4 +1,5 @@
 +++
+aliases = ["/check-out-scratch-for-arduino-s4a-easier-electronics-for-kids/","/2013/05/19/check-out-scratch-for-arduino-s4a-easier-electronics-for-kids"]
 date = "2013-05-19T18:40:00+01:00"
 draft = false
 title = "Check out Scratch for Arduino S4A. Easier electronics for kids"

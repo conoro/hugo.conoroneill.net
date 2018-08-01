@@ -1,4 +1,5 @@
 +++
+aliases = ["/seriously-unimpressed-with-wavesecures-purchase-page/","/2010/07/09/seriously-unimpressed-with-wavesecures-purchase-page"]
 date = "2010-07-09T08:38:00+01:00"
 draft = false
 title = "Seriously unimpressed with Wavesecure's Purchase Page"

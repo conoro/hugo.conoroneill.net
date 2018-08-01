@@ -1,4 +1,5 @@
 +++
+aliases = ["/from-tiny-csv-acorns-many-opendata-oaks-can-grow-now-where-is-irelands-ciocto/","/2012/10/04/from-tiny-csv-acorns-many-opendata-oaks-can-grow-now-where-is-irelands-ciocto"]
 date = "2012-10-04T18:12:14+01:00"
 draft = false
 title = "From tiny CSV acorns, many #OpenData oaks can grow. Now where is Ireland's CIO/CTO?"

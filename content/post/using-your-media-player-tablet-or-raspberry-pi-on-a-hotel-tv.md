@@ -1,4 +1,5 @@
 +++
+aliases = ["/using-your-media-player-tablet-or-raspberry-pi-on-a-hotel-tv/","/2012/07/01/using-your-media-player-tablet-or-raspberry-pi-on-a-hotel-tv"]
 date = "2012-07-01T18:56:55+01:00"
 draft = false
 title = "Using your Media Player, Tablet or Raspberry Pi on a Hotel TV"

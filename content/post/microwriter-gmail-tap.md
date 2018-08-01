@@ -1,4 +1,5 @@
 +++
+aliases = ["/microwriter-gmail-tap/","/2012/04/01/microwriter-gmail-tap"]
 date = "2012-04-01T18:16:07+01:00"
 draft = false
 title = "Microwriter should sue Google for GMail Tap"

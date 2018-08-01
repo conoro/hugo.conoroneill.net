@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-app-inventor-post-about-our-kids-school-is-now-on-the-mit-site/","/2012/03/15/my-app-inventor-post-about-our-kids-school-is-now-on-the-mit-site"]
 date = "2012-03-15T18:55:25Z"
 draft = false
 title = "My App Inventor post about our kids' school is now on the MIT site"

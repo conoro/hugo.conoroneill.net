@@ -1,4 +1,5 @@
 +++
+aliases = ["/simple-fix-for-major-asus-n53sn-laptop-sleep-recovery-problem/","/2011/12/04/simple-fix-for-major-asus-n53sn-laptop-sleep-recovery-problem"]
 date = "2011-12-04T17:53:54Z"
 draft = false
 title = "Simple Fix for Major Asus N53SN Laptop Sleep Recovery Problem"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/facebook-ads-suddenly-got-a-lot-more-powerful/","/2010/04/22/facebook-ads-suddenly-got-a-lot-more-powerful"]
 date = "2010-04-22T07:08:00+01:00"
 draft = false
 title = "Facebook Ads suddenly got a lot more powerful"

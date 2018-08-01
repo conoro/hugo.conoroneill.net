@@ -1,4 +1,5 @@
 +++
+aliases = ["/schema-org-about-bloody-time/","/2011/06/02/schema-org-about-bloody-time"]
 date = "2011-06-02T19:53:00+01:00"
 draft = false
 title = "schema.org - About Bloody Time"

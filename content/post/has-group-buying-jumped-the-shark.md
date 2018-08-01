@@ -1,4 +1,5 @@
 +++
+aliases = ["/has-group-buying-jumped-the-shark/","/2010/10/19/has-group-buying-jumped-the-shark"]
 date = "2010-10-19T10:40:00+01:00"
 draft = false
 title = "Has group buying jumped the shark?"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/xbmc-windows-media-centre-make-surprisingly-great-bedfellows/","/2012/02/22/xbmc-windows-media-centre-make-surprisingly-great-bedfellows"]
 date = "2012-02-22T07:48:25Z"
 draft = false
 title = "XBMC + Windows Media Center make surprisingly great bedfellows"

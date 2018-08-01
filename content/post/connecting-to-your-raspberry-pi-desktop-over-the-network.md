@@ -1,4 +1,5 @@
 +++
+aliases = ["/connecting-to-your-raspberry-pi-desktop-over-the-network/","/2012/05/09/connecting-to-your-raspberry-pi-desktop-over-the-network"]
 date = "2012-05-09T06:55:01+01:00"
 draft = false
 title = "Connecting to your Raspberry Pi desktop over the network"

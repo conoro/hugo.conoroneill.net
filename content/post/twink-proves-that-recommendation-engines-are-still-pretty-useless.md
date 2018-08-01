@@ -1,4 +1,5 @@
 +++
+aliases = ["/twink-proves-that-recommendation-engines-are-still-pretty-useless/","/2012/07/02/twink-proves-that-recommendation-engines-are-still-pretty-useless"]
 date = "2012-07-02T13:33:49+01:00"
 draft = false
 title = "Twink proves that Recommendation Engines are still pretty useless"

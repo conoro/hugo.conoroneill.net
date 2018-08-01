@@ -1,4 +1,5 @@
 +++
+aliases = ["/app-inventor-early-access-to-educators-with-current-and-pending-courses/","/2012/02/05/app-inventor-early-access-to-educators-with-current-and-pending-courses"]
 date = "2012-02-05T14:11:54Z"
 draft = false
 title = "App Inventor early access to educators with current and pending courses"

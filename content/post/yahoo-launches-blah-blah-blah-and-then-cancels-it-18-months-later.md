@@ -1,4 +1,5 @@
 +++
+aliases = ["/yahoo-launches-blah-blah-blah-and-then-cancels-it-18-months-later/","/2010/03/19/yahoo-launches-blah-blah-blah-and-then-cancels-it-18-months-later"]
 date = "2010-03-19T08:44:21Z"
 draft = false
 title = "Yahoo Launches Blah Blah Blah and Then Cancels It 18 Months Later"

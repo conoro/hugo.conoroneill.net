@@ -1,4 +1,5 @@
 +++
+aliases = ["/and-now-for-the-woot-we-got-acquired-by-amazon-rap-video/","/2010/07/02/and-now-for-the-woot-we-got-acquired-by-amazon-rap-video"]
 date = "2010-07-02T07:47:05+01:00"
 draft = false
 title = "And now for the Woot 'We Got Acquired By Amazon' Rap Video"

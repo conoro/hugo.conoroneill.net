@@ -1,4 +1,5 @@
 +++
+aliases = ["/imagine-if-minecraft-was-the-trigger-to-get-a-new-generation-of-kids-programming/","/2012/11/27/imagine-if-minecraft-was-the-trigger-to-get-a-new-generation-of-kids-programming"]
 date = "2012-11-27T12:01:14Z"
 draft = false
 title = "Imagine if Minecraft was the trigger to get a new generation of kids programming?"

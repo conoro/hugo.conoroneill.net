@@ -1,4 +1,5 @@
 +++
+aliases = ["/free-willie-a-friendship-you-could-never-imagine/","/2010/02/19/free-willie-a-friendship-you-could-never-imagine"]
 date = "2010-02-19T13:48:41Z"
 draft = false
 title = "Free Willie - A friendship you could never imagine"

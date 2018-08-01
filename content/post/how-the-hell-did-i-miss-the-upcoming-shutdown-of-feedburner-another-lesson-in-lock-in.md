@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-the-hell-did-i-miss-the-upcoming-shutdown-of-feedburner-another-lesson-in-lock-in/","/2012/09/09/how-the-hell-did-i-miss-the-upcoming-shutdown-of-feedburner-another-lesson-in-lock-in"]
 date = "2012-09-09T19:09:02+01:00"
 draft = false
 title = "How the hell did I miss the upcoming shutdown of FeedBurner? Another lesson in lock-in."

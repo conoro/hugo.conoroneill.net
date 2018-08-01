@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-first-genuine-leaked-pictures-of-the-apple-iwatch-will-amaze-you/","/2014/07/05/the-first-genuine-leaked-pictures-of-the-apple-iwatch-will-amaze-you"]
 date = "2014-07-05T12:02:45+01:00"
 draft = false
 title = "The first genuine leaked pictures of the Apple iWatch will amaze you"

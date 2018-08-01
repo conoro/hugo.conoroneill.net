@@ -1,4 +1,5 @@
 +++
+aliases = ["/ie-6-upgrade-petition-for-the-irish-government/","/2010/02/09/ie-6-upgrade-petition-for-the-irish-government"]
 date = "2010-02-09T09:39:10Z"
 draft = false
 title = "IE 6 Upgrade petition for the Irish Government"

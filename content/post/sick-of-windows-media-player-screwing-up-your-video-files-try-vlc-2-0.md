@@ -1,4 +1,5 @@
 +++
+aliases = ["/sick-of-windows-media-player-screwing-up-your-video-files-try-vlc-2-0/","/2012/02/19/sick-of-windows-media-player-screwing-up-your-video-files-try-vlc-2-0"]
 date = "2012-02-19T13:33:06Z"
 draft = false
 title = "Sick of Windows Media Player screwing up your video files? Try VLC 2.0"

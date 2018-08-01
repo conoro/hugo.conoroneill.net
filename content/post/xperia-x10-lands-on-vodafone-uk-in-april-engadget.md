@@ -1,4 +1,5 @@
 +++
+aliases = ["/xperia-x10-lands-on-vodafone-uk-in-april-engadget/","/2010/02/04/xperia-x10-lands-on-vodafone-uk-in-april-engadget"]
 date = "2010-02-04T12:22:14Z"
 draft = false
 title = "Xperia X10 lands on Vodafone UK in April -- Engadget"

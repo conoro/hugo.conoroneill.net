@@ -1,4 +1,5 @@
 +++
+aliases = ["/time-for-an-irish-technology-industry-lobby/","/2011/12/31/time-for-an-irish-technology-industry-lobby"]
 date = "2011-12-31T11:59:21Z"
 draft = false
 title = "Time for an Irish Technology Industry Lobby?"

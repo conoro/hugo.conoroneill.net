@@ -1,4 +1,5 @@
 +++
+aliases = ["/mit-app-inventor-open-beta-preview/","/2012/03/06/mit-app-inventor-open-beta-preview"]
 date = "2012-03-06T08:15:48Z"
 draft = false
 title = "MIT App Inventor Open Beta Preview"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/possible-alternative-to-my-hdvp-2-media-player-patriot-box-office-1080p/","/2011/03/27/possible-alternative-to-my-hdvp-2-media-player-patriot-box-office-1080p"]
 date = "2011-03-27T10:41:00+01:00"
 draft = false
 title = "Possible alternative to my HDVP-2 Media Player - Patriot Box Office 1080p "

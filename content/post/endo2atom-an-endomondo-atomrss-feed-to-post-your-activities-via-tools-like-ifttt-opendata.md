@@ -1,4 +1,5 @@
 +++
+aliases = ["/endo2atom-an-endomondo-atomrss-feed-to-post-your-activities-via-tools-like-ifttt-opendata/","/2013/04/12/endo2atom-an-endomondo-atomrss-feed-to-post-your-activities-via-tools-like-ifttt-opendata"]
 date = "2013-04-12T18:44:35+01:00"
 draft = false
 title = "Endo2Atom - An Endomondo ATOM/RSS feed to post your activities via tools like IFTTT #OpenData"

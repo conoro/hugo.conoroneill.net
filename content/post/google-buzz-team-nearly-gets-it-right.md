@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-buzz-team-nearly-gets-it-right/","/2010/09/16/google-buzz-team-nearly-gets-it-right"]
 date = "2010-09-16T09:38:00+01:00"
 draft = false
 title = "Google Buzz Team Nearly Gets It Right"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/conors-patented-saturday-eurovision-filter/","/2010/05/29/conors-patented-saturday-eurovision-filter"]
 date = "2010-05-29T12:28:35+01:00"
 draft = false
 title = "Conor's Patented Saturday Eurovision Filter"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/facebooks-edgerank-should-be-renamed-cletusrank/","/2011/09/22/facebooks-edgerank-should-be-renamed-cletusrank"]
 date = "2011-09-22T07:43:00+01:00"
 draft = false
 title = "Facebook's EdgeRank should be renamed CletusRank"

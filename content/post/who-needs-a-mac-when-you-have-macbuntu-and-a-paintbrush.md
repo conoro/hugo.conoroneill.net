@@ -1,4 +1,5 @@
 +++
+aliases = ["/who-needs-a-mac-when-you-have-macbuntu-and-a-paintbrush/","/2011/04/11/who-needs-a-mac-when-you-have-macbuntu-and-a-paintbrush"]
 date = "2011-04-11T21:51:52+01:00"
 draft = false
 title = "Who needs a Mac when you have Macbuntu and a paintbrush?"

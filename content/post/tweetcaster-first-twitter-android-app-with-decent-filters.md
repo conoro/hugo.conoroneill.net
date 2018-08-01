@@ -1,4 +1,5 @@
 +++
+aliases = ["/tweetcaster-first-twitter-android-app-with-decent-filters/","/2011/01/16/tweetcaster-first-twitter-android-app-with-decent-filters"]
 date = "2011-01-16T19:22:00Z"
 draft = false
 title = "Tweetcaster - First Twitter Android App with Decent Filters"

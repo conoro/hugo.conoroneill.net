@@ -1,4 +1,5 @@
 +++
+aliases = ["/open-data-irelands-first-meetup-tonight-in-engine-yard/","/2012/10/25/open-data-irelands-first-meetup-tonight-in-engine-yard"]
 date = "2012-10-25T11:05:50+01:00"
 draft = false
 title = "Open Data Ireland's first meetup tonight in Engine Yard"

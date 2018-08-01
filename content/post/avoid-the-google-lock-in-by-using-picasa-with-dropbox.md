@@ -1,4 +1,5 @@
 +++
+aliases = ["/avoid-the-google-lock-in-by-using-picasa-with-dropbox/","/2013/03/22/avoid-the-google-lock-in-by-using-picasa-with-dropbox"]
 date = "2013-03-22T08:01:44Z"
 draft = false
 title = "Avoid Google+ lock-in by using Picasa with Dropbox"

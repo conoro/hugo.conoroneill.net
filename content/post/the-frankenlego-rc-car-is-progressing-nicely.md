@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-frankenlego-rc-car-is-progressing-nicely/","/2014/01/12/the-frankenlego-rc-car-is-progressing-nicely"]
 date = "2014-01-12T17:14:26Z"
 draft = false
 title = "The FrankenLego RC car is progressing nicely"

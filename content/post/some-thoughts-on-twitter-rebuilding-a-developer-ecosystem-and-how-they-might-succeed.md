@@ -1,4 +1,5 @@
 +++
+aliases = ["/some-thoughts-on-twitter-rebuilding-a-developer-ecosystem-and-how-they-might-succeed/","/2014/11/01/some-thoughts-on-twitter-rebuilding-a-developer-ecosystem-and-how-they-might-succeed"]
 date = "2014-11-01T16:10:29Z"
 draft = false
 title = "Some thoughts on Twitter rebuilding a developer ecosystem and how they might succeed"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/end-of-an-era-philips-switches-off-tv-production/","/2012/04/15/end-of-an-era-philips-switches-off-tv-production"]
 date = "2012-04-15T19:41:02+01:00"
 draft = false
 title = "End of an Era - Philips switches off TV production"

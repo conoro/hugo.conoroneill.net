@@ -1,4 +1,5 @@
 +++
+aliases = ["/sorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp/","/2011/01/07/sorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp"]
 date = "2011-01-07T10:18:42Z"
 draft = false
 title = "Sorting out the 'On Behalf Of' Nonsense on GMail with AuthSMTP"

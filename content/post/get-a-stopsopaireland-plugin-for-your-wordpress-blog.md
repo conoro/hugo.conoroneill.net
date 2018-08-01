@@ -1,4 +1,5 @@
 +++
+aliases = ["/get-a-stopsopaireland-plugin-for-your-wordpress-blog/","/2012/01/24/get-a-stopsopaireland-plugin-for-your-wordpress-blog"]
 date = "2012-01-24T10:55:23Z"
 draft = false
 title = "Get a #stopSOPAIreland Plugin for your WordPress Blog"

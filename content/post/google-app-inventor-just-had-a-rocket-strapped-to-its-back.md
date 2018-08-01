@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-app-inventor-just-had-a-rocket-strapped-to-its-back/","/2011/06/03/google-app-inventor-just-had-a-rocket-strapped-to-its-back"]
 date = "2011-06-03T11:58:00+01:00"
 draft = false
 title = "Google App Inventor Just had a Rocket Strapped to its Back!"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/quick-update-on-eken-t02-tablet-and-where-is-scribblenauts-for-android/","/2012/05/16/quick-update-on-eken-t02-tablet-and-where-is-scribblenauts-for-android"]
 date = "2012-05-16T13:52:46+01:00"
 draft = false
 title = "Quick update on Eken T02 Tablet and where is Scribblenauts for Android?"

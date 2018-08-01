@@ -1,4 +1,5 @@
 +++
+aliases = ["/just-discovered-vmware-unity-standalone-ubuntu-windows-in-windows-7/","/2011/07/06/just-discovered-vmware-unity-standalone-ubuntu-windows-in-windows-7"]
 date = "2011-07-06T13:37:19+01:00"
 draft = false
 title = "Just discovered VMware Unity - Standalone Ubuntu Windows in Windows 7!"

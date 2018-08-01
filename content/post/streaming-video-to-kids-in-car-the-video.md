@@ -1,4 +1,5 @@
 +++
+aliases = ["/streaming-video-to-kids-in-car-the-video/","/2010/03/13/streaming-video-to-kids-in-car-the-video"]
 date = "2010-03-13T11:28:39Z"
 draft = false
 title = "Streaming video to kids in car. The Video. "

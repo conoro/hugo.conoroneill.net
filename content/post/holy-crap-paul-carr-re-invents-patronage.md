@@ -1,4 +1,5 @@
 +++
+aliases = ["/holy-crap-paul-carr-re-invents-patronage/","/2010/02/24/holy-crap-paul-carr-re-invents-patronage"]
 date = "2010-02-24T17:21:00Z"
 draft = false
 title = "Holy Crap, Paul Carr re-invents patronage"

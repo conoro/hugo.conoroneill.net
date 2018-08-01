@@ -1,4 +1,5 @@
 +++
+aliases = ["/bottom-feeding-us-conference-organisers-always-good-for-a-giggle/","/2011/09/26/bottom-feeding-us-conference-organisers-always-good-for-a-giggle"]
 date = "2011-09-26T12:41:19+01:00"
 draft = false
 title = "Bottom Feeding US Conference Organisers always Good for a Giggle"

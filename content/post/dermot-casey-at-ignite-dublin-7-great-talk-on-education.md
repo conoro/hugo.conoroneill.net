@@ -1,4 +1,5 @@
 +++
+aliases = ["/dermot-casey-at-ignite-dublin-7-great-talk-on-education/","/2011/07/05/dermot-casey-at-ignite-dublin-7-great-talk-on-education"]
 date = "2011-07-05T14:27:00+01:00"
 draft = false
 title = "Dermot Casey at IGNITE Dublin #7 - Great talk on Education"

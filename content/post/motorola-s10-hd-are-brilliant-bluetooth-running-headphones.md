@@ -1,4 +1,5 @@
 +++
+aliases = ["/motorola-s10-hd-are-brilliant-bluetooth-running-headphones/","/2012/05/12/motorola-s10-hd-are-brilliant-bluetooth-running-headphones"]
 date = "2012-05-12T13:29:14+01:00"
 draft = false
 title = "Motorola S10-HD are brilliant Bluetooth running headphones"

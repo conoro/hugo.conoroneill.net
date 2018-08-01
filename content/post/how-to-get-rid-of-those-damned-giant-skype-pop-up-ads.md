@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-to-get-rid-of-those-damned-giant-skype-pop-up-ads/","/2011/07/11/how-to-get-rid-of-those-damned-giant-skype-pop-up-ads"]
 date = "2011-07-11T21:59:18+01:00"
 draft = false
 title = "How to Get Rid of Those Damned Giant Skype Pop-Up Ads"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/want-to-see-how-the-new-google-vp8-video-looks/","/2010/05/23/want-to-see-how-the-new-google-vp8-video-looks"]
 date = "2010-05-23T10:55:00+01:00"
 draft = false
 title = "Want to see how the new Google VP8 video looks?"

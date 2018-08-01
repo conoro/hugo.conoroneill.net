@@ -1,4 +1,5 @@
 +++
+aliases = ["/app-inventor-source-code-now-available/","/2012/01/21/app-inventor-source-code-now-available"]
 date = "2012-01-21T10:17:27Z"
 draft = false
 title = "App Inventor Source Code Now Available"

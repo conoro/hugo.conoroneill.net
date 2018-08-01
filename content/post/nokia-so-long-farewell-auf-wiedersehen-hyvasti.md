@@ -1,4 +1,5 @@
 +++
+aliases = ["/nokia-so-long-farewell-auf-wiedersehen-hyvasti/","/2010/05/02/nokia-so-long-farewell-auf-wiedersehen-hyvasti"]
 date = "2010-05-02T10:52:00+01:00"
 draft = false
 title = "Nokia - So long, farewell, auf Wiedersehen, Hyvsti"

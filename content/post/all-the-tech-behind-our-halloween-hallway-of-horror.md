@@ -1,9 +1,12 @@
 +++
-Description = "This year's Halloween brought to you by 3x Arduino, 1x Banana Pi, 1x ESP8266 and some Adafruit modules"
+aliases = ["/all-the-gory-tech-behind-our-halloween-hallway-of-horror/","/2015/11/03/all-the-gory-tech-behind-our-halloween-hallway-of-horror"]
 date = "2015-11-03T08:22:29Z"
+draft = false
 title = "All the gory tech behind our Halloween Hallway of Horror"
-
+description = " "
+slug = "all-the-gory-tech-behind-our-halloween-hallway-of-horror"
 +++
+
 Despite starting weeks earlier than usual, Halloween still involved a day of last minute panic to bring everything together. The end result was this:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FClhSNwFfT0" frameborder="0" allowfullscreen></iframe>

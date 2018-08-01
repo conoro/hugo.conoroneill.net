@@ -1,4 +1,5 @@
 +++
+aliases = ["/creativity-not-consumption-origo-a-3d-printer-for-everyone/","/2011/09/22/creativity-not-consumption-origo-a-3d-printer-for-everyone"]
 date = "2011-09-22T14:10:00+01:00"
 draft = false
 title = "Creativity not Consumption - Origo a 3D printer for everyone"

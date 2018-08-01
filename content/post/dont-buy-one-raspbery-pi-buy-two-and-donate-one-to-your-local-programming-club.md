@@ -1,4 +1,5 @@
 +++
+aliases = ["/dont-buy-one-raspbery-pi-buy-two-and-donate-one-to-your-local-programming-club/","/2012/02/29/dont-buy-one-raspbery-pi-buy-two-and-donate-one-to-your-local-programming-club"]
 date = "2012-02-29T13:08:51Z"
 draft = false
 title = "Don't buy one Raspberry Pi, buy two and donate one to your local programming club"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/oscar-and-me-messing-with-phone-video-and-kino-video-editor/","/2010/02/21/oscar-and-me-messing-with-phone-video-and-kino-video-editor"]
 date = "2010-02-21T13:19:21Z"
 draft = false
 title = "Oscar and me messing with phone video and Kino video editor"

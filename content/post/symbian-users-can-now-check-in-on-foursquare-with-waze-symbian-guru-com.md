@@ -1,4 +1,5 @@
 +++
+aliases = ["/symbian-users-can-now-check-in-on-foursquare-with-waze-symbian-guru-com/","/2010/02/04/symbian-users-can-now-check-in-on-foursquare-with-waze-symbian-guru-com"]
 date = "2010-02-04T17:57:34Z"
 draft = false
 title = "Symbian Users Can Now Check-In On Foursquare With Waze | Symbian-Guru.com"

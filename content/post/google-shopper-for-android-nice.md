@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-shopper-for-android-nice/","/2010/02/19/google-shopper-for-android-nice"]
 date = "2010-02-19T13:16:07Z"
 draft = false
 title = "Google Shopper for Android - Nice"

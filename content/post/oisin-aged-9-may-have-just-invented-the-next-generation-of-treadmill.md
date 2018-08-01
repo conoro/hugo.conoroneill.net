@@ -1,4 +1,5 @@
 +++
+aliases = ["/oisin-aged-9-may-have-just-invented-the-next-generation-of-treadmill/","/2011/10/01/oisin-aged-9-may-have-just-invented-the-next-generation-of-treadmill"]
 date = "2011-10-01T15:20:07+01:00"
 draft = false
 title = "Oisn, aged 9, may have just invented the next generation of treadmill"

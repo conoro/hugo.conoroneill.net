@@ -1,4 +1,5 @@
 +++
+aliases = ["/bloody-brilliant-move-by-profounders-capital-open-office-hours/","/2010/05/25/bloody-brilliant-move-by-profounders-capital-open-office-hours"]
 date = "2010-05-25T13:32:21+01:00"
 draft = false
 title = "Bloody Brilliant Move by PROfounders Capital - Open-Office Hours"

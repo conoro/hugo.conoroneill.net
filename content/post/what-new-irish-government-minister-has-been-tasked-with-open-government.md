@@ -1,4 +1,5 @@
 +++
+aliases = ["/what-new-irish-government-minister-has-been-tasked-with-open-government/","/2011/04/10/what-new-irish-government-minister-has-been-tasked-with-open-government"]
 date = "2011-04-10T19:10:00+01:00"
 draft = false
 title = "What new Irish Government Minister has been tasked with Open Government?"

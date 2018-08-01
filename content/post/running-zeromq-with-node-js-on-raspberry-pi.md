@@ -1,4 +1,5 @@
 +++
+aliases = ["/running-zeromq-with-node-js-on-raspberry-pi/","/2015/09/20/running-zeromq-with-node-js-on-raspberry-pi"]
 date = "2015-09-20T11:38:46+01:00"
 draft = false
 title = "Running ZeroMQ with Node.js on Raspberry Pi"

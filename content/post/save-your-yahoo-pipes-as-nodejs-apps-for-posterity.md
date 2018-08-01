@@ -1,4 +1,5 @@
 +++
+aliases = ["/save-your-yahoo-pipes-as-nodejs-apps-for-posterity/","/2015/06/06/save-your-yahoo-pipes-as-nodejs-apps-for-posterity"]
 date = "2015-06-06T15:06:15+01:00"
 draft = false
 title = "Save your Yahoo Pipes as Node.js Apps for posterity"

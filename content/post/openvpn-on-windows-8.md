@@ -1,4 +1,5 @@
 +++
+aliases = ["/openvpn-on-windows-8/","/2013/03/06/openvpn-on-windows-8"]
 date = "2013-03-06T08:52:11Z"
 draft = false
 title = "OpenVPN on Windows 8"

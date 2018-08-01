@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-chromeos-flow-is-a-speedy-wee-thing/","/2010/02/15/google-chromeos-flow-is-a-speedy-wee-thing"]
 date = "2010-02-15T19:58:15Z"
 draft = false
 title = "Google ChromeOS Flow is a speedy wee thing"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/ron-swanson-is-the-patron-saint-of-makers-his-finest-moment-on-parks-and-rec/","/2013/02/26/ron-swanson-is-the-patron-saint-of-makers-his-finest-moment-on-parks-and-rec"]
 date = "2013-02-26T11:34:03Z"
 draft = false
 title = "Ron Swanson is the Patron Saint of Makers - His Finest Moment on Parks and Rec"

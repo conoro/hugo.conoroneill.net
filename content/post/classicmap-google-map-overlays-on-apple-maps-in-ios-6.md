@@ -1,4 +1,5 @@
 +++
+aliases = ["/classicmap-google-map-overlays-on-apple-maps-in-ios-6/","/2012/10/09/classicmap-google-map-overlays-on-apple-maps-in-ios-6"]
 date = "2012-10-09T10:09:06+01:00"
 draft = false
 title = "ClassicMap - Google Map overlays on Apple Maps in iOS 6"

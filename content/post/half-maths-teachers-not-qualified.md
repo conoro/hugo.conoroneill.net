@@ -1,4 +1,5 @@
 +++
+aliases = ["/half-maths-teachers-not-qualified/","/2010/02/16/half-maths-teachers-not-qualified"]
 date = "2010-02-16T14:39:30Z"
 draft = false
 title = "Half maths teachers not qualified"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/greatest-browser-extension-ever-cloud-save/","/2011/06/15/greatest-browser-extension-ever-cloud-save"]
 date = "2011-06-15T13:59:00+01:00"
 draft = false
 title = "Greatest Browser Extension Ever? Cloud Save."

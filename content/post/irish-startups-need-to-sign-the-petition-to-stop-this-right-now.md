@@ -1,4 +1,5 @@
 +++
+aliases = ["/irish-startups-need-to-sign-the-petition-to-stop-this-right-now/","/2010/04/25/irish-startups-need-to-sign-the-petition-to-stop-this-right-now"]
 date = "2010-04-25T15:00:08+01:00"
 draft = false
 title = "Irish Startups need to Sign the Petition to Stop This - Right Now!"

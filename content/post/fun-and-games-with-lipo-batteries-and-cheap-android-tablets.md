@@ -1,4 +1,5 @@
 +++
+aliases = ["/fun-and-games-with-lipo-batteries-and-cheap-android-tablets/","/2013/05/03/fun-and-games-with-lipo-batteries-and-cheap-android-tablets"]
 date = "2013-05-03T07:45:16+01:00"
 draft = false
 title = "Fun and games with LiPo batteries and cheap Android Tablets"

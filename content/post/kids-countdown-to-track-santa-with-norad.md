@@ -1,4 +1,5 @@
 +++
+aliases = ["/kids-countdown-to-track-santa-with-norad/","/2010/12/21/kids-countdown-to-track-santa-with-norad"]
 date = "2010-12-21T16:47:00Z"
 draft = false
 title = "Kids' Countdown to Track Santa with Norad"

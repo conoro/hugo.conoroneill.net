@@ -1,4 +1,5 @@
 +++
+aliases = ["/3678189-life-saving-tetanus-vaccines/","/2010/02/19/3678189-life-saving-tetanus-vaccines"]
 date = "2010-02-19T14:15:14Z"
 draft = false
 title = "3,678,189 life-saving tetanus vaccines"

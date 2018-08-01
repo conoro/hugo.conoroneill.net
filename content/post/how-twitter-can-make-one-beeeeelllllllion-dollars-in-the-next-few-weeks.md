@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-twitter-can-make-one-beeeeelllllllion-dollars-in-the-next-few-weeks/","/2014/06/11/how-twitter-can-make-one-beeeeelllllllion-dollars-in-the-next-few-weeks"]
 date = "2014-06-11T08:48:25+01:00"
 draft = false
 title = "How Twitter can make one beeeeelllllllion dollars in the next few weeks"

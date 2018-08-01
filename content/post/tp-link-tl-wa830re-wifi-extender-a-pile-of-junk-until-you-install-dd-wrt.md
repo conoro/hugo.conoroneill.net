@@ -1,4 +1,5 @@
 +++
+aliases = ["/tp-link-tl-wa830re-wifi-extender-a-pile-of-junk-until-you-install-dd-wrt/","/2013/03/30/tp-link-tl-wa830re-wifi-extender-a-pile-of-junk-until-you-install-dd-wrt"]
 date = "2013-03-30T16:32:02Z"
 draft = false
 title = "TP-Link TL-WA830RE Wifi Extender - A pile of junk until you install DD-WRT"

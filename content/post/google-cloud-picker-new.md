@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-cloud-picker-new/","/2011/03/01/google-cloud-picker-new"]
 date = "2011-03-01T12:08:00Z"
 draft = false
 title = "Google Cloud Picker? New?"

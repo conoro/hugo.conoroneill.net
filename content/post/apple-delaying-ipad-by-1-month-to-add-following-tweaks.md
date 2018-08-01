@@ -1,4 +1,5 @@
 +++
+aliases = ["/apple-delaying-ipad-by-1-month-to-add-following-tweaks/","/2010/04/14/apple-delaying-ipad-by-1-month-to-add-following-tweaks"]
 date = "2010-04-14T13:57:26+01:00"
 draft = false
 title = "Apple Delaying iPad by 1 Month to Add Following Tweaks"

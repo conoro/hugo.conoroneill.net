@@ -1,4 +1,5 @@
 +++
+aliases = ["/interfacing-nodejs-to-raspberry-pi-hardware-with-node-ffi/","/2014/03/30/interfacing-nodejs-to-raspberry-pi-hardware-with-node-ffi"]
 date = "2014-03-30T13:36:22+01:00"
 draft = false
 title = "Interfacing Node.js to Raspberry Pi hardware like 433Mhz transmitters with node-ffi"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/tweetdeck-world-cup-filter-youre-welcome/","/2010/06/11/tweetdeck-world-cup-filter-youre-welcome"]
 date = "2010-06-11T09:46:25+01:00"
 draft = false
 title = "Tweetdeck World Cup Filter - You're Welcome"

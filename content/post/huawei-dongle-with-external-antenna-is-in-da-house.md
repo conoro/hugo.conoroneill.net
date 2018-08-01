@@ -1,4 +1,5 @@
 +++
+aliases = ["/huawei-dongle-with-external-antenna-is-in-da-house/","/2010/03/18/huawei-dongle-with-external-antenna-is-in-da-house"]
 date = "2010-03-18T09:42:18Z"
 draft = false
 title = "Huawei dongle with external antenna is in da house"

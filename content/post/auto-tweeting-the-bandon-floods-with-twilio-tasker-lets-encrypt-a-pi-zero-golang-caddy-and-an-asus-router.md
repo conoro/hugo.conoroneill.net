@@ -1,11 +1,12 @@
 +++
-Categories = []
-Description = "I'm still flabbergasted you can get a https cert for $0 to run a secure web-server on a $5 computer behind an Asus RT-AC68 Merlin router"
-Tags = []
+aliases = ["/auto-tweeting-the-bandon-floods-with-twilio-tasker-let's-encrypt-a-pizero-golang-caddy-and-an-asus-router/","/2015/12/30/auto-tweeting-the-bandon-floods-with-twilio-tasker-let's-encrypt-a-pizero-golang-caddy-and-an-asus-router"]
 date = "2015-12-30T17:15:23Z"
+draft = false
 title = "Auto-tweeting the Bandon floods with Twilio, Tasker, Let's Encrypt, a PiZero, golang, Caddy and an Asus router"
-
+description = " "
+slug = "auto-tweeting-the-bandon-floods-with-twilio-tasker-let's-encrypt-a-pizero-golang-caddy-and-an-asus-router"
 +++
+
 ## Intro
 I haven't blogged properly about the $5 [Raspberry Pi Zero](https://www.raspberrypi.org/blog/raspberry-pi-zero/) computer yet, despite Tweeting non-stop about it. I will soon. In the meantime, I'll just repeat that
 

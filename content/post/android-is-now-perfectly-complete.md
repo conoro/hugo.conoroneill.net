@@ -1,4 +1,5 @@
 +++
+aliases = ["/android-is-now-perfectly-complete/","/2010/04/22/android-is-now-perfectly-complete"]
 date = "2010-04-22T08:26:00+01:00"
 draft = false
 title = "Android is now perfectly complete"

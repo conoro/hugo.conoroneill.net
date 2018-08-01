@@ -1,4 +1,5 @@
 +++
+aliases = ["/months-behind-in-my-blogging-here-are-some-tech-things-for-your-enjoyment-that-have-caught-my-eye-recently/","/2014/10/29/months-behind-in-my-blogging-here-are-some-tech-things-for-your-enjoyment-that-have-caught-my-eye-recently"]
 date = "2014-10-29T11:21:21Z"
 draft = false
 title = "Months behind in my blogging. Here are some tech things for your enjoyment that have caught my eye recently"

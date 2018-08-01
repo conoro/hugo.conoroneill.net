@@ -1,4 +1,5 @@
 +++
+aliases = ["/mps-urge-government-to-stop-nhs-funding-and-mhra-licensing-of-homeopathy/","/2010/02/22/mps-urge-government-to-stop-nhs-funding-and-mhra-licensing-of-homeopathy"]
 date = "2010-02-22T13:03:18Z"
 draft = false
 title = "MPs urge government to stop NHS funding, and MHRA licensing, of homeopathy"

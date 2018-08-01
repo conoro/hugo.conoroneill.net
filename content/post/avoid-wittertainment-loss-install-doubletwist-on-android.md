@@ -1,4 +1,5 @@
 +++
+aliases = ["/avoid-wittertainment-loss-install-doubletwist-on-android/","/2011/03/18/avoid-wittertainment-loss-install-doubletwist-on-android"]
 date = "2011-03-18T17:54:00Z"
 draft = false
 title = "Avoid @wittertainment loss, install doubleTwist on Android"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/piratebox-could-be-an-awesome-file-sharing-tool-at-every-event/","/2014/06/02/piratebox-could-be-an-awesome-file-sharing-tool-at-every-event"]
 date = "2014-06-02T12:56:42+01:00"
 draft = false
 title = "PirateBox could be an awesome file sharing tool at every event, particularly where internet is poor i.e. all of them."

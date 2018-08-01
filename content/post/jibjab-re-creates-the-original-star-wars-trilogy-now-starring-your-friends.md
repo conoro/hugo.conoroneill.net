@@ -1,4 +1,5 @@
 +++
+aliases = ["/jibjab-re-creates-the-original-star-wars-trilogy-now-starring-your-friends/","/2010/05/04/jibjab-re-creates-the-original-star-wars-trilogy-now-starring-your-friends"]
 date = "2010-05-04T09:26:29+01:00"
 draft = false
 title = "JibJab Re-Creates The Original Star Wars Trilogy, Now Starring Your Friends"

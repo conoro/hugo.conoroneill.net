@@ -1,4 +1,5 @@
 +++
+aliases = ["/sony-ericsson-thinks-im-a-big-girls-blouse/","/2010/02/03/sony-ericsson-thinks-im-a-big-girls-blouse"]
 date = "2010-02-03T09:57:35Z"
 draft = false
 title = "Sony Ericsson thinks I'm a big girls blouse"

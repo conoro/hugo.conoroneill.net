@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-joy-of-the-irish-blog-awards-iba11-is-finding-things-like-this/","/2011/03/20/the-joy-of-the-irish-blog-awards-iba11-is-finding-things-like-this"]
 date = "2011-03-20T13:19:00Z"
 draft = false
 title = "The Joy of The Irish Blog Awards #IBA11 is finding things like this..."

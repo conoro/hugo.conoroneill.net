@@ -1,4 +1,5 @@
 +++
+aliases = ["/mongopress-a-mongodb-based-cms-inspired-by-wordpress/","/2011/12/18/mongopress-a-mongodb-based-cms-inspired-by-wordpress"]
 date = "2011-12-18T17:37:45Z"
 draft = false
 title = "MongoPress - A MongoDB-based CMS inspired by WordPress"

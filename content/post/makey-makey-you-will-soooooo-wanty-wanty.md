@@ -1,4 +1,5 @@
 +++
+aliases = ["/makey-makey-you-will-soooooo-wanty-wanty/","/2012/06/28/makey-makey-you-will-soooooo-wanty-wanty"]
 date = "2012-06-28T18:38:52+01:00"
 draft = false
 title = "Makey Makey - You will soooooo Wanty Wanty"

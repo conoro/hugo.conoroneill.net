@@ -1,7 +1,8 @@
 +++
+aliases = ["/about-bloody-time-android-more-countries-more-sellers-more-buyers/","/2010/09/30/about-bloody-time-android-more-countries-more-sellers-more-buyers"]
 date = "2010-09-30T21:23:00+01:00"
 draft = false
-title = "About....Bloody......Time...: Android - More Countries, More sellers, More buyers"
+title = "About....Bloody......Time... Android - More Countries, More sellers, More buyers"
 description = ""
 slug = "about-bloody-time-android-more-countries-more-sellers-more-buyers"
 +++

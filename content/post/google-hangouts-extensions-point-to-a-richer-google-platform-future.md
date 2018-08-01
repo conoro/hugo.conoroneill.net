@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-hangouts-extensions-point-to-a-richer-google-platform-future/","/2012/10/23/google-hangouts-extensions-point-to-a-richer-google-platform-future"]
 date = "2012-10-23T08:47:18+01:00"
 draft = false
 title = "Google Hangouts Extensions point to a richer Google+ Platform future"

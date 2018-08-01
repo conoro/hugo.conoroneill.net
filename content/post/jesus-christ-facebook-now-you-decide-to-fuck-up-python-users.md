@@ -1,4 +1,5 @@
 +++
+aliases = ["/jesus-christ-facebook-now-you-decide-to-fuck-up-python-users/","/2011/12/17/jesus-christ-facebook-now-you-decide-to-fuck-up-python-users"]
 date = "2011-12-17T12:13:14Z"
 draft = false
 title = "Jesus Christ Facebook, Now You Decide to Fuck-Up Python Users?"

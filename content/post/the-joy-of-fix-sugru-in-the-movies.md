@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-joy-of-fix-sugru-in-the-movies/","/2011/07/21/the-joy-of-fix-sugru-in-the-movies"]
 date = "2011-07-21T13:55:00+01:00"
 draft = false
 title = "The Joy of Fix Sugru in the Movies"

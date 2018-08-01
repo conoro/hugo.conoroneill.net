@@ -9,7 +9,7 @@ publishdir = "docs"
 rssuri = "index.xml"
 
 [permalinks]
-  post="/:slug/"
+  post="/:year/:month/:day/:slug/"
 
 [params]
   twitterName = "conoro"

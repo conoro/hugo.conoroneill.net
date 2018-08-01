@@ -1,4 +1,5 @@
 +++
+aliases = ["/could-skype-build-a-twitter-competitor/","/2010/12/22/could-skype-build-a-twitter-competitor"]
 date = "2010-12-22T21:01:10Z"
 draft = false
 title = "Could Skype build a Twitter competitor?"

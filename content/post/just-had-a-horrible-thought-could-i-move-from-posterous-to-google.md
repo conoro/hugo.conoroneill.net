@@ -1,4 +1,5 @@
 +++
+aliases = ["/just-had-a-horrible-thought-could-i-move-from-posterous-to-google/","/2011/12/28/just-had-a-horrible-thought-could-i-move-from-posterous-to-google"]
 date = "2011-12-28T10:43:05Z"
 draft = false
 title = "Just had a Horrible Thought. Could I move from Posterous to Google+?"

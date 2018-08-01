@@ -1,4 +1,5 @@
 +++
+aliases = ["/using-nfc-to-connect-your-sgs4-phone-to-your-cars-bluetooth/","/2013/05/16/using-nfc-to-connect-your-sgs4-phone-to-your-cars-bluetooth"]
 date = "2013-05-16T08:11:59+01:00"
 draft = false
 title = "Using NFC to connect your #SGS4 phone to your car's Bluetooth"

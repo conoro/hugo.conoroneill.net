@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-technology-ie-podcast-with-conn-all-about-home-media-netflix/","/2012/01/16/my-technology-ie-podcast-with-conn-all-about-home-media-netflix"]
 date = "2012-01-16T10:33:26Z"
 draft = false
 title = "My Technology.ie podcast with Conn - All about Home Media & Netflix"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/virtual-hurling-with-the-xbox-kinect/","/2010/11/27/virtual-hurling-with-the-xbox-kinect"]
 date = "2010-11-27T19:19:00Z"
 draft = false
 title = "Virtual hurling with the xbox kinect"

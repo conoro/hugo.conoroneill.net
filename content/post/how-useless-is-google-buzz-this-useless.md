@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-useless-is-google-buzz-this-useless/","/2010/03/23/how-useless-is-google-buzz-this-useless"]
 date = "2010-03-23T08:27:00Z"
 draft = false
 title = "How useless is Google Buzz? This useless."

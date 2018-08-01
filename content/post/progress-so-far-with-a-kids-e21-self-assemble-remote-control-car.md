@@ -1,4 +1,5 @@
 +++
+aliases = ["/progress-so-far-with-a-kids-e21-self-assemble-remote-control-car/","/2013/05/16/progress-so-far-with-a-kids-e21-self-assemble-remote-control-car"]
 date = "2013-05-16T20:35:21+01:00"
 draft = false
 title = "Progress so far with a kids 21 self-assemble Remote Control Car"

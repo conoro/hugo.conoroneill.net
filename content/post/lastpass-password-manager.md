@@ -1,4 +1,5 @@
 +++
+aliases = ["/lastpass-password-manager/","/2010/02/08/lastpass-password-manager"]
 date = "2010-02-08T10:31:00Z"
 draft = false
 title = "LastPass Password Manager"

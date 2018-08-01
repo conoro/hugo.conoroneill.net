@@ -1,4 +1,5 @@
 +++
+aliases = ["/facebook-places-check-ins-in-ireland-really-kicking-off/","/2011/02/04/facebook-places-check-ins-in-ireland-really-kicking-off"]
 date = "2011-02-04T13:30:20Z"
 draft = false
 title = "Facebook Places Check-ins in Ireland really kicking off"

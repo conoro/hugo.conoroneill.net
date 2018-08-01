@@ -1,4 +1,5 @@
 +++
+aliases = ["/webcast-recording-of-whats-next-for-app-inventor/","/2011/09/06/webcast-recording-of-whats-next-for-app-inventor"]
 date = "2011-09-06T23:05:00+01:00"
 draft = false
 title = "Webcast Recording of 'What's Next for App Inventor?'"

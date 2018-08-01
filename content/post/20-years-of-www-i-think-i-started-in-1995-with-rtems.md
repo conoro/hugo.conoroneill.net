@@ -1,4 +1,5 @@
 +++
+aliases = ["/20-years-of-www-i-think-i-started-in-1995-with-rtems/","/2011/08/07/20-years-of-www-i-think-i-started-in-1995-with-rtems"]
 date = "2011-08-07T13:31:00+01:00"
 draft = false
 title = "20 Years of WWW - I think I started in 1995 with RTEMS"

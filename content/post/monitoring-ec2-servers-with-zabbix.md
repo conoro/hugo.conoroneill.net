@@ -1,4 +1,5 @@
 +++
+aliases = ["/monitoring-ec2-servers-with-zabbix/","/2011/03/06/monitoring-ec2-servers-with-zabbix"]
 date = "2011-03-06T12:16:00Z"
 draft = false
 title = "Monitoring EC2 Servers with Zabbix"

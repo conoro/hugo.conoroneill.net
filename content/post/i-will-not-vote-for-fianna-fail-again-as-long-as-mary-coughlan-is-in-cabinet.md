@@ -1,4 +1,5 @@
 +++
+aliases = ["/i-will-not-vote-for-fianna-fail-again-as-long-as-mary-coughlan-is-in-cabinet/","/2010/02/15/i-will-not-vote-for-fianna-fail-again-as-long-as-mary-coughlan-is-in-cabinet"]
 date = "2010-02-15T12:48:00Z"
 draft = false
 title = "I will not vote for Fianna Fail again as long as Mary Coughlan is in cabinet"

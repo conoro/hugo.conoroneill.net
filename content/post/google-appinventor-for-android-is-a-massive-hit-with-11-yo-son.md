@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-appinventor-for-android-is-a-massive-hit-with-11-yo-son/","/2011/03/06/google-appinventor-for-android-is-a-massive-hit-with-11-yo-son"]
 date = "2011-03-06T14:54:00Z"
 draft = false
 title = "Google AppInventor for Android is a Massive Hit with 11 y/o Son"

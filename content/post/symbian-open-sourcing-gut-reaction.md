@@ -1,4 +1,5 @@
 +++
+aliases = ["/symbian-open-sourcing-gut-reaction/","/2010/02/04/symbian-open-sourcing-gut-reaction"]
 date = "2010-02-04T09:17:28Z"
 draft = false
 title = "Symbian Open-Sourcing Gut Reaction"

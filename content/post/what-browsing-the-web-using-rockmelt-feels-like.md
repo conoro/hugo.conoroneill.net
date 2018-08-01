@@ -1,4 +1,5 @@
 +++
+aliases = ["/what-browsing-the-web-using-rockmelt-feels-like/","/2010/11/09/what-browsing-the-web-using-rockmelt-feels-like"]
 date = "2010-11-09T06:57:27Z"
 draft = false
 title = "What browsing the web using RockMelt feels like"

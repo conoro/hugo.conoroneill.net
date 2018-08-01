@@ -1,4 +1,5 @@
 +++
+aliases = ["/wow-symbian-guru-give-up-on-nokia-goes-android/","/2010/07/01/wow-symbian-guru-give-up-on-nokia-goes-android"]
 date = "2010-07-01T15:12:52+01:00"
 draft = false
 title = "Wow, Symbian-Guru give up on Nokia, goes Android"

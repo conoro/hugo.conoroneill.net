@@ -1,8 +1,10 @@
 +++
-Description = "My Car Insurance Broker offered me up to 10% off if I installed a driving monitoring app on my phone. No."
+aliases = ["/when-will-car-insurance-monitoring-apps-become-mandatory-5yrs/","/2016/01/02/when-will-car-insurance-monitoring-apps-become-mandatory-5yrs"]
 date = "2016-01-02T13:00:29Z"
+draft = false
 title = "When will Car Insurance Monitoring Apps become mandatory? 5yrs?"
-
+description = " "
+slug = "when-will-car-insurance-monitoring-apps-become-mandatory-5yrs"
 +++
 My Car Insurance Broker, 123.ie just offered me up to 10% off my 2016 premium if I installed a driving monitoring app on my phone.
 

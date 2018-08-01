@@ -1,4 +1,5 @@
 +++
+aliases = ["/quick-call-cost-comparison-of-eircom-skype-blueface-google-voice-and-rebtel/","/2011/07/18/quick-call-cost-comparison-of-eircom-skype-blueface-google-voice-and-rebtel"]
 date = "2011-07-18T14:14:00+01:00"
 draft = false
 title = "Quick Call Cost Comparison of Eircom, Skype, Blueface, Google Voice and Rebtel"

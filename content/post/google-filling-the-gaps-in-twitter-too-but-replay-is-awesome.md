@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-filling-the-gaps-in-twitter-too-but-replay-is-awesome/","/2010/04/14/google-filling-the-gaps-in-twitter-too-but-replay-is-awesome"]
 date = "2010-04-14T15:33:58+01:00"
 draft = false
 title = "Google filling the gaps in Twitter too? But Replay is awesome."

@@ -1,4 +1,5 @@
 +++
+aliases = ["/comic-sans-will-get-you-thrown-off-twitter/","/2012/08/17/comic-sans-will-get-you-thrown-off-twitter"]
 date = "2012-08-17T00:19:37+01:00"
 draft = false
 title = "Comic Sans Will Get You Thrown Off Twitter"

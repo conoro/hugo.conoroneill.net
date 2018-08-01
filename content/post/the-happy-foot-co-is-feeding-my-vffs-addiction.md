@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-happy-foot-co-is-feeding-my-vffs-addiction/","/2011/04/14/the-happy-foot-co-is-feeding-my-vffs-addiction"]
 date = "2011-04-14T13:53:08+01:00"
 draft = false
 title = "The Happy Foot Co is feeding my #VFFs Addiction"

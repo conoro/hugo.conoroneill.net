@@ -1,4 +1,5 @@
 +++
+aliases = ["/got-a-facebook-app-now-you-have-to-go-get-an-ssl-cert/","/2011/03/27/got-a-facebook-app-now-you-have-to-go-get-an-ssl-cert"]
 date = "2011-03-27T18:42:00+01:00"
 draft = false
 title = "Got a Facebook App? Now you have to go get an SSL Cert."

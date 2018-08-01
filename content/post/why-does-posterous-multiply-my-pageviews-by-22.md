@@ -1,4 +1,5 @@
 +++
+aliases = ["/why-does-posterous-multiply-my-pageviews-by-22/","/2011/01/23/why-does-posterous-multiply-my-pageviews-by-22"]
 date = "2011-01-23T19:29:00Z"
 draft = false
 title = "Why does Posterous multiply my pageviews by 22?"

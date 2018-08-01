@@ -1,4 +1,5 @@
 +++
+aliases = ["/some-personal-thoughts-on-the-red-hat-acquisition-of-feedhenry/","/2014/11/28/some-personal-thoughts-on-the-red-hat-acquisition-of-feedhenry"]
 date = "2014-11-28T14:39:48Z"
 draft = false
 title = "Some personal thoughts on the Red Hat acquisition of FeedHenry"

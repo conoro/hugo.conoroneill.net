@@ -1,4 +1,5 @@
 +++
+aliases = ["/ascii-star-wars-via-telnet/","/2011/03/02/ascii-star-wars-via-telnet"]
 date = "2011-03-02T15:09:23Z"
 draft = false
 title = "ASCII Star Wars via Telnet"

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Bandon Flood Data (FEWS) now available on Cosm/Pachube &middot;  Cross Dominant" />
+  	<meta property="og:site_name" content="Cross Dominant" />
+  	<meta property="og:url" content="https://conoroneill.net/2012/06/22/bandon-flood-data-fews-now-available-on-cosmpachube/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2012-06-22T19:35:01&#43;01:00" />
+
+    
+    
+
+  <title>
+     Bandon Flood Data (FEWS) now available on Cosm/Pachube &middot;  Cross Dominant
+  </title>
+
+    <meta name="description" content="Mixed laterality since 1968" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
+	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+
+    
+        <link href="index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
+    
+    <meta name="generator" content="Hugo 0.42.1" />
+
+    <link rel="canonical" href="https://conoroneill.net/2012/06/22/bandon-flood-data-fews-now-available-on-cosmpachube/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88610-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+
+        
+    </ul>
+
+
+    
+    <a class="subscribe-button icon-feed" href="index.xml">Subscribe</a> </div>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Bandon Flood Data (FEWS) now available on Cosm/Pachube</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2012-06-22T19:35:01&#43;01:00">
+            Jun 22, 2012
+          </time>
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>#&ldquo;Bandon Flood Data (FEWS) now available on Cosm/Pachube&rdquo;</p>
+
+<p>When <a href="http://conoroneill.com/2011/11/17/bandon-flood-fews-open-data-now-available/">I announced the availablity of Open Data</a> on Google Fusion Tables for the <a href="http://bandonfloodwarning.ie/">Bandon Flood Early Warning System (FEWS)</a> last year, one suggestion that was made to me by Imogen Bertin was to put it up on <a href="http://cosm.com">Pachube</a> (now renamed to the slightly less obscure <a href="http://cosm.com">Cosm</a>). I gave it a go but couldn&rsquo;t figure it out. Despite providing it with the CSV link to the Fusion Table, it never did anything with the data. So I gave up due to busyness.</p>
+
+<p>This evening, I had another go. This time it was worse. Anything I tried on the data feed resulted in both Chrome and Firefox hanging. I decided to bite the bullet and figure out how to post data directly rather than having them poll. Turns out it&rsquo;s pretty easy.</p>
+
+<p><a href="https://cosm.com/feeds/40004"><img class="size-large wp-image-766 aligncenter" title="cosm" src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2012/06/cosm-1024x709.png" alt="" width="584" height="404" /></a></p>
+
+<p>Now I know this isn&rsquo;t exactly the model that people have in mind for the <a href="http://www.wired.com/beyond_the_beyond/2012/06/the-provisional-declaration-of-the-open-internet-of-things-assembly/">Open Internet of Things</a> but it works:
+<ol>
+    <li>A meter on the bridge in Bandon measures the river level.</li>
+    <li>Somehow that is sent to the Bandon Flood Warning site (mobile?)</li>
+    <li>It updates the level on the home page once per hour</li>
+    <li>I then run a script also once per hour on an Amazon EC2 instance in Dublin, to screen scrape that value</li>
+    <li>The script then saves it to a <a href="https://www.google.com/fusiontables/DataSource?docid=103YIcARoxuaWT7NfZ8mVBzY554sF_3ONYC1N3DE">Google Fusion Table</a> somewhere on the planet.</li>
+    <li>I now also send that via http POST to the Cosm API</li>
+    <li>You can then <a href="https://cosm.com/feeds/40004">access that data</a>via<a href="https://api.cosm.com/v2/feeds/40004.json">JSON</a>,<a href="https://api.cosm.com/v2/feeds/40004.xml">XML</a>and<a href="https://api.cosm.com/v2/feeds/40004.csv">CSV</a></li>
+</ol>
+Realtime it ain&rsquo;t! But it&rsquo;s a river so that speed of reporting should be fine.</p>
+
+<p>I&rsquo;m still waiting for someone to do a mashup with that data, rainfall data at Cork Airport and tidal data. I would but I&rsquo;m having too much fun playing with Raspberry Pi and Arduino. Eventually I may join the dots and create a little Arduino+RPi weather station out in the garden which reports directly to Cosm using wifi to my house.</p>
+
+<p>In the meantime, <a href="https://cosm.com/feeds/40004">enjoy</a>!</p>
+
+<p>&nbsp;</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
+  
+  <p>Tech guy who likes running slowly</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Bandon%20Flood%20Data%20%28FEWS%29%20now%20available%20on%20Cosm%2fPachube&amp;url=https%3a%2f%2fconoroneill.net%2f2012%2f06%2f22%2fbandon-flood-data-fews-now-available-on-cosmpachube%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fconoroneill.net%2f2012%2f06%2f22%2fbandon-flood-data-fews-now-available-on-cosmpachube%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fconoroneill.net%2f2012%2f06%2f22%2fbandon-flood-data-fews-now-available-on-cosmpachube%2f&amp;description=Bandon%20Flood%20Data%20%28FEWS%29%20now%20available%20on%20Cosm%2fPachube"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fconoroneill.net%2f2012%2f06%2f22%2fbandon-flood-data-fews-now-available-on-cosmpachube%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'crossdominant';
+  var disqus_url = 'https:\/\/conoroneill.net\/2012\/06\/22\/bandon-flood-data-fews-now-available-on-cosmpachube\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cross Dominant</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
+    
+</body>
+</html>
+

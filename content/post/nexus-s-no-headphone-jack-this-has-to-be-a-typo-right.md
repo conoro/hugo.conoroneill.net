@@ -1,4 +1,5 @@
 +++
+aliases = ["/nexus-s-no-headphone-jack-this-has-to-be-a-typo-right/","/2010/12/06/nexus-s-no-headphone-jack-this-has-to-be-a-typo-right"]
 date = "2010-12-06T16:18:56Z"
 draft = false
 title = "Nexus S, no headphone jack. This has to be a typo, right?"

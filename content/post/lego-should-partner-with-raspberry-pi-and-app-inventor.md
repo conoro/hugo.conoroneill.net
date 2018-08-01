@@ -1,4 +1,5 @@
 +++
+aliases = ["/lego-should-partner-with-raspberry-pi-and-app-inventor/","/2012/03/03/lego-should-partner-with-raspberry-pi-and-app-inventor"]
 date = "2012-03-03T11:57:46Z"
 draft = false
 title = "Lego should partner with Raspberry Pi and App Inventor"

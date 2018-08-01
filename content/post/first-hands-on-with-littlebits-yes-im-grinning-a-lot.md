@@ -1,4 +1,5 @@
 +++
+aliases = ["/first-hands-on-with-littlebits-yes-im-grinning-a-lot/","/2012/08/15/first-hands-on-with-littlebits-yes-im-grinning-a-lot"]
 date = "2012-08-15T14:15:35+01:00"
 draft = false
 title = "First Hands-On with littleBits. Yes I'm grinning a lot."

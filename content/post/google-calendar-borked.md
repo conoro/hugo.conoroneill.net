@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-calendar-borked/","/2010/11/15/google-calendar-borked"]
 date = "2010-11-15T17:00:21Z"
 draft = false
 title = "Google Calendar Borked?"

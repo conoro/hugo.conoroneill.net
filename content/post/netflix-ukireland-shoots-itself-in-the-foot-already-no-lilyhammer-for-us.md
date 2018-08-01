@@ -1,4 +1,5 @@
 +++
+aliases = ["/netflix-ukireland-shoots-itself-in-the-foot-already-no-lilyhammer-for-us/","/2012/02/11/netflix-ukireland-shoots-itself-in-the-foot-already-no-lilyhammer-for-us"]
 date = "2012-02-11T13:18:21Z"
 draft = false
 title = "Netflix UK/Ireland shoots itself in the foot already. No Lilyhammer for us."

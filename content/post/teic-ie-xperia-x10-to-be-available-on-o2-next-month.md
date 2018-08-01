@@ -1,4 +1,5 @@
 +++
+aliases = ["/teic-ie-xperia-x10-to-be-available-on-o2-next-month/","/2010/03/24/teic-ie-xperia-x10-to-be-available-on-o2-next-month"]
 date = "2010-03-24T16:05:04Z"
 draft = false
 title = "Teic.ie Xperia X10 to be available on O2 next month"

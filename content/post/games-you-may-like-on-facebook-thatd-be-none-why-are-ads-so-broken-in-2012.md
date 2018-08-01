@@ -1,4 +1,5 @@
 +++
+aliases = ["/games-you-may-like-on-facebook-thatd-be-none-why-are-ads-so-broken-in-2012/","/2012/09/06/games-you-may-like-on-facebook-thatd-be-none-why-are-ads-so-broken-in-2012"]
 date = "2012-09-06T17:37:36+01:00"
 draft = false
 title = "'Games You May Like on Facebook'. That'd be None. Why are Ads so broken in 2012?"

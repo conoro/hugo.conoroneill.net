@@ -1,4 +1,5 @@
 +++
+aliases = ["/cant-we-do-threaded-conversations-on-twitter-now/","/2010/06/19/cant-we-do-threaded-conversations-on-twitter-now"]
 date = "2010-06-19T09:39:48+01:00"
 draft = false
 title = "Can't we do threaded conversations on Twitter now?"

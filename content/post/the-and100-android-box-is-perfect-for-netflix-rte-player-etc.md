@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-and100-android-box-is-perfect-for-netflix-rte-player-etc/","/2014/01/26/the-and100-android-box-is-perfect-for-netflix-rte-player-etc"]
 date = "2014-01-26T19:43:16Z"
 draft = false
 title = "The AND100 Android Box is perfect for Netflix, RTE Player etc"

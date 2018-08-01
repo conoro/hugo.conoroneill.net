@@ -1,4 +1,5 @@
 +++
+aliases = ["/put-this-on-your-phone-now-organ-donor-ecard/","/2011/07/21/put-this-on-your-phone-now-organ-donor-ecard"]
 date = "2011-07-21T09:04:00+01:00"
 draft = false
 title = "Put this on your phone NOW! - Organ Donor ECard"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-return-of-sidetalking-or-cocked-pinkies/","/2010/06/25/the-return-of-sidetalking-or-cocked-pinkies"]
 date = "2010-06-25T07:42:12+01:00"
 draft = false
 title = "The return of Sidetalking or Cocked Pinkies?"

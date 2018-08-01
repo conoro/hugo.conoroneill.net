@@ -1,4 +1,5 @@
 +++
+aliases = ["/node-js-chat-server-running-on-raspberry-pi-hell-yeah/","/2012/05/15/node-js-chat-server-running-on-raspberry-pi-hell-yeah"]
 date = "2012-05-15T11:28:03+01:00"
 draft = false
 title = "Node.js Chat Server running on Raspberry Pi? Hell yeah."

@@ -1,4 +1,5 @@
 +++
+aliases = ["/analogue-tv-rip-no-of-course-its-not-ireland/","/2010/07/08/analogue-tv-rip-no-of-course-its-not-ireland"]
 date = "2010-07-08T08:43:54+01:00"
 draft = false
 title = "Analogue TV RIP - No of course it's not Ireland"

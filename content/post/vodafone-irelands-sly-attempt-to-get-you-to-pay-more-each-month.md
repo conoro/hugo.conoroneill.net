@@ -1,4 +1,5 @@
 +++
+aliases = ["/vodafone-irelands-sly-attempt-to-get-you-to-pay-more-each-month/","/2012/02/26/vodafone-irelands-sly-attempt-to-get-you-to-pay-more-each-month"]
 date = "2012-02-26T14:33:25Z"
 draft = false
 title = "Vodafone Ireland's sly attempt to get you to pay more each month"

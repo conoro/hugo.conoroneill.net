@@ -1,4 +1,5 @@
 +++
+aliases = ["/anyone-want-paddysvalley-org-and-com/","/2012/03/15/anyone-want-paddysvalley-org-and-com"]
 date = "2012-03-15T15:30:28Z"
 draft = false
 title = "Anyone want paddysvalley.org and .com?"

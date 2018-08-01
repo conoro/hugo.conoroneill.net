@@ -1,4 +1,5 @@
 +++
+aliases = ["/one-of-the-many-reasons-i-love-zoho-crm/","/2010/06/10/one-of-the-many-reasons-i-love-zoho-crm"]
 date = "2010-06-10T10:26:35+01:00"
 draft = false
 title = "One of the many reasons I love Zoho CRM"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/notch-makes-getting-fit-a-little-less-po-faced/","/2012/09/29/notch-makes-getting-fit-a-little-less-po-faced"]
 date = "2012-09-29T12:53:08+01:00"
 draft = false
 title = "Notch makes getting fit a little less po-faced"

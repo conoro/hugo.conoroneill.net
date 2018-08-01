@@ -1,4 +1,5 @@
 +++
+aliases = ["/node-v01040-and-v0127-for-arm-v7-raspberry-pi-2-banana-pi-odroid-c1-available/","/2015/07/11/node-v01040-and-v0127-for-arm-v7-raspberry-pi-2-banana-pi-odroid-c1-available"]
 date = "2015-07-11T19:56:57+01:00"
 draft = false
 title = "Node v0.10.40 and v0.12.7 for ARM v7 and v6 (Raspberry Pi, Raspberry Pi 2, Banana Pi, ODroid C1) available"

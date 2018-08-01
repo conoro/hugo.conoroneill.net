@@ -1,4 +1,5 @@
 +++
+aliases = ["/ooh-i-like-samuel-l-ipsum-placeholder-text/","/2011/09/22/ooh-i-like-samuel-l-ipsum-placeholder-text"]
 date = "2011-09-22T09:12:58+01:00"
 draft = false
 title = "Ooh I like - Samuel L. Ipsum Placeholder Text"

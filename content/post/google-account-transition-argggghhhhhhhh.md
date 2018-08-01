@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-account-transition-argggghhhhhhhh/","/2010/11/20/google-account-transition-argggghhhhhhhh"]
 date = "2010-11-20T16:32:32Z"
 draft = false
 title = "Google Account Transition - Argggghhhhhhhh"

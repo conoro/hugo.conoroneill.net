@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-technical-magic-of-playing-a-song-in-our-car-in-2011/","/2011/12/24/the-technical-magic-of-playing-a-song-in-our-car-in-2011"]
 date = "2011-12-24T11:21:14Z"
 draft = false
 title = "The Technical Magic of Playing a Song in Our Car in 2011"

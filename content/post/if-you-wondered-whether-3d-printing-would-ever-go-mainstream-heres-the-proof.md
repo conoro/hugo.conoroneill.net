@@ -1,4 +1,5 @@
 +++
+aliases = ["/if-you-wondered-whether-3d-printing-would-ever-go-mainstream-heres-the-proof/","/2014/06/23/if-you-wondered-whether-3d-printing-would-ever-go-mainstream-heres-the-proof"]
 date = "2014-06-23T08:05:05+01:00"
 draft = false
 title = "If you wondered whether 3D Printing would ever go mainstream, here's the proof."

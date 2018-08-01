@@ -1,4 +1,5 @@
 +++
+aliases = ["/conors-2012-raspberry_pi-christmas-gift-guide/","/2012/11/26/conors-2012-raspberry_pi-christmas-gift-guide"]
 date = "2012-11-26T09:34:09Z"
 draft = false
 title = "Conor's 2012 @Raspberry_Pi Christmas Gift Guide"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-ever-improving-xbmc-just-released-v11-0/","/2012/03/25/the-ever-improving-xbmc-just-released-v11-0"]
 date = "2012-03-25T11:36:33+01:00"
 draft = false
 title = "The ever improving XBMC just released v11.0"

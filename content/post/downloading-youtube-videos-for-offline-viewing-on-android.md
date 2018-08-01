@@ -1,10 +1,9 @@
 +++
-Categories = []
-Description = "Some day YouTube will support offline viewing on mobile. Until then you can use this"
-Tags = ["youtube", "youtube-dl", "offline", "python", "android"]
-draft = false
+aliases = ["/downloading-youtube-videos-for-offline-viewing-on-android/","/2018/02/02/downloading-youtube-videos-for-offline-viewing-on-android"]
 date = "2018-02-02T08:00:00+00:00"
+draft = false
 title = "Downloading YouTube videos  on Android for offline viewing later"
+description = " "
 slug = "downloading-youtube-videos-for-offline-viewing-on-android"
 +++
 
@@ -14,7 +13,7 @@ Normally I run it on the PC and copy the files to the mobile devices, tablets or
 
 It doesn't, but.....
 
-![get-youtube](/img/2018/02/get-youtube.png)
+![get-youtube](/images/2018/02/get-youtube.png)
 
 It's really easy to set it up since it's written in Python and doesn't need to be compiled. Just follow these few steps to always have the ability to grab a video on to your Android phone for watching later.
 

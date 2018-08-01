@@ -1,4 +1,5 @@
 +++
+aliases = ["/rte-player-at-1080p-is-just-magical/","/2011/08/28/rte-player-at-1080p-is-just-magical"]
 date = "2011-08-28T22:17:11+01:00"
 draft = false
 title = "RTE Player at 1080p is Just Magical"

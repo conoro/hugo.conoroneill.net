@@ -1,4 +1,5 @@
 +++
+aliases = ["/and-like-that-poof-hes-gone-rip-jaiku-2006-2012/","/2012/01/17/and-like-that-poof-hes-gone-rip-jaiku-2006-2012"]
 date = "2012-01-17T11:00:09Z"
 draft = false
 title = "And like that, poof, he's gone. RIP Jaiku 2006-2012"

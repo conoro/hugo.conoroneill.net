@@ -1,4 +1,5 @@
 +++
+aliases = ["/converting-video-avis-for-use-on-htc-desire-and-nexus-one/","/2010/05/05/converting-video-avis-for-use-on-htc-desire-and-nexus-one"]
 date = "2010-05-05T12:42:17+01:00"
 draft = false
 title = "Converting Video AVIs for use on HTC Desire and Nexus One"

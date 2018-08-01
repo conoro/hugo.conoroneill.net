@@ -1,4 +1,5 @@
 +++
+aliases = ["/bandon-flood-data-fews-now-available-on-cosmpachube/","/2012/06/22/bandon-flood-data-fews-now-available-on-cosmpachube"]
 date = "2012-06-22T19:35:01+01:00"
 draft = false
 title = "Bandon Flood Data (FEWS) now available on Cosm/Pachube"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/quick-n-dirty-visualisation-of-2010-property-price-register-data-into-interactive-map/","/2012/09/30/quick-n-dirty-visualisation-of-2010-property-price-register-data-into-interactive-map"]
 date = "2012-09-30T18:52:46+01:00"
 draft = false
 title = "Visualisation of Irish Property Price Register Data using Interactive Map from Google Fusion Tables"

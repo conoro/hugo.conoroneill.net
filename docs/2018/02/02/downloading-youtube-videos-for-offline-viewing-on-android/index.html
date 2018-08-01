@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Downloading YouTube videos  on Android for offline viewing later &middot;  Cross Dominant" />
+  	<meta property="og:site_name" content="Cross Dominant" />
+  	<meta property="og:url" content="https://conoroneill.net/2018/02/02/downloading-youtube-videos-for-offline-viewing-on-android/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2018-02-02T08:00:00Z" />
+
+    
+    
+
+  <title>
+     Downloading YouTube videos  on Android for offline viewing later &middot;  Cross Dominant
+  </title>
+
+    <meta name="description" content="Mixed laterality since 1968" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
+	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+
+    
+        <link href="index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
+    
+    <meta name="generator" content="Hugo 0.42.1" />
+
+    <link rel="canonical" href="https://conoroneill.net/2018/02/02/downloading-youtube-videos-for-offline-viewing-on-android/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88610-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+
+        
+    </ul>
+
+
+    
+    <a class="subscribe-button icon-feed" href="index.xml">Subscribe</a> </div>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Downloading YouTube videos  on Android for offline viewing later</h1>
+        <small> </small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2018-02-02T08:00:00Z">
+            Feb 2, 2018
+          </time>
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+<p>One of the all-time great tools of the internet era is <a href="https://rg3.github.io/youtube-dl/">youtube-dl</a>. It enables you to download any YouTube video for watching offline/later. It has been a fantastic boon over the years for watching all my hundreds of subscribed channels when in planes, trains, automobiles and treadmills. It&rsquo;s also the basis for my own <a href="https://ytpodders.com/">YTPodders</a> tool for generating podcasts from videos.</p>
+
+<p>Normally I run it on the PC and copy the files to the mobile devices, tablets or media players. On Wednesday I was cut short in the middle of watching the latest episode of the wonderful <a href="https://www.youtube.com/channel/UCHvBHWBzzB7NyU5tIiEZHBg">Project Binky</a> on the tarmac in Heathrow when it came time to take-off. There would have been no viewing interruption if I&rsquo;d had a mobile version of youtube-dl. Of course I immediately checked to see if that existed when I got home.</p>
+
+<p>It doesn&rsquo;t, but&hellip;..</p>
+
+<p><img src="/images/2018/02/get-youtube.png" alt="get-youtube" /></p>
+
+<p>It&rsquo;s really easy to set it up since it&rsquo;s written in Python and doesn&rsquo;t need to be compiled. Just follow these few steps to always have the ability to grab a video on to your Android phone for watching later.</p>
+
+<h2 id="installation">Installation</h2>
+
+<ul>
+<li>Install <a href="https://play.google.com/store/apps/details?id=org.qpython.qpy">QPython</a> (Make sure to pick QPython2 not 3)</li>
+<li>Launch QPython</li>
+<li>Tap the Terminal Icon</li>
+<li>Install <code>youtube-dl</code> with:</li>
+</ul>
+
+<pre><code>pip install -U youtube-dl
+</code></pre>
+
+<ul>
+<li>Exit the Terminal</li>
+<li>Tap the Editor Icon</li>
+<li>Paste my crappy code in to the editor</li>
+</ul>
+
+<pre><code class="language-python"># get-youtube.py 
+# Wrapper around youtube-dl for Android
+# Grabs URL from clipboard if it's a YouTube one. Otherwises prompts for URL
+# See https://conoroneill.net/downloading-youtube-videos-for-offline-viewing-on-android/ for instructions
+# Copyright Conor O'Neill 2018. Apache License 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt
+
+from __future__ import unicode_literals
+from androidhelper import Android
+droid = Android()
+
+import youtube_dl
+
+def input_default(prompt, default):
+    return raw_input(&quot;%s [%s] &quot; % (prompt, default)) or default
+
+# If clipboard URL is a YouTube one, grab it and automatically download
+if droid.getClipboard().result.startswith('https://youtu'):
+    url = droid.getClipboard().result
+else:
+    # Either the clipboard is empty or it has a non-YouTube URL. User must paste the required URL.    
+    url = raw_input(&quot;YouTube URL?: &quot;)
+
+ydl_opts = {
+    'nocheckcertificate': True, 
+    'outtmpl': '%(title)s.%(ext)s'
+}
+
+with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+    ydl.download([url])
+</code></pre>
+
+<p>(Latest code here on <a href="https://gist.github.com/conoro/d63c9f326ee65647a717b0283f21683f">GitHub Gist</a>)</p>
+
+<ul>
+<li>Tap the small floppy disk icon to save the file</li>
+<li>Save it as <code>main.py</code> in a new project called <code>get-youtube</code></li>
+<li>Tap back to get to the main screen</li>
+<li>Exit QPython and Install <a href="https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad&amp;hl=en">MX Player</a></li>
+<li>Open MX Player and go to <code>Settings &gt; List &gt; Folders</code></li>
+<li>Tap &ldquo;Add&rdquo; and browse to <code>/storage/emulated/0/qpython</code></li>
+</ul>
+
+<h2 id="from-then-on-you-can-download-videos-like-so">From then on you can download videos like so</h2>
+
+<ul>
+<li>Launch QPython</li>
+<li>Tap the Projects icon (large unlabelled one above the sign-in link)</li>
+<li><code>get-youtube</code> will be listed there</li>
+<li>Tap it to run it</li>
+<li>If the clipboard has a YouTube URL, it&rsquo;ll automatically download the video.</li>
+<li>Otherwise if the clipboard is empty or has a non-YouTube video URL you must paste it by long-pressing at the cursor and tapping Paste. Then tap again near the cursor if the keyboard has not appeared, and tap Enter.</li>
+<li>The video will download to <code>/storage/emulated/0/qpython</code></li>
+<li>The video will automatically appear in MX Player when you launch it</li>
+<li>You can delete it in MX Player once you are done</li>
+</ul>
+
+<h2 id="even-better-you-can-add-a-direct-short-cut-on-your-android-home-screen">Even better, you can add a direct short-cut on your Android Home Screen</h2>
+
+<ul>
+<li>Go back into QPython</li>
+<li>Go to Projects</li>
+<li>Long press the icon for <code>get-youtube</code> in Projects</li>
+<li>Woohoo, now you have a Home Screen shortcut to download a video whenever. Just copy the video URL and launch get-youtube</li>
+<li>And remember it&rsquo;s not just for YouTube, it works for Vimeo, BBC iPlayer and <a href="https://rg3.github.io/youtube-dl/supportedsites.html">many more</a></li>
+<li>Note: Re-run the <code>pip install -U youtube-dl</code> step above if it ever stops working. The developers are in a constant battle with YouTube to keep it working</li>
+</ul>
+
+<p>Enjoy</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
+  
+  <p>Tech guy who likes running slowly</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Downloading%20YouTube%20videos%20%20on%20Android%20for%20offline%20viewing%20later&amp;url=https%3a%2f%2fconoroneill.net%2f2018%2f02%2f02%2fdownloading-youtube-videos-for-offline-viewing-on-android%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fconoroneill.net%2f2018%2f02%2f02%2fdownloading-youtube-videos-for-offline-viewing-on-android%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fconoroneill.net%2f2018%2f02%2f02%2fdownloading-youtube-videos-for-offline-viewing-on-android%2f&amp;description=Downloading%20YouTube%20videos%20%20on%20Android%20for%20offline%20viewing%20later"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fconoroneill.net%2f2018%2f02%2f02%2fdownloading-youtube-videos-for-offline-viewing-on-android%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'crossdominant';
+  var disqus_url = 'https:\/\/conoroneill.net\/2018\/02\/02\/downloading-youtube-videos-for-offline-viewing-on-android\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cross Dominant</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
+    
+</body>
+</html>
+

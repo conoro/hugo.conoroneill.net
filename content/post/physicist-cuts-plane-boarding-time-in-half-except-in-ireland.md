@@ -1,4 +1,5 @@
 +++
+aliases = ["/physicist-cuts-plane-boarding-time-in-half-except-in-ireland/","/2011/08/31/physicist-cuts-plane-boarding-time-in-half-except-in-ireland"]
 date = "2011-08-31T08:55:00+01:00"
 draft = false
 title = "Physicist cuts plane boarding time in half - Except in Ireland"

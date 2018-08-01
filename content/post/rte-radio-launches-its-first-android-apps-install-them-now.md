@@ -1,4 +1,5 @@
 +++
+aliases = ["/rte-radio-launches-its-first-android-apps-install-them-now/","/2011/03/23/rte-radio-launches-its-first-android-apps-install-them-now"]
 date = "2011-03-23T18:35:00Z"
 draft = false
 title = "RT Radio launches its first Android Apps - Install them now!"

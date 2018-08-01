@@ -1,4 +1,5 @@
 +++
+aliases = ["/dear-posterous-please-fix-media-upload-from-chrome/","/2010/12/04/dear-posterous-please-fix-media-upload-from-chrome"]
 date = "2010-12-04T11:57:00Z"
 draft = false
 title = "Dear Posterous, please fix media upload from Chrome"

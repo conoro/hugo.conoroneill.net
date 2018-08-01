@@ -1,4 +1,5 @@
 +++
+aliases = ["/stephen-colbert-apologizes-to-all-of-ireland/","/2011/06/05/stephen-colbert-apologizes-to-all-of-ireland"]
 date = "2011-06-05T20:31:43+01:00"
 draft = false
 title = "Stephen Colbert Apologizes to all of Ireland"

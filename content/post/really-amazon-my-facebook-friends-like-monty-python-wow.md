@@ -1,4 +1,5 @@
 +++
+aliases = ["/really-amazon-my-facebook-friends-like-monty-python-wow/","/2010/07/28/really-amazon-my-facebook-friends-like-monty-python-wow"]
 date = "2010-07-28T09:53:00+01:00"
 draft = false
 title = "Really Amazon, my Facebook Friends like Monty Python? Wow!"

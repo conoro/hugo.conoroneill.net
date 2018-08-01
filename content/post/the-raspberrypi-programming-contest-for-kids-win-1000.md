@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-raspberrypi-programming-contest-for-kids-win-1000/","/2012/07/10/the-raspberrypi-programming-contest-for-kids-win-1000"]
 date = "2012-07-10T08:44:24+01:00"
 draft = false
 title = "The @RaspberryPi Programming Contest for Kids - Win $1000"

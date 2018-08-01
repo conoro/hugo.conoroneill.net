@@ -1,4 +1,5 @@
 +++
+aliases = ["/a-stench-of-evil-starting-at-the-top/","/2010/03/16/a-stench-of-evil-starting-at-the-top"]
 date = "2010-03-16T08:04:29Z"
 draft = false
 title = "A stench of evil, starting at the top"

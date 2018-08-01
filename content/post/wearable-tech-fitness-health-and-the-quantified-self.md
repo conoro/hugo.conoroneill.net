@@ -1,4 +1,5 @@
 +++
+aliases = ["/wearable-tech-fitness-health-and-the-quantified-self/","/2013/05/22/wearable-tech-fitness-health-and-the-quantified-self"]
 date = "2013-05-22T08:20:45+01:00"
 draft = false
 title = "Wearable tech, fitness, health and the 'Quantified Self'"

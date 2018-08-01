@@ -1,4 +1,5 @@
 +++
+aliases = ["/anchor-made-by-cows-is-the-work-of-an-evil-genius/","/2010/06/19/anchor-made-by-cows-is-the-work-of-an-evil-genius"]
 date = "2010-06-19T15:40:45+01:00"
 draft = false
 title = "'Anchor Made by Cows' is the work of an evil genius"

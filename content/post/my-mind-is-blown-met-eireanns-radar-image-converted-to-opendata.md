@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-mind-is-blown-met-eireanns-radar-image-converted-to-opendata/","/2012/08/25/my-mind-is-blown-met-eireanns-radar-image-converted-to-opendata"]
 date = "2012-08-25T12:54:35+01:00"
 draft = false
 title = "My mind is blown - Met Eireanns radar image converted to #OpenData"

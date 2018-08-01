@@ -1,4 +1,5 @@
 +++
+aliases = ["/displayport-to-dvi-to-hdmi-to-vga-to-monitor-and-it-works/","/2014/01/04/displayport-to-dvi-to-hdmi-to-vga-to-monitor-and-it-works"]
 date = "2014-01-04T13:28:29Z"
 draft = false
 title = "DisplayPort to DVI to HDMI to VGA to Monitor - And it works"

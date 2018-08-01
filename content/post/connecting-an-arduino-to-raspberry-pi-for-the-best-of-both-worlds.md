@@ -1,4 +1,5 @@
 +++
+aliases = ["/connecting-an-arduino-to-raspberry-pi-for-the-best-of-both-worlds/","/2013/06/05/connecting-an-arduino-to-raspberry-pi-for-the-best-of-both-worlds"]
 date = "2013-06-05T08:27:11+01:00"
 draft = false
 title = "Connecting an Arduino to Raspberry Pi for the best of both worlds"

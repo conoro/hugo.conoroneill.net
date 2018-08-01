@@ -1,4 +1,5 @@
 +++
+aliases = ["/why-im-not-using-google-very-much-yeah-yawwwnnnnnnn/","/2011/07/21/why-im-not-using-google-very-much-yeah-yawwwnnnnnnn"]
 date = "2011-07-21T10:46:00+01:00"
 draft = false
 title = "Why I'm not using Google+ Very Much (Yeah, Yawwwnnnnnnn)"

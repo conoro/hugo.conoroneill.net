@@ -1,4 +1,5 @@
 +++
+aliases = ["/just-got-my-first-ever-500-error-from-youtube/","/2011/02/11/just-got-my-first-ever-500-error-from-youtube"]
 date = "2011-02-11T14:43:15Z"
 draft = false
 title = "Just got my first ever 500 Error from YouTube"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-festo-flying-mechanical-bird-at-ted-jaw-dropping/","/2011/07/28/the-festo-flying-mechanical-bird-at-ted-jaw-dropping"]
 date = "2011-07-28T18:30:00+01:00"
 draft = false
 title = "The Festo Flying Mechanical Bird at TED. Jaw Dropping."

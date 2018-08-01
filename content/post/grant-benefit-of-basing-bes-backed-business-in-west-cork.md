@@ -1,4 +1,5 @@
 +++
+aliases = ["/grant-benefit-of-basing-bes-backed-business-in-west-cork/","/2010/04/12/grant-benefit-of-basing-bes-backed-business-in-west-cork"]
 date = "2010-04-12T14:22:37+01:00"
 draft = false
 title = "Grant Benefit of Basing BES-backed Business in West Cork"

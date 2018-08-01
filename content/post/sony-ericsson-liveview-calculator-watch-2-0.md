@@ -1,4 +1,5 @@
 +++
+aliases = ["/sony-ericsson-liveview-calculator-watch-2-0/","/2010/11/28/sony-ericsson-liveview-calculator-watch-2-0"]
 date = "2010-11-28T11:54:00Z"
 draft = false
 title = "Sony Ericsson LiveView = Calculator Watch 2.0"

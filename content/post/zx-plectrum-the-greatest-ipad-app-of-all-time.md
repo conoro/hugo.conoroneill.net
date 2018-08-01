@@ -1,4 +1,5 @@
 +++
+aliases = ["/zx-plectrum-the-greatest-ipad-app-of-all-time/","/2012/04/18/zx-plectrum-the-greatest-ipad-app-of-all-time"]
 date = "2012-04-18T08:19:53+01:00"
 draft = false
 title = "ZX Plectrum - The Greatest iPad App of ALL TIME"

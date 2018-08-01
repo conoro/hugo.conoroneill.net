@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-to-add-1-to-your-site-oh-and-google-places-api-note/","/2011/06/01/how-to-add-1-to-your-site-oh-and-google-places-api-note"]
 date = "2011-06-01T18:59:00+01:00"
 draft = false
 title = "How to Add +1 to your site (oh and Google Places API Note)"

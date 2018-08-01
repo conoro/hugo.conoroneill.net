@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-first-encounter-with-google-not-exactly-what-i-had-hoped-for/","/2011/06/28/my-first-encounter-with-google-not-exactly-what-i-had-hoped-for"]
 date = "2011-06-28T18:55:22+01:00"
 draft = false
 title = "My First Encounter with Google+ - Not exactly what I had hoped for"

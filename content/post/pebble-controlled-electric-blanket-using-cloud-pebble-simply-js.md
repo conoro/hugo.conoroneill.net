@@ -1,4 +1,5 @@
 +++
+aliases = ["/pebble-controlled-electric-blanket-using-cloud-pebble-simply-js/","/2014/04/13/pebble-controlled-electric-blanket-using-cloud-pebble-simply-js"]
 date = "2014-04-13T10:48:56+01:00"
 draft = false
 title = "My Pebble controlled electric blanket using CloudPebble and Simply.js"

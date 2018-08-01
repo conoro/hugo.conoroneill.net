@@ -1,4 +1,5 @@
 +++
+aliases = ["/getting-openvpn-working-on-android/","/2010/08/23/getting-openvpn-working-on-android"]
 date = "2010-08-23T07:52:08+01:00"
 draft = false
 title = "Getting OpenVPN working on Android"

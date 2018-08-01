@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-kinda-ad-from-the-goog/","/2010/02/08/my-kinda-ad-from-the-goog"]
 date = "2010-02-08T14:47:43Z"
 draft = false
 title = "My kinda ad, from the Goog"

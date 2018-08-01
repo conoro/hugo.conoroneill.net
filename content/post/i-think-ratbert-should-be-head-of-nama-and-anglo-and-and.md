@@ -1,4 +1,5 @@
 +++
+aliases = ["/i-think-ratbert-should-be-head-of-nama-and-anglo-and-and/","/2010/07/05/i-think-ratbert-should-be-head-of-nama-and-anglo-and-and"]
 date = "2010-07-05T13:25:19+01:00"
 draft = false
 title = "I think Ratbert should be head of NAMA and Anglo and and....."

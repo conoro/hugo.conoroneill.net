@@ -1,4 +1,5 @@
 +++
+aliases = ["/a-new-lease-of-life-for-the-nokia-n95-8gb/","/2011/02/05/a-new-lease-of-life-for-the-nokia-n95-8gb"]
 date = "2011-02-05T14:42:14Z"
 draft = false
 title = "A new lease of life for the Nokia N95-8GB"

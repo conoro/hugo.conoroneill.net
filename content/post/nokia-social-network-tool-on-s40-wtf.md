@@ -1,4 +1,5 @@
 +++
+aliases = ["/nokia-social-network-tool-on-s40-wtf/","/2010/02/09/nokia-social-network-tool-on-s40-wtf"]
 date = "2010-02-09T11:05:31Z"
 draft = false
 title = "Nokia Social Network tool on S40. WTF?"

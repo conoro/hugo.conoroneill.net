@@ -1,4 +1,5 @@
 +++
+aliases = ["/lovely-brabantia-bin-sugru-to-the-rescue/","/2010/07/27/lovely-brabantia-bin-sugru-to-the-rescue"]
 date = "2010-07-27T09:11:00+01:00"
 draft = false
 title = "Lovely Brabantia Bin - Sugru to the Rescue"

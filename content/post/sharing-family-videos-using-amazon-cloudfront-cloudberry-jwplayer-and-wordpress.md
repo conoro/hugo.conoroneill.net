@@ -1,4 +1,5 @@
 +++
+aliases = ["/sharing-family-videos-using-amazon-cloudfront-cloudberry-jwplayer-and-wordpress/","/2010/11/03/sharing-family-videos-using-amazon-cloudfront-cloudberry-jwplayer-and-wordpress"]
 date = "2010-11-03T17:15:44Z"
 draft = false
 title = "Sharing Family Videos using Amazon Cloudfront, CloudBerry, JWPlayer and Wordpress"

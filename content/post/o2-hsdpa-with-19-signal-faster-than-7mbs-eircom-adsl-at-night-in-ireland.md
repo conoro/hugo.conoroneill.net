@@ -1,4 +1,5 @@
 +++
+aliases = ["/o2-hsdpa-with-19-signal-faster-than-7mbs-eircom-adsl-at-night-in-ireland/","/2011/01/16/o2-hsdpa-with-19-signal-faster-than-7mbs-eircom-adsl-at-night-in-ireland"]
 date = "2011-01-16T21:10:40Z"
 draft = false
 title = "O2 HSDPA with 19% signal faster than 7Mbs Eircom ADSL at night in Ireland"

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Sorting out the &#39;On Behalf Of&#39; Nonsense on GMail with AuthSMTP &middot;  Cross Dominant" />
+  	<meta property="og:site_name" content="Cross Dominant" />
+  	<meta property="og:url" content="https://conoroneill.net/2011/01/07/sorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2011-01-07T10:18:42Z" />
+
+    
+    
+
+  <title>
+     Sorting out the &#39;On Behalf Of&#39; Nonsense on GMail with AuthSMTP &middot;  Cross Dominant
+  </title>
+
+    <meta name="description" content="Mixed laterality since 1968" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
+	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+
+    
+        <link href="index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
+    
+    <meta name="generator" content="Hugo 0.42.1" />
+
+    <link rel="canonical" href="https://conoroneill.net/2011/01/07/sorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88610-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+
+        
+    </ul>
+
+
+    
+    <a class="subscribe-button icon-feed" href="index.xml">Subscribe</a> </div>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Sorting out the &#39;On Behalf Of&#39; Nonsense on GMail with AuthSMTP</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2011-01-07T10:18:42Z">
+            Jan 7, 2011
+          </time>
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>#&ldquo;Sorting out the \&ldquo;On Behalf Of\&rdquo; Nonsense on GMail with AuthSMTP&rdquo;</p>
+
+<p>I have long been pained by GMails handling of multiple &quot;From&quot; accounts. We use Google Apps For Your Domain which we generally like apart from that one feature.<p /><div>Obviously we have accounts like sales@ and support@ which are accessed by more than one of us. On the face of it GMail allows you to send from these addresses using your main account. So I can send a mail when logged in as conor@ but have it appear to be From sales@.</div> <p /><div>But Google insists on sticking an additional header called &quot;Sender&quot; which identifies that it really was conor@ who sent the mail. That then appears in the recipients Outlook Inbox as &quot;From conor@blah on behalf of sales@blah&quot;. This completely defeats the purpose of having generic group addresses. It means we can&#39;t have seamless &quot;tonight Matthew I&#39;m going to be Support&quot;.</div> <p /><div>But it turns out Google does have a solution for it and you can continue to use the web interface. When you are setting up those extra accounts you can tell Google not to use their servers to send but to use another SMTP server. They generally expect that to be your own mail server but we actually use <a href="http://www.authsmtp.com/">AuthSMTP</a> for all our automated sending from EC2 and it works perfectly here too. It&#39;s a very inexpensive solution which has never let us down. Highly recommended. (Note - enable SSL on your AuthSMTP account but don&#39;t on GMail).</div> <p /><div>Job done!</div></p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
+  
+  <p>Tech guy who likes running slowly</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Sorting%20out%20the%20%27On%20Behalf%20Of%27%20Nonsense%20on%20GMail%20with%20AuthSMTP&amp;url=https%3a%2f%2fconoroneill.net%2f2011%2f01%2f07%2fsorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fconoroneill.net%2f2011%2f01%2f07%2fsorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fconoroneill.net%2f2011%2f01%2f07%2fsorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp%2f&amp;description=Sorting%20out%20the%20%27On%20Behalf%20Of%27%20Nonsense%20on%20GMail%20with%20AuthSMTP"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fconoroneill.net%2f2011%2f01%2f07%2fsorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'crossdominant';
+  var disqus_url = 'https:\/\/conoroneill.net\/2011\/01\/07\/sorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cross Dominant</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
+    
+</body>
+</html>
+

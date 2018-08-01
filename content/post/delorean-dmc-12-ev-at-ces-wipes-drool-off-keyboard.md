@@ -1,4 +1,5 @@
 +++
+aliases = ["/delorean-dmc-12-ev-at-ces-wipes-drool-off-keyboard/","/2012/01/15/delorean-dmc-12-ev-at-ces-wipes-drool-off-keyboard"]
 date = "2012-01-15T13:51:55Z"
 draft = false
 title = "DeLorean DMC-12 EV at CES. Wipes drool off keyboard."

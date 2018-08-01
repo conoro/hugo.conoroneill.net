@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-state-of-open-source-projects-in-ireland-vs-other-countries-based-on-github-activity/","/2013/03/26/the-state-of-open-source-projects-in-ireland-vs-other-countries-based-on-github-activity"]
 date = "2013-03-26T10:19:08Z"
 draft = false
 title = "The state of Open Source projects in Ireland vs other countries, based on GitHub activity"

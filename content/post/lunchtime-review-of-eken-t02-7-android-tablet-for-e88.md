@@ -1,4 +1,5 @@
 +++
+aliases = ["/lunchtime-review-of-eken-t02-7-android-tablet-for-e88/","/2012/05/03/lunchtime-review-of-eken-t02-7-android-tablet-for-e88"]
 date = "2012-05-03T15:05:38+01:00"
 draft = false
 title = "Lunchtime review of Eken T02 7' Android Tablet for 88"

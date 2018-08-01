@@ -1,4 +1,5 @@
 +++
+aliases = ["/replacing-a-broken-samsung-google-nexus-s-screen-a-total-doddle/","/2013/06/01/replacing-a-broken-samsung-google-nexus-s-screen-a-total-doddle"]
 date = "2013-06-01T14:52:05+01:00"
 draft = false
 title = "Replacing a broken Samsung Google Nexus S screen - a total doddle."

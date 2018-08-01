@@ -1,4 +1,5 @@
 +++
+aliases = ["/adding-a-realtime-clock-to-the-raspberry-pi-and-the-sweetbox-ii/","/2013/11/03/adding-a-realtime-clock-to-the-raspberry-pi-and-the-sweetbox-ii"]
 date = "2013-11-03T17:33:32Z"
 draft = false
 title = "Adding a realtime clock to the Raspberry Pi and the Sweetbox II"

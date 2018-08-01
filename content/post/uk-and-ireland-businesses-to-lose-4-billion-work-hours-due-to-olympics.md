@@ -1,4 +1,5 @@
 +++
+aliases = ["/uk-and-ireland-businesses-to-lose-4-billion-work-hours-due-to-olympics/","/2012/01/16/uk-and-ireland-businesses-to-lose-4-billion-work-hours-due-to-olympics"]
 date = "2012-01-16T17:30:16Z"
 draft = false
 title = "UK and Ireland Businesses to Lose 4 Billion Work Hours Due To Olympics"

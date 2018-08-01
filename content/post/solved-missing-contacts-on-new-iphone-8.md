@@ -1,10 +1,9 @@
 +++
-Categories = []
-Description = "5 hrs trying to sync contacts from iPhone 6 to iPhone 8. Turns out they were Google Contacts!"
-Tags = []
-draft = false
+aliases = ["/solved-missing-synced-contacts-on-iphone-8/","/2017/12/28/solved-missing-synced-contacts-on-iphone-8"]
 date = "2017-12-28T08:00:00+00:00"
+draft = false
 title = "Solved - Missing synced contacts on new iPhone 8"
+description = " "
 slug = "solved-missing-synced-contacts-on-iphone-8"
 +++
 

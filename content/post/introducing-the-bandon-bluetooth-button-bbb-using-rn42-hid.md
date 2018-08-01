@@ -1,4 +1,5 @@
 +++
+aliases = ["/introducing-the-bandon-bluetooth-button-bbb-using-rn42-hid/","/2013/12/01/introducing-the-bandon-bluetooth-button-bbb-using-rn42-hid"]
 date = "2013-12-01T12:18:54Z"
 draft = false
 title = "Introducing the Bandon Bluetooth Button (BBB) using RN42 HID"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/i-dont-think-its-possible-to-love-jane-lynch-more-than-i-do-now/","/2010/06/08/i-dont-think-its-possible-to-love-jane-lynch-more-than-i-do-now"]
 date = "2010-06-08T09:32:58+01:00"
 draft = false
 title = "I don't think it's possible to love Jane Lynch more than I do now"

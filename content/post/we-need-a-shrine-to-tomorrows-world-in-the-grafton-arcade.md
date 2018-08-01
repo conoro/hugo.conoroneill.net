@@ -1,4 +1,5 @@
 +++
+aliases = ["/we-need-a-shrine-to-tomorrows-world-in-the-grafton-arcade/","/2011/12/20/we-need-a-shrine-to-tomorrows-world-in-the-grafton-arcade"]
 date = "2011-12-20T11:04:59Z"
 draft = false
 title = "We Need a Shrine to Tomorrow's World in The Grafton Arcade"

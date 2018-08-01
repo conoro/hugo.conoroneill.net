@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-key-things-you-need-to-know-about-the-new-ios-4/","/2010/06/07/the-key-things-you-need-to-know-about-the-new-ios-4"]
 date = "2010-06-07T20:25:42+01:00"
 draft = false
 title = "The key things you need to know about the new IOS 4"

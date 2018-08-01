@@ -1,4 +1,5 @@
 +++
+aliases = ["/summary-of-setting-up-your-own-private-app-inventor-server-for-your-school/","/2011/12/31/summary-of-setting-up-your-own-private-app-inventor-server-for-your-school"]
 date = "2011-12-31T17:50:07Z"
 draft = false
 title = "Summary of Setting Up Your Own Private App Inventor Server For Your School"

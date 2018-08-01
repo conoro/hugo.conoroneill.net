@@ -1,4 +1,5 @@
 +++
+aliases = ["/does-skype-hate-its-customers/","/2011/05/04/does-skype-hate-its-customers"]
 date = "2011-05-04T07:55:00+01:00"
 draft = false
 title = "Does Skype hate its customers?"

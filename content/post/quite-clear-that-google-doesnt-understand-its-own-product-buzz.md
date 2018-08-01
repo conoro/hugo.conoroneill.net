@@ -1,4 +1,5 @@
 +++
+aliases = ["/quite-clear-that-google-doesnt-understand-its-own-product-buzz/","/2010/02/12/quite-clear-that-google-doesnt-understand-its-own-product-buzz"]
 date = "2010-02-12T07:52:00Z"
 draft = false
 title = "Quite clear that Google doesn't understand its own product, Buzz"

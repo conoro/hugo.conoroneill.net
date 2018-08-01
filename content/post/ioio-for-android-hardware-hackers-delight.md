@@ -1,4 +1,5 @@
 +++
+aliases = ["/ioio-for-android-hardware-hackers-delight/","/2011/04/08/ioio-for-android-hardware-hackers-delight"]
 date = "2011-04-08T16:27:00+01:00"
 draft = false
 title = "IOIO for Android - Hardware Hackers Delight "

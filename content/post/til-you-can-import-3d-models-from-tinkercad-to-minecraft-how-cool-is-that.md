@@ -1,4 +1,5 @@
 +++
+aliases = ["/til-you-can-import-3d-models-from-tinkercad-to-minecraft-how-cool-is-that/","/2015/08/23/til-you-can-import-3d-models-from-tinkercad-to-minecraft-how-cool-is-that"]
 date = "2015-08-23T14:42:32+01:00"
 draft = false
 title = "TIL you can import 3D models from Tinkercad to Minecraft. How cool is that?"

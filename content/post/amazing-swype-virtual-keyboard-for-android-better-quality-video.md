@@ -1,4 +1,5 @@
 +++
+aliases = ["/amazing-swype-virtual-keyboard-for-android-better-quality-video/","/2010/06/16/amazing-swype-virtual-keyboard-for-android-better-quality-video"]
 date = "2010-06-16T19:28:00+01:00"
 draft = false
 title = "Amazing Swype Virtual Keyboard for Android (better quality video)"

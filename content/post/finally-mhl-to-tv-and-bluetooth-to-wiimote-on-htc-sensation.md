@@ -1,4 +1,5 @@
 +++
+aliases = ["/finally-mhl-to-tv-and-bluetooth-to-wiimote-on-htc-sensation/","/2012/04/22/finally-mhl-to-tv-and-bluetooth-to-wiimote-on-htc-sensation"]
 date = "2012-04-22T18:12:12+01:00"
 draft = false
 title = "Finally MHL to TV and Bluetooth to Wiimote on HTC Sensation"

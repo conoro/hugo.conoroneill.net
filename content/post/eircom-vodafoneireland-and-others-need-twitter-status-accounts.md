@@ -1,4 +1,5 @@
 +++
+aliases = ["/eircom-vodafoneireland-and-others-need-twitter-status-accounts/","/2011/04/13/eircom-vodafoneireland-and-others-need-twitter-status-accounts"]
 date = "2011-04-13T13:28:08+01:00"
 draft = false
 title = "@Eircom, @VodafoneIreland and others need Twitter Status Accounts"

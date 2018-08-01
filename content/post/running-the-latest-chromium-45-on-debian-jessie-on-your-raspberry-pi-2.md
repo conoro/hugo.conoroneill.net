@@ -1,4 +1,5 @@
 +++
+aliases = ["/running-the-latest-chromium-45-on-debian-jessie-on-your-raspberry-pi-2/","/2015/09/29/running-the-latest-chromium-45-on-debian-jessie-on-your-raspberry-pi-2"]
 date = "2015-09-29T17:35:11+01:00"
 draft = false
 title = "Running the latest Chromium 45 on Debian Jessie on your Raspberry Pi 2"

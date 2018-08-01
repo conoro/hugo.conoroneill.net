@@ -1,4 +1,5 @@
 +++
+aliases = ["/wonderful-idea-free-sugru-for-awesome-education-projects/","/2011/12/04/wonderful-idea-free-sugru-for-awesome-education-projects"]
 date = "2011-12-04T20:05:00Z"
 draft = false
 title = "Wonderful Idea - Free Sugru for awesome education projects"

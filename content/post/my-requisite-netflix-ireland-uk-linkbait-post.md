@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-requisite-netflix-ireland-uk-linkbait-post/","/2012/01/10/my-requisite-netflix-ireland-uk-linkbait-post"]
 date = "2012-01-10T13:59:21Z"
 draft = false
 title = "My requisite Netflix Ireland &amp; UK linkbait post"

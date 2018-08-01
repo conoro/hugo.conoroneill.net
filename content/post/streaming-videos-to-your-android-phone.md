@@ -1,4 +1,5 @@
 +++
+aliases = ["/streaming-videos-to-your-android-phone/","/2010/12/04/streaming-videos-to-your-android-phone"]
 date = "2010-12-04T14:25:00Z"
 draft = false
 title = "Streaming Videos to your Android Phone"

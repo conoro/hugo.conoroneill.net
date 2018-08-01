@@ -1,4 +1,5 @@
 +++
+aliases = ["/just-bought-gravity-forms-for-wordpress/","/2010/02/11/just-bought-gravity-forms-for-wordpress"]
 date = "2010-02-11T16:34:55Z"
 draft = false
 title = "Just bought Gravity Forms for WordPress"

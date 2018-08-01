@@ -1,4 +1,5 @@
 +++
+aliases = ["/androidspin-google-earth-debuts-on-android/","/2010/02/22/androidspin-google-earth-debuts-on-android"]
 date = "2010-02-22T17:44:50Z"
 draft = false
 title = "AndroidSPIN | Google Earth Debuts On Android"

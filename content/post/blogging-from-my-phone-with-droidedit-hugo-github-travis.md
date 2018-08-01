@@ -1,8 +1,10 @@
 +++
-Description = "A cool Android text editor plus some back-end tooling makes for a very useful blogging platform."
+aliases = ["/blogging-from-my-phone-with-droidedit-hugo-github-pages-and-travis/","/2015/12/27/blogging-from-my-phone-with-droidedit-hugo-github-pages-and-travis"]
 date = "2015-12-27T16:38:29Z"
+draft = false
 title = "Blogging from my phone with DroidEdit, Hugo, GitHub Pages and Travis"
-
+description = " "
+slug = "blogging-from-my-phone-with-droidedit-hugo-github-pages-and-travis"
 +++
 
 I switched this blog to the superb Go-based tool [Hugo](https://gohugo.io/overview/usage/) earlier in the year. Its staggering speed compared to HarpJS and Hexo plus a single executable you can drop in anywhere, make it a no-brainer for static blogs.

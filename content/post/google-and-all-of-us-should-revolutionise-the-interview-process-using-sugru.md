@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-and-all-of-us-should-revolutionise-the-interview-process-using-sugru/","/2012/04/20/google-and-all-of-us-should-revolutionise-the-interview-process-using-sugru"]
 date = "2012-04-20T19:33:05+01:00"
 draft = false
 title = "Google (and all of us) should revolutionise the interview process using @Sugru"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/update-on-mobile-broadband-external-antenna/","/2010/03/07/update-on-mobile-broadband-external-antenna"]
 date = "2010-03-07T18:50:57Z"
 draft = false
 title = "Update on Mobile Broadband External Antenna"

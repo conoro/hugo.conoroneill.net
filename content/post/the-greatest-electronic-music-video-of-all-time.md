@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-greatest-electronic-music-video-of-all-time/","/2012/08/31/the-greatest-electronic-music-video-of-all-time"]
 date = "2012-08-31T13:31:31+01:00"
 draft = false
 title = "The Greatest Electronic Music Video of All Time?"

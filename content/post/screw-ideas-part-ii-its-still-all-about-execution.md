@@ -1,4 +1,5 @@
 +++
+aliases = ["/screw-ideas-part-ii-its-still-all-about-execution/","/2010/03/11/screw-ideas-part-ii-its-still-all-about-execution"]
 date = "2010-03-11T18:41:52Z"
 draft = false
 title = "Screw Ideas Part II. It's still all about execution "

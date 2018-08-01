@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-github-uses-github-to-build-github/","/2011/09/22/how-github-uses-github-to-build-github"]
 date = "2011-09-22T09:46:00+01:00"
 draft = false
 title = "How GitHub Uses GitHub to Build GitHub"

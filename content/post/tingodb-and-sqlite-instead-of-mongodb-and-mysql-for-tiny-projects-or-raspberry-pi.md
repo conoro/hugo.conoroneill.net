@@ -1,4 +1,5 @@
 +++
+aliases = ["/tingodb-and-sqlite-instead-of-mongodb-and-mysql-for-tiny-projects-or-raspberry-pi/","/2015/09/20/tingodb-and-sqlite-instead-of-mongodb-and-mysql-for-tiny-projects-or-raspberry-pi"]
 date = "2015-09-20T13:03:54+01:00"
 draft = false
 title = "TingoDB and SQLite instead of MongoDB and MySQL for tiny projects or Raspberry Pi"

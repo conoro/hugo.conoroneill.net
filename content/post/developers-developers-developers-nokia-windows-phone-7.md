@@ -1,4 +1,5 @@
 +++
+aliases = ["/developers-developers-developers-nokia-windows-phone-7/","/2011/02/11/developers-developers-developers-nokia-windows-phone-7"]
 date = "2011-02-11T09:40:00Z"
 draft = false
 title = "Developers Developers Developers ---> Nokia + Windows Phone 7"

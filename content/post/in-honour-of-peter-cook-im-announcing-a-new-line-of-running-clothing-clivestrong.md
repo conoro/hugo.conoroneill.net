@@ -1,4 +1,5 @@
 +++
+aliases = ["/in-honour-of-peter-cook-im-announcing-a-new-line-of-running-clothing-clivestrong/","/2012/08/24/in-honour-of-peter-cook-im-announcing-a-new-line-of-running-clothing-clivestrong"]
 date = "2012-08-24T19:38:11+01:00"
 draft = false
 title = "In honour of Peter Cook, Nike announces new line of running clothing - Clivestrong"

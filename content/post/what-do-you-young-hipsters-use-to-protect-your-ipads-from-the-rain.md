@@ -1,4 +1,5 @@
 +++
+aliases = ["/what-do-you-young-hipsters-use-to-protect-your-ipads-from-the-rain/","/2011/12/13/what-do-you-young-hipsters-use-to-protect-your-ipads-from-the-rain"]
 date = "2011-12-13T19:22:00Z"
 draft = false
 title = "What do you young hipsters use to protect your iPads from the rain?"

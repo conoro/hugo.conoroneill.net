@@ -1,4 +1,5 @@
 +++
+aliases = ["/and-yea-verily-did-the-paid-apps-magically-appear-on-the-honourable-conors-android-phone/","/2010/10/08/and-yea-verily-did-the-paid-apps-magically-appear-on-the-honourable-conors-android-phone"]
 date = "2010-10-08T00:43:03+01:00"
 draft = false
 title = "And yea verily did the Paid Apps magically appear on the Honourable Conor's Android Phone"

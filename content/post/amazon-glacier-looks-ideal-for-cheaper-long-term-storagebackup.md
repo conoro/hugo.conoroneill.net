@@ -1,4 +1,5 @@
 +++
+aliases = ["/amazon-glacier-looks-ideal-for-cheaper-long-term-storagebackup/","/2012/08/21/amazon-glacier-looks-ideal-for-cheaper-long-term-storagebackup"]
 date = "2012-08-21T09:17:50+01:00"
 draft = false
 title = "Amazon Glacier looks ideal for cheaper long-term storage/backup"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/art-tech-oyster-ring-go-on-someone-do-a-leap-card-like-this/","/2012/07/06/art-tech-oyster-ring-go-on-someone-do-a-leap-card-like-this"]
 date = "2012-07-06T10:14:17+01:00"
 draft = false
 title = "Art + Tech = Oyster Ring. Go on, someone do a Leap Card like this"

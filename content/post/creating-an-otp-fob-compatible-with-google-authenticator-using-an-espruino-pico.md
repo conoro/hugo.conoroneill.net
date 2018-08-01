@@ -1,4 +1,5 @@
 +++
+aliases = ["/creating-an-otp-fob-compatible-with-google-authenticator-using-an-espruino-pico/","/2015/07/22/creating-an-otp-fob-compatible-with-google-authenticator-using-an-espruino-pico"]
 date = "2015-07-22T08:14:26+01:00"
 draft = false
 title = "Creating an OTP fob compatible with Google Authenticator using an Espruino Pico"

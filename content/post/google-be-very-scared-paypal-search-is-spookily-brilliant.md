@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-be-very-scared-paypal-search-is-spookily-brilliant/","/2011/03/25/google-be-very-scared-paypal-search-is-spookily-brilliant"]
 date = "2011-03-25T16:30:15Z"
 draft = false
 title = "Google be very scared, PayPal search is spookily brilliant"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/hoping-someone-will-setup-curious-jane-in-ireland-project-based-summer-camps-for-girls/","/2012/07/08/hoping-someone-will-setup-curious-jane-in-ireland-project-based-summer-camps-for-girls"]
 date = "2012-07-08T16:52:31+01:00"
 draft = false
 title = "Hoping someone will setup Curious Jane in Ireland - Project-based Summer Camps for Girls "

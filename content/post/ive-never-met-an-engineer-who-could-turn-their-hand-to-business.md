@@ -1,4 +1,5 @@
 +++
+aliases = ["/ive-never-met-an-engineer-who-could-turn-their-hand-to-business/","/2011/06/16/ive-never-met-an-engineer-who-could-turn-their-hand-to-business"]
 date = "2011-06-16T09:39:00+01:00"
 draft = false
 title = "I've never met an Engineer who could turn their hand to business"

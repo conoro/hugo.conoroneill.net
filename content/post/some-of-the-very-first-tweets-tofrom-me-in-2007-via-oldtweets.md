@@ -1,4 +1,5 @@
 +++
+aliases = ["/some-of-the-very-first-tweets-tofrom-me-in-2007-via-oldtweets/","/2012/07/12/some-of-the-very-first-tweets-tofrom-me-in-2007-via-oldtweets"]
 date = "2012-07-12T07:24:35+01:00"
 draft = false
 title = "Some of the very first Tweets to/from me in 2007 via oldtweets"

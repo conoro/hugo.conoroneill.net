@@ -1,4 +1,5 @@
 +++
+aliases = ["/igo-stowaway-keyboard-and-ipad-2-awesome/","/2011/12/12/igo-stowaway-keyboard-and-ipad-2-awesome"]
 date = "2011-12-12T16:29:00Z"
 draft = false
 title = "iGo Stowaway Keyboard and iPad 2 = Awesome"

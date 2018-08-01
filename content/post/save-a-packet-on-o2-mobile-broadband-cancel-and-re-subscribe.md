@@ -1,4 +1,5 @@
 +++
+aliases = ["/save-a-packet-on-o2-mobile-broadband-cancel-and-re-subscribe/","/2010/03/22/save-a-packet-on-o2-mobile-broadband-cancel-and-re-subscribe"]
 date = "2010-03-22T09:16:03Z"
 draft = false
 title = "Save a packet on O2 Mobile broadband. Cancel and re-subscribe"

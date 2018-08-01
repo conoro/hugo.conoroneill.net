@@ -1,4 +1,5 @@
 +++
+aliases = ["/opportunity-for-android-open-accessory-app-inventor-to-be-the-new-lego-mindstorms/","/2011/10/20/opportunity-for-android-open-accessory-app-inventor-to-be-the-new-lego-mindstorms"]
 date = "2011-10-20T16:26:32+01:00"
 draft = false
 title = "Opportunity for Android Open Accessory + App Inventor to be the new Lego Mindstorms?"

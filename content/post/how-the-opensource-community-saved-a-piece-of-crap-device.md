@@ -1,4 +1,5 @@
 +++
+aliases = ["/how-the-opensource-community-saved-a-piece-of-crap-device/","/2010/12/20/how-the-opensource-community-saved-a-piece-of-crap-device"]
 date = "2010-12-20T10:22:00Z"
 draft = false
 title = "How the OpenSource Community Saved a Piece of Crap Device"

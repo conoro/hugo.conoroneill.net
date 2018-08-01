@@ -1,4 +1,5 @@
 +++
+aliases = ["/wordpress-to-posterous-users-graduate-to-a-full-blog-eh-no/","/2010/02/09/wordpress-to-posterous-users-graduate-to-a-full-blog-eh-no"]
 date = "2010-02-09T18:04:25Z"
 draft = false
 title = "WordPress To Posterous Users: Graduate to a Full Blog. Eh, no."

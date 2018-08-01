@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-smartphone-evolution-from-n95-8gb-to-samsung-galaxy-s4-sgs4/","/2013/04/27/my-smartphone-evolution-from-n95-8gb-to-samsung-galaxy-s4-sgs4"]
 date = "2013-04-27T14:07:09+01:00"
 draft = false
 title = "My Smartphone evolution from N95-8GB to Samsung Galaxy S4 #SGS4"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/xbmc-running-on-raspberry-pi-i-may-faint-with-the-anticipation/","/2012/04/13/xbmc-running-on-raspberry-pi-i-may-faint-with-the-anticipation"]
 date = "2012-04-13T09:48:05+01:00"
 draft = false
 title = "XBMC running on Raspberry Pi. I may faint with the anticipation"

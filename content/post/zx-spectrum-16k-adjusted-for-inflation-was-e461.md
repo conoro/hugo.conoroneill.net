@@ -1,4 +1,5 @@
 +++
+aliases = ["/zx-spectrum-16k-adjusted-for-inflation-was-e461/","/2012/04/20/zx-spectrum-16k-adjusted-for-inflation-was-e461"]
 date = "2012-04-20T08:44:45+01:00"
 draft = false
 title = "ZX Spectrum 16k adjusted for inflation was 461"

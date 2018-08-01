@@ -1,4 +1,5 @@
 +++
+aliases = ["/dear-vodafonemeteoro2-please-give-google-a-hard-slap-from-irish-android-owners/","/2010/05/02/dear-vodafonemeteoro2-please-give-google-a-hard-slap-from-irish-android-owners"]
 date = "2010-05-02T09:56:00+01:00"
 draft = false
 title = "Dear Vodafone/Meteor/O2, please give Google a hard slap from Irish Android Owners"

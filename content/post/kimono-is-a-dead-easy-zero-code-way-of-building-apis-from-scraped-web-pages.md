@@ -1,4 +1,5 @@
 +++
+aliases = ["/kimono-is-a-dead-easy-zero-code-way-of-building-apis-from-scraped-web-pages/","/2014/06/30/kimono-is-a-dead-easy-zero-code-way-of-building-apis-from-scraped-web-pages"]
 date = "2014-06-30T08:27:33+01:00"
 draft = false
 title = "Kimono is a dead-easy zero-code way of building APIs from scraped web-pages"

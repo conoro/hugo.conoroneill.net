@@ -1,4 +1,5 @@
 +++
+aliases = ["/payg-data-effectively-4x-more-on-3irl-than-3uk-in-ireland/","/2010/02/18/payg-data-effectively-4x-more-on-3irl-than-3uk-in-ireland"]
 date = "2010-02-18T19:48:25Z"
 draft = false
 title = "PAYG data effectively 4x more on 3IRL than 3UK......in Ireland"

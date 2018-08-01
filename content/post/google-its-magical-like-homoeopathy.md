@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-its-magical-like-homoeopathy/","/2012/06/29/google-its-magical-like-homoeopathy"]
 date = "2012-06-29T09:35:22+01:00"
 draft = false
 title = "Google+, it's Magical, like homoeopathy....."

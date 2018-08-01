@@ -1,4 +1,5 @@
 +++
+aliases = ["/omffg-angry-birds-on-a-50-screen/","/2010/11/25/omffg-angry-birds-on-a-50-screen"]
 date = "2010-11-25T14:03:00Z"
 draft = false
 title = "OMFFG - Angry Birds on a 50' Screen"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/android-fanboi-aged-72/","/2010/11/13/android-fanboi-aged-72"]
 date = "2010-11-13T13:17:16Z"
 draft = false
 title = "Android Fanboi Aged 72"

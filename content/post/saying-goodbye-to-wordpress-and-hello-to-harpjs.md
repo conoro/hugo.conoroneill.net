@@ -1,4 +1,5 @@
 +++
+aliases = ["/saying-goodbye-to-wordpress-and-hello-to-harpjs/","/2014/03/16/saying-goodbye-to-wordpress-and-hello-to-harpjs"]
 date = "2014-03-16T12:46:04Z"
 draft = false
 title = "Saying goodbye to WordPress and hello to HarpJS"

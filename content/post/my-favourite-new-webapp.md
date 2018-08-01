@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-favourite-new-webapp/","/2012/01/23/my-favourite-new-webapp"]
 date = "2012-01-23T11:09:24Z"
 draft = false
 title = "My favourite new WebApp - IFTTT - If This Then That"

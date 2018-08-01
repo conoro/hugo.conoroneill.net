@@ -1,4 +1,5 @@
 +++
+aliases = ["/mophie-juice-pack-air-is-perfect-for-marathons/","/2012/03/24/mophie-juice-pack-air-is-perfect-for-marathons"]
 date = "2012-03-24T12:55:22Z"
 draft = false
 title = "Mophie Juice Pack Air is perfect for Marathons "

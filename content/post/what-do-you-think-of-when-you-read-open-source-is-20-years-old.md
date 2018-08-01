@@ -1,16 +1,15 @@
 +++
-Categories = []
-Description = "Fifteen minute brain dump of all the Open or free tech I think of from 1982 onwards."
-Tags = ["open source", "history"]
-draft = false
+aliases = ["/what-do-you-think-of-when-you-read-open-source-is-20-years-old/","/2018/02/04/what-do-you-think-of-when-you-read-open-source-is-20-years-old"]
 date = "2018-02-04T08:00:00+00:00"
+draft = false
 title = "What do you think of when you read that Open Source is 20 years old?"
+description = " "
 slug = "what-do-you-think-of-when-you-read-open-source-is-20-years-old"
 +++
 
 Yesterday I read that [Open Source is offically 20 years old](https://opensource.net/). This doesn't mean free software or GNU or anything like that, just the definition and initiative itself. It made me think about all of open source (lower case) and free software that's had an impact on me since I was a teenager. Here's that as a quick brain-dump. I'm sure I've missed tons and will update as they pop into my head.
 
-![OSI](/img/2018/02/osi_symbol.png)
+![OSI](/images/2018/02/osi_symbol.png)
 
 Some of these aren't free or FOSS, but were critical enablers for getting to there. I've also mentioned some of the roadkill left behind by OSS - Sun, mSQL, IIS etc.
 

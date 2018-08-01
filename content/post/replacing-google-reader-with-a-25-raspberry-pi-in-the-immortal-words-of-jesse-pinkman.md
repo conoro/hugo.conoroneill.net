@@ -1,4 +1,5 @@
 +++
+aliases = ["/replacing-google-reader-with-a-25-raspberry-pi-in-the-immortal-words-of-jesse-pinkman/","/2013/03/14/replacing-google-reader-with-a-25-raspberry-pi-in-the-immortal-words-of-jesse-pinkman"]
 date = "2013-03-14T15:41:04Z"
 draft = false
 title = "Replacing Google Reader with a $25 Raspberry Pi in the immortal words of Jesse Pinkman"

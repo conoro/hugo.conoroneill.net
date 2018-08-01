@@ -1,4 +1,5 @@
 +++
+aliases = ["/our-replacement-for-sky-tv-cost-e99-ariva-120-no-monthly-fees/","/2011/08/31/our-replacement-for-sky-tv-cost-e99-ariva-120-no-monthly-fees"]
 date = "2011-08-31T07:49:02+01:00"
 draft = false
 title = "Our replacement for Sky TV cost 99. Ariva 120. No monthly fees!"

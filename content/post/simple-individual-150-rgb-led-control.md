@@ -1,8 +1,10 @@
 +++
-Description = "Controlling each LED in a 150 RGB LED strip with an Arduino Nano"
+aliases = ["/simple-christmas-control-of-each-led-in-a-150-rgb-led-ws2812-strip/","/2015/12/27/simple-christmas-control-of-each-led-in-a-150-rgb-led-ws2812-strip"]
 date = "2015-12-27T11:34:18Z"
+draft = false
 title = "Simple Christmas Control of each LED in a 150 RGB LED WS2812 strip"
-
+description = " "
+slug = "simple-christmas-control-of-each-led-in-a-150-rgb-led-ws2812-strip"
 +++
 One mistake I made with our [Halloween setup](http://conoroneill.net/all-the-tech-behind-our-halloween-hallway-of-horror/) was buying an analogue RGB LED strip where all the LEDs had to be set to the same colour. Then a few weeks ago, [Joe Desbonnet](https://twitter.com/joedesbonnet) Facebooked about getting a waterproof WS2812 strip with individual LED control. And it wasn't that much more expensive than the analogue one. Off to eBay I went [and ordered one](http://www.ebay.com/itm/141757617308?_trksid=p2057872.m2749.l2649&var=440868603421&ssPageName=STRK%3AMEBIDX%3AIT), far too late for Christmas.
 

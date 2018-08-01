@@ -1,4 +1,5 @@
 +++
+aliases = ["/is-the-e10-lidl-soldering-iron-worth-it-i-think-so-video/","/2013/06/07/is-the-e10-lidl-soldering-iron-worth-it-i-think-so-video"]
 date = "2013-06-07T16:59:02+01:00"
 draft = false
 title = "Is the 10 Lidl Soldering Iron worth it? I think so."

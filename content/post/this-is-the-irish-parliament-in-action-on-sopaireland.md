@@ -1,4 +1,5 @@
 +++
+aliases = ["/this-is-the-irish-parliament-in-action-on-sopaireland/","/2012/01/26/this-is-the-irish-parliament-in-action-on-sopaireland"]
 date = "2012-01-26T16:00:37Z"
 draft = false
 title = "This is the Irish Parliament in Action on #sopaireland"

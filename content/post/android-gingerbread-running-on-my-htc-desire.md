@@ -1,4 +1,5 @@
 +++
+aliases = ["/android-gingerbread-running-on-my-htc-desire/","/2010/12/20/android-gingerbread-running-on-my-htc-desire"]
 date = "2010-12-20T12:40:12Z"
 draft = false
 title = "Android Gingerbread Running on my HTC Desire"

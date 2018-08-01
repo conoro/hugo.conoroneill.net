@@ -1,4 +1,5 @@
 +++
+aliases = ["/kulula-airplane-rebranding/","/2010/02/04/kulula-airplane-rebranding"]
 date = "2010-02-04T11:33:00Z"
 draft = false
 title = "Kulula Airplane Rebranding"

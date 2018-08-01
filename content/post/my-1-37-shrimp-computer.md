@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-1-37-shrimp-computer/","/2013/03/13/my-1-37-shrimp-computer"]
 date = "2013-03-13T14:09:41Z"
 draft = false
 title = "My 1.37 Shrimp Computer"

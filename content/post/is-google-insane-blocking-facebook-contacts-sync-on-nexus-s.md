@@ -1,4 +1,5 @@
 +++
+aliases = ["/is-google-insane-blocking-facebook-contacts-sync-on-nexus-s/","/2011/02/23/is-google-insane-blocking-facebook-contacts-sync-on-nexus-s"]
 date = "2011-02-23T09:38:58Z"
 draft = false
 title = "Is Google Insane? Blocking Facebook Contacts Sync on Nexus S"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/upgrading-your-samsung-galaxy-s4-i9505-to-kitkat-4-4-2-on-osx/","/2014/03/13/upgrading-your-samsung-galaxy-s4-i9505-to-kitkat-4-4-2-on-osx"]
 date = "2014-03-13T08:35:12Z"
 draft = false
 title = "Upgrading your Samsung Galaxy S4 i9505 to KitKat 4.4.2 on OSX"

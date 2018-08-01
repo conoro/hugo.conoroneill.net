@@ -1,4 +1,5 @@
 +++
+aliases = ["/ah-cmon-is-this-not-the-cutest-raspberry_pi-setup-of-all-time/","/2013/09/28/ah-cmon-is-this-not-the-cutest-raspberry_pi-setup-of-all-time"]
 date = "2013-09-28T12:52:02+01:00"
 draft = false
 title = "Ah c'mon, is this not the cutest @raspberry_pi setup of all time?"

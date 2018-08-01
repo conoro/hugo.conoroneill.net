@@ -1,4 +1,5 @@
 +++
+aliases = ["/ubuntu-for-android-all-the-horror-of-unity-in-your-pocket/","/2012/02/22/ubuntu-for-android-all-the-horror-of-unity-in-your-pocket"]
 date = "2012-02-22T08:02:29Z"
 draft = false
 title = "Ubuntu for Android - All the Horror of Unity in your pocket"

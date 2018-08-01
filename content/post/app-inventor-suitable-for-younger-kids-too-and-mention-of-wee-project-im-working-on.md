@@ -1,4 +1,5 @@
 +++
+aliases = ["/app-inventor-suitable-for-younger-kids-too-and-mention-of-wee-project-im-working-on/","/2011/09/17/app-inventor-suitable-for-younger-kids-too-and-mention-of-wee-project-im-working-on"]
 date = "2011-09-17T17:27:07+01:00"
 draft = false
 title = "App Inventor suitable for younger kids too (and mention of wee project I'm working on)"

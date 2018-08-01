@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-buzz-on-mobile-what-latitude-should-have-been/","/2010/02/09/google-buzz-on-mobile-what-latitude-should-have-been"]
 date = "2010-02-09T19:17:22Z"
 draft = false
 title = "Google Buzz on Mobile - What Latitude should have been"

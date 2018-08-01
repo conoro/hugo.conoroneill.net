@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-web-tools-we-cant-live-without-in-loudervoice/","/2010/02/24/the-web-tools-we-cant-live-without-in-loudervoice"]
 date = "2010-02-24T09:16:04Z"
 draft = false
 title = "The web tools we can't live without in LouderVoice"

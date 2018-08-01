@@ -1,4 +1,5 @@
 +++
+aliases = ["/multiple-skype-accounts-on-one-pc/","/2011/04/13/multiple-skype-accounts-on-one-pc"]
 date = "2011-04-13T16:48:29+01:00"
 draft = false
 title = "Multiple Skype Accounts on one PC"

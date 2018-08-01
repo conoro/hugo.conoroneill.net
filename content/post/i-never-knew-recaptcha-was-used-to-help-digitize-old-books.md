@@ -1,4 +1,5 @@
 +++
+aliases = ["/i-never-knew-recaptcha-was-used-to-help-digitize-old-books/","/2012/03/01/i-never-knew-recaptcha-was-used-to-help-digitize-old-books"]
 date = "2012-03-01T08:23:46Z"
 draft = false
 title = "I never knew reCAPTCHA was used to help digitize old books"

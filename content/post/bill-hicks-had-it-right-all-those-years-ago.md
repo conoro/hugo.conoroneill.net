@@ -1,4 +1,5 @@
 +++
+aliases = ["/bill-hicks-had-it-right-all-those-years-ago/","/2010/02/04/bill-hicks-had-it-right-all-those-years-ago"]
 date = "2010-02-04T08:01:00Z"
 draft = false
 title = "Bill Hicks had it right all those years ago"

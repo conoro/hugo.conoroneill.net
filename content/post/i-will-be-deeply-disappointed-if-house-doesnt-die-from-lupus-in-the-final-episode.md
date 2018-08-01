@@ -1,4 +1,5 @@
 +++
+aliases = ["/i-will-be-deeply-disappointed-if-house-doesnt-die-from-lupus-in-the-final-episode/","/2012/02/09/i-will-be-deeply-disappointed-if-house-doesnt-die-from-lupus-in-the-final-episode"]
 date = "2012-02-09T09:45:25Z"
 draft = false
 title = "I will be deeply disappointed if House doesn't die from Lupus in the final episode"

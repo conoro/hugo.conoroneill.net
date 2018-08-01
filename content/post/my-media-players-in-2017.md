@@ -1,10 +1,9 @@
 +++
-Categories = []
-Description = "We've come a long way since XBMC on a hacked original XBOX. 2017 was all about NVIDIA Shield, Wetek Play and no-name Android boxes."
-Tags = []
-draft = false
+aliases = ["/my-media-players-in-2017/","/2017/12/29/my-media-players-in-2017"]
 date = "2017-12-29T17:00:00+00:00"
+draft = false
 title = "My Media Players in 2017"
+description = " "
 slug = "my-media-players-in-2017"
 +++
 

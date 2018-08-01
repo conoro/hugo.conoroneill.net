@@ -1,4 +1,5 @@
 +++
+aliases = ["/dodgeball-orkut-jaiku-latitude-spot-the-pattern/","/2010/02/09/dodgeball-orkut-jaiku-latitude-spot-the-pattern"]
 date = "2010-02-09T18:13:54Z"
 draft = false
 title = "Dodgeball, Orkut, Jaiku, Latitude. Spot the pattern? "

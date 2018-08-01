@@ -1,4 +1,5 @@
 +++
+aliases = ["/omg-has-apple-bought-google/","/2011/02/27/omg-has-apple-bought-google"]
 date = "2011-02-27T13:02:54Z"
 draft = false
 title = "OMG has Apple bought Google?"

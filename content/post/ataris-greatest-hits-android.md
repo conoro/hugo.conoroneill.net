@@ -1,4 +1,5 @@
 +++
+aliases = ["/ataris-greatest-hits-android/","/2011/11/07/ataris-greatest-hits-android"]
 date = "2011-11-07T21:14:00Z"
 draft = false
 title = "Atari's Greatest Hits - Android "

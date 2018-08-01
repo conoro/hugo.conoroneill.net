@@ -1,10 +1,9 @@
 +++
-Categories = []
-Description = "This year involves C.H.I.P., Go, Gobot, C, Arduino, ESP8266, Servos, LED strips and 3D Printing. So keeping it simple  for a change ;-) Oh and hot glue, lots and lots of hot glue."
-Tags = []
-draft = false
+aliases = ["/all-the-grisly-details-of-skeletony-and-the-halloween-doorbell-of-doom-v20/","/2016/11/29/all-the-grisly-details-of-skeletony-and-the-halloween-doorbell-of-doom-v20"]
 date = "2016-11-29T20:45:00+00:00"
+draft = false
 title = "All the grisly details of Skeletony and the Halloween Doorbell of Doooooom V2.0"
+description = " "
 slug = "all-the-grisly-details-of-skeletony-and-the-halloween-doorbell-of-doom-v20"
 +++
 

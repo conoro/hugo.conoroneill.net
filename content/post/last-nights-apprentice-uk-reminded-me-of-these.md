@@ -1,4 +1,5 @@
 +++
+aliases = ["/last-nights-apprentice-uk-reminded-me-of-these/","/2010/10/07/last-nights-apprentice-uk-reminded-me-of-these"]
 date = "2010-10-07T09:54:25+01:00"
 draft = false
 title = "Last night's Apprentice UK reminded me of these"

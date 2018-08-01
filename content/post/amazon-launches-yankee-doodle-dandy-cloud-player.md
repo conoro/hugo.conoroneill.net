@@ -1,4 +1,5 @@
 +++
+aliases = ["/amazon-launches-yankee-doodle-dandy-cloud-player/","/2011/03/29/amazon-launches-yankee-doodle-dandy-cloud-player"]
 date = "2011-03-29T07:14:00+01:00"
 draft = false
 title = "Amazon launches Yankee Doodle Dandy Cloud Player"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/26-years-of-word-processors-missing-the-bleedin-obvious/","/2011/05/08/26-years-of-word-processors-missing-the-bleedin-obvious"]
 date = "2011-05-08T17:13:28+01:00"
 draft = false
 title = "26 Years of Word Processors Missing the Bleedin' Obvious"

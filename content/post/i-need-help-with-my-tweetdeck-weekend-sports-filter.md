@@ -1,4 +1,5 @@
 +++
+aliases = ["/i-need-help-with-my-tweetdeck-weekend-sports-filter/","/2010/05/22/i-need-help-with-my-tweetdeck-weekend-sports-filter"]
 date = "2010-05-22T11:35:00+01:00"
 draft = false
 title = "I need help with my Tweetdeck Weekend Sports Filter"

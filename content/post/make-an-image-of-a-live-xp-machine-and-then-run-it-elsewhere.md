@@ -1,4 +1,5 @@
 +++
+aliases = ["/make-an-image-of-a-live-xp-machine-and-then-run-it-elsewhere/","/2011/04/11/make-an-image-of-a-live-xp-machine-and-then-run-it-elsewhere"]
 date = "2011-04-11T14:07:24+01:00"
 draft = false
 title = "Make an image of a live XP machine and then run it elsewhere"

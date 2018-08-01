@@ -1,4 +1,5 @@
 +++
+aliases = ["/fiiiiinnnnnally-the-first-proper-leaked-pictures-of-the-ipad-3/","/2012/03/06/fiiiiinnnnnally-the-first-proper-leaked-pictures-of-the-ipad-3"]
 date = "2012-03-06T16:09:46Z"
 draft = false
 title = "Fiiiiinnnnnally, the first proper leaked pictures of the iPad 3"

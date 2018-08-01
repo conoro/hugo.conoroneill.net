@@ -1,4 +1,5 @@
 +++
+aliases = ["/separated-at-birth-philips-vr512-and-xbox-one/","/2013/05/22/separated-at-birth-philips-vr512-and-xbox-one"]
 date = "2013-05-22T07:08:40+01:00"
 draft = false
 title = "Separated at birth - Philips VR512 and XBOX One?"

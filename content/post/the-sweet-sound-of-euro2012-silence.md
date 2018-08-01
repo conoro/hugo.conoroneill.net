@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-sweet-sound-of-euro2012-silence/","/2012/06/09/the-sweet-sound-of-euro2012-silence"]
 date = "2012-06-09T12:36:54+01:00"
 draft = false
 title = "The Sweet Sound of #EURO2012 Silence"

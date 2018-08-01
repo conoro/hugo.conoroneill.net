@@ -1,4 +1,5 @@
 +++
+aliases = ["/facebook-places-is-a-total-winner/","/2010/08/20/facebook-places-is-a-total-winner"]
 date = "2010-08-20T18:54:53+01:00"
 draft = false
 title = "Facebook Places is a Total Winner"

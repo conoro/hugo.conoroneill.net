@@ -1,4 +1,5 @@
 +++
+aliases = ["/super-smart-use-of-android-portable-hotspot-from-11-yo-son/","/2010/08/04/super-smart-use-of-android-portable-hotspot-from-11-yo-son"]
 date = "2010-08-04T17:16:44+01:00"
 draft = false
 title = "Super-Smart Use of Android Portable Hotspot from 11 y/o Son"

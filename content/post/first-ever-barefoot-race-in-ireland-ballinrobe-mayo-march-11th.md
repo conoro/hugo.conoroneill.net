@@ -1,4 +1,5 @@
 +++
+aliases = ["/first-ever-barefoot-race-in-ireland-ballinrobe-mayo-march-11th/","/2012/01/25/first-ever-barefoot-race-in-ireland-ballinrobe-mayo-march-11th"]
 date = "2012-01-25T13:27:35Z"
 draft = false
 title = "First ever Barefoot race in IRELAND - Ballinrobe, Mayo - March 11th"

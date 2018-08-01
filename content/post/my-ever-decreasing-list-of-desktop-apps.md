@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-ever-decreasing-list-of-desktop-apps/","/2011/05/02/my-ever-decreasing-list-of-desktop-apps"]
 date = "2011-05-02T14:40:08+01:00"
 draft = false
 title = "My Ever Decreasing List of Desktop Apps"

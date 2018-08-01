@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-fixers-manifesto-spread-the-word/","/2012/11/20/the-fixers-manifesto-spread-the-word"]
 date = "2012-11-20T16:56:49Z"
 draft = false
 title = "The Fixer's Manifesto - Spread The Word"

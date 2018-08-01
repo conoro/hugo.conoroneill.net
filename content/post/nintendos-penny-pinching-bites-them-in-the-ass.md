@@ -1,4 +1,5 @@
 +++
+aliases = ["/nintendos-penny-pinching-bites-them-in-the-ass/","/2011/07/25/nintendos-penny-pinching-bites-them-in-the-ass"]
 date = "2011-07-25T20:34:00+01:00"
 draft = false
 title = "Nintendo's Penny Pinching Bites Them In The Ass"

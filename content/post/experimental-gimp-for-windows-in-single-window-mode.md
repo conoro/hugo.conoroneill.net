@@ -1,4 +1,5 @@
 +++
+aliases = ["/experimental-gimp-for-windows-in-single-window-mode/","/2012/02/27/experimental-gimp-for-windows-in-single-window-mode"]
 date = "2012-02-27T14:24:01Z"
 draft = false
 title = "Experimental GIMP for Windows in Single-Window Mode"

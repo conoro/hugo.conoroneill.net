@@ -1,4 +1,5 @@
 +++
+aliases = ["/so-long-google-health-hello-microsoft-healthvault/","/2011/11/24/so-long-google-health-hello-microsoft-healthvault"]
 date = "2011-11-24T12:56:06Z"
 draft = false
 title = "So long Google Health. Hello Microsoft HealthVault."

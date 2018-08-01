@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-presentation-from-3dcamp-limerick-2014/","/2014/05/21/my-presentation-from-3dcamp-limerick-2014"]
 date = "2014-05-21T07:08:47+01:00"
 draft = false
 title = "My presentation from 3D Camp Limerick. Hacking by Google Search - Building hardware with no electronics knowledge"

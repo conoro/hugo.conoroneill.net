@@ -1,4 +1,5 @@
 +++
+aliases = ["/monty-python-the-holy-book-of-days-just-buy-the-damned-thing-its-wonderful/","/2012/03/12/monty-python-the-holy-book-of-days-just-buy-the-damned-thing-its-wonderful"]
 date = "2012-03-12T18:30:53Z"
 draft = false
 title = "Monty Python: The Holy Book of Days - Just buy the damned thing, it's wonderful"

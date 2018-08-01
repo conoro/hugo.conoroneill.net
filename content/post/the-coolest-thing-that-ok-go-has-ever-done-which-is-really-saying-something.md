@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-coolest-thing-that-ok-go-has-ever-done-which-is-really-saying-something/","/2011/07/28/the-coolest-thing-that-ok-go-has-ever-done-which-is-really-saying-something"]
 date = "2011-07-28T13:02:03+01:00"
 draft = false
 title = "The Coolest Thing that OK Go Has Ever Done - Which is Really Saying Something"

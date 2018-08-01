@@ -1,4 +1,5 @@
 +++
+aliases = ["/download-compiled-version-of-nodejs-0121-stable-for-raspberry-pi-here/","/2015/03/26/download-compiled-version-of-nodejs-0121-stable-for-raspberry-pi-here"]
 date = "2015-03-26T09:56:57Z"
 draft = false
 title = "Download compiled version of Node.js 0.12.1 Stable for Raspberry Pi here"

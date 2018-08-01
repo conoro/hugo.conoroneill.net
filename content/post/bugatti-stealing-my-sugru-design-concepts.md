@@ -1,4 +1,5 @@
 +++
+aliases = ["/bugatti-stealing-my-sugru-design-concepts/","/2010/07/27/bugatti-stealing-my-sugru-design-concepts"]
 date = "2010-07-27T10:58:00+01:00"
 draft = false
 title = "Bugatti stealing my Sugru design concepts?"

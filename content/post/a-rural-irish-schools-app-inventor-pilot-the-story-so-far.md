@@ -1,4 +1,5 @@
 +++
+aliases = ["/a-rural-irish-schools-app-inventor-pilot-the-story-so-far/","/2012/01/01/a-rural-irish-schools-app-inventor-pilot-the-story-so-far"]
 date = "2012-01-01T18:01:15Z"
 draft = false
 title = "A Rural Irish School's App Inventor Pilot. The Story So Far."

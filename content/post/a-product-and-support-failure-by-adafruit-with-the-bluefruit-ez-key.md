@@ -1,4 +1,5 @@
 +++
+aliases = ["/a-product-and-support-failure-by-adafruit-with-the-bluefruit-ez-key/","/2013/11/17/a-product-and-support-failure-by-adafruit-with-the-bluefruit-ez-key"]
 date = "2013-11-17T13:32:35Z"
 draft = false
 title = "[No Longer] a Product and Support failure by Adafruit with the Bluefruit EZ-Key"

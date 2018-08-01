@@ -1,4 +1,5 @@
 +++
+aliases = ["/googles-most-infuriating-feature-finally-about-to-be-fixed/","/2010/07/06/googles-most-infuriating-feature-finally-about-to-be-fixed"]
 date = "2010-07-06T08:45:13+01:00"
 draft = false
 title = "Google's Most Infuriating Feature Finally About to be Fixed"

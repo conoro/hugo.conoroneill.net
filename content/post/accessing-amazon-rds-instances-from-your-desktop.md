@@ -1,4 +1,5 @@
 +++
+aliases = ["/accessing-amazon-rds-instances-from-your-desktop/","/2010/09/15/accessing-amazon-rds-instances-from-your-desktop"]
 date = "2010-09-15T14:00:00+01:00"
 draft = false
 title = "Accessing Amazon RDS Instances from your Desktop"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/underground-lakes-antarctic-ufos-nazis-on-the-moon-and-the-mayans/","/2012/02/10/underground-lakes-antarctic-ufos-nazis-on-the-moon-and-the-mayans"]
 date = "2012-02-10T19:37:37Z"
 draft = false
 title = "Underground Lakes, Antarctic UFOs, Nazis on The Moon and The Mayans"

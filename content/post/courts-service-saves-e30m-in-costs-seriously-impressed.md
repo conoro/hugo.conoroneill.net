@@ -1,4 +1,5 @@
 +++
+aliases = ["/courts-service-saves-e30m-in-costs-seriously-impressed/","/2011/07/13/courts-service-saves-e30m-in-costs-seriously-impressed"]
 date = "2011-07-13T14:43:00+01:00"
 draft = false
 title = "Courts Service saves 30m in costs - Seriously Impressed"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/we-need-a-computer-history-museum-for-web-apps-like-facebook-and-twitter/","/2011/09/26/we-need-a-computer-history-museum-for-web-apps-like-facebook-and-twitter"]
 date = "2011-09-26T13:05:51+01:00"
 draft = false
 title = "We Need a Computer History Museum for Web Apps like Facebook and Twitter"

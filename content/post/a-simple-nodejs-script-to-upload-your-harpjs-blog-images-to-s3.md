@@ -1,4 +1,5 @@
 +++
+aliases = ["/a-simple-nodejs-script-to-upload-your-harpjs-blog-images-to-s3/","/2014/06/22/a-simple-nodejs-script-to-upload-your-harpjs-blog-images-to-s3"]
 date = "2014-06-22T19:35:20+01:00"
 draft = false
 title = "A simple Node.js script to upload your Harp.js blog images to S3"

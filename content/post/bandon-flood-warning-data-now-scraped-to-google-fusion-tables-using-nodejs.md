@@ -1,4 +1,5 @@
 +++
+aliases = ["/bandon-flood-warning-data-now-scraped-to-google-fusion-tables-using-nodejs/","/2015/01/04/bandon-flood-warning-data-now-scraped-to-google-fusion-tables-using-nodejs"]
 date = "2015-01-04T13:42:36Z"
 draft = false
 title = "Bandon Flood Warning data now scraped to Google Fusion Tables using Node.js on ODROID-C1 and OpenShift"

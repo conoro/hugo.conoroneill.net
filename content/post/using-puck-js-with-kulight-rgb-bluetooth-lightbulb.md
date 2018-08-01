@@ -1,10 +1,9 @@
 +++
-Categories = []
-Description = "You can have huge fun with the Puck.js. Here are the settings for talking to a cheap Bluetooth lightbulb"
-Tags = []
-draft = false
+aliases = ["/using-puck-js-with-kulight-rgb-bluetooth-lightbulb/","/2017/08/20/using-puck-js-with-kulight-rgb-bluetooth-lightbulb"]
 date = "2017-08-20T18:11:00+01:00"
+draft = false
 title = "Using Puck.js with the KuLight RGB Bluetooth Lightbulb"
+description = " "
 slug = "using-puck-js-with-kulight-rgb-bluetooth-lightbulb"
 +++
 
@@ -15,13 +14,13 @@ I've been a long-time fan of the [Espruino project](https://www.espruino.com) cr
 
 [Puck.js](https://www.espruino.com/Puck.js) is a tiny button-cell-battery-powered Bluetooth board. You program it using a Chrome Web App over Bluetooth (or standalone Electron-based IDE on Windows. Glares at Google) and it'll put a smile on your face every time you do. You can use it as an iBeacon or Eddystone device or as a Bluetooth button for your computer. Basically anything with Bluetooth (BLE) is up for grabs.
 
-![Puck.js](/img/2017/08/Puck.js_board.jpg)
+![Puck.js](/images/2017/08/Puck.js_board.jpg)
 
 Gordon did a really nice [demo video](https://www.youtube.com/watch?v=LCvmmpQjnj0) of [how to control a Bluetooth lightbulb](https://www.espruino.com/Puck.js+and+Bluetooth+Lightbulbs) late last year. 
 
 I finally ordered a [random one off eBay](http://www.ebay.co.uk/itm/332254514323) recently and decided to follow his steps. As it's a different bulb, the settings are very different. So if you find yourself with a KuLight like this, 
 
-![KuLight](/img/2017/08/kulight.png)
+![KuLight](/images/2017/08/kulight.png)
 
 which uses the [ColorfulLight App](https://play.google.com/store/apps/details?id=com.cloudlink.bleled&hl=en) on iOS/Android then these are the basic settings you need, based on Gordon's code:
 

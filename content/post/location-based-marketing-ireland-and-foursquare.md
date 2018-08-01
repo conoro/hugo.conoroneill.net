@@ -1,4 +1,5 @@
 +++
+aliases = ["/location-based-marketing-ireland-and-foursquare/","/2010/05/11/location-based-marketing-ireland-and-foursquare"]
 date = "2010-05-11T08:49:00+01:00"
 draft = false
 title = "Location Based Marketing, Ireland and Foursquare"

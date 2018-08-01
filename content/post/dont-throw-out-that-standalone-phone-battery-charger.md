@@ -1,4 +1,5 @@
 +++
+aliases = ["/dont-throw-out-that-standalone-phone-battery-charger/","/2012/07/17/dont-throw-out-that-standalone-phone-battery-charger"]
 date = "2012-07-17T13:39:23+01:00"
 draft = false
 title = "Don't throw out that standalone phone battery charger"

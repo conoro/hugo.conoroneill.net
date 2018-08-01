@@ -1,4 +1,5 @@
 +++
+aliases = ["/harbour-hopping-in-west-cork-apple-uses-google-mapss-hand-me-downs/","/2012/09/20/harbour-hopping-in-west-cork-apple-uses-google-mapss-hand-me-downs"]
 date = "2012-09-20T19:18:00+01:00"
 draft = false
 title = "Harbour Hopping in West Cork - Apple uses Google Maps hand-me-downs"

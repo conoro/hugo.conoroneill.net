@@ -1,4 +1,5 @@
 +++
+aliases = ["/no-more-accidents-android-transparent-screen-app/","/2012/02/07/no-more-accidents-android-transparent-screen-app"]
 date = "2012-02-07T10:21:15Z"
 draft = false
 title = "No more accidents :-) Android Transparent Screen App"

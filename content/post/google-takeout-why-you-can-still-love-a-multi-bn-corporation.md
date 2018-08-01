@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-takeout-why-you-can-still-love-a-multi-bn-corporation/","/2011/06/29/google-takeout-why-you-can-still-love-a-multi-bn-corporation"]
 date = "2011-06-29T13:13:00+01:00"
 draft = false
 title = "Google Takeout - Why You Can Still Love A Multi-$Bn Corporation"

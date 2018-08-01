@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-profile-on-google-buzz-is-but-i-aint-happy/","/2010/02/11/my-profile-on-google-buzz-is-but-i-aint-happy"]
 date = "2010-02-11T08:27:50Z"
 draft = false
 title = "My Profile on Google Buzz is...., but I ain't happy"

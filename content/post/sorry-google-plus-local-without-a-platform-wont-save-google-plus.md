@@ -1,4 +1,5 @@
 +++
+aliases = ["/sorry-google-plus-local-without-a-platform-wont-save-google-plus/","/2012/05/31/sorry-google-plus-local-without-a-platform-wont-save-google-plus"]
 date = "2012-05-31T01:12:53+01:00"
 draft = false
 title = "Sorry Google, Plus Local without a Platform won't save Google Plus"

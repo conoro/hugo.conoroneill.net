@@ -1,4 +1,5 @@
 +++
+aliases = ["/tats-and-piercings-are-so-over-true-hipsters-are-now-sporting-nose-leds/","/2012/10/02/tats-and-piercings-are-so-over-true-hipsters-are-now-sporting-nose-leds"]
 date = "2012-10-02T12:12:54+01:00"
 draft = false
 title = "Tats and piercings are so over. True hipsters are now sporting Nose LEDs."

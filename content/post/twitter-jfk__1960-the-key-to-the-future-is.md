@@ -1,4 +1,5 @@
 +++
+aliases = ["/twitter-jfk__1960-the-key-to-the-future-is/","/2010/02/25/twitter-jfk__1960-the-key-to-the-future-is"]
 date = "2010-02-25T16:19:33Z"
 draft = false
 title = "Twitter / JFK__1960: The key to the future is ..."

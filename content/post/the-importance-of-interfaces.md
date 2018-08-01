@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-importance-of-interfaces/","/2010/10/29/the-importance-of-interfaces"]
 date = "2010-10-29T07:58:56+01:00"
 draft = false
 title = "The Importance of Interfaces"

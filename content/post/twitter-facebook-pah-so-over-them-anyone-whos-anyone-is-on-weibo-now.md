@@ -1,4 +1,5 @@
 +++
+aliases = ["/twitter-facebook-pah-so-over-them-anyone-whos-anyone-is-on-weibo-now/","/2012/02/10/twitter-facebook-pah-so-over-them-anyone-whos-anyone-is-on-weibo-now"]
 date = "2012-02-10T18:13:35Z"
 draft = false
 title = "Twitter? Facebook? Pah, so over them. Anyone who's anyone is on Weibo now"

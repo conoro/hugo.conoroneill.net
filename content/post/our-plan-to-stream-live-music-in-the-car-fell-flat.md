@@ -1,4 +1,5 @@
 +++
+aliases = ["/our-plan-to-stream-live-music-in-the-car-fell-flat/","/2011/10/31/our-plan-to-stream-live-music-in-the-car-fell-flat"]
 date = "2011-10-31T16:46:07Z"
 draft = false
 title = "Our Plan to Stream Live Music in the Car Fell Flat"

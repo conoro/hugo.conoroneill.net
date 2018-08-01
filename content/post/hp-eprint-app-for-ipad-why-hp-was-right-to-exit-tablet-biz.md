@@ -1,4 +1,5 @@
 +++
+aliases = ["/hp-eprint-app-for-ipad-why-hp-was-right-to-exit-tablet-biz/","/2011/12/30/hp-eprint-app-for-ipad-why-hp-was-right-to-exit-tablet-biz"]
 date = "2011-12-30T14:26:57Z"
 draft = false
 title = "HP ePrint App for iPad - Why HP was right to exit Tablet Biz"

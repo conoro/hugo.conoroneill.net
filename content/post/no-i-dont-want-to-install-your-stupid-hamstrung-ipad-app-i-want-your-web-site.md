@@ -1,4 +1,5 @@
 +++
+aliases = ["/no-i-dont-want-to-install-your-stupid-hamstrung-ipad-app-i-want-your-web-site/","/2012/02/08/no-i-dont-want-to-install-your-stupid-hamstrung-ipad-app-i-want-your-web-site"]
 date = "2012-02-08T08:16:03Z"
 draft = false
 title = "No I don't want to install your stupid hamstrung iPad App, I want your web-site"

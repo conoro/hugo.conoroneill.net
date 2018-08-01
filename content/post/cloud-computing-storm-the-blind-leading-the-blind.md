@@ -1,4 +1,5 @@
 +++
+aliases = ["/cloud-computing-storm-the-blind-leading-the-blind/","/2010/03/05/cloud-computing-storm-the-blind-leading-the-blind"]
 date = "2010-03-05T16:26:04Z"
 draft = false
 title = "Cloud computing storm - The blind leading the blind"

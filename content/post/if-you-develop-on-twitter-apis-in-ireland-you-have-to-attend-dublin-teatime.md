@@ -1,4 +1,5 @@
 +++
+aliases = ["/if-you-develop-on-twitter-apis-in-ireland-you-have-to-attend-dublin-teatime/","/2012/02/06/if-you-develop-on-twitter-apis-in-ireland-you-have-to-attend-dublin-teatime"]
 date = "2012-02-06T10:05:40Z"
 draft = false
 title = "If you develop on Twitter APIs in Ireland, you have to attend Dublin Teatime"

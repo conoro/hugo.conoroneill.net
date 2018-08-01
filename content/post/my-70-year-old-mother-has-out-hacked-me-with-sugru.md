@@ -1,4 +1,5 @@
 +++
+aliases = ["/my-70-year-old-mother-has-out-hacked-me-with-sugru/","/2012/05/20/my-70-year-old-mother-has-out-hacked-me-with-sugru"]
 date = "2012-05-20T11:48:15+01:00"
 draft = false
 title = "My 70 year-old Mother has out-hacked me with Sugru"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/honestly-this-world-cup-tweetdeck-filter-is-so-good-i-will-never-see-this-post/","/2010/06/11/honestly-this-world-cup-tweetdeck-filter-is-so-good-i-will-never-see-this-post"]
 date = "2010-06-11T17:08:03+01:00"
 draft = false
 title = "Honestly, this World Cup TweetDeck Filter is so good, I will never see this post"

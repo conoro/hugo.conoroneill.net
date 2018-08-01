@@ -1,4 +1,5 @@
 +++
+aliases = ["/that-means-7000-out-of-26m-people-on-skype-are-using-video-chat-right-now/","/2011/07/06/that-means-7000-out-of-26m-people-on-skype-are-using-video-chat-right-now"]
 date = "2011-07-06T19:05:06+01:00"
 draft = false
 title = "That means 7,000 out of 26m people on Skype are using Video Chat right now"

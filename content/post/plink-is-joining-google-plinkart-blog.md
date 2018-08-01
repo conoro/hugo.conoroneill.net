@@ -1,4 +1,5 @@
 +++
+aliases = ["/plink-is-joining-google-plinkart-blog/","/2010/04/12/plink-is-joining-google-plinkart-blog"]
 date = "2010-04-12T12:32:31+01:00"
 draft = false
 title = "Plink is joining Google! PlinkArt Blog"

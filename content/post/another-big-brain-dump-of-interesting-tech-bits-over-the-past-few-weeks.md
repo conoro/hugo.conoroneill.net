@@ -1,4 +1,5 @@
 +++
+aliases = ["/another-big-brain-dump-of-interesting-tech-bits-over-the-past-few-weeks/","/2013/09/07/another-big-brain-dump-of-interesting-tech-bits-over-the-past-few-weeks"]
 date = "2013-09-07T11:21:14+01:00"
 draft = false
 title = "Another big brain dump of interesting tech bits over the past few weeks"

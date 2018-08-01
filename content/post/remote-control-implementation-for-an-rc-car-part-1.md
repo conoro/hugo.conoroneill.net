@@ -1,4 +1,5 @@
 +++
+aliases = ["/remote-control-implementation-for-an-rc-car-part-1/","/2013/05/19/remote-control-implementation-for-an-rc-car-part-1"]
 date = "2013-05-19T15:04:12+01:00"
 draft = false
 title = "Remote Control implementation for an RC Car - Part 1"

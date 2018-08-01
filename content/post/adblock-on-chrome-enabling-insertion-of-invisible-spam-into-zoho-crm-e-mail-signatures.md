@@ -1,4 +1,5 @@
 +++
+aliases = ["/adblock-on-chrome-enabling-insertion-of-invisible-spam-into-zoho-crm-e-mail-signatures/","/2010/05/26/adblock-on-chrome-enabling-insertion-of-invisible-spam-into-zoho-crm-e-mail-signatures"]
 date = "2010-05-26T14:41:00+01:00"
 draft = false
 title = "AdBlock on Chrome enabling insertion of invisible spam into Zoho CRM e-mail signatures"

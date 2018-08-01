@@ -1,4 +1,5 @@
 +++
+aliases = ["/say-hello-to-my-little-friend-the-fitbit-xl-with-external-battery-by-conor/","/2014/12/13/say-hello-to-my-little-friend-the-fitbit-xl-with-external-battery-by-conor"]
 date = "2014-12-13T19:59:24Z"
 draft = false
 title = "Say hello to my little friend. The Fitbit XL with external battery by Conor"

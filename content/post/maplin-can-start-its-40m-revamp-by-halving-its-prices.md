@@ -1,4 +1,5 @@
 +++
+aliases = ["/maplin-can-start-its-40m-revamp-by-halving-its-prices/","/2012/07/07/maplin-can-start-its-40m-revamp-by-halving-its-prices"]
 date = "2012-07-07T19:49:03+01:00"
 draft = false
 title = "Maplin can start its 40m revamp by halving its prices"

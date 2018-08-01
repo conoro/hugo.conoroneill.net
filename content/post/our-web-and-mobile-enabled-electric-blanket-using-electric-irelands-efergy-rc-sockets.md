@@ -1,4 +1,5 @@
 +++
+aliases = ["/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets/","/2014/03/23/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets"]
 date = "2014-03-23T15:10:44Z"
 draft = false
 title = "Our web and mobile enabled electric blanket using Electric Ireland's Efergy RC sockets"

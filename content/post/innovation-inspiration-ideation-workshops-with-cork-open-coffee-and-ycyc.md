@@ -1,4 +1,5 @@
 +++
+aliases = ["/innovation-inspiration-ideation-workshops-with-cork-open-coffee-and-ycyc/","/2010/03/31/innovation-inspiration-ideation-workshops-with-cork-open-coffee-and-ycyc"]
 date = "2010-03-31T17:48:20+01:00"
 draft = false
 title = "Innovation, inspiration & ideation workshops with Cork Open Coffee and YCYC"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/fuji-finepix-4200-ipad-usb-adapter-fab/","/2012/04/08/fuji-finepix-4200-ipad-usb-adapter-fab"]
 date = "2012-04-08T13:24:57+01:00"
 draft = false
 title = "Fuji Finepix 4200 + iPad + USB Adapter = Fab"

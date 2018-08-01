@@ -1,4 +1,5 @@
 +++
+aliases = ["/map-of-dublin-1798/","/2010/04/07/map-of-dublin-1798"]
 date = "2010-04-07T18:50:19+01:00"
 draft = false
 title = "Map Of Dublin 1798."

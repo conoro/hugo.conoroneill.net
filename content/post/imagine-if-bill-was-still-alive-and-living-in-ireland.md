@@ -1,4 +1,5 @@
 +++
+aliases = ["/imagine-if-bill-was-still-alive-and-living-in-ireland/","/2010/03/16/imagine-if-bill-was-still-alive-and-living-in-ireland"]
 date = "2010-03-16T19:06:01Z"
 draft = false
 title = "Imagine if Bill was still alive. And living in Ireland."

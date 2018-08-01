@@ -1,4 +1,5 @@
 +++
+aliases = ["/instant-google-cloudos-reaction/","/2010/02/03/instant-google-cloudos-reaction"]
 date = "2010-02-03T09:29:00Z"
 draft = false
 title = "Instant Google CloudOS Reaction"

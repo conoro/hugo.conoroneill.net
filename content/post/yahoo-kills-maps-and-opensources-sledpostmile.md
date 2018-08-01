@@ -1,4 +1,5 @@
 +++
+aliases = ["/yahoo-kills-maps-and-opensources-sledpostmile/","/2011/09/02/yahoo-kills-maps-and-opensources-sledpostmile"]
 date = "2011-09-02T08:37:03+01:00"
 draft = false
 title = "Yahoo Kills Maps and OpenSources Sled/Postmile"

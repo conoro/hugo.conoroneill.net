@@ -1,4 +1,5 @@
 +++
+aliases = ["/the-big-problem-with-google-places-and-now-hotpot/","/2010/11/16/the-big-problem-with-google-places-and-now-hotpot"]
 date = "2010-11-16T11:04:08Z"
 draft = false
 title = "The big problem with Google Places and now Hotpot"

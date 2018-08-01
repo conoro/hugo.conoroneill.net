@@ -1,4 +1,5 @@
 +++
+aliases = ["/oh-here-we-go-again-with-android-ebookstore-and-country-specific-crap/","/2010/12/06/oh-here-we-go-again-with-android-ebookstore-and-country-specific-crap"]
 date = "2010-12-06T15:37:00Z"
 draft = false
 title = "Oh here we go again with Android ebookstore and country-specific crap"

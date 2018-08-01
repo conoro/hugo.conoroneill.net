@@ -1,4 +1,5 @@
 +++
+aliases = ["/with-the-enigma-2-software-the-sab-unix-hd-triple-tuner-is-a-very-impressive-satelliteterrestrial-box/","/2014/03/09/with-the-enigma-2-software-the-sab-unix-hd-triple-tuner-is-a-very-impressive-satelliteterrestrial-box"]
 date = "2014-03-09T18:39:08Z"
 draft = false
 title = "With the Enigma 2 software, the Sab Unix HD Triple Tuner is a very impressive satellite/terrestrial box"

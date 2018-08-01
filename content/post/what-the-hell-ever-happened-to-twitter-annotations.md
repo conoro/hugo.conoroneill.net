@@ -1,4 +1,5 @@
 +++
+aliases = ["/what-the-hell-ever-happened-to-twitter-annotations/","/2010/12/29/what-the-hell-ever-happened-to-twitter-annotations"]
 date = "2010-12-29T13:43:21Z"
 draft = false
 title = "What the hell ever happened to Twitter Annotations?"

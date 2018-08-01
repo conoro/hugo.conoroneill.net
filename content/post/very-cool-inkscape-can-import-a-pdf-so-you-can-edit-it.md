@@ -1,4 +1,5 @@
 +++
+aliases = ["/very-cool-inkscape-can-import-a-pdf-so-you-can-edit-it/","/2011/03/24/very-cool-inkscape-can-import-a-pdf-so-you-can-edit-it"]
 date = "2011-03-24T18:07:26Z"
 draft = false
 title = "Very cool, Inkscape can import a PDF so you can edit it"

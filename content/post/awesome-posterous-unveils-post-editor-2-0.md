@@ -1,4 +1,5 @@
 +++
+aliases = ["/awesome-posterous-unveils-post-editor-2-0/","/2010/04/09/awesome-posterous-unveils-post-editor-2-0"]
 date = "2010-04-09T19:40:20+01:00"
 draft = false
 title = "Awesome - Posterous unveils Post Editor 2.0"

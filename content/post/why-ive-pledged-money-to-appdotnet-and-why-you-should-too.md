@@ -1,4 +1,5 @@
 +++
+aliases = ["/why-ive-pledged-money-to-appdotnet-and-why-you-should-too/","/2012/08/09/why-ive-pledged-money-to-appdotnet-and-why-you-should-too"]
 date = "2012-08-09T11:38:35+01:00"
 draft = false
 title = "Why I've pledged money to @AppDotNet and why you should too"

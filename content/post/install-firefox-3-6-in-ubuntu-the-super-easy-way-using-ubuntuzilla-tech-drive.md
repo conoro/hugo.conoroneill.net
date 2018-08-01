@@ -1,4 +1,5 @@
 +++
+aliases = ["/install-firefox-3-6-in-ubuntu-the-super-easy-way-using-ubuntuzilla-tech-drive/","/2010/02/13/install-firefox-3-6-in-ubuntu-the-super-easy-way-using-ubuntuzilla-tech-drive"]
 date = "2010-02-13T20:59:21Z"
 draft = false
 title = "Install Firefox 3.6 in Ubuntu the Super Easy Way using Ubuntuzilla | Tech Drive"

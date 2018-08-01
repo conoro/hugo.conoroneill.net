@@ -1,4 +1,5 @@
 +++
+aliases = ["/child-abuse-and-cover-ups-are-about-power/","/2010/04/17/child-abuse-and-cover-ups-are-about-power"]
 date = "2010-04-17T12:21:15+01:00"
 draft = false
 title = "Child abuse and cover-ups are about power."

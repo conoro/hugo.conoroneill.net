@@ -1,4 +1,5 @@
 +++
+aliases = ["/i-was-all-excited-about-mapquest-open-for-about-30-seconds/","/2010/12/16/i-was-all-excited-about-mapquest-open-for-about-30-seconds"]
 date = "2010-12-16T13:28:00Z"
 draft = false
 title = "I was all excited about Mapquest Open for about 30 Seconds"

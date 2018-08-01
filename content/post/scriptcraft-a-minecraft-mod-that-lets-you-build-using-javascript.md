@@ -1,4 +1,5 @@
 +++
+aliases = ["/scriptcraft-a-minecraft-mod-that-lets-you-build-using-javascript/","/2012/12/27/scriptcraft-a-minecraft-mod-that-lets-you-build-using-javascript"]
 date = "2012-12-27T13:41:45Z"
 draft = false
 title = "ScriptCraft - A Minecraft mod that lets you build using Javascript"

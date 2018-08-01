@@ -1,10 +1,9 @@
 +++
-Categories = []
-Description = "10 years of Wii comes to an end in West Cork"
-Tags = []
-draft = false
+aliases = ["/end-of-an-era-our-wii-is-going-in-the-attic/","/2017/12/24/end-of-an-era-our-wii-is-going-in-the-attic"]
 date = "2017-12-24T09:00:00+00:00"
+draft = false
 title = "End of an era - Our Wii is going in the attic"
+description = " "
 slug = "end-of-an-era-our-wii-is-going-in-the-attic"
 +++
 
@@ -14,7 +13,7 @@ We became a Nintendo house in 2005 with my US purchase of the original DS for th
 
 Our first Wii was bought in 2007 and it was an instant hit. Those controllers were amazing. We got a second Wii a year or two later and of course we got the Wii Fit board.
 
-![Nintendo Wii](/img/2017/12/1024px-Wii-console.jpg)
+![Nintendo Wii](/images/2017/12/1024px-Wii-console.jpg)
 
 We've had 10 years of almost continuous use of the Wiis as they migrated from child to child. Despite the crappy graphics and 480p resolution, the gameplay brought the kids back time and again. I always thought the hardcore gaming guys on the likes of Engadget and Gizmodo showed their limited worldview by describing the Wii as gimmicky. They had clearly forgotten what it was like to be a small kid.
 

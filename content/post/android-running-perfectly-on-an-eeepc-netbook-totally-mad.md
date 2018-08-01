@@ -1,4 +1,5 @@
 +++
+aliases = ["/android-running-perfectly-on-an-eeepc-netbook-totally-mad/","/2011/06/29/android-running-perfectly-on-an-eeepc-netbook-totally-mad"]
 date = "2011-06-29T14:56:00+01:00"
 draft = false
 title = "Android Running Perfectly on an EeePC Netbook. Totally Mad."

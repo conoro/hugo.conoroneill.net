@@ -1,4 +1,5 @@
 +++
+aliases = ["/british-bishops-as-congenitally-stupid-as-their-irish-peers/","/2010/02/16/british-bishops-as-congenitally-stupid-as-their-irish-peers"]
 date = "2010-02-16T13:15:50Z"
 draft = false
 title = "British bishops as congenitally stupid as their Irish peers"

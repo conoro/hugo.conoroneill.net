@@ -1,4 +1,5 @@
 +++
+aliases = ["/a-few-quick-thoughts-on-google-health-being-canned/","/2011/06/25/a-few-quick-thoughts-on-google-health-being-canned"]
 date = "2011-06-25T17:08:57+01:00"
 draft = false
 title = "A Few Quick Thoughts on Google Health Being Canned"

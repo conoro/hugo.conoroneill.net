@@ -1,4 +1,5 @@
 +++
+aliases = ["/facebook-is-removing-app-profile-pages-this-affects-a-lot-of-devs/","/2011/12/12/facebook-is-removing-app-profile-pages-this-affects-a-lot-of-devs"]
 date = "2011-12-12T14:59:00Z"
 draft = false
 title = "Facebook is removing App Profile Pages - This affects a lot of Devs"

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Monitoring EC2 Servers with Zabbix &middot;  Cross Dominant" />
+  	<meta property="og:site_name" content="Cross Dominant" />
+  	<meta property="og:url" content="https://conoroneill.net/2011/03/06/monitoring-ec2-servers-with-zabbix/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2011-03-06T12:16:00Z" />
+
+    
+    
+
+  <title>
+     Monitoring EC2 Servers with Zabbix &middot;  Cross Dominant
+  </title>
+
+    <meta name="description" content="Mixed laterality since 1968" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://conoroneill.net//favicon.ico">
+	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+
+    
+        <link href="index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
+    
+    <meta name="generator" content="Hugo 0.42.1" />
+
+    <link rel="canonical" href="https://conoroneill.net/2011/03/06/monitoring-ec2-servers-with-zabbix/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88610-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+
+        
+    </ul>
+
+
+    
+    <a class="subscribe-button icon-feed" href="index.xml">Subscribe</a> </div>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Monitoring EC2 Servers with Zabbix</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2011-03-06T12:16:00Z">
+            Mar 6, 2011
+          </time>
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>#&ldquo;Monitoring EC2 Servers with Zabbix&rdquo;</p>
+
+<p><div>Amazon Cloudfront is great for monitoring EC2 servers but it can only do external monitoring so it cannot see things like memory being exhausted etc. I tried using Cacti but it was a nightmare to configure with plugins. Nagios always looks like it&rsquo;d take weeks to sort out.</div>
+<p />
+<div>A bit of Googling found Zabbix and people seem to like it. Install was a doddle but configuring can be a pain unless you just copy the demo settings.</div>
+<p />
+<div>You can obviously install all of this on the server to be monitored but it is only useful in non-catastrophic cases. If the server runs out of memory or goes to 100% CPU you won&rsquo;t be able to login to see what happened in the run-up. So ideally use a separate server. We use one of our test servers for monitoring since they spend most of their time unstressed.</div>
+<p />
+<p />
+<div><strong><span style="text-decoration: underline;">The Monitoring Server Install</span></strong></div>
+<p />
+<div><span style="font-family: courier new, monospace;">sudo aptitude install zabbix-server-mysql zabbix-frontend-php</span></div>
+<div><span style="font-family: courier new, monospace;">sudo vi /etc/php5/apache2/php.ini</span></div>
+<div>Increase some of the PHP variables in that file (you will be warned when you login to the Admin Panel)</div>
+<p />
+<div><span style="font-family: courier new, monospace;">sudo /etc/init.d/apache2 restart</span></div>
+<div><span style="font-family: courier new, monospace;">sudo apt-get install zabbix-agent</span></div>
+<p />
+<div>go to <a href="http://name.of.server/zabbix">http://name.of.server/zabbix</a></div>
+<div>Login with user=admin, password=zabbix</div>
+<p />
+<div><strong><span style="text-decoration: underline;">Each Monitored Server Install</span></strong></div>
+<p />
+<div><span style="font-family: courier new, monospace;">sudo apt-get install zabbix-agent</span></div>
+<div><span style="font-family: courier new, monospace;">cd /etc/zabbix</span></div>
+<div><span style="font-family: courier new, monospace;">sudo vim zabbix_agent.conf</span></div>
+<div>Add the Monitoring Server&rsquo;s Public and Private IP addresses</div>
+<div>Open up ports 10050 and 10051 in your EC2 security group (using Elasticfox or similar) and allow the monitoring server&rsquo;s private IP</div>
+<p />
+<div><span style="font-family: courier new, monospace;">sudo /etc/init.d/zabbix-agent restart</span></div>
+<p />
+<div><strong><span style="text-decoration: underline;">SNMP (Optional)</span></strong></div>
+<p />
+<div>You can use SNMP monitoring too but the Zabbix agent seems ok so far.</div>
+<p />
+<p />
+<div><strong><span style="text-decoration: underline;">Extra Config Afterwards</span></strong></div>
+<p />
+<div>The easiest way to start monitoring is to do a full clone of the demo localhost monitoring and just change the IP address and DNS name to the monitored server.</div>
+<p />
+<p />
+<div><strong><span style="text-decoration: underline;">Authenticated SMTP Alerts</span></strong></div>
+<p />
+<div>We use AuthSMTP for all email sending from EC2. Zabbix doesn&rsquo;t handle authenticated SMTP out of the box so you have to use an external script.</div>
+<p />
+<div><span style="font-family: courier new, monospace;">sudo apt-get install sendEmail</span></div>
+<p />
+<div>Create a script &ldquo;zabbix_sendemail&rdquo; (chmod 755) in the AlertScriptsPath folder specified by /etc/zabbix/zabbix_server.conf (/etc/zabbix/alert.d/)</div>
+<div>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</div>
+<div><span style="font-family: courier new, monospace;">#!/bin/sh</span></div>
+<p />
+<div><span style="font-family: courier new, monospace;">export smtpemailfrom=<a href="mailto:zabbix@yourdomain.com">zabbix@yourdomain.com</a></span></div>
+<div><span style="font-family: courier new, monospace;">export zabbixemailto=$1</span></div>
+<div><span style="font-family: courier new, monospace;">export zabbixsubject=$2</span></div>
+<div><span style="font-family: courier new, monospace;">export zabbixbody=$3</span></div>
+<div><span style="font-family: courier new, monospace;">export smtpserver=<a href="http://yoursmtpserver.com">yoursmtpserver.com</a></span></div>
+<div><span style="font-family: courier new, monospace;">export smtplogin=smtpuser</span></div>
+<div><span style="font-family: courier new, monospace;">export smtppass=smtppassword</span></div>
+<p />
+<div><span style="font-family: courier new, monospace;">/usr/bin/sendEmail -f $smtpemailfrom -t $zabbixemailto -u $zabbixsubject -m $zabbixbody -s $smtpserver:25 -xu $smtplogin -xp $smtppass</span></div>
+<div>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</div>
+<p />
+<div>Set a Media Type (Administration / Media types) script to zabbix_sendemail</div>
+<div>Add that Media to the Admin user (Administration / Users / user)</div>
+<div>
+<div>Set the Action (Configurations / Actions) for the alert(s) you want to trigger on and who should get them (Admin)&nbsp;</div>
+</div>
+<p />
+<div>
+<div><strong><span style="text-decoration: underline;">SMS Alerts</span></strong></div>
+<p />
+<div>Sign up for something like Clickatell and buy a block of 400 credits for &euro;17. Then repeat the steps for SMTP above but with the following script. I have both SMS and email set to be sent on certain triggers like low memory.</div>
+<p />
+<div>
+<div>#! /bin/sh</div>
+<p />
+<div>/usr/bin/wget &ndash;spider &ndash;no-check-certificate &ldquo;<a href="http://api.clickatell.com/http/s">http://api.clickatell.com/http/s</a></div>
+<div>endmsg?api_id=NNNNNNN&amp;user=XXXXXXXXX&amp;password=YYYYYYY&amp;to=$1&amp;text=$2&rdquo;</div>
+</div>
+</div>
+<p />
+<p />
+<p />
+<div><strong><span style="text-decoration: underline;">Monitor What?</span></strong></div>
+<p />
+<div>Zabbix allows you to monitor a wide range of parameters and processes. So everything from network activity to whether your FTP server is contactable. It&rsquo;s not the easiest web-app to configure but so far I&rsquo;m finding it extremely useful.</div></p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
+  
+  <p>Tech guy who likes running slowly</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Monitoring%20EC2%20Servers%20with%20Zabbix&amp;url=https%3a%2f%2fconoroneill.net%2f2011%2f03%2f06%2fmonitoring-ec2-servers-with-zabbix%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fconoroneill.net%2f2011%2f03%2f06%2fmonitoring-ec2-servers-with-zabbix%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fconoroneill.net%2f2011%2f03%2f06%2fmonitoring-ec2-servers-with-zabbix%2f&amp;description=Monitoring%20EC2%20Servers%20with%20Zabbix"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fconoroneill.net%2f2011%2f03%2f06%2fmonitoring-ec2-servers-with-zabbix%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'crossdominant';
+  var disqus_url = 'https:\/\/conoroneill.net\/2011\/03\/06\/monitoring-ec2-servers-with-zabbix\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cross Dominant</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
+    
+</body>
+</html>
+

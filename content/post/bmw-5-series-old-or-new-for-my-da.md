@@ -1,4 +1,5 @@
 +++
+aliases = ["/bmw-5-series-old-or-new-for-my-da/","/2010/02/20/bmw-5-series-old-or-new-for-my-da"]
 date = "2010-02-20T13:52:29Z"
 draft = false
 title = "BMW 5-Series. Old or new for my Da?"

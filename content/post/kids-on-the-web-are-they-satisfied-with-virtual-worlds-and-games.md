@@ -1,4 +1,5 @@
 +++
+aliases = ["/kids-on-the-web-are-they-satisfied-with-virtual-worlds-and-games/","/2010/02/13/kids-on-the-web-are-they-satisfied-with-virtual-worlds-and-games"]
 date = "2010-02-13T11:50:51Z"
 draft = false
 title = "Kids on The Web: Are They Satisfied With Virtual Worlds and Games?"

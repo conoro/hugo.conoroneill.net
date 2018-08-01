@@ -1,4 +1,5 @@
 +++
+aliases = ["/i-could-honestly-listen-to-anssi-vanjoki-speak-all-day/","/2010/02/24/i-could-honestly-listen-to-anssi-vanjoki-speak-all-day"]
 date = "2010-02-24T13:43:12Z"
 draft = false
 title = "I could honestly listen to Anssi Vanjoki speak all day."

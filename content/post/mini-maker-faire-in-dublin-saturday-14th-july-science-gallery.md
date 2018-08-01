@@ -1,4 +1,5 @@
 +++
+aliases = ["/mini-maker-faire-in-dublin-saturday-14th-july-science-gallery/","/2012/06/28/mini-maker-faire-in-dublin-saturday-14th-july-science-gallery"]
 date = "2012-06-28T18:35:05+01:00"
 draft = false
 title = "Mini Maker Faire in Dublin, Saturday 14th July, Science Gallery"

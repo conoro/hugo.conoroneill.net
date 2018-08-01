@@ -1,4 +1,5 @@
 +++
+aliases = ["/if-you-watch-one-youtube-video-this-weekend-watch-this-ted-one-on-how-arduino-is-open-sourcing-imagination/","/2012/06/30/if-you-watch-one-youtube-video-this-weekend-watch-this-ted-one-on-how-arduino-is-open-sourcing-imagination"]
 date = "2012-06-30T20:23:30+01:00"
 draft = false
 title = "If you watch one YouTube video this weekend, watch this TED one on how Arduino is open-sourcing imagination"

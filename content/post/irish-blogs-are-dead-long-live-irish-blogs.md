@@ -1,4 +1,5 @@
 +++
+aliases = ["/irish-blogs-are-dead-long-live-irish-blogs/","/2010/02/20/irish-blogs-are-dead-long-live-irish-blogs"]
 date = "2010-02-20T13:26:54Z"
 draft = false
 title = "Irish Blogs are Dead. Long Live Irish Blogs"

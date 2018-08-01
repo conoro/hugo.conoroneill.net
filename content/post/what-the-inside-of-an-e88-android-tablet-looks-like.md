@@ -1,4 +1,5 @@
 +++
+aliases = ["/what-the-inside-of-an-e88-android-tablet-looks-like/","/2013/04/21/what-the-inside-of-an-e88-android-tablet-looks-like"]
 date = "2013-04-21T15:48:18+01:00"
 draft = false
 title = "What the inside of an 88 Android Tablet looks like"

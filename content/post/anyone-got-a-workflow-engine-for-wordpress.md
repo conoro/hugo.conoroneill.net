@@ -1,4 +1,5 @@
 +++
+aliases = ["/anyone-got-a-workflow-engine-for-wordpress/","/2010/02/14/anyone-got-a-workflow-engine-for-wordpress"]
 date = "2010-02-14T20:14:40Z"
 draft = false
 title = "Anyone got a workflow engine for Wordpress?"

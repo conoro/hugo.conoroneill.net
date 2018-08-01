@@ -1,4 +1,5 @@
 +++
+aliases = ["/an-oldie-but-a-goodie-venture-capitalist-t-shirts/","/2010/03/01/an-oldie-but-a-goodie-venture-capitalist-t-shirts"]
 date = "2010-03-01T15:07:00Z"
 draft = false
 title = "An oldie but a goodie - Venture Capitalist T-Shirts"

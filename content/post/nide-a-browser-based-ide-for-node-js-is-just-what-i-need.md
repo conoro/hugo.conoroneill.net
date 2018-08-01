@@ -1,4 +1,5 @@
 +++
+aliases = ["/nide-a-browser-based-ide-for-node-js-is-just-what-i-need/","/2011/12/20/nide-a-browser-based-ide-for-node-js-is-just-what-i-need"]
 date = "2011-12-20T18:50:00Z"
 draft = false
 title = "nide, a browser-based IDE for Node.JS is just what I need"

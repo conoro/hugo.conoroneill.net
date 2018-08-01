@@ -1,4 +1,5 @@
 +++
+aliases = ["/mini-review-of-google-app-inventor-beginners-guide-by-ralph-roberts/","/2011/12/28/mini-review-of-google-app-inventor-beginners-guide-by-ralph-roberts"]
 date = "2011-12-28T12:45:02Z"
 draft = false
 title = "Mini-Review of Google App Inventor Beginner's Guide by Ralph Roberts"

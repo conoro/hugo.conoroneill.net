@@ -1,4 +1,5 @@
 +++
+aliases = ["/seeing-1s-not-1s-of-google-updates-about-aras11/","/2011/10/24/seeing-1s-not-1s-of-google-updates-about-aras11"]
 date = "2011-10-24T13:39:12+01:00"
 draft = false
 title = "Seeing 1's (not +1's) of Google+ Updates about #aras11"

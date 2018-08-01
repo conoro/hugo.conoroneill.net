@@ -1,4 +1,5 @@
 +++
+aliases = ["/demand-led-innovation-workshops/","/2010/03/28/demand-led-innovation-workshops"]
 date = "2010-03-28T19:39:36+01:00"
 draft = false
 title = "Demand Led Innovation Workshops"

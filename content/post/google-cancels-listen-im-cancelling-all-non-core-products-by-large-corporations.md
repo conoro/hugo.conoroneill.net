@@ -1,4 +1,5 @@
 +++
+aliases = ["/google-cancels-listen-im-cancelling-all-non-core-products-by-large-corporations/","/2012/08/04/google-cancels-listen-im-cancelling-all-non-core-products-by-large-corporations"]
 date = "2012-08-04T21:05:00+01:00"
 draft = false
 title = "Google cancels Listen. I'm cancelling all non-core products by large corporations"

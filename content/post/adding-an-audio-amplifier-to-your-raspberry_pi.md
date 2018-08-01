@@ -1,4 +1,5 @@
 +++
+aliases = ["/adding-an-audio-amplifier-to-your-raspberry_pi/","/2013/04/14/adding-an-audio-amplifier-to-your-raspberry_pi"]
 date = "2013-04-14T14:02:18+01:00"
 draft = false
 title = "Adding an audio amplifier to your @Raspberry_Pi"

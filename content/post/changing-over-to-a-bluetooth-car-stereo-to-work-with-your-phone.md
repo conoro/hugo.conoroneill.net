@@ -1,4 +1,5 @@
 +++
+aliases = ["/changing-over-to-a-bluetooth-car-stereo-to-work-with-your-phone/","/2012/01/13/changing-over-to-a-bluetooth-car-stereo-to-work-with-your-phone"]
 date = "2012-01-13T09:10:28Z"
 draft = false
 title = "Changing over to a Bluetooth car stereo to work with your phone"

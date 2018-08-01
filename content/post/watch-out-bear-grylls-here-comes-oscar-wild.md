@@ -1,4 +1,5 @@
 +++
+aliases = ["/watch-out-bear-grylls-here-comes-oscar-wild/","/2012/03/31/watch-out-bear-grylls-here-comes-oscar-wild"]
 date = "2012-03-31T19:15:58+01:00"
 draft = false
 title = "Watch out Bear Grylls, here comes Oscar Wild"

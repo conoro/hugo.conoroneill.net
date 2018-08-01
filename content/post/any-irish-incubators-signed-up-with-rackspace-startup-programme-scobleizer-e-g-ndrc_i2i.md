@@ -1,4 +1,5 @@
 +++
+aliases = ["/any-irish-incubators-signed-up-with-rackspace-startup-programme-scobleizer-e-g-ndrc_i2i/","/2011/08/31/any-irish-incubators-signed-up-with-rackspace-startup-programme-scobleizer-e-g-ndrc_i2i"]
 date = "2011-08-31T08:02:00+01:00"
 draft = false
 title = "Any Irish Incubators Signed-Up with Rackspace Startup Programme @scobleizer e.g. @ndrc_i2i ?"

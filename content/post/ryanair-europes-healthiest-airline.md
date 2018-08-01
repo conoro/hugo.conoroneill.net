@@ -1,4 +1,5 @@
 +++
+aliases = ["/ryanair-europes-healthiest-airline/","/2010/07/03/ryanair-europes-healthiest-airline"]
 date = "2010-07-03T12:30:17+01:00"
 draft = false
 title = "Ryanair, Europe's Healthiest Airline"

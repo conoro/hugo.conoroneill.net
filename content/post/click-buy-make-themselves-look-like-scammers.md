@@ -1,4 +1,5 @@
 +++
+aliases = ["/click-buy-make-themselves-look-like-scammers/","/2010/02/03/click-buy-make-themselves-look-like-scammers"]
 date = "2010-02-03T13:58:40Z"
 draft = false
 title = "Click & Buy make themselves look like scammers"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/praise-allah-chris-morris-is-back-and-hes-packing/","/2010/03/19/praise-allah-chris-morris-is-back-and-hes-packing"]
 date = "2010-03-19T06:50:33Z"
 draft = false
 title = "Praise Allah, Chris Morris is back and he's packing"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/new-hedge-fund-uses-twitter-to-pick-stocks/","/2010/12/22/new-hedge-fund-uses-twitter-to-pick-stocks"]
 date = "2010-12-22T19:10:00Z"
 draft = false
 title = "New Hedge Fund Uses Twitter To Pick Stocks"

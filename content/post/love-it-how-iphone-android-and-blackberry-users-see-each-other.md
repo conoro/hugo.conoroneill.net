@@ -1,4 +1,5 @@
 +++
+aliases = ["/love-it-how-iphone-android-and-blackberry-users-see-each-other/","/2010/11/04/love-it-how-iphone-android-and-blackberry-users-see-each-other"]
 date = "2010-11-04T18:28:00Z"
 draft = false
 title = "Love it - How iPhone, Android and BlackBerry users see each other"

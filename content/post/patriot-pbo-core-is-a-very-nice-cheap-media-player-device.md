@@ -1,4 +1,5 @@
 +++
+aliases = ["/patriot-pbo-core-is-a-very-nice-cheap-media-player-device/","/2012/02/19/patriot-pbo-core-is-a-very-nice-cheap-media-player-device"]
 date = "2012-02-19T14:20:42Z"
 draft = false
 title = "Patriot PBO Core is a very nice cheap Media Player device"

@@ -1,4 +1,5 @@
 +++
+aliases = ["/first-two-trivial-parts-of-getting-app-inventor-working-on-raspberry-pi-done/","/2012/04/28/first-two-trivial-parts-of-getting-app-inventor-working-on-raspberry-pi-done"]
 date = "2012-04-28T13:10:13+01:00"
 draft = false
 title = "First two trivial parts of getting App Inventor working on Raspberry Pi done"
