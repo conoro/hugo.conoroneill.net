@@ -5,15 +5,12 @@ title = "First few minutes with the RasPad"
 slug = "first-few-minutes-with-the-raspad"
 +++
 
-My RasPad  
-<[https://www.kickstarter.com/projects/35410622/raspad-raspberry-pi-tablet-for-your-creative-proje>](https://www.kickstarter.com/projects/35410622/raspad-raspberry-pi-tablet-for-your-creative-proje>)  
-arrived this morning and I'm very impressed after just a few minutes of  
-checking it out.
+[My RasPad](https://www.kickstarter.com/projects/35410622/raspad-raspberry-pi-tablet-for-your-creative-proje)  
+arrived this morning and I'm very impressed after just a few minutes of checking it out.
 
 ![raspad01.jpg](/images/2018/08/13/raspad01.jpg)
 
-I grabbed a Pi3 that has RetroPie installed on it and inserted it into the  
-bay.
+I grabbed a Pi3 that has RetroPie installed on it and inserted it into the bay.
 
 ![raspad02.jpg](/images/2018/08/13/raspad02.jpg)
 
