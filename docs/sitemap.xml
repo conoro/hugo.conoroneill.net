@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://conoroneill.net/2018/08/13/first-few-minutes-with-the-raspad/</loc>
+    <lastmod>2018-08-13T14:14:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://conoroneill.net/2018/08/12/first-live-test-of-my-new-email-to-hugo-blogging-tool/</loc>
+    <lastmod>2018-08-12T16:51:28+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://conoroneill.net/2018/03/17/fund-allwinner-vpu-support-kickstarter/</loc>
     <lastmod>2018-03-17T09:31:22+00:00</lastmod>
   </url>
@@ -3719,13 +3729,13 @@
   
   <url>
     <loc>https://conoroneill.net/</loc>
-    <lastmod>2018-03-17T09:31:22+00:00</lastmod>
+    <lastmod>2018-08-13T14:14:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://conoroneill.net/post/</loc>
-    <lastmod>2018-03-17T09:31:22+00:00</lastmod>
+    <lastmod>2018-08-13T14:14:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   

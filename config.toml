@@ -6,15 +6,15 @@ Paginate = 10
 disqusShortname = "crossdominant"
 uglyUrls=false
 publishdir = "docs"
-rssuri = "index.xml"
+rssLimit = 20
 
 [permalinks]
   post="/:year/:month/:day/:slug/"
 
 [params]
-  twitterName = "conoro"
   githubName = "conoro"
   instagramName = "cwjoneill"
+  linkedinName = "conoroneill"
   description = "Mixed laterality since 1968"
   google_analytics = "UA-88610-4"
   cover = "img/ZXSpectrum48k.jpg"
@@ -24,8 +24,6 @@ rssuri = "index.xml"
   bio= "Tech guy who likes running slowly"
   logo = "img/cross_dominant.png"
   googleAnalyticsUserID = "UA-88610-1"
-  linkedinName = "conoroneill"
-  RSSLink = "index.xml"
 
 
 
