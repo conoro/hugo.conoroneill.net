@@ -17,12 +17,12 @@ rssLimit = 20
   linkedinName = "conoroneill"
   description = "Mixed laterality since 1968"
   google_analytics = "UA-88610-4"
-  cover = "img/ZXSpectrum48k.jpg"
+  cover = "images/ZXSpectrum48k.jpg"
   author = "Conor O'Neill"
   authorlocation = "Bandon, Cork, Ireland"
   authorwebsite = "https://conoroneill.net"
   bio= "Tech guy who likes running slowly"
-  logo = "img/cross_dominant.png"
+  logo = "images/cross_dominant.png"
   googleAnalyticsUserID = "UA-88610-1"
 
 
