@@ -22,7 +22,7 @@ publicly online would end well?
 
 Wil's blogpost on it: The world is a terrible place right now, and that’s  
 largely because it is what we make it  
-<[http://wilwheaton.net/2018/08/the-world-is-a-terrible-place-right-now-and-thats-largely-because-it-is-what-we-make-it/>](http://wilwheaton.net/2018/08/the-world-is-a-terrible-place-right-now-and-thats-largely-because-it-is-what-we-make-it/>).  
+[http://wilwheaton.net/2018/08/the-world-is-a-terrible-place-right-now-and-thats-largely-because-it-is-what-we-make-it/](http://wilwheaton.net/2018/08/the-world-is-a-terrible-place-right-now-and-thats-largely-because-it-is-what-we-make-it/).  
 His experience of early Twitter was identical to my own. And then the  
 assholes arrived, as they always do.
 
