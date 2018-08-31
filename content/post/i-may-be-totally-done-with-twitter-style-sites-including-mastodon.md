@@ -20,14 +20,8 @@ ridiculous in a self-justifying asshole-dominated world. How were we ever
 so naive to think that anyone being able to message anything to anyone else  
 publicly online would end well?
 
-Wil's blogpost on it: The world is a terrible place right now, and that’s  
-largely because it is what we make it  
-[http://wilwheaton.net/2018/08/the-world-is-a-terrible-place-right-now-and-thats-largely-because-it-is-what-we-make-it/](http://wilwheaton.net/2018/08/the-world-is-a-terrible-place-right-now-and-thats-largely-because-it-is-what-we-make-it/).  
-His experience of early Twitter was identical to my own. And then the  
-assholes arrived, as they always do.
+Wil's blogpost on it: [The world is a terrible place right now, and that’s largely because it is what we make it](http://wilwheaton.net/2018/08/the-world-is-a-terrible-place-right-now-and-thats-largely-because-it-is-what-we-make-it/). His experience of early Twitter was identical to my own. And then the assholes arrived, as they always do.
 
-A few months ago I put together a spec and a plan for a friendly social  
-network. Then I got some sense and deleted it all.
+A few months ago I put together a spec and a plan for a friendly social network. Then I got some sense and deleted it all.
 
-So that's me done I think. Some blogging, photo sharing and private group  
-messaging only for the foreseeable future.
+So that's me done I think. Some blogging, photo sharing and private group messaging only for the foreseeable future.
