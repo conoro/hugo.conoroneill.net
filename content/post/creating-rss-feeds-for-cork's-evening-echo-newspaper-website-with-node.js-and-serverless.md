@@ -5,11 +5,11 @@ title = "Creating RSS feeds for Cork's Evening Echo newspaper website with Node.
 slug = "creating-rss-feeds-for-cork's-evening-echo-newspaper-website-with-node.js-and-serverless"
 +++
 
-For nearly 10 years I relied on Twitter as my primary source of news. Now that I have left Twitterand Facebook mostly behind, I have turned back to email newsletters and RSS for non-tech news. I never stopped using RSS for tech news. 
+For nearly 10 years I relied on Twitter as my primary source of news. Now that I have left Twitter and Facebook mostly behind, I have turned back to email newsletters and RSS for non-tech news. I never stopped using RSS for tech news. 
 
   
 
-Of course, in that time, many news sites have forgotten about RSS. e.g. The Cork Evening Echo in Ireland has some pages that refer to RSS but they are no longer functional.
+Of course, in that time, many news sites have forgotten about RSS. e.g. The Cork [Evening Echo](https://www.eveningecho.ie/) in Ireland has some pages that refer to RSS but they are no longer functional.
 
   
 
@@ -33,14 +33,17 @@ Usual Serverless deploy:
 
 1.  Configure your AWS account
 2.  Install Node.js 8+
-3.  git clone git@github.com:conoro/evening-echo-rss.git
-4.  cd evening-echo-rss
-5.  npm install -g serverless
-6.  npm install
-7.  serverless deploy
+3. Then:
+
+```bash
+git clone git@github.com:conoro/evening-echo-rss.git
+cd evening-echo-rss
+npm install -g serverless
+npm install
+serverless deploy
+```
 
 Then you access each RSS feed like so:
-
   
 
 *   [https://url.of.serverless.function/dev/rss?page=https://www.eveningecho.ie/corknews](https://url.of.serverless.function/dev/rss?page=https://www.eveningecho.ie/corknews)
