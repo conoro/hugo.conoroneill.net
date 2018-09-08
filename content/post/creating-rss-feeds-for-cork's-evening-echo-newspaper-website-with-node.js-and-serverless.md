@@ -21,7 +21,7 @@ As their news pages are pretty straightforward and simply marked-up, it took me 
 
   
 
-So I'm now happily reading my local Cork news in Feedly Pro. Open Web FTW.
+So I'm now happily reading my local Cork news in [Feedly Pro](https://feedly.com). Open Web FTW.
 
   
 
