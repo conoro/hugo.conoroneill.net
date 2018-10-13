@@ -91,7 +91,7 @@
 
 
   
-      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/cross_dominant.png" alt="Home" /></a>
   
   
       <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
@@ -137,67 +137,41 @@
 
 <h2 id="installation">Installation</h2>
 
+<p>(Updated Oct 13th 2018)</p>
+
 <ul>
+<li>Save my little wrapper code on to your phone by long-pressing <a href="https://gist.github.com/conoro/d63c9f326ee65647a717b0283f21683f/raw">this link</a> and selecting Download Link</li>
 <li>Install <a href="https://play.google.com/store/apps/details?id=org.qpython.qpy">QPython</a> (Make sure to pick QPython2 not 3)</li>
 <li>Launch QPython</li>
-<li>Tap the Terminal Icon</li>
-<li>Install <code>youtube-dl</code> with:</li>
+<li>Tap the QPYPI icon</li>
+<li>Tap QPYPI Client</li>
+<li>In the Terminal that launches, install <code>youtube-dl</code> with:</li>
 </ul>
 
 <pre><code>pip install -U youtube-dl
 </code></pre>
 
 <ul>
-<li>Exit the Terminal</li>
+<li>Exit the Terminal (answer No to the question)</li>
 <li>Tap the Editor Icon</li>
-<li>Paste my crappy code in to the editor</li>
-</ul>
-
-<pre><code class="language-python"># get-youtube.py 
-# Wrapper around youtube-dl for Android
-# Grabs URL from clipboard if it's a YouTube one. Otherwises prompts for URL
-# See https://conoroneill.net/downloading-youtube-videos-for-offline-viewing-on-android/ for instructions
-# Copyright Conor O'Neill 2018. Apache License 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt
-
-from __future__ import unicode_literals
-from androidhelper import Android
-droid = Android()
-
-import youtube_dl
-
-def input_default(prompt, default):
-    return raw_input(&quot;%s [%s] &quot; % (prompt, default)) or default
-
-# If clipboard URL is a YouTube one, grab it and automatically download
-if droid.getClipboard().result.startswith('https://youtu'):
-    url = droid.getClipboard().result
-else:
-    # Either the clipboard is empty or it has a non-YouTube URL. User must paste the required URL.    
-    url = raw_input(&quot;YouTube URL?: &quot;)
-
-ydl_opts = {
-    'nocheckcertificate': True, 
-    'outtmpl': '%(title)s.%(ext)s'
-}
-
-with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-    ydl.download([url])
-</code></pre>
-
-<p>(Latest code here on <a href="https://gist.github.com/conoro/d63c9f326ee65647a717b0283f21683f">GitHub Gist</a>)</p>
-
-<ul>
-<li>Tap the small floppy disk icon to save the file</li>
-<li>Save it as <code>main.py</code> in a new project called <code>get-youtube</code></li>
+<li>In the Editor, tap the Folder icon</li>
+<li>Tap the Explorer Tab</li>
+<li>Now browse to where you saved my wrapper code in step 1 - likely to be the <code>Download</code> folder</li>
+<li>Tap the <code>get-youtube.py</code> file</li>
+<li>This opens the file in the Editor</li>
+<li>Long tap the small floppy disk icon to save the file as a new name</li>
+<li>Tap the projects directory</li>
+<li>Tap the folder icon with the + sign in it to create a new folder called <code>get-youtube</code></li>
+<li>Save the file as <code>main.py</code></li>
 <li>Tap back to get to the main screen</li>
-<li>Exit QPython and Install <a href="https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad&amp;hl=en">MX Player</a></li>
-<li>Open MX Player and go to <code>Settings &gt; List &gt; Folders</code></li>
-<li>Tap &ldquo;Add&rdquo; and browse to <code>/storage/emulated/0/qpython</code></li>
+<li>Exit QPython and Install <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc&amp;hl=en">VLC</a></li>
 </ul>
 
 <h2 id="from-then-on-you-can-download-videos-like-so">From then on you can download videos like so</h2>
 
 <ul>
+<li>Browse to the video in the YouTube App</li>
+<li>Tap Share &gt; Copy Link</li>
 <li>Launch QPython</li>
 <li>Tap the Projects icon (large unlabelled one above the sign-in link)</li>
 <li><code>get-youtube</code> will be listed there</li>
@@ -205,19 +179,20 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 <li>If the clipboard has a YouTube URL, it&rsquo;ll automatically download the video.</li>
 <li>Otherwise if the clipboard is empty or has a non-YouTube video URL you must paste it by long-pressing at the cursor and tapping Paste. Then tap again near the cursor if the keyboard has not appeared, and tap Enter.</li>
 <li>The video will download to <code>/storage/emulated/0/qpython</code></li>
-<li>The video will automatically appear in MX Player when you launch it</li>
-<li>You can delete it in MX Player once you are done</li>
+<li>Open VLC, which should automatically find the video. If not, browse to <code>/storage/emulated/0/qpython</code></li>
 </ul>
 
 <h2 id="even-better-you-can-add-a-direct-short-cut-on-your-android-home-screen">Even better, you can add a direct short-cut on your Android Home Screen</h2>
 
 <ul>
 <li>Go back into QPython</li>
-<li>Go to Projects</li>
+<li>Go to Projects (large unlabelled icon above the sign-in link)</li>
 <li>Long press the icon for <code>get-youtube</code> in Projects</li>
 <li>Woohoo, now you have a Home Screen shortcut to download a video whenever. Just copy the video URL and launch get-youtube</li>
 <li>And remember it&rsquo;s not just for YouTube, it works for Vimeo, BBC iPlayer and <a href="https://rg3.github.io/youtube-dl/supportedsites.html">many more</a></li>
 <li>Note: Re-run the <code>pip install -U youtube-dl</code> step above if it ever stops working. The developers are in a constant battle with YouTube to keep it working</li>
+<li>If you ever get weird errors about DistributionNotFound, tap the More icon in QPython &gt; Permissions and Storage &gt; Storage &gt; Clear Cache and Clear Storage. Then re-run QPython and accept all permissions dialogs.</li>
+<li><a href="https://gist.github.com/conoro/d63c9f326ee65647a717b0283f21683f">Link to the source code</a> for my simple wrapper.</li>
 </ul>
 
 <p>Enjoy</p>
@@ -230,7 +205,7 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 
     
     <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/img/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
     </figure>
     
 

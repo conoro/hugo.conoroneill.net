@@ -85,12 +85,12 @@
 
 
 	 
-  <header class="main-header tag-head" style="background-image: url(https://conoroneill.net/img/ZXSpectrum48k.jpg)">
+  <header class="main-header tag-head" style="background-image: url(https://conoroneill.net/images/ZXSpectrum48k.jpg)">
   
 
     <nav class="main-nav overlay clearfix">
       
-        <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/img/cross_dominant.png" alt="Home" /></a>
+        <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/cross_dominant.png" alt="Home" /></a>
       
       
         
@@ -128,6 +128,114 @@
 	   
 <article class="post post">
     <header class="post-header">
+        <h2 class="post-title"><a href="/2015/09/20/tingodb-and-sqlite-instead-of-mongodb-and-mysql-for-tiny-projects-or-raspberry-pi/">TingoDB and SQLite instead of MongoDB and MySQL for tiny projects or Raspberry Pi</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>As an old Embedded guy who actually cares about resource usage, I&rsquo;ve been bothered for quite a while by the number of trivial Node.js projects out there that require a full-blown MongoDB or MySQL server to operate. It&rsquo;s a particular problem on the Raspberry Pi or small DigitalOcean Droplets. In many cases a simple SQLite DB or TingoDB is more than sufficient.
+If your Web App has 2 registered users and 100 visitors per day, may just maybe you don&rsquo;t need MongoDB or MySQL. <a class="read-more" href="/2015/09/20/tingodb-and-sqlite-instead-of-mongodb-and-mysql-for-tiny-projects-or-raspberry-pi/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        
+        
+
+        
+            <img class="author-thumb" src="https://conoroneill.net/images/cross_dominant.png" alt="Author image" nopin="nopin" />
+        
+        
+            Conor O&#39;Neill
+        
+        
+        <time class="post-date" datetime="2015-09-20T13:03:54&#43;01:00">
+            20 Sep 2015
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/2015/09/20/running-zeromq-with-node-js-on-raspberry-pi/">Running ZeroMQ with Node.js on Raspberry Pi</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>ZeroMQ is a lightweight messaging library and looks ideal for lower powered devices like the RPi. Building and running is pretty easy. These are really just notes for myself for future reference.
+I don&rsquo;t actually need a messaging system yet but I wanted to play around with one. Running a simple Request / Reply setup with Node.js on both Windows 10 and RPi was interesting. One advantage a message queue gives you over REST is that the receiver can be out of action and still get all transmitted messages when it recovers. <a class="read-more" href="/2015/09/20/running-zeromq-with-node-js-on-raspberry-pi/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        
+        
+
+        
+            <img class="author-thumb" src="https://conoroneill.net/images/cross_dominant.png" alt="Author image" nopin="nopin" />
+        
+        
+            Conor O&#39;Neill
+        
+        
+        <time class="post-date" datetime="2015-09-20T11:38:46&#43;01:00">
+            20 Sep 2015
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/2015/08/23/til-you-can-import-3d-models-from-tinkercad-to-minecraft-how-cool-is-that/">TIL you can import 3D models from Tinkercad to Minecraft. How cool is that?</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>We had friends over from the US last weekend and their kids loved my Printrbot 3D printer. They had learned Tinkercad in school so that&rsquo;s what they used to create things so they could print them out. They are now hounding their parents for a printer. Oops :-) But I noticed a &ldquo;Download to Minecraft&rdquo; option in Tinkercad and finally just had a chance to try it out. Wow!
+It&rsquo;s incredibly easy. <a class="read-more" href="/2015/08/23/til-you-can-import-3d-models-from-tinkercad-to-minecraft-how-cool-is-that/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        
+        
+
+        
+            <img class="author-thumb" src="https://conoroneill.net/images/cross_dominant.png" alt="Author image" nopin="nopin" />
+        
+        
+            Conor O&#39;Neill
+        
+        
+        <time class="post-date" datetime="2015-08-23T14:42:32&#43;01:00">
+            23 Aug 2015
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/2015/07/22/creating-an-otp-fob-compatible-with-google-authenticator-using-an-espruino-pico/">Creating an OTP fob compatible with Google Authenticator using an Espruino Pico</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>Now that the Espruino Pico has (beta) HID support, it can pretend to be a keyboard or mouse (or other HID compatible device). This makes it possible to send characters to the active window on your Windows/Linux/Mac PC. I&rsquo;ve cobbled together some code which turns the Pico into a device like a YubiKey. Press the button and get the latest auth code pasted automatically for you.
+This code is basically just from three sources, merged together with a few tiny tweaks by me. <a class="read-more" href="/2015/07/22/creating-an-otp-fob-compatible-with-google-authenticator-using-an-espruino-pico/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        
+        
+
+        
+            <img class="author-thumb" src="https://conoroneill.net/images/cross_dominant.png" alt="Author image" nopin="nopin" />
+        
+        
+            Conor O&#39;Neill
+        
+        
+        <time class="post-date" datetime="2015-07-22T08:14:26&#43;01:00">
+            22 Jul 2015
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post post">
+    <header class="post-header">
         <h2 class="post-title"><a href="/2015/07/11/node-v01040-and-v0127-for-arm-v7-raspberry-pi-2-banana-pi-odroid-c1-available/">Node v0.10.40 and v0.12.7 for ARM v7 and v6 (Raspberry Pi, Raspberry Pi 2, Banana Pi, ODroid C1) available</a></h2>
     </header>
     <section class="post-excerpt">
@@ -145,7 +253,7 @@ Enjoy.
         
 
         
-            <img class="author-thumb" src="https://conoroneill.net/img/cross_dominant.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="https://conoroneill.net/images/cross_dominant.png" alt="Author image" nopin="nopin" />
         
         
             Conor O&#39;Neill
@@ -172,7 +280,7 @@ Installation is a tiny bit different from the instructions as it doesn&rsquo;t s
         
 
         
-            <img class="author-thumb" src="https://conoroneill.net/img/cross_dominant.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="https://conoroneill.net/images/cross_dominant.png" alt="Author image" nopin="nopin" />
         
         
             Conor O&#39;Neill
@@ -198,7 +306,7 @@ Installation is a tiny bit different from the instructions as it doesn&rsquo;t s
         
 
         
-            <img class="author-thumb" src="https://conoroneill.net/img/cross_dominant.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="https://conoroneill.net/images/cross_dominant.png" alt="Author image" nopin="nopin" />
         
         
             Conor O&#39;Neill
@@ -226,7 +334,7 @@ I&rsquo;ve built for Pi 1 (ARM v6) and ODROID-C1/Pi2 (ARM v7). The latter was bu
         
 
         
-            <img class="author-thumb" src="https://conoroneill.net/img/cross_dominant.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="https://conoroneill.net/images/cross_dominant.png" alt="Author image" nopin="nopin" />
         
         
             Conor O&#39;Neill
@@ -254,7 +362,7 @@ I set the Raspberry Pi B+ to Turbo mode and it took 4ish hours to build <a class
         
 
         
-            <img class="author-thumb" src="https://conoroneill.net/img/cross_dominant.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="https://conoroneill.net/images/cross_dominant.png" alt="Author image" nopin="nopin" />
         
         
             Conor O&#39;Neill
@@ -282,7 +390,7 @@ Unfortunately the 0.12.0 release of Node won&rsquo;t compile on a non-V2 Raspber
         
 
         
-            <img class="author-thumb" src="https://conoroneill.net/img/cross_dominant.png" alt="Author image" nopin="nopin" />
+            <img class="author-thumb" src="https://conoroneill.net/images/cross_dominant.png" alt="Author image" nopin="nopin" />
         
         
             Conor O&#39;Neill
@@ -290,113 +398,6 @@ Unfortunately the 0.12.0 release of Node won&rsquo;t compile on a non-V2 Raspber
         
         <time class="post-date" datetime="2015-02-08T12:45:55Z">
             8 Feb 2015
-        </time>
-    </footer>
-</article>
-
-	
-	   
-<article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/2015/01/04/bandon-flood-warning-data-now-scraped-to-google-fusion-tables-using-nodejs/">Bandon Flood Warning data now scraped to Google Fusion Tables using Node.js on ODROID-C1 and OpenShift</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>After 3 years running as a Python script on a file server, the Bandon FEWS scraper is now running on an ODROID-C1 under Node.js and soon on OpenShift.
-Introduction Cork County Council in Ireland has a site called Bandon FEWS (Bandon Flood Early Warning System). When the Bandon river hits certain levels near Bandon town, it alerts registered users via SMS in case they need to take emergency measures. It&rsquo;s a very useful service and is very necessary due to the regular flooding that occurs. <a class="read-more" href="/2015/01/04/bandon-flood-warning-data-now-scraped-to-google-fusion-tables-using-nodejs/">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        
-        
-
-        
-            <img class="author-thumb" src="https://conoroneill.net/img/cross_dominant.png" alt="Author image" nopin="nopin" />
-        
-        
-            Conor O&#39;Neill
-        
-        
-        <time class="post-date" datetime="2015-01-04T13:42:36Z">
-            4 Jan 2015
-        </time>
-    </footer>
-</article>
-
-	
-	   
-<article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/2014/12/21/introducing-fitbits-first-sports-tracker-for-superheroes-the-fitbat/">Introducing FitBit&#39;s first sports tracker for Superheroes - The FitBat</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>Finally the product that Superheroes everywhere have been crying out for - The FitBat. I&rsquo;m sure the protector of Gotham would approve. <a class="read-more" href="/2014/12/21/introducing-fitbits-first-sports-tracker-for-superheroes-the-fitbat/">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        
-        
-
-        
-            <img class="author-thumb" src="https://conoroneill.net/img/cross_dominant.png" alt="Author image" nopin="nopin" />
-        
-        
-            Conor O&#39;Neill
-        
-        
-        <time class="post-date" datetime="2014-12-21T17:44:19Z">
-            21 Dec 2014
-        </time>
-    </footer>
-</article>
-
-	
-	   
-<article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/2014/12/18/i-tried-out-more-google-cardboard-apps-still-stunned-what-dollar10-can-achieve/">I tried out more Google Cardboard Apps and I&#39;m still stunned what $10 can achieve</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>Of course Google Cardboard isn&rsquo;t up there with Oculus but I still have my jaw on the floor over what it can do. These are some of the apps I&rsquo;ve tried out this week.
- Google Cardboard App itself The Hobbit VR Experience Lamper Jack White: THIRD-D Vanguard V Kaiju Fury: Trailer Chair In A Room SpaceTerror Tuscany Dive Orbulus War of Words Google Maps Street View []() []()   <a class="read-more" href="/2014/12/18/i-tried-out-more-google-cardboard-apps-still-stunned-what-dollar10-can-achieve/">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        
-        
-
-        
-            <img class="author-thumb" src="https://conoroneill.net/img/cross_dominant.png" alt="Author image" nopin="nopin" />
-        
-        
-            Conor O&#39;Neill
-        
-        
-        <time class="post-date" datetime="2014-12-18T11:06:20&#43;01:00">
-            18 Dec 2014
-        </time>
-    </footer>
-</article>
-
-	
-	   
-<article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/2014/12/13/say-hello-to-my-little-friend-the-fitbit-xl-with-external-battery-by-conor/">Say hello to my little friend. The Fitbit XL with external battery by Conor</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>My first Fitbit died in the washing machine and they kindly replaced it for free. The replacement&rsquo;s battery started acting up recently and finally gave up the ghost last night. You won&rsquo;t believe what happens next ;-)
-I figured out how to take apart the Fitbit One on the original dead one so this time I managed to do it with no damage. I de-soldered the battery and tried the old one instead. <a class="read-more" href="/2014/12/13/say-hello-to-my-little-friend-the-fitbit-xl-with-external-battery-by-conor/">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        
-        
-
-        
-            <img class="author-thumb" src="https://conoroneill.net/img/cross_dominant.png" alt="Author image" nopin="nopin" />
-        
-        
-            Conor O&#39;Neill
-        
-        
-        <time class="post-date" datetime="2014-12-13T19:59:24Z">
-            13 Dec 2014
         </time>
     </footer>
 </article>

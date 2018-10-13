@@ -69,6 +69,12 @@
                 </a>
             &nbsp;
             {{end}}
+            {{ if .Site.Params.otherblog }}
+            <a class="bloglogo" href="{{ .Site.Params.otherblog }}" target="_blank">
+                <span class="icon-other-blog" style="color:white;font-size:2em"></span>
+            </a>
+            &nbsp;
+            {{end}}
 
             <h1 class="page-title">{{ .Site.Title }}</h1>
             <h2 class="page-description">{{ .Site.Params.description }}</h2>
