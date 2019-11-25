@@ -6,10 +6,31 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Sep 2018 09:34:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2019 09:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bangle.js and Open Source pointing to the future of health platforms and wearables</title>
+      <link>https://conoroneill.net/2019/11/25/bangle-js-open-source-pointing-to-future-of-health-platforms-and-wearables/</link>
+      <pubDate>Mon, 25 Nov 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2019/11/25/bangle-js-open-source-pointing-to-future-of-health-platforms-and-wearables/</guid>
+      <description>First things first, Gordon Williams&amp;rsquo;s KickStarter for Bangle.js finishes in three days. If you have interest in any of: sustainable Open Source, JavaScript, Machine Learning, wearables, Open APIs, health, hacking or IOT, you should back it. Heck even if you want to see what Chinese manufacturers are able to cram into an inexpensive device in 2019, you should get one.
+Second - how did I manage to wait exactly one year between blogposts?</description>
+    </item>
+    
+    <item>
+      <title>A decade since my first Android phone - The HTC G1</title>
+      <link>https://conoroneill.net/2018/11/25/a-decade-since-my-first-android-phone-the-htc-g1/</link>
+      <pubDate>Sun, 25 Nov 2018 17:00:22 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2018/11/25/a-decade-since-my-first-android-phone-the-htc-g1/</guid>
+      <description>Ten years ago today, I received my first Android phone, an HTC G1, from a US eBay seller.
+Here it is, still working! It&amp;rsquo;s sitting on an Amazon Fire HD (stunningly good value) beside a Huawei Honor Play (a stand-in for my broken Galaxy S8+ and a fantastic phone at a crazy low price).
+It&amp;rsquo;s hard to imagine now, but back then, Android was nowhere. The G1 was the first Android device and many thought it compared very badly to the equivalent iPhone.</description>
+    </item>
     
     <item>
       <title>Creating RSS feeds for Cork&#39;s Evening Echo newspaper website with Node.js and Serverless</title>
@@ -196,28 +217,6 @@ The kids&amp;rsquo; favourite thing from all our Halloweens was the doorbell tha
       <guid>https://conoroneill.net/2016/05/02/introducing-ytpodders-get-your-fave-youtubers-as-audio-podcasts-on-your-phone/</guid>
       <description>Like my kids, I love regular YouTubers. My particular favourites are the tech, craft, metal and woodworking people who make amazing things every week. Those gals and guys have to be watched to really get the value from them and here&amp;rsquo;s a few more worth looking at too, of course not forgetting these other gems.
 But there are others I love equally where it&amp;rsquo;s mostly about what they are saying. For example, Ethan Newberry (aka The Ginger Runner) does a fantastic weekly live session where he mostly interviews Ultra runners.</description>
-    </item>
-    
-    <item>
-      <title>Three ways to build Go 1.4 binaries for MIPS32 Onion Omega</title>
-      <link>https://conoroneill.net/2016/02/08/three-ways-to-build-go-1.4-binaries-for-mips32-onion-omega/</link>
-      <pubDate>Mon, 08 Feb 2016 17:43:26 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2016/02/08/three-ways-to-build-go-1.4-binaries-for-mips32-onion-omega/</guid>
-      <description>I previously wrote about using gccgo to build Go binaries for the Onion Omega due to Go&amp;rsquo;s lack of support for MIPS CPUs. But TBH it&amp;rsquo;s a pain in the butt. Things were looking up when it was revealed that Go 1.6 would have MIPS support but sadly it&amp;rsquo;s for MIPS64 only, for datacenter applications I guess.
-However Cathal Garvey discovered a GitHub repo where some lovely person has ported v1.</description>
-    </item>
-    
-    <item>
-      <title>When will Car Insurance Monitoring Apps become mandatory? 5yrs?</title>
-      <link>https://conoroneill.net/2016/01/02/when-will-car-insurance-monitoring-apps-become-mandatory-5yrs/</link>
-      <pubDate>Sat, 02 Jan 2016 13:00:29 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2016/01/02/when-will-car-insurance-monitoring-apps-become-mandatory-5yrs/</guid>
-      <description> My Car Insurance Broker, 123.ie just offered me up to 10% off my 2016 premium if I installed a driving monitoring app on my phone.
-No thanks
-But when does it go from &amp;ldquo;get a discount&amp;rdquo; to &amp;ldquo;we won&amp;rsquo;t insure you unless you install this app&amp;rdquo;?
-The email: </description>
     </item>
     
   </channel>

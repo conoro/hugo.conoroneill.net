@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://conoroneill.net/2019/11/25/bangle-js-open-source-pointing-to-future-of-health-platforms-and-wearables/</loc>
+    <lastmod>2019-11-25T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://conoroneill.net/2018/11/25/a-decade-since-my-first-android-phone-the-htc-g1/</loc>
+    <lastmod>2018-11-25T17:00:22+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://conoroneill.net/2018/09/08/creating-rss-feeds-for-corks-evening-echo-newspaper-website-with-node.js-and-serverless/</loc>
     <lastmod>2018-09-08T09:34:48+00:00</lastmod>
   </url>
@@ -3749,13 +3759,13 @@
   
   <url>
     <loc>https://conoroneill.net/</loc>
-    <lastmod>2018-09-08T09:34:48+00:00</lastmod>
+    <lastmod>2019-11-25T09:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://conoroneill.net/post/</loc>
-    <lastmod>2018-09-08T09:34:48+00:00</lastmod>
+    <lastmod>2019-11-25T09:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
