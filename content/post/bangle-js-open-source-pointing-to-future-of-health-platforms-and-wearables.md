@@ -18,7 +18,7 @@ I've written extensively about Bangle.js/NodeWatch over on the NearForm blog (wi
 * [Bangle.js – Open Source creating opportunities for Open Health wearables with JS & TensorFlow](https://www.nearform.com/blog/banglejs-oss-open-health-wearables-js-tensorflow/)
 * [All of the Bangle.js excitement including new community OSS apps already](https://www.nearform.com/blog/banglejs-excitement-at-nodeconf-eu/)
 
-But I'd just like to re-iterate my belief that we are heading towards an inflection point with privacy, data ownership, platforms, APIs, Open Source and closed gardens. At some point, convenience will no longer reign, as more and more people become disgusted with where we have ended up. And it's up to everyone who believes in Open Source, Open Platforms, Open Standards, Privacy, and owning your own data, to provide a reasonable alternative for those people.
+But I'd just like to re-iterate my belief that we are heading towards an inflection point with privacy, data ownership, platforms, APIs, Open Source and walled gardens. At some point, convenience will no longer reign, as more and more people become disgusted with where we have ended up. And it's up to everyone who believes in Open Source, Open Platforms, Open Standards, Privacy, and owning your own data, to provide a reasonable alternative for those people.
 
 On the surface, [Bangle.js](https://nodewatch.dev) is just Espruino JavaScript and TensorFlow Lite for Microcontrollers running on an off-the-shelf reverse-engineered Chinese smartwatch. But think about what it could be over time and you might find yourself as excited as I am about a better future.
 
