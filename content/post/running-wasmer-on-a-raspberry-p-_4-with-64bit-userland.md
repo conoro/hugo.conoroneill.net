@@ -42,11 +42,15 @@ schroot -c pi64
 * and then install and run [rustpython](https://wapm.io/package/rustpython)
 
 ```bash
+$ source /home/pi/.wasmer/wasmer.sh
 $ wapm install rustpython
 $ wapm run rustpython
 >>>>> 2+2
 4
 ```
+
+
+![Wasmer on Pi](/images/2019/12/wasm_rust_python.jpg)
 
 That's incredibly cool. A Rust version of Python running via WebAssembly on a <$70 computer.
 

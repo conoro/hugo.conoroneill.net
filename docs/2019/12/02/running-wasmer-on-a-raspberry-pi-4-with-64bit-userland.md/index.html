@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  	<meta property="og:title" content=" All the grisly details of Skeletony and the Halloween Doorbell of Doooooom V2.0 &middot;  Cross Dominant" />
+  	<meta property="og:title" content=" Running Wasmer on a Raspberry Pi 4 with 64-bit userland &middot;  Cross Dominant" />
   	<meta property="og:site_name" content="Cross Dominant" />
   	<meta property="og:url" content="https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md/" />
 
@@ -18,7 +18,7 @@
     
 
   <title>
-     All the grisly details of Skeletony and the Halloween Doorbell of Doooooom V2.0 &middot;  Cross Dominant
+     Running Wasmer on a Raspberry Pi 4 with 64-bit userland &middot;  Cross Dominant
   </title>
 
     <meta name="description" content="Mixed laterality since 1968" />
@@ -111,8 +111,8 @@
   <article class="post post">
 
     <header class="post-header">
-        <h1 class="post-title">All the grisly details of Skeletony and the Halloween Doorbell of Doooooom V2.0</h1>
-        <small>Just some info collected from trying to set it up myself</small>
+        <h1 class="post-title">Running Wasmer on a Raspberry Pi 4 with 64-bit userland</h1>
+        <small>Just some info collected from trying to set it up myself to save you the hassle.</small>
 
         <section class="post-meta">
         
@@ -125,9 +125,9 @@
     </header>
 
     <section class="post-content">
-      <p>Like many people I&rsquo;m excited by all of the possibilities opened up with WebAssembly/WASM. Most recently I&rsquo;ve been keeping an eye on Wasmer and similar projects that enable WASM outside of the browser.</p>
+      <p>Like many people I&rsquo;m excited by all of the possibilities opened up with <a href="https://webassembly.org/">WebAssembly/WASM</a>. Most recently I&rsquo;ve been keeping an eye on <a href="https://wasmer.io/">Wasmer</a> and similar projects that enable WASM outside of the browser.</p>
 
-<p>So when I saw that you can now <a href="https://medium.com/wasmer/running-webassembly-on-arm-7d365ed0e50c">run it on a Raspberry Pi</a>, I had to give it a try. But it&rsquo;s not quite as straightforward as the article suggests and you&rsquo;ll need to do the following (or similar) to get it working.</p>
+<p>So when I saw that you can now <a href="https://medium.com/wasmer/running-webassembly-on-arm-7d365ed0e50c">run it on a Raspberry Pi</a>, I had to give it a try. But it&rsquo;s not quite as straightforward as the article suggests and this is what I had to do to get it working.</p>
 
 <p>I did all of these steps on a 4GB Pi 4 running the latest version of Raspbian Buster.</p>
 
@@ -165,11 +165,14 @@ schroot -c pi64
 <li>and then install and run <a href="https://wapm.io/package/rustpython">rustpython</a></li>
 </ul>
 
-<pre><code class="language-bash">$ wapm install rustpython
+<pre><code class="language-bash">$ source /home/pi/.wasmer/wasmer.sh
+$ wapm install rustpython
 $ wapm run rustpython
 &gt;&gt;&gt;&gt;&gt; 2+2
 4
 </code></pre>
+
+<p><img src="/images/2019/12/wasm_rust_python.jpg" alt="Wasmer on Pi" /></p>
 
 <p>That&rsquo;s incredibly cool. A Rust version of Python running via WebAssembly on a &lt;$70 computer.</p>
 
@@ -209,7 +212,7 @@ $ wapm run rustpython
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=All%20the%20grisly%20details%20of%20Skeletony%20and%20the%20Halloween%20Doorbell%20of%20Doooooom%20V2.0&amp;url=https%3a%2f%2fconoroneill.net%2f2019%2f12%2f02%2frunning-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Running%20Wasmer%20on%20a%20Raspberry%20Pi%204%20with%2064-bit%20userland&amp;url=https%3a%2f%2fconoroneill.net%2f2019%2f12%2f02%2frunning-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
@@ -217,7 +220,7 @@ $ wapm run rustpython
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fconoroneill.net%2f2019%2f12%2f02%2frunning-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md%2f&amp;description=All%20the%20grisly%20details%20of%20Skeletony%20and%20the%20Halloween%20Doorbell%20of%20Doooooom%20V2.0"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fconoroneill.net%2f2019%2f12%2f02%2frunning-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md%2f&amp;description=Running%20Wasmer%20on%20a%20Raspberry%20Pi%204%20with%2064-bit%20userland"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>

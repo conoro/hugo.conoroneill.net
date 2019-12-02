@@ -12,13 +12,13 @@
     
     
     <item>
-      <title>All the grisly details of Skeletony and the Halloween Doorbell of Doooooom V2.0</title>
+      <title>Running Wasmer on a Raspberry Pi 4 with 64-bit userland</title>
       <link>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md/</link>
       <pubDate>Mon, 02 Dec 2019 07:00:00 +0000</pubDate>
       
       <guid>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md/</guid>
       <description>Like many people I&amp;rsquo;m excited by all of the possibilities opened up with WebAssembly/WASM. Most recently I&amp;rsquo;ve been keeping an eye on Wasmer and similar projects that enable WASM outside of the browser.
-So when I saw that you can now run it on a Raspberry Pi, I had to give it a try. But it&amp;rsquo;s not quite as straightforward as the article suggests and you&amp;rsquo;ll need to do the following (or similar) to get it working.</description>
+So when I saw that you can now run it on a Raspberry Pi, I had to give it a try. But it&amp;rsquo;s not quite as straightforward as the article suggests and this is what I had to do to get it working.</description>
     </item>
     
     <item>
