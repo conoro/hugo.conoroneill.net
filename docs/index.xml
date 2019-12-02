@@ -6,10 +6,20 @@
     <description>Recent content on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2019 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 07:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>All the grisly details of Skeletony and the Halloween Doorbell of Doooooom V2.0</title>
+      <link>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md/</link>
+      <pubDate>Mon, 02 Dec 2019 07:00:00 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md/</guid>
+      <description>Like many people I&amp;rsquo;m excited by all of the possibilities opened up with WebAssembly/WASM. Most recently I&amp;rsquo;ve been keeping an eye on Wasmer and similar projects that enable WASM outside of the browser.
+So when I saw that you can now run it on a Raspberry Pi, I had to give it a try. But it&amp;rsquo;s not quite as straightforward as the article suggests and you&amp;rsquo;ll need to do the following (or similar) to get it working.</description>
+    </item>
     
     <item>
       <title>Bangle.js and Open Source pointing to the future of health platforms and wearables</title>
@@ -207,16 +217,6 @@ The kids&amp;rsquo; favourite thing from all our Halloweens was the doorbell tha
       
       <guid>https://conoroneill.net/2016/10/02/quick-review-of-the-blu-life-mark-android-phone/</guid>
       <description>A couple of weeks ago, I took my Galaxy S6 out for a run in the rain and it died. Based on previous experience with the horror known as Vodafone Ireland Insurance, I figured I&amp;rsquo;d be looking at 10 days minimum to get a replacement. This proved 100% accurate as the usual completely inept software that connects Vodafone&amp;rsquo;s PDP-11 to Stay Mobile&amp;rsquo;s Commodore 64 had cancelled my insurance without notification several months previously.</description>
-    </item>
-    
-    <item>
-      <title>Introducing YTPodders - Get your fave YouTubers as audio podcasts on your phone</title>
-      <link>https://conoroneill.net/2016/05/02/introducing-ytpodders-get-your-fave-youtubers-as-audio-podcasts-on-your-phone/</link>
-      <pubDate>Mon, 02 May 2016 19:32:32 +0100</pubDate>
-      
-      <guid>https://conoroneill.net/2016/05/02/introducing-ytpodders-get-your-fave-youtubers-as-audio-podcasts-on-your-phone/</guid>
-      <description>Like my kids, I love regular YouTubers. My particular favourites are the tech, craft, metal and woodworking people who make amazing things every week. Those gals and guys have to be watched to really get the value from them and here&amp;rsquo;s a few more worth looking at too, of course not forgetting these other gems.
-But there are others I love equally where it&amp;rsquo;s mostly about what they are saying. For example, Ethan Newberry (aka The Ginger Runner) does a fantastic weekly live session where he mostly interviews Ultra runners.</description>
     </item>
     
   </channel>
