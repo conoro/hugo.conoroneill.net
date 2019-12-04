@@ -29,7 +29,7 @@ This  isn't just cool geekiness, it means that anyone can get involved in Machin
 * [Blockly](https://developers.google.com/blockly) ML blocks for Espruino
 * [Bangle.js](https://banglejs.com)
 
-I'm convinced tanglible/tactile ML like this will engage people for far longer than "yes you're right, it's a cat".
+I'm convinced tangible/tactile ML like this will engage people for far longer than "yes you're right, it's a cat".
 
 ## ML Everywhere in 2020-2021
 Back to our $5 NRF52832 chip. It's a fabulous SoC, which is why we've used it for 3 NodeConf EU's in a row. But it's still pretty pricey. And it only does Bluetooth (plus Thread with the right SDK).
