@@ -32,7 +32,7 @@ This  isn't just cool geekiness, it means that anyone can get involved in Machin
 I'm convinced tanglible/tactile ML like this will engage people for far longer than "yes you're right, it's a cat".
 
 ## ML Everywhere in 2020-2021
-But back to our $5 NRF52832 chip. That's still pretty pricey. And it only does Bluetooth (plus Thread with the right SDK).
+Back to our $5 NRF52832 chip. It's a fabulous SoC, which is why we've used it for 3 NodeConf EU's in a row. But it's still pretty pricey. And it only does Bluetooth (plus Thread with the right SDK).
 
 How about $2.45 for [an ESP32 chip with Wifi and Bluetooth](https://www2.mouser.com/ProductDetail/Espressif-Systems/ESP32-S0WD?qs=sGAEpiMZZMve4%2FbfQkoj%252BEaa%252BXdRvdmbR%2FQ7UMJWB9I%3D)? Or [an ESP8285 for $1.05](https://www2.mouser.com/ProductDetail/Espressif-Systems/ESP8285H16?qs=sGAEpiMZZMsG1k5vdNM%2Fc8yNQq7qgKEx8g19WW57dfQ%3D) (a buck!) with just Wifi? 
 
@@ -42,7 +42,7 @@ The ESP8266 family itself transformed inexpensive Chinese electronics like light
 
 *That's how profound TensorFlow Lite for Microcontrollers is. Everything changes and this time it starts from the bottom up.*
 
-And it doesn't have to be multi-hundred dollar Nests. Sonoff already has the ESP8266 in their [$16 lightbulb](https://www.aliexpress.com/item/32824271928.html) which means they can add ML for free. So there is your price point for mainstream ML in consumer electronics in 2019, $16. Here's that TF Lite Micro Hello World again, running on a lightbulb:
+And it doesn't have to be multi-hundred dollar Nests. Sonoff already has the ESP8266 in their [$16 lightbulb](https://www.aliexpress.com/item/32824271928.html) which means they can add ML for free. So there is your retail price point for mainstream ML in consumer electronics in 2019, $16. Here's that TF Lite Micro Hello World again, running on a lightbulb:
 
 ![TF Lite Sonoff](/images/2019/12/sonoff2.jpg)
 
