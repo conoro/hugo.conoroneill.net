@@ -38,7 +38,7 @@ If power consumption isn't an issue, how about $2.45 for [an ESP32 chip with Wif
 
 The ESP8285 can already run TensorFlow Lite for Microcontrollers. This means you can add Wifi and Machine Learning to *any* piece of consumer electronics for ~$1.50. 
 
-The ESP8266 family itself transformed inexpensive Chinese electronics like lightbulbs in recent years. What could the addition of ML everywhere do? Why wouldn't you just add one to the BOM and easily get better reliability, potential data feedback, failure mode discovery, optimisation for environment and everything else that ML can offer? Could manufacturing become cheaper as tolerances are loosened during manufacture but dealt with by ML during device operation?
+The ESP8266 family itself transformed inexpensive Chinese electronics like lightbulbs and home automation devices in recent years. What could the addition of ML everywhere do? Why wouldn't you just add one to the BOM and easily get better reliability, potential data feedback, failure mode discovery, optimisation for environment and everything else that ML can offer? Could manufacturing become cheaper as tolerances are loosened during manufacture but dealt with by ML during device operation?
 
 *That's how profound TensorFlow Lite for Microcontrollers is. Everything changes and this time it starts from the bottom up.*
 
