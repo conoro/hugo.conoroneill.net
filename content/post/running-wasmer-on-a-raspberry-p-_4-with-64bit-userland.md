@@ -3,7 +3,7 @@ date = "2019-12-02T07:00:00+00:00"
 draft = false
 title = "Running Wasmer on a Raspberry Pi 4 with 64-bit userland"
 description = "Just some info collected from trying to set it up myself to save you the hassle."
-slug = "running-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md"
+slug = "running-wasmer-on-a-raspberry-pi-4-with-64bit-userland"
 +++
 
 Like many people I'm excited by all of the possibilities opened up with [WebAssembly/WASM](https://webassembly.org/). Most recently I've been keeping an eye on [Wasmer](https://wasmer.io/) and similar projects that enable WASM outside of the browser.
