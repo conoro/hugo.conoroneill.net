@@ -34,7 +34,7 @@ I'm convinced tanglible/tactile ML like this will engage people for far longer t
 ## ML Everywhere in 2020-2021
 Back to our $5 NRF52832 chip. It's a fabulous SoC, which is why we've used it for 3 NodeConf EU's in a row. But it's still pretty pricey. And it only does Bluetooth (plus Thread with the right SDK).
 
-How about $2.45 for [an ESP32 chip with Wifi and Bluetooth](https://www2.mouser.com/ProductDetail/Espressif-Systems/ESP32-S0WD?qs=sGAEpiMZZMve4%2FbfQkoj%252BEaa%252BXdRvdmbR%2FQ7UMJWB9I%3D)? Or [an ESP8285 for $1.05](https://www2.mouser.com/ProductDetail/Espressif-Systems/ESP8285H16?qs=sGAEpiMZZMsG1k5vdNM%2Fc8yNQq7qgKEx8g19WW57dfQ%3D) (a buck!) with just Wifi? 
+If power consumption isn't an issue, how about $2.45 for [an ESP32 chip with Wifi and Bluetooth](https://www2.mouser.com/ProductDetail/Espressif-Systems/ESP32-S0WD?qs=sGAEpiMZZMve4%2FbfQkoj%252BEaa%252BXdRvdmbR%2FQ7UMJWB9I%3D)? Or [an ESP8285 for $1.05](https://www2.mouser.com/ProductDetail/Espressif-Systems/ESP8285H16?qs=sGAEpiMZZMsG1k5vdNM%2Fc8yNQq7qgKEx8g19WW57dfQ%3D) (a buck!) with just Wifi? 
 
 The ESP8285 can already run TensorFlow Lite for Microcontrollers. This means you can add Wifi and Machine Learning to *any* piece of consumer electronics for ~$1.50. 
 
