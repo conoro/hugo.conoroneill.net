@@ -42,10 +42,10 @@ The ESP8266 family itself transformed inexpensive Chinese electronics like light
 
 *That's how profound TensorFlow Lite for Microcontrollers is. Everything changes and this time it starts from the bottom up.*
 
-And it doesn't have to be multi-hundred dollar Nests. Sonoff already has the ESP8266 in their [$16 lightbulb](https://www.aliexpress.com/item/32824271928.html) which means they can add ML for free. So there is your retail price point for mainstream ML in consumer electronics in 2019, $16. Here's that TF Lite Micro Hello World again, running on my lightbulb:
+And it doesn't have to be multi-hundred dollar Nests. Sonoff already has the ESP8285 in their [$16 lightbulb](https://www.aliexpress.com/item/32824271928.html) and [smart plugs](https://sonoff.tech/product/wifi-smart-plugs/s20) which means they can add ML for free. So there is your retail price point for mainstream ML in consumer electronics in 2019, $16. Here's that TF Lite Micro Hello World again, running on my AiLight (funny coincidence on the name) ESP8266-based lightbulb:
 
-![TF Lite Sonoff](/images/2019/12/sonoff2.jpg)
+![TF Lite AiLight](/images/2019/12/sonoff2.jpg)
 
-![TF Lite Sonoff Arduino](/images/2019/12/sonoff1.jpg)
+![TF Lite AiLight Arduino](/images/2019/12/sonoff1.jpg)
 
 
