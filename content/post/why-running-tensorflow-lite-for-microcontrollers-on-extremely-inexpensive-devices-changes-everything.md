@@ -23,7 +23,7 @@ And "everything" means you can run the Espruino port of TF Lite Micro in the emu
 This  isn't just cool geekiness, it means that anyone can get involved in Machine Learning on inexpensive devices without having to learn about cross-compilers, Python distributions, USB-Serial adapters or GPUs. It has hugely reduced the on-boarding friction. More importantly, this is something any educational establishment could embrace. The following could be the de-facto standard setup for learning (literally) hands-on ML in high-school or even younger:
 
 * Chromebooks running Web Bluetooth in Chrome
-* [Google Colab](https://colab.research.google.com/)
+* [Google Colab](https://colab.research.google.com/) (and/or [Pyodide](https://github.com/iodide-project/pyodide))
 * WebApps with [TensorFlow.js](https://www.tensorflow.org/js) 
 * [Espruino IDE](https://espruino.com/ide)
 * [Blockly](https://developers.google.com/blockly) ML blocks for Espruino
