@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.42.1" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2014/03/13/upgrading-your-samsung-galaxy-s4-i9505-to-kitkat-4-4-2-on-osx/" />
 
@@ -141,15 +141,15 @@
 <li>Power-off the phone and re-boot it by pressing Volume-Up and Power. When the bootloader menu appears, pick the factory reset option and then power-down</li>
 <li>Un-rar the downloaded file and you&rsquo;ll get a directory with a bunch of files in it.</li>
 <li>Put your S4 in download mode by shutting it off, then restarting it by holding Volume-Down and Power. At the prompt, press Volume-Up. Then connect it by USB to the Mac</li>
-<li>Open a terminal in OSX, cd to the directory that you un-rarred and type the following</li>
-</ul>
+
+<li><p>Open a terminal in OSX, cd to the directory that you un-rarred and type the following</p>
 
 <pre><code>sudo heimdall flash --APNHLOS NON-HLOS.bin --ABOOT aboot.mbn --BOOT boot.img --HIDDEN hidden.img.ext4 --MDM modem.bin --RECOVERY recovery.img --RPM rpm.mbn --SBL1 sbl1.mbn --SBL2 sbl2.mbn --SBL3 sbl3.mbn --SYSTEM system.img.ext4 --TZ tz.mbn --CACHE cache.img.ext4
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>That&rsquo;s it, after a few minutes you&rsquo;re done, the phone will reboot and give you an all clean setup.</li>
-<li>Optionally Run Titanium Backup to recover your Apps/Data</li>
+<li><p>That&rsquo;s it, after a few minutes you&rsquo;re done, the phone will reboot and give you an all clean setup.</p></li>
+
+<li><p>Optionally Run Titanium Backup to recover your Apps/Data</p></li>
 </ul>
 
     </section>

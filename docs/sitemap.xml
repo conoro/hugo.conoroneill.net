@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md/</loc>
+    <loc>https://conoroneill.net/2020/12/08/pcmanfm-raspberry-pi-smb-samba-password/</loc>
+    <lastmod>2020-12-08T07:00:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://conoroneill.net/2019/12/04/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything/</loc>
+    <lastmod>2019-12-04T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland/</loc>
     <lastmod>2019-12-02T07:00:00+00:00</lastmod>
   </url>
   
@@ -3764,13 +3774,13 @@
   
   <url>
     <loc>https://conoroneill.net/</loc>
-    <lastmod>2019-12-02T07:00:00+00:00</lastmod>
+    <lastmod>2020-12-08T07:00:22+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://conoroneill.net/post/</loc>
-    <lastmod>2019-12-02T07:00:00+00:00</lastmod>
+    <lastmod>2020-12-08T07:00:22+00:00</lastmod>
     <priority>0</priority>
   </url>
   

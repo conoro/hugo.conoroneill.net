@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.42.1" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2016/11/29/all-the-grisly-details-of-skeletony-and-the-halloween-doorbell-of-doom-v20/" />
 
@@ -178,11 +178,11 @@
 <p>A very nice person has created <a href="https://github.com/vkomenda/ssd1306">https://github.com/vkomenda/ssd1306</a> which is C code for the <a href="https://www.adafruit.com/product/326">SSD1306 OLED display</a>. It basically worked on the C.H.I.P. with some changes for my particular setup.</p>
 
 <ul>
-<li>I had to use the 2nd I2C port for some reason so I used:</li>
-</ul>
+<li><p>I had to use the 2nd I2C port for some reason so I used:</p>
 
 <pre><code>#define SSD1306_I2C_ADDR 0x3D 
-</code></pre>
+</code></pre></li>
+</ul>
 
 <p>in ssd1306.h</p>
 

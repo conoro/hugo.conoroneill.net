@@ -6,17 +6,38 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Dec 2019 07:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Dec 2020 07:00:22 +0000</lastBuildDate>
     
 	<atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Getting PCManFM on your Raspberry Pi to remember SMB/Samba passwords</title>
+      <link>https://conoroneill.net/2020/12/08/pcmanfm-raspberry-pi-smb-samba-password/</link>
+      <pubDate>Tue, 08 Dec 2020 07:00:22 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2020/12/08/pcmanfm-raspberry-pi-smb-samba-password/</guid>
+      <description>It&amp;rsquo;s always this time of year when I say I&amp;rsquo;ll definitely blog more next year. I was also sure I&amp;rsquo;d blog tons during lockdown but I was busy doing other things.
+This is the type of post I used to do very regularly on this blog so I thought I&amp;rsquo;d ease myself back in with a simple one.
+If you access Samba/SMB shares on your home network via the stock PCManFM file manager on your Raspberry Pi, you&amp;rsquo;ll probably have hit the problem that it forgets the password on reboot, even tho you ticked &amp;ldquo;remember forever&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Why running TensorFlow Lite Micro on very inexpensive devices changes everything</title>
+      <link>https://conoroneill.net/2019/12/04/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything/</link>
+      <pubDate>Wed, 04 Dec 2019 07:00:00 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2019/12/04/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything/</guid>
+      <description>When NearForm Research announced Bangle.js at NodeConf EU with Gordon Williams from Espruino, we highlighted the uniqueness of having an inexpensive off-the-shelf Chinese smartwatch running both JavaScript and Google&amp;rsquo;s TensorFlow Lite for Microcontrollers.
+Whilst hardcore technology people got the implications of this, most people didn&amp;rsquo;t. You can now run Machine Learning models directly on the $5 chip inside a watch and do all of the interaction inside a web browser.</description>
+    </item>
+    
+    <item>
       <title>Running Wasmer on a Raspberry Pi 4 with 64-bit userland</title>
-      <link>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md/</link>
+      <link>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland/</link>
       <pubDate>Mon, 02 Dec 2019 07:00:00 +0000</pubDate>
       
-      <guid>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland.md/</guid>
+      <guid>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland/</guid>
       <description>Like many people I&amp;rsquo;m excited by all of the possibilities opened up with WebAssembly/WASM. Most recently I&amp;rsquo;ve been keeping an eye on Wasmer and similar projects that enable WASM outside of the browser.
 So when I saw that you can now run it on a Raspberry Pi, I had to give it a try. But it&amp;rsquo;s not quite as straightforward as the article suggests and this is what I had to do to get it working.</description>
     </item>
@@ -198,25 +219,6 @@ We became a Nintendo house in 2005 with my US purchase of the original DS for th
       <guid>https://conoroneill.net/2017/08/20/using-puck-js-with-kulight-rgb-bluetooth-lightbulb/</guid>
       <description>I have a massive backlog of tech posts to do but I never quite finish the projects to the level I want and they are left hanging. So I&amp;rsquo;m going to start posting more WIP stuff from now on and hopefully they&amp;rsquo;ll be useful to someone.
 I&amp;rsquo;ve been a long-time fan of the Espruino project created by Gordon Willams and have had great fun with the original board, the Pico and Puck.</description>
-    </item>
-    
-    <item>
-      <title>All the grisly details of Skeletony and the Halloween Doorbell of Doooooom V2.0</title>
-      <link>https://conoroneill.net/2016/11/29/all-the-grisly-details-of-skeletony-and-the-halloween-doorbell-of-doom-v20/</link>
-      <pubDate>Tue, 29 Nov 2016 20:45:00 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2016/11/29/all-the-grisly-details-of-skeletony-and-the-halloween-doorbell-of-doom-v20/</guid>
-      <description>Intro After the silly complexity and Hackaday article! of last year, I decided to keep it simple for Halloween this year. Of course that worked out :-)
-The kids&amp;rsquo; favourite thing from all our Halloweens was the doorbell that made scary sounds. So that became the focus. As I hadn&amp;rsquo;t really done anything with my two C.H.I.P.s, I picked one to handle the bulk of the activity. I immediately became a big fan of its small size, built-in Wifi and simple Linux UI.</description>
-    </item>
-    
-    <item>
-      <title>Quick review of the BLU Life Mark £80 Android phone</title>
-      <link>https://conoroneill.net/2016/10/02/quick-review-of-the-blu-life-mark-android-phone/</link>
-      <pubDate>Sun, 02 Oct 2016 17:45:00 +0100</pubDate>
-      
-      <guid>https://conoroneill.net/2016/10/02/quick-review-of-the-blu-life-mark-android-phone/</guid>
-      <description>A couple of weeks ago, I took my Galaxy S6 out for a run in the rain and it died. Based on previous experience with the horror known as Vodafone Ireland Insurance, I figured I&amp;rsquo;d be looking at 10 days minimum to get a replacement. This proved 100% accurate as the usual completely inept software that connects Vodafone&amp;rsquo;s PDP-11 to Stay Mobile&amp;rsquo;s Commodore 64 had cancelled my insurance without notification several months previously.</description>
     </item>
     
   </channel>

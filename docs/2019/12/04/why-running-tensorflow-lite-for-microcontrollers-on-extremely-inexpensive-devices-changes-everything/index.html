@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" Why running TensorFlow Lite Micro on very inexpensive devices changes everything &middot;  Cross Dominant" />
+  	<meta property="og:site_name" content="Cross Dominant" />
+  	<meta property="og:url" content="https://conoroneill.net/2019/12/04/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2019-12-04T07:00:00Z" />
+
+    
+    
+
+  <title>
+     Why running TensorFlow Lite Micro on very inexpensive devices changes everything &middot;  Cross Dominant
+  </title>
+
+    <meta name="description" content="Mixed laterality since 1968" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://conoroneill.net/favicon.ico">
+	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+
+
+
+    
+      
+          <link href="https://conoroneill.net/index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.54.0" />
+
+    <link rel="canonical" href="https://conoroneill.net/2019/12/04/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88610-4', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+
+        
+    </ul>
+
+
+    
+    <a class="subscribe-button icon-feed" href="https://conoroneill.net/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Why running TensorFlow Lite Micro on very inexpensive devices changes everything</h1>
+        <small>Most people missed the buried lede about TensorFlow Lite Micro on Bangle.js so I thought I&#39;d lay it out more clearly.</small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2019-12-04T07:00:00Z">
+            Dec 4, 2019
+          </time>
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+<p>When <a href="https://www.nearform.com/research/">NearForm Research</a> announced <a href="https://www.nearform.com/blog?_sf_s=bangle.js">Bangle.js</a> at <a href="https://www.nodeconf.eu/">NodeConf EU</a> with Gordon Williams from <a href="https://espruino.com">Espruino</a>, we highlighted the uniqueness of having an inexpensive off-the-shelf Chinese smartwatch running both JavaScript and Google&rsquo;s <a href="https://www.tensorflow.org/lite/microcontrollers">TensorFlow Lite for Microcontrollers</a>.</p>
+
+<p>Whilst hardcore technology people got the implications of this, most people didn&rsquo;t. You can now run Machine Learning models directly on the $5 chip inside a watch and do all of the interaction inside a web browser. If you can&rsquo;t wait until Bangle.js is available in March 2020 to try it out, Gordon has gone one better and <a href="https://www.espruino.com/ide/emulator.html?codeurl=https://banglejs.com/apps/apps/flappy/app.js&amp;upload">emulated the watch</a> using Emscripten. So you can run everything inside the browser!</p>
+
+<p><img src="/images/2019/12/emulator1.jpg" alt="Flappy Bird Emulation" /></p>
+
+<p>And &ldquo;everything&rdquo; means you can run the Espruino port of TF Lite Micro in the emulator too. <a href="https://www.espruino.com/ide/emulator.html?gist=c0404a867b3531527428a1843c5fd5fc&amp;upload">Here is</a> the &ldquo;Hello World&rdquo; sine wave example from the <a href="https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/micro/examples/hello_world">TensorFlow repo</a> running inside Chrome.</p>
+
+<p><img src="/images/2019/12/emulator2.jpg" alt="TF Lite Micro Emulation" /></p>
+
+<h2 id="the-learning-ml-stack">The Learning ML Stack</h2>
+
+<p>This  isn&rsquo;t just cool geekiness, it means that anyone can get involved in Machine Learning on inexpensive devices without having to learn about cross-compilers, Python distributions, USB-Serial adapters or GPUs. It has hugely reduced the on-boarding friction. More importantly, this is something any educational establishment could embrace. The following could be the de-facto standard setup for learning (literally) hands-on ML in high-school or even younger:</p>
+
+<ul>
+<li>Chromebooks running Web Bluetooth in Chrome</li>
+<li><a href="https://colab.research.google.com/">Google Colab</a> (and/or <a href="https://github.com/iodide-project/pyodide">Pyodide</a>)</li>
+<li>WebApps with <a href="https://www.tensorflow.org/js">TensorFlow.js</a></li>
+<li><a href="https://espruino.com/ide">Espruino IDE</a></li>
+<li><a href="https://developers.google.com/blockly">Blockly</a> ML blocks for Espruino</li>
+<li><a href="https://banglejs.com">Bangle.js</a></li>
+</ul>
+
+<p>I&rsquo;m convinced tangible/tactile ML like this will engage people for far longer than &ldquo;yes you&rsquo;re right, it&rsquo;s a cat&rdquo;.</p>
+
+<h2 id="ml-everywhere-in-2020-2021">ML Everywhere in 2020-2021</h2>
+
+<p>Back to our $5 NRF52832 chip. It&rsquo;s a fabulous SoC, which is why we&rsquo;ve used it for 3 NodeConf EU&rsquo;s in a row. But it&rsquo;s still pretty pricey. And it only does Bluetooth (plus Thread with the right SDK).</p>
+
+<p>If power consumption isn&rsquo;t an issue, how about $2.45 for <a href="https://www2.mouser.com/ProductDetail/Espressif-Systems/ESP32-S0WD?qs=sGAEpiMZZMve4%2FbfQkoj%252BEaa%252BXdRvdmbR%2FQ7UMJWB9I%3D">an ESP32 chip with Wifi and Bluetooth</a>? Or <a href="https://www2.mouser.com/ProductDetail/Espressif-Systems/ESP8285H16?qs=sGAEpiMZZMsG1k5vdNM%2Fc8yNQq7qgKEx8g19WW57dfQ%3D">an ESP8285 for $1.05</a> (a buck!) with just Wifi?</p>
+
+<p>The ESP8285 can already run TensorFlow Lite for Microcontrollers. This means you can add Wifi and Machine Learning to <em>any</em> piece of consumer electronics for ~$1.50.</p>
+
+<p>The ESP8266 family itself transformed inexpensive Chinese electronics like lightbulbs and home automation devices in recent years. What could the addition of ML everywhere do? Why wouldn&rsquo;t you just add one to the BOM and easily get better reliability, potential data feedback, failure mode discovery, optimisation for environment and everything else that ML can offer? Could manufacturing become cheaper as tolerances are loosened during manufacture but dealt with by ML during device operation?</p>
+
+<p><em>That&rsquo;s how profound TensorFlow Lite for Microcontrollers is. Everything changes and this time it starts from the bottom up.</em></p>
+
+<p>And it doesn&rsquo;t have to be multi-hundred dollar Nests. Sonoff already has the ESP8285 in their <a href="https://www.aliexpress.com/item/32824271928.html">$16 lightbulb</a> and <a href="https://sonoff.tech/product/wifi-smart-plugs/s20">smart plugs</a> which means they can add ML for free. So there is your retail price point for mainstream ML+Wifi in consumer electronics in 2019, $16. Here&rsquo;s that TF Lite Micro Hello World again, running on my AiLight (funny coincidence on the name) ESP8266-based lightbulb:</p>
+
+<p><img src="/images/2019/12/sonoff2.jpg" alt="TF Lite AiLight" /></p>
+
+<p><img src="/images/2019/12/sonoff1.jpg" alt="TF Lite AiLight Arduino" /></p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
+  
+  <p>Tech guy who likes running slowly</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Why%20running%20TensorFlow%20Lite%20Micro%20on%20very%20inexpensive%20devices%20changes%20everything&amp;url=https%3a%2f%2fconoroneill.net%2f2019%2f12%2f04%2fwhy-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fconoroneill.net%2f2019%2f12%2f04%2fwhy-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fconoroneill.net%2f2019%2f12%2f04%2fwhy-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything%2f&amp;description=Why%20running%20TensorFlow%20Lite%20Micro%20on%20very%20inexpensive%20devices%20changes%20everything"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fconoroneill.net%2f2019%2f12%2f04%2fwhy-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'crossdominant';
+  var disqus_url = 'https:\/\/conoroneill.net\/2019\/12\/04\/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cross Dominant</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
+    
+</body>
+</html>
+

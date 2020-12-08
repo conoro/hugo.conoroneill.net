@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.42.1" />
+    <meta name="generator" content="Hugo 0.54.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2015/12/27/blogging-from-my-phone-with-droidedit-hugo-github-pages-and-travis/" />
 
@@ -146,10 +146,13 @@
 <ol>
 <li>get a <a href="https://github.com/settings/applications">Github token</a> for Travis</li>
 <li>Then <a href="https://docs.travis-ci.com/user/encryption-keys/">install Travis locally</a></li>
-<li>and encrypt your token via:
-<code>bash
-travis encrypt GH_TOKEN=&lt;secret token here&gt;  
-</code></li>
+
+<li><p>and encrypt your token via:</p>
+
+<pre><code class="language-bash">travis encrypt GH_TOKEN=&lt;secret token here&gt;  
+</code></pre>
+
+<ol>
 <li>Finally add that output to the &ldquo;secure&rdquo; string in .travis.yml.</li>
 </ol>
 
@@ -159,26 +162,27 @@ travis encrypt GH_TOKEN=&lt;secret token here&gt;
 
 <pre><code class="language-yaml">language: go
 go:
-  - 1.5.1
+- 1.5.1
 sudo: required
 env:
-  global:
-  - USER: Conor O'Neill
-  - EMAIL: cwjoneill@gmail.com
-  - GH_REF: github.com/conoro/conoro.github.io.git
-  - REPO: conoro.github.io
-  - GH_REPO: github.com/conoro/${REPO}.git
-  - secure: &quot;hHQScM7MWsK/74fvtoBn7lKuTKx1XlU08Ee4UD6ce0wfKNdE/W8z2dn8qzEsSw3YaoU6AULQgXthX+LVAXVZr1wIC6H9Kvjilaj+9ffRXFKrUv79q8s4EiOKqIvYGla5XlhIzP1Qu1qyLCA4dzgaQF6Cn2jB9AkkObnd8YArf3aW3LUbAnRy0ySo0A/QRupN/ckb81LXYnfbzQZB9zniBIhvGPipR0KdQL7GePShPWDeXJPpblo5kEXiIvHo7b1XYx+xACmaQR9PdoDgoTCAFqz2tJzCU92PnbIGw4Jv/ZdnWmt8Z6/4dO73UhcE3PokPvmg7tdsHbFWxhEzg0NaC7cvYsH3xWy9uTipwYLRd3eGbBt+htCZOj+slNHzREkPJBtEBw+b4iLDAr0T5V0kyflgsGOcgSXPyLIKsI0rHFRVAsZxowowK1UjZ05tnSIlFcIK8DX9c0JoXpM2ktOUt8/2EPCbaoKv17HW4BVDb7vXR8VzBf5MY4qku9NrmmYTMJXrzcdQU8JrbASPlHyF79n5xiiyg74Vq2OYCgHPg1nzmSrC1YgQu0W5WXNjWo9jt8h9C3ztuNYvDJkKkXl7KZDTq/s2XEzpzuLIA4rdTX+7lUB93ggN2YFeh6LV+kq58L8BpMPyiT8kxZLMF0HFTzaRNNwymelkPsV/+QZydro=&quot;
+global:
+- USER: Conor O'Neill
+- EMAIL: cwjoneill@gmail.com
+- GH_REF: github.com/conoro/conoro.github.io.git
+- REPO: conoro.github.io
+- GH_REPO: github.com/conoro/${REPO}.git
+- secure: &quot;hHQScM7MWsK/74fvtoBn7lKuTKx1XlU08Ee4UD6ce0wfKNdE/W8z2dn8qzEsSw3YaoU6AULQgXthX+LVAXVZr1wIC6H9Kvjilaj+9ffRXFKrUv79q8s4EiOKqIvYGla5XlhIzP1Qu1qyLCA4dzgaQF6Cn2jB9AkkObnd8YArf3aW3LUbAnRy0ySo0A/QRupN/ckb81LXYnfbzQZB9zniBIhvGPipR0KdQL7GePShPWDeXJPpblo5kEXiIvHo7b1XYx+xACmaQR9PdoDgoTCAFqz2tJzCU92PnbIGw4Jv/ZdnWmt8Z6/4dO73UhcE3PokPvmg7tdsHbFWxhEzg0NaC7cvYsH3xWy9uTipwYLRd3eGbBt+htCZOj+slNHzREkPJBtEBw+b4iLDAr0T5V0kyflgsGOcgSXPyLIKsI0rHFRVAsZxowowK1UjZ05tnSIlFcIK8DX9c0JoXpM2ktOUt8/2EPCbaoKv17HW4BVDb7vXR8VzBf5MY4qku9NrmmYTMJXrzcdQU8JrbASPlHyF79n5xiiyg74Vq2OYCgHPg1nzmSrC1YgQu0W5WXNjWo9jt8h9C3ztuNYvDJkKkXl7KZDTq/s2XEzpzuLIA4rdTX+7lUB93ggN2YFeh6LV+kq58L8BpMPyiT8kxZLMF0HFTzaRNNwymelkPsV/+QZydro=&quot;
 git:
-  submodules: false
+submodules: false
 # Use sed to replace the SSH URL with the public URL, then initialize submodules
 before_install:
-  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+- sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 install:
-  - sudo pip install Pygments
-  - go get github.com/spf13/hugo
+- sudo pip install Pygments
+- go get github.com/spf13/hugo
 script: bash ./deploy.sh
-</code></pre>
+</code></pre></li>
+</ol>
 
 <p>deploy.sh</p>
 
