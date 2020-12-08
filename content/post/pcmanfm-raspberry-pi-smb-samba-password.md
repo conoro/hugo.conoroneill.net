@@ -12,7 +12,7 @@ This is the type of post I used to do very regularly on this blog so I thought I
 
 If you access Samba/SMB shares on your home network via the stock PCManFM file manager on your Raspberry Pi, you'll probably have hit the problem that it forgets the password on reboot, even tho you ticked "remember forever". 
 
-It's a surprisingly difficuly fix to find via Google but is easy to do.
+It's a surprisingly difficult fix to find via Google but is easy to do.
 
 * First install gnome-keyring which remembers your SMB passwords with `sudo apt install gnome-keyring`
 * Then install seahorse which is a simple gnome-keyring GUI with `sudo apt install seahorse`
