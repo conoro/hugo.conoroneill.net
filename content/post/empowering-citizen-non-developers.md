@@ -27,11 +27,11 @@ We had the same problem in late 2018 trying to do visualisations of data from al
 
 Now compare that to the Irish Government grant application I worked on recently with our Financial Controller. It required detailed analysis and presentation of hours worked by certain people on certain projects in certain time windows. Some people were excluded by location, some by daterange, some by project. The people/projects/date-ranges/locations/etc/etc all had to be configurable. All of the source data was in a SaaS timesheet tool called 10,000ft. It has some basic querying capability but really that's just used to generate, yes you guessed it, a CSV, so it can be properly analysed elsewere.
 
-Now the old dev in me would have loaded that CSV into a database and start running SQL queries against it. But our Financial Controller loaded it into Excel and started working her magic on it using Pivot Tables. And it was a joy to behold. Click, click, click, filter, BAM, data. "Can you show it by X?". Click, click, click, done. "How about....?". Click, click, done. I still can't quite wrap my head around the three dimensional manipulations that were going on across multiple tabs.
+Now the old dev in me would have loaded that CSV into a database and started running SQL queries against it. But our Financial Controller loaded it into Excel and started working her magic on it using Pivot Tables. And it was a joy to behold. Click, click, click, filter, BAM, data. "Can you show it by X?". Click, click, click, done. "How about....?". Click, click, done. I still can't quite wrap my head around the three dimensional manipulations that were going on across multiple tabs.
 
 By any reasonable measure, what she was doing was programming, just not the type of programming we do. 
 
-_And that was always the magic of Excel and Lotus 1,2,3. It empowered accountants and other non technical people to do incredibly complex tasks without ever thinking they were writing code. Even when they were writing complex formulae and macros._ 
+*And that was always the magic of Excel and Lotus 1,2,3. It empowered accountants and other non technical people to do incredibly complex tasks without ever thinking they were writing code. Even when they were writing complex formulae and macros.* 
 
 IBM and all the other PC makers sold millions of computers to those people, not to developers.
 
@@ -39,7 +39,7 @@ For fun, I did load that CSV into SQLite and used a free ODBC connector to query
 
 I know of multiple consulting companies who charge millions of dollars in fees based on knowledge they have encapsulated in crazily-complex Excel spreadsheets too. And I'm sure they have filenames ending in FINAL_FINAL_USE_THIS_ONE. And they used CSV to get the data in.
 
-So where is Excel NG or Lotus 3,4,5? The thing that empowers those millions of people, but on the cloud. Where data flows from tool to tool and system to system without programming or goddammed OAuth. Where huge amounts of data can be crunched with a few clicks by an accountant and displayed exactly how it's needed. Where teams of people can work on the same data and the same "spreadsheet" at the same time. Where it's never a case of "well to do that complicated thing, you'll need to get a developer". Where you never have to call IT to get your "spreadsheet" working again. Where it all just works as brilliantly as Excel has worked for all these years. And no, I won't have a word said against Excel. (MS Word on the other hand....)
+So where is Excel NG or Lotus 4,5,6? The thing that empowers those millions of people, but on the cloud. Where data flows from tool to tool and system to system without programming or damned OAuth. Where huge amounts of data can be crunched with a few clicks by an accountant and displayed exactly how it's needed. Where teams of people can work on the same data and the same "spreadsheet" at the same time. Where it's never a case of "well to do that complicated thing, you'll need to get a developer". Where you never have to call IT to get your "spreadsheet" working again. Where it all just works as brilliantly as Excel has worked for all these years. And no, I won't have a word said against Excel. MS Word on the other hand.
 
 I'm not talking about Google Sheets. It's definitely not Power BI. It really really isn't whatever that dreadful mickey-mouse online version of Excel is (it only imports from OneDrive, are you taking the complete piss Microsoft?). And with that pricing model, it's not AirTable. 
 
