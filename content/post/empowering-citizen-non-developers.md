@@ -39,7 +39,7 @@ For fun, I did load that CSV into SQLite and used a free ODBC connector to query
 
 I know of multiple consulting companies who charge millions of dollars in fees based on knowledge they have encapsulated in crazily-complex Excel spreadsheets too. And I'm sure they have filenames ending in FINAL_FINAL_USE_THIS_ONE. And they used CSV to get the data in.
 
-I've also just realised that the vast majority of the tools I've written for myself over the past few years have been "ETL". Whilst they have mostly been "Website X to RSS" convertors (glares at most newspaper sites and now Vimeo), I also had to build RunKeeper-to-Endomondo, Withings-to-GSheets and Yunmai-to-CSV.
+I've also realised that the vast majority of the tools I've written for myself over the past few years have been "ETL". Whilst they have mostly been "Website X to RSS" convertors (glares at most newspaper sites and now Vimeo), I also had to build RunKeeper-to-Endomondo, Withings-to-GSheets and Yunmai-to-CSV.
 
 So where is Excel NG or Lotus 4,5,6 to get people out of XLSX-via-email mode? The thing that empowers those millions of people, but on the cloud. Where data flows from tool to tool and system to system without programming or damned OAuth. Where huge amounts of data can be crunched with a few clicks by an accountant and displayed exactly how it's needed. Where teams of people can work on the same data and the same "spreadsheet" at the same time. Where it's never a case of "oh, to do that complicated thing, you'll need to get a developer". Where you never have to call IT to get started on your "spreadsheet". Where it all just works as brilliantly as Excel has worked for all these years. And no, I won't have a word said against Excel.
 
