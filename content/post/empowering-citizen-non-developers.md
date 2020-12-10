@@ -39,10 +39,14 @@ For fun, I did load that CSV into SQLite and used a free ODBC connector to query
 
 I know of multiple consulting companies who charge millions of dollars in fees based on knowledge they have encapsulated in crazily-complex Excel spreadsheets too. And I'm sure they have filenames ending in FINAL_FINAL_USE_THIS_ONE. And they used CSV to get the data in.
 
-So where is Excel NG or Lotus 4,5,6? The thing that empowers those millions of people, but on the cloud. Where data flows from tool to tool and system to system without programming or damned OAuth. Where huge amounts of data can be crunched with a few clicks by an accountant and displayed exactly how it's needed. Where teams of people can work on the same data and the same "spreadsheet" at the same time. Where it's never a case of "well to do that complicated thing, you'll need to get a developer". Where you never have to call IT to get your "spreadsheet" working. Where it all just works as brilliantly as Excel has worked for all these years. And no, I won't have a word said against Excel. MS Word on the other hand.
+I've also just realised that the vast majority of the tools I've written for myself over the past few years have been "ETL". Whilst they have mostly been "Website X to RSS" convertors (glares at most newspaper sites and now Vimeo), I also had to build RunKeeper-to-Endomondo, Withings-to-GSheets and Yunmai-to-CSV.
 
-I'm not talking about Google Sheets. It's definitely not Power BI. It really really isn't whatever that dreadful mickey-mouse online version of Excel is (it only imports from OneDrive, are you taking the complete piss Microsoft?). And with that pricing model, it's not AirTable. 
+So where is Excel NG or Lotus 4,5,6 to get people out of XLSX-via-email mode? The thing that empowers those millions of people, but on the cloud. Where data flows from tool to tool and system to system without programming or damned OAuth. Where huge amounts of data can be crunched with a few clicks by an accountant and displayed exactly how it's needed. Where teams of people can work on the same data and the same "spreadsheet" at the same time. Where it's never a case of "well to do that complicated thing, you'll need to get a developer". Where you never have to call IT to get started on your "spreadsheet". Where it all just works as brilliantly as Excel has worked for all these years. And no, I won't have a word said against Excel.
 
-It's something new. Who's going to build it?
+I'm not talking about the innovation-free zone that is Google Sheets. It's definitely not that unusable monster Power BI. It really really isn't whatever that dreadful mickey-mouse online version of Excel is (it only imports from OneDrive 🙄). And with that pricing model, it's not AirTable. 
+
+It's something new and it's going to be amazing for all those Citizen Non-Developers. 
+
+Who's going to build it?
 
 
