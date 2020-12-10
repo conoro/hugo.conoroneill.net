@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.54.0" />
+    <meta name="generator" content="Hugo 0.26" />
 
     <link rel="canonical" href="https://conoroneill.net/2016/02/08/three-ways-to-build-go-1.4-binaries-for-mips32-onion-omega/" />
 
@@ -237,12 +237,11 @@ WORKDIR $GOPATH/src
 
 <ul>
 <li>Install <a href="https://www.docker.com/products/docker-toolbox">Docker Toolbox for Windows</a>. It&rsquo;ll also install VirtualBox if you don&rsquo;t already have it.</li>
-
-<li><p>Run a Docker shell and type:</p>
+<li>Run a Docker shell and type:</li>
+</ul>
 
 <pre><code>docker run -t -i conoro/go-mips32:v1 /bin/sh
-</code></pre></li>
-</ul>
+</code></pre>
 
 <p>(Note v2 has some problems I need to fix so you&rsquo;ll need to manually install openssh and git on v1)</p>
 

@@ -6,10 +6,19 @@
     <description>Recent content on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Dec 2020 07:00:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Dec 2020 07:00:22 +0000</lastBuildDate>
     
 	<atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Empowering Citizen Non-Developers</title>
+      <link>https://conoroneill.net/2020/12/10/empowering-citizen-non-developers/</link>
+      <pubDate>Thu, 10 Dec 2020 07:00:22 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2020/12/10/empowering-citizen-non-developers/</guid>
+      <description>I&amp;rsquo;ve been thinking about tools for non-developers for several years. It seems to me that all the big players are missing out on a huge market. They keep talking about citizen developers, low-code and no-code. But the focus is on &amp;ldquo;code&amp;rdquo; so most of the world will self-select out of using any of those tools, including the &amp;ldquo;no-code&amp;rdquo; ones. Even the title of Satya Nadella&amp;rsquo;s article this week is &amp;ldquo;Want a More Equitable Future?</description>
+    </item>
     
     <item>
       <title>Getting PCManFM on your Raspberry Pi to remember SMB/Samba passwords</title>
@@ -209,16 +218,6 @@ Five hours later I finally had them both working ok. Hopefully this post will sa
       <guid>https://conoroneill.net/2017/12/24/end-of-an-era-our-wii-is-going-in-the-attic/</guid>
       <description>Last night I setup a monitor in the 12yo&amp;rsquo;s room for his Android media box and his Nintendo Switch. He told me not to bother setting up the Wii. And I was kinda sad.
 We became a Nintendo house in 2005 with my US purchase of the original DS for the 6yo. This September he started college. In that time we have bought DS Lites, DSis and 3DSes. And some of them are still in intermittent use from the 18yo down to the 11yo.</description>
-    </item>
-    
-    <item>
-      <title>Using Puck.js with the KuLight RGB Bluetooth Lightbulb</title>
-      <link>https://conoroneill.net/2017/08/20/using-puck-js-with-kulight-rgb-bluetooth-lightbulb/</link>
-      <pubDate>Sun, 20 Aug 2017 18:11:00 +0100</pubDate>
-      
-      <guid>https://conoroneill.net/2017/08/20/using-puck-js-with-kulight-rgb-bluetooth-lightbulb/</guid>
-      <description>I have a massive backlog of tech posts to do but I never quite finish the projects to the level I want and they are left hanging. So I&amp;rsquo;m going to start posting more WIP stuff from now on and hopefully they&amp;rsquo;ll be useful to someone.
-I&amp;rsquo;ve been a long-time fan of the Espruino project created by Gordon Willams and have had great fun with the original board, the Pico and Puck.</description>
     </item>
     
   </channel>
