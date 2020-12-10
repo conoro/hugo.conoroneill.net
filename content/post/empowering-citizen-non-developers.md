@@ -31,7 +31,7 @@ Now the old dev in me would have loaded that CSV into a database and started run
 
 By any reasonable measure, what she was doing was programming, just not the type of programming we do. 
 
-**And that was always the magic of Excel and Lotus 1,2,3. It empowered accountants and other non technical people to do incredibly complex tasks without ever thinking they were writing code. Even when they were writing complex formulae and macros.** 
+**And that was always the magic of Excel and Lotus 1-2-3. It empowered accountants and other non technical people to do incredibly complex tasks without ever thinking they were writing code. Even when they were writing complex formulae and macros.** 
 
 IBM and all the other PC makers sold millions of computers to those people, not to developers.
 
@@ -41,7 +41,7 @@ I know of multiple consulting companies who charge millions of dollars in fees b
 
 I've also realised that the vast majority of the tools I've written for myself over the past few years have been "ETL". Whilst they have mostly been "Website X to RSS" [converters](https://github.com/conoro/tokyo-marathon-rss) (glares at most [newspaper sites](https://github.com/conoro/evening-echo-rss) and now [Vimeo](https://github.com/conoro/vimeo-rss)), I also had to build [RunKeeper-to-Endomondo](https://github.com/conoro/runkeeper2endomondo), [Withings-to-GSheets](https://github.com/conoro/withings2gsheets) and [Yunmai-to-CSV](https://github.com/conoro/yunmai-data-extract).
 
-So where is Excel NG or Lotus 4,5,6 to get people out of XLSX-via-email mode? The thing that empowers those millions of people, but on the cloud? Where data flows from tool to tool and system to system without programming or damned OAuth? Where huge amounts of data can be crunched with a few clicks by an accountant and displayed exactly how it's needed? Where teams of people can work on the same data and the same "spreadsheet" at the same time? Where it's never a case of "oh, to do that complicated thing, you'll need to get a developer"? Where you never have to call IT to get started on your "spreadsheet"? Where it all just works as brilliantly as Excel has worked for all these years? And no, I won't have a word said against Excel.
+So where is Excel NG or Lotus 4-5-6 to get people out of XLSX-via-email mode? The thing that empowers those millions of people, but on the cloud? Where data flows from tool to tool and system to system without programming or damned OAuth? Where huge amounts of data can be crunched with a few clicks by an accountant and displayed exactly how it's needed? Where teams of people can work on the same data and the same "spreadsheet" at the same time? Where it's never a case of "oh, to do that complicated thing, you'll need to get a developer"? Where you never have to call IT to get started on your "spreadsheet"? Where it all just works as brilliantly as Excel has worked for all these years? And no, I won't have a word said against Excel.
 
 I'm not talking about the innovation-free zone that is Google Sheets. It's definitely not that unusable monster Power BI. It really really isn't whatever that dreadful mickey-mouse online version of Excel is (it only imports from OneDrive 🙄). And with that pricing model, it's not AirTable. 
 
