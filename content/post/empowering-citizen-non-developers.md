@@ -31,7 +31,7 @@ Now the old dev in me would have loaded that CSV into a database and started run
 
 By any reasonable measure, what she was doing was programming, just not the type of programming we do. 
 
-*And that was always the magic of Excel and Lotus 1,2,3. It empowered accountants and other non technical people to do incredibly complex tasks without ever thinking they were writing code. Even when they were writing complex formulae and macros.* 
+**And that was always the magic of Excel and Lotus 1,2,3. It empowered accountants and other non technical people to do incredibly complex tasks without ever thinking they were writing code. Even when they were writing complex formulae and macros.** 
 
 IBM and all the other PC makers sold millions of computers to those people, not to developers.
 
