@@ -25,7 +25,7 @@ It'll be interesting to see how many more years I'll be able to keep these sites
 
 Just to give you a sense of the timescales I'm talking about, here's some of those static HTML sites:
 
-* [hushvine.com](https://[hushvine.com) - First went live on WordPress in October 2011. Last updated December 2011. Dublin Web Summit 7 2011!!
+* [hushvine.com](https://hushvine.com) - First went live on WordPress in October 2011. Last updated December 2011. Dublin Web Summit 7 2011!!
 * [conoroneill.com](https://conoroneill.com) - First went live via Microsoft Frontpage in June 2000. Then Blogger. Then WordPress. Then Hexo. Now powered by [Hugo](https://gohugo.io/). Still being updated, albeit not as regularly as I'd like. 
 * This site - First went live  on Posterous in June 2009. Still being updated, albeit not as regularly as I'd like. Also powered by [Hugo](https://gohugo.io/).
 * [web2ireland.org](https://web2ireland.org) - First went live on WordPress in September 2005. Last updated September 2012.
