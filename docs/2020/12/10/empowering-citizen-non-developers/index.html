@@ -112,7 +112,7 @@
 
     <header class="post-header">
         <h1 class="post-title">Empowering Citizen Non-Developers</h1>
-        <small>All this talk of low-code and no-code forgets the millions of citizen non-developer Excel ninjas known as Accountants</small>
+        <small>All this talk of low-code and no-code forgets the millions of citizen non-developer Excel ninjas</small>
 
         <section class="post-meta">
         
@@ -125,13 +125,13 @@
     </header>
 
     <section class="post-content">
-      <p>I&rsquo;ve been thinking about tools for non-developers for several years. It seems to me that all the big players are missing out on a huge market. They keep talking about citizen developers, low-code and no-code. But the focus is on &ldquo;code&rdquo; so most of the world will self-select out of using any of those tools, including the &ldquo;no-code&rdquo; ones. Even the title of Satya Nadella&rsquo;s article this week is <a href="https://www.wired.com/story/want-a-more-equitable-future-empower-citizen-developers/">&ldquo;Want a More Equitable Future? Empower Citizen Developers&rdquo;</a>. And Google <a href="https://developers.googleblog.com/2020/12/get-ready-to-up-your-apps-script.html">announced a big revamp of Apps Script</a> with a cool new IDE. For developers.</p>
+      <p>I&rsquo;ve been thinking about tools for non-developers for several years. It seems to me that all the big players are leaving behind this important group. They keep talking about citizen developers, low-code and no-code. But the focus is on &ldquo;code&rdquo;, so most of the world will self-select out of using any of those tools, including the no-code ones. Even the title of Satya Nadella&rsquo;s article this week is <a href="https://www.wired.com/story/want-a-more-equitable-future-empower-citizen-developers/">&ldquo;Want a More Equitable Future? Empower Citizen Developers&rdquo;</a>. And Google <a href="https://developers.googleblog.com/2020/12/get-ready-to-up-your-apps-script.html">announced a big revamp of Apps Script</a> with a cool new IDE. For developers.</p>
 
-<p>Back in the <a href="http://feedhenry.org">FeedHenry</a> days we created a very useful feature set that enabled Enterprise employees to build forms-based mobile apps with a few clicks. No code necessary at all. It was fantastic for people involved in data collection. When Red Hat acquired FeedHenry, we thought the combination of mobile forms with a user-friendly version of their Business Process Manager tools would be a killer combo for an even wider range of people. But for a variety of reasons it never happened.</p>
+<p>Back in the <a href="http://feedhenry.org">FeedHenry</a> days we created a very useful feature set that enabled non-developer Enterprise employees to build forms-based mobile apps with a few clicks. No code necessary at all. It was fantastic for people involved in data collection. When Red Hat acquired FeedHenry, I thought the combination of mobile forms with a user-friendly version of their Business Process Manager tools would be a killer combo for an even wider range of people. But for a variety of reasons it never happened.</p>
 
-<p>There is still no easy solution for non-technical people there.</p>
+<p>There is still no easy solution for non-technical people in that space.</p>
 
-<p>This summer, I went to build a PoC of a wearables data collection and analysis tool, based on <a href="https://www.nearform.com/blog/bangle-js-hackable-oss-js-and-tensorflow-smartwatch/">Bangle.js</a> (of course!). I wanted minimal effort, minimal code and as much off-the-shelf tooling as I could find. Damn was I disappointed. The data collection from the Bangle itself in a simple webapp required some code but I&rsquo;ve done that multiple times using Web Bluetooth, so it was a copy/paste exercise. Once I had the &ldquo;CSV&rdquo; in the browser, I thought it would be trivial to automatically push it into the cloud somewhere and built an analysis dashboard.</p>
+<p>This summer, I went to build a proof-of-concept of a wearables data collection and analysis tool, based on <a href="https://www.nearform.com/blog/bangle-js-hackable-oss-js-and-tensorflow-smartwatch/">Bangle.js</a> (of course!). I wanted minimal effort, minimal code and as much off-the-shelf tooling as I could find. Damn was I disappointed. The data collection from the Bangle itself in a simple webapp required some code but I&rsquo;ve done that multiple times using Web Bluetooth, so it was a copy/paste exercise. Once I had the &ldquo;CSV&rdquo; in the browser, I thought it would be trivial to automatically push it into the cloud somewhere and build an analysis dashboard.</p>
 
 <p>Like many people I tried <a href="https://airtable.com">AirTable</a> first but its pricing model is based on tiny amounts of data. I could get the data in easily enough but my view of it as &ldquo;Cloud Excel on Steroids&rdquo; turned out to be either wrong or out of date. And there is no way those prices make sense for the scale of what I was trying to do.</p>
 
@@ -143,13 +143,13 @@
 
 <p><span>Photo by <a href="https://unsplash.com/@michaelhlk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Michael Heng</a> on <a href="https://unsplash.com/s/photos/swiss-army-knife?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
 
-<p>Now compare that to the Irish Government grant application I worked on recently with our Financial Controller. It required detailed analysis and presentation of hours worked by certain people on certain projects in certain time windows. Some people were excluded by location, some by daterange, some by project. The people/projects/date-ranges/locations/etc/etc all had to be configurable. All of the source data was in a SaaS timesheet tool called 10,000ft. It has some basic querying capability but really that&rsquo;s just used to generate, yes you guessed it, a CSV, so it can be properly analysed elsewere.</p>
+<p>Now compare that to our Financial Controller and me applying for an Irish Government grant recently. It required detailed analysis and presentation of hours worked by certain people on certain projects in certain time windows. Hours for some people were excluded by location, some by date-range, some by project. The people/projects/date-ranges/locations/etc/etc all had to be configurable. All of the source data was in a SaaS timesheet tool called 10,000ft. It has some basic querying capability but really that&rsquo;s just used to generate, yes you guessed it, a CSV, so it can be properly analysed elsewhere.</p>
 
 <p>Now the old dev in me would have loaded that CSV into a database and started running SQL queries against it. But our Financial Controller loaded it into Excel and started working her magic on it using Pivot Tables. And it was a joy to behold. Click, click, click, filter, BAM, data. &ldquo;Can you show it by X?&rdquo;. Click, click, click, done. &ldquo;How about&hellip;.?&rdquo;. Click, click, done. I still can&rsquo;t quite wrap my head around the three dimensional manipulations that were going on across multiple tabs.</p>
 
 <p>By any reasonable measure, what she was doing was programming, just not the type of programming we do.</p>
 
-<p><em>And that was always the magic of Excel and Lotus 1,2,3. It empowered accountants and other non technical people to do incredibly complex tasks without ever thinking they were writing code. Even when they were writing complex formulae and macros.</em></p>
+<p><strong>And that was always the magic of Excel and Lotus 1-2-3. It empowered accountants and other non technical people to do incredibly complex tasks without ever thinking they were writing code. Even when they were writing complex formulae and macros.</strong></p>
 
 <p>IBM and all the other PC makers sold millions of computers to those people, not to developers.</p>
 
@@ -157,11 +157,15 @@
 
 <p>I know of multiple consulting companies who charge millions of dollars in fees based on knowledge they have encapsulated in crazily-complex Excel spreadsheets too. And I&rsquo;m sure they have filenames ending in FINAL_FINAL_USE_THIS_ONE. And they used CSV to get the data in.</p>
 
-<p>So where is Excel NG or Lotus 4,5,6? The thing that empowers those millions of people, but on the cloud. Where data flows from tool to tool and system to system without programming or damned OAuth. Where huge amounts of data can be crunched with a few clicks by an accountant and displayed exactly how it&rsquo;s needed. Where teams of people can work on the same data and the same &ldquo;spreadsheet&rdquo; at the same time. Where it&rsquo;s never a case of &ldquo;well to do that complicated thing, you&rsquo;ll need to get a developer&rdquo;. Where you never have to call IT to get your &ldquo;spreadsheet&rdquo; working again. Where it all just works as brilliantly as Excel has worked for all these years. And no, I won&rsquo;t have a word said against Excel. MS Word on the other hand.</p>
+<p>I&rsquo;ve also realised that the vast majority of the tools I&rsquo;ve written for myself over the past few years have been &ldquo;ETL&rdquo;. Whilst they have mostly been &ldquo;Website X to RSS&rdquo; <a href="https://github.com/conoro/tokyo-marathon-rss">converters</a> (glares at most <a href="https://github.com/conoro/evening-echo-rss">newspaper sites</a> and now <a href="https://github.com/conoro/vimeo-rss">Vimeo</a>), I also had to build <a href="https://github.com/conoro/runkeeper2endomondo">RunKeeper-to-Endomondo</a>, <a href="https://github.com/conoro/withings2gsheets">Withings-to-GSheets</a> and <a href="https://github.com/conoro/yunmai-data-extract">Yunmai-to-CSV</a>.</p>
 
-<p>I&rsquo;m not talking about Google Sheets. It&rsquo;s definitely not Power BI. It really really isn&rsquo;t whatever that dreadful mickey-mouse online version of Excel is (it only imports from OneDrive, are you taking the complete piss Microsoft?). And with that pricing model, it&rsquo;s not AirTable.</p>
+<p>So where is Excel NG or Lotus 4-5-6 to get people out of XLSX-via-email mode? The thing that empowers those millions of people, but on the cloud? Where data flows from tool to tool and system to system without programming or damned OAuth? Where huge amounts of data can be crunched with a few clicks by an accountant and displayed exactly how it&rsquo;s needed? Where teams of people can work on the same data and the same &ldquo;spreadsheet&rdquo; at the same time? Where it&rsquo;s never a case of &ldquo;oh, to do that complicated thing, you&rsquo;ll need to get a developer&rdquo;? Where you never have to call IT to get started on your &ldquo;spreadsheet&rdquo;? Where it all just works as brilliantly as Excel has worked for all these years? And no, I won&rsquo;t have a word said against Excel.</p>
 
-<p>It&rsquo;s something new. Who&rsquo;s going to build it?</p>
+<p>I&rsquo;m not talking about the innovation-free zone that is Google Sheets. It&rsquo;s definitely not that unusable monster Power BI. It really really isn&rsquo;t whatever that dreadful mickey-mouse online version of Excel is (it only imports from OneDrive 🙄). And with that pricing model, it&rsquo;s not AirTable.</p>
+
+<p>It&rsquo;s something new and it&rsquo;s going to be amazing for all those Citizen Non-Developers.</p>
+
+<p>Who&rsquo;s going to build it?</p>
 
     </section>
 
