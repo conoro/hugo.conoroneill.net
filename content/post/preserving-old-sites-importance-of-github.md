@@ -17,7 +17,7 @@ So I've taken it as a bit of a challenge to try and keep as much old content as 
 <span>Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/old?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 
-I've realised that GitHub is a critical tool for doing this in an inexpensive and portable way. Over the past few years I've taken several old blogs/sites, saved them as static HTML via various methods (WordPress export, Harp, Hugo, etc), loaded them up into a GitHub repo and made them accessible on the web via [GitHub Pages](https://pages.github.com/). Even better, that now includes a free https cert.
+I've realised that GitHub is a critical tool for doing this in an inexpensive and portable way. Over the past few years I've taken several old blogs/sites, saved them as static HTML via various methods (WordPress export, wget, Harp, Hugo, etc), loaded them up into a GitHub repo and made them accessible on the web via [GitHub Pages](https://pages.github.com/). Even better, that now includes a free https cert.
 
 The only expense in keeping these sites online, and accessible at their original address, is the domain fee. I've switched over to [Porkbun](https://porkbun.com) for that. A great inexpensive service. Of course you can just use a GitHub address if you don't want to spend anything. But I do think the domain is an important aspect of keeping continuity.
 
