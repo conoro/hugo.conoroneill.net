@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2014/06/01/creating-a-valid-ops-file-in-json-format-for-minecraft-179/" />
 
@@ -126,48 +126,40 @@
 
     <section class="post-content">
       <p><em>This Post is no longer relevant. Please do not follow the instructions here.</em></p>
-
 <p>Our 8yo wanted a local server on his laptop today so I grabbed the latest 1.7.9 server exe from the Minecraft site and ran it in its own directory. It created the usual files and gave a GUI-style interface with no obvious console like the raw Java version. Fionn then asked me to make him an Op so he could change things. And it was all downhill from there.</p>
-
 <p>The standard ops.txt was missing but there was an ops.json containing just two square brackets. No amount of messing with creating an ops.txt or putting his username inside the brackets of the json file worked. Over an hour of googling finally got me close. In the recent versions of Minecraft, they have moved to using JSON instead of .txt for config files and they are rolling out the idea of UUIDs so that you can easily change your username. Both are reasonable changes but implemented terribly in this case. Unless the format of your json file in 100% correct, it doesn&rsquo;t throw an error, it just deletes it!</p>
-
 <p>So after more than 10 attempts, this is what you need:</p>
-
 <ul>
-<li><p>Find your UUID. Note that several sites claim to generate this for you but they are missing the dashes in the UUID. The one that worked for me was <a href="http://minecraft-techworld.com/uuid-lookup-tool">this one</a>. Enter your username and get something like 54d61e19-71cc-477d-8215-8a11c41f5211 back.</p></li>
-
-<li><p>Edit ops.json in a text editor and replace the contents as follows:</p></li>
+<li>
+<p>Find your UUID. Note that several sites claim to generate this for you but they are missing the dashes in the UUID. The one that worked for me was <a href="http://minecraft-techworld.com/uuid-lookup-tool">this one</a>. Enter your username and get something like 54d61e19-71cc-477d-8215-8a11c41f5211 back.</p>
+</li>
+<li>
+<p>Edit ops.json in a text editor and replace the contents as follows:</p>
+</li>
 </ul>
-
-<pre><code class="language-javascript">[
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">[
   {
-    &quot;uuid&quot;: &quot;54d61e19-71cc-477d-8215-8a11c41f5211&quot;,
-    &quot;name&quot;: &quot;bobloblaw&quot;,
-    &quot;level&quot;: 4
+    <span style="color:#e6db74">&#34;uuid&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;54d61e19-71cc-477d-8215-8a11c41f5211&#34;</span>,
+    <span style="color:#e6db74">&#34;name&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;bobloblaw&#34;</span>,
+    <span style="color:#e6db74">&#34;level&#34;</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">4</span>
   }
 ] 
-</code></pre>
-
-<ul>
-<li>If you need more than one Op, do it like so.
-<code>javascript
-[
-{
-&quot;uuid&quot;: &quot;54d61e19-71cc-477d-8215-8a11c41f5211&quot;,
-&quot;name&quot;: &quot;bobloblaw&quot;,
-&quot;level&quot;: 4
-},
-{
-&quot;uuid&quot;: &quot;44d61e69-6166-444d-8665-6a11567f5211&quot;,
-&quot;name&quot;: &quot;mrsmines&quot;,
-&quot;level&quot;: 4
-}
-] 
-</code></li>
+</code></pre></div><ul>
+<li>If you need more than one Op, do it like so.</li>
 </ul>
-
-<p>That should be all you need. Leave a comment if any problems with it.</p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">[
+  {
+    <span style="color:#e6db74">&#34;uuid&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;54d61e19-71cc-477d-8215-8a11c41f5211&#34;</span>,
+    <span style="color:#e6db74">&#34;name&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;bobloblaw&#34;</span>,
+    <span style="color:#e6db74">&#34;level&#34;</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">4</span>
+  },
+  {
+    <span style="color:#e6db74">&#34;uuid&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;44d61e69-6166-444d-8665-6a11567f5211&#34;</span>,
+    <span style="color:#e6db74">&#34;name&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;mrsmines&#34;</span>,
+    <span style="color:#e6db74">&#34;level&#34;</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">4</span>
+  }
+] 
+</code></pre></div><p>That should be all you need. Leave a comment if any problems with it.</p>
 <p><em>This Post is no longer relevant. Please do not follow the instructions here.</em></p>
 
     </section>

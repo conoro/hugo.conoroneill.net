@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2013/04/23/your-prayers-answered-old-chapel-temperature-server-now-online/" />
 
@@ -126,22 +126,14 @@
 
     <section class="post-content">
       <p>#&ldquo;Your prayers answered, Old Chapel temperature server now online&rdquo;</p>
-
-<p>I must get 20 emails a day asking the same question: &ldquo;Conor, what temperature is it,<em>right now,</em> outside your office window?&ldquo;. Thankfully, after literally several minutes work, <a href="http://nano.conoroneill.com:9999/">you have your answer</a>.</p>
-
-<p>Courtesy of an <a href="http://dx.com/p/nano-v3-0-avr-atmega328-p-20au-module-board-usb-cable-for-arduino-118037">Arduino Nano</a>, <a href="http://www.ebay.com/itm/MIni-3-3v-ENC28J60-LAN-Ethernet-Network-Module-Shield-For-Arduino-MCU-AVR-51-LPC-/390511080956?ssPageName=ADME:L:OC:IE:3160">Ethernet adapter</a> and <a href="https://www.sparkfun.com/products/9418">Sparkfun temperature breakout board</a>, I can exclusively reveal the temperature is<a href="http://nano.conoroneill.com:9999/">12.44C and 54.39F</a> i.e. about 2C higher than reality.</p>
-
-<p>To get something more accurate I&rsquo;ll need to put the sensor away from the building, away from the ground, out of direct sunlight and with good air flow. Then I&rsquo;ll auto-post the values to <a href="http://openweathermap.org/">Open Weather Map</a> and <a href="https://cosm.com">COSM</a>.</p>
-
-<p><a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2013/04/DSCF2602.jpg"><img class="aligncenter size-large wp-image-1002" alt="DSCF2602" src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2013/04/DSCF2602-1024x768.jpg" width="584" height="438" /></a></p>
-
-<p>I was genuinely surprised on Sunday at the level of interest in the Arduino web-server I mentioned. I think a mixture of the tiny cost and 8-bit nature of the whole thing intrigued people. It was also trivial to puttogetherwith <a href="https://github.com/jcw/ethercard">some sample code</a>. The only difficulty I&rsquo;ve found with Arduino in general is handling floating point values easily.</p>
-
-<p><img class="aligncenter size-large wp-image-1000" style="color: #333333; font-style: normal; line-height: 24px;" alt="nano2" src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2013/04/nano2-1024x768.jpg" width="584" height="438" /></p>
-
+<p>I must get 20 emails a day asking the same question: &ldquo;Conor, what temperature is it,<!-- raw HTML omitted -->right now,<!-- raw HTML omitted --> outside your office window?&rdquo;. Thankfully, after literally several minutes work, <!-- raw HTML omitted -->you have your answer<!-- raw HTML omitted -->.</p>
+<p>Courtesy of an <!-- raw HTML omitted -->Arduino Nano<!-- raw HTML omitted -->, <!-- raw HTML omitted -->Ethernet adapter<!-- raw HTML omitted --> and <!-- raw HTML omitted -->Sparkfun temperature breakout board<!-- raw HTML omitted -->, I can exclusively reveal the temperature is<!-- raw HTML omitted -->12.44C and 54.39F<!-- raw HTML omitted --> i.e. about 2C higher than reality.</p>
+<p>To get something more accurate I&rsquo;ll need to put the sensor away from the building, away from the ground, out of direct sunlight and with good air flow. Then I&rsquo;ll auto-post the values to <!-- raw HTML omitted -->Open Weather Map<!-- raw HTML omitted --> and <!-- raw HTML omitted -->COSM<!-- raw HTML omitted -->.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>I was genuinely surprised on Sunday at the level of interest in the Arduino web-server I mentioned. I think a mixture of the tiny cost and 8-bit nature of the whole thing intrigued people. It was also trivial to puttogetherwith <!-- raw HTML omitted -->some sample code<!-- raw HTML omitted -->. The only difficulty I&rsquo;ve found with Arduino in general is handling floating point values easily.</p>
+<p><!-- raw HTML omitted --></p>
 <p>Of course it doesn&rsquo;t really make sense to have low-powered nodes being read by anyone. As several people pointed out on Sunday, a DDoS (heck, even a DoS) attack would be ridiculously easy. The nodes should either be reporting to central server(s) or queried on a regular basis by a small number of systems. That&rsquo;s phase 2 for my little side project and it&rsquo;s a bit more complex than temperature. More updates in a few weeks.</p>
-
-<p>&nbsp;</p>
+<p> </p>
 
     </section>
 

@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2019/12/04/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything/" />
 
@@ -125,22 +125,13 @@
     </header>
 
     <section class="post-content">
-      
-
-<p>When <a href="https://www.nearform.com/research/">NearForm Research</a> announced <a href="https://www.nearform.com/blog?_sf_s=bangle.js">Bangle.js</a> at <a href="https://www.nodeconf.eu/">NodeConf EU</a> with Gordon Williams from <a href="https://espruino.com">Espruino</a>, we highlighted the uniqueness of having an inexpensive off-the-shelf Chinese smartwatch running both JavaScript and Google&rsquo;s <a href="https://www.tensorflow.org/lite/microcontrollers">TensorFlow Lite for Microcontrollers</a>.</p>
-
+      <p>When <a href="https://www.nearform.com/research/">NearForm Research</a> announced <a href="https://www.nearform.com/blog?_sf_s=bangle.js">Bangle.js</a> at <a href="https://www.nodeconf.eu/">NodeConf EU</a> with Gordon Williams from <a href="https://espruino.com">Espruino</a>, we highlighted the uniqueness of having an inexpensive off-the-shelf Chinese smartwatch running both JavaScript and Google&rsquo;s <a href="https://www.tensorflow.org/lite/microcontrollers">TensorFlow Lite for Microcontrollers</a>.</p>
 <p>Whilst hardcore technology people got the implications of this, most people didn&rsquo;t. You can now run Machine Learning models directly on the $5 chip inside a watch and do all of the interaction inside a web browser. If you can&rsquo;t wait until Bangle.js is available in March 2020 to try it out, Gordon has gone one better and <a href="https://www.espruino.com/ide/emulator.html?codeurl=https://banglejs.com/apps/apps/flappy/app.js&amp;upload">emulated the watch</a> using Emscripten. So you can run everything inside the browser!</p>
-
-<p><img src="/images/2019/12/emulator1.jpg" alt="Flappy Bird Emulation" /></p>
-
+<p><img src="/images/2019/12/emulator1.jpg" alt="Flappy Bird Emulation"></p>
 <p>And &ldquo;everything&rdquo; means you can run the Espruino port of TF Lite Micro in the emulator too. <a href="https://www.espruino.com/ide/emulator.html?gist=c0404a867b3531527428a1843c5fd5fc&amp;upload">Here is</a> the &ldquo;Hello World&rdquo; sine wave example from the <a href="https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/micro/examples/hello_world">TensorFlow repo</a> running inside Chrome.</p>
-
-<p><img src="/images/2019/12/emulator2.jpg" alt="TF Lite Micro Emulation" /></p>
-
+<p><img src="/images/2019/12/emulator2.jpg" alt="TF Lite Micro Emulation"></p>
 <h2 id="the-learning-ml-stack">The Learning ML Stack</h2>
-
 <p>This  isn&rsquo;t just cool geekiness, it means that anyone can get involved in Machine Learning on inexpensive devices without having to learn about cross-compilers, Python distributions, USB-Serial adapters or GPUs. It has hugely reduced the on-boarding friction. More importantly, this is something any educational establishment could embrace. The following could be the de-facto standard setup for learning (literally) hands-on ML in high-school or even younger:</p>
-
 <ul>
 <li>Chromebooks running Web Bluetooth in Chrome</li>
 <li><a href="https://colab.research.google.com/">Google Colab</a> (and/or <a href="https://github.com/iodide-project/pyodide">Pyodide</a>)</li>
@@ -149,26 +140,16 @@
 <li><a href="https://developers.google.com/blockly">Blockly</a> ML blocks for Espruino</li>
 <li><a href="https://banglejs.com">Bangle.js</a></li>
 </ul>
-
 <p>I&rsquo;m convinced tangible/tactile ML like this will engage people for far longer than &ldquo;yes you&rsquo;re right, it&rsquo;s a cat&rdquo;.</p>
-
 <h2 id="ml-everywhere-in-2020-2021">ML Everywhere in 2020-2021</h2>
-
 <p>Back to our $5 NRF52832 chip. It&rsquo;s a fabulous SoC, which is why we&rsquo;ve used it for 3 NodeConf EU&rsquo;s in a row. But it&rsquo;s still pretty pricey. And it only does Bluetooth (plus Thread with the right SDK).</p>
-
 <p>If power consumption isn&rsquo;t an issue, how about $2.45 for <a href="https://www2.mouser.com/ProductDetail/Espressif-Systems/ESP32-S0WD?qs=sGAEpiMZZMve4%2FbfQkoj%252BEaa%252BXdRvdmbR%2FQ7UMJWB9I%3D">an ESP32 chip with Wifi and Bluetooth</a>? Or <a href="https://www2.mouser.com/ProductDetail/Espressif-Systems/ESP8285H16?qs=sGAEpiMZZMsG1k5vdNM%2Fc8yNQq7qgKEx8g19WW57dfQ%3D">an ESP8285 for $1.05</a> (a buck!) with just Wifi?</p>
-
 <p>The ESP8285 can already run TensorFlow Lite for Microcontrollers. This means you can add Wifi and Machine Learning to <em>any</em> piece of consumer electronics for ~$1.50.</p>
-
 <p>The ESP8266 family itself transformed inexpensive Chinese electronics like lightbulbs and home automation devices in recent years. What could the addition of ML everywhere do? Why wouldn&rsquo;t you just add one to the BOM and easily get better reliability, potential data feedback, failure mode discovery, optimisation for environment and everything else that ML can offer? Could manufacturing become cheaper as tolerances are loosened during manufacture but dealt with by ML during device operation?</p>
-
 <p><em>That&rsquo;s how profound TensorFlow Lite for Microcontrollers is. Everything changes and this time it starts from the bottom up.</em></p>
-
 <p>And it doesn&rsquo;t have to be multi-hundred dollar Nests. Sonoff already has the ESP8285 in their <a href="https://www.aliexpress.com/item/32824271928.html">$16 lightbulb</a> and <a href="https://sonoff.tech/product/wifi-smart-plugs/s20">smart plugs</a> which means they can add ML for free. So there is your retail price point for mainstream ML+Wifi in consumer electronics in 2019, $16. Here&rsquo;s that TF Lite Micro Hello World again, running on my AiLight (funny coincidence on the name) ESP8266-based lightbulb:</p>
-
-<p><img src="/images/2019/12/sonoff2.jpg" alt="TF Lite AiLight" /></p>
-
-<p><img src="/images/2019/12/sonoff1.jpg" alt="TF Lite AiLight Arduino" /></p>
+<p><img src="/images/2019/12/sonoff2.jpg" alt="TF Lite AiLight"></p>
+<p><img src="/images/2019/12/sonoff1.jpg" alt="TF Lite AiLight Arduino"></p>
 
     </section>
 

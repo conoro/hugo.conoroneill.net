@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2018/02/13/running-c-code-on-a-1982-zx-spectrum-in-2018/" />
 
@@ -126,29 +126,19 @@
 
     <section class="post-content">
       <p>The 1980s home computer retro scene remains very vibrant. I dip a toe in every so often and recently have been enjoying the new Speccy games that I&rsquo;ve found on <a href="http://www.indieretronews.com/2018/02/fantasy-zone-escape-from-pyramid-final.html">Indie Retro News</a>.</p>
-
 <p>One thing that caught my eye with these releases was the mentions of &ldquo;engines&rdquo;. It turns out that people have been building games engines for the ZX Spectrum for years. Mostly in C it seems and mostly using the <a href="https://www.z88dk.org/forum/">z88dk</a> toolchain.</p>
-
 <p>So I had a quick play around with z88dk and was gob-smacked to see how easy it is to generate a TAP file from C code that you can run on a Spectrum emulator:</p>
 
-
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/0upqnnRZZ4k" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
-
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/0upqnnRZZ4k" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 
 <p>And if you have an SD card interface like the <a href="https://www.thefuturewas8bit.com/index.php/divmmcfuture">divMMC Future</a> for your original 1982 Spectrum, like me, then you can run your first new code on it since 1986. Yes I know it&rsquo;s Hello World but I&rsquo;m buzzing.</p>
-
-<p><img src="/images/2018/02/hello_speccy.jpg" alt="Hello Speccy" /></p>
-
+<p><img src="/images/2018/02/hello_speccy.jpg" alt="Hello Speccy"></p>
 <p>Related to this, I discovered recently that a game I wrote in 1985, The Cherry Run (<a href="http://jbacteria.retrolandia.net/48s?cherryru.tap">play it online here</a>) has an awful bug.</p>
-
-<p><img src="/images/2018/02/the_cherry_run.jpg" alt="Cherry Run" /></p>
-
+<p><img src="/images/2018/02/the_cherry_run.jpg" alt="Cherry Run"></p>
 <p>I don&rsquo;t have the original Z80 Assembly code so I tried out a disassembler and realised I have forgotten 100% of whatever I knew about Z80 :-) However I was able to extract the Basic loader for the game which was cool.</p>
-
-<p><img src="/images/2018/02/cherry_basic.jpg" alt="Cherry Basic" /></p>
-
+<p><img src="/images/2018/02/cherry_basic.jpg" alt="Cherry Basic"></p>
 <p>So do I try and fix that 33 year old bug or re-write the game in C using one of those game engines?</p>
 
     </section>

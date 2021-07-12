@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2018/02/02/downloading-youtube-videos-for-offline-viewing-on-android/" />
 
@@ -125,22 +125,13 @@
     </header>
 
     <section class="post-content">
-      
-
-<p>One of the all-time great tools of the internet era is <a href="https://rg3.github.io/youtube-dl/">youtube-dl</a>. It enables you to download any YouTube video for watching offline/later. It has been a fantastic boon over the years for watching all my hundreds of subscribed channels when in planes, trains, automobiles and treadmills. It&rsquo;s also the basis for my own <a href="https://ytpodders.com/">YTPodders</a> tool for generating podcasts from videos.</p>
-
+      <p>One of the all-time great tools of the internet era is <a href="https://rg3.github.io/youtube-dl/">youtube-dl</a>. It enables you to download any YouTube video for watching offline/later. It has been a fantastic boon over the years for watching all my hundreds of subscribed channels when in planes, trains, automobiles and treadmills. It&rsquo;s also the basis for my own <a href="https://ytpodders.com/">YTPodders</a> tool for generating podcasts from videos.</p>
 <p>Normally I run it on the PC and copy the files to the mobile devices, tablets or media players. On Wednesday I was cut short in the middle of watching the latest episode of the wonderful <a href="https://www.youtube.com/channel/UCHvBHWBzzB7NyU5tIiEZHBg">Project Binky</a> on the tarmac in Heathrow when it came time to take-off. There would have been no viewing interruption if I&rsquo;d had a mobile version of youtube-dl. Of course I immediately checked to see if that existed when I got home.</p>
-
 <p>It doesn&rsquo;t, but&hellip;..</p>
-
-<p><img src="/images/2018/02/get-youtube.png" alt="get-youtube" /></p>
-
+<p><img src="/images/2018/02/get-youtube.png" alt="get-youtube"></p>
 <p>It&rsquo;s really easy to set it up since it&rsquo;s written in Python and doesn&rsquo;t need to be compiled. Just follow these few steps to always have the ability to grab a video on to your Android phone for watching later.</p>
-
 <h2 id="installation">Installation</h2>
-
 <p>(Updated Oct 13th 2018)</p>
-
 <ul>
 <li>Save my little wrapper code on to your phone by long-pressing <a href="https://gist.github.com/conoro/d63c9f326ee65647a717b0283f21683f/raw">this link</a> and selecting Download Link</li>
 <li>Install <a href="https://play.google.com/store/apps/details?id=org.qpython.qpy">QPython</a> (Make sure to pick QPython2 not 3)</li>
@@ -149,11 +140,8 @@
 <li>Tap QPYPI Client</li>
 <li>In the Terminal that launches, install <code>youtube-dl</code> with:</li>
 </ul>
-
 <pre><code>pip install -U youtube-dl
-</code></pre>
-
-<ul>
+</code></pre><ul>
 <li>Exit the Terminal (answer No to the question)</li>
 <li>Tap the Editor Icon</li>
 <li>In the Editor, tap the Folder icon</li>
@@ -169,9 +157,7 @@
 <li>Exit QPython</li>
 <li>Install <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc&amp;hl=en">VLC</a> to play the downloads</li>
 </ul>
-
 <h2 id="from-then-on-you-can-download-videos-like-so">From then on you can download videos like so</h2>
-
 <ul>
 <li>Browse to the video in the YouTube App</li>
 <li>Tap Share &gt; Copy Link</li>
@@ -184,9 +170,7 @@
 <li>The video will download to <code>/storage/emulated/0/qpython</code></li>
 <li>Open VLC, which should automatically find the video. If not, browse to <code>/storage/emulated/0/qpython</code></li>
 </ul>
-
 <h2 id="even-better-you-can-add-a-direct-short-cut-on-your-android-home-screen">Even better, you can add a direct short-cut on your Android Home Screen</h2>
-
 <ul>
 <li>Go back into QPython</li>
 <li>Go to Projects (large unlabelled icon above the sign-in link)</li>
@@ -197,7 +181,6 @@
 <li>If you ever get weird errors about DistributionNotFound, tap the More icon in QPython. Then Permissions and Storage &gt; Storage &gt; Clear Cache and Clear Storage. Then re-run QPython and accept all permissions dialogs.</li>
 <li><a href="https://gist.github.com/conoro/d63c9f326ee65647a717b0283f21683f">Link to the source code</a> for my simple wrapper.</li>
 </ul>
-
 <p>Enjoy</p>
 
     </section>

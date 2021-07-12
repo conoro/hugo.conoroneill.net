@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland/" />
 
@@ -126,56 +126,43 @@
 
     <section class="post-content">
       <p>Like many people I&rsquo;m excited by all of the possibilities opened up with <a href="https://webassembly.org/">WebAssembly/WASM</a>. Most recently I&rsquo;ve been keeping an eye on <a href="https://wasmer.io/">Wasmer</a> and similar projects that enable WASM outside of the browser.</p>
-
 <p>So when I saw that you can now <a href="https://medium.com/wasmer/running-webassembly-on-arm-7d365ed0e50c">run it on a Raspberry Pi</a>, I had to give it a try. But it&rsquo;s not quite as straightforward as the article suggests and this is what I had to do to get it working.</p>
-
 <p>I did all of these steps on a 4GB Pi 4 running the latest version of Raspbian Buster.</p>
-
 <ul>
 <li>First, you have to switch to a 64-bit kernel to get started. That&rsquo;s pretty easy. Edit /boot/config.txt and add the line <code>arm_64bit=1</code>. Then reboot</li>
 <li>I&rsquo;m not sure if it&rsquo;s needed but I did a full <code>sudo rpi-config</code> too to update. And rebooted again.</li>
 <li>But this isn&rsquo;t enough because the Pi still uses a 32-bit userland. Even if you successfully run the Wasmer installer, the wasmer binary won&rsquo;t run. I read lots of threads with lots of complicated setups involving Docker and other distros etc but it turns out that the solution is just chroot. And luckily <a href="https://raspberrypi.stackexchange.com/a/101802">someone else figured out</a> those details.</li>
 <li>So you just need to do the following:</li>
 </ul>
-
-<pre><code class="language-bash">sudo apt install -y debootstrap schroot
-cat &lt;&lt; EOF | sudo tee /etc/schroot/chroot.d/pi64
-[pi64]
-description=V3D arm64 testing
-type=directory
-directory=/srv/chroot/pi64
-users=pi
-root-groups=root
-profile=desktop
-personality=linux
-preserve-environment=true
-EOF
-sudo debootstrap --arch=arm64 buster /srv/chroot/pi64
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt install -y debootstrap schroot
+cat <span style="color:#e6db74">&lt;&lt; EOF | sudo tee /etc/schroot/chroot.d/pi64
+</span><span style="color:#e6db74">[pi64]
+</span><span style="color:#e6db74">description=V3D arm64 testing
+</span><span style="color:#e6db74">type=directory
+</span><span style="color:#e6db74">directory=/srv/chroot/pi64
+</span><span style="color:#e6db74">users=pi
+</span><span style="color:#e6db74">root-groups=root
+</span><span style="color:#e6db74">profile=desktop
+</span><span style="color:#e6db74">personality=linux
+</span><span style="color:#e6db74">preserve-environment=true
+</span><span style="color:#e6db74">EOF</span>
+sudo debootstrap --arch<span style="color:#f92672">=</span>arm64 buster /srv/chroot/pi64
 sudo schroot -c pi64 -- apt install -y curl sudo
 schroot -c pi64
-</code></pre>
-
-<ul>
+</code></pre></div><ul>
 <li>You are now running in a 64-bit shell so you can now install Wasmer with</li>
 </ul>
-
 <p><code>curl https://get.wasmer.io -sSfL | sh</code></p>
-
 <ul>
 <li>and then install and run <a href="https://wapm.io/package/rustpython">rustpython</a></li>
 </ul>
-
-<pre><code class="language-bash">$ source /home/pi/.wasmer/wasmer.sh
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ source /home/pi/.wasmer/wasmer.sh
 $ wapm install rustpython
 $ wapm run rustpython
 &gt;&gt;&gt;&gt;&gt; 2+2
-4
-</code></pre>
-
-<p><img src="/images/2019/12/wasm_rust_python.jpg" alt="Wasmer on Pi" /></p>
-
+<span style="color:#ae81ff">4</span>
+</code></pre></div><p><img src="/images/2019/12/wasm_rust_python.jpg" alt="Wasmer on Pi"></p>
 <p>That&rsquo;s incredibly cool. A Rust version of Python running via WebAssembly on a &lt;$70 computer.</p>
-
 <p>Note tho that this mixed 64-bit and 32-bit setup is still experimental and I&rsquo;ve seen some glitches like the Raspbian file manager crashing at launch.</p>
 
     </section>

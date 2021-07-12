@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2014/06/30/kimono-is-a-dead-easy-zero-code-way-of-building-apis-from-scraped-web-pages/" />
 
@@ -126,17 +126,11 @@
 
     <section class="post-content">
       <p>Back in 2011, I <a href="http://conoroneill.com/2011/11/17/bandon-flood-fews-open-data-now-available/">created a simple scraper</a> in Python to take the river level reported by the Bandon Flood Early Warning System every 15 minutes and save it in <a href="https://www.google.com/fusiontables/DataSource?docid=103YIcARoxuaWT7NfZ8mVBzY554sF_3ONYC1N3DE">Google Fusion Tables</a>. In 2012, <a href="http://conoroneill.net/bandon-flood-data-fews-now-available-on-cosmpachube/">I extended it</a> to also save the data on <a href="https://xively.com/feeds/40004/?from_cosm=true">Pachube/Cosm/Xively/Fleeglrheumazoid</a> (or whatever insane name they have this week). So you have 2.5 years of river data in tabular and graphic form.</p>
-
 <p>The code itself is very simple and just involved walking through the page (actually a bloody iframe!) to get the element I needed. But it&rsquo;s brittle, single use and runs on a home server behind the firewall. I also have a gap in the data in 2012 where I didn&rsquo;t notice that the cronjob had screwed up for 2 weeks.</p>
-
 <p>Last week I heard about <a href="https://www.kimonolabs.com/">Kimono</a> and really liked the sound of it. You basically point it at any web-page and it gives you a version of the page where you can select elements and get API end-points for them. So any site that has info you&rsquo;d like to use or open up but where there is no existing API, can be API-ified. You need no coding knowledge to do this.</p>
-
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/06/kimono.jpg" alt="Kimono" title="Web Scraping" /></p>
-
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/06/kimono.jpg" alt="Kimono" title="Web Scraping"></p>
 <p>This has huge potential to generate even more Irish OpenData without relying on developers to do the work. Given how little data has been opened up here, either officially or by OpenData enthusiasts, this can only be a good thing.</p>
-
 <p>If you&rsquo;d like to access the Bandon River level programatically now, <a href="https://www.kimonolabs.com/apis/cr79egwi">it is here as JSON, CSV and RSS</a>.</p>
-
 <p>As an exercise for the reader, why not try the truly hilarious <a href="http://maps.corkcoco.ie/planningenquiryv3/LAResources/info.aspx">Cork County Council Planning Enquiry System</a> which works best with Internet Explorer 5.5 or newer :-) Of course, the &ldquo;accept terms and conditions button&rdquo; does not work with Chrome. It looks like the same web gurus who designed Bandon FEWS also did this site, since both use 1990s-style frames, which Kimono does not handle at all. I just spent 2 mins playing with it and picked out the <a href="http://maps.corkcoco.ie/planningenquiryv3/enquiry.aspx">central frame</a>. But Kimono-ifying it gives a session timeout error by the CorkCoCo site. I think a small bit of effort could get this working. Any takers or do you all prefer to just talk about OpenData?</p>
 
     </section>

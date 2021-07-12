@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2015/12/31/my-2015-christmas-turkey-oven-thermometer-and-clock/" />
 
@@ -125,10 +125,7 @@
     </header>
 
     <section class="post-content">
-      
-
-<p>For the <a href="http://conoroneill.net/our-first-arduino-christmas-turkey/">third year</a> in a row I decided to build a new oven thermometer for the Christmas turkey, as all of the markings on our temperature knob have been gone for years. We also have one of those mechanical dial thermometers you place inside the oven but they are hard to read and get in the way. My last two attempts worked ok but I was concerned about accuracy. I also used a temperature probe in the meat for belt and braces. The setup was as follows:</p>
-
+      <p>For the <a href="http://conoroneill.net/our-first-arduino-christmas-turkey/">third year</a> in a row I decided to build a new oven thermometer for the Christmas turkey, as all of the markings on our temperature knob have been gone for years. We also have one of those mechanical dial thermometers you place inside the oven but they are hard to read and get in the way. My last two attempts worked ok but I was concerned about accuracy. I also used a temperature probe in the meat for belt and braces. The setup was as follows:</p>
 <ul>
 <li><a href="https://www.pjrc.com/store/teensy31.html">Teensy 3.1</a> which has 16-bit (13-bit effective) ADCs rather than the usual Arduino 10-bit</li>
 <li>The same <a href="https://www.adafruit.com/products/1778">Adafruit AD8495</a> thermocouple amplifier as last year</li>
@@ -139,82 +136,68 @@
 <li>A small 3.7V Lipo battery</li>
 <li>Lego, as I didn&rsquo;t have enough time to design a 3D-printable case and last year&rsquo;s cardboard was just <a href="https://twitter.com/conoro/status/554986388861779968">too klassy</a></li>
 </ul>
-
 <p>The code is a mix of Adafruit, <a href="https://github.com/PaulStoffregen/ILI9341_t3">Paul Stoffregen</a> for the improved LCD code with lovely Magenta Comic Sans Font :-) and my own.</p>
-
 <p>I didn&rsquo;t bother with averaging the values but the jumpiness of the temperature compared to room temp or boiling water tells me our old oven is a disaster and needs replacing.</p>
-
 <p>And just like the previous two years, the turkey was dry despite <a href="http://www.seriouseats.com/2012/11/how-to-spatchcock-cook-turkey-thanksgiving-fast-easy-way-spatchcocked-slideshow.html">spatchcocking it</a>, <a href="http://www.seriouseats.com/2014/11/quick-and-dirty-guide-to-brining-turkey-chicken-thanksgiving.html">dry-brining it</a> and watching the temperature closely :-( Next year I&rsquo;m doing a boned and rolled one and I&rsquo;ve ordered a cheap but protected Chinese <a href="http://www.aliexpress.com/item/Generic-New-3-Meter-High-Temperature-100-1250-C-Thermocouple-K-Type-50mm-Probe-Sensors/32334218983.html">oven probe</a> and <a href="http://www.aliexpress.com/item/Brand-New-TM-902C-Black-K-Type-Digital-LCD-Temperature-Detector-Thermometer-Industrial-Thermodetector-Meter-Thermocouple/32220138975.html">temperature readout</a>.</p>
-
 <p>I really like the DX voltage booster. It enables you to connect a LiPo battery and a micro-USB power source. It then provides 5V on a standard USB socket. The power source can also charge the battery whilst powering the device. You can then remove the power source and the battery will power the device without interruption. It&rsquo;s almost perfect except for one stupid feature. You can&rsquo;t connect a battery to it to power a device without connecting (even momentarily) the power source (e.g. a phone charger). If it could do that then it&rsquo;d be pretty much at the same level as the Adafruit boost devices. I&rsquo;ve been unable to find any datasheets for it but ordered two more anyway.</p>
-
 <h2 id="prototype">Prototype</h2>
-
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/thermometer05.jpg" alt="Prototype" /></p>
-
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/thermometer05.jpg" alt="Prototype"></p>
 <h2 id="completed-board">Completed Board</h2>
-
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/thermometer02.jpg" alt="Completed board" /></p>
-
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/thermometer02.jpg" alt="Completed board"></p>
 <h2 id="lego-case">Lego Case</h2>
-
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/thermometer03.jpg" alt="Lego Case" /></p>
-
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/thermometer03.jpg" alt="Lego Case"></p>
 <h2 id="side-view">Side View</h2>
-
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/thermometer04.jpg" alt="Side View" /></p>
-
-<h1 id="code-latest-always-on-gist-here-https-gist-github-com-conoro-2875556b7477e443ae0a">Code (latest always <a href="https://gist.github.com/conoro/2875556b7477e443ae0a">on Gist here</a> )</h1>
-
-<pre><code class="language-c++">// Temperature from AD8495 K-type Thermocoule adapter and Datetime from DS1307 RTC. Displayed on ILI9341 LCD.
-//
-// MIT License (MIT)
-// Copyright (c) 2015 Conor O'Neill
-// Portions copyright Limor Fried/Ladyada for Adafruit Industries and others
-//
-// Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-//
-// The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-#include &lt;Wire.h&gt;
-#include &quot;RTClib.h&quot;
-
-#include &quot;SPI.h&quot;
-#include &quot;Adafruit_GFX.h&quot;
-#include &quot;ILI9341_t3.h&quot;
-#include &quot;font_ComicSansMSBold.h&quot;
-
-#if defined(__SAM3X8E__)
-    #undef __FlashStringHelper::F(string_literal)
-    #define F(string_literal) string_literal
-#endif
-
-// These are the pins used for the UNO and Teensy
-#define _sclk 13
-#define _miso 12
-#define _mosi 11
-#define _cs 10
-#define _dc 9
-#define _rst 8
-
-// Using software SPI is really not suggested, its incredibly slow
-//Adafruit_ILI9340 tft = Adafruit_ILI9340(_cs, _dc, _mosi, _sclk, _rst, _miso);
-// Use hardware SPI
-ILI9341_t3 tft = ILI9341_t3(_cs, _dc, _rst);
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/thermometer04.jpg" alt="Side View"></p>
+<h1 id="code-latest-always-on-gist-herehttpsgistgithubcomconoro2875556b7477e443ae0a-">Code (latest always <a href="https://gist.github.com/conoro/2875556b7477e443ae0a">on Gist here</a> )</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">// Temperature from AD8495 K-type Thermocoule adapter and Datetime from DS1307 RTC. Displayed on ILI9341 LCD.
+</span><span style="color:#75715e">//
+</span><span style="color:#75715e">// MIT License (MIT)
+</span><span style="color:#75715e">// Copyright (c) 2015 Conor O&#39;Neill
+</span><span style="color:#75715e">// Portions copyright Limor Fried/Ladyada for Adafruit Industries and others
+</span><span style="color:#75715e">//
+</span><span style="color:#75715e">// Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &#34;Software&#34;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+</span><span style="color:#75715e">//
+</span><span style="color:#75715e">// The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+</span><span style="color:#75715e">//
+</span><span style="color:#75715e">// THE SOFTWARE IS PROVIDED &#34;AS IS&#34;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;Wire.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;RTClib.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;SPI.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;Adafruit_GFX.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;ILI9341_t3.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;font_ComicSansMSBold.h&#34;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#if defined(__SAM3X8E__)
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">#undef __FlashStringHelper::F(string_literal)
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">#define F(string_literal) string_literal
+</span><span style="color:#75715e">#endif
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">// These are the pins used for the UNO and Teensy
+</span><span style="color:#75715e"></span><span style="color:#75715e">#define _sclk 13
+</span><span style="color:#75715e">#define _miso 12
+</span><span style="color:#75715e">#define _mosi 11
+</span><span style="color:#75715e">#define _cs 10
+</span><span style="color:#75715e">#define _dc 9
+</span><span style="color:#75715e">#define _rst 8
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">// Using software SPI is really not suggested, its incredibly slow
+</span><span style="color:#75715e">//Adafruit_ILI9340 tft = Adafruit_ILI9340(_cs, _dc, _mosi, _sclk, _rst, _miso);
+</span><span style="color:#75715e">// Use hardware SPI
+</span><span style="color:#75715e"></span>ILI9341_t3 tft <span style="color:#f92672">=</span> ILI9341_t3(_cs, _dc, _rst);
 
 RTC_DS1307 RTC;
 
-String dateOut=&quot;&quot;;
-String timeOut=&quot;&quot;;
-String datePrev=&quot;&quot;;
-String timePrev=&quot;&quot;;
-float temperature=0;
-float temperaturePrev=0;
+String dateOut<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>;
+String timeOut<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>;
+String datePrev<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>;
+String timePrev<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>;
+<span style="color:#66d9ef">float</span> temperature<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+<span style="color:#66d9ef">float</span> temperaturePrev<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
 
-void setup () {
-    Serial.begin(57600);
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span> () {
+    Serial.begin(<span style="color:#ae81ff">57600</span>);
 
     tft.begin();  
     tft.fillScreen(ILI9341_BLACK);
@@ -222,110 +205,109 @@ void setup () {
     Wire.begin();
     RTC.begin();
 
-    // following line sets the RTC to the date &amp; time this sketch was compiled
-    // Uncomment this once per power down of the RTC and flash it. Then re-comment-out and reflash
-    //RTC.adjust(DateTime(__DATE__, __TIME__));
-
-  if (! RTC.isrunning()) {
-    Serial.println(&quot;RTC is NOT running!&quot;);
-    // following line sets the RTC to the date &amp; time this sketch was compiled
-    //RTC.adjust(DateTime(__DATE__, __TIME__));
-  }
+    <span style="color:#75715e">// following line sets the RTC to the date &amp; time this sketch was compiled
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">// Uncomment this once per power down of the RTC and flash it. Then re-comment-out and reflash
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">//RTC.adjust(DateTime(__DATE__, __TIME__));
+</span><span style="color:#75715e"></span>
+  <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span> RTC.isrunning()) {
+    Serial.println(<span style="color:#e6db74">&#34;RTC is NOT running!&#34;</span>);
+    <span style="color:#75715e">// following line sets the RTC to the date &amp; time this sketch was compiled
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">//RTC.adjust(DateTime(__DATE__, __TIME__));
+</span><span style="color:#75715e"></span>  }
 
 }
 
-void loop () {
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span> () {
 
-    // Read temperature as analogue voltage from AD8495
-    analogReadResolution(13);  
-    int raw = analogRead(A7);
-    float Vout = raw * (3.3 / 8191.0);
-    temperature = (Vout - 1.25)/0.005;
+    <span style="color:#75715e">// Read temperature as analogue voltage from AD8495
+</span><span style="color:#75715e"></span>    analogReadResolution(<span style="color:#ae81ff">13</span>);  
+    <span style="color:#66d9ef">int</span> raw <span style="color:#f92672">=</span> analogRead(A7);
+    <span style="color:#66d9ef">float</span> Vout <span style="color:#f92672">=</span> raw <span style="color:#f92672">*</span> (<span style="color:#ae81ff">3.3</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">8191.0</span>);
+    temperature <span style="color:#f92672">=</span> (Vout <span style="color:#f92672">-</span> <span style="color:#ae81ff">1.25</span>)<span style="color:#f92672">/</span><span style="color:#ae81ff">0.005</span>;
 
-    // Print Temperature to Serial console
-    Serial.println(temperature);
+    <span style="color:#75715e">// Print Temperature to Serial console
+</span><span style="color:#75715e"></span>    Serial.println(temperature);
 
-    // Get current DateTime from DS1307 RTC
-    DateTime now = RTC.now();
+    <span style="color:#75715e">// Get current DateTime from DS1307 RTC
+</span><span style="color:#75715e"></span>    DateTime now <span style="color:#f92672">=</span> RTC.now();
 
-    // Print it to Serial Console
-    Serial.print(now.year(), DEC);
-    Serial.print('/');
+    <span style="color:#75715e">// Print it to Serial Console
+</span><span style="color:#75715e"></span>    Serial.print(now.year(), DEC);
+    Serial.print(<span style="color:#e6db74">&#39;/&#39;</span>);
     Serial.print(now.month(), DEC);
-    Serial.print('/');
+    Serial.print(<span style="color:#e6db74">&#39;/&#39;</span>);
     Serial.print(now.day(), DEC);
-    Serial.print(' ');
+    Serial.print(<span style="color:#e6db74">&#39; &#39;</span>);
     Serial.print(now.hour(), DEC);
-    Serial.print(':');
+    Serial.print(<span style="color:#e6db74">&#39;:&#39;</span>);
     Serial.print(now.minute(), DEC);
-    Serial.print(':');
+    Serial.print(<span style="color:#e6db74">&#39;:&#39;</span>);
     Serial.print(now.second(), DEC);
 
-    // Generate nicely formatted datetime string for ILI9341
-    dateOut=&quot;&quot;;
-    timeOut=&quot;&quot;;
-    if (now.hour() &lt; 10){
-        timeOut += &quot;0&quot;;
+    <span style="color:#75715e">// Generate nicely formatted datetime string for ILI9341
+</span><span style="color:#75715e"></span>    dateOut<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>;
+    timeOut<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>;
+    <span style="color:#66d9ef">if</span> (now.hour() <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>){
+        timeOut <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
     }
-    timeOut += now.hour();
-    timeOut += ':';
-    if (now.minute() &lt; 10){
-        timeOut += &quot;0&quot;;
+    timeOut <span style="color:#f92672">+=</span> now.hour();
+    timeOut <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;:&#39;</span>;
+    <span style="color:#66d9ef">if</span> (now.minute() <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>){
+        timeOut <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
     }
-    timeOut += now.minute();
-    timeOut += ':';
-    if (now.second() &lt; 10){
-        timeOut += &quot;0&quot;;
+    timeOut <span style="color:#f92672">+=</span> now.minute();
+    timeOut <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;:&#39;</span>;
+    <span style="color:#66d9ef">if</span> (now.second() <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>){
+        timeOut <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
     }
-    timeOut += now.second();
+    timeOut <span style="color:#f92672">+=</span> now.second();
     Serial.println();
-    if (now.day() &lt; 10){
-        dateOut += &quot;0&quot;;
+    <span style="color:#66d9ef">if</span> (now.day() <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>){
+        dateOut <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
     }
-    dateOut += now.day();
-    dateOut += '/';
-    if (now.month() &lt; 10){
-        dateOut += &quot;0&quot;;
+    dateOut <span style="color:#f92672">+=</span> now.day();
+    dateOut <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;/&#39;</span>;
+    <span style="color:#66d9ef">if</span> (now.month() <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>){
+        dateOut <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
     }
-    dateOut += now.month();
-    dateOut += '/';
-    dateOut += now.year();
+    dateOut <span style="color:#f92672">+=</span> now.month();
+    dateOut <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;/&#39;</span>;
+    dateOut <span style="color:#f92672">+=</span> now.year();
 
-    // Print Temperature and Datetime to ILI9341 LCD
-    unsigned long start = micros();
-    tft.setCursor(0, 0);
+    <span style="color:#75715e">// Print Temperature and Datetime to ILI9341 LCD
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">unsigned</span> <span style="color:#66d9ef">long</span> start <span style="color:#f92672">=</span> micros();
+    tft.setCursor(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>);
     tft.setTextColor(ILI9341_MAGENTA);
     tft.setFont(ComicSansMS_24_Bold);
-    tft.println(&quot;Temperature:&quot;);
+    tft.println(<span style="color:#e6db74">&#34;Temperature:&#34;</span>);
 
-    // Wipe out previous text and write new text
-    tft.setCursor(0, 45);
+    <span style="color:#75715e">// Wipe out previous text and write new text
+</span><span style="color:#75715e"></span>    tft.setCursor(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">45</span>);
     tft.setTextColor(ILI9341_BLACK);
     tft.println(temperaturePrev);
     tft.setTextColor(ILI9341_MAGENTA);
     tft.println(temperature);
-    temperaturePrev = temperature;
+    temperaturePrev <span style="color:#f92672">=</span> temperature;
 
-    // Wipe out previous text and write new text
-    tft.setCursor(0, 100);
+    <span style="color:#75715e">// Wipe out previous text and write new text
+</span><span style="color:#75715e"></span>    tft.setCursor(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">100</span>);
     tft.setTextColor(ILI9341_BLACK);
     tft.println(datePrev);
     tft.setTextColor(ILI9341_MAGENTA);
     tft.println(dateOut);
-    datePrev = dateOut;
+    datePrev <span style="color:#f92672">=</span> dateOut;
 
-    // Wipe out previous text and write new text
-    tft.setCursor(0, 145);
+    <span style="color:#75715e">// Wipe out previous text and write new text
+</span><span style="color:#75715e"></span>    tft.setCursor(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">145</span>);
     tft.setTextColor(ILI9341_BLACK);
     tft.println(timePrev);
     tft.setTextColor(ILI9341_MAGENTA);
     tft.println(timeOut);
-    timePrev = timeOut;
+    timePrev <span style="color:#f92672">=</span> timeOut;
 
-    delay(1000);
+    delay(<span style="color:#ae81ff">1000</span>);
 }
-</code></pre>
-
+</code></pre></div>
     </section>
 
 

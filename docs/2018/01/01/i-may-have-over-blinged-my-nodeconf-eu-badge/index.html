@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2018/01/01/i-may-have-over-blinged-my-nodeconf-eu-badge/" />
 
@@ -126,40 +126,25 @@
 
     <section class="post-content">
       <p>If you attended <a href="http://www.nodeconf.eu/">NodeConf EU</a> 2017 in Kilkenny, Ireland, you&rsquo;ll know all about the digital badge powered by <a href="https://www.espruino.com/">Espruino</a> that we created with Gordon Williams. You can read more about it on the <a href="https://www.nearform.com/blog/say-hello-to-the-nodeconf-eu-hackable-badge/">nearForm blog</a> and check out the <a href="https://nodeconfeubadge.org/">docs site</a>.</p>
-
 <p>I hope you&rsquo;ve continued to learn about Espruino and the power of JavaScript on tiny microcontrollers. Don&rsquo;t forget it&rsquo;s entirely Open Source Software and Hardware. Our <a href="https://github.com/nearform/nceubadge">Github repo is here</a>.</p>
-
 <p>I&rsquo;ve been having lots of fun with LEDs, NeoPixel rings, BLE and general messing.</p>
-
-<p><img src="/images/2018/01/nceubadge_bling_1.jpg" alt="Prototype Badge" /></p>
-
+<p><img src="/images/2018/01/nceubadge_bling_1.jpg" alt="Prototype Badge"></p>
 <p>Of course if you use NeoPixels you&rsquo;re going to burn through that CR2032 battery pretty damn quickly. Like really really quickly :-) My first attempt to solve this, which worked well, was to use various sizes of LiPo batteries connected to the power pins via an LD1117 voltage regulator. I had some full size regulators sitting around but they took up too much room. So I ordered some SMT ones and they were just as good. Note you should <em>not</em> connect a LiPo directly to the power pins. Fully charged they get to 4.2 volts which will probably kill the microcontroller.</p>
-
 <p>Gordon mentioned the LiFePO4 batteries to us as an alternative. I&rsquo;d read a bit about them previously but hadn&rsquo;t realised their multiple benefits: [1] They can&rsquo;t catch fire! [2] They max at 3.2V so can be connected directly to 3.3V electronics and [3] They come in the same sizes as many LiPos like 18650.</p>
-
 <p>The downsides are [1] You need <a href="https://www.gearbest.com/chargers-batteries/pp_56674.html">special chargers</a> (not too expensive) and [2] They have lower capacity than the same-sized LiPo.</p>
-
 <p>You can see the ridiculously overesized one on the badge here. I&rsquo;ll be <a href="https://www.gearbest.com/batteries-and-cases/pp_1113456.html">buying more</a>.</p>
-
-<p><img src="/images/2018/01/nceubadge_bling_2.jpg" alt="Prototype Badge" /></p>
-
+<p><img src="/images/2018/01/nceubadge_bling_2.jpg" alt="Prototype Badge"></p>
 <p>Other mods include an on-off switch, a buzzer, a loudspeaker and various LEDs on the front (no NeoPixels in the picture, I&rsquo;m awaiting on a big ring of them).</p>
-
 <p>The buzzer is a little weak so I&rsquo;ll order something bigger. I&rsquo;m running it directly off an IO pin which is probably a terrible idea. I&rsquo;ll wire it to a transistor at some point. (Update: I re-wired to use a simple BC547 transistor to turn on/off the buzzer connected to +/- and the entire badge now vibrates strongly.)</p>
-
 <p>The loudspeaker was a replacement for the disc ones we provided at NodeConf EU. TBH those discs were pretty rubbish. Gordon did a great job figuring out how to <a href="https://nodeconfeubadge.org/workshop/sound/">double the voltage swing</a> to increase the volume but they were still pretty quiet. These green ones are much much louder and very usable. Here&rsquo;s one in action. Impressive eh? ;-)</p>
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/JM48SXzoVJc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/JM48SXzoVJc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
-
-
-<p>&nbsp;
+<p> 
 I had ordered some microphone modules for the event but the arrived afterwards. It turns out they were useless. They only trigger on/off for loud sounds. So avoid <a href="https://www.ebay.ie/sch/i.html?_nkw=Microphone+Sensor+AVR+PIC&amp;_sacat=0">these</a> if you are searching on eBay. I&rsquo;ve ordered some alternatives to see if they are better.</p>
-
 <p>Another small fail was my order of some generic PIR detectors which I couldn&rsquo;t get working well. It turns out they needed 5V not 3.3V. I&rsquo;m waiting on some 3.3V modules to see if they behave or not.</p>
-
 <p>So have any of you been hacking your badges or writing interesting software for it?</p>
 
     </section>

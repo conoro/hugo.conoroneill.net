@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2015/07/11/node-v01040-and-v0127-for-arm-v7-raspberry-pi-2-banana-pi-odroid-c1-available/" />
 
@@ -126,36 +126,37 @@
 
     <section class="post-content">
       <p>I compiled both on a Banana Pi for a change. Nothing special for the 0.12 build, and ./configure &ndash;without-snapshot for the 0.10 build.</p>
-
 <p>&ldquo;make test&rdquo; threw up the usual 7 minor errors or so.</p>
-
 <p>I ran both Banana Pi and Raspberry Pi 2 without any immediate obvious issues.</p>
-
 <p>Enjoy.</p>
-
 <ul>
-<li><a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v7.tar.gz">node-v0.10.40-linux-arm-v7.tar.gz</a></li>
-
-<li><p><a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/07/node-v0.12.7-linux-arm-v7.tar.gz">node-v0.12.7-linux-arm-v7.tar.gz</a></p></li>
-
-<li><p><a href="http://blog.nodejs.org/2015/07/09/node-v0-10-40-maintenance/">node v0.10.40 release notes</a></p></li>
-
-<li><p><a href="http://blog.nodejs.org/2015/07/10/node-v0-12-7-stable/">node-v0.12.7 release notes</a></p></li>
+<li>
+<p><a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v7.tar.gz">node-v0.10.40-linux-arm-v7.tar.gz</a></p>
+</li>
+<li>
+<p><a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/07/node-v0.12.7-linux-arm-v7.tar.gz">node-v0.12.7-linux-arm-v7.tar.gz</a></p>
+</li>
+<li>
+<p><a href="http://blog.nodejs.org/2015/07/09/node-v0-10-40-maintenance/">node v0.10.40 release notes</a></p>
+</li>
+<li>
+<p><a href="http://blog.nodejs.org/2015/07/10/node-v0-12-7-stable/">node-v0.12.7 release notes</a></p>
+</li>
 </ul>
-
-<pre><code class="language-bash">mkdir nodetemp
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir nodetemp
 cd nodetemp
 wget https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v7.tar.gz
 tar -zxvf node-v0.10.40-linux-arm-v7.tar.gz
 cd usr/local
 sudo cp -R * /usr/local/
-</code></pre>
-
-<p>UPDATE: I also built 0.10.40 for Raspberry Pi 1 (i.e. Original Model) ARM V6 on a Series 1 Model B:
-* <a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v6.tar.gz">node-v0.10.40-linux-arm-v6.tar.gz</a></p>
-
-<p>UPDATE 2: I also built 0.12.7 for Raspberry Pi 1 (i.e. Original Model) ARM V6 on a Series 1 Model B:
-* <a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/09/node-v0.12.7-linux-arm-v6.tar.gz">node-v0.12.7-linux-arm-v6.tar.gz</a></p>
+</code></pre></div><p>UPDATE: I also built 0.10.40 for Raspberry Pi 1 (i.e. Original Model) ARM V6 on a Series 1 Model B:</p>
+<ul>
+<li><a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/07/node-v0.10.40-linux-arm-v6.tar.gz">node-v0.10.40-linux-arm-v6.tar.gz</a></li>
+</ul>
+<p>UPDATE 2: I also built 0.12.7 for Raspberry Pi 1 (i.e. Original Model) ARM V6 on a Series 1 Model B:</p>
+<ul>
+<li><a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/09/node-v0.12.7-linux-arm-v6.tar.gz">node-v0.12.7-linux-arm-v6.tar.gz</a></li>
+</ul>
 
     </section>
 

@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2020/12/08/pcmanfm-raspberry-pi-smb-samba-password/" />
 
@@ -126,26 +126,21 @@
 
     <section class="post-content">
       <p>It&rsquo;s always this time of year when I say I&rsquo;ll definitely blog more next year. I was also sure I&rsquo;d blog tons during lockdown but I was busy doing other things.</p>
-
 <p>This is the type of post I used to do very regularly on this blog so I thought I&rsquo;d ease myself back in with a simple one.</p>
-
 <p>If you access Samba/SMB shares on your home network via the stock PCManFM file manager on your Raspberry Pi, you&rsquo;ll probably have hit the problem that it forgets the password on reboot, even tho you ticked &ldquo;remember forever&rdquo;.</p>
-
 <p>It&rsquo;s a surprisingly difficult fix to find via Google but is easy to do.</p>
-
 <ul>
 <li>First install gnome-keyring which remembers your SMB passwords with <code>sudo apt install gnome-keyring</code></li>
 <li>Then install seahorse which is a simple gnome-keyring GUI with <code>sudo apt install seahorse</code></li>
 <li>Run seahorse by typing <code>seahorse</code> in a terminal and using instructions from <a href="https://wiki.archlinux.org/index.php/GNOME/Keyring">here</a>, do the following:
-
 <ul>
 <li>Select View &gt; By Keyring</li>
 <li>If there is no keyring in the left column (it will be marked with a lock icon), go to File &gt; New &gt; Password Keyring and give it a name.</li>
 <li>You will be asked to enter a password. If you do not give the keyring a password, your SMB passwords will not be stored securely.</li>
 <li>Finally, right-click on the keyring you just created and select &ldquo;Set as default&rdquo;.</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <p>Now access an SMB share in the file manager, enter the password and tick &ldquo;remember forever&rdquo;. After a reboot, go to the share again and you&rsquo;ll get straight in without being prompted for the SMB password.</p>
 
     </section>

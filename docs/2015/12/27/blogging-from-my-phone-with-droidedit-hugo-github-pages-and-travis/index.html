@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2015/12/27/blogging-from-my-phone-with-droidedit-hugo-github-pages-and-travis/" />
 
@@ -126,81 +126,65 @@
 
     <section class="post-content">
       <p>I switched this blog to the superb Go-based tool <a href="https://gohugo.io/overview/usage/">Hugo</a> earlier in the year. Its staggering speed compared to HarpJS and Hexo plus a single executable you can drop in anywhere, make it a no-brainer for static blogs.</p>
-
 <p>I continued to host for free on <a href="https://pages.github.com/">GitHub Pages</a> which means I never ever ever have to worry about WordPress security exploits or badly written plugins again. However using GH Pages means you are quite limited in how things work.</p>
-
 <p>For several months I used Hugo in the recommended way of having <a href="https://github.com/conoro/hugo.conoroneill.net">one Git repo</a> for the blog&rsquo;s &ldquo;source files&rdquo; and then the original <a href="https://github.com/conoro/conoro.github.io">conoro.github.io repo</a> as a Git sub-module for the deployed HTML. I&rsquo;ve never heard a good word said about Git sub-modules and now I understand why. Nasty awkward things that mess everything up if you blink wrong. But it worked ok-ish until I decided to try <a href="https://travis-ci.org">Travis CI</a>.</p>
-
 <p>Travis is a continuous integration tool that can watch for changes in your GitHub repos and then run &ldquo;jobs&rdquo; on them. It&rsquo;s mainly used for building software but there is no reason you can&rsquo;t use it for building a blog. So the initial idea was that I would git add/commit a new blog post in my source repo and then Travis would run Hugo on it and commit the generated HTML to the blog, thereby publishing it.</p>
-
 <p>The real intent was so I could blog from devices that don&rsquo;t run Hugo like phones and tablets. Of course they&rsquo;d somehow need to support a text editor and Git but not Hugo itself.</p>
-
 <p>For Android I quickly found the superb <a href="https://play.google.com/store/apps/details?id=com.aor.droidedit.pro&amp;hl=en">DroidEdit</a> which has Git support built-in. It was dead easy to use it to generate a new post and add that to my repo. So I would have almost WordPress-level of easiness in blogging on the fly. Its only real drawback is the lack of Markdown syntax highlighting.</p>
-
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/droidedit.png" alt="DroidEdit" /></p>
-
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/droidedit.png" alt="DroidEdit"></p>
 <p>Except then I tried to get it working with Travis. Several weekends of effort trying to wrangle the Git sub-module setup into submission ended in total frustration. Finally today I said &ldquo;sod sub-modules&rdquo; and went old-school &ldquo;copy the files from one repo to the other and commit them there&rdquo;. And ye know what? <a href="https://travis-ci.org/conoro/hugo.conoroneill.net">It worked</a>!</p>
-
 <p>There&rsquo;s a few bits in there to do with using https:// instead of git://. But the critical one-off steps on your PC are:</p>
-
 <ol>
 <li>get a <a href="https://github.com/settings/applications">Github token</a> for Travis</li>
 <li>Then <a href="https://docs.travis-ci.com/user/encryption-keys/">install Travis locally</a></li>
-<li>and encrypt your token via:
-<code>bash
-travis encrypt GH_TOKEN=&lt;secret token here&gt;  
-</code></li>
+<li>and encrypt your token via:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">travis encrypt GH_TOKEN<span style="color:#f92672">=</span>&lt;secret token here&gt;  
+</code></pre></div><ol start="4">
 <li>Finally add that output to the &ldquo;secure&rdquo; string in .travis.yml.</li>
 </ol>
-
 <p>So here you go with the files you need to do the same:</p>
-
 <p>.travis.yml</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">language</span>: <span style="color:#ae81ff">go</span>
+<span style="color:#f92672">go</span>:
+  - <span style="color:#ae81ff">1.5.1</span>
+<span style="color:#f92672">sudo</span>: <span style="color:#ae81ff">required</span>
+<span style="color:#f92672">env</span>:
+  <span style="color:#f92672">global</span>:
+  - <span style="color:#f92672">USER</span>: <span style="color:#ae81ff">Conor O&#39;Neill</span>
+  - <span style="color:#f92672">EMAIL</span>: <span style="color:#ae81ff">cwjoneill@gmail.com</span>
+  - <span style="color:#f92672">GH_REF</span>: <span style="color:#ae81ff">github.com/conoro/conoro.github.io.git</span>
+  - <span style="color:#f92672">REPO</span>: <span style="color:#ae81ff">conoro.github.io</span>
+  - <span style="color:#f92672">GH_REPO</span>: <span style="color:#ae81ff">github.com/conoro/${REPO}.git</span>
+  - <span style="color:#f92672">secure</span>: <span style="color:#e6db74">&#34;hHQScM7MWsK/74fvtoBn7lKuTKx1XlU08Ee4UD6ce0wfKNdE/W8z2dn8qzEsSw3YaoU6AULQgXthX+LVAXVZr1wIC6H9Kvjilaj+9ffRXFKrUv79q8s4EiOKqIvYGla5XlhIzP1Qu1qyLCA4dzgaQF6Cn2jB9AkkObnd8YArf3aW3LUbAnRy0ySo0A/QRupN/ckb81LXYnfbzQZB9zniBIhvGPipR0KdQL7GePShPWDeXJPpblo5kEXiIvHo7b1XYx+xACmaQR9PdoDgoTCAFqz2tJzCU92PnbIGw4Jv/ZdnWmt8Z6/4dO73UhcE3PokPvmg7tdsHbFWxhEzg0NaC7cvYsH3xWy9uTipwYLRd3eGbBt+htCZOj+slNHzREkPJBtEBw+b4iLDAr0T5V0kyflgsGOcgSXPyLIKsI0rHFRVAsZxowowK1UjZ05tnSIlFcIK8DX9c0JoXpM2ktOUt8/2EPCbaoKv17HW4BVDb7vXR8VzBf5MY4qku9NrmmYTMJXrzcdQU8JrbASPlHyF79n5xiiyg74Vq2OYCgHPg1nzmSrC1YgQu0W5WXNjWo9jt8h9C3ztuNYvDJkKkXl7KZDTq/s2XEzpzuLIA4rdTX+7lUB93ggN2YFeh6LV+kq58L8BpMPyiT8kxZLMF0HFTzaRNNwymelkPsV/+QZydro=&#34;</span>
+<span style="color:#f92672">git</span>:
+  <span style="color:#f92672">submodules</span>: <span style="color:#66d9ef">false</span>
+<span style="color:#75715e"># Use sed to replace the SSH URL with the public URL, then initialize submodules</span>
+<span style="color:#f92672">before_install</span>:
+  - <span style="color:#ae81ff">sed -i &#39;s/git@github.com:/https:\/\/github.com\//&#39; .gitmodules</span>
+<span style="color:#f92672">install</span>:
+  - <span style="color:#ae81ff">sudo pip install Pygments</span>
+  - <span style="color:#ae81ff">go get github.com/spf13/hugo</span>
+<span style="color:#f92672">script</span>: <span style="color:#ae81ff">bash ./deploy.sh</span>
+</code></pre></div><p>deploy.sh</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/bash
+</span><span style="color:#75715e"></span>
+echo -e <span style="color:#e6db74">&#34;\033[0;32mDeploying updates to GitHub...\033[0m&#34;</span>
 
-<pre><code class="language-yaml">language: go
-go:
-  - 1.5.1
-sudo: required
-env:
-  global:
-  - USER: Conor O'Neill
-  - EMAIL: cwjoneill@gmail.com
-  - GH_REF: github.com/conoro/conoro.github.io.git
-  - REPO: conoro.github.io
-  - GH_REPO: github.com/conoro/${REPO}.git
-  - secure: &quot;hHQScM7MWsK/74fvtoBn7lKuTKx1XlU08Ee4UD6ce0wfKNdE/W8z2dn8qzEsSw3YaoU6AULQgXthX+LVAXVZr1wIC6H9Kvjilaj+9ffRXFKrUv79q8s4EiOKqIvYGla5XlhIzP1Qu1qyLCA4dzgaQF6Cn2jB9AkkObnd8YArf3aW3LUbAnRy0ySo0A/QRupN/ckb81LXYnfbzQZB9zniBIhvGPipR0KdQL7GePShPWDeXJPpblo5kEXiIvHo7b1XYx+xACmaQR9PdoDgoTCAFqz2tJzCU92PnbIGw4Jv/ZdnWmt8Z6/4dO73UhcE3PokPvmg7tdsHbFWxhEzg0NaC7cvYsH3xWy9uTipwYLRd3eGbBt+htCZOj+slNHzREkPJBtEBw+b4iLDAr0T5V0kyflgsGOcgSXPyLIKsI0rHFRVAsZxowowK1UjZ05tnSIlFcIK8DX9c0JoXpM2ktOUt8/2EPCbaoKv17HW4BVDb7vXR8VzBf5MY4qku9NrmmYTMJXrzcdQU8JrbASPlHyF79n5xiiyg74Vq2OYCgHPg1nzmSrC1YgQu0W5WXNjWo9jt8h9C3ztuNYvDJkKkXl7KZDTq/s2XEzpzuLIA4rdTX+7lUB93ggN2YFeh6LV+kq58L8BpMPyiT8kxZLMF0HFTzaRNNwymelkPsV/+QZydro=&quot;
-git:
-  submodules: false
-# Use sed to replace the SSH URL with the public URL, then initialize submodules
-before_install:
-  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-install:
-  - sudo pip install Pygments
-  - go get github.com/spf13/hugo
-script: bash ./deploy.sh
-</code></pre>
+git config --global user.email <span style="color:#e6db74">&#34;cwjoneill@gmail.com&#34;</span>
+git config --global user.name <span style="color:#e6db74">&#34;Conor O&#39;Neill&#34;</span>
 
-<p>deploy.sh</p>
-
-<pre><code class="language-bash">#!/bin/bash
-
-echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
-
-git config --global user.email &quot;cwjoneill@gmail.com&quot;
-git config --global user.name &quot;Conor O'Neill&quot;
-
-# Build the project.
-hugo # if using a theme, replace by `hugo -t &lt;yourtheme&gt;`
+<span style="color:#75715e"># Build the project.</span>
+hugo <span style="color:#75715e"># if using a theme, replace by `hugo -t &lt;yourtheme&gt;`</span>
 
 git clone https://github.com/conoro/conoro.github.io.git
-cp -R public/* ${REPO}
-cd ${REPO}
+cp -R public/* <span style="color:#e6db74">${</span>REPO<span style="color:#e6db74">}</span>
+cd <span style="color:#e6db74">${</span>REPO<span style="color:#e6db74">}</span>
 git remote
 git add -A :/
-git commit -a -m &quot;latest via travis&quot;
-git push &quot;https://${GH_TOKEN}@${GH_REPO}&quot; master &gt; /dev/null 2&gt;&amp;1
-</code></pre>
-
+git commit -a -m <span style="color:#e6db74">&#34;latest via travis&#34;</span>
+git push <span style="color:#e6db74">&#34;https://</span><span style="color:#e6db74">${</span>GH_TOKEN<span style="color:#e6db74">}</span><span style="color:#e6db74">@</span><span style="color:#e6db74">${</span>GH_REPO<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> master &gt; /dev/null 2&gt;&amp;<span style="color:#ae81ff">1</span>
+</code></pre></div>
     </section>
 
 

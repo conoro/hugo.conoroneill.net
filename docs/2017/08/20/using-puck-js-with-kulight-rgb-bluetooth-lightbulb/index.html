@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2017/08/20/using-puck-js-with-kulight-rgb-bluetooth-lightbulb/" />
 
@@ -126,21 +126,13 @@
 
     <section class="post-content">
       <p>I have a massive backlog of tech posts to do but I never quite finish the projects to the level I want and they are left hanging. So I&rsquo;m going to start posting more WIP stuff from now on and hopefully they&rsquo;ll be useful to someone.</p>
-
 <p>I&rsquo;ve been a long-time fan of the <a href="https://www.espruino.com">Espruino project</a> created by Gordon Willams and have had great fun with the <a href="https://www.espruino.com/Order">original board</a>, the <a href="https://www.espruino.com/Order">Pico</a> and <a href="https://www.espruino.com/Order">Puck.js</a>. If you like JavaScript and you&rsquo;d like to play around with hardware, you really should get your hands on one of his boards.</p>
-
 <p><a href="https://www.espruino.com/Puck.js">Puck.js</a> is a tiny button-cell-battery-powered Bluetooth board. You program it using a Chrome Web App over Bluetooth (or standalone Electron-based IDE on Windows. Glares at Google) and it&rsquo;ll put a smile on your face every time you do. You can use it as an iBeacon or Eddystone device or as a Bluetooth button for your computer. Basically anything with Bluetooth (BLE) is up for grabs.</p>
-
-<p><img src="/images/2017/08/Puck.js_board.jpg" alt="Puck.js" /></p>
-
+<p><img src="/images/2017/08/Puck.js_board.jpg" alt="Puck.js"></p>
 <p>Gordon did a really nice <a href="https://www.youtube.com/watch?v=LCvmmpQjnj0">demo video</a> of <a href="https://www.espruino.com/Puck.js+and+Bluetooth+Lightbulbs">how to control a Bluetooth lightbulb</a> late last year.</p>
-
 <p>I finally ordered a <a href="http://www.ebay.co.uk/itm/332254514323">random one off eBay</a> recently and decided to follow his steps. As it&rsquo;s a different bulb, the settings are very different. So if you find yourself with a KuLight like this,</p>
-
-<p><img src="/images/2017/08/kulight.png" alt="KuLight" /></p>
-
+<p><img src="/images/2017/08/kulight.png" alt="KuLight"></p>
 <p>which uses the <a href="https://play.google.com/store/apps/details?id=com.cloudlink.bleled&amp;hl=en">ColorfulLight App</a> on iOS/Android then these are the basic settings you need, based on Gordon&rsquo;s code:</p>
-
 <pre><code>/*
 On     = 0x02, 0x00, 0x00, 0x00, 0xff, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 Off    = 0x32, 0xff, 0xff, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
@@ -182,10 +174,7 @@ setWatch(function() {
 }, BTN, { repeat:true, edge:&quot;rising&quot;, debounce:50 });
 
 
-</code></pre>
-
-<p>Note the code lacks error handling so e.g. if Mobile App is already connected, the Puck will throw an exception trying to connect. And obvs the MAC address will probably be different for your light.</p>
-
+</code></pre><p>Note the code lacks error handling so e.g. if Mobile App is already connected, the Puck will throw an exception trying to connect. And obvs the MAC address will probably be different for your light.</p>
 <p>More Puck.js posts coming soon!</p>
 
     </section>

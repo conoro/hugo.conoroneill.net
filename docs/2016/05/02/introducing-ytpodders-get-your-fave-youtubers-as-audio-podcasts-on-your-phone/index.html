@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2016/05/02/introducing-ytpodders-get-your-fave-youtubers-as-audio-podcasts-on-your-phone/" />
 
@@ -126,17 +126,11 @@
 
     <section class="post-content">
       <p>Like my kids, I love regular YouTubers. My particular favourites are the tech, craft, metal and woodworking people who make amazing things every week. <a href="https://www.youtube.com/channel/UCjA8vRlL1c7BDixQRJ39-LQ">Those</a> <a href="https://www.youtube.com/user/darbinorvar">gals</a> <a href="https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ">and</a> <a href="https://www.youtube.com/user/jimmydiresta">guys</a> <a href="https://www.youtube.com/channel/UCHWvlZ6jGmXKYa1w8yRVcbA">have</a> <a href="https://www.youtube.com/channel/UCETeXD_3awsQv-9rSdCYXQQ">to</a> <a href="https://www.youtube.com/user/urbanTrash">be</a> <a href="https://www.youtube.com/user/Jayscustomcreations">watched</a> <a href="https://www.youtube.com/channel/UCYdkEm-NjhS8TmLVt_qZy9g">to</a> <a href="https://www.youtube.com/channel/UCkhZ3X6pVbrEs_VzIPfwWgQ">really</a> <a href="https://www.youtube.com/user/arduinoversusevil">get</a> <a href="https://www.youtube.com/user/colinfurze">the</a> <a href="https://www.youtube.com/channel/UCV8D6u7_jkuGf_iUvNzXpmg">value</a> <a href="https://www.youtube.com/user/rusticman1973">from</a> <a href="https://www.youtube.com/user/JoergSprave">them</a> <a href="https://www.youtube.com/channel/UCpV7D0LoRbYhdx2G-whWyog">and</a> <a href="https://www.youtube.com/channel/UCfCKUsN2HmXfjiOJc7z7xBw">here&rsquo;s</a> <a href="https://www.youtube.com/channel/UC6x7GwJxuoABSosgVXDYtTw">a</a> <a href="https://www.youtube.com/channel/UCUaiGrBfRCaC6pL7ZnZjWbg">few</a> <a href="https://www.youtube.com/channel/UCHvBHWBzzB7NyU5tIiEZHBg">more</a> <a href="https://www.youtube.com/user/punishedprops">worth</a> <a href="https://www.youtube.com/user/stevinmarin">looking</a> <a href="https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA">at</a> <a href="https://www.youtube.com/user/testedcom">too</a>, <a href="https://www.youtube.com/channel/UCupK5wJGXHDemXmHFMCMtHA">of</a> <a href="https://www.youtube.com/user/DrunkenWoodworker">course</a> <a href="https://www.youtube.com/user/thebenheckshow">not</a> <a href="https://www.youtube.com/user/Matthiaswandel">forgetting</a> <a href="https://www.youtube.com/user/ferrynick">these</a> <a href="https://www.youtube.com/user/makemagazine">other</a> <a href="https://www.youtube.com/user/benbrandt22">gems</a>.</p>
-
 <p>But there are others I love equally where it&rsquo;s mostly about what they are saying. For example, <a href="https://www.youtube.com/user/TheGingerRunner">Ethan Newberry</a> (aka The Ginger Runner) does a fantastic weekly live session where he mostly interviews Ultra runners. This works just as well without the video. I listen to this when running or driving. It&rsquo;s seriously one of the best motivational things you can listen to on a marathon!</p>
-
 <p>For a few months I was using <a href="https://rg3.github.io/youtube-dl/">youtube-dl</a> to grab the latest episode video file, then <a href="http://winff.org/html_new/">Winff/ffmeg</a> to convert to MP3, then I manually copied the file to the music player on my Android phone. Not exactly slick.</p>
-
 <p>Of course, I decided to automate it and figured it&rsquo;d take a couple of evenings. Two months later, here we are :-)</p>
-
-<p><img src="https://ytpodders.com/images/YTPodders_256x256_gradient.png" alt="YTPodders" /></p>
-
+<p><img src="https://ytpodders.com/images/YTPodders_256x256_gradient.png" alt="YTPodders"></p>
 <p>Introducing <a href="https://ytpodders.com">YTPodders</a>, an App that does everything you need to have automated podcastification of YouTube Users and Channels. It works very similarly to my manual process as follows:</p>
-
 <ul>
 <li>When you run ytpodders, it checks the list of YouTube Users and Channels you previously added for any new content. It downloads any new ones it finds using youtube-dl</li>
 <li>As part of that download process, youtube-dl uses ffmpeg to convert the videos to MP3 audio</li>
@@ -145,21 +139,13 @@
 <li>You subscribe to that rss.xml file in your Podcasting App on your phone e.g. <a href="https://play.google.com/store/apps/details?id=mobi.beyondpod&amp;hl=en">BeyondPod</a> on Android.</li>
 <li>The Podcasting App then regularly checks for updates and pulls any new content from Dropbox on to your phone for offline listening.</li>
 </ul>
-
-<p><img src="https://www.dropbox.com/s/22pziqm50ep9r55/beyondpod.png?raw=1" alt="BeyondPod" /></p>
-
+<p><img src="https://www.dropbox.com/s/22pziqm50ep9r55/beyondpod.png?raw=1" alt="BeyondPod"></p>
 <p>This has been working really well for me for several weeks now. I have a Windows 10 Scheduled Task setup which runs it every morning at 6am. And I have BeyondPod checking a few times a day too. So my phone always has the latest and greatest YouTube MP3s.</p>
-
 <p>The code needs lots of work and there is still a lot of maintenance type functionality that needs to be added (pruning old MP3s; cleaning up when you remove subscriptions etc).</p>
-
 <p>The important thing you need to do is to give <a href="https://ytpodders.com">YTPodders authorisation</a> to access your Dropbox. It only gets access to its own sub-directory in the Apps directory in Dropbox so it can&rsquo;t mess anything else up.</p>
-
 <p>Full installation and usage instructions for End-Users and Developers are over <a href="https://github.com/conoro/ytpodders">on GitHub here</a>.</p>
-
 <p>It has been mostly tested on Windows 10 but also runs on Mac and Linux. The server runs on Windows, OSX, CentOS and Fedora too (presumably any Linux distro).</p>
-
 <p>As this is basically time-shifting for personal use only, it should come under US fair use. The download of the video by youtube-dl should count as a view for advertising purposes. If you are concerned about depriving your favourite YouTubers of income, why not back them on <a href="http://www.patreon.com">Patreon</a>, if they use it? I did that for <a href="https://www.patreon.com/thegingerrunner?ty=c">Ethan</a> because I get so much value as a runner from the videos he creates and the interviews that he does.</p>
-
 <p>Improvements, suggestions and bug reports all gladly accepted <a href="https://github.com/conoro/ytpodders">over on GitHub</a>. The code is written in Go/GoLang, yes it&rsquo;s a giant awful ball of mud hack and it doesn&rsquo;t do multiple downloads in parallel on purpose, not because I can&rsquo;t figure out goroutines :-) But it works.</p>
 
     </section>

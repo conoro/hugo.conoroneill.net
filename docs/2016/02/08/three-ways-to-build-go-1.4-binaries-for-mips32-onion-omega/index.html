@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2016/02/08/three-ways-to-build-go-1.4-binaries-for-mips32-onion-omega/" />
 
@@ -125,26 +125,15 @@
     </header>
 
     <section class="post-content">
-      
-
-<p>I previously <a href="http://conoroneill.net/onion-omega-first-impressions-running-golang-nodejs/">wrote about using gccgo</a> to build Go binaries for the <a href="https://onion.io/">Onion Omega</a> due to Go&rsquo;s lack of support for MIPS CPUs. But TBH it&rsquo;s a pain in the butt. Things were looking up when it was revealed that Go 1.6 would have MIPS support but sadly it&rsquo;s for MIPS64 only, for datacenter applications I guess.</p>
-
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/02/onion_omega_small.jpg" alt="Onion Omega" /></p>
-
+      <p>I previously <a href="http://conoroneill.net/onion-omega-first-impressions-running-golang-nodejs/">wrote about using gccgo</a> to build Go binaries for the <a href="https://onion.io/">Onion Omega</a> due to Go&rsquo;s lack of support for MIPS CPUs. But TBH it&rsquo;s a pain in the butt. Things were looking up when it was revealed that Go 1.6 would have MIPS support but sadly it&rsquo;s for MIPS64 only, for datacenter applications I guess.</p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/02/onion_omega_small.jpg" alt="Onion Omega"></p>
 <p>However <a href="https://twitter.com/onetruecathal">Cathal Garvey</a> discovered a <a href="https://github.com/gomini/go-mips32">GitHub repo</a> where some lovely person has ported v1.4.2 of Go to MIPS32 and it works perfectly on the Onion Omega (and presumably all other Atheros AR9331 boards).</p>
-
 <p>This is a huge jump forward for the Onion Omega. Language support has been a bit of a problem for me with both Node.js and Go not really being usable there until now.</p>
-
 <p>Due to the lack of storage on the Omega, you won&rsquo;t be able to install the full Go build system there so a cross-compilation setup is needed.</p>
-
 <p>I&rsquo;ve been able to build the binaries on Linux, Windows and in a Docker container. All are easy.</p>
-
 <h1 id="linux-or-linux-vm-on-windows">Linux (or Linux VM on Windows)</h1>
-
 <p>Following <a href="http://www.black-swift.com/forum/suggestion-box/59-go-1-4-2-on-black-swift">Cathal&rsquo;s simple instructions</a>, I was able to build Go for MIPS32 in a few minutes in a Linux VM on my main Windows machine. I then cross-compiled a Hello World and scp&rsquo;ed it to the Omega. It worked first time!</p>
-
 <p>My steps:</p>
-
 <pre><code>cd
 git clone https://github.com/gomini/go-mips32.git
 cd go-mips32/src
@@ -158,43 +147,28 @@ export GOROOT=/opt/mipsgo
 export PATH=/opt/mipsgo/bin:$PATH
 vi helloworld.go
 go build helloworld.go
-</code></pre>
-
-<h1 id="windows-10">Windows 10</h1>
-
+</code></pre><h1 id="windows-10">Windows 10</h1>
 <p>I was very surprised this worked but of course Go is strongly cross-platform. My standard build setup for Node.js native modules did the trick. You&rsquo;ll probably need Visual Studio Community 2015 and Git for Windows. Then:</p>
-
 <p>Open a CMD prompt (note I have all my code on D: drive)</p>
-
-<pre><code class="language-dos">d:
+<pre><code class="language-dos" data-lang="dos">d:
 cd gitwork
 git clone https://github.com/gomini/go-mips32.git
 cd go-mips32\src
 set GOOS=linux
 set GOARCH=mips32
 make.bat
-</code></pre>
-
-<p>I then created a simple CMD file which sets everything up when I need to build for MIPS so it doesn&rsquo;t interfere with my main Go install.</p>
-
-<pre><code class="language-dos">set GOOS=linux
+</code></pre><p>I then created a simple CMD file which sets everything up when I need to build for MIPS so it doesn&rsquo;t interfere with my main Go install.</p>
+<pre><code class="language-dos" data-lang="dos">set GOOS=linux
 set GOARCH=mips32
 set GOROOT=d:\gitwork\go-mips32
 set GOPATH=d:\gitwork\go
 set PATH=d:\gitwork\go-mips32\bin;%PATH%
 CMD
-</code></pre>
-
-<p>When I launch that, I can do the usual go build filename.go. Note that the MIPS port seems to be able to share the same GOPATH as my x86-64 one. Not sure that will work in every case tho e.g. If C modules are bound?</p>
-
+</code></pre><p>When I launch that, I can do the usual go build filename.go. Note that the MIPS port seems to be able to share the same GOPATH as my x86-64 one. Not sure that will work in every case tho e.g. If C modules are bound?</p>
 <p>For Windows I use WinSCP to copy the files to the Omega. For some reason Filezilla SFTP has a problem talking to it.</p>
-
 <h1 id="docker-container-on-windows">Docker Container on Windows</h1>
-
 <h2 id="hello-world">Hello World</h2>
-
 <p>To get more familiar with Docker I decided to create a Docker image that others can use. That turned out to be pretty easy too. Here is the Dockerfile:</p>
-
 <pre><code>FROM alpine:3.3
 
 ENV GOLANG_VERSION 1.4.2
@@ -229,77 +203,53 @@ RUN rm -rf &quot;$GOROOT/test&quot;
 RUN rm -rf &quot;$GOROOT/doc&quot;
 RUN mkdir -p &quot;$GOPATH/src&quot; &quot;$GOPATH/pkg&quot; &quot;$GOPATH/bin&quot; &amp;&amp; chmod -R 777 &quot;$GOPATH&quot;
 WORKDIR $GOPATH/src
-</code></pre>
-
-<p>And you can grab the image from <a href="https://hub.docker.com/r/conoro/go-mips32/">Docker Hub here</a>.</p>
-
+</code></pre><p>And you can grab the image from <a href="https://hub.docker.com/r/conoro/go-mips32/">Docker Hub here</a>.</p>
 <p>The full set of steps for Windows are as follows:</p>
-
 <ul>
 <li>Install <a href="https://www.docker.com/products/docker-toolbox">Docker Toolbox for Windows</a>. It&rsquo;ll also install VirtualBox if you don&rsquo;t already have it.</li>
 <li>Run a Docker shell and type:</li>
 </ul>
-
 <pre><code>docker run -t -i conoro/go-mips32:v1 /bin/sh
-</code></pre>
-
-<p>(Note v2 has some problems I need to fix so you&rsquo;ll need to manually install openssh and git on v1)</p>
-
+</code></pre><p>(Note v2 has some problems I need to fix so you&rsquo;ll need to manually install openssh and git on v1)</p>
 <ul>
 <li>You&rsquo;ll now be at a Linux prompt and you can type:   <em>go version</em></li>
 <li>Then create a Hello World using:    <em>vi helloworld.go</em></li>
 </ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 
-<pre><code class="language-go">package main
+<span style="color:#f92672">import</span> <span style="color:#e6db74">&#34;fmt&#34;</span>
 
-import &quot;fmt&quot;
-
-func main() {
-	fmt.Println(&quot;Hello, Conor&quot;)
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Hello, Conor&#34;</span>)
 }
-</code></pre>
-
-<ul>
+</code></pre></div><ul>
 <li>Compile it with:   <em>go build helloworld.go</em></li>
 <li>Copy it to the Onion Omega with:     <em>scp helloworld root@ip-of-your-onion/helloworld</em></li>
 <li>Open a shell on your Omega with the webapp or Putty and just type:   <em>helloworld</em></li>
 </ul>
-
 <h2 id="web-app">Web App</h2>
-
 <p>A more advanced example which also works perfectly is to run a web-app using the <a href="https://github.com/gin-gonic/gin">Gin</a> framework. For that, all you need to do is:</p>
-
-<pre><code class="language-bash">go get github.com/gin-gonic/gin
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">go get github.com/gin-gonic/gin
 vi gintest.go
-</code></pre>
+</code></pre></div><p>then in vi:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 
-<p>then in vi:</p>
+<span style="color:#f92672">import</span> <span style="color:#e6db74">&#34;github.com/gin-gonic/gin&#34;</span>
 
-<pre><code class="language-go">package main
-
-import &quot;github.com/gin-gonic/gin&quot;
-
-func main() {
-    r := gin.Default()
-    r.GET(&quot;/ping&quot;, func(c *gin.Context) {
-        c.JSON(200, gin.H{
-            &quot;message&quot;: &quot;pong&quot;,
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+    <span style="color:#a6e22e">r</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">gin</span>.<span style="color:#a6e22e">Default</span>()
+    <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">GET</span>(<span style="color:#e6db74">&#34;/ping&#34;</span>, <span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">c</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">gin</span>.<span style="color:#a6e22e">Context</span>) {
+        <span style="color:#a6e22e">c</span>.<span style="color:#a6e22e">JSON</span>(<span style="color:#ae81ff">200</span>, <span style="color:#a6e22e">gin</span>.<span style="color:#a6e22e">H</span>{
+            <span style="color:#e6db74">&#34;message&#34;</span>: <span style="color:#e6db74">&#34;pong&#34;</span>,
         })
     })
-    r.Run() // listen and server on 0.0.0.0:8080
-}
-</code></pre>
-
-<p>Then build that, scp it to the Omega and run it. Then open <a href="http://ip-of-your-onion:8080/ping">http://ip-of-your-onion:8080/ping</a> to see everything working nicely.</p>
-
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/02/gin_ping_omega.jpg" alt="Gin Ping Onion Omega" /></p>
-
+    <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Run</span>() <span style="color:#75715e">// listen and server on 0.0.0.0:8080
+</span><span style="color:#75715e"></span>}
+</code></pre></div><p>Then build that, scp it to the Omega and run it. Then open http://ip-of-your-onion:8080/ping to see everything working nicely.</p>
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/02/gin_ping_omega.jpg" alt="Gin Ping Onion Omega"></p>
 <p>Note I also built this using the Windows setup for comparison and it worked too.</p>
-
 <h2 id="database">Database</h2>
-
 <p>Not so much luck with embedded databases I&rsquo;m afraid. I suspect Bolt and LevelDB are using some more advanced filesystem features which are causing issues on OpenWRT. I lack the expertise to debug.</p>
-
 <ul>
 <li><a href="https://github.com/boltdb/bolt">Bolt</a> has some CPU specific code which prevented building. I added an entry for MIPS32 (based on i386) and it then cross-compiled but throws error EINVAL when opening DB. Possibly OpenWRT FS related or down to bug in the Go MIPS port. But I&rsquo;m using Bolt with Stow successfully on another non-MIPS32 project.</li>
 <li><a href="https://github.com/mattn/go-sqlite3">go-sqlite3</a> has a C library dependency so it also won&rsquo;t cross-compile.</li>
@@ -310,9 +260,7 @@ func main() {
 <li><a href="https://github.com/steveyen/gkvlite">gkvlite</a> - It works! Hurrah! Well the sample code works. Now to try it on some simple stuff I&rsquo;ve done elsewhere</li>
 <li><a href="https://github.com/peterbourgon/diskv">diskv</a> - Double hurrah, it seems to work too.</li>
 </ul>
-
 <h1 id="conclusion">Conclusion</h1>
-
 <p>I&rsquo;m looking forward to running a lot more code on the Omega now.</p>
 
     </section>

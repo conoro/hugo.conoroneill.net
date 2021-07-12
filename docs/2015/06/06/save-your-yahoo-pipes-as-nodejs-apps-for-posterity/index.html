@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2015/06/06/save-your-yahoo-pipes-as-nodejs-apps-for-posterity/" />
 
@@ -126,13 +126,9 @@
 
     <section class="post-content">
       <p>I swore I&rsquo;d never use another Yahoo product after the cultural terrorism of their Geocities shutdown. Now one of their few bright lights of the past decade, Pipes, is biting the dust. However a very very smart person wrote a program called <a href="https://github.com/neyric/pipes2js">pipes2js</a> three years ago which you may find useful. It converts your Pipes to Node.js apps!</p>
-
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/06/rip_pipes.png" alt="RIP Pipes" /></p>
-
+<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/06/rip_pipes.png" alt="RIP Pipes"></p>
 <p>Installation is a tiny bit different from the instructions as it doesn&rsquo;t seem to be on NPM any more. Here&rsquo;s what worked for me on a Fedora 22 Virtual Box. I assume OSX would be similar. I might try Windows 8.1 later for the laugh.</p>
-
 <p>The steps are as follows:</p>
-
 <ul>
 <li>sudo npm install -g git://github.com/neyric/pipes2js.git</li>
 <li>Go to <a href="https://pipes.yahoo.com/pipes/">Yahoo Pipes</a></li>
@@ -143,9 +139,7 @@
 <li>npm install .</li>
 <li>node run.js</li>
 </ul>
-
 <p>The sad reality for me is that most of my Pipes are no longer functional as they use the old brilliantly simple but deprecated Twitter APIs (shakes fist at Twitter too). But it&rsquo;s nice to be able to keep some sort of copy and give 2 fingers to the purple charlatans.</p>
-
 <p>Update: It runs fine on Windows 8.1 if you have the various Visual Studio Express bits installed to compile Native Node modules. You may also have to run pipes2js with the full path to pipes2js.cmd so Windows can find it.</p>
 
     </section>
