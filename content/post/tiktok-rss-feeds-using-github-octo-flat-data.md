@@ -10,7 +10,7 @@ Gen-X nerds continue to ruin the internet for Gen-Z by implementing RSS feeds fo
 
 ![TikTok RSS Flat Logo](/images/2021/07/tiktok-rss-flat.png)
 
-I was really intrigued by the launch of [GitHub OCTO Flat Data](https://octo.github.com/projects/flat-data), having already been a longtime fan of [Simon Willison's](https://simonwillison.net/] work (all the way back to the early days of Django). There is something very powerful in there that is not obvious on first look. Connecting it to [Low-Code platforms](https://tines.io) could unleash lots of crazy fabulous new ideas.
+I was really intrigued by the launch of [GitHub OCTO Flat Data](https://octo.github.com/projects/flat-data), having already been a longtime fan of [Simon Willison's](https://simonwillison.net/) work (all the way back to the early days of Django). There is something very powerful in there that is not obvious on first look. Connecting it to [Low-Code platforms](https://tines.io) could unleash lots of crazy fabulous new ideas.
 
 I'm also an old curmudgeon who has clung fiercly to RSS despite the best attempts of Google, Twitter, Facebook and old media to kill it. I get breaking news via Twitter and gave up on Faecbook aeons ago, whilst the vast majority of the media I consume online is via hundreds of RSS subscriptions on [Feedly](https://feedly.com). 
 
