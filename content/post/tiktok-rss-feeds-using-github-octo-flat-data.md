@@ -23,13 +23,14 @@ I wondered if the same was possible using Flat Data to make it very low effort f
 My first attempt to do it all in Deno (Node.js mavens look away now) on the Tokyo Marathon web-site took almost no time. There's [a basic functional setup here](https://github.com/conoro/flat-rss-example). But that works as one repo per RSS feed which is wasteful.
 
 
-I then wanted to try TikTok which is a lot more complex as it's a SPA with no scrapable data from its webapp. I initialy failed to do it in straight Deno as my complete lack of knowledge of it meant I couldn't get the Node.js [TikTok Scraper](https://www.npmjs.com/package/tiktok-scraper) running under it. I did however manage to make [a tiny change](https://github.com/conoro/tiktok-scraper) which allows that scraper to run directly in Node.js under AWS Lambda without native code problems from jsdom/canvas.
+I then wanted to try TikTok which is a lot more complex as it's a SPA with no scrapable data from its webapp. I initially failed to do it in straight Deno as my complete lack of knowledge of it meant I couldn't get the Node.js [TikTok Scraper](https://www.npmjs.com/package/tiktok-scraper) running under it. I did however manage to make [a tiny change](https://github.com/conoro/tiktok-scraper) which allows that scraper to run directly in Node.js under AWS Lambda without native code problems from jsdom/canvas.
 
-So back to good old Python I went and it was all very quick.
+So back to good old Python I went to do it using Flat Data and it was all very quick.
 
 [TikTok RSS Flat](https://github.com/conoro/tiktok-rss-flat) generates usable RSS feeds from TikTok using the unoffical [TikTokApi Python library](https://github.com/davidteather/TikTok-Api) to extract information about user videos from TikTok as JSON and generate RSS feeds for each user you are interested in.
 
 To get your own instance running is simple:
+
 * Fork my [repo](https://github.com/conoro/tiktok-rss-flat)
 * Enable GitHub Pages for your new repo
 * Change the `ghPagesURL` in `postprocessing.py` from "https://conoro.github.io/tiktok-rss-flat/" to your URL
@@ -39,6 +40,7 @@ To get your own instance running is simple:
 It's set to run once per hour and generates one RSS XML file per user in the rss output directory.
 
 You then subscribe to each feed in Feedly or another feed reader using a GitHub Pages URL. Those URLs are constructed like so. E.g.:
+
 * TikTok User = iamtabithabrown
 * XML File = rss/iamtabithabrown.xml
 * Feedly Subscription URL = https://conoro.github.io/tiktok-rss-flat/rss/iamtabithabrown.xml
