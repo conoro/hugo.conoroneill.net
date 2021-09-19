@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.87.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2016/11/29/all-the-grisly-details-of-skeletony-and-the-halloween-doorbell-of-doom-v20/" />
 
@@ -188,7 +188,7 @@
 </li>
 </ul>
 <p>You then run</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make
 sudo ./ssd1306_demo /dev/i2c-2
 </code></pre></div><p>That shows some demo text as an image.</p>
 <p>To show your own image you need to create it in Windows Paint (for realz) as a 128x64 monochrome BMP. Here&rsquo;s <a href="https://raw.githubusercontent.com/conoro/halloween2016/master/doorbell5.bmp">mine</a>. Then use <a href="http://en.radzio.dxp.pl/bitmap_converter/">LCD Asistant</a> which is a simple Windows tool that takes the BMP file and turns it into a .h file. I then replaced the array in font5x7.h with that one in the generated h file. I re-ran Make and then ran the code. It took a few iterations to get an image I was happy with.</p>

@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.87.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2014/04/13/pebble-controlled-electric-blanket-using-cloud-pebble-simply-js/" />
 
@@ -138,7 +138,7 @@
 <li>I&rsquo;ve found that I can&rsquo;t install from desktop but if I load the IDE URL on my phone I can do it from there. I assume this is because I&rsquo;m on house wifi and behind a firewall with a private IP.</li>
 </ul>
 <p>That first App looks like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Simply.js demo!&#39;</span>);
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Simply.js demo!&#39;</span>);
 
 <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;singleClick&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>) {
   <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">util2</span>.<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;single clicked $button!&#39;</span>, <span style="color:#a6e22e">e</span>));
@@ -161,12 +161,12 @@
   <span style="color:#a6e22e">body</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;This is a demo. Press buttons or tap the watch!&#39;</span>,
 }, <span style="color:#66d9ef">true</span>);
 </code></pre></div><p>And it you read the Simply.js site, you can access URLs like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">ajax</span>({ <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;http://simplyjs.io&#39;</span> }, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">data</span>){
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">ajax</span>({ <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;http://simplyjs.io&#39;</span> }, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">data</span>){
   <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">headline</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">data</span>.<span style="color:#a6e22e">match</span>(<span style="color:#e6db74">/&lt;h1&gt;(.*?)&lt;\/h1&gt;/</span>)[<span style="color:#ae81ff">1</span>];
   <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">title</span>(<span style="color:#a6e22e">headline</span>);
 });
 </code></pre></div><p>Merge the two together and ta-daaaaa, the Bandon Bed Button Pebble App.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Bandon Bed Button!&#39;</span>);
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Bandon Bed Button!&#39;</span>);
 
 <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;singleClick&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>) {
   <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">util2</span>.<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;single clicked $button!&#39;</span>, <span style="color:#a6e22e">e</span>));

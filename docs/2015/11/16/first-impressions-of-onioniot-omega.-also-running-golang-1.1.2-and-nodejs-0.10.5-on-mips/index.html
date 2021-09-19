@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.87.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2015/11/16/first-impressions-of-onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/" />
 
@@ -248,7 +248,7 @@ mips_gccgo -Wall -o helloweb_static_libgo helloweb.go -static-libgo
 <h2 id="tweeting-from-the-onion-omega-in-go">Tweeting from the Onion Omega in Go</h2>
 <p>I should have left it at that but no, I wanted to Tweet from the Onion. My problems multiplied. Basically, gccgo doesn&rsquo;t have all the bells and whistles of recent Go and can&rsquo;t handle included packages easily. After some reading and playing, I managed to build a Tweeting App that used the <a href="https://github.com/kurrik/twittergo">Twittergo package</a>. Note you need a local Fedora version of <a href="https://golang.org/dl/">Go installed and configured</a> for &ldquo;go get&rdquo; to work (or just git clone). My $GOPATH is /home/conor/gitwork/go</p>
 <p>I used the <a href="https://github.com/kurrik/twittergo-examples/blob/master/tweet/main.go">example from Twittergo</a> to send the tweet, with the same mods to remove paths from the imports as the other files.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">. ~/openwrt.config
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">. ~/openwrt.config
 
 cd ~/gitwork/go/src/github.com
 go get github.com/kurrik/twittergo
@@ -268,7 +268,7 @@ emacs tweetomega.go
 mips_gccgo -Wall -o tweetomega main.go -static-libgo json.o  oauth1a.o twittergo.o
 gedit CREDENTIALS
 </code></pre></div><p>I was nearly there. The code ran but threw an error almost immediately about x509 root certs being missing. I ran all of the following, which seemed to fix it (but I&rsquo;m not sure if all needed):</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">opkg update
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">opkg update
 opkg install ca-certificates
 opkg install openssl-util
 opkg install curl

@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.87.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2015/11/03/all-the-gory-tech-behind-our-halloween-hallway-of-horror/" />
 
@@ -126,7 +126,7 @@
 
     <section class="post-content">
       <p>Despite starting weeks earlier than usual, Halloween still involved a day of last minute panic to bring everything together. The end result was this:</p>
-<!-- raw HTML omitted -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FClhSNwFfT0" frameborder="0" allowfullscreen></iframe>
 <p>The basic setup was an update of ideas from previous years and consisted of the following.</p>
 <h2 id="3d-printed-mummy-in-coffin-doorbell">3D-printed Mummy in Coffin Doorbell</h2>
 <p>This was my favourite aspect of the whole thing. I spotted a <a href="http://www.thingiverse.com/thing:32905">cool 3D design on Thingiverse</a> and realised I could turn it into a doorbell by dremeling a hole in the back and hot-glueing the mummy to a simple push button.</p>
@@ -158,7 +158,7 @@
 <p>So I had Netcat working happily on the Banana Pi running Fedora but I also needed to be able to use the GPIO pins to tell the BPi when to turn on/off the LED strip. I then made the classic mistake of panicking on Halloween morning and switching to the RaspberryPi so I could use <a href="http://wiringpi.com/">WiringPi</a> for GPIO. Except the Netcat commands hung on the RPi (still no idea why).</p>
 <p>Some Googling revealed that WiringPi had been <a href="https://github.com/LeMaker/WiringBP">ported to Raspbian on the BPi</a> so I tried that. Same Netcat problem! So I took a chance and re-inserted the Fedora SD card and downloaded the BPi version of WiringPi. Result! It compiled and ran perfectly.</p>
 <p>The I moved on to several hours of trying to write a Bash script to monitor a GPIO pin using WiringPi and control the RGB LED strip with echo/netcat. All I will say about that is I am never ever writing a Bash script again (space-sensitive around brackets/equals for the love of god). This is the final result and, to be fair, it worked seamlessly:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
 <span style="color:#75715e">#!/bin/bash</span>
 sets<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>/usr/local/bin/gpio mode <span style="color:#ae81ff">7</span> down<span style="color:#e6db74">`</span>
 setit<span style="color:#f92672">=</span>$sets
@@ -187,12 +187,12 @@ sleep <span style="color:#ae81ff">1</span>
 <p>So the strip was now sorted. On to the rotating skull.</p>
 <h2 id="an-anatomically-correct-skull-with-scary-eyes">An anatomically correct skull with scary eyes</h2>
 <p>The skull idea came from a wonderful <a href="http://www.tested.com/art/makers/530668-how-make-realistic-horror-skull-prop/">tested.com video</a> where special effects artist Frank Ippolito bought a cheap skull on Amazon and then used latex, cotton wool and paint to turn it into a horrific burn-victim thing.</p>
-<!-- raw HTML omitted -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v8w4hufoujg" frameborder="0" allowfullscreen></iframe>
 <p>I thought we could do the same and found a skull on Amazon UK. It arrived and looked great apart from the lack of a movable jaw. But it then sat there for months with no progress due to me being artistically challenged.</p>
 <p>As an alternative I thought about doing something with eyes so I got some half-eyes from Amazon too They were a smidge small but fit for purpose. I grabbed some of my old tiny micro-servos which I have never found a use for and hot-glued the eyes to them. A bit of messing with the range of movement and I had a vaguely spooky setup.</p>
-<!-- raw HTML omitted -->
+<iframe width="420" height="315" src="https://www.youtube.com/embed/EagDgNoEpTc" frameborder="0" allowfullscreen></iframe>
 <p>But the fact that you could see the servos and they move pretty slowly meant I was a bit disappointed. I tried to vamp them up a bit more by adding neopixel ring but it was too big so I switched to a single funky Adafruit RGB neopixel on each one. So now I had 6 wires coming out of each eye.</p>
-<!-- raw HTML omitted -->
+<iframe width="420" height="315" src="https://www.youtube.com/embed/30LBjo5oG3I" frameborder="0" allowfullscreen></iframe>
 <p>Finally on Saturday morning I went to finish this bit and decided it was too much work to get the Arduino code tweaked to do 2x Neopixels and 2x servos and somehow trigger them on/off on a potentially rotating head. At this point I found the silly fake-eye pingpong balls from last year. A quick cut in the back and I hot-glued a Neopixel to each one. I then hot-glued the eyes into the skull and wired the Neopixels to an Arduino Nano.</p>
 <p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/skull_top.jpg" alt="Skull Arduino"></p>
 <p>I stuck the Nano and a Lipo battery to the top of the skull and covered it with a cool Buff. Having the eyes on permanently removed a little bit of the element of surprise but I still thought it worked well. The code for the Neopixels was just the <a href="https://github.com/adafruit/Adafruit_NeoPixel/blob/master/examples/strandtest/strandtest.ino">standard Adafruit strand test</a>.</p>
@@ -207,12 +207,12 @@ sleep <span style="color:#ae81ff">1</span>
 <p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/relay2.jpg" alt="Relay"></p>
 <p>But how was I going to handle starting/stopping the skull so it was facing away (and potentially covered) initially and then rotating at the right time and stopping in the right position? Of course I left that to Halloween itself.</p>
 <p>I used polystyrene and duct tape to brace the screwdriver. Then I setup two limit switches. I then applied power. The head spun around and ripped the switches off their mounts. Damn. So another quick executive decision was made. The head would start rotating when the doorbell was pressed and then stop after 10-15 seconds. Which meant some kids would get the full scary effect whilst others would see the flashing eyes before they got to the door.</p>
-<!-- raw HTML omitted -->
+<iframe width="420" height="315" src="https://www.youtube.com/embed/_alMNaewNXw" frameborder="0" allowfullscreen></iframe>
 <h2 id="tying-it-all-together">Tying it all together</h2>
 <p>This turned out to be pretty easy. I have a ton of decent wire from a dead Christmas tree light string and used that to connect everything up. The doorbell connected to one Arudino which then toggled a pin which the other Arduinos were connected to. After N seconds, it toggled the pin the other way to shut it all down.</p>
 <p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/wiring.jpg" alt="Wiring"></p>
 <p>It worked very very well.</p>
-<!-- raw HTML omitted -->
+<iframe width="420" height="315" src="https://www.youtube.com/embed/JvAI6WQglpk" frameborder="0" allowfullscreen></iframe>
 <h2 id="next-year">Next year?</h2>
 <p>Hmm not sure. I wanted to do something with ghosts flying down zip wires a few years ago but I just didn&rsquo;t have the knowhow. I&rsquo;m feeling a lot more confident about that now.</p>
 

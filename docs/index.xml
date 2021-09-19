@@ -6,7 +6,20 @@
     <description>Recent content on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jul 2021 05:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Sep 2021 10:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A quick thought on failed computers in education</title>
+      <link>https://conoroneill.net/2021/09/19/a-quick-thought-on-failed-computers-in-education/</link>
+      <pubDate>Sun, 19 Sep 2021 10:00:22 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2021/09/19/a-quick-thought-on-failed-computers-in-education/</guid>
+      <description>I saw two related threads over the past few days about computers in education.
+One called the Rasperry Pi a failure as it didn&amp;rsquo;t achieve its original mission.
+Clickbait title time: The Raspberry Pi failed (a thread).
+The original mission statement of the Pi was to be a modern BBC computer - a cheap educational resource that could be scattered throughout schools for kids to learn on.
+By that lofty aim, it&amp;#39;s failed.</description>
+    </item>
+    
     <item>
       <title>TikTok RSS Flat - Generate RSS feeds from TikTok using GitHub OCTO Flat Data</title>
       <link>https://conoroneill.net/2021/07/15/tiktok-rss-feeds-using-github-octo-flat-data/</link>
@@ -204,16 +217,6 @@ One thing that caught my eye with these releases was the mentions of &amp;ldquo;
       <guid>https://conoroneill.net/2018/02/02/downloading-youtube-videos-for-offline-viewing-on-android/</guid>
       <description>One of the all-time great tools of the internet era is youtube-dl. It enables you to download any YouTube video for watching offline/later. It has been a fantastic boon over the years for watching all my hundreds of subscribed channels when in planes, trains, automobiles and treadmills. It&amp;rsquo;s also the basis for my own YTPodders tool for generating podcasts from videos.
 Normally I run it on the PC and copy the files to the mobile devices, tablets or media players.</description>
-    </item>
-    
-    <item>
-      <title>I may have over-blinged my NodeConf EU badge</title>
-      <link>https://conoroneill.net/2018/01/01/i-may-have-over-blinged-my-nodeconf-eu-badge/</link>
-      <pubDate>Mon, 01 Jan 2018 12:00:00 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2018/01/01/i-may-have-over-blinged-my-nodeconf-eu-badge/</guid>
-      <description>If you attended NodeConf EU 2017 in Kilkenny, Ireland, you&amp;rsquo;ll know all about the digital badge powered by Espruino that we created with Gordon Williams. You can read more about it on the nearForm blog and check out the docs site.
-I hope you&amp;rsquo;ve continued to learn about Espruino and the power of JavaScript on tiny microcontrollers. Don&amp;rsquo;t forget it&amp;rsquo;s entirely Open Source Software and Hardware. Our Github repo is here.</description>
     </item>
     
   </channel>

@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.87.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2014/03/16/the-nitty-gritty-of-moving-from-wordpress-to-harpjs/" />
 
@@ -169,8 +169,9 @@
 <p>Second was the actual switch from WP on Blacknight to GitHub Pages. This was a bit fiddly. I use an non-www domain and learned that you can&rsquo;t CNAME from conoroneill.net over to conoro.github.io. Luckily I use DNSMadeEasy for DNS and they have a feature called ANAME which does allow this. But before I turned that on, I had to move the WP blog elsewhere. This involved creating a new domain called conoroneillnet.conoroneill.com and associating it to the old WP install on Blacknight. Then I used the <a href="http://wordpress.org/plugins/automatic-domain-changer/">Automatic Domain Changer</a> plugin to reset everything in WP and its database to the new archive domain. Then finally I made the DNSMadeEasy change. And ta-daaaa, I&rsquo;m now on GitHub Pages. I&rsquo;m sure it&rsquo;ll take a while for the DNS changes to propagate. I&rsquo;ll now turn off Google indexing of the old blog to avoid duplicate content issues.</p>
 <p>Update 2: Now that everything is moved, I&rsquo;ve just realised I have a very serious problem - trailing slashes, or more precisely, the lack of them. On WordPress all of my URLs ended with a trailing slash. By default, HarpJS doesn&rsquo;t since it treats / to mean directory not file. This wouldn&rsquo;t be so bad if there was a re-direct from one to the other, but there isn&rsquo;t, the URLs with trailing slashes give a 404. Which basically kills every existing inbound link to the blog (and messes up Disqus to boot). There is a way around it by putting every post in its own directory on that name and renaming every file to index.md. This seems like overkill when an auto-redirect really should be the default. Of course this is a <a href="http://garbagecollected.org/2013/02/27/wordpress-to-github-pages/">GitHub Pages issue</a> not a Harp issue. Not sure what I&rsquo;m going to do now&hellip;&hellip;</p>
 <p>Update 3: As I want to avoid &ldquo;downtime&rdquo;, I bit the bullet and took the directory approach for all old posts. The new ones will be fine. This code did the trick (thanks Stack Overflow) in the _harp dir:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre><code class="language-bash">
+find . -name "*.md" -exec sh -c 'NEWDIR=`basename "$1" .md` ; mkdir "$NEWDIR" ; mv "$1" "index.md"; mv "index.md" "$NEWDIR" ' _ {} \;
+</code></pre>
 <p>Update 4: Damn and blast, I forgot about /feed not redirecting too. So I created a /feed directory and put the feed.jade file in there as index.jade and set layout to false in a new _data.json file in that directory (after trying 20 other things!).</p>
 
     </section>

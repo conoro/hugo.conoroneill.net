@@ -8,6 +8,9 @@ uglyUrls=false
 publishdir = "docs"
 rssLimit = 20
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [permalinks]
   post="/:year/:month/:day/:slug/"
 

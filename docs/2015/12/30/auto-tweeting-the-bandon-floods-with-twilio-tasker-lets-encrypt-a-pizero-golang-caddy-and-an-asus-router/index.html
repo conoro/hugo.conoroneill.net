@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.87.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2015/12/30/auto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router/" />
 
@@ -128,7 +128,7 @@
       <h2 id="intro">Intro</h2>
 <p>I haven&rsquo;t blogged properly about the $5 <a href="https://www.raspberrypi.org/blog/raspberry-pi-zero/">Raspberry Pi Zero</a> computer yet, despite Tweeting non-stop about it. I will soon. In the meantime, I&rsquo;ll just repeat that</p>
 <p><em>It&rsquo;s a major moment in computing</em></p>
-<!-- raw HTML omitted -->
+<iframe src="https://player.vimeo.com/video/146893658" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p>The inclusion of a free one on the cover of the <a href="https://www.raspberrypi.org/magpi/raspberry-pi-zero-out-today-get-it-free-with-the-magpi-40/">MagPi Magazine</a> will be remembered for years to come.</p>
 <p>The town in which I live, Bandon, flooded again recently, because Ireland. I&rsquo;ve had <a href="https://github.com/conoro/bandonfews-nodejs">a simple Node.js app</a> running on a Gen 1 Raspberry Pi B, scraping the <a href="http://www.bandonfloodwarning.ie/">Bandon Flood Warning</a> site every 15 minutes for the past four years and saving the data in <a href="https://www.google.com/fusiontables/DataSource?docid=103YIcARoxuaWT7NfZ8mVBzY554sF_3ONYC1N3DE&amp;pli=1#chartnew:id=5">Google Fusion Tables</a>.</p>
 <p>Yes that&rsquo;s how Cork County Council&rsquo;s/OPW&rsquo;s Flood Warning site looks in the middle of one of our biggest floods ever:</p>
@@ -149,7 +149,7 @@
 <li>I have the Twilio number configured to call a my simple API end-point with the SMS contents</li>
 <li>The API end-point is running on one of my $5 Raspberry Pi Zeros and is written in <a href="https://golang.org/">Go</a>. Code below.</li>
 <li>The PiZero is behind my home router which is an <a href="https://www.asus.com/ie/Networking/RTAC68U/">Asus RT-AC68</a> so somehow Twilio had to connect through that to the Zero</li>
-<li>I initially setup a simple port forward to the Zero and I already use <a href="http://no-IP.com">no-IP.com</a> for Dynamic DNS. So Twilio called <a href="http://something.no-ip.net">http://something.no-ip.net</a>:1234 and my router passed the request to the PiZero server app on port blah</li>
+<li>I initially setup a simple port forward to the Zero and I already use <a href="http://no-IP.com">no-IP.com</a> for Dynamic DNS. So Twilio called <a href="http://something.no-ip.net:1234">http://something.no-ip.net:1234</a> and my router passed the request to the PiZero server app on port blah</li>
 <li>The PiZero server app parsed the POST request and extracted out the SMS. It split this into multiple Tweets (a la Tweetstorm) if more than 140 chars and used the <a href="https://github.com/ChimeraCoder/anaconda">Anaconda Go client library</a> to post that to @BandonFEWS on Twitter</li>
 <li>Done</li>
 </ul>
@@ -181,7 +181,7 @@ proxy / localhost:9998
 <p><em>Jaw-drop time</em></p>
 <ul>
 <li>Once the registration was done I could remove the 443 port forward and switch to a non-standard port</li>
-<li>I went over to Twilio and provided the new <a href="https://conorsdomain.com">https://conorsdomain.com</a>:9999 as the end-point to call. No joy. But a quick support ticket later and they made a change over the weekend(!) to fix it. Boom, everything working fine.</li>
+<li>I went over to Twilio and provided the new <a href="https://conorsdomain.com:9999">https://conorsdomain.com:9999</a> as the end-point to call. No joy. But a quick support ticket later and they made a change over the weekend(!) to fix it. Boom, everything working fine.</li>
 <li>With the terrible weather, I didn&rsquo;t have to wait long for the first non-test SMS to appear. A couple of seconds later it was on Twitter:</li>
 </ul>
 <p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/flood_alert.jpg" alt="Bandon Flood Warning"></p>
@@ -192,7 +192,7 @@ proxy / localhost:9998
 <li>In theory I could take the scraped data from the site and generate my own alerts but the Council rightly overrides the default trigger levels on occasion to warn people of impending flooding.</li>
 </ul>
 <h2 id="go-code-see-for-httpsgistgithubcomconorof1a3f7c5b96e2b033119httpsgistgithubcomconorof1a3f7c5b96e2b033119-for-latest">Go Code (See for <a href="https://gist.github.com/conoro/f1a3f7c5b96e2b033119">https://gist.github.com/conoro/f1a3f7c5b96e2b033119</a> for latest)</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 
 <span style="color:#f92672">import</span> (
 	<span style="color:#e6db74">&#34;encoding/json&#34;</span>
@@ -314,7 +314,7 @@ proxy / localhost:9998
 <li>Make it executable (chmod 755 ddns-start)</li>
 <li>Copy these contents into ddns-start</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/sh
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/sh
 </span><span style="color:#75715e"></span>USERNAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;yourDNSMadeEasyUsername&#34;</span>
 PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;TheSpecificPasswordYouSetOnThatDNSRecord&#34;</span>
 IP<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>1<span style="color:#e6db74">}</span>

@@ -13,13 +13,13 @@ Last May I started playing around with the idea of doing some sessions on <a hre
 
 If you are not familiar with App Inventor, it is a way of building mobile phone applications for Google Android phones using a simple graphical blocks approach. It is highly suited to an educational environment and has seen a lot of uptake since its launch in summer 2010. It has recently been taken over by MIT and I expect great things from them in the coming year.
 
-httpv://www.youtube.com/watch?v=8ADwPLSFeY8
+{{< youtube 8ADwPLSFeY8 >}}
 
 I am a member of the school's Parent's Association and I pitched the idea of me doing some after-school sessions with maybe 5th and 6th class in the Autumn. They loved it and so I contacted the headmistress and the teacher mainly responsible for computers in the school. Due to the summer holidays, nothing much happened until September except for me realising that after-school requires a very long Garda approval process whilst during-school doesn't. So we switched the focus to that.
 
 A note on the school itself. It is a very successful rural school just outside Bandon, Co Cork with approx 25-30 kids in each year. The mix of kids (boys and girls) is everything from farmer's children to those who live in Bandon town itself. Socio-economically, it ranges from the very well off to those on social welfare. Every class has an interactive white-board and there are 15 laptops available in addition to the teacher's own. Most are PCs but there are a couple of Mac Books. However, there is no formal teaching of "computers". More on this topic later.
 
-Over the summer I made contact with somerelevantpeople and was delighted to get the loan of 15 HTC Magic phones to use in the pilot. However do not under-estimatethe amount of time needed to check that 15 phones work ok with App Inventor, have the correct settings turned on and are charged!
+Over the summer I made contact with some relevant people and was delighted to get the loan of 15 HTC Magic phones to use in the pilot. However do not under-estimatethe amount of time needed to check that 15 phones work ok with App Inventor, have the correct settings turned on and are charged!
 
 In the new term I met with some of the teachers and the new headmistress and they were very enthused. We put together a plan that would see me do a 30-minute session a week with each of 5th and 6th class from October until Christmas. The children would work in teams of two with a laptop and phone for each pair.
 
@@ -71,9 +71,9 @@ Whilst the sessions are exhausting I enjoy doing them. Particularly when the 6th
 
 One big problem we have is that I don't scale. Committing to a day a week for months was unrealistic and I had to re-schedule a bunch of sessions. I always knew we'd have to do "train the trainer" but I don't know if the school has other parents with the skills, interest and time to take part. I hope so. I'll be putting the call out soon.
 
-We willstillhave our App competition with a prize, it'll just be months later than I expected.
+We will still have our App competition with a prize, it'll just be months later than I expected.
 
-The general lack of computing skills in Irish schools is pretty shocking and it tells me that it's time to wind down certain subjects and add "computers" as a subject at Primary level. Can I suggest moving allreligiouseducation to Sunday Schools like other religions do? Parents with the skills, interest and time could run those religion sessions. That would free up a huge amount of time to let schools do their real job.
+The general lack of computing skills in Irish schools is pretty shocking and it tells me that it's time to wind down certain subjects and add "computers" as a subject at Primary level. Can I suggest moving all religious education to Sunday Schools like other religions do? Parents with the skills, interest and time could run those religion sessions. That would free up a huge amount of time to let schools do their real job.
 
 Overall? A big success, loved by both kids and teachers. I just need to be more realistic with the timescales and the skillsets.
 
