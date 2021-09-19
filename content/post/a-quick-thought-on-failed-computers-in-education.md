@@ -30,6 +30,10 @@ The other tried to explain why [the OLPC was such a flop](https://twitter.com/ga
 * Moving a block around a screen in code was genuinely incredibly exciting in 1983
 * By 1986 home computers were dead, replaced by consoles. i.e. Gaming again
 
+{{< youtube Ts96J7HhO28 >}}
+&nbsp;
+&nbsp;
+
 On OLPC, my years of reading Wired told me that it had very little chance, given who was fronting it. 
 
 But looking at the Raspberry Pi (and somewhat the OLPC) and modern kids:
