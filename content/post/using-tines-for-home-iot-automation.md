@@ -22,7 +22,7 @@ The hardware setup is fairly basic. I've found that every CO2 sensor gives diffe
 * [Pimoroni SGP30](https://shop.pimoroni.com/products/sgp30-air-quality-sensor-breakout) for eCO2 and TVOC
 * [Adafruit BME680](https://shop.pimoroni.com/products/adafruit-bme680-temperature-humidity-pressure-and-gas-sensor-stemma-qt) for Temperature, Pressure, Humidity, Gas, Approx. Altitude
 * [Aliexpress generic MHZ19](https://www.aliexpress.com/wholesale?SearchText=MHZ19) for CO2 and Temperature
-* [Aliexpress generic CCS811](https://shop.pimoroni.com/products/adafruit-ccs811-air-quality-sensor-breakout-voc-and-eco2) for eCO2 and eCO2 and TVOC. That link is for a proper Adafruit one instead.
+* [Aliexpress generic CCS811](https://shop.pimoroni.com/products/adafruit-ccs811-air-quality-sensor-breakout-voc-and-eco2) for eCO2 and TVOC. That link is for a proper Adafruit one instead.
 
 ![Hardware](/images/2021/09/co2_hardware.jpg)
 
