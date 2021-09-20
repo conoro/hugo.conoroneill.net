@@ -17,7 +17,7 @@ So I decided to see if I could connect my sensor setup to Tines, parse the value
 I received some requests to share the details of my setup, hence this blogpost. It is very straightforward.
 
 ## The IOT Hardware and Software
-The hardware setup is fairly basic. I've found that every CO2 sensor gives quite different results so I wired up three of them along with a pressure/temperature one to track and compare. They are:
+The hardware setup is fairly basic. I've found that every CO2 sensor gives different results (sometimes wildly) so I wired up three of them along with a pressure/temperature one to track and compare. They are:
 
 * [Pimoroni SGP30](https://shop.pimoroni.com/products/sgp30-air-quality-sensor-breakout) for eCO2 and TVOC
 * [Adafruit BME680](https://shop.pimoroni.com/products/adafruit-bme680-temperature-humidity-pressure-and-gas-sensor-stemma-qt) for Temperature, Pressure, Humidity, Gas, Approx. Altitude
