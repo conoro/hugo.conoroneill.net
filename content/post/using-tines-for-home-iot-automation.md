@@ -12,7 +12,7 @@ I recently joined [Tines](https://tines.com) as Head of Community and have been 
 
 That flexibility caused me to look far beyond security use-cases and examine other things I could connect to and automate. As long-time readers of my blog(s) know, I come from an Embedded Systems background and still love to play with home electronics and IoT. And of course, since last year I've been noodling around with CO2 monitors and other environmental sensors because of you-know-what.
 
-So I decided to see if I could connect my sensor setup to Tines, parse the values, persist them "somewhere" and alert me somehow if CO2 in particular got too high. I was stunned how easy it was and it instantly made me forget about using Lambda or Pi-based tools for doing work like this in the future.
+So I decided to see if I could connect my sensor setup to Tines, parse the values, persist them and alert me somehow if CO2 in particular got too high. I was stunned how easy it was and it instantly made me forget about using Lambda or Pi-based tools for doing work like this in the future.
 
 I received some requests to share the details of my setup, hence this blogpost. It is very straightforward.
 
