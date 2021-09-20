@@ -1,5 +1,5 @@
 +++
-date = "2021-09-19T13:00:22Z"
+date = "2021-09-20T03:00:22Z"
 draft = false
 title = "Using Tines for Home IoT Automation"
 description = "Once I realised that Tines could be used to automate anything, I let my imagination take over"
@@ -62,7 +62,7 @@ Telegram seems to be the only mainstream mobile messaging App with an open API t
 ![Telegram](/images/2021/09/co2_telegram.png)
 
 ## The Tines Story
-You can download the [JSON of my Story]() here and import it into your Tines Account.
+You can download the [JSON of my Story](https://github.com/conoro/tines-stories/tree/main/co2-environmental-sensors) here and import it into your Tines Account.
 
 ![Story](/images/2021/09/co2_story.png)
 
@@ -82,9 +82,11 @@ Once you have a good grasp of how to set up Auth for various systems you use, th
 
 
 ## The ESP32 Arduino Code
-The bashed-together Arduino code [is here](https://raw.githubusercontent.com/conoro/tines-stories/main/co2-environmental-sensors/Tines_BME680_MHZ19_SGP30_CCS811_Generic/Tines_BME680_MHZ19_SGP30_CCS811_Generic.ino). It's basically the example code for each module from the usual suspects online and then I've done my usual quick n dirty on it to make them all work together. The code grabs the values regularly from the devices and then posts it to a Tines Webhook. The only really interesting aspect of the code is that Tines obviously uses https which is not very straightforward on low-power devices like ESP32. So I need to have the Root Cert for Amazon in the Arduino code in order to be able to communicate with Tines on AWS.
+The bashed-together Arduino code [is here](https://raw.githubusercontent.com/conoro/tines-stories/main/co2-environmental-sensors/Tines_BME680_MHZ19_SGP30_CCS811_Generic/Tines_BME680_MHZ19_SGP30_CCS811_Generic.ino). It's basically the example code for each module from the usual suspects online and then I've done my usual quick n dirty on it to make them all work together. The code grabs the values regularly from the devices and then posts it to a Tines Webhook. 
 
-The coolest aspect of the setup is that the ESP32 only needs to know the webhook URL and the POST to it. From then on the data can go anywhere and be processed in any way. No matter what I do to the data, I don't have to make any changes to the ESP32 code.
+The only really interesting aspect of the code is that Tines obviously uses https which is not very straightforward on low-power devices like ESP32. So I need to have the Root Cert for Amazon in the Arduino code in order to be able to communicate with Tines on AWS.
+
+The coolest aspect of the setup is that the ESP32 only needs to know the webhook URL and POST to it. From then on the data can go anywhere and be processed in any way. No matter what I do to the data, I don't have to make any changes to the ESP32 code.
 
 Unfortunately the Adafruit CCS811 library has hard-coded pin numbers which don't match the ESP32 DevKit, so I have my own copy with a minor change to enable pin definition. So don't install the Adafruit one, grab mine [from here](https://github.com/conoro/tines-stories/raw/main/co2-environmental-sensors/Adafruit_Conor_CCS811.zip) and unzip it to the Documents/Arduino/Libraries directory in your home directory. Apologies for the stupid name, I was in a hurry to get it working!
 

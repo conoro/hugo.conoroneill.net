@@ -6,13 +6,13 @@
     <description>Recent content on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Sep 2021 13:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Sep 2021 03:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Tines for Home IoT Automation</title>
-      <link>https://conoroneill.net/2021/09/19/using-tines-for-home-iot-automation/</link>
-      <pubDate>Sun, 19 Sep 2021 13:00:22 +0000</pubDate>
+      <link>https://conoroneill.net/2021/09/20/using-tines-for-home-iot-automation/</link>
+      <pubDate>Mon, 20 Sep 2021 03:00:22 +0000</pubDate>
       
-      <guid>https://conoroneill.net/2021/09/19/using-tines-for-home-iot-automation/</guid>
+      <guid>https://conoroneill.net/2021/09/20/using-tines-for-home-iot-automation/</guid>
       <description>I recently joined Tines as Head of Community and have been on a wonderful exploration of its capabilities over the past few weeks. Tines can connect to almost any system, process data and events and then forward on or persist that transformed data somewhere. This seemingly simple model with seven action types and a variety of auth options has turned out to be incredibly flexible.
 That flexibility caused me to look far beyond security use-cases and examine other things I could connect to and automate.</description>
     </item>
