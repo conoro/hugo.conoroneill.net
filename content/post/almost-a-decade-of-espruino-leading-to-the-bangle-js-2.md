@@ -80,7 +80,7 @@ Here are my posts about 2019:
 * [Bangle.js and Open Source pointing to the future of health platforms and wearables](https://conoroneill.net/2019/11/25/bangle-js-open-source-pointing-to-future-of-health-platforms-and-wearables/)
 * [Why running TensorFlow Lite Micro on very inexpensive devices changes everything](https://conoroneill.net/2019/12/04/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything/)
 * [Bangle.js: Open Source watch built on JavaScript](https://www.nearform.com/blog/banglejs-excitement-at-nodeconf-eu/)
-* [TensorFlow-driven Smartwatch](https://www.nearform.com/blog/banglejs-oss-open-health-wearables-js-tensorflow/)
+* [Bangle.js – Open Source creating opportunities for Open Health wearables with JS & TensorFlow](https://www.nearform.com/blog/banglejs-oss-open-health-wearables-js-tensorflow/)
 * [Bangle.js is the first hackable open source JS and TensorFlow-driven smartwatch!](https://www.nearform.com/blog/bangle-js-hackable-oss-js-and-tensorflow-smartwatch/)
 
 
