@@ -9,7 +9,7 @@ publishdir = "docs"
 rssLimit = 20
 
 [markup.goldmark.renderer]
-unsafe= true
+  unsafe= true
 
 [permalinks]
   post="/:year/:month/:day/:slug/"
@@ -28,6 +28,4 @@ unsafe= true
   authorwebsite = "https://conoroneill.net"
   bio= "Tech guy who likes running slowly"
   logo = "images/cross_dominant.png"
-
-
 
