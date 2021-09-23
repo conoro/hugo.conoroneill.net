@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Sep 2021 03:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Sep 2021 05:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My 8 years of Espruino leading to the Bangle.js 2</title>
+      <link>https://conoroneill.net/2021/09/23/my-8-years-of-espruino-leading-to-the-bangle-js-2/</link>
+      <pubDate>Thu, 23 Sep 2021 05:00:22 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2021/09/23/my-8-years-of-espruino-leading-to-the-bangle-js-2/</guid>
+      <description>TL;DR - Gordon Williams has a new Espruino Kickstarter for the fabulous Bangle.js 2. Go and back the project and enjoy every geeky minute of playing with it. I have one of the devices already and it&amp;rsquo;s a massive leap forward over V1. Imagine running JavaScript and TensorFlow Micro machine learning on your wrist!
+I&amp;rsquo;m still not sure how I heard about the Espruino project originally back in 2013. Hackaday maybe?</description>
+    </item>
+    
     <item>
       <title>Using Tines for Home IoT Automation</title>
       <link>https://conoroneill.net/2021/09/20/using-tines-for-home-iot-automation/</link>
@@ -207,15 +217,6 @@ Many of the Chinese silicon and box companies are particularly bad at providing 
       <guid>https://conoroneill.net/2018/02/13/running-c-code-on-a-1982-zx-spectrum-in-2018/</guid>
       <description>The 1980s home computer retro scene remains very vibrant. I dip a toe in every so often and recently have been enjoying the new Speccy games that I&amp;rsquo;ve found on Indie Retro News.
 One thing that caught my eye with these releases was the mentions of &amp;ldquo;engines&amp;rdquo;. It turns out that people have been building games engines for the ZX Spectrum for years. Mostly in C it seems and mostly using the z88dk toolchain.</description>
-    </item>
-    
-    <item>
-      <title>What do you think of when you read that Open Source is 20 years old?</title>
-      <link>https://conoroneill.net/2018/02/04/what-do-you-think-of-when-you-read-open-source-is-20-years-old/</link>
-      <pubDate>Sun, 04 Feb 2018 08:00:00 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2018/02/04/what-do-you-think-of-when-you-read-open-source-is-20-years-old/</guid>
-      <description>Yesterday I read that Open Source is offically 20 years old. This doesn&amp;rsquo;t mean free software or GNU or anything like that, just the definition and initiative itself. It made me think about all of open source (lower case) and free software that&amp;rsquo;s had an impact on me since I was a teenager. Here&amp;rsquo;s that as a quick brain-dump. I&amp;rsquo;m sure I&amp;rsquo;ve missed tons and will update as they pop into my head.</description>
     </item>
     
   </channel>
