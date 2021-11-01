@@ -52,7 +52,7 @@ Telegram seems to be the only mainstream mobile messaging App with an open API t
 * Create a new Text Credential in Tines and use the name `Telegram Bot Key` in order to refer to it in your Story as `{{.CREDENTIAL.telegram_bot_key }}`
 * The only awkward bit in Telegram is finding the `chat_id` for conversations. 
     * Start a conversation with your bot
-    * Send it a message like `/dummycommand hello`
+    * Send it a message like `hello how are you`
     * Create a HTTP Request action in your Tines Story called `Get Telegram Chat ID` where
         * The URL is `https://api.telegram.org/{{.CREDENTIAL.telegram_bot_key }}/getUpdates`
     * Connect that to an Event Transform action which just outputs `{{.get_telegram_chat_id.body.result.last.message.from.id }}`

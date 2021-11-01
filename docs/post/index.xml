@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Sep 2021 05:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Nov 2021 05:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No-Code Halloween Hacking with Blockly, Espruino, Node-RED and Tines</title>
+      <link>https://conoroneill.net/2021/11/01/no-code-halloween-hacking-with-blockly-espruino-node-red-tines/</link>
+      <pubDate>Mon, 01 Nov 2021 05:00:22 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2021/11/01/no-code-halloween-hacking-with-blockly-espruino-node-red-tines/</guid>
+      <description>Every Halloween for the past decade or so, I&amp;rsquo;ve built something silly to scare or entertain the trick-or-treaters. Some years it works brilliantly, other years, not so well. But the basic idea is always the same - detect arrival of kids and use sound/light/motion to jump-scare them.
+And every Halloween is a last-minute race to assemble electronics, plastic, duct-tape and code. That code is often a horrendous unreliable mish-mash of Arduino, Espruino, Python, Node.</description>
+    </item>
+    
     <item>
       <title>Almost a decade of Espruino leading to the Bangle.js 2</title>
       <link>https://conoroneill.net/2021/09/23/almost-a-decade-of-espruino-leading-to-the-bangle-js-2/</link>
@@ -207,16 +217,6 @@ I&amp;rsquo;ll post full details and source code over the next few days.</descri
       <guid>https://conoroneill.net/2018/03/17/fund-allwinner-vpu-support-kickstarter/</guid>
       <description>Anyone who has any interaction with technology benefits from all of the work done by Open Source developers around the world from the past few decades. Unfortunately there are far more takers than givers. I think there is a strong chance that many OSS developers will become burnt out and disenchanted with building things for free when others reap the commercial rewards.
 Many of the Chinese silicon and box companies are particularly bad at providing proper maintanined OS support for their devices.</description>
-    </item>
-    
-    <item>
-      <title>Running new C code on a 1982 ZX Spectrum in 2018</title>
-      <link>https://conoroneill.net/2018/02/13/running-c-code-on-a-1982-zx-spectrum-in-2018/</link>
-      <pubDate>Tue, 13 Feb 2018 08:00:00 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2018/02/13/running-c-code-on-a-1982-zx-spectrum-in-2018/</guid>
-      <description>The 1980s home computer retro scene remains very vibrant. I dip a toe in every so often and recently have been enjoying the new Speccy games that I&amp;rsquo;ve found on Indie Retro News.
-One thing that caught my eye with these releases was the mentions of &amp;ldquo;engines&amp;rdquo;. It turns out that people have been building games engines for the ZX Spectrum for years. Mostly in C it seems and mostly using the z88dk toolchain.</description>
     </item>
     
   </channel>
