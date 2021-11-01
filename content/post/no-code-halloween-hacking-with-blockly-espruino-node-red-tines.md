@@ -58,6 +58,11 @@ Whilst these tools absolutely don't make it any easier to understand what a TIP1
 
 * When the webhook was triggered, Tines would then save a timestamp to Google Sheets and sent a message via a Telegram Bot which I received on my phone
 
+![Telegram](/images/2021/11/telegram_halloween.jpg)
+
+![GSHeets](/images/2021/11/gsheets_halloween.png)
+
+
 ## Hardware
 I've just realised that there was almost no extra "electronics" required to implement this project. Apart from the boards themselves, standard household items like speakers and extension cables and various powerbanks and power supplies, I had:
 
