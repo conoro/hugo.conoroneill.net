@@ -135,7 +135,7 @@ I love the idea of being able to hand someone, who is new to hobbyist electronic
 
 But we're not fully there yet. Espruino+Blockly and Edublocks still feel too much like "coding" and they lack a rich ecosystem of community blocks. Bluetooth and Wifi are still a pain in the butt and I wonder if a big push for LoRa is needed. Or some other simple supported protocol to get lightweight data from cheap device to cheap device without ever having to think about the implementation details. We live in a connected world. Flashing an LED doesn't cut it any more. Flashing an LED remotely in your friend's house by dragging-and-dropping some blocks, well that's another thing altogether!
 
-Companies like Adafruit, Sparkfun and Pimoroni have done wonderful work with Open Source Hardware and its supporting Open Source Software. Adafruit is also leading the charge with software like CircuitPython. It'd be amazing if some common Low-Code/No-Code standard could be created that meant every new hardware module that these companies release had a "Block" available to use in these environments. Even if that means one LCNC tool has to become the winner.
+Companies like Adafruit, Sparkfun and Pimoroni have done wonderful work with Open Source Hardware and Software. Adafruit is also leading the charge with software like CircuitPython. It'd be amazing if some common Low-Code/No-Code standard could be created that meant every new hardware module that these companies release had a "Block" available to use in these environments. Even if that means one LCNC tool has to become the winner.
 
 
 
