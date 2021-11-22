@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.87.0" />
+    <meta name="generator" content="Hugo 0.89.4" />
 
     <link rel="canonical" href="https://conoroneill.net/2012/11/01/the-raspberrypi-doorbell-of-dooooooooommmmmmmm/" />
 
@@ -127,14 +127,14 @@
     <section class="post-content">
       <p>#&ldquo;The @RaspberryPi Doorbell of Dooooooooommmmmmmm&rdquo;</p>
 <p>We had some good fun last night with the neighbourhood kids making use of ourDoorbell of Dooooooooommmmmmmm.</p>
-<p><img class="alignnone" src="https://lh5.googleusercontent.com/-Dwcpjbp-xsk/UJJ1_hkQBhI/AAAAAAAAjQs/elUv6hKPHfI/s800/IMG_20121031_162253.jpg" alt="" width="600" height="800" /></p>
+<img class="alignnone" src="https://lh5.googleusercontent.com/-Dwcpjbp-xsk/UJJ1_hkQBhI/AAAAAAAAjQs/elUv6hKPHfI/s800/IMG_20121031_162253.jpg" alt="" width="600" height="800" />
 <p>I&rsquo;ve had a bigger doorbell project planned for quite a while but 2 weeks ago decided we should do a simpler Halloween one. Using various bits bought from Sparkfun and Maplin along with <a href="http://learn.adafruit.com/playing-sounds-and-using-buttons-with-raspberry-pi">a great tutorial from Adafruit</a> (more below), I finally got something we were happy with, working late last week. Then yesterday evening I put it in place on the door. Unfortunately, with all the pulling, taping and general movement, one of the five buttons stopped working. But the other 4 were fine.</p>
-<p><img class="alignnone" src="https://lh5.googleusercontent.com/-X97KKH4-a-Q/UJJ2EtigEnI/AAAAAAAAjQ0/g9hVVb7geOo/s800/IMG_20121031_162245.jpg" alt="" width="800" height="600" /></p>
+<img class="alignnone" src="https://lh5.googleusercontent.com/-X97KKH4-a-Q/UJJ2EtigEnI/AAAAAAAAjQ0/g9hVVb7geOo/s800/IMG_20121031_162245.jpg" alt="" width="800" height="600" />
 <p>The sounds used were pulled from various online sources. Sibal came up with the Mr Burns idea and Oisn thought of the Home Alone one. I used Audacity to clip some of them and ffmpeg to convert some of the YouTube videos to audio. The cheques are in the post :-)</p>
 <p>Originally I was going to use Arduino for this but considering a Waveshield for playing audio costs more than a Raspberry Pi, I changed direction. I then thought I&rsquo;d use the Arduino for the button detection andcommunicateover USB to the RPi but I finally realised I should just use the GPIO pins directly on the RPi itself. My worry about killing it accidentally were unfounded.</p>
-<p><img class="alignnone" src="https://lh3.googleusercontent.com/-9myanqq6Ods/UJJ2Lf_TDjI/AAAAAAAAjRE/H-o0MiUDh04/s800/IMG_20121031_162214.jpg" alt="" width="800" height="600" /></p>
+<img class="alignnone" src="https://lh3.googleusercontent.com/-9myanqq6Ods/UJJ2Lf_TDjI/AAAAAAAAjRE/H-o0MiUDh04/s800/IMG_20121031_162214.jpg" alt="" width="800" height="600" />
 <p>The first version was done on a breadboard to make sure I made no mistakes. It worked well. But it was never going to work stuck to a doorframe so I moved to a strip of veroboard and soldered it together. This had a few, ahem, glitches, which took a while to sort out due to my soldering incompetence.</p>
-<p><img class="alignnone" src="https://lh6.googleusercontent.com/-Vu64htXLUPQ/UJJ2StT1LtI/AAAAAAAAjRU/30aCSiV3KZk/s800/IMG_20121026_155921.jpg" alt="" width="600" height="800" /></p>
+<img class="alignnone" src="https://lh6.googleusercontent.com/-Vu64htXLUPQ/UJJ2StT1LtI/AAAAAAAAjRU/30aCSiV3KZk/s800/IMG_20121026_155921.jpg" alt="" width="600" height="800" />
 <p>The final setup was really simple:</p>
 <ol>
 	<li>One button per sound</li>

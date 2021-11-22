@@ -41,7 +41,7 @@
         <link href="https://conoroneill.net/post/index.xml" rel="alternate" type="application/rss+xml" title="Posts &middot; Cross Dominant" />
       
     
-    <meta name="generator" content="Hugo 0.87.0" />
+    <meta name="generator" content="Hugo 0.89.4" />
 
     <link rel="canonical" href="https://conoroneill.net/post/" />
 
@@ -125,6 +125,35 @@
 </nav>
 
 	</div>
+
+	
+	   
+<article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/2014/06/22/a-simple-nodejs-script-to-upload-your-harpjs-blog-images-to-s3/">A simple Node.js script to upload your Harp.js blog images to S3</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>Whilst there are tons of tools to do S3 upload, I wanted something tuned to how I blog, particularly with a static blog that used to be a WordPress one with year/month directories for images.
+Usage:
+node upload_s3_images.js image1.jpg image2.jpg image3.png etc It uses your AWS credentials in ~/aws_config.json { &ldquo;accessKeyId&rdquo;: &ldquo;akid&rdquo;, &ldquo;secretAccessKey&rdquo;: &ldquo;secret&rdquo;, &ldquo;region&rdquo;: &ldquo;us-west-2&rdquo; }
+It uses the bucket name and root upload directory from ./s3_blog_config.json {&ldquo;bucket&rdquo;: &ldquo;conoroneill.net&rdquo;, &ldquo;rootUploadDir&rdquo;: &ldquo;wp-content/uploads/&quot;} <a class="read-more" href="/2014/06/22/a-simple-nodejs-script-to-upload-your-harpjs-blog-images-to-s3/">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        
+        
+
+        
+            <img class="author-thumb" src="https://conoroneill.net/images/cross_dominant.png" alt="Author image" nopin="nopin" />
+        
+        
+            Conor O&#39;Neill
+        
+        
+        <time class="post-date" datetime="2014-06-22T19:35:20&#43;01:00">
+            22 Jun 2014
+        </time>
+    </footer>
+</article>
 
 	
 	   
@@ -361,33 +390,6 @@ The first step was to get the original content out of WordPress. This had the ad
         
         
         <time class="post-date" datetime="2014-03-16T18:33:02Z">
-            16 Mar 2014
-        </time>
-    </footer>
-</article>
-
-	
-	   
-<article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/2014/03/16/saying-goodbye-to-wordpress-and-hello-to-harpjs/">Saying goodbye to WordPress and hello to HarpJS</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>My blogging history goes back to 2001 when I setup a Blogger/Blogspot blog in the hope that I would update things more quickly than with Geocities or my Frontpage98 home page. 4 months later I wrote my second post :-) For a long time it involved writing the posts on Blogger and then publishing them via FTP to my own domain. It was fiddly but it worked ok.
-Then around 2005 I discovered WordPress and realised blogging could be much much much easier. <a class="read-more" href="/2014/03/16/saying-goodbye-to-wordpress-and-hello-to-harpjs/">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        
-        
-
-        
-            <img class="author-thumb" src="https://conoroneill.net/images/cross_dominant.png" alt="Author image" nopin="nopin" />
-        
-        
-            Conor O&#39;Neill
-        
-        
-        <time class="post-date" datetime="2014-03-16T12:46:04Z">
             16 Mar 2014
         </time>
     </footer>

@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.87.0" />
+    <meta name="generator" content="Hugo 0.89.4" />
 
     <link rel="canonical" href="https://conoroneill.net/2014/03/23/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets/" />
 
@@ -140,7 +140,7 @@
 <p>Getting Wifi setup the way I wanted on the DigiX took more time than I&rsquo;d have liked yesterday but I finally figured out that the <a href="http://en.usr.cn/low-power-wifi-module.html">Chinese USR-wifi232-g module</a> web UI doesn&rsquo;t like Chrome! Once I switched to Firefox, all went swimmingly. I connected it to a Wifi AP, gave it a fixed IP address and then setup a port forward from the house router to it. Obviously I use <a href="http://dyn.com/">Dynamic DNS with Dyn</a> on the home router so that I don&rsquo;t have to track changing IP addresses manually.</p>
 <p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/03/digix02.jpg" alt="backside" title="DigiX other side"></p>
 <p>The DigiX comes with an example Web Server built-in so I was able to just create a few simple URLs and paste the RCSwitch code into the relevant places. So within another few minutes I was toggling the switches over the internet.</p>
-<pre><code>switch1State = 1;
+<pre tabindex="0"><code>switch1State = 1;
 mySwitch.send(109323, 24);
 
 </code></pre><p>Another moment when I forced myself to stop and think about how incredibly easy all this stuff has become. And all of it sitting on the shoulders of giants. So far, all I&rsquo;ve done is copy and paste stuff together.</p>

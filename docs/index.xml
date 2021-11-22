@@ -6,7 +6,18 @@
     <description>Recent content on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Nov 2021 05:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Nov 2021 05:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The new MongoDB Atlas Data API is huge for No-Code and Low-Code Automation Platforms like Tines</title>
+      <link>https://conoroneill.net/2021/11/22/mongodb-atlas-data-api-huge-for-no-code-low-code-automation-platforms-like-tines/</link>
+      <pubDate>Mon, 22 Nov 2021 05:00:22 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2021/11/22/mongodb-atlas-data-api-huge-for-no-code-low-code-automation-platforms-like-tines/</guid>
+      <description>It looks like I first started talking about MongoDB online back in 2011 - We&amp;rsquo;ve come a long way baby.
+Right, need to finish watching the MongoDB vids (easier than I thought) and then do an Amazon ELB setup for kicks.
+&amp;mdash; Conor O&amp;#39;Neill (@conoro) May 28, 2011  Mongo has remained one of my favourite tools for getting things done. I always think that&amp;rsquo;s why it succeeded. Whilst the factions argued it out on HN, developers just got on with using it for practical purposes.</description>
+    </item>
+    
     <item>
       <title>No-Code Halloween Hacking with Blockly, Espruino, Node-RED and Tines</title>
       <link>https://conoroneill.net/2021/11/01/no-code-halloween-hacking-with-blockly-espruino-node-red-tines/</link>
@@ -207,16 +218,6 @@ content via email. The emails are converted to Markdown files and then
 uploaded to my Hugo source repo, along with any inline images.
 CircleCI then automatically rebuilds and redeploys my blog to S3.
 I&amp;rsquo;ll post full details and source code over the next few days.</description>
-    </item>
-    
-    <item>
-      <title>Fund this project to add Allwinner VPU support to the official Linux kernel</title>
-      <link>https://conoroneill.net/2018/03/17/fund-allwinner-vpu-support-kickstarter/</link>
-      <pubDate>Sat, 17 Mar 2018 09:31:22 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2018/03/17/fund-allwinner-vpu-support-kickstarter/</guid>
-      <description>Anyone who has any interaction with technology benefits from all of the work done by Open Source developers around the world from the past few decades. Unfortunately there are far more takers than givers. I think there is a strong chance that many OSS developers will become burnt out and disenchanted with building things for free when others reap the commercial rewards.
-Many of the Chinese silicon and box companies are particularly bad at providing proper maintanined OS support for their devices.</description>
     </item>
     
   </channel>
