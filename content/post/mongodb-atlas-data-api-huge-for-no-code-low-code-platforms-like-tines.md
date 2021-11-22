@@ -27,7 +27,8 @@ And then I saw last week's announcement of the [MongoDB Atlas Data API](https://
 
 This isn't just close to what I need, it's exactly what I need. REST access to a full-blown online database that can then be used for whatever querying, analytics or visualisations I want to do afterwards 🤯
 
-Even better - like everything historically with MongoDB, it just works! 5 minutes after reading the announcement I was writing and reading to/from a collection using cURL against my Atlas instance. 30 seconds after that, I had copied those cURL commands as Tines HTTP requests with CTRL-C/CTRL-V and was reading and writing to MongoDB in our No-Code Automation platform. I don't think I've stopped grinning even whilst asleep.
+Even better - like everything historically with MongoDB, it just works! 5 minutes after reading the announcement I was writing and reading to/from a collection using cURL against my Atlas instance. 
+
 
 ```bash
 curl --request POST \
@@ -45,6 +46,11 @@ curl --request POST \
       }
   }'
 ```
+
+30 seconds after that, I had copied those cURL commands as Tines HTTP requests with CTRL-C/CTRL-V and was reading and writing to MongoDB in our No-Code Automation platform. I don't think I've stopped grinning even whilst asleep.
+
+[![Regex REad](/images/2021/11/mongodb_regex_read.png)](//conoroneill.net/images/2021/11/mongodb_regex_read.png)
+
 
 I never thought I'd get this excited by a database API but it's a step-change moment for the growth of Low-Code and No-Code. The frustration of trying to do anything meaty with most of the toy online pseudo-databases in the LCNC world has been infuriating. I wonder how many projects started well and then hit a brick wall as soon as they tried to scale? I suspect many of the "Is it a Spreadsheet? Or is it a Database?" tools may start fading away as their limitations become more obvious. The brilliant trick with MongoDB Atlas is that it's suitable for both dabblers and hard-core fast-scaling apps and companies.
 
