@@ -16,7 +16,7 @@ One of my big frustrations on various personal projects in recent years was in f
 
 To my shame I have to admit to using SQLite on Dropbox and Google Sheets as my de-facto databases for many of these scenarios. Hell, I even investigated using the GitHub GIST API as some sort of JSON database. Don't worry, I gave up. 
 
-When I started working for [Tines](https://www.tines.com), I instantly fell in love with its ability to connect to almost anything via bog-standard HTTP(S), Webhooks and common Auth protocols. It also has a simple persistent resource store and API for small amounts of data. For the vast majority of our customers' security use-cases, nothing more is needed. The output targets of most of the automations are not general databases, they are something like Email, JIRA, ServiceNow or Slack.
+When I started working for [Tines](https://go.tines.xyz/ConNet), I instantly fell in love with its ability to connect to almost anything via bog-standard HTTP(S), Webhooks and common Auth protocols. It also has a simple persistent resource store and API for small amounts of data. For the vast majority of our customers' security use-cases, nothing more is needed. The output targets of most of the automations are not general databases, they are something like Email, JIRA, ServiceNow or Slack.
 
 But when using Tines or other LCNC tools for more general automations, I often find myself wanting to store output data somewhere. That might be low-volume IOT data like home-office CO2 levels or specific Google Alerts or a Slack event history. That's how I ended up on Google Sheets as a pseudo-DB. It's accessible over REST, it uses standard Auth protocols, it's cheap and it scales to thousands of rows. However of course it does not do ACID, it blatantly overwrites rows, it's slow and you can't even easily find out if a Sheet already has a specific row of data. Because it's not a DB, it's a spreadsheet!
 
@@ -56,7 +56,7 @@ I never thought I'd get this excited by a database API but it's a step-change mo
 
 [![CO2 data into MongoDB](/images/2021/11/mongodb_tines.png)](//conoroneill.net/images/2021/11/mongodb_tines.png)
 
-I've started switching the output of all of my GSheets-based [Tines Community Edition](https://www.tines.com/) automations to MongoDB Atlas and I'll fiiiiiiiinally start doing some decent queries on the data. I have months of office CO2 data that I have yet to crunch. But switching to storing that data in MongoDB literally took me another 5 minutes:
+I've started switching the output of all of my GSheets-based [Tines Community Edition](https://go.tines.xyz/ConNet) automations to MongoDB Atlas and I'll fiiiiiiiinally start doing some decent queries on the data. I have months of office CO2 data that I have yet to crunch. But switching to storing that data in MongoDB literally took me another 5 minutes:
 
 [![CO2 data inside MongoDB](/images/2021/11/mongodb_data2.png)](//conoroneill.net/images/2021/11/mongodb_data2.png)
 
