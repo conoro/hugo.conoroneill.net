@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Nov 2021 05:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Dec 2021 12:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Arduino Uno Mini Limited Edition is a bit odd</title>
+      <link>https://conoroneill.net/2021/12/12/the-arduino-uno-mini-limited-edition-is-a-bit-odd/</link>
+      <pubDate>Sun, 12 Dec 2021 12:00:22 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2021/12/12/the-arduino-uno-mini-limited-edition-is-a-bit-odd/</guid>
+      <description>Two things happened in 2012 that have made the past decade a geeky joy - I discovered the Arduino project and the first Raspberry Pi was released. Since then I&amp;rsquo;ve had a ridiculous amount of fun with both and built a ton of useful and useless projects.
+Despite having a Masters degree in Electronics, I&amp;rsquo;ve never worked as a Electronic Engineer and have always lived in the software world. I&amp;rsquo;d often wanted to dabble over the years but everything seemed just too difficult.</description>
+    </item>
+    
     <item>
       <title>The new MongoDB Atlas Data API is huge for No-Code and Low-Code Automation Platforms like Tines</title>
       <link>https://conoroneill.net/2021/11/22/mongodb-atlas-data-api-huge-for-no-code-low-code-automation-platforms-like-tines/</link>
@@ -205,19 +215,6 @@ with the tech or the tools, it has to do with people being assholes.</descriptio
 I grabbed a Pi3 that has RetroPie installed on it and inserted it into the bay.
 Loved playing SNES Galaxians at lunchtime!
 Update October 13th 2018 - Dead RasPad For a few weeks the RasPad was awesome. I had a Pi3+ installed and a wireless keyboard. I even used it for proper hands-on Node.</description>
-    </item>
-    
-    <item>
-      <title>First live test of my new email-to-hugo blogging tool</title>
-      <link>https://conoroneill.net/2018/08/12/first-live-test-of-my-new-email-to-hugo-blogging-tool/</link>
-      <pubDate>Sun, 12 Aug 2018 16:51:28 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2018/08/12/first-live-test-of-my-new-email-to-hugo-blogging-tool/</guid>
-      <description>I have almost completed a simple new tool which enables you to send blog
-content via email. The emails are converted to Markdown files and then
-uploaded to my Hugo source repo, along with any inline images.
-CircleCI then automatically rebuilds and redeploys my blog to S3.
-I&amp;rsquo;ll post full details and source code over the next few days.</description>
     </item>
     
   </channel>
