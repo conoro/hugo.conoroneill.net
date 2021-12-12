@@ -5,7 +5,7 @@ title = "The Arduino Uno Mini Limited Edition is a bit odd"
 description = "I just had to buy this device to celebrate how much Arduino has done for me since 2012"
 +++
 
-Two things happened in 2012 that have made the past decade a geeky joy - I discovered the [Arduino]() project and the first Raspberry Pi was released. Since then I've had a ridiculous amount of fun with both and built a ton of useful and useless projects.
+Two things happened in early 2012 that have made the past almost-decade a geeky joy - I discovered the [Arduino](https://www.arduino.cc) project and the first Raspberry Pi was released. Since then I've had a ridiculous amount of fun with both and built a ton of useful and useless projects.
 
 Despite having a Masters degree in Electronics, I've never worked as a Electronic Engineer and have always lived in the software world. I'd often wanted to dabble over the years but everything seemed just too difficult. Then somehow I heard about Arduino and bought my first Starter Kit from [Seeedstudio](https://www.seeedstudio.com/Arduino-Starter-Kit-p-1332.html) in China. It was a revelation. The ability to quickly wire things together and use a massive array of software libraries to assemble a working project was mind-blowing.
 
