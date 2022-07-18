@@ -1,3843 +1,2310 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://conoroneill.net/2022/03/26/celebrating-40-years-of-sinclair-zx-spectrum-with-zx-wordle/</loc>
-    <lastmod>2022-03-26T07:00:22+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://conoroneill.net/</loc>
-    <lastmod>2022-03-26T07:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-07-18T13:30:22+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/post/</loc>
+    <lastmod>2022-07-18T13:30:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/2022/07/18/rss-is-on-fire-again-and-its-all-down-to-slackops/</loc>
+    <lastmod>2022-07-18T13:30:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/2022/03/26/celebrating-40-years-of-sinclair-zx-spectrum-with-zx-wordle/</loc>
     <lastmod>2022-03-26T07:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2021/12/12/the-arduino-uno-mini-limited-edition-is-a-bit-odd/</loc>
     <lastmod>2021-12-12T12:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2021/11/22/mongodb-atlas-data-api-huge-for-no-code-low-code-automation-platforms-like-tines/</loc>
     <lastmod>2021-11-22T05:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2021/11/01/no-code-halloween-hacking-with-blockly-espruino-node-red-tines/</loc>
     <lastmod>2021-11-01T05:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2021/09/23/almost-a-decade-of-espruino-leading-to-the-bangle-js-2/</loc>
     <lastmod>2021-09-23T05:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2021/09/20/using-tines-for-home-iot-automation/</loc>
     <lastmod>2021-09-20T03:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2021/09/19/a-quick-thought-on-failed-computers-in-education/</loc>
     <lastmod>2021-09-19T07:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2021/07/15/tiktok-rss-feeds-using-github-octo-flat-data/</loc>
     <lastmod>2021-07-15T05:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2021/07/12/pano2insta-panoramic-photo-to-instagram-converter/</loc>
     <lastmod>2021-07-12T05:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2021/01/17/preserving-old-sites-importance-of-github/</loc>
     <lastmod>2021-01-17T17:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2020/12/10/empowering-citizen-non-developers/</loc>
     <lastmod>2020-12-10T07:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2020/12/08/pcmanfm-raspberry-pi-smb-samba-password/</loc>
     <lastmod>2020-12-08T07:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2019/12/04/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything/</loc>
     <lastmod>2019-12-04T07:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland/</loc>
     <lastmod>2019-12-02T07:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2019/11/25/bangle-js-open-source-pointing-to-future-of-health-platforms-and-wearables/</loc>
     <lastmod>2019-11-25T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2018/11/25/a-decade-since-my-first-android-phone-the-htc-g1/</loc>
     <lastmod>2018-11-25T17:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2018/09/08/creating-rss-feeds-for-corks-evening-echo-newspaper-website-with-node.js-and-serverless/</loc>
     <lastmod>2018-09-08T09:34:48+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2018/09/07/a-big-thank-you-to-ben-heck/</loc>
     <lastmod>2018-09-07T07:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2018/08/30/i-may-be-totally-done-with-twitter-style-sites-including-mastodon/</loc>
     <lastmod>2018-08-30T12:02:07+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2018/08/15/email-to-hugo-update-your-hugo-blog-via-email/</loc>
     <lastmod>2018-08-15T09:39:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2018/08/13/first-few-minutes-with-the-raspad/</loc>
     <lastmod>2018-08-13T14:14:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2018/08/12/first-live-test-of-my-new-email-to-hugo-blogging-tool/</loc>
     <lastmod>2018-08-12T16:51:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2018/03/17/fund-allwinner-vpu-support-kickstarter/</loc>
     <lastmod>2018-03-17T09:31:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2018/02/13/running-c-code-on-a-1982-zx-spectrum-in-2018/</loc>
     <lastmod>2018-02-13T08:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2018/02/04/what-do-you-think-of-when-you-read-open-source-is-20-years-old/</loc>
     <lastmod>2018-02-04T08:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2018/02/02/downloading-youtube-videos-for-offline-viewing-on-android/</loc>
     <lastmod>2018-02-02T08:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2018/01/01/i-may-have-over-blinged-my-nodeconf-eu-badge/</loc>
     <lastmod>2018-01-01T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2017/12/29/my-media-players-in-2017/</loc>
     <lastmod>2017-12-29T17:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2017/12/28/solved-missing-synced-contacts-on-iphone-8/</loc>
     <lastmod>2017-12-28T08:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2017/12/24/end-of-an-era-our-wii-is-going-in-the-attic/</loc>
     <lastmod>2017-12-24T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2017/08/20/using-puck-js-with-kulight-rgb-bluetooth-lightbulb/</loc>
     <lastmod>2017-08-20T18:11:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2016/11/29/all-the-grisly-details-of-skeletony-and-the-halloween-doorbell-of-doom-v20/</loc>
     <lastmod>2016-11-29T20:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2016/10/02/quick-review-of-the-blu-life-mark-android-phone/</loc>
     <lastmod>2016-10-02T17:45:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2016/05/02/introducing-ytpodders-get-your-fave-youtubers-as-audio-podcasts-on-your-phone/</loc>
     <lastmod>2016-05-02T19:32:32+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2016/02/08/three-ways-to-build-go-1.4-binaries-for-mips32-onion-omega/</loc>
     <lastmod>2016-02-08T17:43:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2016/01/02/when-will-car-insurance-monitoring-apps-become-mandatory-5yrs/</loc>
     <lastmod>2016-01-02T13:00:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2016/01/01/how-cheaply-can-you-build-a-full-raspberry-pizero-computer/</loc>
     <lastmod>2016-01-01T10:59:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/12/31/what-excited-conor-in-tech-in-2015/</loc>
     <lastmod>2015-12-31T21:20:12+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/12/31/my-2015-christmas-turkey-oven-thermometer-and-clock/</loc>
     <lastmod>2015-12-31T18:41:12+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/12/30/auto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router/</loc>
     <lastmod>2015-12-30T17:15:23+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/12/27/blogging-from-my-phone-with-droidedit-hugo-github-pages-and-travis/</loc>
     <lastmod>2015-12-27T16:38:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/12/27/simple-christmas-control-of-each-led-in-a-150-rgb-led-ws2812-strip/</loc>
     <lastmod>2015-12-27T11:34:18+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/11/16/first-impressions-of-onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/</loc>
     <lastmod>2015-11-16T22:35:48+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/11/03/all-the-gory-tech-behind-our-halloween-hallway-of-horror/</loc>
     <lastmod>2015-11-03T08:22:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/10/23/facebook-is-the-amazon-aws-killer/</loc>
     <lastmod>2015-10-23T13:54:25+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/09/29/running-the-latest-chromium-45-on-debian-jessie-on-your-raspberry-pi-2/</loc>
     <lastmod>2015-09-29T17:35:11+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/09/20/tingodb-and-sqlite-instead-of-mongodb-and-mysql-for-tiny-projects-or-raspberry-pi/</loc>
     <lastmod>2015-09-20T13:03:54+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/09/20/running-zeromq-with-node-js-on-raspberry-pi/</loc>
     <lastmod>2015-09-20T11:38:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/08/23/til-you-can-import-3d-models-from-tinkercad-to-minecraft-how-cool-is-that/</loc>
     <lastmod>2015-08-23T14:42:32+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/07/22/creating-an-otp-fob-compatible-with-google-authenticator-using-an-espruino-pico/</loc>
     <lastmod>2015-07-22T08:14:26+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/07/11/node-v01040-and-v0127-for-arm-v7-raspberry-pi-2-banana-pi-odroid-c1-available/</loc>
     <lastmod>2015-07-11T19:56:57+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/06/06/save-your-yahoo-pipes-as-nodejs-apps-for-posterity/</loc>
     <lastmod>2015-06-06T15:06:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/05/01/a-nodejs-web-server-running-on-windows-10-iot-on-a-raspberry_pi-2-wow/</loc>
     <lastmod>2015-05-01T17:49:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/04/03/node-v0122-for-arm-v6v7-including-raspberry-pi-raspberry-pi-2-and-odroid-c1/</loc>
     <lastmod>2015-04-03T11:32:07+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/03/26/download-compiled-version-of-nodejs-0121-stable-for-raspberry-pi-here/</loc>
     <lastmod>2015-03-26T09:56:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/02/08/download-compiled-version-of-nodejs-0120-stable-for-raspberry-pi-here/</loc>
     <lastmod>2015-02-08T12:45:55+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2015/01/04/bandon-flood-warning-data-now-scraped-to-google-fusion-tables-using-nodejs/</loc>
     <lastmod>2015-01-04T13:42:36+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/12/21/introducing-fitbits-first-sports-tracker-for-superheroes-the-fitbat/</loc>
     <lastmod>2014-12-21T17:44:19+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/12/18/i-tried-out-more-google-cardboard-apps-still-stunned-what-dollar10-can-achieve/</loc>
     <lastmod>2014-12-18T11:06:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/12/13/say-hello-to-my-little-friend-the-fitbit-xl-with-external-battery-by-conor/</loc>
     <lastmod>2014-12-13T19:59:24+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/12/13/some-of-my-old-red-hat-floppy-disks-from-2000-2004/</loc>
     <lastmod>2014-12-13T14:35:30+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/11/29/conors-thanksgiving-tech-miscellany/</loc>
     <lastmod>2014-11-29T15:00:50+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/11/28/some-personal-thoughts-on-the-red-hat-acquisition-of-feedhenry/</loc>
     <lastmod>2014-11-28T14:39:48+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/11/01/some-thoughts-on-twitter-rebuilding-a-developer-ecosystem-and-how-they-might-succeed/</loc>
     <lastmod>2014-11-01T16:10:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/10/30/as-promised-yet-more-tech-goodie-backlog-for-your-entertainment/</loc>
     <lastmod>2014-10-30T09:24:39+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/10/29/months-behind-in-my-blogging-here-are-some-tech-things-for-your-enjoyment-that-have-caught-my-eye-recently/</loc>
     <lastmod>2014-10-29T11:21:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/09/09/hi-im-batman-check-out-my-motorised-lego-helicopter/</loc>
     <lastmod>2014-09-09T06:45:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/07/05/the-first-genuine-leaked-pictures-of-the-apple-iwatch-will-amaze-you/</loc>
     <lastmod>2014-07-05T12:02:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/06/30/im-going-to-miss-all-those-great-times-on-orkut/</loc>
     <lastmod>2014-06-30T18:34:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/06/30/kimono-is-a-dead-easy-zero-code-way-of-building-apis-from-scraped-web-pages/</loc>
     <lastmod>2014-06-30T08:27:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/06/23/if-you-wondered-whether-3d-printing-would-ever-go-mainstream-heres-the-proof/</loc>
     <lastmod>2014-06-23T08:05:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/06/23/a-simple-nodejs-script-to-setup-a-new-blog-post-in-harpjs/</loc>
     <lastmod>2014-06-23T07:27:27+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/06/22/a-simple-nodejs-script-to-upload-your-harpjs-blog-images-to-s3/</loc>
     <lastmod>2014-06-22T19:35:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/06/13/thanks-to-elon-musks-position-on-patents-i-now-have-a-tesla-s/</loc>
     <lastmod>2014-06-13T18:11:02+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/06/11/how-twitter-can-make-one-beeeeelllllllion-dollars-in-the-next-few-weeks/</loc>
     <lastmod>2014-06-11T08:48:25+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/06/02/piratebox-could-be-an-awesome-file-sharing-tool-at-every-event/</loc>
     <lastmod>2014-06-02T12:56:42+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/06/01/creating-a-valid-ops-file-in-json-format-for-minecraft-179/</loc>
     <lastmod>2014-06-01T15:48:21+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/05/21/my-presentation-from-3dcamp-limerick-2014/</loc>
     <lastmod>2014-05-21T07:08:47+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/04/13/pebble-controlled-electric-blanket-using-cloud-pebble-simply-js/</loc>
     <lastmod>2014-04-13T10:48:56+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/03/30/interfacing-nodejs-to-raspberry-pi-hardware-with-node-ffi/</loc>
     <lastmod>2014-03-30T13:36:22+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/03/23/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets/</loc>
     <lastmod>2014-03-23T15:10:44+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/03/16/the-nitty-gritty-of-moving-from-wordpress-to-harpjs/</loc>
     <lastmod>2014-03-16T18:33:02+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/03/16/saying-goodbye-to-wordpress-and-hello-to-harpjs/</loc>
     <lastmod>2014-03-16T12:46:04+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/03/14/running-debian-linux-gcc-emacs-git-node-js-npm-and-harpjs-on-samsung-galaxy-s4-oh-my/</loc>
     <lastmod>2014-03-14T20:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/03/13/upgrading-your-samsung-galaxy-s4-i9505-to-kitkat-4-4-2-on-osx/</loc>
     <lastmod>2014-03-13T08:35:12+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/03/09/with-the-enigma-2-software-the-sab-unix-hd-triple-tuner-is-a-very-impressive-satelliteterrestrial-box/</loc>
     <lastmod>2014-03-09T18:39:08+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/02/28/my-arduino-and-raspberry-pi-links-for-newbies/</loc>
     <lastmod>2014-02-28T17:34:08+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/02/15/how-hard-can-it-be-to-make-a-simple-led-blinking-circuit-conors-stupid-questions-to-self-episode-5892/</loc>
     <lastmod>2014-02-15T14:09:34+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/02/12/fabulous-printable-geeky-valentines-day-labels-from-evil-mad-scientist/</loc>
     <lastmod>2014-02-12T21:20:01+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/02/02/was-anyone-else-a-member-of-fireballs-club-from-the-1970s-bullet-comic/</loc>
     <lastmod>2014-02-02T14:12:30+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/02/01/run-the-espruino-js-interpreter-on-windows/</loc>
     <lastmod>2014-02-01T16:13:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/01/26/the-and100-android-box-is-perfect-for-netflix-rte-player-etc/</loc>
     <lastmod>2014-01-26T19:43:16+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/01/18/when-a-10-year-old-tiny-utility-program-saves-your-ass/</loc>
     <lastmod>2014-01-18T13:36:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/01/12/the-frankenlego-rc-car-is-progressing-nicely/</loc>
     <lastmod>2014-01-12T17:14:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/01/04/displayport-to-dvi-to-hdmi-to-vga-to-monitor-and-it-works/</loc>
     <lastmod>2014-01-04T13:28:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2014/01/01/my-pebble-watch-just-fits-in-every-way/</loc>
     <lastmod>2014-01-01T20:33:58+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/12/25/our-first-arduino-christmas-turkey/</loc>
     <lastmod>2013-12-25T13:43:19+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/12/01/slightly-obsessing-about-the-doctor-who-theme-music/</loc>
     <lastmod>2013-12-01T13:20:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/12/01/introducing-the-bandon-bluetooth-button-bbb-using-rn42-hid/</loc>
     <lastmod>2013-12-01T12:18:54+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/11/17/a-product-and-support-failure-by-adafruit-with-the-bluefruit-ez-key/</loc>
     <lastmod>2013-11-17T13:32:35+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/11/03/adding-a-realtime-clock-to-the-raspberry-pi-and-the-sweetbox-ii/</loc>
     <lastmod>2013-11-03T17:33:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/11/03/the-very-real-danger-of-cheap-lithium-polymer-lipo-batteries-and-accessories/</loc>
     <lastmod>2013-11-03T17:11:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/10/31/a-tech-halloween-mainly-made-of-fail/</loc>
     <lastmod>2013-10-31T21:31:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/09/28/this-weeks-tech-miscellany-its-a-cracker/</loc>
     <lastmod>2013-09-28T14:50:51+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/09/28/ah-cmon-is-this-not-the-cutest-raspberry_pi-setup-of-all-time/</loc>
     <lastmod>2013-09-28T12:52:02+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/09/07/arduino-and-raspberry-pi-communicating-over-2-4ghz-with-cheap-nrf24l01-modules/</loc>
     <lastmod>2013-09-07T15:51:57+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/09/07/another-big-brain-dump-of-interesting-tech-bits-over-the-past-few-weeks/</loc>
     <lastmod>2013-09-07T11:21:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/08/18/tech-brain-dump-round-up/</loc>
     <lastmod>2013-08-18T13:00:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/06/30/its-official-throne-of-rolls-is-the-greatest-instructable-of-all-time/</loc>
     <lastmod>2013-06-30T10:45:22+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/06/15/a-year-of-falling-back-in-love-with-makingelectronics-on-raspberry-pi-and-arduino/</loc>
     <lastmod>2013-06-15T12:12:37+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/06/13/ok-i-cannot-deny-it-foursquare-time-machine-is-just-bloody-brilliant/</loc>
     <lastmod>2013-06-13T17:22:42+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/06/08/my-first-stab-at-silicone-mould-making-to-cast-an-rc-car-suspension-part/</loc>
     <lastmod>2013-06-08T21:03:31+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/06/08/what-does-this-inside-of-a-dead-fitbit-one-look-like-this/</loc>
     <lastmod>2013-06-08T13:03:43+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/06/07/is-the-e10-lidl-soldering-iron-worth-it-i-think-so-video/</loc>
     <lastmod>2013-06-07T16:59:02+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/06/05/connecting-an-arduino-to-raspberry-pi-for-the-best-of-both-worlds/</loc>
     <lastmod>2013-06-05T08:27:11+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/06/01/replacing-a-broken-samsung-google-nexus-s-screen-a-total-doddle/</loc>
     <lastmod>2013-06-01T14:52:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/05/22/wearable-tech-fitness-health-and-the-quantified-self/</loc>
     <lastmod>2013-05-22T08:20:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/05/22/separated-at-birth-philips-vr512-and-xbox-one/</loc>
     <lastmod>2013-05-22T07:08:40+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/05/19/check-out-scratch-for-arduino-s4a-easier-electronics-for-kids/</loc>
     <lastmod>2013-05-19T18:40:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/05/19/remote-control-implementation-for-an-rc-car-part-1/</loc>
     <lastmod>2013-05-19T15:04:12+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/05/16/progress-so-far-with-a-kids-e21-self-assemble-remote-control-car/</loc>
     <lastmod>2013-05-16T20:35:21+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/05/16/using-nfc-to-connect-your-sgs4-phone-to-your-cars-bluetooth/</loc>
     <lastmod>2013-05-16T08:11:59+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/05/11/i-generally-dont-do-inspirational-but-robohand-well-just-watch-the-video/</loc>
     <lastmod>2013-05-11T14:54:06+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/05/07/controlling-an-i-racer-rc-car-using-a-wii-balance-board-and-raspberry_pi/</loc>
     <lastmod>2013-05-07T08:17:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/05/03/fun-and-games-with-lipo-batteries-and-cheap-android-tablets/</loc>
     <lastmod>2013-05-03T07:45:16+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/04/28/an-evening-in-the-company-of-the-delightful-mr-samsung-galaxy-s4/</loc>
     <lastmod>2013-04-28T20:26:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/04/27/my-smartphone-evolution-from-n95-8gb-to-samsung-galaxy-s4-sgs4/</loc>
     <lastmod>2013-04-27T14:07:09+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/04/27/amazing-kuvitteellinen-prizes-to-be-won-if-you-can-guess-what-this-is/</loc>
     <lastmod>2013-04-27T13:24:37+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/04/23/your-prayers-answered-old-chapel-temperature-server-now-online/</loc>
     <lastmod>2013-04-23T09:00:19+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/04/21/what-the-inside-of-an-e88-android-tablet-looks-like/</loc>
     <lastmod>2013-04-21T15:48:18+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/04/14/adding-an-audio-amplifier-to-your-raspberry_pi/</loc>
     <lastmod>2013-04-14T14:02:18+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/04/12/endo2atom-an-endomondo-atomrss-feed-to-post-your-activities-via-tools-like-ifttt-opendata/</loc>
     <lastmod>2013-04-12T18:44:35+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/03/30/tp-link-tl-wa830re-wifi-extender-a-pile-of-junk-until-you-install-dd-wrt/</loc>
     <lastmod>2013-03-30T16:32:02+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/03/26/the-state-of-open-source-projects-in-ireland-vs-other-countries-based-on-github-activity/</loc>
     <lastmod>2013-03-26T10:19:08+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/03/22/avoid-the-google-lock-in-by-using-picasa-with-dropbox/</loc>
     <lastmod>2013-03-22T08:01:44+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/03/21/adam-savages-home-office-cabinet-wow/</loc>
     <lastmod>2013-03-21T13:34:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/03/20/amazon-send-to-kindle-should-be-built-on-rss-to-replace-google-reader/</loc>
     <lastmod>2013-03-20T13:57:14+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/03/17/my-second-spring-cleaning/</loc>
     <lastmod>2013-03-17T13:25:07+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/03/14/replacing-google-reader-with-a-25-raspberry-pi-in-the-immortal-words-of-jesse-pinkman/</loc>
     <lastmod>2013-03-14T15:41:04+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/03/13/my-1-37-shrimp-computer/</loc>
     <lastmod>2013-03-13T14:09:41+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/03/12/a-simple-tool-to-bulk-import-your-runkeeper-data-into-endomondo/</loc>
     <lastmod>2013-03-12T10:43:51+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/03/06/openvpn-on-windows-8/</loc>
     <lastmod>2013-03-06T08:52:11+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/03/05/using-a-wii-nunchuck-instead-of-cheese-to-control-i-racer-rc-car-on-raspberry_pi-and-arduino/</loc>
     <lastmod>2013-03-05T09:06:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/02/26/ron-swanson-is-the-patron-saint-of-makers-his-finest-moment-on-parks-and-rec/</loc>
     <lastmod>2013-02-26T11:34:03+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/02/10/electronic-tinkering-on-the-raspberry_pi/</loc>
     <lastmod>2013-02-10T11:40:18+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/01/14/absolutely-loved-conorjhs-love-letter-to-1983-and-home-computing/</loc>
     <lastmod>2013-01-14T11:04:54+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2013/01/13/the-cult-of-done-manifesto/</loc>
     <lastmod>2013-01-13T15:47:04+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/12/29/makey-makey-raspberry-pi-iracer-bluetooth-cheese-controlled-car-ccc/</loc>
     <lastmod>2012-12-29T18:45:16+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/12/27/scriptcraft-a-minecraft-mod-that-lets-you-build-using-javascript/</loc>
     <lastmod>2012-12-27T13:41:45+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/12/06/wondering-how-hard-it-would-be-to-create-your-own-electronic-toy-sifteo-says-pretty-hard/</loc>
     <lastmod>2012-12-06T13:51:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/11/27/imagine-if-minecraft-was-the-trigger-to-get-a-new-generation-of-kids-programming/</loc>
     <lastmod>2012-11-27T12:01:14+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/11/26/conors-2012-raspberry_pi-christmas-gift-guide/</loc>
     <lastmod>2012-11-26T09:34:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/11/25/my-4-years-of-android-today-and-irelands-first-android-app/</loc>
     <lastmod>2012-11-25T16:09:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/11/20/the-fixers-manifesto-spread-the-word/</loc>
     <lastmod>2012-11-20T16:56:49+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/11/01/sibeals-halloween-eye-of-deatttttttttth/</loc>
     <lastmod>2012-11-01T18:17:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/11/01/the-raspberrypi-doorbell-of-dooooooooommmmmmmm/</loc>
     <lastmod>2012-11-01T14:03:05+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/10/25/open-data-irelands-first-meetup-tonight-in-engine-yard/</loc>
     <lastmod>2012-10-25T11:05:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/10/23/google-hangouts-extensions-point-to-a-richer-google-platform-future/</loc>
     <lastmod>2012-10-23T08:47:18+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/10/23/mit-app-inventor-official-open-source-release/</loc>
     <lastmod>2012-10-23T07:59:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/10/20/e-is-for-electronics-other-good-kids-stuff-and-whats-next/</loc>
     <lastmod>2012-10-20T13:45:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/10/16/playing-1980s-games-on-your-raspberry-pi-and-remembering-mike-singleton/</loc>
     <lastmod>2012-10-16T15:02:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/10/09/classicmap-google-map-overlays-on-apple-maps-in-ios-6/</loc>
     <lastmod>2012-10-09T10:09:06+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/10/07/clay-shirky-on-git-diffs-and-government-legislation/</loc>
     <lastmod>2012-10-07T13:32:32+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/10/04/from-tiny-csv-acorns-many-opendata-oaks-can-grow-now-where-is-irelands-ciocto/</loc>
     <lastmod>2012-10-04T18:12:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/10/02/tats-and-piercings-are-so-over-true-hipsters-are-now-sporting-nose-leds/</loc>
     <lastmod>2012-10-02T12:12:54+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/09/30/quick-n-dirty-visualisation-of-2010-property-price-register-data-into-interactive-map/</loc>
     <lastmod>2012-09-30T18:52:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/09/29/notch-makes-getting-fit-a-little-less-po-faced/</loc>
     <lastmod>2012-09-29T12:53:08+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/09/28/apis-web-services-cloud-aws-slides-from-my-talk-yesterday-at-offsite2012/</loc>
     <lastmod>2012-09-28T14:07:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/09/20/harbour-hopping-in-west-cork-apple-uses-google-mapss-hand-me-downs/</loc>
     <lastmod>2012-09-20T19:18:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/09/17/im-speaking-at-the-offsite-conference-next-week-about-aws-apis-saas-etc/</loc>
     <lastmod>2012-09-17T16:36:23+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/09/17/standing-desk-update-2/</loc>
     <lastmod>2012-09-17T11:04:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/09/09/how-the-hell-did-i-miss-the-upcoming-shutdown-of-feedburner-another-lesson-in-lock-in/</loc>
     <lastmod>2012-09-09T19:09:02+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/09/08/sugru-old-mondeo-yay/</loc>
     <lastmod>2012-09-08T17:17:59+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/09/06/games-you-may-like-on-facebook-thatd-be-none-why-are-ads-so-broken-in-2012/</loc>
     <lastmod>2012-09-06T17:37:36+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/09/04/running-a-business-in-the-cloud-with-amazon-web-services-aws/</loc>
     <lastmod>2012-09-04T12:44:29+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/08/31/google-using-google-to-up-sell-google-apps/</loc>
     <lastmod>2012-08-31T19:21:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/08/31/the-greatest-electronic-music-video-of-all-time/</loc>
     <lastmod>2012-08-31T13:31:31+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/08/31/nerdy-derby-looks-like-a-blast/</loc>
     <lastmod>2012-08-31T13:26:03+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/08/25/my-mind-is-blown-met-eireanns-radar-image-converted-to-opendata/</loc>
     <lastmod>2012-08-25T12:54:35+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/08/24/in-honour-of-peter-cook-im-announcing-a-new-line-of-running-clothing-clivestrong/</loc>
     <lastmod>2012-08-24T19:38:11+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/08/22/sibeal-fionn-and-siofra-use-littlebits-for-the-first-time/</loc>
     <lastmod>2012-08-22T08:42:25+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/08/21/amazon-glacier-looks-ideal-for-cheaper-long-term-storagebackup/</loc>
     <lastmod>2012-08-21T09:17:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/08/17/comic-sans-will-get-you-thrown-off-twitter/</loc>
     <lastmod>2012-08-17T00:19:37+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/08/15/first-hands-on-with-littlebits-yes-im-grinning-a-lot/</loc>
     <lastmod>2012-08-15T14:15:35+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/08/12/this-week-on-twitter-every-week-on-twitter/</loc>
     <lastmod>2012-08-12T14:41:01+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/08/09/why-ive-pledged-money-to-appdotnet-and-why-you-should-too/</loc>
     <lastmod>2012-08-09T11:38:35+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/08/04/google-cancels-listen-im-cancelling-all-non-core-products-by-large-corporations/</loc>
     <lastmod>2012-08-04T21:05:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/17/dont-throw-out-that-standalone-phone-battery-charger/</loc>
     <lastmod>2012-07-17T13:39:23+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/17/littlebits-looks-perfect-for-younger-kids-to-experiment-anyone-using/</loc>
     <lastmod>2012-07-17T13:32:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/16/your-teens-going-mental-in-all-this-irish-rain-send-them-over-to-maker-camp-now/</loc>
     <lastmod>2012-07-16T19:35:57+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/15/pit-of-despair-projects/</loc>
     <lastmod>2012-07-15T14:04:21+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/14/well-thats-my-christmas-present-sorted-sonic-screwdriver-universal-remote-control/</loc>
     <lastmod>2012-07-14T20:11:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/12/some-of-the-very-first-tweets-tofrom-me-in-2007-via-oldtweets/</loc>
     <lastmod>2012-07-12T07:24:35+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/10/the-raspberrypi-programming-contest-for-kids-win-1000/</loc>
     <lastmod>2012-07-10T08:44:24+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/08/hoping-someone-will-setup-curious-jane-in-ireland-project-based-summer-camps-for-girls/</loc>
     <lastmod>2012-07-08T16:52:31+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/07/maplin-can-start-its-40m-revamp-by-halving-its-prices/</loc>
     <lastmod>2012-07-07T19:49:03+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/07/baby-steps-on-our-first-real-arduino-project/</loc>
     <lastmod>2012-07-07T12:58:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/06/art-tech-oyster-ring-go-on-someone-do-a-leap-card-like-this/</loc>
     <lastmod>2012-07-06T10:14:17+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/02/twink-proves-that-recommendation-engines-are-still-pretty-useless/</loc>
     <lastmod>2012-07-02T13:33:49+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/07/01/using-your-media-player-tablet-or-raspberry-pi-on-a-hotel-tv/</loc>
     <lastmod>2012-07-01T18:56:55+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/06/30/if-you-watch-one-youtube-video-this-weekend-watch-this-ted-one-on-how-arduino-is-open-sourcing-imagination/</loc>
     <lastmod>2012-06-30T20:23:30+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/06/29/google-its-magical-like-homoeopathy/</loc>
     <lastmod>2012-06-29T09:35:22+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/06/28/makey-makey-you-will-soooooo-wanty-wanty/</loc>
     <lastmod>2012-06-28T18:38:52+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/06/28/mini-maker-faire-in-dublin-saturday-14th-july-science-gallery/</loc>
     <lastmod>2012-06-28T18:35:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/06/22/bandon-flood-data-fews-now-available-on-cosmpachube/</loc>
     <lastmod>2012-06-22T19:35:01+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/06/22/finally-im-a-real-boy/</loc>
     <lastmod>2012-06-22T10:24:12+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/06/15/yep-theres-method-in-my-dadness-i-think-thanks-sugru/</loc>
     <lastmod>2012-06-15T17:29:06+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/06/12/i-think-ive-found-the-ultimate-alarm-clock-project/</loc>
     <lastmod>2012-06-12T08:33:26+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/06/12/5th-avenue-frogger-some-day-all-games-will-be-made-this-way/</loc>
     <lastmod>2012-06-12T08:09:29+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/06/10/two-tutorials-later-and-the-kids-are-liking-the-arduino-a-lot/</loc>
     <lastmod>2012-06-10T20:33:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/06/09/the-sweet-sound-of-euro2012-silence/</loc>
     <lastmod>2012-06-09T12:36:54+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/06/08/learn-electronics-with-an-arduino-and-raspberry_pi-on-an-old-philips-tv/</loc>
     <lastmod>2012-06-08T13:29:06+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/05/31/sorry-google-plus-local-without-a-platform-wont-save-google-plus/</loc>
     <lastmod>2012-05-31T01:12:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/05/20/my-70-year-old-mother-has-out-hacked-me-with-sugru/</loc>
     <lastmod>2012-05-20T11:48:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/05/20/lego-case-and-sugru-for-raspberry-pi/</loc>
     <lastmod>2012-05-20T10:56:10+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/05/16/quick-update-on-eken-t02-tablet-and-where-is-scribblenauts-for-android/</loc>
     <lastmod>2012-05-16T13:52:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/05/15/node-js-chat-server-running-on-raspberry-pi-hell-yeah/</loc>
     <lastmod>2012-05-15T11:28:03+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/05/12/motorola-s10-hd-are-brilliant-bluetooth-running-headphones/</loc>
     <lastmod>2012-05-12T13:29:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/05/11/alleluia-how-to-specify-which-google-account-in-the-url/</loc>
     <lastmod>2012-05-11T18:05:35+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/05/09/connecting-to-your-raspberry-pi-desktop-over-the-network/</loc>
     <lastmod>2012-05-09T06:55:01+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/05/08/rough-n-ready-unboxing-and-booting-of-raspberry-pi/</loc>
     <lastmod>2012-05-08T20:35:17+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/05/08/cent-the-pete-running-on-raspberry-pi/</loc>
     <lastmod>2012-05-08T19:11:26+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/05/04/if-the-internet-is-remembered-for-one-thing-in-2012-let-it-be-nail-clippers-with-10x-magnifier/</loc>
     <lastmod>2012-05-04T16:27:11+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/05/03/lunchtime-review-of-eken-t02-7-android-tablet-for-e88/</loc>
     <lastmod>2012-05-03T15:05:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/28/first-two-trivial-parts-of-getting-app-inventor-working-on-raspberry-pi-done/</loc>
     <lastmod>2012-04-28T13:10:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/27/klouchebag-score-for-conoro-36-or-a-bit-of-a-prat/</loc>
     <lastmod>2012-04-27T16:02:52+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/23/happy-30th-birthday-zx-spectrum-heres-mine-still-in-action/</loc>
     <lastmod>2012-04-23T22:22:39+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/23/thank-you-google-youve-just-made-my-year/</loc>
     <lastmod>2012-04-23T10:07:08+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/22/finally-mhl-to-tv-and-bluetooth-to-wiimote-on-htc-sensation/</loc>
     <lastmod>2012-04-22T18:12:12+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/22/facebook-kicks-genis-butt-for-real-family-histories/</loc>
     <lastmod>2012-04-22T15:17:42+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/20/google-and-all-of-us-should-revolutionise-the-interview-process-using-sugru/</loc>
     <lastmod>2012-04-20T19:33:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/20/zx-spectrum-16k-adjusted-for-inflation-was-e461/</loc>
     <lastmod>2012-04-20T08:44:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/18/zx-plectrum-the-greatest-ipad-app-of-all-time/</loc>
     <lastmod>2012-04-18T08:19:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/15/end-of-an-era-philips-switches-off-tv-production/</loc>
     <lastmod>2012-04-15T19:41:02+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/13/xbmc-running-on-raspberry-pi-i-may-faint-with-the-anticipation/</loc>
     <lastmod>2012-04-13T09:48:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/12/whilst-you-wait-for-your-raspberry-pi-run-the-software-on-your-pc/</loc>
     <lastmod>2012-04-12T13:13:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/09/with-acquisition-of-instagram-facebook-reveals-all-new-look/</loc>
     <lastmod>2012-04-09T18:18:37+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/08/fuji-finepix-4200-ipad-usb-adapter-fab/</loc>
     <lastmod>2012-04-08T13:24:57+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/06/jesus-skype-dont-scare-me-like-that/</loc>
     <lastmod>2012-04-06T11:31:40+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/05/if-vt-220-terminals-had-been-invented-in-the-80s/</loc>
     <lastmod>2012-04-05T09:58:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/01/microwriter-gmail-tap/</loc>
     <lastmod>2012-04-01T18:16:07+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/04/01/unofficial-mario-kart-64-on-android-and-an-89-tablet/</loc>
     <lastmod>2012-04-01T13:24:04+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/31/watch-out-bear-grylls-here-comes-oscar-wild/</loc>
     <lastmod>2012-03-31T19:15:58+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/28/the-most-ridiculous-thing-ive-read-this-year/</loc>
     <lastmod>2012-03-28T13:54:22+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/27/celebrities-read-tweets-about-themselves/</loc>
     <lastmod>2012-03-27T08:08:21+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/26/theyre-just-jealous-cos-my-toes-are-models/</loc>
     <lastmod>2012-03-26T13:42:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/25/the-ever-improving-xbmc-just-released-v11-0/</loc>
     <lastmod>2012-03-25T11:36:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/24/mophie-juice-pack-air-is-perfect-for-marathons/</loc>
     <lastmod>2012-03-24T12:55:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/22/get-your-torrent-of-the-mahon-tribunal-report/</loc>
     <lastmod>2012-03-22T12:21:31+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/15/my-app-inventor-post-about-our-kids-school-is-now-on-the-mit-site/</loc>
     <lastmod>2012-03-15T18:55:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/15/anyone-want-paddysvalley-org-and-com/</loc>
     <lastmod>2012-03-15T15:30:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/13/the-end-of-awesome/</loc>
     <lastmod>2012-03-13T06:54:35+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/12/monty-python-the-holy-book-of-days-just-buy-the-damned-thing-its-wonderful/</loc>
     <lastmod>2012-03-12T18:30:53+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/07/the-bin-is-all-its-good-for-now/</loc>
     <lastmod>2012-03-07T16:26:24+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/07/quick-google-nows-your-chance-facebook-is-down/</loc>
     <lastmod>2012-03-07T07:46:06+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/06/fiiiiinnnnnally-the-first-proper-leaked-pictures-of-the-ipad-3/</loc>
     <lastmod>2012-03-06T16:09:46+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/06/this-is-how-to-sell-products-dollarshaveclub-com/</loc>
     <lastmod>2012-03-06T13:29:59+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/06/mit-app-inventor-open-beta-preview/</loc>
     <lastmod>2012-03-06T08:15:48+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/04/bbc-iplayer-global-on-ipad-nice-app-if-you-need-it/</loc>
     <lastmod>2012-03-04T13:46:33+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/03/poll-do-you-have-an-lcdplasma-tv-with-hdmi/</loc>
     <lastmod>2012-03-03T14:25:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/03/lego-should-partner-with-raspberry-pi-and-app-inventor/</loc>
     <lastmod>2012-03-03T11:57:46+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/03/my-sexy-new-ipad-bag/</loc>
     <lastmod>2012-03-03T11:20:06+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/03/01/i-never-knew-recaptcha-was-used-to-help-digitize-old-books/</loc>
     <lastmod>2012-03-01T08:23:46+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/29/dont-buy-one-raspbery-pi-buy-two-and-donate-one-to-your-local-programming-club/</loc>
     <lastmod>2012-02-29T13:08:51+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/27/experimental-gimp-for-windows-in-single-window-mode/</loc>
     <lastmod>2012-02-27T14:24:01+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/27/irish-quango-scoffs-240-pizzas-calls-it-research/</loc>
     <lastmod>2012-02-27T11:12:05+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/26/vodafone-irelands-sly-attempt-to-get-you-to-pay-more-each-month/</loc>
     <lastmod>2012-02-26T14:33:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/22/ubuntu-for-android-all-the-horror-of-unity-in-your-pocket/</loc>
     <lastmod>2012-02-22T08:02:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/22/xbmc-windows-media-centre-make-surprisingly-great-bedfellows/</loc>
     <lastmod>2012-02-22T07:48:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/19/patriot-pbo-core-is-a-very-nice-cheap-media-player-device/</loc>
     <lastmod>2012-02-19T14:20:42+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/19/sick-of-windows-media-player-screwing-up-your-video-files-try-vlc-2-0/</loc>
     <lastmod>2012-02-19T13:33:06+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/13/google-says-hello-to-jason-isaacs/</loc>
     <lastmod>2012-02-13T23:40:35+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/11/netflix-ukireland-shoots-itself-in-the-foot-already-no-lilyhammer-for-us/</loc>
     <lastmod>2012-02-11T13:18:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/10/underground-lakes-antarctic-ufos-nazis-on-the-moon-and-the-mayans/</loc>
     <lastmod>2012-02-10T19:37:37+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/10/twitter-facebook-pah-so-over-them-anyone-whos-anyone-is-on-weibo-now/</loc>
     <lastmod>2012-02-10T18:13:35+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/10/roku-netflix-iplayer-now-available-in-ireland-anyone-using-roksbox-or-roconnect/</loc>
     <lastmod>2012-02-10T13:53:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/09/i-will-be-deeply-disappointed-if-house-doesnt-die-from-lupus-in-the-final-episode/</loc>
     <lastmod>2012-02-09T09:45:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/08/no-i-dont-want-to-install-your-stupid-hamstrung-ipad-app-i-want-your-web-site/</loc>
     <lastmod>2012-02-08T08:16:03+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/07/no-more-accidents-android-transparent-screen-app/</loc>
     <lastmod>2012-02-07T10:21:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/06/if-you-develop-on-twitter-apis-in-ireland-you-have-to-attend-dublin-teatime/</loc>
     <lastmod>2012-02-06T10:05:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/05/app-inventor-early-access-to-educators-with-current-and-pending-courses/</loc>
     <lastmod>2012-02-05T14:11:54+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/02/03/this-crap-is-why-people-infringe-copyright/</loc>
     <lastmod>2012-02-03T09:18:48+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/31/ah-feck-it-one-more-sht-entrepreneurs-say/</loc>
     <lastmod>2012-01-31T09:43:52+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/31/last-one-i-promise-sht-barefoot-runners-say/</loc>
     <lastmod>2012-01-31T09:42:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/30/i-may-have-to-lie-down-a-lego-zx81/</loc>
     <lastmod>2012-01-30T10:40:46+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/26/this-is-the-irish-parliament-in-action-on-sopaireland/</loc>
     <lastmod>2012-01-26T16:00:37+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/25/first-ever-barefoot-race-in-ireland-ballinrobe-mayo-march-11th/</loc>
     <lastmod>2012-01-25T13:27:35+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/25/jim-daly-claiming-same-mythical50-as-seansherlocktd-for-stopsopaireland-stakeholders/</loc>
     <lastmod>2012-01-25T10:11:35+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/24/get-a-stopsopaireland-plugin-for-your-wordpress-blog/</loc>
     <lastmod>2012-01-24T10:55:23+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/24/ginas-one-year-at-her-standing-desk/</loc>
     <lastmod>2012-01-24T10:16:03+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/23/focus-on-the-user-supposedly-a-more-relevant-google/</loc>
     <lastmod>2012-01-23T15:38:27+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/23/my-favourite-new-webapp/</loc>
     <lastmod>2012-01-23T11:09:24+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/21/app-inventor-source-code-now-available/</loc>
     <lastmod>2012-01-21T10:17:27+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/17/and-like-that-poof-hes-gone-rip-jaiku-2006-2012/</loc>
     <lastmod>2012-01-17T11:00:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/16/uk-and-ireland-businesses-to-lose-4-billion-work-hours-due-to-olympics/</loc>
     <lastmod>2012-01-16T17:30:16+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/16/my-technology-ie-podcast-with-conn-all-about-home-media-netflix/</loc>
     <lastmod>2012-01-16T10:33:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/15/delorean-dmc-12-ev-at-ces-wipes-drool-off-keyboard/</loc>
     <lastmod>2012-01-15T13:51:55+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/13/apple-to-unveil-revolutionary-upgrade-to-multi-touch-on-ipad-3/</loc>
     <lastmod>2012-01-13T13:42:34+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/13/changing-over-to-a-bluetooth-car-stereo-to-work-with-your-phone/</loc>
     <lastmod>2012-01-13T09:10:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/12/how-could-i-forget-the-coolest-christmas-hoodie-ever/</loc>
     <lastmod>2012-01-12T10:00:44+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/12/cyanogenmod-the-community-android-firmware-now-1-million-users/</loc>
     <lastmod>2012-01-12T09:01:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/10/my-requisite-netflix-ireland-uk-linkbait-post/</loc>
     <lastmod>2012-01-10T13:59:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2012/01/01/a-rural-irish-schools-app-inventor-pilot-the-story-so-far/</loc>
     <lastmod>2012-01-01T18:01:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/31/summary-of-setting-up-your-own-private-app-inventor-server-for-your-school/</loc>
     <lastmod>2011-12-31T17:50:07+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/31/just-in-the-nick-of-time-our-schools-own-app-inventor-setup/</loc>
     <lastmod>2011-12-31T15:19:27+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/31/time-for-an-irish-technology-industry-lobby/</loc>
     <lastmod>2011-12-31T11:59:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/30/hp-eprint-app-for-ipad-why-hp-was-right-to-exit-tablet-biz/</loc>
     <lastmod>2011-12-30T14:26:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/28/mini-review-of-google-app-inventor-beginners-guide-by-ralph-roberts/</loc>
     <lastmod>2011-12-28T12:45:02+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/28/just-had-a-horrible-thought-could-i-move-from-posterous-to-google/</loc>
     <lastmod>2011-12-28T10:43:05+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/27/the-death-of-boxee/</loc>
     <lastmod>2011-12-27T21:21:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/24/the-technical-magic-of-playing-a-song-in-our-car-in-2011/</loc>
     <lastmod>2011-12-24T11:21:14+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/22/this-is-facebooks-idea-of-chronological/</loc>
     <lastmod>2011-12-22T11:35:05+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/22/lego-bring-back-beautiful/</loc>
     <lastmod>2011-12-22T10:54:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/22/dont-forget-to-download-your-app-inventor-projects-shutdown-on-dec-31st/</loc>
     <lastmod>2011-12-22T09:25:33+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/20/nide-a-browser-based-ide-for-node-js-is-just-what-i-need/</loc>
     <lastmod>2011-12-20T18:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/20/we-need-a-shrine-to-tomorrows-world-in-the-grafton-arcade/</loc>
     <lastmod>2011-12-20T11:04:59+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/19/sean-sherlock-needs-to-watch-and-listen-to-this/</loc>
     <lastmod>2011-12-19T20:39:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/18/mongopress-a-mongodb-based-cms-inspired-by-wordpress/</loc>
     <lastmod>2011-12-18T17:37:45+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/17/android-4-0-icsice-cream-sandwich-is-pretty-lovely/</loc>
     <lastmod>2011-12-17T20:07:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/17/jesus-christ-facebook-now-you-decide-to-fuck-up-python-users/</loc>
     <lastmod>2011-12-17T12:13:14+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/13/what-do-you-young-hipsters-use-to-protect-your-ipads-from-the-rain/</loc>
     <lastmod>2011-12-13T19:22:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/12/igo-stowaway-keyboard-and-ipad-2-awesome/</loc>
     <lastmod>2011-12-12T16:29:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/12/facebook-is-removing-app-profile-pages-this-affects-a-lot-of-devs/</loc>
     <lastmod>2011-12-12T14:59:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/12/ireland-finally-gets-its-own-oyster-card-leapcard/</loc>
     <lastmod>2011-12-12T13:03:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/11/microsoft-really-taking-node-js-seriously/</loc>
     <lastmod>2011-12-11T12:09:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/11/running-your-own-private-copy-of-appinventor-for-your-school/</loc>
     <lastmod>2011-12-11T11:42:18+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/08/yeah-so-i-got-an-ipad-let-the-flaming-commence/</loc>
     <lastmod>2011-12-08T18:07:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/04/wonderful-idea-free-sugru-for-awesome-education-projects/</loc>
     <lastmod>2011-12-04T20:05:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/12/04/simple-fix-for-major-asus-n53sn-laptop-sleep-recovery-problem/</loc>
     <lastmod>2011-12-04T17:53:54+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/11/26/agloves-touchscreen-gloves-very-nice/</loc>
     <lastmod>2011-11-26T12:57:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/11/25/ubuntu-announces-the-unity-mouse/</loc>
     <lastmod>2011-11-25T11:24:17+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/11/24/so-long-google-health-hello-microsoft-healthvault/</loc>
     <lastmod>2011-11-24T12:56:06+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/11/16/first-leaked-screenshot-of-unity-2-on-ubuntu-12-04/</loc>
     <lastmod>2011-11-16T16:16:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/11/16/happy-10-years-xbox/</loc>
     <lastmod>2011-11-16T10:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/11/16/thinkup-why-gina-trapani-is-an-absolute-bloody-legend/</loc>
     <lastmod>2011-11-16T10:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/11/07/ataris-greatest-hits-android/</loc>
     <lastmod>2011-11-07T21:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/10/31/our-plan-to-stream-live-music-in-the-car-fell-flat/</loc>
     <lastmod>2011-10-31T16:46:07+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/10/24/seeing-1s-not-1s-of-google-updates-about-aras11/</loc>
     <lastmod>2011-10-24T13:39:12+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/10/20/opportunity-for-android-open-accessory-app-inventor-to-be-the-new-lego-mindstorms/</loc>
     <lastmod>2011-10-20T16:26:32+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/10/01/oisin-aged-9-may-have-just-invented-the-next-generation-of-treadmill/</loc>
     <lastmod>2011-10-01T15:20:07+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/29/my-latest-work-of-sugru-genius/</loc>
     <lastmod>2011-09-29T14:37:51+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/26/we-need-a-computer-history-museum-for-web-apps-like-facebook-and-twitter/</loc>
     <lastmod>2011-09-26T13:05:51+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/26/bottom-feeding-us-conference-organisers-always-good-for-a-giggle/</loc>
     <lastmod>2011-09-26T12:41:19+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/22/creativity-not-consumption-origo-a-3d-printer-for-everyone/</loc>
     <lastmod>2011-09-22T14:10:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/22/how-github-uses-github-to-build-github/</loc>
     <lastmod>2011-09-22T09:46:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/22/ooh-i-like-samuel-l-ipsum-placeholder-text/</loc>
     <lastmod>2011-09-22T09:12:58+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/22/facebooks-edgerank-should-be-renamed-cletusrank/</loc>
     <lastmod>2011-09-22T07:43:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/21/i-think-we-passed-facebook-peak-3-weeks-ago/</loc>
     <lastmod>2011-09-21T12:06:28+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/19/the-htc-sensation-is-no-im-not-going-to-say-it/</loc>
     <lastmod>2011-09-19T07:55:07+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/17/app-inventor-suitable-for-younger-kids-too-and-mention-of-wee-project-im-working-on/</loc>
     <lastmod>2011-09-17T17:27:07+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/14/right-i-need-recommendations-for-dirt-cheap-diesel-land-rover-type-thingy/</loc>
     <lastmod>2011-09-14T08:38:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/06/webcast-recording-of-whats-next-for-app-inventor/</loc>
     <lastmod>2011-09-06T23:05:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/09/02/yahoo-kills-maps-and-opensources-sledpostmile/</loc>
     <lastmod>2011-09-02T08:37:03+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/08/31/physicist-cuts-plane-boarding-time-in-half-except-in-ireland/</loc>
     <lastmod>2011-08-31T08:55:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/08/31/any-irish-incubators-signed-up-with-rackspace-startup-programme-scobleizer-e-g-ndrc_i2i/</loc>
     <lastmod>2011-08-31T08:02:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/08/31/our-replacement-for-sky-tv-cost-e99-ariva-120-no-monthly-fees/</loc>
     <lastmod>2011-08-31T07:49:02+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/08/28/rte-player-at-1080p-is-just-magical/</loc>
     <lastmod>2011-08-28T22:17:11+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/08/28/vs-day-victory-over-sky-day-free-at-last-etc-etc-yadda-yadda/</loc>
     <lastmod>2011-08-28T20:18:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/08/20/kindle-for-kids-must-be-coming-soon/</loc>
     <lastmod>2011-08-20T16:54:08+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/08/08/can-vodafoneireland-explain-the-differences-between-these-three-1gb-add-ons/</loc>
     <lastmod>2011-08-08T12:54:16+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/08/07/20-years-of-www-i-think-i-started-in-1995-with-rtems/</loc>
     <lastmod>2011-08-07T13:31:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/08/05/despite-all-the-hype-google-has-a-ways-to-go-with-1/</loc>
     <lastmod>2011-08-05T17:21:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/29/intonow-looks-great-pity-its-by-yahoo/</loc>
     <lastmod>2011-07-29T17:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/28/the-festo-flying-mechanical-bird-at-ted-jaw-dropping/</loc>
     <lastmod>2011-07-28T18:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/28/announcing-nama-walking-tours/</loc>
     <lastmod>2011-07-28T16:13:40+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/28/the-coolest-thing-that-ok-go-has-ever-done-which-is-really-saying-something/</loc>
     <lastmod>2011-07-28T13:02:03+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/28/some-actually-useful-things-you-can-do-tomorrow/</loc>
     <lastmod>2011-07-28T09:23:32+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/25/nintendos-penny-pinching-bites-them-in-the-ass/</loc>
     <lastmod>2011-07-25T20:34:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/21/the-joy-of-fix-sugru-in-the-movies/</loc>
     <lastmod>2011-07-21T13:55:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/21/why-im-not-using-google-very-much-yeah-yawwwnnnnnnn/</loc>
     <lastmod>2011-07-21T10:46:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/21/put-this-on-your-phone-now-organ-donor-ecard/</loc>
     <lastmod>2011-07-21T09:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/18/quick-call-cost-comparison-of-eircom-skype-blueface-google-voice-and-rebtel/</loc>
     <lastmod>2011-07-18T14:14:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/17/rolling-up-my-sleeves-to-build-a-cross-platform-mobile-app-with-feedhenry/</loc>
     <lastmod>2011-07-17T10:53:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/13/courts-service-saves-e30m-in-costs-seriously-impressed/</loc>
     <lastmod>2011-07-13T14:43:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/13/so-i-got-a-new-laptop-thats-probably-the-last-time-ill-ever-mention-it/</loc>
     <lastmod>2011-07-13T13:40:49+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/11/how-to-get-rid-of-those-damned-giant-skype-pop-up-ads/</loc>
     <lastmod>2011-07-11T21:59:18+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/06/that-means-7000-out-of-26m-people-on-skype-are-using-video-chat-right-now/</loc>
     <lastmod>2011-07-06T19:05:06+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/06/hurrah-d-link-brings-the-boxee-box-remote-to-pc/</loc>
     <lastmod>2011-07-06T18:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/06/just-discovered-vmware-unity-standalone-ubuntu-windows-in-windows-7/</loc>
     <lastmod>2011-07-06T13:37:19+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/05/dermot-casey-at-ignite-dublin-7-great-talk-on-education/</loc>
     <lastmod>2011-07-05T14:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/03/the-627000th-post-on-google-this-week/</loc>
     <lastmod>2011-07-03T12:46:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/07/02/today-i-attic-ed-some-of-my-favourite-old-tech/</loc>
     <lastmod>2011-07-02T20:22:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/29/android-running-perfectly-on-an-eeepc-netbook-totally-mad/</loc>
     <lastmod>2011-06-29T14:56:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/29/google-takeout-why-you-can-still-love-a-multi-bn-corporation/</loc>
     <lastmod>2011-06-29T13:13:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/28/ah-come-onnnn-google-you-gotta-be-kidding-me-google-incompatible/</loc>
     <lastmod>2011-06-28T19:40:01+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/28/my-first-encounter-with-google-not-exactly-what-i-had-hoped-for/</loc>
     <lastmod>2011-06-28T18:55:22+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/25/turntable-fm-blocks-access-outside-the-us-nooooooooooooooooo/</loc>
     <lastmod>2011-06-25T17:45:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/25/a-few-quick-thoughts-on-google-health-being-canned/</loc>
     <lastmod>2011-06-25T17:08:57+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/16/ibm100-icons-of-progress/</loc>
     <lastmod>2011-06-16T17:47:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/16/ive-never-met-an-engineer-who-could-turn-their-hand-to-business/</loc>
     <lastmod>2011-06-16T09:39:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/15/greatest-browser-extension-ever-cloud-save/</loc>
     <lastmod>2011-06-15T13:59:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/15/go-the-fuck-to-sleep-is-free-on-audible-at-the-moment/</loc>
     <lastmod>2011-06-15T11:11:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/14/some-day-i-want-to-make-a-promo-video-this-good-swype-3-0/</loc>
     <lastmod>2011-06-14T09:21:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/11/my-next-radio-aint-a-radio/</loc>
     <lastmod>2011-06-11T15:20:25+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/10/12-key-social-media-strategies-to-grow-your-turntable-fm-fan-base/</loc>
     <lastmod>2011-06-10T09:05:57+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/08/and-people-thought-i-was-kidding-about-the-spaceship/</loc>
     <lastmod>2011-06-08T08:18:42+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/07/some-of-the-new-touchpad-gestures-in-os-x-lion/</loc>
     <lastmod>2011-06-07T00:24:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/06/17-years-of-cork-ancestral-project-nothing-online/</loc>
     <lastmod>2011-06-06T12:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/06/facebook-like-facebook-credits-workable-micro-payments/</loc>
     <lastmod>2011-06-06T11:29:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/05/stephen-colbert-apologizes-to-all-of-ireland/</loc>
     <lastmod>2011-06-05T20:31:43+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/03/google-app-inventor-just-had-a-rocket-strapped-to-its-back/</loc>
     <lastmod>2011-06-03T11:58:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/03/migrating-google-rich-snippets-to-schema-org/</loc>
     <lastmod>2011-06-03T11:46:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/02/schema-org-about-bloody-time/</loc>
     <lastmod>2011-06-02T19:53:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/02/anyone-working-on-creative-commons-school-books/</loc>
     <lastmod>2011-06-02T07:29:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/06/01/how-to-add-1-to-your-site-oh-and-google-places-api-note/</loc>
     <lastmod>2011-06-01T18:59:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/30/watching-the-crazy-route-of-a-kindle-from-usa-to-cork/</loc>
     <lastmod>2011-05-30T10:26:12+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/30/i-think-i-can-wait-until-christmas-to-get-a-tablet-nvidia-kal-el-demo/</loc>
     <lastmod>2011-05-30T09:12:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/28/swiftkey-x-instantly-the-best-on-screen-android-keyboard/</loc>
     <lastmod>2011-05-28T14:53:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/26/orson-scott-card-comments-about-enders-game-on-amazon/</loc>
     <lastmod>2011-05-26T10:48:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/25/inexpensive-android-open-accessory-kit/</loc>
     <lastmod>2011-05-25T12:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/25/slight-screw-up-by-facebook-in-move-to-https/</loc>
     <lastmod>2011-05-25T11:19:56+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/08/bye-bye-boxee-for-now/</loc>
     <lastmod>2011-05-08T20:09:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/08/26-years-of-word-processors-missing-the-bleedin-obvious/</loc>
     <lastmod>2011-05-08T17:13:28+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/08/reasons-why-2011-is-starting-to-feel-like-1999/</loc>
     <lastmod>2011-05-08T11:57:51+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/05/21st-century-milkman/</loc>
     <lastmod>2011-05-05T08:44:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/04/automatically-backup-your-wordpress-site-to-dropbox/</loc>
     <lastmod>2011-05-04T18:39:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/04/oi-google-i-want-my-extra-free-e11-15/</loc>
     <lastmod>2011-05-04T18:30:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/04/does-skype-hate-its-customers/</loc>
     <lastmod>2011-05-04T07:55:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/05/02/my-ever-decreasing-list-of-desktop-apps/</loc>
     <lastmod>2011-05-02T14:40:08+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/27/google-docs-on-android-is-here/</loc>
     <lastmod>2011-04-27T17:46:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/14/the-happy-foot-co-is-feeding-my-vffs-addiction/</loc>
     <lastmod>2011-04-14T13:53:08+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/13/multiple-skype-accounts-on-one-pc/</loc>
     <lastmod>2011-04-13T16:48:29+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/13/eircom-vodafoneireland-and-others-need-twitter-status-accounts/</loc>
     <lastmod>2011-04-13T13:28:08+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/11/who-needs-a-mac-when-you-have-macbuntu-and-a-paintbrush/</loc>
     <lastmod>2011-04-11T21:51:52+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/11/see-amazon-i-want-to-give-you-my-money/</loc>
     <lastmod>2011-04-11T18:53:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/11/make-an-image-of-a-live-xp-machine-and-then-run-it-elsewhere/</loc>
     <lastmod>2011-04-11T14:07:24+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/10/what-new-irish-government-minister-has-been-tasked-with-open-government/</loc>
     <lastmod>2011-04-10T19:10:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/10/im-not-a-visual-person-but/</loc>
     <lastmod>2011-04-10T17:20:38+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/08/ioio-for-android-hardware-hackers-delight/</loc>
     <lastmod>2011-04-08T16:27:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/07/linkedin-on-android-is-rather-nice/</loc>
     <lastmod>2011-04-07T17:33:43+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/07/imagine-if-facebook-events-allowed-apps-for-tv-shows/</loc>
     <lastmod>2011-04-07T15:46:35+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/04/google-to-improve-gmail-ads/</loc>
     <lastmod>2011-04-04T17:32:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/02/zx-spectrum-tablet-on-the-way/</loc>
     <lastmod>2011-04-02T17:14:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/04/02/using-the-amazon-appstore-from-outside-the-us-including-paid-apps-android-modaco/</loc>
     <lastmod>2011-04-02T16:58:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/31/anyone-else-seeing-facebook-likes-incorrectly-attributed-to-them/</loc>
     <lastmod>2011-03-31T10:36:21+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/30/of-course-you-know-what-were-all-racing-to-do-with-google-1-right-now/</loc>
     <lastmod>2011-03-30T19:59:19+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/29/amazon-launches-yankee-doodle-dandy-cloud-player/</loc>
     <lastmod>2011-03-29T07:14:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/27/got-a-facebook-app-now-you-have-to-go-get-an-ssl-cert/</loc>
     <lastmod>2011-03-27T18:42:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/27/zoho-crm-integration-into-google-apps-just-got-even-better/</loc>
     <lastmod>2011-03-27T18:32:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/27/vibram-fivefingers-cult-member-after-2-weeks-vff/</loc>
     <lastmod>2011-03-27T14:56:47+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/27/possible-alternative-to-my-hdvp-2-media-player-patriot-box-office-1080p/</loc>
     <lastmod>2011-03-27T10:41:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/26/gingerbread-running-on-old-g1/</loc>
     <lastmod>2011-03-26T17:48:54+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/25/google-be-very-scared-paypal-search-is-spookily-brilliant/</loc>
     <lastmod>2011-03-25T16:30:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/25/irish-blog-awards-coda/</loc>
     <lastmod>2011-03-25T10:30:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/25/loving-the-sexy-new-cover-on-my-ipad2/</loc>
     <lastmod>2011-03-25T10:21:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/24/very-cool-inkscape-can-import-a-pdf-so-you-can-edit-it/</loc>
     <lastmod>2011-03-24T18:07:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/23/rte-radio-launches-its-first-android-apps-install-them-now/</loc>
     <lastmod>2011-03-23T18:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/23/what-a-google-appinventor-app-looks-like-on-an-archos-tablet/</loc>
     <lastmod>2011-03-23T08:42:08+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/22/the-utter-imbecilic-brain-dead-stupidity-of-the-amazon-app-store-for-android/</loc>
     <lastmod>2011-03-22T17:53:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/20/the-joy-of-the-irish-blog-awards-iba11-is-finding-things-like-this/</loc>
     <lastmod>2011-03-20T13:19:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/20/has-the-horror-of-upgrading-windows-on-your-sage-machine-improved/</loc>
     <lastmod>2011-03-20T12:45:18+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/20/today-matthew-im-going-to-be-sally-field-iba11/</loc>
     <lastmod>2011-03-20T11:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/19/any-opinions-on-15-4-laptops/</loc>
     <lastmod>2011-03-19T14:45:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/18/avoid-wittertainment-loss-install-doubletwist-on-android/</loc>
     <lastmod>2011-03-18T17:54:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/18/alienate-yourself/</loc>
     <lastmod>2011-03-18T13:32:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/15/check-out-those-sexy-pin-pegs/</loc>
     <lastmod>2011-03-15T08:23:19+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/09/brace-yourself-belfast-here-we-come/</loc>
     <lastmod>2011-03-09T14:48:19+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/06/oscars-first-android-game-via-app-inventor/</loc>
     <lastmod>2011-03-06T20:17:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/06/google-appinventor-for-android-is-a-massive-hit-with-11-yo-son/</loc>
     <lastmod>2011-03-06T14:54:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/06/monitoring-ec2-servers-with-zabbix/</loc>
     <lastmod>2011-03-06T12:16:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/02/oi-posterous-fix-this-please-what-is-a-liquid-error/</loc>
     <lastmod>2011-03-02T17:15:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/02/ascii-star-wars-via-telnet/</loc>
     <lastmod>2011-03-02T15:09:23+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/03/01/google-cloud-picker-new/</loc>
     <lastmod>2011-03-01T12:08:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/27/xbox-360-wireless-on-the-cheap/</loc>
     <lastmod>2011-02-27T20:17:31+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/27/omg-has-apple-bought-google/</loc>
     <lastmod>2011-02-27T13:02:54+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/26/how-well-watch-election-counts-from-now-on-ge11/</loc>
     <lastmod>2011-02-26T11:49:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/23/standing-desk-update/</loc>
     <lastmod>2011-02-23T16:07:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/23/is-google-insane-blocking-facebook-contacts-sync-on-nexus-s/</loc>
     <lastmod>2011-02-23T09:38:58+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/19/how-to-get-a-us-phone-number-for-your-irish-business-for-free/</loc>
     <lastmod>2011-02-19T17:12:59+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/18/maybe-those-google-adwords-vouchers-can-avoid-being-wasted/</loc>
     <lastmod>2011-02-18T09:47:08+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/18/google-delicious-importer-tool-but-which-google-bookmarks/</loc>
     <lastmod>2011-02-18T09:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/17/dear-sky-dont-threaten-me/</loc>
     <lastmod>2011-02-17T09:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/14/well-thats-my-next-avatar-sorted-androidify/</loc>
     <lastmod>2011-02-14T10:13:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/13/google-places-problem-riddled-vs-facebook-places-doing-it-right/</loc>
     <lastmod>2011-02-13T13:16:42+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/11/just-got-my-first-ever-500-error-from-youtube/</loc>
     <lastmod>2011-02-11T14:43:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/11/one-guy-in-netherlands-vs-nokiamicrosoft/</loc>
     <lastmod>2011-02-11T13:31:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/11/developers-developers-developers-nokia-windows-phone-7/</loc>
     <lastmod>2011-02-11T09:40:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/06/sorry-foursquare-forget-europe-facebook-wins/</loc>
     <lastmod>2011-02-06T14:59:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/06/my-368-days-of-posterous-the-stats/</loc>
     <lastmod>2011-02-06T12:27:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/06/sugru-shoes/</loc>
     <lastmod>2011-02-06T11:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/05/a-new-lease-of-life-for-the-nokia-n95-8gb/</loc>
     <lastmod>2011-02-05T14:42:14+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/05/oops-a-bit-late-irish-blog-awards-nominations-open/</loc>
     <lastmod>2011-02-05T12:54:01+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/02/04/facebook-places-check-ins-in-ireland-really-kicking-off/</loc>
     <lastmod>2011-02-04T13:30:20+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/26/introducing-curation-by-me-a-simple-tool-to-filter-twitter-lists/</loc>
     <lastmod>2011-01-26T20:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/23/why-does-posterous-multiply-my-pageviews-by-22/</loc>
     <lastmod>2011-01-23T19:29:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/23/i-need-self-curated-news-for-the-irish-general-election-ge11/</loc>
     <lastmod>2011-01-23T19:16:18+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/23/hexapod-monster-great-apart-from-the-soldering/</loc>
     <lastmod>2011-01-23T12:39:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/20/from-zero-to-web2ireland-using-wordpress-on-digital-mines-in-15-mins/</loc>
     <lastmod>2011-01-20T17:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/19/can-anyone-remember-the-name-of-this-phone-testing-tool/</loc>
     <lastmod>2011-01-19T10:55:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/17/i-look-a-bit-like-a-mentalist-with-this-standing-desk-setup/</loc>
     <lastmod>2011-01-17T16:40:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/16/o2-hsdpa-with-19-signal-faster-than-7mbs-eircom-adsl-at-night-in-ireland/</loc>
     <lastmod>2011-01-16T21:10:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/16/tweetcaster-first-twitter-android-app-with-decent-filters/</loc>
     <lastmod>2011-01-16T19:22:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/16/joystick-it-tablet-arcade-stick-have-to-have/</loc>
     <lastmod>2011-01-16T19:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/08/parrot-asteroid-i-want-something-even-simpler-again/</loc>
     <lastmod>2011-01-08T11:03:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/07/die-die-die-discussion-board-software-die/</loc>
     <lastmod>2011-01-07T19:58:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/07/play-your-video-files-in-google-docs/</loc>
     <lastmod>2011-01-07T17:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/07/sorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp/</loc>
     <lastmod>2011-01-07T10:18:42+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2011/01/06/time-for-some-car-gadgets-on-this-blog-pneumatics-ftw/</loc>
     <lastmod>2011-01-06T19:16:03+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/30/time-for-terror/</loc>
     <lastmod>2010-12-30T15:09:39+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/29/what-the-hell-ever-happened-to-twitter-annotations/</loc>
     <lastmod>2010-12-29T13:43:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/22/could-skype-build-a-twitter-competitor/</loc>
     <lastmod>2010-12-22T21:01:10+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/22/new-hedge-fund-uses-twitter-to-pick-stocks/</loc>
     <lastmod>2010-12-22T19:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/21/kids-countdown-to-track-santa-with-norad/</loc>
     <lastmod>2010-12-21T16:47:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/21/swype-beta-re-opened/</loc>
     <lastmod>2010-12-21T03:22:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/20/finally-found-the-perfect-place-for-my-yahoo-sticker/</loc>
     <lastmod>2010-12-20T19:53:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/20/android-gingerbread-running-on-my-htc-desire/</loc>
     <lastmod>2010-12-20T12:40:12+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/20/how-the-opensource-community-saved-a-piece-of-crap-device/</loc>
     <lastmod>2010-12-20T10:22:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/16/android-bing-tastic/</loc>
     <lastmod>2010-12-16T13:32:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/16/i-was-all-excited-about-mapquest-open-for-about-30-seconds/</loc>
     <lastmod>2010-12-16T13:28:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/16/this-season-ill-be-mostly-wearing-bing/</loc>
     <lastmod>2010-12-16T10:21:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/15/ad-distracts-me-from-time-story/</loc>
     <lastmod>2010-12-15T20:04:51+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/06/nexus-s-no-headphone-jack-this-has-to-be-a-typo-right/</loc>
     <lastmod>2010-12-06T16:18:56+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/06/android-2-3-details-announced/</loc>
     <lastmod>2010-12-06T16:02:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/06/oh-here-we-go-again-with-android-ebookstore-and-country-specific-crap/</loc>
     <lastmod>2010-12-06T15:37:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/05/could-bond-traders-use-twitter/</loc>
     <lastmod>2010-12-05T10:54:44+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/04/streaming-videos-to-your-android-phone/</loc>
     <lastmod>2010-12-04T14:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/04/starting-important-downloads-when-out-and-about/</loc>
     <lastmod>2010-12-04T11:59:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/12/04/dear-posterous-please-fix-media-upload-from-chrome/</loc>
     <lastmod>2010-12-04T11:57:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/28/sony-ericsson-liveview-calculator-watch-2-0/</loc>
     <lastmod>2010-11-28T11:54:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/28/i-need-boxee-for-families/</loc>
     <lastmod>2010-11-28T11:46:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/27/virtual-hurling-with-the-xbox-kinect/</loc>
     <lastmod>2010-11-27T19:19:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/27/i-had-to-buy-cracking-contraptions-today/</loc>
     <lastmod>2010-11-27T19:10:38+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/25/omffg-angry-birds-on-a-50-screen/</loc>
     <lastmod>2010-11-25T14:03:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/25/wantsies-angry-birds-on-the-advent-vega-android-tablet/</loc>
     <lastmod>2010-11-25T13:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/22/genus-aves-iratus-angry-birds/</loc>
     <lastmod>2010-11-22T10:44:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/21/loo-books/</loc>
     <lastmod>2010-11-21T15:08:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/20/google-account-transition-argggghhhhhhhh/</loc>
     <lastmod>2010-11-20T16:32:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/16/the-big-problem-with-google-places-and-now-hotpot/</loc>
     <lastmod>2010-11-16T11:04:08+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/15/google-calendar-borked/</loc>
     <lastmod>2010-11-15T17:00:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/15/you-want-one-you-know-you-do/</loc>
     <lastmod>2010-11-15T14:08:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/15/gmail-killer-no-way-in-hell/</loc>
     <lastmod>2010-11-15T11:14:05+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/13/android-fanboi-aged-72/</loc>
     <lastmod>2010-11-13T13:17:16+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/13/my-latest-sugru-invention/</loc>
     <lastmod>2010-11-13T12:36:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/12/finally-an-update-to-swype/</loc>
     <lastmod>2010-11-12T12:38:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/12/greatest-cake-evah/</loc>
     <lastmod>2010-11-12T12:36:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/12/rte-should-mark-this-day/</loc>
     <lastmod>2010-11-12T09:50:37+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/09/what-browsing-the-web-using-rockmelt-feels-like/</loc>
     <lastmod>2010-11-09T06:57:27+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/04/love-it-how-iphone-android-and-blackberry-users-see-each-other/</loc>
     <lastmod>2010-11-04T18:28:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/11/03/sharing-family-videos-using-amazon-cloudfront-cloudberry-jwplayer-and-wordpress/</loc>
     <lastmod>2010-11-03T17:15:44+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/10/29/the-importance-of-interfaces/</loc>
     <lastmod>2010-10-29T07:58:56+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/10/28/htc-desire-playing-nice-with-igo-stowaway-keyboard/</loc>
     <lastmod>2010-10-28T16:37:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/10/19/has-group-buying-jumped-the-shark/</loc>
     <lastmod>2010-10-19T10:40:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/10/12/interesting-way-to-order-impossible-things-from-abroad/</loc>
     <lastmod>2010-10-12T23:05:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/10/12/a-tablet-id-actually-buy/</loc>
     <lastmod>2010-10-12T22:42:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/10/08/and-yea-verily-did-the-paid-apps-magically-appear-on-the-honourable-conors-android-phone/</loc>
     <lastmod>2010-10-08T00:43:03+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/10/07/give-me-your-seed/</loc>
     <lastmod>2010-10-07T13:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/10/07/last-nights-apprentice-uk-reminded-me-of-these/</loc>
     <lastmod>2010-10-07T09:54:25+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/09/30/about-bloody-time-android-more-countries-more-sellers-more-buyers/</loc>
     <lastmod>2010-09-30T21:23:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/09/30/any-thoughts-on-this-as-a-half-marathon-playlist/</loc>
     <lastmod>2010-09-30T16:49:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/09/29/incredible-a-kick-ass-android-phone-for-99-payg/</loc>
     <lastmod>2010-09-29T16:52:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/09/25/paid-apps-in-android-market-in-ireland-sorta/</loc>
     <lastmod>2010-09-25T10:16:29+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/09/24/n8-contest-nokia-cant-even-get-that-right/</loc>
     <lastmod>2010-09-24T09:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/09/16/google-buzz-team-nearly-gets-it-right/</loc>
     <lastmod>2010-09-16T09:38:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/09/15/accessing-amazon-rds-instances-from-your-desktop/</loc>
     <lastmod>2010-09-15T14:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/09/10/our-house-media-sharing-setup/</loc>
     <lastmod>2010-09-10T13:12:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/09/08/how-to-browse-windows-7-shares-from-ubuntu-when-it-suddenly-stops-working/</loc>
     <lastmod>2010-09-08T20:04:11+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/08/31/could-ubercab-work-in-ireland/</loc>
     <lastmod>2010-08-31T10:02:14+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/08/27/another-reason-to-love-boxee-on-your-tv/</loc>
     <lastmod>2010-08-27T09:03:47+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/08/23/getting-openvpn-working-on-android/</loc>
     <lastmod>2010-08-23T07:52:08+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/08/22/android-not-suitable-for-the-enterprise/</loc>
     <lastmod>2010-08-22T15:51:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/08/20/facebook-places-is-a-total-winner/</loc>
     <lastmod>2010-08-20T18:54:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/08/19/very-quick-thoughts-on-facebook-places/</loc>
     <lastmod>2010-08-19T08:44:29+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/08/15/the-next-big-battle-google-places-vs-facebook-fan-pages/</loc>
     <lastmod>2010-08-15T19:12:18+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/08/04/super-smart-use-of-android-portable-hotspot-from-11-yo-son/</loc>
     <lastmod>2010-08-04T17:16:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/28/really-amazon-my-facebook-friends-like-monty-python-wow/</loc>
     <lastmod>2010-07-28T09:53:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/27/android-gets-it-own-sky-app-pocket-lint/</loc>
     <lastmod>2010-07-27T11:23:25+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/27/bugatti-stealing-my-sugru-design-concepts/</loc>
     <lastmod>2010-07-27T10:58:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/27/lovely-brabantia-bin-sugru-to-the-rescue/</loc>
     <lastmod>2010-07-27T09:11:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/27/froyo-running-on-htc-g1/</loc>
     <lastmod>2010-07-27T08:56:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/25/second-sugru-hack-sky-remote/</loc>
     <lastmod>2010-07-25T12:44:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/17/quick-thoughts-on-the-new-digg/</loc>
     <lastmod>2010-07-17T12:51:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/16/imagine-if-the-iphone-4-was-a-porsche-911/</loc>
     <lastmod>2010-07-16T18:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/12/this-week-ill-be-mostly-calling-myself-dr-strangelove/</loc>
     <lastmod>2010-07-12T07:24:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/09/froyo-running-on-my-htc-desire/</loc>
     <lastmod>2010-07-09T18:38:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/09/seriously-unimpressed-with-wavesecures-purchase-page/</loc>
     <lastmod>2010-07-09T08:38:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/08/analogue-tv-rip-no-of-course-its-not-ireland/</loc>
     <lastmod>2010-07-08T08:43:54+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/07/twitter-forgets-to-register-earlybird_uk-earlybird-uk-earlybird_irl-earlybird_ire/</loc>
     <lastmod>2010-07-07T09:12:40+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/07/business-priorities-vs-customer-needs/</loc>
     <lastmod>2010-07-07T08:40:17+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/06/googles-most-infuriating-feature-finally-about-to-be-fixed/</loc>
     <lastmod>2010-07-06T08:45:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/05/i-think-ratbert-should-be-head-of-nama-and-anglo-and-and/</loc>
     <lastmod>2010-07-05T13:25:19+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/03/ryanair-europes-healthiest-airline/</loc>
     <lastmod>2010-07-03T12:30:17+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/03/yahoo-launched-three-applications-for-android-yesterday-cancelled-them-today/</loc>
     <lastmod>2010-07-03T11:29:10+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/02/and-now-for-the-woot-we-got-acquired-by-amazon-rap-video/</loc>
     <lastmod>2010-07-02T07:47:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/01/woot-ceo-writes-greatest-post-acquisition-employee-email-of-all-time/</loc>
     <lastmod>2010-07-01T15:41:56+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/01/wow-symbian-guru-give-up-on-nokia-goes-android/</loc>
     <lastmod>2010-07-01T15:12:52+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/07/01/old-spice-man-is-back-and-hes-fabulous/</loc>
     <lastmod>2010-07-01T10:02:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/28/how-do-you-hold-your-nokia/</loc>
     <lastmod>2010-06-28T13:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/27/my-first-sugru-hack-the-elc-toy-train-track/</loc>
     <lastmod>2010-06-27T10:58:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/27/stung-by-criticism-of-the-new-iphone-steve-jobs-opens-a-new-apple-store-in-palo-alto/</loc>
     <lastmod>2010-06-27T10:48:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/25/the-return-of-sidetalking-or-cocked-pinkies/</loc>
     <lastmod>2010-06-25T07:42:12+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/23/facebook-twitter-foursquare-gowalla-and-latitude/</loc>
     <lastmod>2010-06-23T07:22:23+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/19/anchor-made-by-cows-is-the-work-of-an-evil-genius/</loc>
     <lastmod>2010-06-19T15:40:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/19/and-so-the-countdown-to-twitter-suspension-begins/</loc>
     <lastmod>2010-06-19T10:00:51+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/19/cant-we-do-threaded-conversations-on-twitter-now/</loc>
     <lastmod>2010-06-19T09:39:48+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/16/amazing-swype-virtual-keyboard-for-android-better-quality-video/</loc>
     <lastmod>2010-06-16T19:28:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/11/honestly-this-world-cup-tweetdeck-filter-is-so-good-i-will-never-see-this-post/</loc>
     <lastmod>2010-06-11T17:08:03+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/11/tweetdeck-world-cup-filter-youre-welcome/</loc>
     <lastmod>2010-06-11T09:46:25+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/10/one-of-the-many-reasons-i-love-zoho-crm/</loc>
     <lastmod>2010-06-10T10:26:35+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/09/some-htc-desire-problems/</loc>
     <lastmod>2010-06-09T17:59:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/08/i-dont-think-its-possible-to-love-jane-lynch-more-than-i-do-now/</loc>
     <lastmod>2010-06-08T09:32:58+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/08/i-propose-mike-arrington-for-the-position-of-cto-of-ireland/</loc>
     <lastmod>2010-06-08T08:54:23+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/07/the-key-things-you-need-to-know-about-the-new-ios-4/</loc>
     <lastmod>2010-06-07T20:25:42+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/07/android-crashes-wwdc-love-the-song/</loc>
     <lastmod>2010-06-07T16:03:37+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/06/03/ulster-bank-now-using-visa-debit-cards-instead-of-laser-cheaper-ryanair/</loc>
     <lastmod>2010-06-03T09:47:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/29/conors-patented-saturday-eurovision-filter/</loc>
     <lastmod>2010-05-29T12:28:35+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/29/tweetdeck-sports-filter-update/</loc>
     <lastmod>2010-05-29T11:31:09+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/26/paid-apps-imminent-for-android-in-ireland/</loc>
     <lastmod>2010-05-26T21:57:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/26/adblock-on-chrome-enabling-insertion-of-invisible-spam-into-zoho-crm-e-mail-signatures/</loc>
     <lastmod>2010-05-26T14:41:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/25/bloody-brilliant-move-by-profounders-capital-open-office-hours/</loc>
     <lastmod>2010-05-25T13:32:21+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/23/want-to-see-how-the-new-google-vp8-video-looks/</loc>
     <lastmod>2010-05-23T10:55:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/22/the-most-important-scientific-breakthrough-in-human-history/</loc>
     <lastmod>2010-05-22T19:53:22+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/22/i-need-help-with-my-tweetdeck-weekend-sports-filter/</loc>
     <lastmod>2010-05-22T11:35:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/20/google-vp8-video-and-current-phones-whats-the-story/</loc>
     <lastmod>2010-05-20T10:06:25+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/19/google-io-expect-lots-of-news/</loc>
     <lastmod>2010-05-19T09:07:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/19/facebook-puts-a-wooden-stake-through-orkuts-heart/</loc>
     <lastmod>2010-05-19T08:55:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/18/the-scary-thing-is-you-know-someone-in-google-is-testing-this/</loc>
     <lastmod>2010-05-18T10:02:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/14/i-told-ya-anssi-vanjoki-was-da-man/</loc>
     <lastmod>2010-05-14T11:06:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/12/a-key-point-from-jason-own-your-data/</loc>
     <lastmod>2010-05-12T18:37:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/11/im-no-fan-of-flash-but/</loc>
     <lastmod>2010-05-11T16:19:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/11/my-laugh-out-loud-moment-today/</loc>
     <lastmod>2010-05-11T14:21:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/11/location-based-marketing-ireland-and-foursquare/</loc>
     <lastmod>2010-05-11T08:49:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/05/converting-video-avis-for-use-on-htc-desire-and-nexus-one/</loc>
     <lastmod>2010-05-05T12:42:17+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/04/jibjab-re-creates-the-original-star-wars-trilogy-now-starring-your-friends/</loc>
     <lastmod>2010-05-04T09:26:29+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/04/the-condom-train-returns/</loc>
     <lastmod>2010-05-04T08:48:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/02/nokia-so-long-farewell-auf-wiedersehen-hyvasti/</loc>
     <lastmod>2010-05-02T10:52:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/05/02/dear-vodafonemeteoro2-please-give-google-a-hard-slap-from-irish-android-owners/</loc>
     <lastmod>2010-05-02T09:56:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/26/techcrunch-tv-making-me-tingle/</loc>
     <lastmod>2010-04-26T12:21:08+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/25/irish-startups-need-to-sign-the-petition-to-stop-this-right-now/</loc>
     <lastmod>2010-04-25T15:00:08+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/22/android-is-now-perfectly-complete/</loc>
     <lastmod>2010-04-22T08:26:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/22/facebook-ads-suddenly-got-a-lot-more-powerful/</loc>
     <lastmod>2010-04-22T07:08:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/22/get-a-proper-os-for-your-iphone/</loc>
     <lastmod>2010-04-22T06:54:28+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/21/scorpios/</loc>
     <lastmod>2010-04-21T09:24:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/17/child-abuse-and-cover-ups-are-about-power/</loc>
     <lastmod>2010-04-17T12:21:15+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/16/dontate-to-catherine-oneills-flora-womens-mini-marathon-2010/</loc>
     <lastmod>2010-04-16T08:46:30+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/15/fowa-dublin-2010-startup-pass/</loc>
     <lastmod>2010-04-15T16:14:49+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/15/american-the-bill-hicks-story-in-ifi-tomorrow-go/</loc>
     <lastmod>2010-04-15T07:44:17+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/14/google-filling-the-gaps-in-twitter-too-but-replay-is-awesome/</loc>
     <lastmod>2010-04-14T15:33:58+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/14/apple-delaying-ipad-by-1-month-to-add-following-tweaks/</loc>
     <lastmod>2010-04-14T13:57:26+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/12/grant-benefit-of-basing-bes-backed-business-in-west-cork/</loc>
     <lastmod>2010-04-12T14:22:37+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/12/plink-is-joining-google-plinkart-blog/</loc>
     <lastmod>2010-04-12T12:32:31+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/12/vote-in-the-irish-internet-association-net-visionary-awards/</loc>
     <lastmod>2010-04-12T10:58:40+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/12/ny-times-review-of-treme/</loc>
     <lastmod>2010-04-12T08:09:19+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/10/my-mobile-broadband-setup-due-to-eircoms-uselessness/</loc>
     <lastmod>2010-04-10T18:10:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/10/twitter-tackling-potential-spamabuse-hard/</loc>
     <lastmod>2010-04-10T11:38:21+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/09/awesome-posterous-unveils-post-editor-2-0/</loc>
     <lastmod>2010-04-09T19:40:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/09/well-miss-you-guy-kewney/</loc>
     <lastmod>2010-04-09T06:49:03+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/07/map-of-dublin-1798/</loc>
     <lastmod>2010-04-07T18:50:19+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/06/nokia-shafts-millions-of-n95-and-n95-8gb-users/</loc>
     <lastmod>2010-04-06T14:15:40+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/04/04/android-need-some-hardware-standards/</loc>
     <lastmod>2010-04-04T18:10:52+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/31/innovation-inspiration-ideation-workshops-with-cork-open-coffee-and-ycyc/</loc>
     <lastmod>2010-03-31T17:48:20+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/31/jumpbox-open-source-as-a-service-on-amazon-ec2/</loc>
     <lastmod>2010-03-31T09:40:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/31/htc-desire-android-phone-coming-soon-to-vodafone-ireland/</loc>
     <lastmod>2010-03-31T08:28:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/30/business-boot-camp-sign-up-now/</loc>
     <lastmod>2010-03-30T12:07:18+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/30/keynoir-launches/</loc>
     <lastmod>2010-03-30T10:36:21+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/30/oi-nokia-im-still-waiting-for-my-free-ovi-maps/</loc>
     <lastmod>2010-03-30T09:43:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/28/demand-led-innovation-workshops/</loc>
     <lastmod>2010-03-28T19:39:36+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/24/teic-ie-xperia-x10-to-be-available-on-o2-next-month/</loc>
     <lastmod>2010-03-24T16:05:04+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/23/the-daily-mash-masterchef-upgraded-to-class-b-drug/</loc>
     <lastmod>2010-03-23T10:02:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/23/how-useless-is-google-buzz-this-useless/</loc>
     <lastmod>2010-03-23T08:27:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/22/save-a-packet-on-o2-mobile-broadband-cancel-and-re-subscribe/</loc>
     <lastmod>2010-03-22T09:16:03+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/20/colm-ogormans-response-to-ratzingers-it-was-all-someone-elses-fault/</loc>
     <lastmod>2010-03-20T18:21:37+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/19/quick-conoroneill-net-stattos/</loc>
     <lastmod>2010-03-19T10:56:52+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/19/yahoo-launches-blah-blah-blah-and-then-cancels-it-18-months-later/</loc>
     <lastmod>2010-03-19T08:44:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/19/praise-allah-chris-morris-is-back-and-hes-packing/</loc>
     <lastmod>2010-03-19T06:50:33+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/18/how-dead-is-buzz-this-dead/</loc>
     <lastmod>2010-03-18T10:08:17+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/18/huawei-dongle-with-external-antenna-is-in-da-house/</loc>
     <lastmod>2010-03-18T09:42:18+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/18/die-black-uis-die-die-die/</loc>
     <lastmod>2010-03-18T09:19:10+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/16/imagine-if-bill-was-still-alive-and-living-in-ireland/</loc>
     <lastmod>2010-03-16T19:06:01+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/16/a-stench-of-evil-starting-at-the-top/</loc>
     <lastmod>2010-03-16T08:04:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/13/streaming-video-to-kids-in-car-the-video/</loc>
     <lastmod>2010-03-13T11:28:39+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/13/twitter-hates-its-irish-users/</loc>
     <lastmod>2010-03-13T08:16:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/11/screw-ideas-part-ii-its-still-all-about-execution/</loc>
     <lastmod>2010-03-11T18:41:52+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/10/the-three-es-execution-execution-and-execution/</loc>
     <lastmod>2010-03-10T10:10:38+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/07/update-on-mobile-broadband-external-antenna/</loc>
     <lastmod>2010-03-07T18:50:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/05/cloud-computing-storm-the-blind-leading-the-blind/</loc>
     <lastmod>2010-03-05T16:26:04+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/05/if-old-spice-made-ads-for-apple/</loc>
     <lastmod>2010-03-05T14:51:37+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/01/no-no-no-no-one-can-play-jim-rockford-except-james-garner/</loc>
     <lastmod>2010-03-01T16:21:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/01/you-know-youre-a-geek-when-this-man-was-your-childhood-hero/</loc>
     <lastmod>2010-03-01T15:17:46+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/01/an-oldie-but-a-goodie-venture-capitalist-t-shirts/</loc>
     <lastmod>2010-03-01T15:07:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/03/01/think-the-ipad-is-amazing-the-epad-is-amazinger/</loc>
     <lastmod>2010-03-01T09:12:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/25/twitter-jfk__1960-the-key-to-the-future-is/</loc>
     <lastmod>2010-02-25T16:19:33+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/25/well-if-padma-likes-foursquare/</loc>
     <lastmod>2010-02-25T08:06:52+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/24/holy-crap-paul-carr-re-invents-patronage/</loc>
     <lastmod>2010-02-24T17:21:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/24/good-response-from-the-lastpass-guys-to-their-outage/</loc>
     <lastmod>2010-02-24T16:21:41+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/24/i-could-honestly-listen-to-anssi-vanjoki-speak-all-day/</loc>
     <lastmod>2010-02-24T13:43:12+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/24/the-web-tools-we-cant-live-without-in-loudervoice/</loc>
     <lastmod>2010-02-24T09:16:04+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/23/how-do-you-get-your-irish-web-business-news/</loc>
     <lastmod>2010-02-23T12:16:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/22/huge-mistake-by-google-with-earth-on-android/</loc>
     <lastmod>2010-02-22T21:13:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/22/p-o-i-n-t-n-u-m-b-e-r-o-n-e/</loc>
     <lastmod>2010-02-22T18:04:08+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/22/androidspin-google-earth-debuts-on-android/</loc>
     <lastmod>2010-02-22T17:44:50+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/22/moonlight-needed-for-digital-media-awards-web-site/</loc>
     <lastmod>2010-02-22T16:44:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/22/mps-urge-government-to-stop-nhs-funding-and-mhra-licensing-of-homeopathy/</loc>
     <lastmod>2010-02-22T13:03:18+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/22/the-man-your-man-could-smell-like/</loc>
     <lastmod>2010-02-22T12:04:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/21/oscar-and-me-messing-with-phone-video-and-kino-video-editor/</loc>
     <lastmod>2010-02-21T13:19:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/20/bmw-5-series-old-or-new-for-my-da/</loc>
     <lastmod>2010-02-20T13:52:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/20/irish-blogs-are-dead-long-live-irish-blogs/</loc>
     <lastmod>2010-02-20T13:26:54+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/19/no-man-can-resist-this/</loc>
     <lastmod>2010-02-19T14:18:18+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/19/3678189-life-saving-tetanus-vaccines/</loc>
     <lastmod>2010-02-19T14:15:14+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/19/free-willie-a-friendship-you-could-never-imagine/</loc>
     <lastmod>2010-02-19T13:48:41+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/19/google-shopper-for-android-nice/</loc>
     <lastmod>2010-02-19T13:16:07+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/18/good-riddance-to-odea-now-couglan/</loc>
     <lastmod>2010-02-18T21:15:07+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/18/payg-data-effectively-4x-more-on-3irl-than-3uk-in-ireland/</loc>
     <lastmod>2010-02-18T19:48:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/18/unlock-that-old-broadband-modem-from-the-contract-you-cancelled/</loc>
     <lastmod>2010-02-18T14:47:35+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/17/your-country-your-call-love-the-idea/</loc>
     <lastmod>2010-02-17T17:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/17/another-opportunity-missed-by-old-school-media/</loc>
     <lastmod>2010-02-17T09:54:49+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/16/i-know-what-the-3-yo-is-getting-for-her-birthday-this-year/</loc>
     <lastmod>2010-02-16T20:41:59+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/16/half-maths-teachers-not-qualified/</loc>
     <lastmod>2010-02-16T14:39:30+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/16/google-buzz-team-stop-now/</loc>
     <lastmod>2010-02-16T14:10:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/16/british-bishops-as-congenitally-stupid-as-their-irish-peers/</loc>
     <lastmod>2010-02-16T13:15:50+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/16/dr-cooper-explains-how-new-buzz-messages-appear/</loc>
     <lastmod>2010-02-16T09:35:45+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/15/google-chromeos-flow-is-a-speedy-wee-thing/</loc>
     <lastmod>2010-02-15T19:58:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/15/heres-hoping-that-bunch-stay-in-rome/</loc>
     <lastmod>2010-02-15T19:10:52+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/15/teic-ie-irish-company-jivo-make-biodegradable-iphone-case/</loc>
     <lastmod>2010-02-15T14:00:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/15/i-will-not-vote-for-fianna-fail-again-as-long-as-mary-coughlan-is-in-cabinet/</loc>
     <lastmod>2010-02-15T12:48:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/15/nokia-fightin-back/</loc>
     <lastmod>2010-02-15T11:15:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/14/anyone-got-a-workflow-engine-for-wordpress/</loc>
     <lastmod>2010-02-14T20:14:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/14/pat-is-right-about-haiti-connect/</loc>
     <lastmod>2010-02-14T12:38:27+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/13/install-firefox-3-6-in-ubuntu-the-super-easy-way-using-ubuntuzilla-tech-drive/</loc>
     <lastmod>2010-02-13T20:59:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/13/kids-on-the-web-are-they-satisfied-with-virtual-worlds-and-games/</loc>
     <lastmod>2010-02-13T11:50:51+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/12/outraged-blogger-is-automatically-being-followed-by-her-abusive-ex-husband-on-google-buzz/</loc>
     <lastmod>2010-02-12T16:51:07+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/12/eirepreneurmobhaile-misgivings/</loc>
     <lastmod>2010-02-12T15:06:31+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/12/quite-clear-that-google-doesnt-understand-its-own-product-buzz/</loc>
     <lastmod>2010-02-12T07:52:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/11/just-bought-gravity-forms-for-wordpress/</loc>
     <lastmod>2010-02-11T16:34:55+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/11/buzz-reveals-googles-split-personality-pcworld-business-center/</loc>
     <lastmod>2010-02-11T15:53:20+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/11/if-the-nokia-n8-00-is-for-real-nokia-may-have-just-kept-me-as-a-customer/</loc>
     <lastmod>2010-02-11T14:43:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/11/deeply-satisfying-to-overclock-my-phone/</loc>
     <lastmod>2010-02-11T09:42:20+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/11/my-profile-on-google-buzz-is-but-i-aint-happy/</loc>
     <lastmod>2010-02-11T08:27:50+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/10/how-to-get-a-non-deadly-buzz-on/</loc>
     <lastmod>2010-02-10T09:04:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/09/google-buzz-on-mobile-what-latitude-should-have-been/</loc>
     <lastmod>2010-02-09T19:17:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/09/dodgeball-orkut-jaiku-latitude-spot-the-pattern/</loc>
     <lastmod>2010-02-09T18:13:54+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/09/wordpress-to-posterous-users-graduate-to-a-full-blog-eh-no/</loc>
     <lastmod>2010-02-09T18:04:25+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/09/the-next-facebook-developer-garage-ireland/</loc>
     <lastmod>2010-02-09T12:14:03+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/09/dave-barry-super-bowl-was-great-and-so-was-the-game/</loc>
     <lastmod>2010-02-09T11:44:48+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/09/they-had-me-at-foodie/</loc>
     <lastmod>2010-02-09T11:16:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/09/nokia-social-network-tool-on-s40-wtf/</loc>
     <lastmod>2010-02-09T11:05:31+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/09/ie-6-upgrade-petition-for-the-irish-government/</loc>
     <lastmod>2010-02-09T09:39:10+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/08/cloudsplit-real-time-cloud-analytics-real-time-spending-insight/</loc>
     <lastmod>2010-02-08T15:18:46+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/08/my-kinda-ad-from-the-goog/</loc>
     <lastmod>2010-02-08T14:47:43+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/08/lastpass-password-manager/</loc>
     <lastmod>2010-02-08T10:31:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/08/prejudice/</loc>
     <lastmod>2010-02-08T09:31:48+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/07/flash-html5-and-mobile-apps/</loc>
     <lastmod>2010-02-07T19:45:52+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/07/speeding-up-your-eircom-broadband/</loc>
     <lastmod>2010-02-07T12:16:30+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/07/cloud-kids/</loc>
     <lastmod>2010-02-07T10:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/07/that-lidl-car-stereo-i-mentioned/</loc>
     <lastmod>2010-02-07T10:05:19+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/07/the-iron-giant/</loc>
     <lastmod>2010-02-07T09:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/06/podcast-listening-car-driving-heaven-with-android/</loc>
     <lastmod>2010-02-06T16:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/06/how-to-cancel-your-o2-ireland-mobile-broadband/</loc>
     <lastmod>2010-02-06T15:09:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/06/save-a-few-bob-on-sky-tv/</loc>
     <lastmod>2010-02-06T14:28:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/04/our-wordpress-plugin-list/</loc>
     <lastmod>2010-02-04T19:55:20+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/04/symbian-users-can-now-check-in-on-foursquare-with-waze-symbian-guru-com/</loc>
     <lastmod>2010-02-04T17:57:34+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/04/what-if-your-reseller-went-away/</loc>
     <lastmod>2010-02-04T17:10:47+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/04/commenting-on-engadget-a-humans-guide-engadget/</loc>
     <lastmod>2010-02-04T17:05:18+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/04/get-paid-apps-on-your-android-phone-in-ireland/</loc>
     <lastmod>2010-02-04T13:39:20+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/04/xperia-x10-lands-on-vodafone-uk-in-april-engadget/</loc>
     <lastmod>2010-02-04T12:22:14+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/04/kulula-airplane-rebranding/</loc>
     <lastmod>2010-02-04T11:33:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/04/symbian-open-sourcing-gut-reaction/</loc>
     <lastmod>2010-02-04T09:17:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/04/bill-hicks-had-it-right-all-those-years-ago/</loc>
     <lastmod>2010-02-04T08:01:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/03/machform-nicely-formed/</loc>
     <lastmod>2010-02-03T16:43:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/03/click-buy-make-themselves-look-like-scammers/</loc>
     <lastmod>2010-02-03T13:58:40+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/03/android-soon-for-e30/</loc>
     <lastmod>2010-02-03T09:59:22+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/03/sony-ericsson-thinks-im-a-big-girls-blouse/</loc>
     <lastmod>2010-02-03T09:57:35+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/03/jolicloud-not-what-i-expected/</loc>
     <lastmod>2010-02-03T09:39:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/03/instant-google-cloudos-reaction/</loc>
     <lastmod>2010-02-03T09:29:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/2010/02/03/the-in-betweeners/</loc>
     <lastmod>2010-02-03T09:06:13+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://conoroneill.net/tags/</loc>
   </url>
-  
 </urlset>

@@ -1,5 +1,5 @@
 +++
-date = "2022-07-19T17:00:22Z"
+date = "2022-07-18T13:30:22Z"
 draft = false
 title = "RSS is on fire again, and it's all down to SlackOps"
 description = "RSS is the API they couldn't kill. It's back stronger than ever as an underpinning of SlackOps in many organizations."
@@ -49,7 +49,7 @@ While RSS is still delivering enormous value more than two decades later, it cou
 
 For people in SecOps and ITOps, there is still timely important information flowing through Twitter, but now you need OAuth Apps and requests for access to process it. Imagine if they brought back RSS?! Filtered and auto-triaged topic-specific information-feeds piped into Slack would be immensely powerful and undo over a decade of bad blood between the tech community and the Twitter API.
 
-In fairness, at least Twitter has an API. I created a simple [TikTok RSS generator](https://github.com/conoro/tiktok-rss-flat) based on a [fantastic library](https://github.com/davidteather/TikTok-Api) which tries to provide a TikTok API but they constantly break/block it. It's been down for months now.
+In fairness, at least Twitter has an API. I created a simple [TikTok RSS generator](https://github.com/conoro/tiktok-rss-flat) based on a [fantastic library](https://github.com/davidteather/TikTok-Api) which tries to provide a TikTok API but they constantly break/block it. My fabulous tool has been down for months now.
 
 ## My little API
 Finally, if you're building an app or site with potentially valuable Ops data for Slack users, but don't have the bandwidth to build a full API yet, or you're stuck in API Architecture analysis-paralysis, why not make RSS your MVP API? Minimal effort, massive upside for your users. Do it.
