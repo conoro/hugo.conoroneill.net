@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.89.4" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2021/11/22/mongodb-atlas-data-api-huge-for-no-code-low-code-automation-platforms-like-tines/" />
 
@@ -136,7 +136,7 @@
 <p>And then I saw last week&rsquo;s announcement of the <a href="https://www.mongodb.com/blog/post/introducing-mongodb-atlas-data-api-now-available-preview">MongoDB Atlas Data API</a> and you could not wipe the smile off my face, despite the vicious throat infection that currently has me in bed.</p>
 <p>This isn&rsquo;t just close to what I need, it&rsquo;s exactly what I need. REST access to a full-blown online database that can then be used for whatever querying, analytics or visualisations I want to do afterwards 🤯</p>
 <p>Even better - like everything historically with MongoDB, it just works! 5 minutes after reading the announcement I was writing and reading to/from a collection using cURL against my Atlas instance.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl --request POST <span style="color:#ae81ff">\
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl --request POST <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  <span style="color:#e6db74">&#39;https://data.mongodb-api.com/app/{{.RESOURCE.mongodb_data_api_app_id}}/endpoint/data/beta/action/insertOne&#39;</span> <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  --header <span style="color:#e6db74">&#39;Content-Type: application/json&#39;</span> <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  --header <span style="color:#e6db74">&#39;Access-Control-Request-Headers: *&#39;</span> <span style="color:#ae81ff">\

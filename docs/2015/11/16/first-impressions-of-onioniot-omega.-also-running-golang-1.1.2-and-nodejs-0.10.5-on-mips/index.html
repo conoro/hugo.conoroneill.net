@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.89.4" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2015/11/16/first-impressions-of-onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/" />
 
@@ -148,7 +148,7 @@
 <p>So you can&rsquo;t get a recent version of Go for MIPS. However, one smart person <a href="https://github.com/GeertJohan/openwrt-go">forked OpenWRT and added Go support</a> via <a href="https://gcc.gnu.org/onlinedocs/gccgo/Invoking-gccgo.html">gccgo</a>. Yay it&rsquo;s Go, boo it&rsquo;s Go 1.1.2.</p>
 <p>But I thought it&rsquo;d be a good experience to try building OpenWRT from scratch anyway. The <a href="https://github.com/GeertJohan/openwrt-go/issues/2">instructions here</a> and <a href="http://www.sajalkayan.com/post/golang-openwrt-mips.html">here</a> are pretty straightforward and I managed to build the Gnu cross-compile toolchain inside a Fedora 22 VM on Windows 10.</p>
 <p>NOTE: DO NOT DO THE FOLLOWING. IT DIDN&rsquo;T WORK. FOLLOW THE STEPS LATER FOR CLEAN NEW OPENWRT</p>
-<pre tabindex="0"><code>git clone git@github.com:GeertJohan/openwrt-go.git openwrt
+<pre><code>git clone git@github.com:GeertJohan/openwrt-go.git openwrt
 cd openwrt
 ./scripts/feeds update -a
 ./scripts/feeds install -a
@@ -166,10 +166,10 @@ make menuconfig
 <li>&mdash;&gt; Select Build/Install gccgo</li>
 </ul>
 <p>Then save and exit, followed by:</p>
-<pre tabindex="0"><code>make
+<pre><code>make
 </code></pre><p>Several hours later on my old i7 laptop, I had everything I needed.</p>
 <p>Then a simple helloworld Web Server helloweb.go that only uses standard library features:</p>
-<pre tabindex="0"><code>package main
+<pre><code>package main
 
 import (
     &quot;fmt&quot;
@@ -185,13 +185,13 @@ func main() {
     http.ListenAndServe(&quot;:8080&quot;, nil)
 }
 </code></pre><p>Create ~/openwrt.config which consists of</p>
-<pre tabindex="0"><code>export STAGING_DIR=/home/conor/openwrt/staging_dir 
+<pre><code>export STAGING_DIR=/home/conor/openwrt/staging_dir 
 export TOOLCHAIN_DIR=$STAGING_DIR/toolchain-mips_34kc_gcc-4.8-linaro_glibc-2.19 
 export LDCFLAGS=$TOOLCHAIN_DIR/usr/lib 
 export LD_LIBRARY_PATH=$TOOLCHAIN_DIR/usr/lib 
 export PATH=$TOOLCHAIN_DIR/bin:$PATH
 </code></pre><p>Then build it:</p>
-<pre tabindex="0"><code>. ~/openwrt.config
+<pre><code>. ~/openwrt.config
 mips_gccgo -Wall -o helloweb_static_libgo helloweb.go -static-libgo
 </code></pre><p>I copied it over to the Onion but no joy. It just kept saying &ldquo;not found&rdquo;. Distant memories told me this was related to libraries and versions but nothing I tried worked. So I took a break.</p>
 <h2 id="golang-112-second-successful-attempt">Golang 1.1.2 second successful attempt</h2>
@@ -199,18 +199,18 @@ mips_gccgo -Wall -o helloweb_static_libgo helloweb.go -static-libgo
 <p>You can get <a href="https://gist.github.com/conoro/887362ebdbbada2cfbc6">the patchfile I generated here</a> and apply it.</p>
 <p>NOTE: THESE STEPS WORK OK.</p>
 <p>Now to build from scratch again:</p>
-<pre tabindex="0"><code>sudo dnf install -y subversion binutils bzip2 gcc gcc-c++ gawk gettext flex ncurses-devel zlib-devel zlib-static make patch unzip perl-ExtUtils-MakeMaker glibc glibc-devel glibc-static quilt sed sdcc intltool sharutils bison wget
+<pre><code>sudo dnf install -y subversion binutils bzip2 gcc gcc-c++ gawk gettext flex ncurses-devel zlib-devel zlib-static make patch unzip perl-ExtUtils-MakeMaker glibc glibc-devel glibc-static quilt sed sdcc intltool sharutils bison wget
 
 . ~/openwrt.config   (see the contents of that file in the first failed attempt)
 
 rm -rf ~/openwrt
 git clone git://git.openwrt.org/openwrt.git openwrt
 cd openwrt
-</code></pre><pre tabindex="0"><code>nano feeds.conf.default
+</code></pre><pre><code>nano feeds.conf.default
 </code></pre><p>and append the following:</p>
-<pre tabindex="0"><code>src-git onion https://github.com/OnionIoT/OpenWRT-Packages.git
+<pre><code>src-git onion https://github.com/OnionIoT/OpenWRT-Packages.git
 </code></pre><p>Then:</p>
-<pre tabindex="0"><code>scripts/feeds update -a
+<pre><code>scripts/feeds update -a
 
 make menuconfig
 </code></pre><p>Note you have to include the same menuconfig settings as before i.e.</p>
@@ -232,14 +232,14 @@ make menuconfig
 <li>Add kmod-fs-vfat</li>
 <li>Add kmod-nls-cp437</li>
 </ol>
-<pre tabindex="0"><code>make
+<pre><code>make
 </code></pre><p>Several hours later again, I finally had <a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/11/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin">a version of the firmware that included Go support</a> and ran on the Onion by doing the following on the Onion:</p>
-<pre tabindex="0"><code>cd /tmp
+<pre><code>cd /tmp
 scp conor@192.168.0.9:/mnt/disk2/software/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin .
 sysupgrade openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin 
 </code></pre><h2 id="hello-world-web-server-in-go-on-the-onion-omega">Hello World Web Server in Go on the Onion Omega</h2>
 <p>Back to helloworld on the Fedora 22 VM:</p>
-<pre tabindex="0"><code>alias mips_gccgo='mips-openwrt-linux-gccgo -Wl,-R,/home/conor/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_glibc-2.19/lib/gcc/mips-openwrt-linux-gnu/4.8.3 -L /home/conor/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8.0-linaro_glibc-2.19/lib'
+<pre><code>alias mips_gccgo='mips-openwrt-linux-gccgo -Wl,-R,/home/conor/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_glibc-2.19/lib/gcc/mips-openwrt-linux-gnu/4.8.3 -L /home/conor/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8.0-linaro_glibc-2.19/lib'
 
 mips_gccgo -Wall -o helloweb_static_libgo helloweb.go -static-libgo
 </code></pre><p>Copy to the Onion and run it with a simple ./helloweb_static_libgo</p>
@@ -248,7 +248,7 @@ mips_gccgo -Wall -o helloweb_static_libgo helloweb.go -static-libgo
 <h2 id="tweeting-from-the-onion-omega-in-go">Tweeting from the Onion Omega in Go</h2>
 <p>I should have left it at that but no, I wanted to Tweet from the Onion. My problems multiplied. Basically, gccgo doesn&rsquo;t have all the bells and whistles of recent Go and can&rsquo;t handle included packages easily. After some reading and playing, I managed to build a Tweeting App that used the <a href="https://github.com/kurrik/twittergo">Twittergo package</a>. Note you need a local Fedora version of <a href="https://golang.org/dl/">Go installed and configured</a> for &ldquo;go get&rdquo; to work (or just git clone). My $GOPATH is /home/conor/gitwork/go</p>
 <p>I used the <a href="https://github.com/kurrik/twittergo-examples/blob/master/tweet/main.go">example from Twittergo</a> to send the tweet, with the same mods to remove paths from the imports as the other files.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">. ~/openwrt.config
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">. ~/openwrt.config
 
 cd ~/gitwork/go/src/github.com
 go get github.com/kurrik/twittergo
@@ -268,7 +268,7 @@ emacs tweetomega.go
 mips_gccgo -Wall -o tweetomega main.go -static-libgo json.o  oauth1a.o twittergo.o
 gedit CREDENTIALS
 </code></pre></div><p>I was nearly there. The code ran but threw an error almost immediately about x509 root certs being missing. I ran all of the following, which seemed to fix it (but I&rsquo;m not sure if all needed):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">opkg update
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">opkg update
 opkg install ca-certificates
 opkg install openssl-util
 opkg install curl

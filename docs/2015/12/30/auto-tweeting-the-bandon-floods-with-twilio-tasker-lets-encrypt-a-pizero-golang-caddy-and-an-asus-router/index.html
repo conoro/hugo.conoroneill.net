@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.89.4" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2015/12/30/auto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router/" />
 
@@ -172,7 +172,7 @@
 <li>I then temporarily port forwarded 443 on the router to the Pi Zero and started Caddy with this incredibly complicated config file :-)</li>
 </ul>
 <p>Caddyfile:</p>
-<pre tabindex="0"><code>file
+<pre><code>file
 https://www.conorsdomain.com
 proxy / localhost:9998
 </code></pre><ul>
@@ -192,7 +192,7 @@ proxy / localhost:9998
 <li>In theory I could take the scraped data from the site and generate my own alerts but the Council rightly overrides the default trigger levels on occasion to warn people of impending flooding.</li>
 </ul>
 <h2 id="go-code-see-for-httpsgistgithubcomconorof1a3f7c5b96e2b033119httpsgistgithubcomconorof1a3f7c5b96e2b033119-for-latest">Go Code (See for <a href="https://gist.github.com/conoro/f1a3f7c5b96e2b033119">https://gist.github.com/conoro/f1a3f7c5b96e2b033119</a> for latest)</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 
 <span style="color:#f92672">import</span> (
 	<span style="color:#e6db74">&#34;encoding/json&#34;</span>
@@ -314,7 +314,7 @@ proxy / localhost:9998
 <li>Make it executable (chmod 755 ddns-start)</li>
 <li>Copy these contents into ddns-start</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/sh
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/sh
 </span><span style="color:#75715e"></span>USERNAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;yourDNSMadeEasyUsername&#34;</span>
 PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;TheSpecificPasswordYouSetOnThatDNSRecord&#34;</span>
 IP<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>1<span style="color:#e6db74">}</span>

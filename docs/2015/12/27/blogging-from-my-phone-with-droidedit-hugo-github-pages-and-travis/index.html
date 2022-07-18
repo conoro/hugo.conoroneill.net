@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.89.4" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2015/12/27/blogging-from-my-phone-with-droidedit-hugo-github-pages-and-travis/" />
 
@@ -139,13 +139,13 @@
 <li>Then <a href="https://docs.travis-ci.com/user/encryption-keys/">install Travis locally</a></li>
 <li>and encrypt your token via:</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">travis encrypt GH_TOKEN<span style="color:#f92672">=</span>&lt;secret token here&gt;  
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">travis encrypt GH_TOKEN<span style="color:#f92672">=</span>&lt;secret token here&gt;  
 </code></pre></div><ol start="4">
 <li>Finally add that output to the &ldquo;secure&rdquo; string in .travis.yml.</li>
 </ol>
 <p>So here you go with the files you need to do the same:</p>
 <p>.travis.yml</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">language</span>: <span style="color:#ae81ff">go</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">language</span>: <span style="color:#ae81ff">go</span>
 <span style="color:#f92672">go</span>:
   - <span style="color:#ae81ff">1.5.1</span>
 <span style="color:#f92672">sudo</span>: <span style="color:#ae81ff">required</span>
@@ -167,7 +167,7 @@
   - <span style="color:#ae81ff">go get github.com/spf13/hugo</span>
 <span style="color:#f92672">script</span>: <span style="color:#ae81ff">bash ./deploy.sh</span>
 </code></pre></div><p>deploy.sh</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/bash
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/bash
 </span><span style="color:#75715e"></span>
 echo -e <span style="color:#e6db74">&#34;\033[0;32mDeploying updates to GitHub...\033[0m&#34;</span>
 

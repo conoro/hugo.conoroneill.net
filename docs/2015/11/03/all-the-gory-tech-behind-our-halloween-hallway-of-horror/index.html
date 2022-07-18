@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.89.4" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2015/11/03/all-the-gory-tech-behind-our-halloween-hallway-of-horror/" />
 
@@ -158,7 +158,7 @@
 <p>So I had Netcat working happily on the Banana Pi running Fedora but I also needed to be able to use the GPIO pins to tell the BPi when to turn on/off the LED strip. I then made the classic mistake of panicking on Halloween morning and switching to the RaspberryPi so I could use <a href="http://wiringpi.com/">WiringPi</a> for GPIO. Except the Netcat commands hung on the RPi (still no idea why).</p>
 <p>Some Googling revealed that WiringPi had been <a href="https://github.com/LeMaker/WiringBP">ported to Raspbian on the BPi</a> so I tried that. Same Netcat problem! So I took a chance and re-inserted the Fedora SD card and downloaded the BPi version of WiringPi. Result! It compiled and ran perfectly.</p>
 <p>The I moved on to several hours of trying to write a Bash script to monitor a GPIO pin using WiringPi and control the RGB LED strip with echo/netcat. All I will say about that is I am never ever writing a Bash script again (space-sensitive around brackets/equals for the love of god). This is the final result and, to be fair, it worked seamlessly:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
 <span style="color:#75715e">#!/bin/bash</span>
 sets<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>/usr/local/bin/gpio mode <span style="color:#ae81ff">7</span> down<span style="color:#e6db74">`</span>
 setit<span style="color:#f92672">=</span>$sets

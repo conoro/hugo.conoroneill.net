@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.89.4" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2014/06/23/a-simple-nodejs-script-to-setup-a-new-blog-post-in-harpjs/" />
 
@@ -126,7 +126,7 @@
 
     <section class="post-content">
       <p>One small annoyance with the Baseline bolierplate in harp.js is that every blogpost needs to be listed in a file called _data.json with all the relevant metadata. Whilst it&rsquo;s not a huge job to slug-ify a title and add the ID and epoch time, it&rsquo;s sufficiently annoying to add friction to me blogging more. Here&rsquo;s the entry for this blogpost:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">
   <span style="color:#e6db74">&#34;a-simple-nodejs-script-to-setup-a-new-blog-post-in-harpjs&#34;</span><span style="color:#f92672">:</span> {
     <span style="color:#e6db74">&#34;ID&#34;</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1291</span>,
     <span style="color:#e6db74">&#34;author&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;admin&#34;</span>,
@@ -140,7 +140,7 @@
   }
 
 </code></pre></div><p>This little script just generates everything you need once you tell it a title, description and image &ldquo;thumbnail&rdquo;. That latter piece is something I added to the _data.json &ldquo;schema&rdquo; so that when my posts are auto-shared to Facebook by dlvr.it, it&rsquo;s not the same image there every time but one of my chosing.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">
 <span style="color:#75715e">// newpost.js
 </span><span style="color:#75715e">// Create all the metadata for a new Harp blogpost
 </span><span style="color:#75715e">// node newpost.js

@@ -43,7 +43,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.89.4" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
     <link rel="canonical" href="https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland/" />
 
@@ -134,7 +134,7 @@
 <li>But this isn&rsquo;t enough because the Pi still uses a 32-bit userland. Even if you successfully run the Wasmer installer, the wasmer binary won&rsquo;t run. I read lots of threads with lots of complicated setups involving Docker and other distros etc but it turns out that the solution is just chroot. And luckily <a href="https://raspberrypi.stackexchange.com/a/101802">someone else figured out</a> those details.</li>
 <li>So you just need to do the following:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt install -y debootstrap schroot
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt install -y debootstrap schroot
 cat <span style="color:#e6db74">&lt;&lt; EOF | sudo tee /etc/schroot/chroot.d/pi64
 </span><span style="color:#e6db74">[pi64]
 </span><span style="color:#e6db74">description=V3D arm64 testing
@@ -156,7 +156,7 @@ schroot -c pi64
 <ul>
 <li>and then install and run <a href="https://wapm.io/package/rustpython">rustpython</a></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ source /home/pi/.wasmer/wasmer.sh
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ source /home/pi/.wasmer/wasmer.sh
 $ wapm install rustpython
 $ wapm run rustpython
 &gt;&gt;&gt;&gt;&gt; 2+2
