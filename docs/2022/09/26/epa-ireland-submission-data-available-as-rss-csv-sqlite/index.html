@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" EPA Ireland Submission Data available as RSS, CSV and SQLite &middot;  Cross Dominant" />
+  	<meta property="og:site_name" content="Cross Dominant" />
+  	<meta property="og:url" content="https://conoroneill.net/2022/09/26/epa-ireland-submission-data-available-as-rss-csv-sqlite/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2022-09-26T08:30:22Z" />
+
+    
+    
+
+  <title>
+     EPA Ireland Submission Data available as RSS, CSV and SQLite &middot;  Cross Dominant
+  </title>
+
+    <meta name="description" content="Mixed laterality since 1968" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://conoroneill.net/favicon.ico">
+	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+
+
+
+    
+      
+          <link href="https://conoroneill.net/index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.84.4" />
+
+    <link rel="canonical" href="https://conoroneill.net/2022/09/26/epa-ireland-submission-data-available-as-rss-csv-sqlite/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88610-4', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+
+        
+    </ul>
+
+
+    
+    <a class="subscribe-button icon-feed" href="https://conoroneill.net/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">EPA Ireland Submission Data available as RSS, CSV and SQLite</h1>
+        <small>I bashed this together quickly last week after a request from Ashley of the Irish River Project</small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2022-09-26T08:30:22Z">
+            Sep 26, 2022
+          </time>
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>Whilst there is a ton of useful data on the <a href="https://www.epa.ie/">EPA Ireland</a> web-site, it&rsquo;s not exactly easy to track what&rsquo;s going on. After my recent <a href="https://conoroneill.net/2022/07/18/rss-is-on-fire-again-and-its-all-down-to-slackops/">RSS post</a>, I got a request from <a href="https://twitter.com/gloverstweets">Ashley</a> to see if something better was doable with the EPA data.</p>
+<p>After a bit of playing around I was able to scrape the thousands of individual RSS feeds and generate what is hopefully helpful to those of you who wish to monitor submissions on the site. Ashley has <a href="https://twitter.com/gloverstweets/status/1573322689745412099">a good thread</a> about it here on Twitter.</p>
+<p>The code is all up on <a href="https://github.com/conoro/epa-rss">GitHub here</a>. In summary what it does is:</p>
+<ul>
+<li>Once a day around 1.30am GMT, it scrapes all the feeds on the EPA site</li>
+<li>It saves all the data into a SQLite database and uploads that to Amazon S3</li>
+<li>It updates a single small RSS feed with all the submissions from the previous day</li>
+<li>It generates a new CSV file with the same data as the RSS feed and saves that to GitHub</li>
+</ul>
+<h2 id="subscribing-to-the-rss-feed">Subscribing to the RSS Feed</h2>
+<p>Use this URL in Feedly or similar: <a href="https://raw.githubusercontent.com/conoro/epa-rss/main/output/daily.xml">https://raw.githubusercontent.com/conoro/epa-rss/main/output/daily.xml</a></p>
+<h2 id="viewing-the-daily-csv-files">Viewing the daily CSV files.</h2>
+<p>They are all here in the repo starting on Sep 22nd 2022: <a href="https://github.com/conoro/epa-rss/tree/main/output/csv/daily">https://github.com/conoro/epa-rss/tree/main/output/csv/daily</a></p>
+<h2 id="getting-notified-by-email-experimental">Getting notified by email (experimental)</h2>
+<p>If you&rsquo;d like to receive email with a link to the latest CSV each day:</p>
+<ul>
+<li>Create a GitHub Account</li>
+<li>Click the drop-down menu beside &ldquo;Watch&rdquo; in the top right of this project&rsquo;s page.</li>
+<li>Select &ldquo;Custom&rdquo; and tick the box beside &ldquo;Issues&rdquo;. Then click Apply.</li>
+<li>You should start receiving the emails beginning tomorrow.</li>
+</ul>
+<h2 id="sqlite-database">SQLite Database</h2>
+<p>The latest full set of scraped data is available as a SQLite DB that you can <a href="https://epa-rss.s3.eu-west-1.amazonaws.com/latest/epa-rss.sqlite">download here</a>. Use something like <a href="https://sqlitestudio.pl/">SQLiteStudio</a> to browse and query it.</p>
+<h2 id="examining-the-data-in-the-sqlite-database-using-datasette-lite">Examining the data in the SQLite Database using Datasette Lite</h2>
+<p>You can use a very cool project by Simon Willison called <a href="https://github.com/simonw/datasette-lite">Datasette Lite</a> to browse and query all the latest data in your browser by <a href="https://lite.datasette.io/?url=https%3A%2F%2Fepa-rss.s3.eu-west-1.amazonaws.com%2Flatest%2Fepa-rss.sqlite#/epa-rss/allsubmissions">going here</a>. I highly recommend playing around with it, as you can query by keywords and date ranges.</p>
+<p><img src="/images/2022/09/abp.jpg" alt="ABP"></p>
+<h2 id="finally">Finally</h2>
+<p>This was thrown together very quickly. There is minimal error checking or handling. If you&rsquo;d like to improve this project, let me know and I&rsquo;ll give you access. It&rsquo;s unlikely I&rsquo;ll have much time in the coming months to work on it.</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
+  
+  <p>Tech guy who likes running slowly</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=EPA%20Ireland%20Submission%20Data%20available%20as%20RSS%2c%20CSV%20and%20SQLite&amp;url=https%3a%2f%2fconoroneill.net%2f2022%2f09%2f26%2fepa-ireland-submission-data-available-as-rss-csv-sqlite%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'crossdominant';
+  var disqus_url = 'https:\/\/conoroneill.net\/2022\/09\/26\/epa-ireland-submission-data-available-as-rss-csv-sqlite\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+    
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cross Dominant</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
+    
+</body>
+</html>
+

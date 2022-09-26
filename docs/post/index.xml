@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Jul 2022 13:30:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Sep 2022 08:30:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EPA Ireland Submission Data available as RSS, CSV and SQLite</title>
+      <link>https://conoroneill.net/2022/09/26/epa-ireland-submission-data-available-as-rss-csv-sqlite/</link>
+      <pubDate>Mon, 26 Sep 2022 08:30:22 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2022/09/26/epa-ireland-submission-data-available-as-rss-csv-sqlite/</guid>
+      <description>Whilst there is a ton of useful data on the EPA Ireland web-site, it&amp;rsquo;s not exactly easy to track what&amp;rsquo;s going on. After my recent RSS post, I got a request from Ashley to see if something better was doable with the EPA data.
+After a bit of playing around I was able to scrape the thousands of individual RSS feeds and generate what is hopefully helpful to those of you who wish to monitor submissions on the site.</description>
+    </item>
+    
     <item>
       <title>RSS is on fire again, and it&#39;s all down to SlackOps</title>
       <link>https://conoroneill.net/2022/07/18/rss-is-on-fire-again-and-its-all-down-to-slackops/</link>
@@ -200,20 +210,6 @@ Of course, in that time, many news sites have forgotten about RSS. e.g. The Cork
       <guid>https://conoroneill.net/2018/09/07/a-big-thank-you-to-ben-heck/</guid>
       <description>Ben Heckendorn recently ended his YouTube show with Element14 after several years of wonderful maker videos. Whilst the channel continues with a new name and other presenters, Ben has moved on.
 I had a hiatus from electronics for 20 years after I left UCD Elec Eng in 1992. In 2012 I discovered the world of Arduino and quite soon after, the Raspberry Pi launched. I&amp;rsquo;ve had so much fun building stupid (and every so often, not stupid) things over the past 6 years and I think Ben had a lot to do with that.</description>
-    </item>
-    
-    <item>
-      <title>I may be totally done with Twitter-style sites including Mastodon</title>
-      <link>https://conoroneill.net/2018/08/30/i-may-be-totally-done-with-twitter-style-sites-including-mastodon/</link>
-      <pubDate>Thu, 30 Aug 2018 12:02:07 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2018/08/30/i-may-be-totally-done-with-twitter-style-sites-including-mastodon/</guid>
-      <description>I gave up on Twitter in Nov 2017 due to their complete inaction around
-online abuse, particularly that of women. I setup a Mastodon account at
-that time and didn&amp;rsquo;t use it much initially but ramped up activity recently.
-Despite all the articles written recently about how Mastodon is the nice
-anti-Twitter, the sad reality is that asshole behaviour has nothing to do
-with the tech or the tools, it has to do with people being assholes.</description>
     </item>
     
   </channel>
