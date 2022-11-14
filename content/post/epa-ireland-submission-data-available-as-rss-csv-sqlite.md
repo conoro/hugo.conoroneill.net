@@ -10,7 +10,7 @@ Whilst there is a ton of useful data on the [EPA Ireland](https://www.epa.ie/) w
 
 After a bit of playing around I was able to scrape the thousands of individual RSS feeds and generate what is hopefully helpful to those of you who wish to monitor submissions on the site. Ashley has [a good thread](https://twitter.com/gloverstweets/status/1573322689745412099) about it here on Twitter.
 
-The code is all up on [GitHub here](https://github.com/conoro/epa-rss). In summary what it does is:
+The code is all up on [GitHub here](https://github.com/EPA-Ireland-Updates-Unofficial/epa-rss). In summary what it does is:
 
 * Once a day around 1.30am GMT, it scrapes all the feeds on the EPA site
 * It saves all the data into a SQLite database and uploads that to Amazon S3
@@ -19,10 +19,10 @@ The code is all up on [GitHub here](https://github.com/conoro/epa-rss). In summa
 
 
 ## Subscribing to the RSS Feed
-Use this URL in Feedly or similar: https://raw.githubusercontent.com/conoro/epa-rss/main/output/daily.xml
+Use [this URL](https://raw.githubusercontent.com/conoro/epa-rss/main/output/daily.xml) in Feedly or similar.
 
 ## Viewing the daily CSV files.
-They are all here in the repo starting on Sep 22nd 2022: https://github.com/conoro/epa-rss/tree/main/output/csv/daily
+They are [all here](https://github.com/EPA-Ireland-Updates-Unofficial/epa-rss/tree/main/output/csv/daily) in the repo starting on Sep 22nd 2022. You can view them directly there or download and load into Excel.
 
 ## Getting notified by email (experimental)
 If you'd like to receive email with a link to the latest CSV each day:

@@ -127,7 +127,7 @@
     <section class="post-content">
       <p>Whilst there is a ton of useful data on the <a href="https://www.epa.ie/">EPA Ireland</a> web-site, it&rsquo;s not exactly easy to track what&rsquo;s going on. After my recent <a href="https://conoroneill.net/2022/07/18/rss-is-on-fire-again-and-its-all-down-to-slackops/">RSS post</a>, I got a request from <a href="https://twitter.com/gloverstweets">Ashley</a> to see if something better was doable with the EPA data.</p>
 <p>After a bit of playing around I was able to scrape the thousands of individual RSS feeds and generate what is hopefully helpful to those of you who wish to monitor submissions on the site. Ashley has <a href="https://twitter.com/gloverstweets/status/1573322689745412099">a good thread</a> about it here on Twitter.</p>
-<p>The code is all up on <a href="https://github.com/conoro/epa-rss">GitHub here</a>. In summary what it does is:</p>
+<p>The code is all up on <a href="https://github.com/EPA-Ireland-Updates-Unofficial/epa-rss">GitHub here</a>. In summary what it does is:</p>
 <ul>
 <li>Once a day around 1.30am GMT, it scrapes all the feeds on the EPA site</li>
 <li>It saves all the data into a SQLite database and uploads that to Amazon S3</li>
@@ -135,9 +135,9 @@
 <li>It generates a new CSV file with the same data as the RSS feed and saves that to GitHub</li>
 </ul>
 <h2 id="subscribing-to-the-rss-feed">Subscribing to the RSS Feed</h2>
-<p>Use this URL in Feedly or similar: <a href="https://raw.githubusercontent.com/conoro/epa-rss/main/output/daily.xml">https://raw.githubusercontent.com/conoro/epa-rss/main/output/daily.xml</a></p>
+<p>Use <a href="https://raw.githubusercontent.com/conoro/epa-rss/main/output/daily.xml">this URL</a> in Feedly or similar.</p>
 <h2 id="viewing-the-daily-csv-files">Viewing the daily CSV files.</h2>
-<p>They are all here in the repo starting on Sep 22nd 2022: <a href="https://github.com/conoro/epa-rss/tree/main/output/csv/daily">https://github.com/conoro/epa-rss/tree/main/output/csv/daily</a></p>
+<p>They are <a href="https://github.com/EPA-Ireland-Updates-Unofficial/epa-rss/tree/main/output/csv/daily">all here</a> in the repo starting on Sep 22nd 2022. You can view them directly there or download and load into Excel.</p>
 <h2 id="getting-notified-by-email-experimental">Getting notified by email (experimental)</h2>
 <p>If you&rsquo;d like to receive email with a link to the latest CSV each day:</p>
 <ul>
