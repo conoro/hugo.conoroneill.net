@@ -11,7 +11,7 @@ slug = "wearable-tech-fitness-health-and-the-quantified-self"
 
 Nice quick intro by iJustine into this entire <a href="http://quantifiedself.com/">Quantified Self</a> area. The section about using all of the data for predictive prevention of problems really caught my attention.
 
-httpv://www.youtube.com/watch?v=pjKA0-PSA9k
+https://www.youtube.com/watch?v=pjKA0-PSA9k
 
 I've obviously been into the whole SoLoMo thing since first getting my hands on an N95-8GB in 2007 and I've been generating lots and lots of location data since then. But location is really only step zero. It gets far more interesting the more things you measure, which is why I also tried my first fitness tracking app on the N95 back then too.
 

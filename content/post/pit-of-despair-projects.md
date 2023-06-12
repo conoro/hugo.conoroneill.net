@@ -15,6 +15,6 @@ There are a ton of companies supplying the Maker market and electronics people i
 
 &nbsp;
 
-httpv://www.youtube.com/watch?v=CGShXu7jJUc
+https://www.youtube.com/watch?v=CGShXu7jJUc
 
 He has a blogpost which digs even deeper into the <a href="http://www.sparkfun.com/news/909">Pit of Despair Projects</a>.

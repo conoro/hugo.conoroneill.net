@@ -10,7 +10,7 @@ slug = "hp-eprint-app-for-ipad-why-hp-was-right-to-exit-tablet-biz"
 #"HP ePrint App for iPad - Why HP was right to exit Tablet Biz"
 
 &nbsp;
-<p style="text-align: center;"><a href="http://itunes.apple.com/us/app/hp-eprint-home-biz/id299531647?mt=8"><img src='https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2011/12/mzl.ydgiuouc.480x480-75.jpg' alt='' /></a></p>
+<p style="text-align: center;"><a href="http://itunes.apple.com/us/app/hp-eprint-home-biz/id299531647?mt=8"><img src='https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2011/12/mzl.ydgiuouc.480x480-75.jpg' alt='' /></a></p>
 <a href="http://itunes.apple.com/us/app/hp-eprint-home-biz/id299531647?mt=8">App Store - HP ePrint Home &amp; Biz</a>.
 
 I helped my Dad setup printing from his iPad to his HP wireless printer over the Christmas. The easiest way is just to email the private address of the printer using the HP ePrint service. But I spotted that they have an iPad App too and I installed it.

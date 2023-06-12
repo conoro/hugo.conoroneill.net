@@ -36,4 +36,4 @@ I got mine on <a href="http://www.pandawill.com/eken-t02-tablet-pc-7-inch-androi
 
 Did I mention that it's88, in total, including EMS shipping?
 
-httpv://youtu.be/F2fXHlFTi6E
+https://www.youtube.com/watch?v=F2fXHlFTi6E

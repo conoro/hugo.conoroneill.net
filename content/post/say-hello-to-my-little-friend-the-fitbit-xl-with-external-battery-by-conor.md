@@ -13,10 +13,10 @@ I figured out how to take apart the Fitbit One on the original dead one so this 
 
 Now that I know it works, I'll remove most of the hot glue and try some Shoe Goo instead.
 Front
-![Front](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/fitbit1.jpg "Front")
+![Front](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/12/fitbit1.jpg "Front")
 
 Back
-![Back](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/fitbit2.jpg "Back")
+![Back](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/12/fitbit2.jpg "Back")
 
 Wearables.
-![In its clip](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/fitbit3.jpg "In its clip")
+![In its clip](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/12/fitbit3.jpg "In its clip")

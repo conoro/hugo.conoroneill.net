@@ -13,7 +13,7 @@ The code itself is very simple and just involved walking through the page (actua
 
 Last week I heard about [Kimono](https://www.kimonolabs.com/) and really liked the sound of it. You basically point it at any web-page and it gives you a version of the page where you can select elements and get API end-points for them. So any site that has info you'd like to use or open up but where there is no existing API, can be API-ified. You need no coding knowledge to do this.
 
-![Kimono](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/06/kimono.jpg "Web Scraping")
+![Kimono](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/06/kimono.jpg "Web Scraping")
 
 This has huge potential to generate even more Irish OpenData without relying on developers to do the work. Given how little data has been opened up here, either officially or by OpenData enthusiasts, this can only be a good thing.
 

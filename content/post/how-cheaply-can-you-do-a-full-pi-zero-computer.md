@@ -35,4 +35,4 @@ Do you need a screen? Yup. Now walk into the sitting room and see if you can spo
 
 A £29 fully fitted-out computer, that you could build the next global webapp on, remains completely revolutionary. All for around the same price as an Apple Thunderbolt-to-Ethernet adapter :-)
 
-![You've Quacked the case](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/01/quacked_the_case.gif)
+![You've Quacked the case](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2016/01/quacked_the_case.gif)

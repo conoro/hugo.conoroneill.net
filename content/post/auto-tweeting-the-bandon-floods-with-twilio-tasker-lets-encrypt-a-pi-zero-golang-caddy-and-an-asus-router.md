@@ -22,7 +22,7 @@ The town in which I live, Bandon, flooded again recently, because Ireland. I've 
 
 Yes that's how Cork County Council's/OPW's Flood Warning site looks in the middle of one of our biggest floods ever:
 
-![FEWS Unavailable](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/service_unavailable.jpg)
+![FEWS Unavailable](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/service_unavailable.jpg)
 
 
 With all this flooding, I decided to finally create a related setup which takes the SMS Flood alerts from the County Council and auto-tweets them to the [@BandonFEWS](https://twitter.com/bandonfews) Twitter account which I created and have manually updated since 2011.
@@ -30,7 +30,7 @@ With all this flooding, I decided to finally create a related setup which takes 
 ## The Details
 So the final $7 hardware (including Wifi adapter) now looks as follows:
 
-![PiZero FEWS](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/pizero_fews.jpg)
+![PiZero FEWS](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/pizero_fews.jpg)
 
 * My phone is registered with the Bandon Flood Warning site (it has been for years)
 * I have a [Twilio](https://www.twilio.com/) account with a $1 per month UK SMS number. Irish numbers are $6 per month :-(
@@ -38,7 +38,7 @@ So the final $7 hardware (including Wifi adapter) now looks as follows:
 * The Android [Tasker App](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en) watches for SMS from these sources with particular contents
 * Tasker auto-forwards these SMSes to my Twilio number
 
-![Tasker](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/tasker.jpg)
+![Tasker](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/tasker.jpg)
 
 * I have the Twilio number configured to call a my simple API end-point with the SMS contents
 * The API end-point is running on one of my $5 Raspberry Pi Zeros and is written in [Go](https://golang.org/). Code below.
@@ -81,7 +81,7 @@ proxy / localhost:9998
 * I went over to Twilio and provided the new https://conorsdomain.com:9999 as the end-point to call. No joy. But a quick support ticket later and they made a change over the weekend(!) to fix it. Boom, everything working fine.
 * With the terrible weather, I didn't have to wait long for the first non-test SMS to appear. A couple of seconds later it was on Twitter:
 
-![Bandon Flood Warning](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/flood_alert.jpg)
+![Bandon Flood Warning](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/flood_alert.jpg)
 
 ## Alternatives
 * Of course I could exclude Twilio from this entire flow and call the end-point directly from Tasker but SMS will often work when no data connection is available.

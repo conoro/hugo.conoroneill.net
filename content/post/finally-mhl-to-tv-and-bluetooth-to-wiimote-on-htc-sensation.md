@@ -19,7 +19,7 @@ But something changed recently with the latest HTC ROMs and I learned that the <
 
 So this is why I wanted to get both working:
 
-httpv://www.youtube.com/watch?v=1QWTkRwlhcM&amp;feature=youtu.be
+https://www.youtube.com/watch?v=1QWTkRwlhcM&amp;feature=youtu.be
 
 Not my best ever video work, to put it mildly. But you get the idea.
 

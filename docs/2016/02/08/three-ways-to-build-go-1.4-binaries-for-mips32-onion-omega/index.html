@@ -126,7 +126,7 @@
 
     <section class="post-content">
       <p>I previously <a href="http://conoroneill.net/onion-omega-first-impressions-running-golang-nodejs/">wrote about using gccgo</a> to build Go binaries for the <a href="https://onion.io/">Onion Omega</a> due to Go&rsquo;s lack of support for MIPS CPUs. But TBH it&rsquo;s a pain in the butt. Things were looking up when it was revealed that Go 1.6 would have MIPS support but sadly it&rsquo;s for MIPS64 only, for datacenter applications I guess.</p>
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/02/onion_omega_small.jpg" alt="Onion Omega"></p>
+<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2016/02/onion_omega_small.jpg" alt="Onion Omega"></p>
 <p>However <a href="https://twitter.com/onetruecathal">Cathal Garvey</a> discovered a <a href="https://github.com/gomini/go-mips32">GitHub repo</a> where some lovely person has ported v1.4.2 of Go to MIPS32 and it works perfectly on the Onion Omega (and presumably all other Atheros AR9331 boards).</p>
 <p>This is a huge jump forward for the Onion Omega. Language support has been a bit of a problem for me with both Node.js and Go not really being usable there until now.</p>
 <p>Due to the lack of storage on the Omega, you won&rsquo;t be able to install the full Go build system there so a cross-compilation setup is needed.</p>
@@ -246,7 +246,7 @@ vi gintest.go
     <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">Run</span>() <span style="color:#75715e">// listen and server on 0.0.0.0:8080
 </span><span style="color:#75715e"></span>}
 </code></pre></div><p>Then build that, scp it to the Omega and run it. Then open http://ip-of-your-onion:8080/ping to see everything working nicely.</p>
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/02/gin_ping_omega.jpg" alt="Gin Ping Onion Omega"></p>
+<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2016/02/gin_ping_omega.jpg" alt="Gin Ping Onion Omega"></p>
 <p>Note I also built this using the Windows setup for comparison and it worked too.</p>
 <h2 id="database">Database</h2>
 <p>Not so much luck with embedded databases I&rsquo;m afraid. I suspect Bolt and LevelDB are using some more advanced filesystem features which are causing issues on OpenWRT. I lack the expertise to debug.</p>

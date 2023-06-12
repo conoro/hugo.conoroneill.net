@@ -11,6 +11,6 @@ slug = "zx-plectrum-the-greatest-ipad-app-of-all-time"
 
 No words needed, just watch the video. Best 79c I ever spent.
 
-httpv://www.youtube.com/watch?v=kViD9i-hSiY
+https://www.youtube.com/watch?v=kViD9i-hSiY
 
 Damn, the facial tics have started again.RTapeloadingerror, 0:1

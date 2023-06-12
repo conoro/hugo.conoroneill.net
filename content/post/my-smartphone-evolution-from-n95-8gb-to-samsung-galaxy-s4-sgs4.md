@@ -9,7 +9,7 @@ slug = "my-smartphone-evolution-from-n95-8gb-to-samsung-galaxy-s4-sgs4"
 
 #"My Smartphone evolution from N95-8GB to Samsung Galaxy S4 #SGS4"
 
-<a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2013/04/smartphones.jpg"><img class="aligncenter size-large wp-image-1010" alt="smartphones" src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2013/04/smartphones-1024x469.jpg" width="584" height="267" /></a>
+<a href="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2013/04/smartphones.jpg"><img class="aligncenter size-large wp-image-1010" alt="smartphones" src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2013/04/smartphones-1024x469.jpg" width="584" height="267" /></a>
 
 My first actual "Smartphone" was a Nokia N70 but it has the dubious pleasure of being the only phone I ever lost. The one that really got me using Apps and understanding the importance of SoLoMo was the classic N95-8GB which I loved despite its numerous flaws. It was also the most I ever spent on a phone.
 

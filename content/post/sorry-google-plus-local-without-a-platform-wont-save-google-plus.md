@@ -11,7 +11,7 @@ slug = "sorry-google-plus-local-without-a-platform-wont-save-google-plus"
 
 6 days ago, I posted this on Google+
 
-<a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2012/05/plusplaces.png"><img class="alignnone size-full wp-image-742" title="plusplaces" src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2012/05/plusplaces.png" alt="" width="590" height="244" /></a>
+<a href="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/05/plusplaces.png"><img class="alignnone size-full wp-image-742" title="plusplaces" src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/05/plusplaces.png" alt="" width="590" height="244" /></a>
 
 The response from a Googler was that "I don't have anything new to share right now". The following day, Scoble stated that he had heard they will announce a Write-API at Google IO.
 

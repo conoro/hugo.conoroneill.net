@@ -27,7 +27,7 @@ We all use them every day to describe very mundane things (I nearly said "utterl
 
 So now that everything is amazeballs, nothing is.
 
-httpv://www.youtube.com/watch?v=A8I9pYCl9AQ
+https://www.youtube.com/watch?v=A8I9pYCl9AQ
 
 I watched Top Gear last night and Jeremy interviewed Kimi Raikkonen. One of the more boring interviews I've seen. Kimi gave one-word answers to many questions. Previously I would have said "The most mind-numbingly awful TVmomentever, a new nadir for the BBC".
 

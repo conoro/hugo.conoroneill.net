@@ -132,11 +132,11 @@
 <p>The inclusion of a free one on the cover of the <a href="https://www.raspberrypi.org/magpi/raspberry-pi-zero-out-today-get-it-free-with-the-magpi-40/">MagPi Magazine</a> will be remembered for years to come.</p>
 <p>The town in which I live, Bandon, flooded again recently, because Ireland. I&rsquo;ve had <a href="https://github.com/conoro/bandonfews-nodejs">a simple Node.js app</a> running on a Gen 1 Raspberry Pi B, scraping the <a href="http://www.bandonfloodwarning.ie/">Bandon Flood Warning</a> site every 15 minutes for the past four years and saving the data in <a href="https://www.google.com/fusiontables/DataSource?docid=103YIcARoxuaWT7NfZ8mVBzY554sF_3ONYC1N3DE&amp;pli=1#chartnew:id=5">Google Fusion Tables</a>.</p>
 <p>Yes that&rsquo;s how Cork County Council&rsquo;s/OPW&rsquo;s Flood Warning site looks in the middle of one of our biggest floods ever:</p>
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/service_unavailable.jpg" alt="FEWS Unavailable"></p>
+<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/service_unavailable.jpg" alt="FEWS Unavailable"></p>
 <p>With all this flooding, I decided to finally create a related setup which takes the SMS Flood alerts from the County Council and auto-tweets them to the <a href="https://twitter.com/bandonfews">@BandonFEWS</a> Twitter account which I created and have manually updated since 2011.</p>
 <h2 id="the-details">The Details</h2>
 <p>So the final $7 hardware (including Wifi adapter) now looks as follows:</p>
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/pizero_fews.jpg" alt="PiZero FEWS"></p>
+<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/pizero_fews.jpg" alt="PiZero FEWS"></p>
 <ul>
 <li>My phone is registered with the Bandon Flood Warning site (it has been for years)</li>
 <li>I have a <a href="https://www.twilio.com/">Twilio</a> account with a $1 per month UK SMS number. Irish numbers are $6 per month :-(</li>
@@ -144,7 +144,7 @@
 <li>The Android <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=en">Tasker App</a> watches for SMS from these sources with particular contents</li>
 <li>Tasker auto-forwards these SMSes to my Twilio number</li>
 </ul>
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/tasker.jpg" alt="Tasker"></p>
+<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/tasker.jpg" alt="Tasker"></p>
 <ul>
 <li>I have the Twilio number configured to call a my simple API end-point with the SMS contents</li>
 <li>The API end-point is running on one of my $5 Raspberry Pi Zeros and is written in <a href="https://golang.org/">Go</a>. Code below.</li>
@@ -184,7 +184,7 @@ proxy / localhost:9998
 <li>I went over to Twilio and provided the new <a href="https://conorsdomain.com:9999">https://conorsdomain.com:9999</a> as the end-point to call. No joy. But a quick support ticket later and they made a change over the weekend(!) to fix it. Boom, everything working fine.</li>
 <li>With the terrible weather, I didn&rsquo;t have to wait long for the first non-test SMS to appear. A couple of seconds later it was on Twitter:</li>
 </ul>
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/flood_alert.jpg" alt="Bandon Flood Warning"></p>
+<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/flood_alert.jpg" alt="Bandon Flood Warning"></p>
 <h2 id="alternatives">Alternatives</h2>
 <ul>
 <li>Of course I could exclude Twilio from this entire flow and call the end-point directly from Tasker but SMS will often work when no data connection is available.</li>

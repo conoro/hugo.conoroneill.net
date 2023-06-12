@@ -9,5 +9,5 @@ slug = "im-going-to-miss-all-those-great-times-on-orkut"
 
 All two of them. In 2007. 7 years and 2 days ago. 
 
-![Orkut](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/06/orkut.jpg "Google+ 1.0")
+![Orkut](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/06/orkut.jpg "Google+ 1.0")
 

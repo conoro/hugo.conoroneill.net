@@ -24,7 +24,7 @@ So if I have a file called s3_upload.jpg on my Desktop and I invoke as follows:
 node upload_s3_images.js ~/Desktop/s3_upload.jpg
 ```
 
-I end up with a file at: https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/06/s3_upload.jpg
+I end up with a file at: https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/06/s3_upload.jpg
 
 ```javascript
 // upload_s3_images.js

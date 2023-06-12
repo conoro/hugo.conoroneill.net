@@ -11,7 +11,7 @@ I'll shortly be moving this entire blog from WordPress to [HarpJS](http://harpjs
 
 Then this evening I asked myself the silly question "I wonder can I run Node.js on Android?". It turns out you can. But it's a teensy bit fiddly to get going. The biggest problem turned out to be Android 4.4 KitKat which made the first few steps the hardest.
 
-![Debian on Android](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/03/harp_android_02.jpg "Debian and Harp")
+![Debian on Android](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/03/harp_android_02.jpg "Debian and Harp")
 
 You are going to be running Debian Linux in a chrooted environment. For some weird reason I never even knew this was possible until today! In fact there are multiple projects out there that enable this. The main thing, of course, is that your phone must be rooted. A Stock Samsung ROM is fine and I'm sure GPE and Cyanogen would also work.
 
@@ -61,7 +61,7 @@ So now that we have an almost bog-standard Linux setup, you can pretty much do w
 
 The two bits of oddness above were getting an error from curl trying to install npm, so I used wget. Also, very very strange node-gyp permissions errors installing Harp globally when it came to node-sass (hence the --unsafe-perm). Node-sass also causes problems on Windows I've noticed.
 
-![Harp on Android](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/03/harp_android.jpg "Harp and Android")
+![Harp on Android](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/03/harp_android.jpg "Harp and Android")
 And that's it about it. Except for.......
 
 ```
@@ -70,6 +70,6 @@ apt-get install emacs
 
 How could I not? :-)
 
-![Emacs on Android](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/03/emacs.png "Emacs and Android")
+![Emacs on Android](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/03/emacs.png "Emacs and Android")
 
 So I edit Markdown blogposts in Emacs, compile with Harp and commit to GitHub to publish. Simples.

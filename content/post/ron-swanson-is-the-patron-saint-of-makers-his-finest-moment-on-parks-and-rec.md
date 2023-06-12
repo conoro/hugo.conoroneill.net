@@ -11,6 +11,6 @@ slug = "ron-swanson-is-the-patron-saint-of-makers-his-finest-moment-on-parks-and
 
 I am going to miss this show so much when it ends. Leslie needed two wedding rings asap. Ron took care of it.
 
-httpv://www.youtube.com/watch?v=d0YAhykMMxc
+https://www.youtube.com/watch?v=d0YAhykMMxc
 
 When I grow up, I want to be Ron Swanson.

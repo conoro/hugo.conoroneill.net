@@ -11,7 +11,7 @@ slug = "is-the-e10-lidl-soldering-iron-worth-it-i-think-so-video"
 
 I grabbed one of the Lidl Soldering Iron Kits yesterday in Dungarvan. Video below with my thoughts. Apologies for some of the stuff being off camera.
 
-httpv://youtu.be/UrQyGAgDACo
+https://www.youtube.com/watch?v=UrQyGAgDACo
 
 Overall, at 10 it is totally worth a punt if you don't have an iron already.
 

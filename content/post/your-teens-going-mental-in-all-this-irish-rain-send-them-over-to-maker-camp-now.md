@@ -15,7 +15,7 @@ slug = "your-teens-going-mental-in-all-this-irish-rain-send-them-over-to-maker-c
 <a href="https://plus.google.com/u/0/109780686446922422512/posts">A genuinely great use of Google+</a>.
 
 
-httpv://www.youtube.com/watch?v=WiX8cmZVmgM
+https://www.youtube.com/watch?v=WiX8cmZVmgM
 
 Today rocket guru Rick Schertle is teaching how to make two different kinds of rockets. <a href="https://plus.google.com/u/0/109780686446922422512/posts">Head on over to G+</a> at 8PM Ireland/UK for the kick-off from the New York Hall of Science.
 

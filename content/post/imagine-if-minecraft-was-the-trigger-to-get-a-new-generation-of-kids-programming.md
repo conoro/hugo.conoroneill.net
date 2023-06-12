@@ -18,7 +18,7 @@ Over the weekend, it was announced that the Pocket Edition was being <a href="ht
 
 But then came the kicker: you'll be able to access it programatically in any language over a network connection! As they point out in <a href="http://www.raspberrypi.org/archives/2603">the blogpost today</a>:
 <blockquote>The more creative programmer will only be limited by their imagination. Want to build a digital clock into the wall of your house which displays the real time? Easy. Want to get back at a friend who stole your precious diamonds? Remove the floor from underneath their feet and let them fall into a pit of lava. The possibilities are endless.</blockquote>
-httpv://www.youtube.com/watch?v=HuvSke6h7Lk
+https://www.youtube.com/watch?v=HuvSke6h7Lk
 
 If the future is mobile, then is Pocket Minecraft on Raspberry Pi = the Tween replacement for Twitter?
 

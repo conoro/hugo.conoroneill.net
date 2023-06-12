@@ -128,7 +128,7 @@
       <h2 id="intro">Intro</h2>
 <p>After the <a href="http://conoroneill.net/all-the-tech-behind-our-halloween-hallway-of-horror/">silly complexity</a> and <a href="http://hackaday.com/2015/11/14/halloween-doorbell-prop-in-rube-goldberg-overdrive/">Hackaday article</a>! of last year, I decided to keep it simple for Halloween this year. Of course that worked out :-)</p>
 <p>The kids' favourite thing from all our Halloweens was the doorbell that made scary sounds. So that became the focus. As I hadn&rsquo;t really done anything with my two <a href="https://getchip.com/pages/chip">C.H.I.P.s</a>, I picked one to handle the bulk of the activity. I immediately became a big fan of its small size, built-in Wifi and simple Linux UI.</p>
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/11/chip01c.jpg" alt="Image"></p>
+<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2016/11/chip01c.jpg" alt="Image"></p>
 <p>But of course I couldn&rsquo;t leave it at that. I hauled out an old cheap scary mini skeleton we bought a few years back in Woodies and decided to add him to the mix.</p>
 <p>It also wouldn&rsquo;t be Halloween/Christmas without a touch of the Griswalds, so I added some LED strips to light the way.</p>
 <p>The &ldquo;smoke machines&rdquo; weren&rsquo;t great but added another layer of spookiness.</p>
@@ -194,7 +194,7 @@ sudo ./ssd1306_demo /dev/i2c-2
 <p>To show your own image you need to create it in Windows Paint (for realz) as a 128x64 monochrome BMP. Here&rsquo;s <a href="https://raw.githubusercontent.com/conoro/halloween2016/master/doorbell5.bmp">mine</a>. Then use <a href="http://en.radzio.dxp.pl/bitmap_converter/">LCD Asistant</a> which is a simple Windows tool that takes the BMP file and turns it into a .h file. I then replaced the array in font5x7.h with that one in the generated h file. I re-ran Make and then ran the code. It took a few iterations to get an image I was happy with.</p>
 <h2 id="doorbell-enclosure">Doorbell Enclosure</h2>
 <p>I had a few goes at creating an enclosure for the doorbell button itself in <a href="http://www.autodesk.com/products/fusion-360/overview">Autodesk Fusion 360</a>. The end-result was fine but not perfect.</p>
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/11/doorbell03c.jpg" alt="Image"></p>
+<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2016/11/doorbell03c.jpg" alt="Image"></p>
 <ul>
 <li><a href="https://github.com/conoro/halloween2016/blob/master/Doorbell_Casing_04.f3d">Fusion 360 File</a></li>
 <li><a href="https://github.com/conoro/halloween2016/blob/master/Doorbell_Casing_04.stl">STL File</a> (love how GitHub shows it in 3D!)</li>
@@ -211,7 +211,7 @@ sudo ./ssd1306_demo /dev/i2c-2
 <li><a href="https://github.com/conoro/halloween2016/blob/master/SSD1306_OLED_Box.stl">STL File</a></li>
 </ul>
 <p>I ran the wiring for the screen and the switch iself in through the letterbox and had the C.H.I.P. dangling inside and powered by a phone charger.</p>
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/11/doorbell01c.jpg" alt="Image"></p>
+<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2016/11/doorbell01c.jpg" alt="Image"></p>
 <h2 id="skeletony">Skeletony</h2>
 <p>Now that the main aim of the project was achieved I could relax since if nothing else worked, I still had the doorbell. I thought more about Skeletony and started &ldquo;upgrading&rdquo; him in iterations.</p>
 <h3 id="heart">Heart</h3>
@@ -222,7 +222,7 @@ sudo ./ssd1306_demo /dev/i2c-2
 <p>This glitched a lot but again, huge impact for such a simple idea. I ripped Skeletony&rsquo;s head off and hot-glued it to a generic <a href="http://www.dx.com/p/towerpro-sg90-9g-mini-servo-with-accessories-12859">dx.com</a> tiny servo. I cable-tied and hot glued the servo onto Skeletony&rsquo;s spine. The bog-standard Arduino Servo code <a href="https://www.arduino.cc/en/Tutorial/Sweep">from here</a> did the job and I just made go 90 degrees, pause and return. The servo was very noisy at rest so I found some good tips on turning it off rather than holding it at a point.</p>
 <h3 id="guts">Guts</h3>
 <p>I hot-glued some creepy crawlies to his belly to hide all of the electronics.</p>
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/11/skeletony01c.jpg" alt="Image"></p>
+<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2016/11/skeletony01c.jpg" alt="Image"></p>
 <h3 id="ears">Ears</h3>
 <p>So at this point we have heart, eyes and head all controlled by an Arduino Nano and kicking off whenever a particular pin was toggled. I could have run some wires from the C.H.I.P around the door frame and onto Skeletony but of course I wasn&rsquo;t happy with that.</p>
 <p>I needed to wifi-enabled Skeletony and we all know what that means - yep our old friend the ESP8266. Over the past year I&rsquo;ve gone from using NodeMCU Lua to Espruino to Arduino on the ESP. The biggest community seems to be Arduino so that&rsquo;s what I&rsquo;ve settled on.</p>
@@ -236,10 +236,10 @@ sudo ./ssd1306_demo /dev/i2c-2
 <li>My <a href="https://github.com/conoro/halloween2016/tree/master/go-skeletony">C.H.I.P Go code is here</a></li>
 </ul>
 <p>I powered him from two USB powerbanks on his back. (The two were an unsuccessful attempt to deal with the servo glitching).</p>
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/11/skeletony02c.jpg" alt="Image"></p>
+<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2016/11/skeletony02c.jpg" alt="Image"></p>
 <h2 id="led-strips">LED strips</h2>
 <p>Just a quick note about the analogue RGB LED strips I put down to guide people to the door. Wow, did they exceed expectations! They lit up the entire house and make it look extremely spooky. The spookiness doesn&rsquo;t really come across in the video. These were bog standard 5050 waterproof strips that you can get on DX.com or <a href="https://www.aliexpress.com/item-img/Tanbaby-RGB-Led-Strip-5050-Waterproof-flexible-Rope-44key-RGB-LED-controller-12V-5A-60W-Power/32452459271.html">Aliexpress</a>.</p>
-<p><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2016/11/led_strip_5050.jpg" alt="Image"></p>
+<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2016/11/led_strip_5050.jpg" alt="Image"></p>
 <h2 id="rotating-lightbulbs">Rotating Lightbulbs</h2>
 <p>I learned about these from <a href="https://www.youtube.com/user/bigclivedotcom">Big Clive on YouTube</a>. His channel is a geek delight and highly recommended. He breaks apart electronic gadgets and lights from eBay and explains how they work. It&rsquo;s nearly always interesting and he comes across as a thoroughly nice man. I got mine from <a href="http://www.ebay.co.uk/itm/151947698357">here on eBay</a>. They worked ok but really aren&rsquo;t intended for outdoors. They work brilliantly indoors.</p>
 

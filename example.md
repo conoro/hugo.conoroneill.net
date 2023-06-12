@@ -8,4 +8,4 @@ title = "Example Title"
 Text
 [Link](https://www.example.com/)
 
-![Image Name](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/example.png)
+![Image Name](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/example.png)

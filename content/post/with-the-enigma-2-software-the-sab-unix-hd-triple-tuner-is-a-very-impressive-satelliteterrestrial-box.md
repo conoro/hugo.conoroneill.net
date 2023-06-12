@@ -9,7 +9,7 @@ slug = "with-the-enigma-2-software-the-sab-unix-hd-triple-tuner-is-a-very-impres
 
 In addition to the recent [Andro100](/the-and100-android-box-is-perfect-for-netflix-rte-player-etc/) box, the guys in [TV Trade](http://tvtrade.ie) also gave me a Sab Unix HD [Triple Tuner](http://www.tvtrade.ie/triple-tuner.html) box to try out. The specs on this thing were pretty amazing for something that costs approx €130+VAT so I was intrigued to see how well it did. After the reliability horror that was the Ferguson Ariva 120 pile of junk, I went in with open eyes.
 
-![Sab](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/02/sab.png "SAB Triple Tuner")
+![Sab](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/02/sab.png "SAB Triple Tuner")
 
 The box itself is pretty compact with a 1980s Amstrad stereo vibe off it with the chrome accents. Not exactly a looker but not offensive either. It has dual satellite inputs and a single "Saorview" DTT input. The usual outputs like HDMI etc are there along with wired LAN and a front and back USB port. I hate those front USB ports on all boxes as they are behind a flap which you then have to leave open if you use the port. But if you want to insert a wifi dongle, it probably makes sense for signal strength.
 
@@ -27,7 +27,7 @@ I couldn't believe how good Enigma was compared to the default software. Infinit
 
 I was starting to get frustrated with the EPG setup and did some googling to discover that there is a PC app called dreamboxEDIT which lets you configure the EPG remotely. I was pleasantly surprised to find that it was very easy to use and I simply deleted all the "bouquets" and removed all the garbage channels so I just had the core Irish and UK ones.
 
-![EPG](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/02/epg.jpg "Enigma 2 EPG")
+![EPG](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/02/epg.jpg "Enigma 2 EPG")
 
 So yes, it was fiddly to get that sorted but we now have a really nice program guide with 7 days of content. You can't do series link like Sky but you can set repeating timers for the same time.
 

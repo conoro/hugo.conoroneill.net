@@ -9,7 +9,7 @@ slug = "pebble-controlled-electric-blanket-using-cloud-pebble-simply-js"
 
 Messing with hardware and software can be both a joy and incredibly infuriating. Yesterday I spent a few intermittent hours trying to get Arduino and Espruino communicating reliably over NRF24L01+ wireless transceivers. I only half succeeded. I followed this with some reading up on both [CloudPebble](https://cloudpebble.net) and [Simply.js](http://simplyjs.io/). Literally 5 minutes later I had my first Pebble App installed on my watch and was remotely controlling the [electric blanket in our bed](http://conoroneill.net/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets).
 
-![Bandon Blanket](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/04/pebble_blanket.jpg "Bandon Bed Button")
+![Bandon Blanket](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/04/pebble_blanket.jpg "Bandon Bed Button")
 
 CloudPebble is a web-based IDE for building Pebble Apps. I believe it was started independently but is now run by [Pebble](http://getpebble.com) themselves. Simply.js is a library/SDK for building Pebble Apps using only JavaScript. Pebble recently announced that CloudPebble now supports Simply.js and boy they weren't kidding. It's now childsplay to build Pebble Apps.
 
@@ -87,7 +87,7 @@ simply.setText({
 
 Just in case the data route for this is not clear, here's what it looks like:
 
-![From Pebble to Switch](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/04/pebble_data_flow.png "Pebble Data Flow")
+![From Pebble to Switch](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/04/pebble_data_flow.png "Pebble Data Flow")
 
 
 I referred to this on Twitter last night as The Internet of Thangs. I'm already sick of The Internet of Things. The IoT hype cycle is completely out of control before the first killer apps/products have even been created. Big Data has become Big Bullshit. I sincerely hope that the winner in this area hasn't even incorporated as a business yet. If we leave it to Google, Cisco, GE or any of the other behemoths, we'll end up with whatever they read in the last Suarez book rather than something that is a fundamental change in how we benefit from technology. The Pebble is never going to end up on everyone's wrists but by providing simple tools that any idiot like me can play with, it could be the seed that eventually leads to something huge. cf Altair, ZX Spectrum, BBC Micro, ARM, Arduino, Raspberry Pi.

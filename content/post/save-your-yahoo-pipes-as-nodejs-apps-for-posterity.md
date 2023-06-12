@@ -9,7 +9,7 @@ slug = "save-your-yahoo-pipes-as-nodejs-apps-for-posterity"
 
 I swore I'd never use another Yahoo product after the cultural terrorism of their Geocities shutdown. Now one of their few bright lights of the past decade, Pipes, is biting the dust. However a very very smart person wrote a program called [pipes2js](https://github.com/neyric/pipes2js) three years ago which you may find useful. It converts your Pipes to Node.js apps!
 
-![RIP Pipes](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/06/rip_pipes.png)
+![RIP Pipes](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/06/rip_pipes.png)
 
 Installation is a tiny bit different from the instructions as it doesn't seem to be on NPM any more. Here's what worked for me on a Fedora 22 Virtual Box. I assume OSX would be similar. I might try Windows 8.1 later for the laugh.
 

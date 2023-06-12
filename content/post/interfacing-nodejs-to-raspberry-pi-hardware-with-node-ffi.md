@@ -11,7 +11,7 @@ Now that I can talk to the Efergy remote control switches using Arduino and [Dig
 
 But first, check out this gorgeous [Pimoroni Pibow Timber](http://shop.pimoroni.com/products/pibow-timber) case that the RPi now lives in. Makes me smile every time I look at it.
 
-![Pibow](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/03/pibow_timber.jpg "Pibow Timber Raspberry Pi case")
+![Pibow](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/03/pibow_timber.jpg "Pibow Timber Raspberry Pi case")
 
 Start by plugging in one of the Efergy switches and using its remote control to set its code. Use the sniffer program from [the last post](http://conoroneill.net/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets) to find out what that code is.
 

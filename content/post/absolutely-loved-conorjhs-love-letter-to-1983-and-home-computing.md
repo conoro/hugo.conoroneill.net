@@ -13,4 +13,4 @@ Even if he did have a stinky VIC-20 instead of a ZX Spectrum. Colour clash was a
 
 &nbsp;
 
-httpv://www.youtube.com/watch?v=SUjLP7rthfg
+https://www.youtube.com/watch?v=SUjLP7rthfg

@@ -13,7 +13,7 @@ I love watching ideas bounce back and forward between people on Twitter and see 
  
 Here's a wee video of it in action:
 
-httpv://youtu.be/8cdn_LFKQXI
+https://www.youtube.com/watch?v=8cdn_LFKQXI
 
 Apologies for the mobile interference in the audio. I was using my new SGS4 to SSH to the Raspberry Pi to kick off the Python code. The ConnectBot guys really need to fix the microscopic font on screens like the SGS4!
 

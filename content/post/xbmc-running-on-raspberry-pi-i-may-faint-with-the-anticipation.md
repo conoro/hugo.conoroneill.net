@@ -13,8 +13,8 @@ The kids' non-360 XBOX running XBMC has been an amazing piece of kit. We've had 
 
 &nbsp;
 
-httpv://www.youtube.com/watch?v=4NR57ELY28s
+https://www.youtube.com/watch?v=4NR57ELY28s
 
 Also, someone has already beaten me to the punch by getting a ZX Spectrum emulator running on it. We need someone to make cases that look exactly like 48K Spectrums, including a working keyboard, that the RPi can slot into. Do it!
 
-httpv://www.youtube.com/watch?v=zkbvDO1K_-c
+https://www.youtube.com/watch?v=zkbvDO1K_-c

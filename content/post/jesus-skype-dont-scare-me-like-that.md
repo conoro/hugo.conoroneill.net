@@ -9,7 +9,7 @@ slug = "jesus-skype-dont-scare-me-like-that"
 
 #"Jesus Skype, don't scare me like that"
 
-<a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2012/04/skype.png"><img class="alignnone size-full wp-image-664" title="skype" src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2012/04/skype.png" alt="" width="480" height="239" /></a>
+<a href="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/04/skype.png"><img class="alignnone size-full wp-image-664" title="skype" src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/04/skype.png" alt="" width="480" height="239" /></a>
 
 I got an email yesterday from Skype telling me that our account auto-refresh had been suspended. When I logged in, I saw the number above.
 

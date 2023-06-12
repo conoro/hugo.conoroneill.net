@@ -15,7 +15,7 @@ I was originally interested due to the Arduino angle but then I realised there w
 
 Have a look at the video first, it's an extremely cool mashing together of a bunch of things.
 
-httpv://youtu.be/Y1bdxf9tZWw
+https://www.youtube.com/watch?v=Y1bdxf9tZWw
 
 I'm not sure how the <a href="https://developers.google.com/+/hangouts/">Hangouts Extensions and API</a> announcements passed me by, but they are a really fantastic idea. To quote Google:
 <blockquote>The Google+ Hangouts API allows you to develop collaborative apps that run inside of a Google+ Hangout. Hangout apps behave much like normal web apps, but with the addition of the rich, real-time functionality provided by the Hangouts APIs. Apps have the ability to control aspects of the user interface, synchronize data between hangout participants, and respond to various events in the hangout.</blockquote>

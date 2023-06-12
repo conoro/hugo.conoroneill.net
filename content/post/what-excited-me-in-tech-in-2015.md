@@ -22,7 +22,7 @@ The number of projects and initiatives that have grown up around ESP8266 is impo
 # Raspberry Pi Zero and The Mag Pi Issue 40
 A [$5 computer](https://www.raspberrypi.org/blog/raspberry-pi-zero/) that came free on the front of a magazine. Very little else needs to be said here. $5 for 1GHz, 512MB RAM, 1080p HDMI, Linux, Mathematica, Node-Red, Kodi and anything else you want to try. I still get the shivers thinking about it. Meanwhile the never-satisfieds will whine about $1 adapters or the fact that it needs electricity. I'm framing my first one.
 
-![PiZero](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/raspberry-pi-zero-_3510859b.jpg)
+![PiZero](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/raspberry-pi-zero-_3510859b.jpg)
 
 # Let's Encrypt
 Anyone who has had to go through the rigmarole of setting up a https server knows what a pain it is. The certs are generally completely overpriced too. [Let's Encrypt](https://letsencrypt.org/) Certs are free and full automation is already available for Apache, NGINX, Caddy and more. Now you basically have no reason not to use https.

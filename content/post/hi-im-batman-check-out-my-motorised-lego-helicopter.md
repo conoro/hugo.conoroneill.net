@@ -11,7 +11,7 @@ I have long bemoaned Lego's approach to adding electronics/power to their kits. 
 
 In that spirit I was very excited about the possibilities of the Lego Batman kit I got in Hamley's recently. After beating back the sales people who tried to sell me blue or white Batmen (are they completely insane?), I finally found a proper black one from the movie.
 
-![First Time](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/09/lego_batman_helicopter.jpg "Lego Batman Helicopter")
+![First Time](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/09/lego_batman_helicopter.jpg "Lego Batman Helicopter")
 
 
 On Saturday, I started assembly with my two daughters and a small bit of help/interest from one of the boys. When I say "I started assembly", I really mean I handed the pieces to the girls who then clicked them into place with zero delay and almost no reference to the instructions. Their spatial reasoning seems to be at 1000x the speed of mine.

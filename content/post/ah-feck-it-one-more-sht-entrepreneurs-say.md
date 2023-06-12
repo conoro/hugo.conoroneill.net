@@ -11,7 +11,7 @@ slug = "ah-feck-it-one-more-sht-entrepreneurs-say"
 
 Starts badly but comes into its own as soon as it pivots :-)
 
-httpv://www.youtube.com/watch?v=alZqXA4R2dI
+https://www.youtube.com/watch?v=alZqXA4R2dI
 
 M.....V.....P
 

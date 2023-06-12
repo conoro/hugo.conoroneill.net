@@ -26,16 +26,16 @@ And just like the previous two years, the turkey was dry despite [spatchcocking 
 I really like the DX voltage booster. It enables you to connect a LiPo battery and a micro-USB power source. It then provides 5V on a standard USB socket. The power source can also charge the battery whilst powering the device. You can then remove the power source and the battery will power the device without interruption. It's almost perfect except for one stupid feature. You can't connect a battery to it to power a device without connecting (even momentarily) the power source (e.g. a phone charger). If it could do that then it'd be pretty much at the same level as the Adafruit boost devices. I've been unable to find any datasheets for it but ordered two more anyway. 
 
 ## Prototype
-![Prototype](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/thermometer05.jpg)
+![Prototype](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/thermometer05.jpg)
 
 ## Completed Board
-![Completed board](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/thermometer02.jpg)
+![Completed board](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/thermometer02.jpg)
 
 ## Lego Case
-![Lego Case](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/thermometer03.jpg)
+![Lego Case](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/thermometer03.jpg)
 
 ## Side View
-![Side View](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2015/12/thermometer04.jpg)
+![Side View](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/thermometer04.jpg)
 
 
 # Code (latest always [on Gist here](https://gist.github.com/conoro/2875556b7477e443ae0a) )

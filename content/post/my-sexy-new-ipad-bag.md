@@ -11,4 +11,4 @@ slug = "my-sexy-new-ipad-bag"
 
 I pondered Prada or Targus, but in the end, I went with this beauty. All the better for the stickers on the back too. 100% guaranteed not to get stolen.
 
-<br /><br /><a href="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2012/03/20120303-111943.jpg"><img src="https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2012/03/20120303-111943.jpg" alt="20120303-111943.jpg" class="alignnone size-full" /></a>
+<br /><br /><a href="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/03/20120303-111943.jpg"><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/03/20120303-111943.jpg" alt="20120303-111943.jpg" class="alignnone size-full" /></a>

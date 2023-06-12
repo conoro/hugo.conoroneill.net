@@ -10,7 +10,7 @@ slug = "i-tried-out-more-google-cardboard-apps-still-stunned-what-dollar10-can-a
 
 Of course Google Cardboard isn't up there with Oculus but I still have my jaw on the floor over what it can do. These are some of the apps I've tried out this week.
 
-![Cardboard](https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/12/cardboard.png "Cardboard")
+![Cardboard](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/12/cardboard.png "Cardboard")
 
 * [Google Cardboard App itself](https://play.google.com/store/apps/details?id=com.google.samples.apps.cardboarddemo)
 * [The Hobbit VR Experience](https://play.google.com/store/apps/details?id=com.jauntvr.preview.hobbit)

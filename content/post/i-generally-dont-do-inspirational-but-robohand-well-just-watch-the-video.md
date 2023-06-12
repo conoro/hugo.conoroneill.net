@@ -11,4 +11,4 @@ slug = "i-generally-dont-do-inspirational-but-robohand-well-just-watch-the-video
 
 Oh dear, I appear to have a hair or some grit in my eye.
 
-httpv://www.youtube.com/watch?v=WT3772yhr0o
+https://www.youtube.com/watch?v=WT3772yhr0o

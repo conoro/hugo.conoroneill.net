@@ -20,7 +20,7 @@ One small annoyance with the Baseline bolierplate in harp.js is that every blogp
     "slug": "a-simple-nodejs-script-to-setup-a-new-blog-post-in-harpjs",
     "status": "publish",
     "title": "A simple Node.js script to setup a new blog post in Harp.js",
-    "FBImage": "https://s3-eu-west-1.amazonaws.com/conoroneill.net/wp-content/uploads/2014/06/newpost.jpg"
+    "FBImage": "https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/06/newpost.jpg"
   }
 
 ```

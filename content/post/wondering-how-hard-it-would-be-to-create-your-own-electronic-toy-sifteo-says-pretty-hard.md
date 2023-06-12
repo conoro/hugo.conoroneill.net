@@ -15,4 +15,4 @@ The post dives deep, real deep. As an old Embedded Fart, I revelled in every lit
 
 The <a href="https://www.sifteo.com/">Sifteo</a> itself is still out of our price range but I hope that'll change as the volumes grow. It's a really interesting idea:
 
-httpv://www.youtube.com/watch?v=fEqq8JykQoQ
+https://www.youtube.com/watch?v=fEqq8JykQoQ
