@@ -22,10 +22,13 @@ A couple of things struck me as I put this together:
   * A page that has almost no interactivity needs 248 requests (mostly JavaScript) to load
   * A page with maybe 400 words of text requires 8MB of downloads
   * I could go on, but pages like that should score Zero on Lighthouse instead of the 81-100 they give themselves
-  * Lighthouse needs a content-size vs overall-size metric that brutally penalises bloat
+  * Lighthouse needs a content-size vs overall-size metric that brutally penalises tech bloat
   * Unrelated - Would an LLM on the Google indexers help with identifying content farms?
 * A 70KB RSS file provides more value and is more readable
-* We need Team Chainsaw for a better lighter web but I know it's too late
 * A blog without an RSS feed isn't a blog. Find another word.
+
+We need **Team Chainsaw** for a better lighter web but I know it's too late
+
+![Team Chainsaw](/images/2023/12/team_chainsaw.png)
 
 I hope you find the feed useful.
