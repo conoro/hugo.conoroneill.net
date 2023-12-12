@@ -17,7 +17,7 @@ A couple of things struck me as I put this together:
 * I didn't use a single Google tool apart from Chrome/Chromium to do this
 * I wouldn't even know where to start with running this on Google infra/tools
 * Presumably the first two days would have involved getting an auth flow working
-* The Developer Tools blog homepage is a perfect example of the awfulness of modern web dev:
+* The Chrome Developer "blog" homepage is a perfect example of the awfulness of modern web dev:
   * A page that is updated maybe once a week is dynamically generated
   * A page that has almost no interactivity needs 248 requests (mostly JavaScript) to load
   * A page with maybe 400 words of text requires 8MB of downloads
