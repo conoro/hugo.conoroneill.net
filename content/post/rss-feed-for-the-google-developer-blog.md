@@ -6,7 +6,7 @@ description = "Because these things matter"
 slug = "rss-feed-for-the-google-developer-blog"
 +++
 
-Yesterday I was amused and faux-shocked to see that the company who did more to damage RSS than any other, got rid of the [RSS feed](https://developer.chrome.com/feeds) for [its Developer Blog](https://developer.chrome.com/blog).
+Yesterday I was amused and faux-shocked to see that the company who did more to damage RSS than any other, got rid of the [RSS feed](https://developer.chrome.com/feeds) for [its Chrome Developer Blog](https://developer.chrome.com/blog).
 
 So this morning I gave ChatGPT a few nudges/samples and it generated a basic Python script to create the feed. GitHub Copilot took care of some refinements and GitHub Actions took care of generating the feed once per hour and providing it via GitHub Pages.
 
@@ -24,5 +24,6 @@ A couple of things struck me as I put this together:
   * I could go on, but pages like that should score Zero on Lighthouse instead of the 81-100 they give themselves
 * A 70KB RSS file provides more value and is more readable
 * We need Team Chainsaw for a better lighter web but I know it's too late
+* A blog without an RSS feed isn't a blog. Find another word.
 
 I hope you find the feed useful.
