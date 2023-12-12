@@ -15,13 +15,15 @@ You can subscribe to the [RSS Feed here](https://conoro.github.io/google-dev-blo
 A couple of things struck me as I put this together:
 
 * I didn't use a single Google tool apart from Chrome/Chromium to do this
-* I wouldn't even know where to start with running this on Google infra/tools
+* How many people would even know where to start with running this on Google infra/tools?
 * Presumably the first two days would have involved getting an auth flow working
 * The Chrome Developer "blog" homepage is a perfect example of the awfulness of modern web dev:
   * A page that is updated maybe once a week is dynamically generated
   * A page that has almost no interactivity needs 248 requests (mostly JavaScript) to load
   * A page with maybe 400 words of text requires 8MB of downloads
   * I could go on, but pages like that should score Zero on Lighthouse instead of the 81-100 they give themselves
+  * Lighthouse needs a content-size vs overall-size metric that brutally penalises bloat
+  * Unrelated - Would an LLM on the Google indexers help with identifying content farms?
 * A 70KB RSS file provides more value and is more readable
 * We need Team Chainsaw for a better lighter web but I know it's too late
 * A blog without an RSS feed isn't a blog. Find another word.
