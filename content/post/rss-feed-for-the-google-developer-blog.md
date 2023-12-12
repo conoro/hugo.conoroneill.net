@@ -1,7 +1,7 @@
 +++
 date = "2023-12-12T06:00:22Z"
 draft = false
-title = "An RSS Feed for the Google Developer Blog"
+title = "An RSS Feed for the Google Chrome Developer Blog"
 description = "Because these things matter"
 slug = "rss-feed-for-the-google-developer-blog"
 +++

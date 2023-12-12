@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 12 Dec 2023 06:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>An RSS Feed for the Google Developer Blog</title>
+      <title>An RSS Feed for the Google Chrome Developer Blog</title>
       <link>https://conoroneill.net/2023/12/12/rss-feed-for-the-google-developer-blog/</link>
       <pubDate>Tue, 12 Dec 2023 06:00:22 +0000</pubDate>
       
       <guid>https://conoroneill.net/2023/12/12/rss-feed-for-the-google-developer-blog/</guid>
-      <description>Yesterday I was amused and faux-shocked to see that the company who did more to damage RSS than any other, got rid of the RSS feed for its Developer Blog.
+      <description>Yesterday I was amused and faux-shocked to see that the company who did more to damage RSS than any other, got rid of the RSS feed for its Chrome Developer Blog.
 So this morning I gave ChatGPT a few nudges/samples and it generated a basic Python script to create the feed. GitHub Copilot took care of some refinements and GitHub Actions took care of generating the feed once per hour and providing it via GitHub Pages.</description>
     </item>
     
