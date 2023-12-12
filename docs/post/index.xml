@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Sep 2022 08:30:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Dec 2023 06:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An RSS Feed for the Google Developer Blog</title>
+      <link>https://conoroneill.net/2023/12/12/rss-feed-for-the-google-developer-blog/</link>
+      <pubDate>Tue, 12 Dec 2023 06:00:22 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2023/12/12/rss-feed-for-the-google-developer-blog/</guid>
+      <description>Yesterday I was amused and faux-shocked to see that the company who did more to damage RSS than any other, got rid of the RSS feed for its Developer Blog.
+So this morning I gave ChatGPT a few nudges/samples and it generated a basic Python script to create the feed. GitHub Copilot took care of some refinements and GitHub Actions took care of generating the feed once per hour and providing it via GitHub Pages.</description>
+    </item>
+    
     <item>
       <title>EPA Ireland Submission Data available as RSS, CSV and SQLite</title>
       <link>https://conoroneill.net/2022/09/26/epa-ireland-submission-data-available-as-rss-csv-sqlite/</link>
@@ -200,16 +210,6 @@ It&amp;rsquo;s hard to imagine now, but back then, Android was nowhere. The G1 w
       <guid>https://conoroneill.net/2018/09/08/creating-rss-feeds-for-corks-evening-echo-newspaper-website-with-node.js-and-serverless/</guid>
       <description>For nearly 10 years I relied on Twitter as my primary source of news. Now that I have left Twitter and Facebook mostly behind, I have turned back to email newsletters and RSS for non-tech news. I never stopped using RSS for tech news.
 Of course, in that time, many news sites have forgotten about RSS. e.g. The Cork Evening Echo in Ireland has some pages that refer to RSS but they are no longer functional.</description>
-    </item>
-    
-    <item>
-      <title>A Big Thank You to Ben Heck</title>
-      <link>https://conoroneill.net/2018/09/07/a-big-thank-you-to-ben-heck/</link>
-      <pubDate>Fri, 07 Sep 2018 07:00:22 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2018/09/07/a-big-thank-you-to-ben-heck/</guid>
-      <description>Ben Heckendorn recently ended his YouTube show with Element14 after several years of wonderful maker videos. Whilst the channel continues with a new name and other presenters, Ben has moved on.
-I had a hiatus from electronics for 20 years after I left UCD Elec Eng in 1992. In 2012 I discovered the world of Arduino and quite soon after, the Raspberry Pi launched. I&amp;rsquo;ve had so much fun building stupid (and every so often, not stupid) things over the past 6 years and I think Ben had a lot to do with that.</description>
     </item>
     
   </channel>
