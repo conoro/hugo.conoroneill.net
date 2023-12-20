@@ -24,7 +24,7 @@ And boy was that a mistake. Problems with it include:
 * There's no temperature control
 * There's no timer
 
-We've had multiple cheese-tastrophes with the new grill as people get distracted and forget the grill is on. Clean-up on aisle 6.
+We've had multiple cheese-tastrophes with the new grill as people got distracted and forgot the grill was on. Clean-up on aisle 6.
 
 I can't do much about most of the above but I thought I'd try to solve the last one, so I ordered a plug-in mains timer. 
 
