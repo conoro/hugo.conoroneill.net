@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Dec 2023 06:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2023 06:00:22 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding a countdown timer to a new George Foreman grill</title>
+      <link>https://conoroneill.net/2023/12/20/adding-a-countdown-timer-to-a-new-george-foreman-grill/</link>
+      <pubDate>Wed, 20 Dec 2023 06:00:22 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2023/12/20/adding-a-countdown-timer-to-a-new-george-foreman-grill/</guid>
+      <description>My wonderful late mother-in-law Mary bought us an original massive George Foreman Lean Mean Grilling Machine more than 10 years ago. Like most people we discovered it was pretty rubbish at cooking almost everything but was a superb toasted sandwich maker. With 5 kids, we have easily toasted thousands of cheese-based sambos.
+Unfortunately, as with all non-stick surfaces, eventually it wore away on the grill until it became a stick surface.</description>
+    </item>
+    
     <item>
       <title>An RSS Feed for the Google Chrome Developer Blog</title>
       <link>https://conoroneill.net/2023/12/12/rss-feed-for-the-google-developer-blog/</link>
@@ -200,16 +210,6 @@ Second - how did I manage to wait exactly one year between blogposts?</descripti
       <description>Ten years ago today, I received my first Android phone, an HTC G1, from a US eBay seller.
 Here it is, still working! It&amp;rsquo;s sitting on an Amazon Fire HD (stunningly good value) beside a Huawei Honor Play (a stand-in for my broken Galaxy S8+ and a fantastic phone at a crazy low price).
 It&amp;rsquo;s hard to imagine now, but back then, Android was nowhere. The G1 was the first Android device and many thought it compared very badly to the equivalent iPhone.</description>
-    </item>
-    
-    <item>
-      <title>Creating RSS feeds for Cork&#39;s Evening Echo newspaper website with Node.js and Serverless</title>
-      <link>https://conoroneill.net/2018/09/08/creating-rss-feeds-for-corks-evening-echo-newspaper-website-with-node.js-and-serverless/</link>
-      <pubDate>Sat, 08 Sep 2018 09:34:48 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2018/09/08/creating-rss-feeds-for-corks-evening-echo-newspaper-website-with-node.js-and-serverless/</guid>
-      <description>For nearly 10 years I relied on Twitter as my primary source of news. Now that I have left Twitter and Facebook mostly behind, I have turned back to email newsletters and RSS for non-tech news. I never stopped using RSS for tech news.
-Of course, in that time, many news sites have forgotten about RSS. e.g. The Cork Evening Echo in Ireland has some pages that refer to RSS but they are no longer functional.</description>
     </item>
     
   </channel>
