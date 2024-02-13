@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://conoroneill.net/2023/12/20/adding-a-countdown-timer-to-a-new-george-foreman-grill/</loc>
-    <lastmod>2023-12-20T06:00:22+00:00</lastmod>
-  </url><url>
     <loc>https://conoroneill.net/</loc>
-    <lastmod>2023-12-20T06:00:22+00:00</lastmod>
+    <lastmod>2024-02-13T05:00:22+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/post/</loc>
+    <lastmod>2024-02-13T05:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/2024/02/13/saving-all-your-github-stars-to-pinboard/</loc>
+    <lastmod>2024-02-13T05:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/2023/12/20/adding-a-countdown-timer-to-a-new-george-foreman-grill/</loc>
     <lastmod>2023-12-20T06:00:22+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2023/12/12/rss-feed-for-the-google-developer-blog/</loc>

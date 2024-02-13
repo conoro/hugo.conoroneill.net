@@ -12,7 +12,7 @@ My wonderful late mother-in-law Mary bought us an original massive George Forema
 
 Unfortunately, as with all non-stick surfaces, eventually it wore away on the grill until it became a stick surface.
 
-So off I went to Amazon to survey potential replacements. There was nothing really like the original so I went with a panini-style maker from George. 
+So off I went to Amazon to survey potential replacements. There was nothing really like the original so I went with a panini-style maker from George.
 
 ![New George Foreman](/images/2023/12/gf2.jpg)
 
@@ -26,7 +26,7 @@ And boy was that a mistake. Problems with it include:
 
 We've had multiple cheese-tastrophes with the new grill as people got distracted and forgot the grill was on. Clean-up on aisle 6.
 
-I can't do much about most of the above but I thought I'd try to solve the last one, so I ordered a plug-in mains timer. 
+I can't do much about most of the above but I thought I'd try to solve the last one, so I ordered a plug-in mains timer.
 
 
 ![Timer](/images/2023/12/gf3.jpg)
@@ -74,6 +74,8 @@ Your browser does not support the video tag.
 It may also be the world's first OLED display mains timer?
 
 I had been concerned the 10A relay in the S20 might be a bit weedy for a grill but it's rated for 2000W and the George Foreman is rated at 1800W. And so far it works perfectly.
+
+UPDATE: The 10A relay is too weak and started struggling to control the George Foreman. I'm currently rebuilding it with a Tuya 30A relay.
 
 The Arduino code to control this [is here](https://gist.github.com/conoro/77058e27bf3d34567d13f21ac0462aad). It's the usual cobbled-together rubbish from me. As always, once I get a positive result on a non-serious project, I move on to the next thing.
 
