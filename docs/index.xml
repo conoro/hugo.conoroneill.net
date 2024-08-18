@@ -13,8 +13,8 @@
       <pubDate>Sun, 18 Aug 2024 06:34:48 +0000</pubDate>
       
       <guid>https://conoroneill.net/2024/08/18/running-postgres-inside-node-red-via-wasm-and-pglite/</guid>
-      <description>I&amp;rsquo;ve been using Node-RED for many years, mostly for fun and personal projects. The coolest thing I did with it was to build the prototype for the NodeConf EU 2018 badge back-end using it.
-But 2024 is the first time I&amp;rsquo;ve worked with it in production, with the ServisBOT team doing some pretty incredible things using it. One aspect I&amp;rsquo;ve been interested in recently is local persistence. Of course my first port of call was the world&amp;rsquo;s greatest database, SQLite.</description>
+      <description>I&amp;rsquo;ve been using Node-RED for many years, mostly for fun and personal projects. The coolest thing I did with it was to build the prototype for the NodeConf EU 2018 badge back-end.
+But 2024 is the first time I&amp;rsquo;ve worked with it in production, with the ServisBOT team doing some pretty incredible things using it. One aspect I&amp;rsquo;ve been interested in recently is local persistence beyond context stores. Of course my first port of call was the world&amp;rsquo;s greatest database, SQLite.</description>
     </item>
     
     <item>
