@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://conoroneill.net/</loc>
-    <lastmod>2024-02-13T05:00:22+00:00</lastmod>
+    <lastmod>2024-08-18T06:34:48+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/post/</loc>
-    <lastmod>2024-02-13T05:00:22+00:00</lastmod>
+    <lastmod>2024-08-18T06:34:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/2024/08/18/running-postgres-inside-node-red-via-wasm-and-pglite/</loc>
+    <lastmod>2024-08-18T06:34:48+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2024/02/13/saving-all-your-github-stars-to-pinboard/</loc>
     <lastmod>2024-02-13T05:00:22+00:00</lastmod>
