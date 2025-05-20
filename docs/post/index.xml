@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Aug 2024 06:34:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 May 2025 02:34:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft&#39;s NLWeb and Agentic AI could trigger the resurgence of RSS</title>
+      <link>https://conoroneill.net/2025/05/20/microsofts-nlweb-and-agentic-ai-could-trigger-the-resurgence-of-rss/</link>
+      <pubDate>Tue, 20 May 2025 02:34:48 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2025/05/20/microsofts-nlweb-and-agentic-ai-could-trigger-the-resurgence-of-rss/</guid>
+      <description>I&amp;rsquo;ve never given up on RSS. It still provides enormous utility for me. The silly number of RSS converters in my GitHub account are testament to that.
+The recent removal of all RSS feeds from the EPA Ireland site was a major disappointment and I&amp;rsquo;ve been forced to Vibe Code a horror of a replacement scraper using their dreadful API instead.
+In contrast, my heart skipped a beat when I started going through the README for Microsoft&amp;rsquo;s NLWeb.</description>
+    </item>
+    
     <item>
       <title>Running Postgres inside Node-RED via WASM and PGlite</title>
       <link>https://conoroneill.net/2024/08/18/running-postgres-inside-node-red-via-wasm-and-pglite/</link>
@@ -199,16 +210,6 @@ If you access Samba/SMB shares on your home network via the stock PCManFM file m
       <guid>https://conoroneill.net/2019/12/04/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything/</guid>
       <description>When NearForm Research announced Bangle.js at NodeConf EU with Gordon Williams from Espruino, we highlighted the uniqueness of having an inexpensive off-the-shelf Chinese smartwatch running both JavaScript and Google&amp;rsquo;s TensorFlow Lite for Microcontrollers.
 Whilst hardcore technology people got the implications of this, most people didn&amp;rsquo;t. You can now run Machine Learning models directly on the $5 chip inside a watch and do all of the interaction inside a web browser. If you can&amp;rsquo;t wait until Bangle.</description>
-    </item>
-    
-    <item>
-      <title>Running Wasmer on a Raspberry Pi 4 with 64-bit userland</title>
-      <link>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland/</link>
-      <pubDate>Mon, 02 Dec 2019 07:00:00 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland/</guid>
-      <description>Like many people I&amp;rsquo;m excited by all of the possibilities opened up with WebAssembly/WASM. Most recently I&amp;rsquo;ve been keeping an eye on Wasmer and similar projects that enable WASM outside of the browser.
-So when I saw that you can now run it on a Raspberry Pi, I had to give it a try. But it&amp;rsquo;s not quite as straightforward as the article suggests and this is what I had to do to get it working.</description>
     </item>
     
   </channel>
