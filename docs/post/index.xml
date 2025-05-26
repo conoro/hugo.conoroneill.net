@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 May 2025 02:34:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 May 2025 02:34:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We need more than Vibe Coding, we need an entire Vibe Pipeline</title>
+      <link>https://conoroneill.net/2025/05/26/we-need-more-than-vibe-coding-we-need-an-entire-vibe-pipeline/</link>
+      <pubDate>Mon, 26 May 2025 02:34:48 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2025/05/26/we-need-more-than-vibe-coding-we-need-an-entire-vibe-pipeline/</guid>
+      <description>Whilst we&amp;rsquo;re all accelerating 10x with Vibe Coding, it&amp;rsquo;s only one piece of the process.
+We need an entire Vibe Pipeline.
+I want to move that fabulous Vibe-Coded app on http://localhost:3000 to a fully secure deployed solution with Auth, CI/CD, a domain and a cert by literally saying &amp;ldquo;take that fabulous app on http://localhost:3000 and deploy it securely with Auth, CI/CD, a domain and a cert&amp;rdquo;.
+As lots of us have said recently - Heroku for Vibe Coding.</description>
+    </item>
+    
     <item>
       <title>Microsoft&#39;s NLWeb and Agentic AI could trigger the resurgence of RSS</title>
       <link>https://conoroneill.net/2025/05/20/microsofts-nlweb-and-agentic-ai-could-trigger-the-resurgence-of-rss/</link>
@@ -200,16 +212,6 @@ So I&amp;rsquo;ve taken it as a bit of a challenge to try and keep as much old c
       <description>It&amp;rsquo;s always this time of year when I say I&amp;rsquo;ll definitely blog more next year. I was also sure I&amp;rsquo;d blog tons during lockdown but I was busy doing other things.
 This is the type of post I used to do very regularly on this blog so I thought I&amp;rsquo;d ease myself back in with a simple one.
 If you access Samba/SMB shares on your home network via the stock PCManFM file manager on your Raspberry Pi, you&amp;rsquo;ll probably have hit the problem that it forgets the password on reboot, even tho you ticked &amp;ldquo;remember forever&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>Why running TensorFlow Lite Micro on very inexpensive devices changes everything</title>
-      <link>https://conoroneill.net/2019/12/04/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything/</link>
-      <pubDate>Wed, 04 Dec 2019 07:00:00 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2019/12/04/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything/</guid>
-      <description>When NearForm Research announced Bangle.js at NodeConf EU with Gordon Williams from Espruino, we highlighted the uniqueness of having an inexpensive off-the-shelf Chinese smartwatch running both JavaScript and Google&amp;rsquo;s TensorFlow Lite for Microcontrollers.
-Whilst hardcore technology people got the implications of this, most people didn&amp;rsquo;t. You can now run Machine Learning models directly on the $5 chip inside a watch and do all of the interaction inside a web browser. If you can&amp;rsquo;t wait until Bangle.</description>
     </item>
     
   </channel>
