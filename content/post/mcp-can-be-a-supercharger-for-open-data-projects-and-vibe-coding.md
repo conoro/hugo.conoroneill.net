@@ -9,7 +9,7 @@ For personal projects, I generally follow Andrej Karpathy's [original definition
 
 But when it comes to creating Open Data projects, I often find that the challenge isn't the code, it's the data. It's can be inconsistent, difficult to access, difficult to understand, never designed for scraping or in some awful format. 
 
-Sometimes you can be lucky, as I was last week. I've been moving the [EPA Ireland scraper](https://github.com/EPA-Ireland-Updates-Unofficial/epa-rss) from the now-deleted RSS feeds to their OpenAPI/Swagger based API. Weirdly RSS is far more efficient on that site and needs far fewer requests. But needs must, so I've been bashing away and finding it a bit of a struggle even with Vibe Coding. This is not an API designed to be used, it is designed to meet regulations. (If you've been wondering where the daily feeds have gone, they'll be back soon.)
+Sometimes you can be lucky, as I was last week. I've been moving the [EPA Ireland scraper](https://github.com/EPA-Ireland-Updates-Unofficial/epa-rss) from the now-deleted RSS feeds to their OpenAPI/Swagger based API. Weirdly RSS is far more efficient on that site and needs far fewer requests. But it is what it is, so I've been bashing away and finding it a bit of a struggle even with Vibe Coding. This is not an API designed to be used, it is designed to meet regulations. (If you've been wondering where the daily feeds have gone, they'll be back soon.)
 
 Then last week I discovered the fantastic Open Source project - [OpenAPI to MCP Generator](https://github.com/harsha-iiiv/openapi-mcp-generator). In a few minutes I was able to give it the root EPA OpenAPI end-point and have an MCP server running exposing all the end-points and their descriptions.
 
