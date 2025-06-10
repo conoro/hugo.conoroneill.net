@@ -7,7 +7,7 @@ slug = "mcp-can-be-a-supercharger-for-open-data-projects-and-vibe-coding"
 
 For personal projects, I generally follow Andrej Karpathy's [original definition of Vibe Coding](https://x.com/karpathy/status/1886192184808149383?lang=en) - I don't look at the generated code, I just tell the LLM what I want, paste in the error messages and iterate until it gives me the output I need. But that's a lot easier to do when you've been writing software for 40+ years and know what to ask for!
 
-But when it comes to creating Open Data projects, I often find that the challenge isn't the code, it's the data. It's often inconsistent, difficult to access, difficult to understand, never designed for scraping or in some awful format. 
+But when it comes to creating Open Data projects, I often find that the challenge isn't the code, it's the data. It's can be inconsistent, difficult to access, difficult to understand, never designed for scraping or in some awful format. 
 
 Sometimes you can be lucky, as I was last week. I've been moving the [EPA Ireland scraper](https://github.com/EPA-Ireland-Updates-Unofficial/epa-rss) from the now-deleted RSS feeds to their OpenAPI/Swagger based API. Weirdly RSS is far more efficient on that site and needs far fewer requests. But needs must, so I've been bashing away and finding it a bit of a struggle even with Vibe Coding. This is not an API designed to be used, it is designed to meet regulations. (If you've been wondering where the daily feeds have gone, they'll be back soon.)
 
