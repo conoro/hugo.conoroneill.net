@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 May 2025 02:34:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jun 2025 06:35:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MCP can be a supercharger for Open Data projects and Vibe Coding</title>
+      <link>https://conoroneill.net/2025/06/10/mcp-can-be-a-supercharger-for-open-data-projects-and-vibe-coding/</link>
+      <pubDate>Tue, 10 Jun 2025 06:35:48 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2025/06/10/mcp-can-be-a-supercharger-for-open-data-projects-and-vibe-coding/</guid>
+      <description>For personal projects, I generally follow Andrej Karpathy&amp;rsquo;s original definition of Vibe Coding - I don&amp;rsquo;t look at the generated code, I just tell the LLM what I want, paste in the error messages and iterate until it gives me the output I need. But that&amp;rsquo;s a lot easier to do when you&amp;rsquo;ve been writing software for 40+ years and know what to ask for!
+But when it comes to creating Open Data projects, I often find that the challenge isn&amp;rsquo;t the code, it&amp;rsquo;s the data.</description>
+    </item>
+    
     <item>
       <title>We need more than Vibe Coding, we need an entire Vibe Pipeline</title>
       <link>https://conoroneill.net/2025/05/26/we-need-more-than-vibe-coding-we-need-an-entire-vibe-pipeline/</link>
@@ -201,17 +211,6 @@ So I&amp;rsquo;ve taken it as a bit of a challenge to try and keep as much old c
       
       <guid>https://conoroneill.net/2020/12/10/empowering-citizen-non-developers/</guid>
       <description>I&amp;rsquo;ve been thinking about tools for non-developers for several years. It seems to me that all the big players are leaving behind this important group. They keep talking about citizen developers, low-code and no-code. But the focus is on &amp;ldquo;code&amp;rdquo;, so most of the world will self-select out of using any of those tools, including the no-code ones. Even the title of Satya Nadella&amp;rsquo;s article this week is &amp;ldquo;Want a More Equitable Future?</description>
-    </item>
-    
-    <item>
-      <title>Getting PCManFM on your Raspberry Pi to remember SMB/Samba passwords</title>
-      <link>https://conoroneill.net/2020/12/08/pcmanfm-raspberry-pi-smb-samba-password/</link>
-      <pubDate>Tue, 08 Dec 2020 07:00:22 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2020/12/08/pcmanfm-raspberry-pi-smb-samba-password/</guid>
-      <description>It&amp;rsquo;s always this time of year when I say I&amp;rsquo;ll definitely blog more next year. I was also sure I&amp;rsquo;d blog tons during lockdown but I was busy doing other things.
-This is the type of post I used to do very regularly on this blog so I thought I&amp;rsquo;d ease myself back in with a simple one.
-If you access Samba/SMB shares on your home network via the stock PCManFM file manager on your Raspberry Pi, you&amp;rsquo;ll probably have hit the problem that it forgets the password on reboot, even tho you ticked &amp;ldquo;remember forever&amp;rdquo;.</description>
     </item>
     
   </channel>
