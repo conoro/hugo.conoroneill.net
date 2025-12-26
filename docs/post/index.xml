@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jun 2025 06:35:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Dec 2025 06:40:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vibe-Coding an ESP32 version of Micro QuickJS aka MQuickJS</title>
+      <link>https://conoroneill.net/2025/12/26/vibe-coding-an-esp32-version-of-micro-quickjs-aka-mquickjs/</link>
+      <pubDate>Fri, 26 Dec 2025 06:40:48 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2025/12/26/vibe-coding-an-esp32-version-of-micro-quickjs-aka-mquickjs/</guid>
+      <description>In an early Christmas gift to everyone, the legendary Fabrice Bellard released a tiny new JavaScript engine called Micro QuickJS. As someone who has been using Espruino for years and was responsible for ushering the NodeConf EU 2017/2018/2019 digital conference badges into being, this obviously caught my attention immediately.
+I looked at the small stack of ESP32 C6, H2 and S3 boards on my desk and thought &amp;ldquo;well this could be fun&amp;rdquo;.</description>
+    </item>
+    
     <item>
       <title>MCP can be a supercharger for Open Data projects and Vibe Coding</title>
       <link>https://conoroneill.net/2025/06/10/mcp-can-be-a-supercharger-for-open-data-projects-and-vibe-coding/</link>
@@ -202,15 +212,6 @@ There are lots of ad-supported or pay-for apps to do this in the Google Play Sto
       <description>Many of us remember the cultural ignorance of Yahoo deleting GeoCities and Twitter deleting Posterous off the web. Those responsible are no better than library arsonists.
 Whether you think all of that published creativity was rubbish or amazing, there is something very wrong with it all just disappearing. The Internet Archive does an amazing job but it&amp;rsquo;s simply impossible for it to keep up.
 So I&amp;rsquo;ve taken it as a bit of a challenge to try and keep as much old content as possible online if I&amp;rsquo;ve been involved with it.</description>
-    </item>
-    
-    <item>
-      <title>Empowering Citizen Non-Developers</title>
-      <link>https://conoroneill.net/2020/12/10/empowering-citizen-non-developers/</link>
-      <pubDate>Thu, 10 Dec 2020 07:00:22 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2020/12/10/empowering-citizen-non-developers/</guid>
-      <description>I&amp;rsquo;ve been thinking about tools for non-developers for several years. It seems to me that all the big players are leaving behind this important group. They keep talking about citizen developers, low-code and no-code. But the focus is on &amp;ldquo;code&amp;rdquo;, so most of the world will self-select out of using any of those tools, including the no-code ones. Even the title of Satya Nadella&amp;rsquo;s article this week is &amp;ldquo;Want a More Equitable Future?</description>
     </item>
     
   </channel>
