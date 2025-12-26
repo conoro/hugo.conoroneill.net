@@ -1,8 +1,8 @@
 +++
 date = "2025-12-26T06:40:48.313Z"
 draft = false
-title = "Vibe-Coding an ESP32 version of Micro QuickJS aka MQuickJS"
-slug = "vibe-coding-an-esp32-version-of-micro-quickjs-aka-mquickjs"
+title = "Vibe-Coding an ESP32 version of Micro QuickJS / MQuickJS"
+slug = "vibe-coding-an-esp32-version-of-micro-quickjs-mquickjs"
 +++
 
 In an early Christmas gift to everyone, the legendary Fabrice Bellard released a tiny new JavaScript engine called [Micro QuickJS](https://github.com/bellard/mquickjs). As someone who has been using [Espruino](https://espruino.com) for years and was responsible for ushering the NodeConf EU 2017/2018/2019 digital conference badges into being, this obviously caught my attention immediately.

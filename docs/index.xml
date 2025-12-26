@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Dec 2025 06:40:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Vibe-Coding an ESP32 version of Micro QuickJS aka MQuickJS</title>
-      <link>https://conoroneill.net/2025/12/26/vibe-coding-an-esp32-version-of-micro-quickjs-aka-mquickjs/</link>
+      <title>Vibe-Coding an ESP32 version of Micro QuickJS / MQuickJS</title>
+      <link>https://conoroneill.net/2025/12/26/vibe-coding-an-esp32-version-of-micro-quickjs-mquickjs/</link>
       <pubDate>Fri, 26 Dec 2025 06:40:48 +0000</pubDate>
       
-      <guid>https://conoroneill.net/2025/12/26/vibe-coding-an-esp32-version-of-micro-quickjs-aka-mquickjs/</guid>
+      <guid>https://conoroneill.net/2025/12/26/vibe-coding-an-esp32-version-of-micro-quickjs-mquickjs/</guid>
       <description>In an early Christmas gift to everyone, the legendary Fabrice Bellard released a tiny new JavaScript engine called Micro QuickJS. As someone who has been using Espruino for years and was responsible for ushering the NodeConf EU 2017/2018/2019 digital conference badges into being, this obviously caught my attention immediately.
 I looked at the small stack of ESP32 C6, H2 and S3 boards on my desk and thought &amp;ldquo;well this could be fun&amp;rdquo;.</description>
     </item>
