@@ -19,6 +19,8 @@ My main thoughts about MQuickJS are that I love the simplicity of the project, w
 
 I'm probbaly going to do nothing with this. It was a light-hearted Christmas experiment, some of which was done waiting for the Christmas turkey to cook, and I'm just chuffed it actually worked. I might add basic GPIO read/write as it feels a bit odd to have LEDs and not GPIO.
 
+UPDATE 2025-12-27: GPIO library added too.
+
 The code, build configs and instructions are all [on GitHub](https://github.com/conoro/mquickjs) if you want to try it out yourself.
 
 ```js
