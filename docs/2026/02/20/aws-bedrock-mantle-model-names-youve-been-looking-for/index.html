@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" The AWS Bedrock Mantle Model Names You&#39;ve Been Looking For &middot;  Cross Dominant" />
+  	<meta property="og:site_name" content="Cross Dominant" />
+  	<meta property="og:url" content="https://conoroneill.net/2026/02/20/aws-bedrock-mantle-model-names-youve-been-looking-for/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2026-02-20T07:40:48Z" />
+
+    
+    
+
+  <title>
+     The AWS Bedrock Mantle Model Names You&#39;ve Been Looking For &middot;  Cross Dominant
+  </title>
+
+    <meta name="description" content="Mixed laterality since 1968" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://conoroneill.net/favicon.ico">
+	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+
+
+
+    
+      
+          <link href="https://conoroneill.net/index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.84.4" />
+
+    <link rel="canonical" href="https://conoroneill.net/2026/02/20/aws-bedrock-mantle-model-names-youve-been-looking-for/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88610-4', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+
+        
+    </ul>
+
+
+    
+    <a class="subscribe-button icon-feed" href="https://conoroneill.net/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/cross_dominant.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">The AWS Bedrock Mantle Model Names You&#39;ve Been Looking For</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2026-02-20T07:40:48Z">
+            Feb 20, 2026
+          </time>
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>I honestly can&rsquo;t understand how Amazon is doing such a dreadful job of communicating how to use Bedrock Mantle or even what it is. Every blogpost about new supported models links to information pages that are factually useless if you want to use them.</p>
+<p>Yesterday I finally figured out, with the help of some random Python script in a random GitHub repo, not made by Amazon, how to get a list of the real model names you need to use.</p>
+<p>Of course this post will be out of date as soon as I publish it, but hopefully you&rsquo;ll read this and I&rsquo;ll have saved you banging your head off a desk like I have been doing since Mantle was announced.</p>
+<p>So here are the basics.</p>
+<p>Bedrock Mantle is many things but the only thing of interest to me is that it provides a range of LLMs on OpenAI-compatible endpoints using API keys for access. So no need for Amazon SDKs or IAM or any of that malarkey. Just use the OpenAI API and the right model names.</p>
+<p>If you go to this page: <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-mantle.html">https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-mantle.html</a> you&rsquo;ll see the list of regional end-points. These are now correct. They weren&rsquo;t originally.🤦‍♂️</p>
+<p>Nowhere on that page does it link to the list of actual models available on Mantle. It links to OpenAI&rsquo;s list of models 🤦‍♂️</p>
+<p>I asked AWS support on Twitter for the list and they told me to ask a question on their support forums.🤦‍♂️</p>
+<p>You&rsquo;ll probably Google for the names of Bedrock models and find <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html">this page</a>. Then you&rsquo;ll discover that Mantle only has a subset of those and those model IDs are not correct for Mantle in many cases.🤦‍♂️</p>
+<p>So, as of Feb 20th 2026, here are the correct model names available on Bedrock Mantle:</p>
+<pre><code class="language-csv" data-lang="csv">mistral.ministral-3-3b-instruct,
+moonshotai.kimi-k2.5,
+openai.gpt-oss-20b,
+qwen.qwen3-coder-next,
+qwen.qwen3-235b-a22b-2507,
+mistral.mistral-large-3-675b-instruct,
+qwen.qwen3-next-80b-a3b-instruct,
+google.gemma-3-27b-it,
+nvidia.nemotron-nano-12b-v2,
+mistral.magistral-small-2509,
+openai.gpt-oss-safeguard-20b,
+zai.glm-4.7,
+minimax.minimax-m2.1,
+zai.glm-4.7-flash,
+openai.gpt-oss-safeguard-120b,
+mistral.voxtral-mini-3b-2507,
+qwen.qwen3-coder-30b-a3b-instruct,
+google.gemma-3-12b-it,
+mistral.ministral-3-8b-instruct,
+zai.glm-4.6,
+deepseek.v3.1,
+qwen.qwen3-coder-480b-a35b-instruct,
+mistral.voxtral-small-24b-2507,
+openai.gpt-oss-120b,
+qwen.qwen3-32b,
+minimax.minimax-m2,
+google.gemma-3-4b-it,
+nvidia.nemotron-nano-3-30b,
+qwen.qwen3-vl-235b-a22b-instruct,
+mistral.ministral-3-14b-instruct,
+deepseek.v3.2,
+moonshotai.kimi-k2-thinking,
+nvidia.nemotron-nano-9b-v2
+</code></pre><p>The relevant end-points for me are:</p>
+<pre><code>https://bedrock-mantle.us-east-1.api.aws/v1/chat/completions
+
+https://bedrock-mantle.eu-west-1.api.aws/v1/chat/completions
+
+</code></pre><p>You create long-term API keys in the Bedrock Console (set expiry to never). You&rsquo;ll need Administrator-level permissions to do this or a very specific set of IAM creds.</p>
+<p>You can&rsquo;t name the keys yourself, Amazon will pick obtuse random nonsense for those. So you&rsquo;ll have to track what keys are used by what somewhere else.🤦‍♂️</p>
+<p>AWS is where UX goes to die.</p>
+<p>A sample Curl command to use Z.ai GLM-4.7-flash is as follows:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -X POST https://bedrock-mantle.us-east-1.api.aws/v1/chat/completions <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>   -H <span style="color:#e6db74">&#34;Content-Type: application/json&#34;</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>   -H <span style="color:#e6db74">&#34;Authorization: Bearer YOUR_API_KEY_HERE&#34;</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>   -d <span style="color:#e6db74">&#39;{
+</span><span style="color:#e6db74">    &#34;model&#34;: &#34;zai.glm-4.7-flash&#34;,
+</span><span style="color:#e6db74">    &#34;reasoning&#34;: { &#34;enabled&#34;: false },
+</span><span style="color:#e6db74">    &#34;messages&#34;: [
+</span><span style="color:#e6db74">        {
+</span><span style="color:#e6db74">            &#34;role&#34;: &#34;user&#34;,
+</span><span style="color:#e6db74">            &#34;content&#34;: &#34;Hello! What model are you?&#34;
+</span><span style="color:#e6db74">        }
+</span><span style="color:#e6db74">    ],
+</span><span style="color:#e6db74">    &#34;max_tokens&#34;: 512,
+</span><span style="color:#e6db74">    &#34;temperature&#34;: 0.7
+</span><span style="color:#e6db74">}&#39;</span>
+
+</code></pre></div><p>I still don&rsquo;t know if it&rsquo;s <code>&quot;reasoning&quot;: { &quot;enabled&quot;: false }</code> or <code>&quot;extra_params&quot;: { &quot;reasoning&quot;: { &quot;effort&quot;: &quot;low&quot; } }</code> for each of the reasoning models. The latter seems to shut GPT-OSS-120B up correctly.</p>
+<p>Finally, I recommend installing that <a href="https://github.com/danilop/bedrock-mantle">simple Python tool</a> I used if you ever need to get a list of the current models available. I had tried to use the API call provided on one of the AWS pages and it returned an empty list.🤦‍♂️</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+git clone git@github.com:danilop/bedrock-mantle.git
+cd bedrock-mantle
+uv tool install .
+export OPENAI_BASE_URL<span style="color:#f92672">=</span>https://bedrock-mantle.us-east-1.api.aws/v1
+export OPENAI_API_KEY<span style="color:#f92672">=</span> YOUR_API_KEY_HERE
+
+bedrock-mantle list-models | awk -F<span style="color:#e6db74">&#39;: &#39;</span> <span style="color:#e6db74">&#39;/ID:/ {print $2}&#39;</span>
+
+</code></pre></div><p>Hope that Helps.</p>
+<p>AWS, feel free to copy and paste this post on to the Bedrock docs site and save your users a lot of wasted time and frustration.</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
+  
+  <p>Tech guy who likes running slowly</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
+    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=The%20AWS%20Bedrock%20Mantle%20Model%20Names%20You%27ve%20Been%20Looking%20For&amp;url=https%3a%2f%2fconoroneill.net%2f2026%2f02%2f20%2faws-bedrock-mantle-model-names-youve-been-looking-for%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'crossdominant';
+  var disqus_url = 'https:\/\/conoroneill.net\/2026\/02\/20\/aws-bedrock-mantle-model-names-youve-been-looking-for\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+    
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cross Dominant</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
+    
+</body>
+</html>
+

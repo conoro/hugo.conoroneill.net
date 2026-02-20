@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Dec 2025 06:40:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Feb 2026 07:40:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The AWS Bedrock Mantle Model Names You&#39;ve Been Looking For</title>
+      <link>https://conoroneill.net/2026/02/20/aws-bedrock-mantle-model-names-youve-been-looking-for/</link>
+      <pubDate>Fri, 20 Feb 2026 07:40:48 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2026/02/20/aws-bedrock-mantle-model-names-youve-been-looking-for/</guid>
+      <description>I honestly can&amp;rsquo;t understand how Amazon is doing such a dreadful job of communicating how to use Bedrock Mantle or even what it is. Every blogpost about new supported models links to information pages that are factually useless if you want to use them.
+Yesterday I finally figured out, with the help of some random Python script in a random GitHub repo, not made by Amazon, how to get a list of the real model names you need to use.</description>
+    </item>
+    
     <item>
       <title>Vibe-Coding an ESP32 version of Micro QuickJS / MQuickJS</title>
       <link>https://conoroneill.net/2025/12/26/vibe-coding-an-esp32-version-of-micro-quickjs-mquickjs/</link>
@@ -201,17 +211,6 @@ I was really intrigued by the launch of GitHub OCTO Flat Data, having already be
       <guid>https://conoroneill.net/2021/07/12/pano2insta-panoramic-photo-to-instagram-converter/</guid>
       <description>My Huawei P30 Pro takes great panoramic photos but Instagram isn&amp;rsquo;t able to use them properly. The trick is to split them into multiple 1080x1080 photos (up to 10 of them) and include all of them in one post. People can then swipe right and left to get a pseudo-panoramic view.
 There are lots of ad-supported or pay-for apps to do this in the Google Play Store. But I figured it was hardly difficult to do.</description>
-    </item>
-    
-    <item>
-      <title>Preserving old blogs/sites and the importance of GitHub</title>
-      <link>https://conoroneill.net/2021/01/17/preserving-old-sites-importance-of-github/</link>
-      <pubDate>Sun, 17 Jan 2021 17:00:22 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2021/01/17/preserving-old-sites-importance-of-github/</guid>
-      <description>Many of us remember the cultural ignorance of Yahoo deleting GeoCities and Twitter deleting Posterous off the web. Those responsible are no better than library arsonists.
-Whether you think all of that published creativity was rubbish or amazing, there is something very wrong with it all just disappearing. The Internet Archive does an amazing job but it&amp;rsquo;s simply impossible for it to keep up.
-So I&amp;rsquo;ve taken it as a bit of a challenge to try and keep as much old content as possible online if I&amp;rsquo;ve been involved with it.</description>
     </item>
     
   </channel>
