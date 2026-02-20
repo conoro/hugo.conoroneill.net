@@ -7,6 +7,8 @@ slug = "aws-bedrock-mantle-model-names-youve-been-looking-for"
 
 I honestly can't understand how Amazon is doing such a dreadful job of communicating how to use Bedrock Mantle or even what it is. Every blogpost about new supported models links to information pages that are factually useless if you want to use them.
 
+![Bedrock Cartoon](/images/2026/02/bedrock-cartoon.jpg)
+
 Yesterday I finally figured out, with the help of some random Python script in a random GitHub repo, not made by Amazon, how to get a list of the real model names you need to use.
 
 Of course this post will be out of date as soon as I publish it, but hopefully you'll read this and I'll have saved you banging your head off a desk like I have been doing since Mantle was announced.
