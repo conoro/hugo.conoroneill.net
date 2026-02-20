@@ -6,7 +6,20 @@
     <description>Recent content on Cross Dominant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Feb 2026 07:40:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Feb 2026 09:23:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Era of Disposable Apps and Disposable UIs</title>
+      <link>https://conoroneill.net/2026/02/20/era-of-disposable-apps-and-disposable-uis/</link>
+      <pubDate>Fri, 20 Feb 2026 09:23:48 +0000</pubDate>
+      
+      <guid>https://conoroneill.net/2026/02/20/era-of-disposable-apps-and-disposable-uis/</guid>
+      <description>Two posts in one day? Monsieur, with these Rocher you are really spoiling us.
+I realised earlier this week that we have now entered the era of Disposable Apps and Disposable UIs.
+Not single-function Apps but single-use Apps, with a GUI and a Backend.
+Generated in &amp;lt; 5 mins by Claude Code or Codex and lots of APIs.
+Here&amp;rsquo;s a sub-screen of my throwaway Bedrock Mantle tester from yesterday. First prompt to Claude Code at 15:56.</description>
+    </item>
+    
     <item>
       <title>The AWS Bedrock Mantle Model Names You&#39;ve Been Looking For</title>
       <link>https://conoroneill.net/2026/02/20/aws-bedrock-mantle-model-names-youve-been-looking-for/</link>
@@ -201,16 +214,6 @@ The original mission statement of the Pi was to be a modern BBC computer - a che
       <guid>https://conoroneill.net/2021/07/15/tiktok-rss-feeds-using-github-octo-flat-data/</guid>
       <description>Gen-X nerds continue to ruin the internet for Gen-Z by implementing RSS feeds for TikTok 😁
 I was really intrigued by the launch of GitHub OCTO Flat Data, having already been a longtime fan of Simon Willison&amp;rsquo;s work (all the way back to the early days of Django). There is something very powerful in there that is not obvious on first look. Connecting it to Low-Code platforms could unleash lots of crazy fabulous new ideas.</description>
-    </item>
-    
-    <item>
-      <title>Pano2Insta - Panoramic photo to Instagram converter</title>
-      <link>https://conoroneill.net/2021/07/12/pano2insta-panoramic-photo-to-instagram-converter/</link>
-      <pubDate>Mon, 12 Jul 2021 05:00:22 +0000</pubDate>
-      
-      <guid>https://conoroneill.net/2021/07/12/pano2insta-panoramic-photo-to-instagram-converter/</guid>
-      <description>My Huawei P30 Pro takes great panoramic photos but Instagram isn&amp;rsquo;t able to use them properly. The trick is to split them into multiple 1080x1080 photos (up to 10 of them) and include all of them in one post. People can then swipe right and left to get a pseudo-panoramic view.
-There are lots of ad-supported or pay-for apps to do this in the Google Play Store. But I figured it was hardly difficult to do.</description>
     </item>
     
   </channel>

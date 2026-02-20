@@ -119,4 +119,4 @@ Hope that Helps.
 
 AWS, feel free to copy and paste this post on to the Bedrock docs site and save your users a lot of wasted time and frustration.
 
-Finally, to end on a non-snarky note, Mantle is a huge improvement over the previous dog slow unreliable GPT-OSS endpoints and I'm seeing some superb TTFT numbers on the newer models. Will do some sort of Mantle model bake-off next week hopefully.
+Finally, to end on a non-snarky note, Mantle is a huge improvement over the previous dog slow unreliable GPT-OSS endpoints and I'm seeing some superb TTFT numbers on the newer models.
