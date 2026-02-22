@@ -13,8 +13,8 @@ publishdir = "docs"
 [pagination]
   pagerSize = 10
 
-[services.disqus]
-  shortname = "crossdominant"
+#[services.disqus]
+#  shortname = "crossdominant"
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -68,9 +68,9 @@ publishdir = "docs"
     ]
     page = [{ type = "toc" }]
 
-  [params.comments]
-    enabled = true
-    provider = "disqus"
+#  [params.comments]
+#    enabled = true
+#    provider = "disqus"
 
   [params.colorScheme]
     toggle = true
