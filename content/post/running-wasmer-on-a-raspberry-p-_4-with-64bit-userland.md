@@ -4,8 +4,9 @@ draft = false
 title = "Running Wasmer on a Raspberry Pi 4 with 64-bit userland"
 description = "Just some info collected from trying to set it up myself to save you the hassle."
 slug = "running-wasmer-on-a-raspberry-pi-4-with-64bit-userland"
+categories = ["IoT & Electronics"]
+tags = ["docker", "linux", "python", "raspberry-pi", "wasm"]
 +++
-
 Like many people I'm excited by all of the possibilities opened up with [WebAssembly/WASM](https://webassembly.org/). Most recently I've been keeping an eye on [Wasmer](https://wasmer.io/) and similar projects that enable WASM outside of the browser.
 
 So when I saw that you can now [run it on a Raspberry Pi](https://medium.com/wasmer/running-webassembly-on-arm-7d365ed0e50c), I had to give it a try. But it's not quite as straightforward as the article suggests and this is what I had to do to get it working.

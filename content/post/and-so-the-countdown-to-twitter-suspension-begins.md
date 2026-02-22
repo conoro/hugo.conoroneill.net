@@ -5,8 +5,9 @@ draft = false
 title = "And so the countdown to Twitter suspension begins"
 description = ""
 slug = "and-so-the-countdown-to-twitter-suspension-begins"
+categories = ["General Tech"]
+tags = ["twitter"]
 +++
-
 #"And so the countdown to Twitter suspension begins"
 
 

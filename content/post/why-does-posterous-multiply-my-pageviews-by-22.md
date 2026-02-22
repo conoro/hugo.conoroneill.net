@@ -5,8 +5,8 @@ draft = false
 title = "Why does Posterous multiply my pageviews by 22?"
 description = ""
 slug = "why-does-posterous-multiply-my-pageviews-by-22"
+categories = ["Web & Blogging"]
 +++
-
 #"Why does Posterous multiply my pageviews by 22?"
 
 

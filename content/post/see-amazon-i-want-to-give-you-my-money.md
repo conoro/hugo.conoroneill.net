@@ -5,8 +5,9 @@ draft = false
 title = "See Amazon, I WANT to give you my money"
 description = ""
 slug = "see-amazon-i-want-to-give-you-my-money"
+categories = ["Mobile & Apps"]
+tags = ["amazon", "android", "api", "cloud", "google", "ireland"]
 +++
-
 #"See Amazon, I WANT to give you my money"
 
 

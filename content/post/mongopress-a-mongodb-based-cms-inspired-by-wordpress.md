@@ -5,8 +5,9 @@ draft = false
 title = "MongoPress - A MongoDB-based CMS inspired by WordPress"
 description = ""
 slug = "mongopress-a-mongodb-based-cms-inspired-by-wordpress"
+categories = ["Software Development"]
+tags = ["database"]
 +++
-
 #"MongoPress - A MongoDB-based CMS inspired by WordPress"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Android need some hardware standards"
 description = ""
 slug = "android-need-some-hardware-standards"
+categories = ["Mobile & Apps"]
+tags = ["android", "bluetooth", "ios"]
 +++
-
 #"Android need some hardware standards"
 
 

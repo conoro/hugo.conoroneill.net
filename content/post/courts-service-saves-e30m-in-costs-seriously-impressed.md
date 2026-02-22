@@ -5,8 +5,8 @@ draft = false
 title = "Courts Service saves 30m in costs - Seriously Impressed"
 description = ""
 slug = "courts-service-saves-e30m-in-costs-seriously-impressed"
+categories = ["Web & Blogging"]
 +++
-
 #"Courts Service saves \u008030m in costs - Seriously Impressed"
 
 

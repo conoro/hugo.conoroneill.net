@@ -5,8 +5,9 @@ draft = false
 title = "Why I'm not using Google+ Very Much (Yeah, Yawwwnnnnnnn)"
 description = ""
 slug = "why-im-not-using-google-very-much-yeah-yawwwnnnnnnn"
+categories = ["Web & Blogging"]
+tags = ["twitter"]
 +++
-
 #"Why I'm not using Google+ Very Much (Yeah, Yawwwnnnnnnn)"
 
 

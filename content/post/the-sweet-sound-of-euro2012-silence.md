@@ -5,8 +5,9 @@ draft = false
 title = "The Sweet Sound of #EURO2012 Silence"
 description = ""
 slug = "the-sweet-sound-of-euro2012-silence"
+categories = ["General Tech"]
+tags = ["ireland", "twitter"]
 +++
-
 #"The Sweet Sound of #EURO2012 Silence"
 
 This simple Tweetdeck filter is doing a pretty decent job so far. No need for dilithium crystals. I'll tweak it as the volume increases over the next few days. But at this stage I don't even know if the thing has started yet or not.

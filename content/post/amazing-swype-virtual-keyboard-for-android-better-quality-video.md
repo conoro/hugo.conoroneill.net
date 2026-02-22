@@ -5,8 +5,9 @@ draft = false
 title = "Amazing Swype Virtual Keyboard for Android (better quality video)"
 description = ""
 slug = "amazing-swype-virtual-keyboard-for-android-better-quality-video"
+categories = ["Mobile & Apps"]
+tags = ["android"]
 +++
-
 #"Amazing Swype Virtual Keyboard for Android (better quality video)"
 
 

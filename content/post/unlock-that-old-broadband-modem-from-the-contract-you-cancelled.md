@@ -5,8 +5,9 @@ draft = false
 title = "Unlock that old broadband modem from the contract you cancelled"
 description = ""
 slug = "unlock-that-old-broadband-modem-from-the-contract-you-cancelled"
+categories = ["Mobile & Apps"]
+tags = ["ireland", "nokia"]
 +++
-
 #"Unlock that old broadband modem from the contract you cancelled"
 
 

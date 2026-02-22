@@ -5,8 +5,9 @@ draft = false
 title = "Want to see how the new Google VP8 video looks?"
 description = ""
 slug = "want-to-see-how-the-new-google-vp8-video-looks"
+categories = ["Software Development"]
+tags = ["open-source"]
 +++
-
 #"Want to see how the new Google VP8 video looks?"
 
 

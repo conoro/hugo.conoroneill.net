@@ -5,8 +5,9 @@ draft = false
 title = "Notch makes getting fit a little less po-faced"
 description = ""
 slug = "notch-makes-getting-fit-a-little-less-po-faced"
+categories = ["Startups & Business"]
+tags = ["ireland"]
 +++
-
 #"Notch makes getting fit a little less po-faced"
 
 Getting fit and losing weight is a very serious subject. But it shouldn't be. All the talk of burn and crunch and walls and plank and core and bootcamps and weigh-ins would put anyone off. No wonder so many people are obese.

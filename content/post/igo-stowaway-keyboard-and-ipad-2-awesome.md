@@ -5,8 +5,9 @@ draft = false
 title = "iGo Stowaway Keyboard and iPad 2 = Awesome"
 description = ""
 slug = "igo-stowaway-keyboard-and-ipad-2-awesome"
+categories = ["Mobile & Apps"]
+tags = ["ios", "nokia", "video"]
 +++
-
 #"iGo Stowaway Keyboard and iPad 2 = Awesome"
 
 

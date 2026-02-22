@@ -5,8 +5,9 @@ draft = false
 title = "nide, a browser-based IDE for Node.JS is just what I need"
 description = ""
 slug = "nide-a-browser-based-ide-for-node-js-is-just-what-i-need"
+categories = ["Software Development"]
+tags = ["javascript", "nodejs"]
 +++
-
 #"nide, a browser-based IDE for Node.JS is just what I need"
 
 

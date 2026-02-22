@@ -5,8 +5,9 @@ draft = false
 title = "Remote Control implementation for an RC Car - Part 1"
 description = ""
 slug = "remote-control-implementation-for-an-rc-car-part-1"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "bluetooth", "wifi"]
 +++
-
 #"Remote Control implementation for an RC Car - Part 1"
 
 There are many ways you can add remote control to a project. Off the shelf modules; Bluetooth; 2.4GHz NRF24L01+ transceivers; 433MHz/434Mhz modules or even Infra-red.

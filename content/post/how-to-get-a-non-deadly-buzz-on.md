@@ -5,8 +5,9 @@ draft = false
 title = "How to get a non-Deadly Buzz on"
 description = ""
 slug = "how-to-get-a-non-deadly-buzz-on"
+categories = ["Low Code & No Code"]
+tags = ["android", "google", "ireland", "nokia", "twitter"]
 +++
-
 #"How to get a non-Deadly Buzz on"
 
 

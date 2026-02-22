@@ -5,8 +5,9 @@ draft = false
 title = "Sony Ericsson thinks I'm a big girls blouse"
 description = ""
 slug = "sony-ericsson-thinks-im-a-big-girls-blouse"
+categories = ["Mobile & Apps"]
+tags = ["android"]
 +++
-
 #"Sony Ericsson thinks I'm a big girls blouse"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "My 70 year-old Mother has out-hacked me with Sugru"
 description = ""
 slug = "my-70-year-old-mother-has-out-hacked-me-with-sugru"
+categories = ["General Tech"]
+tags = ["lego"]
 +++
-
 #"My 70 year-old Mother has out-hacked me with Sugru"
 
 My mother isn't obviously technical but she is incredibly practical. This is a woman, who at the age of 12, was sent to live with her widowed Grandfather, to take care of him! Nothing fazes her.

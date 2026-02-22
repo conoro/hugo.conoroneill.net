@@ -5,8 +5,9 @@ draft = false
 title = "Irish Blog Awards Coda"
 description = ""
 slug = "irish-blog-awards-coda"
+categories = ["Web & Blogging"]
+tags = ["ireland"]
 +++
-
 #"Irish Blog Awards Coda"
 
 

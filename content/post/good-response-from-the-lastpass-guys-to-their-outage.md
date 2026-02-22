@@ -5,8 +5,9 @@ draft = false
 title = "Good response from the LastPass guys to their outage"
 description = ""
 slug = "good-response-from-the-lastpass-guys-to-their-outage"
+categories = ["Web & Blogging"]
+tags = ["twitter"]
 +++
-
 #"Good response from the LastPass guys to their outage"
 
 

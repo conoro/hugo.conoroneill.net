@@ -5,8 +5,9 @@ draft = false
 title = "Facebook is removing App Profile Pages - This affects a lot of Devs"
 description = ""
 slug = "facebook-is-removing-app-profile-pages-this-affects-a-lot-of-devs"
+categories = ["Web & Blogging"]
+tags = ["api", "facebook", "lego"]
 +++
-
 #"Facebook is removing App Profile Pages - This affects a lot of Devs"
 
 

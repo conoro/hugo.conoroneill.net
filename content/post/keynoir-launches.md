@@ -5,8 +5,9 @@ draft = false
 title = "Keynoir Launches"
 description = ""
 slug = "keynoir-launches"
+categories = ["Web & Blogging"]
+tags = ["api"]
 +++
-
 #"Keynoir Launches"
 
 

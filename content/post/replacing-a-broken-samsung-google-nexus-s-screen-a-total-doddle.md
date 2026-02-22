@@ -5,8 +5,9 @@ draft = false
 title = "Replacing a broken Samsung Google Nexus S screen - a total doddle."
 description = ""
 slug = "replacing-a-broken-samsung-google-nexus-s-screen-a-total-doddle"
+categories = ["Mobile & Apps"]
+tags = ["samsung"]
 +++
-
 #"Replacing a broken Samsung Google Nexus S screen - a total doddle."
 
 My Dad put a big crack is his Nexus S screen a good while back so I promptly ordered a replacement <a href="http://www.ebay.com/itm/Replacement-LCD-Touch-Screen-Display-Assembly-For-Samsung-Google-Nexus-S-i9023-/290768756299?">from eBay</a>. I finally got the chance to fit it this morning and was thrilled that I didn't manage to completely screw it up.

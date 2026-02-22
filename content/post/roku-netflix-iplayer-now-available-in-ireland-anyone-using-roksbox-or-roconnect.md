@@ -5,8 +5,9 @@ draft = false
 title = "Roku + Netflix + iPlayer now available in Ireland. Anyone using Roksbox or roConnect?"
 description = ""
 slug = "roku-netflix-iplayer-now-available-in-ireland-anyone-using-roksbox-or-roconnect"
+categories = ["Gaming & Retro Computing"]
+tags = ["amazon", "gaming", "ireland", "video"]
 +++
-
 #"Roku + Netflix + iPlayer now available in Ireland. Anyone using Roksbox or roConnect?"
 
 The <a href="http://www.theverge.com/hd/2012/2/10/2789042/roku-players-bbc-iplayer-uk-ireland?utm_source=dlvr.it&amp;utm_medium=twitter">Verge is reporting</a> that the Roku LT and Roku 2 XS are now <a href="http://www.roku.com/uk?sflang=en">shipping in UK and Ireland</a>. They both come with Netflix and BBC iPlayer support. (Oddly their UK site still says "Coming Soon" for the LT).

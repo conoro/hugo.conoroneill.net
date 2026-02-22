@@ -5,8 +5,9 @@ draft = false
 title = "@Eircom, @VodafoneIreland and others need Twitter Status Accounts"
 description = ""
 slug = "eircom-vodafoneireland-and-others-need-twitter-status-accounts"
+categories = ["General Tech"]
+tags = ["twitter"]
 +++
-
 #"@Eircom, @VodafoneIreland and others need Twitter Status Accounts"
 
 

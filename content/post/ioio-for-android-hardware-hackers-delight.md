@@ -5,8 +5,9 @@ draft = false
 title = "IOIO for Android - Hardware Hackers Delight "
 description = ""
 slug = "ioio-for-android-hardware-hackers-delight"
+categories = ["IoT & Electronics"]
+tags = ["android", "lego", "retro-computing"]
 +++
-
 #"IOIO for Android - Hardware Hackers Delight"
 
 

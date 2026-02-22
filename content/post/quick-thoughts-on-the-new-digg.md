@@ -5,8 +5,9 @@ draft = false
 title = "Quick thoughts on the new Digg"
 description = ""
 slug = "quick-thoughts-on-the-new-digg"
+categories = ["Startups & Business"]
+tags = ["facebook", "twitter", "video"]
 +++
-
 #"Quick thoughts on the new Digg"
 
 

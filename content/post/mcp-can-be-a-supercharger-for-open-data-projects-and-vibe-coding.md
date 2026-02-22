@@ -3,8 +3,9 @@ date = "2025-06-10T06:35:48.313Z"
 draft = false
 title = "MCP can be a supercharger for Open Data projects and Vibe Coding"
 slug = "mcp-can-be-a-supercharger-for-open-data-projects-and-vibe-coding"
+categories = ["AI & Machine Learning"]
+tags = ["ai", "api", "ireland", "open-source", "rss"]
 +++
-
 For personal projects, I generally follow Andrej Karpathy's [original definition of Vibe Coding](https://x.com/karpathy/status/1886192184808149383?lang=en) - I don't look at the generated code, I just tell the LLM what I want, paste in the error messages and iterate until it gives me the output I need. But that's a lot easier to do when you've been writing software for 40+ years and know what to ask for!
 
 But when it comes to creating Open Data projects, I often find that the challenge isn't the code, it's the data. It's can be inconsistent, difficult to access, difficult to understand, never designed for scraping or in some awful format. 

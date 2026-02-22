@@ -5,8 +5,9 @@ draft = false
 title = "Moonlight - Needed for Digital Media Awards Web-site"
 description = ""
 slug = "moonlight-needed-for-digital-media-awards-web-site"
+categories = ["Cloud & Infrastructure"]
+tags = ["linux", "open-source"]
 +++
-
 #"Moonlight - Needed for Digital Media Awards Web-site"
 
 

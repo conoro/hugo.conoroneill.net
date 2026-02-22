@@ -5,8 +5,9 @@ draft = false
 title = "ZX Spectrum 16k adjusted for inflation was 461"
 description = ""
 slug = "zx-spectrum-16k-adjusted-for-inflation-was-e461"
+categories = ["IoT & Electronics"]
+tags = ["bluetooth", "lego", "raspberry-pi", "retro-computing"]
 +++
-
 #"ZX Spectrum 16k adjusted for inflation was \u0080461"
 
 Yesterday I finally got both MHL to the TV and Bluetooth to the Wiimote working with a ZX Spectrum Emulator on my HTC Sensation (video coming over the weeked). I was amused by the fact that I was emulating a cheap old computer with an expensive mobile phone.

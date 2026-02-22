@@ -5,8 +5,9 @@ draft = false
 title = "Hurrah - D-Link brings the Boxee Box remote to PC"
 description = ""
 slug = "hurrah-d-link-brings-the-boxee-box-remote-to-pc"
+categories = ["Media & Entertainment"]
+tags = ["linux", "video"]
 +++
-
 #"Hurrah - D-Link brings the Boxee Box remote to PC"
 
 

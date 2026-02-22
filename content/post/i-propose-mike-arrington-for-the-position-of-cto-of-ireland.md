@@ -5,8 +5,9 @@ draft = false
 title = "I propose Mike @Arrington for the position of CTO of Ireland"
 description = ""
 slug = "i-propose-mike-arrington-for-the-position-of-cto-of-ireland"
+categories = ["Startups & Business"]
+tags = ["ireland", "startup"]
 +++
-
 #"I propose Mike @Arrington for the position of CTO of Ireland"
 
 

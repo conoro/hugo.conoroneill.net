@@ -5,8 +5,8 @@ draft = false
 title = "Good Riddance to O'Dea. Now, Couglan."
 description = ""
 slug = "good-riddance-to-odea-now-couglan"
+categories = ["Web & Blogging"]
 +++
-
 #"Good Riddance to O'Dea. Now, Couglan."
 
 

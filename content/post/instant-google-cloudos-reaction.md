@@ -5,8 +5,9 @@ draft = false
 title = "Instant Google CloudOS Reaction"
 description = ""
 slug = "instant-google-cloudos-reaction"
+categories = ["AI & Machine Learning"]
+tags = ["amazon", "cloud", "google"]
 +++
-
 #"Instant Google CloudOS Reaction"
 
 

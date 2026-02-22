@@ -5,8 +5,9 @@ draft = false
 title = "Finally found the perfect place for my Yahoo sticker"
 description = ""
 slug = "finally-found-the-perfect-place-for-my-yahoo-sticker"
+categories = ["General Tech"]
+tags = ["gps"]
 +++
-
 #"Finally found the perfect place for my Yahoo sticker"
 
 

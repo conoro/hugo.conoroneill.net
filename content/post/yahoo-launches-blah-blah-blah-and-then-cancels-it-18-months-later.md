@@ -5,8 +5,8 @@ draft = false
 title = "Yahoo Launches Blah Blah Blah and Then Cancels It 18 Months Later"
 description = ""
 slug = "yahoo-launches-blah-blah-blah-and-then-cancels-it-18-months-later"
+categories = ["Web & Blogging"]
 +++
-
 Yahoo Launches Blah Blah Blah and Then Cancels It 18 Months Later
 
 

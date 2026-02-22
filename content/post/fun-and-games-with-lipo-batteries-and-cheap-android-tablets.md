@@ -5,8 +5,9 @@ draft = false
 title = "Fun and games with LiPo batteries and cheap Android Tablets"
 description = ""
 slug = "fun-and-games-with-lipo-batteries-and-cheap-android-tablets"
+categories = ["IoT & Electronics"]
+tags = ["android"]
 +++
-
 #"Fun and games with LiPo batteries and cheap Android Tablets"
 
 The <a href="http://www.ebay.com/itm/3-7V-3500mAh-lithium-Battery-Rechargeable-Polymer-Li-Po-For-Tablet-PC-B-3768112-/321105035375?ssPageName=ADME:L:OC:IE:3160">replacement LiPo battery</a> arrived for my daughter's Eken T02A ultra-cheap Android tablet yesterday. Only 2 weeks from China which isn't bad.

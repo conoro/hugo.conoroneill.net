@@ -5,8 +5,8 @@ draft = false
 title = "OMG has Apple bought Google?"
 description = ""
 slug = "omg-has-apple-bought-google"
+categories = ["General Tech"]
 +++
-
 #"OMG has Apple bought Google?"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Adding a realtime clock to the Raspberry Pi and the Sweetbox II"
 description = ""
 slug = "adding-a-realtime-clock-to-the-raspberry-pi-and-the-sweetbox-ii"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "raspberry-pi"]
 +++
-
 #"Adding a realtime clock to the Raspberry Pi and the Sweetbox II"
 
 I got one of these <a href="http://dx.com/p/meeeno-ds1307-real-time-clock-brick-module-for-arduino-yellow-works-with-official-arduino-boards-213941">$3 RTC modules</a>a few months back and I finally set it up this weekend. It simply has a battery-backed clock so when your Raspberry Pi (or Arduino) boots up, it has the correct time immediately. For a network-connected Pi, it's not really necessary as you can have the time updated regularly via NTP but not all Pis spend their life connected to the network. So if you are working away locally on your Pi, your files will no longer look like they were all created in 1970. This <a href="http://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi/overview">Adafruit tutorial</a> explains exactly how to do it. You could even get <a href="http://www.adafruit.com/products/264">their RTC module</a> instead.

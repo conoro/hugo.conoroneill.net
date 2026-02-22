@@ -5,8 +5,9 @@ draft = false
 title = "Slight screw-up by Facebook in move to https"
 description = ""
 slug = "slight-screw-up-by-facebook-in-move-to-https"
+categories = ["Software Development"]
+tags = ["api", "facebook", "security"]
 +++
-
 #"Slight screw-up by Facebook in move to https"
 
 

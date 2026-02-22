@@ -5,8 +5,9 @@ draft = false
 title = "We Need a Computer History Museum for Web Apps like Facebook and Twitter"
 description = ""
 slug = "we-need-a-computer-history-museum-for-web-apps-like-facebook-and-twitter"
+categories = ["Gaming & Retro Computing"]
+tags = ["aws", "facebook", "lego", "retro-computing", "twitter"]
 +++
-
 #"We Need a Computer History Museum for Web Apps like Facebook and Twitter"
 
 

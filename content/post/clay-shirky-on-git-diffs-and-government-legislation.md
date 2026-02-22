@@ -5,8 +5,8 @@ draft = false
 title = "Clay Shirky on Git, diffs and Government legislation"
 description = ""
 slug = "clay-shirky-on-git-diffs-and-government-legislation"
+categories = ["Opinion & Commentary"]
 +++
-
 #"Clay Shirky on Git, diffs and Government legislation"
 
 The reason I like Clay Shirky's talks so much is because he communicates complex "stuff" in a way most people can understand. 

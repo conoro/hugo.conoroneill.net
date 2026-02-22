@@ -5,8 +5,9 @@ draft = false
 title = "I had to buy Cracking Contraptions today"
 description = ""
 slug = "i-had-to-buy-cracking-contraptions-today"
+categories = ["General Tech"]
+tags = ["ireland", "lego"]
 +++
-
 #"I had to buy Cracking Contraptions today"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Replacing Google Reader with a $25 Raspberry Pi in the immortal words of Jesse Pinkman"
 description = ""
 slug = "replacing-google-reader-with-a-25-raspberry-pi-in-the-immortal-words-of-jesse-pinkman"
+categories = ["IoT & Electronics"]
+tags = ["database", "google", "raspberry-pi", "rss"]
 +++
-
 #"Replacing Google Reader with a $25 Raspberry Pi in the immortal words of Jesse Pinkman"
 
 <a href="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2013/03/Jesse-and-Walter-High-Five-RV.gif"><img class="alignnone wp-image-949" title="Jesse-and-Walter-High-Five-RV" src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2013/03/Jesse-and-Walter-High-Five-RV.gif" alt="" /></a>

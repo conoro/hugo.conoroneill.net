@@ -5,8 +5,9 @@ draft = false
 title = "Zoho CRM integration into Google Apps just got even better"
 description = ""
 slug = "zoho-crm-integration-into-google-apps-just-got-even-better"
+categories = ["General Tech"]
+tags = ["google"]
 +++
-
 #"Zoho CRM integration into Google Apps just got even better"
 
 

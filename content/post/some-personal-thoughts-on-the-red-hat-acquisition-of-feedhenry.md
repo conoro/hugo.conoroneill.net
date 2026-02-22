@@ -5,8 +5,9 @@ draft = false
 title = "Some personal thoughts on the Red Hat acquisition of FeedHenry"
 description = "The acquisition of FeedHenry by Red Hat isn't just one the most exciting tech stories in Ireland in 2014, it is also wonderfully satisfying for me as one of only two people in Product Management."
 slug = "some-personal-thoughts-on-the-red-hat-acquisition-of-feedhenry"
+categories = ["Startups & Business"]
+tags = ["ireland", "linux", "startup"]
 +++
-
 The acquisition of FeedHenry by Red Hat isn't just one the most exciting tech stories in Ireland in 2014, it is also wonderfully satisfying for me as one of only two people in Product Management.
 
 When I found out that Red Hat was negotiating to buy the company, I couldn't have been happier. Apart from the almost perfect cultural fit, it was very cool to be joining a company whose products I first used in 1997 with Red Hat Linux 4. By 1999, I told my CTO in Integral Design that PCs running Red Hat Linux would wipe his beloved Sun out. To be fair to him, he agreed. A day hasn't gone by since '97 that I haven't had Linux running somewhere, whether in skunkworks boxes under my desk; using VMware from '99; powering my startup from 2006 onwards; or powering FeedHenry from day 1.

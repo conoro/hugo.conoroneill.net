@@ -5,8 +5,9 @@ draft = false
 title = "Announcing NAMA Walking Tours"
 description = ""
 slug = "announcing-nama-walking-tours"
+categories = ["General Tech"]
+tags = ["android"]
 +++
-
 #"Announcing NAMA Walking Tours"
 
 

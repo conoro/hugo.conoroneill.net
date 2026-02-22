@@ -5,8 +5,9 @@ draft = false
 title = "Quick conoroneill.net Stattos"
 description = ""
 slug = "quick-conoroneill-net-stattos"
+categories = ["Web & Blogging"]
+tags = ["facebook", "twitter"]
 +++
-
 #"Quick conoroneill.net Stattos"
 
 

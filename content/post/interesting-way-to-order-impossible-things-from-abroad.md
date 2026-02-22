@@ -5,8 +5,9 @@ draft = false
 title = "Interesting way to order 'impossible' things from abroad"
 description = ""
 slug = "interesting-way-to-order-impossible-things-from-abroad"
+categories = ["General Tech"]
+tags = ["android"]
 +++
-
 #"Interesting way to order \"impossible\" things from abroad"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Facebook, Twitter, Foursquare, Gowalla and Latitude"
 description = ""
 slug = "facebook-twitter-foursquare-gowalla-and-latitude"
+categories = ["General Tech"]
+tags = ["facebook", "google", "gps", "twitter"]
 +++
-
 #"Facebook, Twitter, Foursquare, Gowalla and Latitude"
 
 

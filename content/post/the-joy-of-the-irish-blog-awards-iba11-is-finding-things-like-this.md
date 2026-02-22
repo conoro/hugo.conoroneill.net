@@ -5,8 +5,9 @@ draft = false
 title = "The Joy of The Irish Blog Awards #IBA11 is finding things like this..."
 description = ""
 slug = "the-joy-of-the-irish-blog-awards-iba11-is-finding-things-like-this"
+categories = ["Web & Blogging"]
+tags = ["ireland"]
 +++
-
 #"The Joy of The Irish Blog Awards #IBA11 is finding things like this..."
 
 

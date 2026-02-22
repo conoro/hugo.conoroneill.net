@@ -5,8 +5,8 @@ draft = false
 title = "Oi Posterous, fix this please. What is a Liquid Error?"
 description = ""
 slug = "oi-posterous-fix-this-please-what-is-a-liquid-error"
+categories = ["Web & Blogging"]
 +++
-
 #"Oi Posterous, fix this please. What is a Liquid Error?"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Irish Quango scoffs 240 pizzas. Calls it research."
 description = ""
 slug = "irish-quango-scoffs-240-pizzas-calls-it-research"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"Irish Quango scoffs 240 pizzas. Calls it research."
 
 <a href="http://www.irishtimes.com/newspaper/breaking/2012/0227/breaking20.html">Health warning over takeaway pizzas</a>.

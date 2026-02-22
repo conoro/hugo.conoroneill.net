@@ -5,8 +5,9 @@ draft = false
 title = "Android Gingerbread Running on my HTC Desire"
 description = ""
 slug = "android-gingerbread-running-on-my-htc-desire"
+categories = ["Mobile & Apps"]
+tags = ["android"]
 +++
-
 #"Android Gingerbread Running on my HTC Desire"
 
 

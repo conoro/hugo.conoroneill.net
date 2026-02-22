@@ -5,8 +5,9 @@ draft = false
 title = "Lego should partner with Raspberry Pi and App Inventor"
 description = ""
 slug = "lego-should-partner-with-raspberry-pi-and-app-inventor"
+categories = ["IoT & Electronics"]
+tags = ["education", "lego", "low-code", "raspberry-pi"]
 +++
-
 #"Lego should partner with Raspberry Pi and App Inventor"
 
 I've written before about how Lego Mindstorms is ridiculously overpriced. Whilst the intent was probably good, it is so far from the brilliance of cheap educational plastic blocks that they need to start again.

@@ -5,8 +5,9 @@ draft = false
 title = "What do you think of when you read that Open Source is 20 years old?"
 description = " "
 slug = "what-do-you-think-of-when-you-read-open-source-is-20-years-old"
+categories = ["IoT & Electronics"]
+tags = ["android", "arduino", "bluetooth", "database", "espruino", "facebook", "hugo", "javascript", "led", "linux", "nodejs", "open-source", "python", "raspberry-pi", "retro-computing", "twitter"]
 +++
-
 Yesterday I read that [Open Source is offically 20 years old](https://opensource.net/). This doesn't mean free software or GNU or anything like that, just the definition and initiative itself. It made me think about all of open source (lower case) and free software that's had an impact on me since I was a teenager. Here's that as a quick brain-dump. I'm sure I've missed tons and will update as they pop into my head.
 
 ![OSI](/images/2018/02/osi_symbol.png)

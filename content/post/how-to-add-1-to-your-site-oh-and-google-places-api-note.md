@@ -5,8 +5,9 @@ draft = false
 title = "How to Add +1 to your site (oh and Google Places API Note)"
 description = ""
 slug = "how-to-add-1-to-your-site-oh-and-google-places-api-note"
+categories = ["Software Development"]
+tags = ["api", "google"]
 +++
-
 #"How to Add +1 to your site (oh and Google Places API Note)"
 
 

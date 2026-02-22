@@ -5,8 +5,9 @@ draft = false
 title = "When a 10 year old tiny utility program saves your ass"
 description = ""
 slug = "when-a-10-year-old-tiny-utility-program-saves-your-ass"
+categories = ["General Tech"]
+tags = ["retro-computing"]
 +++
-
 #"When a 10 year old tiny utility program saves your ass"
 
 After many many years on a barely-used 1024-bit GPG/PGP key, I decided to go full-blown 4096-bit recently. More for the principle than anything else, but also to mess around with some secure apps like <a href="http://retroshare.sourceforge.net/">Retroshare</a>, as mentioned by <a href="https://twitter.com/onetruecathal">Cathal Garvey</a>.

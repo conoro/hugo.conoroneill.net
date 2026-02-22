@@ -5,8 +5,9 @@ draft = false
 title = "Buzz Reveals Google's Split Personality - PCWorld Business Center"
 description = ""
 slug = "buzz-reveals-googles-split-personality-pcworld-business-center"
+categories = ["Web & Blogging"]
+tags = ["google"]
 +++
-
 #"Buzz Reveals Google's Split Personality - PCWorld Business Center"
 
 

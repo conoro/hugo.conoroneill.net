@@ -5,8 +5,9 @@ draft = false
 title = "Opportunity for Android Open Accessory + App Inventor to be the new Lego Mindstorms?"
 description = ""
 slug = "opportunity-for-android-open-accessory-app-inventor-to-be-the-new-lego-mindstorms"
+categories = ["IoT & Electronics"]
+tags = ["android", "arduino", "education", "lego", "low-code"]
 +++
-
 #"Opportunity for Android Open Accessory + App Inventor to be the new Lego Mindstorms?"
 
 

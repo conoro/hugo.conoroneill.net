@@ -5,8 +5,9 @@ draft = false
 title = "My favourite new WebApp - IFTTT - If This Then That"
 description = ""
 slug = "my-favourite-new-webapp"
+categories = ["Low Code & No Code"]
+tags = ["facebook", "google", "ireland", "low-code", "rss", "twitter", "video"]
 +++
-
 #"My favourite new WebApp - IFTTT - If This Then That"
 
 I saw a bunch of mentions of <a href="http://ifttt.com">IFTTT</a> a few months back but didn't get a chance to try it out. It came up recently during a lovely lunch with <a href="http://twitter.com/johnpeavoy">@johnpeavoy</a> in the ever-impressive <a href="http://www.poachersinnbandon.com/">Poacher's Inn</a> in Bandon. I suddenly realised it could do something I'd wanted for a year.

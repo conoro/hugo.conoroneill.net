@@ -5,8 +5,9 @@ draft = false
 title = "LastPass Password Manager"
 description = ""
 slug = "lastpass-password-manager"
+categories = ["Mobile & Apps"]
+tags = ["android", "ios", "linux", "nokia"]
 +++
-
 #"LastPass Password Manager"
 
 

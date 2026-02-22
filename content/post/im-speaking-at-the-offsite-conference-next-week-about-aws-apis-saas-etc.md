@@ -5,8 +5,9 @@ draft = false
 title = "I'm speaking at the OFFSITE Conference next week about AWS, APIs, SaaS etc"
 description = ""
 slug = "im-speaking-at-the-offsite-conference-next-week-about-aws-apis-saas-etc"
+categories = ["Mobile & Apps"]
+tags = ["amazon", "api", "aws", "cloud", "google", "ireland"]
 +++
-
 #"I'm speaking at the OFFSITE Conference next week about AWS, APIs, SaaS etc"
 
 I mentioned the <a href="http://offsite.ie/event-agenda/">OFFSITE Conference</a> over on <a href="http://www.web2ireland.org/2012/09/03/west-corks-first-major-tech-conference-offsite/">Web2Ireland</a> recently. It's the frst time a major technology event is being held in West Cork and everyone in business in Munster and beyond should consider attending. It's all happening next week, 27th September in Rosscarbery.

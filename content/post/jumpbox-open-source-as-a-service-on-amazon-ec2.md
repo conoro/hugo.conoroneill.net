@@ -5,8 +5,9 @@ draft = false
 title = "JumpBox - Open Source as a Service on Amazon EC2"
 description = ""
 slug = "jumpbox-open-source-as-a-service-on-amazon-ec2"
+categories = ["Cloud & Infrastructure"]
+tags = ["amazon", "aws", "cloud", "open-source"]
 +++
-
 #"JumpBox - Open Source as a Service on Amazon EC2"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "XBMC running on Raspberry Pi. I may faint with the anticipation"
 description = ""
 slug = "xbmc-running-on-raspberry-pi-i-may-faint-with-the-anticipation"
+categories = ["IoT & Electronics"]
+tags = ["gaming", "raspberry-pi", "retro-computing", "video"]
 +++
-
 #"XBMC running on Raspberry Pi. I may faint with the anticipation"
 
 The kids' non-360 XBOX running XBMC has been an amazing piece of kit. We've had it for over 4 years and got it second-hand for approx 60 but it maxes out at 480p content. I had thought that getting a replacement like the Patriot or WD Live TV would cost north of 80. But some geniuses have got XBMC running on the Raspberry Pi. A streaming media player with HDMI, LAN and 1080p support for 31 including VAT and delivery? Yes please.

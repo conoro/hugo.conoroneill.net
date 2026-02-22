@@ -5,8 +5,9 @@ draft = false
 title = "'Games You May Like on Facebook'. That'd be None. Why are Ads so broken in 2012?"
 description = ""
 slug = "games-you-may-like-on-facebook-thatd-be-none-why-are-ads-so-broken-in-2012"
+categories = ["Media & Entertainment"]
+tags = ["amazon", "facebook", "google", "twitter"]
 +++
-
 #"\"Games You May Like on Facebook\". That'd be None. Why are Ads so broken in 2012?"
 
 If Facebook paid even a minutes notice to the intention graph rather than the social graph, they'd see that I relentlessly click Hide on all mentions of games. Then maybe they could avoid wasting their valuable screen real-estate pimping something I will never ever ever click on.

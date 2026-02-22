@@ -5,8 +5,9 @@ draft = false
 title = "I need help with my Tweetdeck Weekend Sports Filter"
 description = ""
 slug = "i-need-help-with-my-tweetdeck-weekend-sports-filter"
+categories = ["General Tech"]
+tags = ["twitter"]
 +++
-
 #"I need help with my Tweetdeck Weekend Sports Filter"
 
 

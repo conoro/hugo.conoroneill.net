@@ -5,8 +5,8 @@ draft = false
 title = "12 Key Social Media Strategies to Grow your Turntable.fm Fan Base"
 description = ""
 slug = "12-key-social-media-strategies-to-grow-your-turntable-fm-fan-base"
+categories = ["Media & Entertainment"]
 +++
-
 #"12 Key Social Media Strategies to Grow your Turntable.fm Fan Base"
 
 

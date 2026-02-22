@@ -5,8 +5,9 @@ draft = false
 title = "Grant Benefit of Basing BES-backed Business in West Cork"
 description = ""
 slug = "grant-benefit-of-basing-bes-backed-business-in-west-cork"
+categories = ["Startups & Business"]
+tags = ["api", "ireland"]
 +++
-
 #"Grant Benefit of Basing BES-backed Business in West Cork"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "First Leaked Screenshot of Unity 2 on Ubuntu 12.04"
 description = ""
 slug = "first-leaked-screenshot-of-unity-2-on-ubuntu-12-04"
+categories = ["Cloud & Infrastructure"]
+tags = ["linux"]
 +++
-
 #"First Leaked Screenshot of Unity 2 on Ubuntu 12.04"
 
 

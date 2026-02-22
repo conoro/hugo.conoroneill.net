@@ -5,9 +5,9 @@ draft = false
 title = "Using Puck.js with the KuLight RGB Bluetooth Lightbulb"
 description = " "
 slug = "using-puck-js-with-kulight-rgb-bluetooth-lightbulb"
+categories = ["IoT & Electronics"]
+tags = ["android", "bluetooth", "espruino", "ios", "javascript"]
 +++
-
-
 I have a massive backlog of tech posts to do but I never quite finish the projects to the level I want and they are left hanging. So I'm going to start posting more WIP stuff from now on and hopefully they'll be useful to someone.
 
 I've been a long-time fan of the [Espruino project](https://www.espruino.com) created by Gordon Willams and have had great fun with the [original board](https://www.espruino.com/Order), the [Pico](https://www.espruino.com/Order) and [Puck.js](https://www.espruino.com/Order). If you like JavaScript and you'd like to play around with hardware, you really should get your hands on one of his boards.

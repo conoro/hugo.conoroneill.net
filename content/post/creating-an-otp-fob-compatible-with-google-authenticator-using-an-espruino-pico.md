@@ -5,8 +5,9 @@ draft = false
 title = "Creating an OTP fob compatible with Google Authenticator using an Espruino Pico"
 description = "Now that the Espruino Pico has (beta) HID support, it can pretend to be a keyboard or mouse (or other HID compatible device). This makes it possible to send characters to the active window on your Windows/Linux/Mac PC. I've cobbled together some code which turns the Pico into a device like a YubiKey. Press the button and get the latest auth code pasted automatically for you."
 slug = "creating-an-otp-fob-compatible-with-google-authenticator-using-an-espruino-pico"
+categories = ["IoT & Electronics"]
+tags = ["cloud", "espruino", "google", "javascript", "linux", "security"]
 +++
-
 Now that the [Espruino Pico](http://www.espruino.com/) has (beta) HID support, it can pretend to be a keyboard or mouse (or other HID compatible device). This makes it possible to send characters to the active window on your Windows/Linux/Mac PC. I've cobbled together some code which turns the Pico into a device like a YubiKey. Press the button and get the latest auth code pasted automatically for you.
 
 ![Espruino Pico OTP](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/07/espruino_otp.jpg)

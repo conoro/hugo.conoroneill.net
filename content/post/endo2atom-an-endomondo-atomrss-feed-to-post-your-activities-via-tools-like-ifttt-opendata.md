@@ -5,8 +5,9 @@ draft = false
 title = "Endo2Atom - An Endomondo ATOM/RSS feed to post your activities via tools like IFTTT #OpenData"
 description = ""
 slug = "endo2atom-an-endomondo-atomrss-feed-to-post-your-activities-via-tools-like-ifttt-opendata"
+categories = ["Low Code & No Code"]
+tags = ["fitness-tracker", "low-code", "rss", "running"]
 +++
-
 #"Endo2Atom - An Endomondo ATOM/RSS feed to post your activities via tools like IFTTT #OpenData"
 
 I was very disappointed to realise that <a href="http://www.endomondo.com/">Endomondo</a> has no API. The best they can do for pushing your activities elsewhere is built-in Facebook/Twitter and some widgets. When will companies learn that lock-in is not how you keep customers?

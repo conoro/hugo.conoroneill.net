@@ -5,8 +5,8 @@ draft = false
 title = "What a Google AppInventor App looks like on an Archos Tablet"
 description = ""
 slug = "what-a-google-appinventor-app-looks-like-on-an-archos-tablet"
+categories = ["General Tech"]
 +++
-
 #"What a Google AppInventor App looks like on an Archos Tablet"
 
 

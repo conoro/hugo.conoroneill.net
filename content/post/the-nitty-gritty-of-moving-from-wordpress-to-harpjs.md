@@ -5,8 +5,9 @@ draft = false
 title = "The nitty-gritty of moving from WordPress to HarpJS"
 description = "It wasn't easy but I'm now nearly happy with my all-new GitHub-Pages-hosted HarpJS-generated static blog. Here are all the gory details."
 slug = "the-nitty-gritty-of-moving-from-wordpress-to-harpjs"
+categories = ["Gaming & Retro Computing"]
+tags = ["api", "database", "facebook", "food-tech", "javascript", "linux", "open-source", "python", "retro-computing", "rss", "twitter", "video", "wordpress"]
 +++
-
 As I said in the previous posts, the move from WP to HarpJS was not exactly smooth. But I'm glad I've done it as I finally learned how to use a lot of things like Jade that I've long-fingered for years.
 
 The first step was to get the original content out of WordPress. This had the added twist that the conoroneill.net blog actually started out as a Posterous blog which I imported into WordPress when I realised that Posterous was a dead-end. So the first two years of posts have some "interesting" problems in them.

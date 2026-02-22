@@ -5,8 +5,9 @@ draft = false
 title = "Whilst you wait for your Raspberry Pi, run the software on your PC"
 description = ""
 slug = "whilst-you-wait-for-your-raspberry-pi-run-the-software-on-your-pc"
+categories = ["IoT & Electronics"]
+tags = ["raspberry-pi"]
 +++
-
 #"Whilst you wait for your Raspberry Pi, run the software on your PC"
 
 As we all patiently wait for the <a href="http://www.raspberrypi.org/">Raspberry Pi</a> boards to arrive, one smart individual <a href="http://russelldavis.org/2011/09/10/virtualbox-vm-for-raspberrypi-development/">has built a full VM</a> so you can try out the software in Virtualbox on your PC. I'm downloading now and will report back on whether it runs on VMware Workstation and Player too. There are a few things I want to try out on Raspberry Pi and this setup will let me confirm whether they are feasible or not in advance.

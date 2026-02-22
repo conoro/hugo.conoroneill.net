@@ -5,8 +5,8 @@ draft = false
 title = "My First Encounter with Google+ - Not exactly what I had hoped for"
 description = ""
 slug = "my-first-encounter-with-google-not-exactly-what-i-had-hoped-for"
+categories = ["General Tech"]
 +++
-
 #"My First Encounter with Google+ - Not exactly what I had hoped for"
 
 

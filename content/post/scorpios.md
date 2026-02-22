@@ -5,8 +5,8 @@ draft = false
 title = "Scorpios"
 description = ""
 slug = "scorpios"
+categories = ["Web & Blogging"]
 +++
-
 #"Scorpios"
 
 

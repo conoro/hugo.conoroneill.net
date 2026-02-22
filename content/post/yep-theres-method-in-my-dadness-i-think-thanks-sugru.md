@@ -5,8 +5,9 @@ draft = false
 title = "Yep, there's method in my Dadness, I think. Thanks @sugru!"
 description = ""
 slug = "yep-theres-method-in-my-dadness-i-think-thanks-sugru"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "ireland", "lego", "raspberry-pi"]
 +++
-
 #"Yep, there's method in my Dadness, I think. Thanks @sugru!"
 
 A lovely film for Father's Day from Jane and the <a href="http://sugru.com/">Sugru team</a>. It was a real pleasure having Julian, John and Ben visit us in Bandon. 

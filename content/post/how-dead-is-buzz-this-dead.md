@@ -5,8 +5,9 @@ draft = false
 title = "How Dead is Buzz? This dead."
 description = ""
 slug = "how-dead-is-buzz-this-dead"
+categories = ["General Tech"]
+tags = ["photography", "twitter"]
 +++
-
 #"How Dead is Buzz? This dead."
 
 

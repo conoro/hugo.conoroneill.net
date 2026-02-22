@@ -5,8 +5,9 @@ draft = false
 title = "Monty Python: The Holy Book of Days - Just buy the damned thing, it's wonderful"
 description = ""
 slug = "monty-python-the-holy-book-of-days-just-buy-the-damned-thing-its-wonderful"
+categories = ["Media & Entertainment"]
+tags = ["android", "flooding", "python"]
 +++
-
 #"Monty Python: The Holy Book of Days - Just buy the damned thing, it's wonderful"
 
 I'm not quite sure how to explain <a href="http://itunes.apple.com/us/app/monty-python-holy-book-days/id503975422?mt=8">this</a>.

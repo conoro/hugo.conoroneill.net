@@ -5,8 +5,9 @@ draft = false
 title = "Some of the very first Tweets to/from me in 2007 via oldtweets"
 description = ""
 slug = "some-of-the-very-first-tweets-tofrom-me-in-2007-via-oldtweets"
+categories = ["General Tech"]
+tags = ["api", "twitter"]
 +++
-
 #"Some of the very first Tweets to/from me in 2007 via oldtweets"
 
 Just spotted this <a href="http://laughingmeme.org/2012/07/10/oldtweets/">oldtweets</a> project which is collecting all the Tweets from the first year of Twitter. I did the usual vanity search and spotted something very interesting - we hadn't quite mastered the use of @ in March 2007.

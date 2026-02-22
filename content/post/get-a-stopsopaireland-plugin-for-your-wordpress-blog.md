@@ -5,8 +5,9 @@ draft = false
 title = "Get a #stopSOPAIreland Plugin for your WordPress Blog"
 description = ""
 slug = "get-a-stopsopaireland-plugin-for-your-wordpress-blog"
+categories = ["Web & Blogging"]
+tags = ["ireland", "wordpress"]
 +++
-
 #"Get a #stopSOPAIreland Plugin for your WordPress Blog"
 
 Whatever it takes to stop the Heavy Gang 2.0 from taking over the Internet in Ireland.

@@ -5,8 +5,8 @@ draft = false
 title = "The Three Es - Execution, Execution and Execution"
 description = ""
 slug = "the-three-es-execution-execution-and-execution"
+categories = ["Opinion & Commentary"]
 +++
-
 #"The Three Es - Execution, Execution and Execution"
 
 

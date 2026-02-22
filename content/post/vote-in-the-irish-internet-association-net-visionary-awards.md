@@ -5,8 +5,9 @@ draft = false
 title = "Vote in the Irish Internet Association Net Visionary Awards"
 description = ""
 slug = "vote-in-the-irish-internet-association-net-visionary-awards"
+categories = ["Startups & Business"]
+tags = ["ireland"]
 +++
-
 #"Vote in the Irish Internet Association Net Visionary Awards"
 
 

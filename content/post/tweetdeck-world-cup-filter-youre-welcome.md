@@ -5,8 +5,9 @@ draft = false
 title = "Tweetdeck World Cup Filter - You're Welcome"
 description = ""
 slug = "tweetdeck-world-cup-filter-youre-welcome"
+categories = ["General Tech"]
+tags = ["twitter"]
 +++
-
 #"Tweetdeck World Cup Filter - You're Welcome"
 
 

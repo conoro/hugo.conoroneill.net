@@ -5,8 +5,9 @@ draft = false
 title = "Twitter tackling potential spam/abuse hard"
 description = ""
 slug = "twitter-tackling-potential-spamabuse-hard"
+categories = ["Software Development"]
+tags = ["api", "sensors", "twitter"]
 +++
-
 #"Twitter tackling potential spam/abuse hard"
 
 

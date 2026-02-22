@@ -5,8 +5,9 @@ draft = false
 title = "PAYG data effectively 4x more on 3IRL than 3UK......in Ireland"
 description = ""
 slug = "payg-data-effectively-4x-more-on-3irl-than-3uk-in-ireland"
+categories = ["General Tech"]
+tags = ["ireland", "twitter"]
 +++
-
 #"PAYG data effectively 4x more on 3IRL than 3UK......in Ireland"
 
 

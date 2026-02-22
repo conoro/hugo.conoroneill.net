@@ -5,8 +5,9 @@ draft = false
 title = "Amazon Glacier looks ideal for cheaper long-term storage/backup"
 description = ""
 slug = "amazon-glacier-looks-ideal-for-cheaper-long-term-storagebackup"
+categories = ["Cloud & Infrastructure"]
+tags = ["amazon", "aws"]
 +++
-
 #"Amazon Glacier looks ideal for cheaper long-term storage/backup"
 
 Amazon <a href="http://aws.typepad.com/aws/2012/08/amazon-glacier-offsite-archival-storage-for-one-penny-per-gb-per-month.html">just announced</a> <a href="http://aws.amazon.com/glacier">Glacier</a>:

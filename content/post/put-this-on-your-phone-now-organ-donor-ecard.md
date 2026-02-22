@@ -5,8 +5,9 @@ draft = false
 title = "Put this on your phone NOW! - Organ Donor ECard"
 description = ""
 slug = "put-this-on-your-phone-now-organ-donor-ecard"
+categories = ["Opinion & Commentary"]
+tags = ["database", "ireland"]
 +++
-
 #"Put this on your phone NOW! - Organ Donor ECard"
 
 

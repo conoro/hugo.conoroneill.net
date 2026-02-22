@@ -5,8 +5,9 @@ draft = false
 title = "Poll - Do you have an LCD/Plasma TV with HDMI?"
 description = ""
 slug = "poll-do-you-have-an-lcdplasma-tv-with-hdmi"
+categories = ["IoT & Electronics"]
+tags = ["facebook", "ireland", "raspberry-pi", "twitter"]
 +++
-
 #"Poll - Do you have an LCD/Plasma TV with HDMI?"
 
 Just to be sure I'm not living in a middle-class fantasyland, it'd be great to get as many people from as many backgrounds as possible to answer this poll. I know I know, if you are on Facebook/Twitter, it's already skewing it badly, but let's give it a go.

@@ -5,8 +5,9 @@ draft = false
 title = "E is For Electronics, Other Good Kids' Stuff and What's Next?"
 description = ""
 slug = "e-is-for-electronics-other-good-kids-stuff-and-whats-next"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "facebook", "halloween", "led", "open-source", "raspberry-pi", "retro-computing"]
 +++
-
 #"E is For Electronics, Other Good Kids' Stuff and What's Next?"
 
 Limor "Ladyada" Fried of <a href="http://www.adafruit.com/">Adafruit</a> has put together a really lovely colouring book called <a href="http://www.adafruit.com/products/1000">E is for Electronics</a>. It has everything from A-is-for-Ampere to Z-is-for-Zener-Diode. You can buy it online for $10 or just print it off using the booklet setting of your printer. I printed one for our 8 y/o daughter and she is a big fan. I've just done another copy our 7 y/o son. I'll order some as stocking fillers too.

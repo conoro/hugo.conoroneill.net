@@ -5,8 +5,9 @@ draft = false
 title = "Google Shopper for Android - Nice"
 description = ""
 slug = "google-shopper-for-android-nice"
+categories = ["Mobile & Apps"]
+tags = ["android"]
 +++
-
 #"Google Shopper for Android - Nice"
 
 

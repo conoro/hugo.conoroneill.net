@@ -5,8 +5,9 @@ draft = false
 title = "New Hedge Fund Uses Twitter To Pick Stocks"
 description = ""
 slug = "new-hedge-fund-uses-twitter-to-pick-stocks"
+categories = ["Web & Blogging"]
+tags = ["twitter"]
 +++
-
 #"New Hedge Fund Uses Twitter To Pick Stocks"
 
 

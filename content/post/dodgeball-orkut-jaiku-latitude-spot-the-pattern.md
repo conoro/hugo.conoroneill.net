@@ -5,8 +5,9 @@ draft = false
 title = "Dodgeball, Orkut, Jaiku, Latitude. Spot the pattern? "
 description = ""
 slug = "dodgeball-orkut-jaiku-latitude-spot-the-pattern"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"Dodgeball, Orkut, Jaiku, Latitude. Spot the pattern?"
 
 

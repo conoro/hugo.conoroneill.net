@@ -5,8 +5,9 @@ draft = false
 title = "Our first Arduino Christmas Turkey"
 description = ""
 slug = "our-first-arduino-christmas-turkey"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "database", "food-tech", "open-source", "sensors"]
 +++
-
 #"Our first Arduino Christmas Turkey"
 
 Take one turkey, an oven with the temperature markings rubbed-off, a food thermometer with a broken probe and you have a recipe for either incineration or salmonella.

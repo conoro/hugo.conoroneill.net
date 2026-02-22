@@ -5,8 +5,9 @@ draft = false
 title = "Google Cloud Picker? New?"
 description = ""
 slug = "google-cloud-picker-new"
+categories = ["Cloud & Infrastructure"]
+tags = ["cloud", "google"]
 +++
-
 #"Google Cloud Picker? New?"
 
 

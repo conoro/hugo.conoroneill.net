@@ -5,8 +5,9 @@ draft = false
 title = "Business Priorities vs Customer Needs"
 description = ""
 slug = "business-priorities-vs-customer-needs"
+categories = ["General Tech"]
+tags = ["android", "twitter"]
 +++
-
 #"Business Priorities vs Customer Needs"
 
 

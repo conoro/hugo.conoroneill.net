@@ -4,8 +4,9 @@ draft = false
 title = "A quick thought on failed computers in education"
 description = "Emmet used the critical word context and that's exactly right"
 slug = "a-quick-thought-on-failed-computers-in-education"
+categories = ["IoT & Electronics"]
+tags = ["education", "gaming", "google", "ireland", "led", "low-code", "raspberry-pi", "retro-computing", "twitter"]
 +++
-
 I saw two related threads over the past few days about computers in education. 
 
 [Walter](https://twitter.com/walter) retweeted one which called the Rasperry Pi [a failure](https://twitter.com/LockFarm/status/1438923954870231046) as it didn't achieve its original mission. 

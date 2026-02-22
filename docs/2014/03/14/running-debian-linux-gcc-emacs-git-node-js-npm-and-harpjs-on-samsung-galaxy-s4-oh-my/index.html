@@ -1,140 +1,385 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  	<meta property="og:title" content=" Running Debian Linux, GCC, Emacs, Git, Node.js, npm and HarpJS on Samsung Galaxy S4. Oh my. &middot;  Cross Dominant" />
-  	<meta property="og:site_name" content="Cross Dominant" />
-  	<meta property="og:url" content="https://conoroneill.net/2014/03/14/running-debian-linux-gcc-emacs-git-node-js-npm-and-harpjs-on-samsung-galaxy-s4-oh-my/" />
-
-    
-  	<meta property="og:type" content="article" />
-
-    <meta property="og:article:published_time" content="2014-03-14T20:50:00Z" />
-
-    
-    
-
-  <title>
-     Running Debian Linux, GCC, Emacs, Git, Node.js, npm and HarpJS on Samsung Galaxy S4. Oh my. &middot;  Cross Dominant
-  </title>
-
-    <meta name="description" content="Mixed laterality since 1968" />
-
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="shortcut icon" href="https://conoroneill.net/favicon.ico">
-	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
-
-    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous">
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Asking the question 'I wonder if you can run Node.js on Android'">
+<title>Running Debian Linux, GCC, Emacs, Git, Node.js, npm and HarpJS on Samsung Galaxy S4. Oh my.</title>
 
 
+<link rel="canonical" href="https://conoroneill.net/2014/03/14/running-debian-linux-gcc-emacs-git-node-js-npm-and-harpjs-on-samsung-galaxy-s4-oh-my/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
-    
-      
-          <link href="https://conoroneill.net/index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
-      
-      
-    
-    <meta name="generator" content="Hugo 0.84.4" />
 
-    <link rel="canonical" href="https://conoroneill.net/2014/03/14/running-debian-linux-gcc-emacs-git-node-js-npm-and-harpjs-on-samsung-galaxy-s4-oh-my/" />
+<link rel="stylesheet" href="/scss/style.min.390cc81d180d80110703ea467e355a4f3a0f44f25d4e957842790824fb5f2ef2.css"><meta property='og:title' content="Running Debian Linux, GCC, Emacs, Git, Node.js, npm and HarpJS on Samsung Galaxy S4. Oh my.">
+<meta property='og:description' content="Asking the question 'I wonder if you can run Node.js on Android'">
+<meta property='og:url' content='https://conoroneill.net/2014/03/14/running-debian-linux-gcc-emacs-git-node-js-npm-and-harpjs-on-samsung-galaxy-s4-oh-my/'>
+<meta property='og:site_name' content='Mixed Laterality'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='amazon' /><meta property='article:tag' content='android' /><meta property='article:tag' content='javascript' /><meta property='article:tag' content='lego' /><meta property='article:tag' content='linux' /><meta property='article:tag' content='nodejs' /><meta property='article:tag' content='open-source' /><meta property='article:tag' content='samsung' /><meta property='article:published_time' content='2014-03-14T20:50:00&#43;00:00'/><meta property='article:modified_time' content='2014-03-14T20:50:00&#43;00:00'/>
+<meta name="twitter:title" content="Running Debian Linux, GCC, Emacs, Git, Node.js, npm and HarpJS on Samsung Galaxy S4. Oh my.">
+<meta name="twitter:description" content="Asking the question 'I wonder if you can run Node.js on Android'">
+    <link rel="shortcut icon" href="/images/Blog_Flow_Icon.jpg" />
+<style>
+    .site-header-image {
+        margin-bottom: var(--section-separation);
+        border-radius: var(--card-border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow-l1);
+    }
+    .site-header-image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    @media (min-width: 768px) {
+        .site-header-image img {
+            height: 280px;
+        }
+    }
+    @media (min-width: 1024px) {
+        .site-header-image img {
+            height: 350px;
+        }
+    }
 
-    
+    .article-list .article-subtitle {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 1.5rem;
+    }
+</style>
+
+    </head>
+    <body class="
+    article-page
+    ">
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-      ga('create', 'UA-88610-4', 'auto');
-      ga('send', 'pageview');
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
 
-    </script>
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="/images/Blog_Flow_Icon.jpg" 
+                        width=""
+                        height=""
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Mixed Laterality</a></h1>
+            <h2 class="site-description">Tech Blogging since 2001</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/conoro'
+                        
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/conoroneill'
+                        
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+  <path d="M8 11l0 5" />
+  <path d="M8 8l0 .01" />
+  <path d="M12 16l0 -5" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/conoro'
+                        
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
     
 
-    
-</head>
-<body class="nav-closed">
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
 
-  <div class="nav">
-    <h3 class="nav-title">Menu</h3>
-    <a href="#" class="nav-close">
-        <span class="hidden">Close</span>
-    </a>
-    <ul>
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+            
+            
+            <a href="/categories/gaming--retro-computing/" style="background-color: hsl(256, 60%, 84%); color: hsl(256, 60%, 15%);">
+                Gaming &amp; Retro Computing
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/2014/03/14/running-debian-linux-gcc-emacs-git-node-js-npm-and-harpjs-on-samsung-galaxy-s4-oh-my/">Running Debian Linux, GCC, Emacs, Git, Node.js, npm and HarpJS on Samsung Galaxy S4. Oh my.</a>
+        </h2>
+
+        
+            
+            <h3 class="article-subtitle">
+                Asking the question &#39;I wonder if you can run Node.js on Android&#39;
+            </h3>
+            
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2014-03-14T20:50:00Z'>Friday, March 14, 2014</time>
+            </div>
         
 
         
-    </ul>
-
+    </footer>
+    
 
     
-    <a class="subscribe-button icon-feed" href="https://conoroneill.net/index.xml">Subscribe</a>
+
     
 </div>
-<span class="nav-cover"></span>
 
-
- <div class="site-wrapper">
-
-
-
-
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
-
-
-  
-      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/cross_dominant.png" alt="Home" /></a>
-  
-  
-      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
-  
-  </nav>
 </header>
 
+    
 
-
-<main class="content" role="main">
-
-
-
-
-  <article class="post post">
-
-    <header class="post-header">
-        <h1 class="post-title">Running Debian Linux, GCC, Emacs, Git, Node.js, npm and HarpJS on Samsung Galaxy S4. Oh my.</h1>
-        <small>Asking the question &#39;I wonder if you can run Node.js on Android&#39;</small>
-
-        <section class="post-meta">
-        
-          <time class="post-date" datetime="2014-03-14T20:50:00Z">
-            Mar 14, 2014
-          </time>
-        
-         
-        </section>
-    </header>
-
-    <section class="post-content">
-      <p>I&rsquo;ll shortly be moving this entire blog from WordPress to <a href="http://harpjs.com/docs/deployment/github-pages">HarpJS</a> generated static pages over on GitHub. It hasn&rsquo;t been as smooth a process as I&rsquo;d hoped but I&rsquo;ve learned lots. We&rsquo;re also using HarpJS in a work context and it works great there running under Node. I&rsquo;ll write it all up either this weekend or next.</p>
+    <section class="article-content">
+    
+    
+    <p>I&rsquo;ll shortly be moving this entire blog from WordPress to <a class="link" href="http://harpjs.com/docs/deployment/github-pages"  target="_blank" rel="noopener"
+    >HarpJS</a> generated static pages over on GitHub. It hasn&rsquo;t been as smooth a process as I&rsquo;d hoped but I&rsquo;ve learned lots. We&rsquo;re also using HarpJS in a work context and it works great there running under Node. I&rsquo;ll write it all up either this weekend or next.</p>
 <p>Then this evening I asked myself the silly question &ldquo;I wonder can I run Node.js on Android?&rdquo;. It turns out you can. But it&rsquo;s a teensy bit fiddly to get going. The biggest problem turned out to be Android 4.4 KitKat which made the first few steps the hardest.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/03/harp_android_02.jpg" alt="Debian on Android" title="Debian and Harp"></p>
+<p><img src="/harp_android_02_15824412814799112827.jpg"
+	width="1024"
+	height="967"
+	loading="lazy"
+	
+		alt="Debian on Android"
+	
+    
+        title="Debian and Harp"
+        data-title-escaped="Debian and Harp"
+    
+	
+		class="gallery-image" 
+		data-flex-grow="105"
+		data-flex-basis="254px"
+	
+></p>
 <p>You are going to be running Debian Linux in a chrooted environment. For some weird reason I never even knew this was possible until today! In fact there are multiple projects out there that enable this. The main thing, of course, is that your phone must be rooted. A Stock Samsung ROM is fine and I&rsquo;m sure GPE and Cyanogen would also work.</p>
-<p>I initially tried &ldquo;Linux Deploy&rdquo; from the Android Play Store but hit a brick wall with it mounting the external SD card on the S4. I then tried <a href="https://play.google.com/store/apps/details?id=com.zpwebsites.linuxonandroid">Linux On Android</a>, also from the Play Store and hit similar problems, so I dug a bit deeper and got to the bottom of it.</p>
-<p>All of this is easier if you connect up an external keyboard to your S4. I&rsquo;ve found that a <a href="http://dx.com/p/micro-usb-otg-cable-for-android-tablet-gps-mp3-phone-black-276901">cheap USB OTG</a> cable works brilliantly for thumbdrives, mice, keyboards and even the 2.4GHz combo keyboards you get with Android TV sticks.</p>
+<p>I initially tried &ldquo;Linux Deploy&rdquo; from the Android Play Store but hit a brick wall with it mounting the external SD card on the S4. I then tried <a class="link" href="https://play.google.com/store/apps/details?id=com.zpwebsites.linuxonandroid"  target="_blank" rel="noopener"
+    >Linux On Android</a>, also from the Play Store and hit similar problems, so I dug a bit deeper and got to the bottom of it.</p>
+<p>All of this is easier if you connect up an external keyboard to your S4. I&rsquo;ve found that a <a class="link" href="http://dx.com/p/micro-usb-otg-cable-for-android-tablet-gps-mp3-phone-black-276901"  target="_blank" rel="noopener"
+    >cheap USB OTG</a> cable works brilliantly for thumbdrives, mice, keyboards and even the 2.4GHz combo keyboards you get with Android TV sticks.</p>
 <ul>
-<li>Install <a href="https://play.google.com/store/apps/details?id=com.zpwebsites.linuxonandroid">Complete Linux Installer</a>, <a href="https://play.google.com/store/apps/details?id=stericson.busybox">BusyBox</a>, <a href="https://play.google.com/store/apps/details?id=eu.chainfire.supersu">Chainfire SuperSU</a>, <a href="https://play.google.com/store/apps/details?id=jackpal.androidterm">Terminal Emulator</a> and  <a href="https://play.google.com/store/apps/details?id=android.androidVNC">androidVNC</a> from the Play Store</li>
-<li>Download the &ldquo;Small EXT4&rdquo; LinuxOnAndroid <a href="http://sourceforge.net/projects/linuxonandroid/files/Debian/Testing/Small/">Debian Jessie image</a> from Sourceforge. Unzip that. Create a directory on your phone&rsquo;s SD card called debian and copy over the two unzipped files into that directory</li>
-<li>Using a File Explorer on your S4 that can enter root mode (e.g. <a href="https://play.google.com/store/apps/details?id=com.estrongs.android.pop">ES File Explorer</a>), browse to /data/data/com.zpwebsites.linuxonandroid/files/</li>
+<li>Install <a class="link" href="https://play.google.com/store/apps/details?id=com.zpwebsites.linuxonandroid"  target="_blank" rel="noopener"
+    >Complete Linux Installer</a>, <a class="link" href="https://play.google.com/store/apps/details?id=stericson.busybox"  target="_blank" rel="noopener"
+    >BusyBox</a>, <a class="link" href="https://play.google.com/store/apps/details?id=eu.chainfire.supersu"  target="_blank" rel="noopener"
+    >Chainfire SuperSU</a>, <a class="link" href="https://play.google.com/store/apps/details?id=jackpal.androidterm"  target="_blank" rel="noopener"
+    >Terminal Emulator</a> and  <a class="link" href="https://play.google.com/store/apps/details?id=android.androidVNC"  target="_blank" rel="noopener"
+    >androidVNC</a> from the Play Store</li>
+<li>Download the &ldquo;Small EXT4&rdquo; LinuxOnAndroid <a class="link" href="http://sourceforge.net/projects/linuxonandroid/files/Debian/Testing/Small/"  target="_blank" rel="noopener"
+    >Debian Jessie image</a> from Sourceforge. Unzip that. Create a directory on your phone&rsquo;s SD card called debian and copy over the two unzipped files into that directory</li>
+<li>Using a File Explorer on your S4 that can enter root mode (e.g. <a class="link" href="https://play.google.com/store/apps/details?id=com.estrongs.android.pop"  target="_blank" rel="noopener"
+    >ES File Explorer</a>), browse to /data/data/com.zpwebsites.linuxonandroid/files/</li>
 <li>rename busybox to busybox.bak</li>
 <li>edit bootscript.sh</li>
 </ul>
@@ -170,88 +415,243 @@ cd conoro.github.io
 harp compile _harp ./
 </code></pre>
 <p>The two bits of oddness above were getting an error from curl trying to install npm, so I used wget. Also, very very strange node-gyp permissions errors installing Harp globally when it came to node-sass (hence the &ndash;unsafe-perm). Node-sass also causes problems on Windows I&rsquo;ve noticed.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/03/harp_android.jpg" alt="Harp on Android" title="Harp and Android">
+<p><img src="/harp_android_17754785018810951318.jpg"
+	width="1024"
+	height="1662"
+	loading="lazy"
+	
+		alt="Harp on Android"
+	
+    
+        title="Harp and Android"
+        data-title-escaped="Harp and Android"
+    
+	
+		class="gallery-image" 
+		data-flex-grow="61"
+		data-flex-basis="147px"
+	
+>
 And that&rsquo;s it about it. Except for&hellip;&hellip;.</p>
-<pre><code>apt-get install emacs
+<pre tabindex="0"><code>apt-get install emacs
 </code></pre><p>How could I not? :-)</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/03/emacs.png" alt="Emacs on Android" title="Emacs and Android"></p>
+<p><img src="/emacs_14160414363241041331.png"
+	width="1080"
+	height="1920"
+	loading="lazy"
+	
+		alt="Emacs on Android"
+	
+    
+        title="Emacs and Android"
+        data-title-escaped="Emacs and Android"
+    
+	
+		class="gallery-image" 
+		data-flex-grow="56"
+		data-flex-basis="135px"
+	
+></p>
 <p>So I edit Markdown blogposts in Emacs, compile with Harp and commit to GitHub to publish. Simples.</p>
 
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/amazon/">Amazon</a>
+        
+            <a href="/tags/android/">Android</a>
+        
+            <a href="/tags/javascript/">Javascript</a>
+        
+            <a href="/tags/lego/">Lego</a>
+        
+            <a href="/tags/linux/">Linux</a>
+        
+            <a href="/tags/nodejs/">Nodejs</a>
+        
+            <a href="/tags/open-source/">Open-Source</a>
+        
+            <a href="/tags/samsung/">Samsung</a>
+        
     </section>
 
 
-  <footer class="post-footer">
+    </footer>
 
 
     
-    <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
-    </figure>
-    
-
-    
-
-
-
-
-
-<section class="author">
-  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
-  
-  <p>Tech guy who likes running slowly</p>
-  
-  <div class="author-meta">
-    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
-    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
-  </div>
-</section>
-
-
-
-    
-<section class="share">
-  <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Running%20Debian%20Linux%2c%20GCC%2c%20Emacs%2c%20Git%2c%20Node.js%2c%20npm%20and%20HarpJS%20on%20Samsung%20Galaxy%20S4.%20Oh%20my.&amp;url=https%3a%2f%2fconoroneill.net%2f2014%2f03%2f14%2frunning-debian-linux-gcc-emacs-git-node-js-npm-and-harpjs-on-samsung-galaxy-s4-oh-my%2f"
-      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-      <span class="hidden">Twitter</span>
-  </a>
-</section>
-
-
-
-    
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname = 'crossdominant';
-  var disqus_url = 'https:\/\/conoroneill.net\/2014\/03\/14\/running-debian-linux-gcc-emacs-git-node-js-npm-and-harpjs-on-samsung-galaxy-s4-oh-my\/';
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-
-    
-
-  </footer>
 </article>
 
-</main>
-    <footer class="site-footer clearfix">
-        <section class="copyright"><a href="">Cross Dominant</a> </section>
-        
-        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
-        
-    </footer>
-    </div>
-    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
-    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
     
-</body>
-</html>
 
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/2013/06/15/a-year-of-falling-back-in-love-with-makingelectronics-on-raspberry-pi-and-arduino/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">A year of falling back in love with Making/Electronics on Raspberry Pi and Arduino</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2014/03/13/upgrading-your-samsung-galaxy-s4-i9505-to-kitkat-4-4-2-on-osx/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Upgrading your Samsung Galaxy S4 i9505 to KitKat 4.4.2 on OSX</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2014/03/09/with-the-enigma-2-software-the-sab-unix-hd-triple-tuner-is-a-very-impressive-satelliteterrestrial-box/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">With the Enigma 2 software, the Sab Unix HD Triple Tuner is a very impressive satellite/terrestrial box</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2013/05/07/controlling-an-i-racer-rc-car-using-a-wii-balance-board-and-raspberry_pi/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Controlling an i-racer RC car using a Wii Balance Board and @Raspberry_Pi</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2013/04/28/an-evening-in-the-company-of-the-delightful-mr-samsung-galaxy-s4/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">An evening in the company of the delightful Mr Samsung Galaxy S4</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+        <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "crossdominant" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2001 - 
+        
+        2026 Mixed Laterality
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="4.0.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+
+
+    </body>
+</html>

@@ -5,8 +5,9 @@ draft = false
 title = "I may have to lie down - A Lego ZX81"
 description = ""
 slug = "i-may-have-to-lie-down-a-lego-zx81"
+categories = ["Gaming & Retro Computing"]
+tags = ["lego", "retro-computing"]
 +++
-
 #"I may have to lie down - A Lego ZX81"
 
 <p style="text-align: center;"><a href="http://hairydalek.posterous.com/the-lego-zx81-finished"><img src='https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/01/6754602045_e1a26420ae.jpg' alt='' /></a></p>

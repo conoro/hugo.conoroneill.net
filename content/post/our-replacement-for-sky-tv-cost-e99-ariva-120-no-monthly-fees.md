@@ -5,8 +5,9 @@ draft = false
 title = "Our replacement for Sky TV cost 99. Ariva 120. No monthly fees!"
 description = ""
 slug = "our-replacement-for-sky-tv-cost-e99-ariva-120-no-monthly-fees"
+categories = ["General Tech"]
+tags = ["amazon", "video"]
 +++
-
 #"Our replacement for Sky TV cost \u008099. Ariva 120. No monthly fees!"
 
 

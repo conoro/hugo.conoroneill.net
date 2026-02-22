@@ -5,8 +5,9 @@ draft = false
 title = "Just in The Nick of Time - Our School's Own App Inventor Setup"
 description = ""
 slug = "just-in-the-nick-of-time-our-schools-own-app-inventor-setup"
+categories = ["Mobile & Apps"]
+tags = ["education", "low-code"]
 +++
-
 #"Just in The Nick of Time - Our School's Own App Inventor Setup"
 
 Now to kick the tyres a bit more and make sure all is ok. One big worry is that 15 pairs of kids simultaneously using it will boot us out of the free tier and into the pay tier.

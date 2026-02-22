@@ -5,8 +5,9 @@ draft = false
 title = "This week on Twitter. (Every week on Twitter)"
 description = ""
 slug = "this-week-on-twitter-every-week-on-twitter"
+categories = ["General Tech"]
+tags = ["twitter"]
 +++
-
 #"This week on Twitter. (Every week on Twitter)"
 
 https://www.youtube.com/watch?v=zrzMhU_4m-g

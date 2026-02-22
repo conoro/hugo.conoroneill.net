@@ -5,8 +5,9 @@ draft = false
 title = "Oi Google, I want my extra free 11.15 ;-)"
 description = ""
 slug = "oi-google-i-want-my-extra-free-e11-15"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"Oi Google, I want my extra free \u008011.15 ;-)"
 
 

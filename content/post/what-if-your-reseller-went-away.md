@@ -5,8 +5,8 @@ draft = false
 title = "What if your reseller went away?"
 description = ""
 slug = "what-if-your-reseller-went-away"
+categories = ["Cloud & Infrastructure"]
 +++
-
 #"What if your reseller went away?"
 
 

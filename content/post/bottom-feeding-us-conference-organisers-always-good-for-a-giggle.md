@@ -5,8 +5,9 @@ draft = false
 title = "Bottom Feeding US Conference Organisers always Good for a Giggle"
 description = ""
 slug = "bottom-feeding-us-conference-organisers-always-good-for-a-giggle"
+categories = ["Startups & Business"]
+tags = ["google", "startup"]
 +++
-
 #"Bottom Feeding US Conference Organisers always Good for a Giggle"
 
 

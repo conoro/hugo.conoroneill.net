@@ -5,8 +5,9 @@ draft = false
 title = "My 4 years of Android today and Ireland's first Android App"
 description = ""
 slug = "my-4-years-of-android-today-and-irelands-first-android-app"
+categories = ["IoT & Electronics"]
+tags = ["android", "api", "arduino", "google", "ios", "ireland", "raspberry-pi"]
 +++
-
 #"My 4 years of Android today and Ireland's first Android App"
 
 Today is the 4th anniversary of me paying $499 on eBay for a HTC G1, the first Android phone. Whilst some of my tech predictions over the years have been a little off (*cough* iPad) I couldn't have got it more right with Android.

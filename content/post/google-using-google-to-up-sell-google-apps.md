@@ -5,8 +5,9 @@ draft = false
 title = "Google using Google+ to up-sell Google Apps"
 description = ""
 slug = "google-using-google-to-up-sell-google-apps"
+categories = ["General Tech"]
+tags = ["google"]
 +++
-
 #"Google using Google+ to up-sell Google Apps"
 
 I saw this in the control panel for one of my Google Apps for Your Domain accounts today.

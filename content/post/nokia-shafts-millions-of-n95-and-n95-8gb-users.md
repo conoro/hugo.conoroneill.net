@@ -5,8 +5,9 @@ draft = false
 title = "Nokia Shafts Millions of N95 and N95-8GB Users?"
 description = ""
 slug = "nokia-shafts-millions-of-n95-and-n95-8gb-users"
+categories = ["Mobile & Apps"]
+tags = ["lego", "nokia"]
 +++
-
 #"Nokia Shafts Millions of N95 and N95-8GB Users?"
 
 

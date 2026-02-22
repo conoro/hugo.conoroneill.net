@@ -5,8 +5,9 @@ draft = false
 title = "My Latest Work of Sugru Genius"
 description = ""
 slug = "my-latest-work-of-sugru-genius"
+categories = ["General Tech"]
+tags = ["wifi"]
 +++
-
 #"My Latest Work of Sugru Genius"
 
 

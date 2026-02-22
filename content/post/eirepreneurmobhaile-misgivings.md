@@ -5,8 +5,9 @@ draft = false
 title = "EirePreneur:Mobhaile misgivings"
 description = ""
 slug = "eirepreneurmobhaile-misgivings"
+categories = ["Opinion & Commentary"]
+tags = ["database", "ireland"]
 +++
-
 #"EirePreneur:Mobhaile misgivings"
 
 

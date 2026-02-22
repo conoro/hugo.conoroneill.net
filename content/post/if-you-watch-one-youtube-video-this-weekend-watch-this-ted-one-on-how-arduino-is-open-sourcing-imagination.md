@@ -5,8 +5,9 @@ draft = false
 title = "If you watch one YouTube video this weekend, watch this TED one on how Arduino is open-sourcing imagination"
 description = ""
 slug = "if-you-watch-one-youtube-video-this-weekend-watch-this-ted-one-on-how-arduino-is-open-sourcing-imagination"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "facebook", "twitter", "video"]
 +++
-
 #"If you watch one YouTube video this weekend, watch this TED one on how Arduino is open-sourcing imagination"
 
 Massimo Banzi is one of the creators of <a href="http://arduino.cc/">Arduino</a>, an Open Source hardware platform that is used everywhere from robot kits for kids to the Large Hadron Collider. 

@@ -5,8 +5,9 @@ draft = false
 title = "Atari's Greatest Hits - Android "
 description = ""
 slug = "ataris-greatest-hits-android"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "gaming"]
 +++
-
 #"Atari's Greatest Hits - Android"
 
 

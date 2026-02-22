@@ -4,8 +4,9 @@ draft = false
 title = "Preserving old blogs/sites and the importance of GitHub"
 description = "Generating static copies of sites and serving them up from GitHub may preserve them for many more years"
 slug = "preserving-old-sites-importance-of-github"
+categories = ["IoT & Electronics"]
+tags = ["ireland", "open-source", "raspberry-pi", "security", "twitter", "wordpress"]
 +++
-
 Many of us remember the cultural ignorance of Yahoo deleting GeoCities and Twitter deleting Posterous off the web. Those responsible are no better than library arsonists. 
 
 Whether you think all of that published creativity was rubbish or amazing, there is something very wrong with it all just disappearing. [The Internet Archive](https://archive.org/) does an amazing job but it's simply impossible for it to keep up.

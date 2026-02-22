@@ -5,8 +5,9 @@ draft = false
 title = "Physicist cuts plane boarding time in half - Except in Ireland"
 description = ""
 slug = "physicist-cuts-plane-boarding-time-in-half-except-in-ireland"
+categories = ["Web & Blogging"]
+tags = ["ireland"]
 +++
-
 #"Physicist cuts plane boarding time in half - Except in Ireland"
 
 

@@ -5,8 +5,8 @@ draft = false
 title = "I think I can wait until Christmas to get a Tablet -> NVIDIA Kal-El Demo"
 description = ""
 slug = "i-think-i-can-wait-until-christmas-to-get-a-tablet-nvidia-kal-el-demo"
+categories = ["Web & Blogging"]
 +++
-
 #"I think I can wait until Christmas to get a Tablet -> NVIDIA Kal-El Demo"
 
 

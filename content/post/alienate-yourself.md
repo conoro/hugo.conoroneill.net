@@ -5,8 +5,9 @@ draft = false
 title = "Alienate Yourself "
 description = ""
 slug = "alienate-yourself"
+categories = ["Mobile & Apps"]
+tags = ["android"]
 +++
-
 #"Alienate Yourself"
 
 

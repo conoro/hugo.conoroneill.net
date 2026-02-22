@@ -5,8 +5,9 @@ draft = false
 title = "IE 6 Upgrade petition for the Irish Government"
 description = ""
 slug = "ie-6-upgrade-petition-for-the-irish-government"
+categories = ["Opinion & Commentary"]
+tags = ["ireland"]
 +++
-
 #"IE 6 Upgrade petition for the Irish Government"
 
 

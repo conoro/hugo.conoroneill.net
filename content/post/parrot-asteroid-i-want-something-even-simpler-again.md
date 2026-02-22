@@ -5,8 +5,9 @@ draft = false
 title = "Parrot ASTEROID I want something even simpler again"
 description = ""
 slug = "parrot-asteroid-i-want-something-even-simpler-again"
+categories = ["Mobile & Apps"]
+tags = ["android", "bluetooth", "podcast"]
 +++
-
 #"Parrot ASTEROID \u0096 I want something even simpler again"
 
 

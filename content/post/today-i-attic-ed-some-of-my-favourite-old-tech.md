@@ -5,8 +5,9 @@ draft = false
 title = "Today I 'Attic-ed' Some Of My Favourite Old Tech"
 description = ""
 slug = "today-i-attic-ed-some-of-my-favourite-old-tech"
+categories = ["Low Code & No Code"]
+tags = ["amazon", "ios", "ireland", "linux", "nokia", "photography", "retro-computing", "wifi"]
 +++
-
 #"Today I \"Attic-ed\" Some Of My Favourite Old Tech"
 
 

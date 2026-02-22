@@ -5,8 +5,9 @@ draft = false
 title = "What the inside of an 88 Android Tablet looks like"
 description = ""
 slug = "what-the-inside-of-an-e88-android-tablet-looks-like"
+categories = ["Mobile & Apps"]
+tags = ["amazon", "android", "api", "security"]
 +++
-
 #"What the inside of an \u008088 Android Tablet looks like"
 
 My daughter's Eken T02 is still going strong after nearly a year but it still has the same two problems as ever. [a] the accuracy of the touch screen is awful and [b] it barely lasts 45mins on battery.

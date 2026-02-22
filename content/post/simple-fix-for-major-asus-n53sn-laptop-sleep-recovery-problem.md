@@ -5,8 +5,9 @@ draft = false
 title = "Simple Fix for Major Asus N53SN Laptop Sleep Recovery Problem"
 description = ""
 slug = "simple-fix-for-major-asus-n53sn-laptop-sleep-recovery-problem"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"Simple Fix for Major Asus N53SN Laptop Sleep Recovery Problem"
 
 

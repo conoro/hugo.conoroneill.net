@@ -5,8 +5,9 @@ draft = false
 title = "British bishops as congenitally stupid as their Irish peers"
 description = ""
 slug = "british-bishops-as-congenitally-stupid-as-their-irish-peers"
+categories = ["Opinion & Commentary"]
+tags = ["food-tech", "ireland"]
 +++
-
 #"British bishops as congenitally stupid as their Irish peers"
 
 

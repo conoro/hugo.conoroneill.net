@@ -5,8 +5,9 @@ draft = false
 title = "Holy Crap, Paul Carr re-invents patronage"
 description = ""
 slug = "holy-crap-paul-carr-re-invents-patronage"
+categories = ["Web & Blogging"]
+tags = ["facebook"]
 +++
-
 #"Holy Crap, Paul Carr re-invents patronage"
 
 

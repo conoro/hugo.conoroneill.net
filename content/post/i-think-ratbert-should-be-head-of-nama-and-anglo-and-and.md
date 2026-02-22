@@ -5,8 +5,8 @@ draft = false
 title = "I think Ratbert should be head of NAMA and Anglo and and....."
 description = ""
 slug = "i-think-ratbert-should-be-head-of-nama-and-anglo-and-and"
+categories = ["General Tech"]
 +++
-
 #"I think Ratbert should be head of NAMA and Anglo and and....."
 
 

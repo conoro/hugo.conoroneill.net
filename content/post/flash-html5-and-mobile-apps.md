@@ -5,8 +5,9 @@ draft = false
 title = "Flash, HTML5, and Mobile Apps"
 description = ""
 slug = "flash-html5-and-mobile-apps"
+categories = ["Mobile & Apps"]
+tags = ["ios"]
 +++
-
 #"Flash, HTML5, and Mobile Apps"
 
 

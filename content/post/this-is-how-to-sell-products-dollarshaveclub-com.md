@@ -5,8 +5,8 @@ draft = false
 title = "This is how to sell products - DollarShaveClub.com"
 description = ""
 slug = "this-is-how-to-sell-products-dollarshaveclub-com"
+categories = ["General Tech"]
 +++
-
 #"This is how to sell products - DollarShaveClub.com"
 
 Spotted this on <a href="http://pandodaily.com/2012/03/06/dollar-shave-club-punches-gillette-where-it-hurts-in-the-marketing-budget/">PandoDaily</a> (great piece by Sarah). Love this video for <a href="http://www.dollarshaveclub.com/">Dollar Shave Club</a>.

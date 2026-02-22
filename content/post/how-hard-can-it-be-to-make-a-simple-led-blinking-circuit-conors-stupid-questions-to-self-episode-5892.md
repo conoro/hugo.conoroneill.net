@@ -5,8 +5,9 @@ draft = false
 title = "How hard can it be to make a simple LED blinking circuit? Conor's stupid questions to self, Episode 5892"
 description = ""
 slug = "how-hard-can-it-be-to-make-a-simple-led-blinking-circuit-conors-stupid-questions-to-self-episode-5892"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "led"]
 +++
-
 #"How hard can it be to make a simple LED blinking circuit? Conor's stupid questions to self, Episode 5892"
 
 Last night after a few glasses of vino, I decided to make a simple blinking LED circuit but I didn't want to involve Arduinos, just discrete components.

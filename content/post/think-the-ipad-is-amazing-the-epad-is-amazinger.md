@@ -5,8 +5,9 @@ draft = false
 title = "Think the iPad is amazing? The ePad is amazinger"
 description = ""
 slug = "think-the-ipad-is-amazing-the-epad-is-amazinger"
+categories = ["Mobile & Apps"]
+tags = ["ios"]
 +++
-
 #"Think the iPad is amazing? The ePad is \u0091amazinger\u0092"
 
 

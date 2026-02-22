@@ -5,8 +5,9 @@ draft = false
 title = "Love it - How iPhone, Android and BlackBerry users see each other"
 description = ""
 slug = "love-it-how-iphone-android-and-blackberry-users-see-each-other"
+categories = ["Mobile & Apps"]
+tags = ["android", "ios"]
 +++
-
 #"Love it - How iPhone, Android and BlackBerry users see each other"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "My requisite Netflix Ireland &amp; UK linkbait post"
 description = ""
 slug = "my-requisite-netflix-ireland-uk-linkbait-post"
+categories = ["Gaming & Retro Computing"]
+tags = ["amazon", "android", "gaming", "ios", "ireland", "security", "twitter", "video"]
 +++
-
 #"My requisite Netflix Ireland &amp; UK linkbait post"
 
 It's been over 36 hours and I haven't blogged about Netflix launching on this side of the pond yet. Twitter was non-stop about it yesterday and rightly so. I've seen every extreme of opinion expressed there so I thought I'd lash down a few thoughts and findings.

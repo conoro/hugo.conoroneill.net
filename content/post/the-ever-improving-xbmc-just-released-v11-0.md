@@ -5,8 +5,9 @@ draft = false
 title = "The ever improving XBMC just released v11.0"
 description = ""
 slug = "the-ever-improving-xbmc-just-released-v11-0"
+categories = ["Media & Entertainment"]
+tags = ["video"]
 +++
-
 #"The ever improving XBMC just released v11.0"
 
 <blockquote>Its been over a year in the works and today we are excited to announce that XBMC 11.0 is finally ready and available for download. You can find XBMC 11.0 here.</blockquote>

@@ -5,8 +5,8 @@ draft = false
 title = "Google I/O - Expect lots of news"
 description = ""
 slug = "google-io-expect-lots-of-news"
+categories = ["Web & Blogging"]
 +++
-
 #"Google I/O - Expect lots of news"
 
 

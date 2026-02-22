@@ -5,8 +5,9 @@ draft = false
 title = "Dear Vodafone/Meteor/O2, please give Google a hard slap from Irish Android Owners"
 description = ""
 slug = "dear-vodafonemeteoro2-please-give-google-a-hard-slap-from-irish-android-owners"
+categories = ["Mobile & Apps"]
+tags = ["android", "ios", "ireland", "lego"]
 +++
-
 #"Dear Vodafone/Meteor/O2, please give Google a hard slap from Irish Android Owners"
 
 

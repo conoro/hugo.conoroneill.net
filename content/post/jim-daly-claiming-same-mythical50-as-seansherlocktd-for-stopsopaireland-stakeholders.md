@@ -5,8 +5,9 @@ draft = false
 title = "Jim Daly claiming same #mythical50 as @seansherlockTD for #stopSOPAIreland Stakeholders"
 description = ""
 slug = "jim-daly-claiming-same-mythical50-as-seansherlocktd-for-stopsopaireland-stakeholders"
+categories = ["Gaming & Retro Computing"]
+tags = ["amazon", "facebook", "gaming", "ireland", "twitter"]
 +++
-
 #"Jim Daly claiming same #mythical50 as @seansherlockTD for #stopSOPAIreland Stakeholders"
 
 I emailed the three TDs in Cork South West (2 FG, 1 Lab) two days ago about #stopSOPAIreland. Noel Harrington's office (FG) replied within a few hours by email in a pretty generic but still positive way.

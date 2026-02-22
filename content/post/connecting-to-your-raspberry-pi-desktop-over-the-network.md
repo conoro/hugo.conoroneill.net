@@ -5,8 +5,9 @@ draft = false
 title = "Connecting to your Raspberry Pi desktop over the network"
 description = ""
 slug = "connecting-to-your-raspberry-pi-desktop-over-the-network"
+categories = ["IoT & Electronics"]
+tags = ["raspberry-pi"]
 +++
-
 #"Connecting to your Raspberry Pi desktop over the network"
 
 <pre><code class="language-bash">sudo apt-get install xrdp</code></pre>

@@ -5,8 +5,9 @@ draft = false
 title = "Using the Amazon Appstore from outside the US (including paid apps) - Android @ MoDaCo"
 description = ""
 slug = "using-the-amazon-appstore-from-outside-the-us-including-paid-apps-android-modaco"
+categories = ["Mobile & Apps"]
+tags = ["amazon", "android", "api"]
 +++
-
 #"Using the Amazon Appstore from outside the US (including paid apps) - Android @ MoDaCo"
 
 

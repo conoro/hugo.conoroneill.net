@@ -5,8 +5,9 @@ draft = false
 title = "Google+, it's Magical, like homoeopathy....."
 description = ""
 slug = "google-its-magical-like-homoeopathy"
+categories = ["Software Development"]
+tags = ["api", "facebook", "google", "twitter"]
 +++
-
 #"Google+, it's Magical, like homoeopathy....."
 
 ....when there are no active users left, it will reach full power.

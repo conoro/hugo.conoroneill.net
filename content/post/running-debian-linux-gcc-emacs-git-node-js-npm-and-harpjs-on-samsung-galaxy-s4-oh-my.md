@@ -5,8 +5,9 @@ draft = false
 title = "Running Debian Linux, GCC, Emacs, Git, Node.js, npm and HarpJS on Samsung Galaxy S4. Oh my."
 description = "Asking the question 'I wonder if you can run Node.js on Android'"
 slug = "running-debian-linux-gcc-emacs-git-node-js-npm-and-harpjs-on-samsung-galaxy-s4-oh-my"
+categories = ["Gaming & Retro Computing"]
+tags = ["amazon", "android", "javascript", "lego", "linux", "nodejs", "open-source", "samsung"]
 +++
-
 I'll shortly be moving this entire blog from WordPress to [HarpJS](http://harpjs.com/docs/deployment/github-pages) generated static pages over on GitHub. It hasn't been as smooth a process as I'd hoped but I've learned lots. We're also using HarpJS in a work context and it works great there running under Node. I'll write it all up either this weekend or next.
 
 Then this evening I asked myself the silly question "I wonder can I run Node.js on Android?". It turns out you can. But it's a teensy bit fiddly to get going. The biggest problem turned out to be Android 4.4 KitKat which made the first few steps the hardest.

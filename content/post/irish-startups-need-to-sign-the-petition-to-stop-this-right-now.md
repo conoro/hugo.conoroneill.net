@@ -5,8 +5,9 @@ draft = false
 title = "Irish Startups need to Sign the Petition to Stop This - Right Now!"
 description = ""
 slug = "irish-startups-need-to-sign-the-petition-to-stop-this-right-now"
+categories = ["Startups & Business"]
+tags = ["gps", "ireland", "startup"]
 +++
-
 #"Irish Startups need to Sign the Petition to Stop This - Right Now!"
 
 

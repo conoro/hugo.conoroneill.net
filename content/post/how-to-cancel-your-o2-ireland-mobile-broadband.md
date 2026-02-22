@@ -5,8 +5,9 @@ draft = false
 title = "How to cancel your O2 Ireland Mobile Broadband"
 description = ""
 slug = "how-to-cancel-your-o2-ireland-mobile-broadband"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"How to cancel your O2 Ireland Mobile Broadband"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "No I don't want to install your stupid hamstrung iPad App, I want your web-site"
 description = ""
 slug = "no-i-dont-want-to-install-your-stupid-hamstrung-ipad-app-i-want-your-web-site"
+categories = ["Mobile & Apps"]
+tags = ["android", "facebook", "ios", "linux", "twitter"]
 +++
-
 #"No I don't want to install your stupid hamstrung iPad App, I want your web-site"
 
 I saw a tweet along those lines the other day (sorry can't remember who) and it really struck a chord. These "please install our App" pop-ups are infuriating in general on both Android and iOS. Every single vbulletin site I have gone to recently has done it. Why the hell would I want a separate App for every damned site I visit?

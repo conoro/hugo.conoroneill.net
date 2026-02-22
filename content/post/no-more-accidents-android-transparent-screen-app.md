@@ -5,8 +5,9 @@ draft = false
 title = "No more accidents :-) Android Transparent Screen App"
 description = ""
 slug = "no-more-accidents-android-transparent-screen-app"
+categories = ["Mobile & Apps"]
+tags = ["android", "photography"]
 +++
-
 #"No more accidents :-) Android Transparent Screen App"
 
 <blockquote>This app gives you the opportunity to use your phone as usual, while being able to see the image of your camera transparently on the entire screen.</blockquote>

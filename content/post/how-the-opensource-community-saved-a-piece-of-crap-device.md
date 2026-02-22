@@ -5,8 +5,9 @@ draft = false
 title = "How the OpenSource Community Saved a Piece of Crap Device"
 description = ""
 slug = "how-the-opensource-community-saved-a-piece-of-crap-device"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "bluetooth", "gaming", "lego", "linux", "nokia", "open-source", "wifi"]
 +++
-
 #"How the OpenSource Community Saved a Piece of Crap Device"
 
 

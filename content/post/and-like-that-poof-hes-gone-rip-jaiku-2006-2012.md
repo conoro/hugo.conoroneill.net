@@ -5,8 +5,9 @@ draft = false
 title = "And like that, poof, he's gone. RIP Jaiku 2006-2012"
 description = ""
 slug = "and-like-that-poof-hes-gone-rip-jaiku-2006-2012"
+categories = ["General Tech"]
+tags = ["android", "facebook", "twitter"]
 +++
-
 #"And like that, poof, he's gone. RIP Jaiku 2006-2012"
 
 <a href="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/01/goodbye1.png"><img class="size-full wp-image-516 aligncenter" title="goodbye" src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/01/goodbye1.png" alt="" width="597" height="124" /></a>

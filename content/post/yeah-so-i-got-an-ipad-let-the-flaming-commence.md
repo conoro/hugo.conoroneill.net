@@ -5,8 +5,9 @@ draft = false
 title = "Yeah, so I got an iPad. Let the Flaming Commence :-)"
 description = ""
 slug = "yeah-so-i-got-an-ipad-let-the-flaming-commence"
+categories = ["Mobile & Apps"]
+tags = ["android", "google", "ios", "security", "twitter"]
 +++
-
 #"Yeah, so I got an iPad. Let the Flaming Commence :-)"
 
 

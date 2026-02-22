@@ -5,8 +5,8 @@ draft = false
 title = "Who needs a Mac when you have Macbuntu and a paintbrush?"
 description = ""
 slug = "who-needs-a-mac-when-you-have-macbuntu-and-a-paintbrush"
+categories = ["General Tech"]
 +++
-
 #"Who needs a Mac when you have Macbuntu and a paintbrush?"
 
 

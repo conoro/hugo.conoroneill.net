@@ -5,8 +5,9 @@ draft = false
 title = "Lunchtime review of Eken T02 7' Android Tablet for 88"
 description = ""
 slug = "lunchtime-review-of-eken-t02-7-android-tablet-for-e88"
+categories = ["Mobile & Apps"]
+tags = ["android", "bluetooth"]
 +++
-
 #"Lunchtime review of Eken T02 7\" Android Tablet for \u008088"
 
 This quick n dirty video covers most of it, but in summary:

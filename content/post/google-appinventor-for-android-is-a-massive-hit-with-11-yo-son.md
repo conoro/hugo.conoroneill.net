@@ -5,8 +5,9 @@ draft = false
 title = "Google AppInventor for Android is a Massive Hit with 11 y/o Son"
 description = ""
 slug = "google-appinventor-for-android-is-a-massive-hit-with-11-yo-son"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "api", "google", "linux", "photography", "retro-computing", "rss"]
 +++
-
 #"Google AppInventor for Android is a Massive Hit with 11 y/o Son"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Teic.ie - Irish company Jivo make biodegradable iPhone case"
 description = ""
 slug = "teic-ie-irish-company-jivo-make-biodegradable-iphone-case"
+categories = ["Mobile & Apps"]
+tags = ["ios", "ireland"]
 +++
-
 #"Teic.ie - Irish company Jivo make biodegradable iPhone case"
 
 

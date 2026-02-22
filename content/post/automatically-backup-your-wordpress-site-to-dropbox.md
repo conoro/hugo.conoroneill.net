@@ -5,8 +5,9 @@ draft = false
 title = "Automatically Backup Your WordPress Site to Dropbox"
 description = ""
 slug = "automatically-backup-your-wordpress-site-to-dropbox"
+categories = ["Mobile & Apps"]
+tags = ["amazon", "wordpress"]
 +++
-
 #"Automatically Backup Your WordPress Site to Dropbox"
 
 

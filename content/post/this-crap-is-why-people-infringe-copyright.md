@@ -5,8 +5,8 @@ draft = false
 title = "This crap is why people infringe copyright"
 description = ""
 slug = "this-crap-is-why-people-infringe-copyright"
+categories = ["Media & Entertainment"]
 +++
-
 #"This crap is why people infringe copyright"
 
 A few weeks back, Leonard Cohen's new album was pre-announced and I went to the "<a href="http://www.myplaydirect.com/leonard-cohen/">Leonard Cohen Global Store</a>" to buy it. They had a special offer of an extra free track available for download immediatelyif you pre-ordered the MP3s. Which I duly did.

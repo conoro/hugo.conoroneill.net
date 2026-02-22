@@ -5,8 +5,8 @@ draft = false
 title = "DisplayPort to DVI to HDMI to VGA to Monitor - And it works"
 description = ""
 slug = "displayport-to-dvi-to-hdmi-to-vga-to-monitor-and-it-works"
+categories = ["General Tech"]
 +++
-
 #"DisplayPort to DVI to HDMI to VGA to Monitor - And it works"
 
 Yesterday I got caught out in a meeting by having an MBP and a DVI adapter whilst the customer had a VGA projector. Luckily someone else saved the day with a proper Windows laptop with a VGA port :-)

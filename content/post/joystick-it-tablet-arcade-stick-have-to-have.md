@@ -5,8 +5,9 @@ draft = false
 title = "JOYSTICK-IT Tablet Arcade Stick - Have to have!"
 description = ""
 slug = "joystick-it-tablet-arcade-stick-have-to-have"
+categories = ["Gaming & Retro Computing"]
+tags = ["android"]
 +++
-
 #"JOYSTICK-IT Tablet Arcade Stick - Have to have!"
 
 

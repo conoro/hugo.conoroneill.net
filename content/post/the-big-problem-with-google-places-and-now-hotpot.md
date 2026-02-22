@@ -5,8 +5,9 @@ draft = false
 title = "The big problem with Google Places and now Hotpot"
 description = ""
 slug = "the-big-problem-with-google-places-and-now-hotpot"
+categories = ["Low Code & No Code"]
+tags = ["android", "api", "facebook", "google", "gps", "javascript"]
 +++
-
 #"The big problem with Google Places and now Hotpot"
 
 

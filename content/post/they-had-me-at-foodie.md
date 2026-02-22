@@ -5,8 +5,9 @@ draft = false
 title = "They had me at Foodie"
 description = ""
 slug = "they-had-me-at-foodie"
+categories = ["Web & Blogging"]
+tags = ["food-tech"]
 +++
-
 #"They had me at Foodie"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Running ZeroMQ with Node.js on Raspberry Pi"
 description = "ZeroMQ is a lightweight messaging library and looks ideal for lower powered devices like the RPi. Building and running is pretty easy. These are more notes for myself for future reference."
 slug = "running-zeromq-with-node-js-on-raspberry-pi"
+categories = ["IoT & Electronics"]
+tags = ["api", "javascript", "nodejs", "raspberry-pi"]
 +++
-
 [ZeroMQ](http://zeromq.org/) is a lightweight messaging library and looks ideal for lower powered devices like the RPi. Building and running is pretty easy. These are really just notes for myself for future reference.
 
 I don't actually need a messaging system yet but I wanted to play around with one. Running a simple Request / Reply setup with Node.js on both Windows 10 and RPi was interesting. One advantage a message queue gives you over REST is that the receiver can be out of action and still get all transmitted messages when it recovers. You also have things like Pub/Sub etc. I've been running the code [from here](http://blog.rastating.com/using-zeromq-with-node-js/) 100% reliably for two days now on both setups. At some point I'll check max throughput on a Pi.

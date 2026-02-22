@@ -5,8 +5,9 @@ draft = false
 title = "Dontate to Catherine O'Neill's Flora Women's Mini Marathon 2010"
 description = ""
 slug = "dontate-to-catherine-oneills-flora-womens-mini-marathon-2010"
+categories = ["Running & Fitness"]
+tags = ["ireland", "running"]
 +++
-
 #"Dontate to Catherine O'Neill's Flora Women's Mini Marathon 2010"
 
 

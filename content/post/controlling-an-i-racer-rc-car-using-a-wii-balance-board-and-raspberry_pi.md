@@ -5,8 +5,9 @@ draft = false
 title = "Controlling an i-racer RC car using a Wii Balance Board and @Raspberry_Pi"
 description = ""
 slug = "controlling-an-i-racer-rc-car-using-a-wii-balance-board-and-raspberry_pi"
+categories = ["Running & Fitness"]
+tags = ["android", "api", "bluetooth", "fitness-tracker", "gaming", "lego", "linux", "open-source", "python", "raspberry-pi", "twitter"]
 +++
-
 #"Controlling an i-racer RC car using a Wii Balance Board and @Raspberry_Pi"
 
 I love watching ideas bounce back and forward between people on Twitter and see them grow. The best for me recently started when <a href="http://www.theverge.com/2013/5/2/4292712/fitscales-wii-fit-balance-board-connected-scale">The Verge posted a story</a> about an OpenSource Android App which basically turned a <a href="http://wiibrew.org/wiki/Wii_Balance_Board">Wii Balance Board</a> into a Withings weighing scales, including RunKeeper and Fitbit integration. I retweeted it and it was picked up by <a href="https://twitter.com/joedesbonnet">Joe Desbonnet</a>. He realised you could also do some interesting things with the Balance Board and a Raspberry Pi and started hacking. Which of course made me realise I could control the i-racer with it!

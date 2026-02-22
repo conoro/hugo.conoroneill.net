@@ -5,8 +5,9 @@ draft = false
 title = "ScriptCraft - A Minecraft mod that lets you build using Javascript"
 description = ""
 slug = "scriptcraft-a-minecraft-mod-that-lets-you-build-using-javascript"
+categories = ["Gaming & Retro Computing"]
+tags = ["gaming", "javascript", "minecraft"]
 +++
-
 #"ScriptCraft - A Minecraft mod that lets you build using Javascript"
 
 <a href="https://twitter.com/walter">Walter</a> has just posted his <a href="https://github.com/walterhiggins/ScriptCraft">ScriptCraft code to GitHub</a>. This Minecraft <a href="http://www.minecraftwiki.net/wiki/Mods">mod</a> lets you create buildings etc using only Javascript. Very very cool indeed. I'll be trying it out later with some of the kids. My Minecraft experience is minimal so I'll let them guide me.

@@ -5,8 +5,9 @@ draft = false
 title = "Amazing kuvitteellinen prizes to be won if you can guess what this is."
 description = ""
 slug = "amazing-kuvitteellinen-prizes-to-be-won-if-you-can-guess-what-this-is"
+categories = ["Running & Fitness"]
+tags = ["food-tech", "running"]
 +++
-
 #"Amazing kuvitteellinen prizes to be won if you can guess what this is."
 
 And bykuvitteellinen, of course I mean the Finnish for imaginary.

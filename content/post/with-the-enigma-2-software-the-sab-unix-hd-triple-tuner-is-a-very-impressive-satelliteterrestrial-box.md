@@ -5,8 +5,9 @@ draft = false
 title = "With the Enigma 2 software, the Sab Unix HD Triple Tuner is a very impressive satellite/terrestrial box"
 description = "Superb value for Irish cable-cutters"
 slug = "with-the-enigma-2-software-the-sab-unix-hd-triple-tuner-is-a-very-impressive-satelliteterrestrial-box"
+categories = ["Mobile & Apps"]
+tags = ["android", "ireland", "lego", "linux", "open-source", "wifi"]
 +++
-
 In addition to the recent [Andro100](/the-and100-android-box-is-perfect-for-netflix-rte-player-etc/) box, the guys in [TV Trade](http://tvtrade.ie) also gave me a Sab Unix HD [Triple Tuner](http://www.tvtrade.ie/triple-tuner.html) box to try out. The specs on this thing were pretty amazing for something that costs approx €130+VAT so I was intrigued to see how well it did. After the reliability horror that was the Ferguson Ariva 120 pile of junk, I went in with open eyes.
 
 ![Sab](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/02/sab.png "SAB Triple Tuner")

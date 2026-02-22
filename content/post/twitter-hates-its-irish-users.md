@@ -5,8 +5,9 @@ draft = false
 title = "Twitter Hates its Irish Users"
 description = ""
 slug = "twitter-hates-its-irish-users"
+categories = ["General Tech"]
+tags = ["ireland", "twitter"]
 +++
-
 #"Twitter Hates its Irish Users"
 
 

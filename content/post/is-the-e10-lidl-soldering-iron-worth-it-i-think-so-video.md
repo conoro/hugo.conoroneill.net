@@ -5,8 +5,9 @@ draft = false
 title = "Is the 10 Lidl Soldering Iron worth it? I think so."
 description = ""
 slug = "is-the-e10-lidl-soldering-iron-worth-it-i-think-so-video"
+categories = ["IoT & Electronics"]
+tags = ["3d-printing", "arduino", "photography"]
 +++
-
 #"Is the \u008010 Lidl Soldering Iron worth it? I think so."
 
 I grabbed one of the Lidl Soldering Iron Kits yesterday in Dungarvan. Video below with my thoughts. Apologies for some of the stuff being off camera.

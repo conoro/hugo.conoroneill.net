@@ -5,8 +5,9 @@ draft = false
 title = "ZX Spectrum Tablet on the way?"
 description = ""
 slug = "zx-spectrum-tablet-on-the-way"
+categories = ["Gaming & Retro Computing"]
+tags = ["retro-computing"]
 +++
-
 #"ZX Spectrum Tablet on the way?"
 
 

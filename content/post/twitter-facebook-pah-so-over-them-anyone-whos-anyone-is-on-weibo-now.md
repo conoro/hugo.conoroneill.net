@@ -5,8 +5,9 @@ draft = false
 title = "Twitter? Facebook? Pah, so over them. Anyone who's anyone is on Weibo now"
 description = ""
 slug = "twitter-facebook-pah-so-over-them-anyone-whos-anyone-is-on-weibo-now"
+categories = ["General Tech"]
+tags = ["facebook", "twitter"]
 +++
-
 #"Twitter? Facebook? Pah, so over them. Anyone who's anyone is on Weibo now"
 
 Go on, I dare ya.

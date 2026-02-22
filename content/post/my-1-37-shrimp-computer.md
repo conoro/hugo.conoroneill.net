@@ -5,8 +5,9 @@ draft = false
 title = "My 1.37 Shrimp Computer"
 description = ""
 slug = "my-1-37-shrimp-computer"
+categories = ["IoT & Electronics"]
+tags = ["arduino"]
 +++
-
 #"My \u00a31.37 Shrimp Computer"
 
 I heard about the <a href="http://shrimping.it">Shrimping It</a> project a few months ago and loved it immediately. Based in Morecambe in the UK (hence the name), it's an initiative to get Arduino compatible boards in the hands of anyone for less than 2.

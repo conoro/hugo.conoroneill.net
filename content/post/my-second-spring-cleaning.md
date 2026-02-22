@@ -5,8 +5,8 @@ draft = false
 title = "My Second Spring Cleaning"
 description = ""
 slug = "my-second-spring-cleaning"
+categories = ["Mobile & Apps"]
 +++
-
 #"My Second Spring Cleaning"
 
 Were living in a new kind of computing environment. Everyone has a device, sometimes multiple devices. Its been a long time since we have had this rate of changeit probably hasnt happened since the birth of personal computing 40 years ago.

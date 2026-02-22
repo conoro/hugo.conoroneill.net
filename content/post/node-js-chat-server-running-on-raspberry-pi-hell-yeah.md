@@ -5,8 +5,9 @@ draft = false
 title = "Node.js Chat Server running on Raspberry Pi? Hell yeah."
 description = ""
 slug = "node-js-chat-server-running-on-raspberry-pi-hell-yeah"
+categories = ["IoT & Electronics"]
+tags = ["javascript", "nodejs", "raspberry-pi"]
 +++
-
 #"Node.js Chat Server running on Raspberry Pi? Hell yeah."
 
 Why? Because we can.

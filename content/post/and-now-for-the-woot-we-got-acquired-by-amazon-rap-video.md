@@ -5,8 +5,9 @@ draft = false
 title = "And now for the Woot 'We Got Acquired By Amazon' Rap Video"
 description = ""
 slug = "and-now-for-the-woot-we-got-acquired-by-amazon-rap-video"
+categories = ["Media & Entertainment"]
+tags = ["amazon"]
 +++
-
 #"And now for the Woot \"We Got Acquired By Amazon\" Rap Video"
 
 

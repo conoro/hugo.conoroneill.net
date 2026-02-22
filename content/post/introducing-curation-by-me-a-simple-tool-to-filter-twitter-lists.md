@@ -5,8 +5,9 @@ draft = false
 title = "Introducing 'Curation by Me' - A simple tool to filter Twitter Lists"
 description = ""
 slug = "introducing-curation-by-me-a-simple-tool-to-filter-twitter-lists"
+categories = ["Opinion & Commentary"]
+tags = ["ireland", "twitter"]
 +++
-
 #"Introducing \"Curation by Me\" - A simple tool to filter Twitter Lists"
 
 

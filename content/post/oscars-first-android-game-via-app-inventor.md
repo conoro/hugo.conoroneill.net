@@ -5,8 +5,9 @@ draft = false
 title = "Oscar's First Android Game via App Inventor"
 description = ""
 slug = "oscars-first-android-game-via-app-inventor"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "api", "education", "facebook", "gaming", "ios", "low-code", "twitter"]
 +++
-
 #"Oscar's First Android Game via App Inventor"
 
 

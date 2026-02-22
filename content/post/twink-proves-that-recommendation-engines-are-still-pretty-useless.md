@@ -5,8 +5,8 @@ draft = false
 title = "Twink proves that Recommendation Engines are still pretty useless"
 description = ""
 slug = "twink-proves-that-recommendation-engines-are-still-pretty-useless"
+categories = ["General Tech"]
 +++
-
 #"Twink proves that Recommendation Engines are still pretty useless"
 
 This is what <a href="http://bottlenose.com">Bottlenose</a> figured out I was interested in from my Twitter and Facebook accounts. Oh deary me.

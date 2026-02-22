@@ -5,8 +5,9 @@ draft = false
 title = "Fiiiiinnnnnally, the first proper leaked pictures of the iPad 3"
 description = ""
 slug = "fiiiiinnnnnally-the-first-proper-leaked-pictures-of-the-ipad-3"
+categories = ["Mobile & Apps"]
+tags = ["food-tech", "ios"]
 +++
-
 #"Fiiiiinnnnnally, the first proper leaked pictures of the iPad 3"
 
 <a href="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/03/ipad3.png"><img class="alignnone wp-image-620" title="ipad3" src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/03/ipad3.png" alt="" width="774" height="362" /></a>

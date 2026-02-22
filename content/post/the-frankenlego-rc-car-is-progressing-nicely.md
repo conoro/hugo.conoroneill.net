@@ -5,8 +5,9 @@ draft = false
 title = "The FrankenLego RC car is progressing nicely"
 description = ""
 slug = "the-frankenlego-rc-car-is-progressing-nicely"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "lego"]
 +++
-
 #"The FrankenLego RC car is progressing nicely"
 
 The idea behind this was to highlight how Lego could do something really powerful for a much wider range of kids than the insanely priced Mindstorms.

@@ -5,8 +5,9 @@ draft = false
 title = "Kimono is a dead-easy zero-code way of building APIs from scraped web-pages"
 description = "I was able to generate a single end-point API for the Bandon Flood Early Warning System with a few clicks. Far easier than the current Python code that I use!"
 slug = "kimono-is-a-dead-easy-zero-code-way-of-building-apis-from-scraped-web-pages"
+categories = ["Software Development"]
+tags = ["api", "database", "flooding", "ireland", "python", "rss"]
 +++
-
 Back in 2011, I [created a simple scraper](http://conoroneill.com/2011/11/17/bandon-flood-fews-open-data-now-available/) in Python to take the river level reported by the Bandon Flood Early Warning System every 15 minutes and save it in [Google Fusion Tables](https://www.google.com/fusiontables/DataSource?docid=103YIcARoxuaWT7NfZ8mVBzY554sF_3ONYC1N3DE). In 2012, [I extended it](http://conoroneill.net/bandon-flood-data-fews-now-available-on-cosmpachube/) to also save the data on [Pachube/Cosm/Xively/Fleeglrheumazoid](https://xively.com/feeds/40004/?from_cosm=true) (or whatever insane name they have this week). So you have 2.5 years of river data in tabular and graphic form. 
 
 The code itself is very simple and just involved walking through the page (actually a bloody iframe!) to get the element I needed. But it's brittle, single use and runs on a home server behind the firewall. I also have a gap in the data in 2012 where I didn't notice that the cronjob had screwed up for 2 weeks.

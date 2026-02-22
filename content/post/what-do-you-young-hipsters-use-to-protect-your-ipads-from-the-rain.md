@@ -5,8 +5,9 @@ draft = false
 title = "What do you young hipsters use to protect your iPads from the rain?"
 description = ""
 slug = "what-do-you-young-hipsters-use-to-protect-your-ipads-from-the-rain"
+categories = ["Mobile & Apps"]
+tags = ["ios"]
 +++
-
 #"What do you young hipsters use to protect your iPads from the rain?"
 
 

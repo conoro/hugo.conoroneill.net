@@ -5,8 +5,9 @@ draft = false
 title = "My Arduino and Raspberry Pi links for newbies"
 description = "All the stuff that helped me to get started"
 slug = "my-arduino-and-raspberry-pi-links-for-newbies"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "education", "ireland", "raspberry-pi", "sensors", "wifi"]
 +++
-
 I generated this list a few months ago for [Clonakilty Coder Dojo](http://coderdojowestcork.wordpress.com/) after demoing a pile of my projects/gadgets to them. Can't believe I'm only blogging it now. Hope you find it useful.
 
 ### Learning about Arduino

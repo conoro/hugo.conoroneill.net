@@ -5,8 +5,9 @@ draft = false
 title = "Our House Media Sharing Setup"
 description = ""
 slug = "our-house-media-sharing-setup"
+categories = ["Media & Entertainment"]
+tags = ["facebook", "wifi"]
 +++
-
 #"Our House Media Sharing Setup"
 
 

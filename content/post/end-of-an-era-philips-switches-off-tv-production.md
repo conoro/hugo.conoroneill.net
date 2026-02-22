@@ -5,8 +5,9 @@ draft = false
 title = "End of an Era - Philips switches off TV production"
 description = ""
 slug = "end-of-an-era-philips-switches-off-tv-production"
+categories = ["IoT & Electronics"]
+tags = ["ireland"]
 +++
-
 #"End of an Era - Philips switches off TV production"
 
 Whilst <a href="http://www.rnw.nl/english/article/philips-switches-tv-production">this story passed by</a> mainly unnoticed, I was very sad to hear that Philips is exiting the TV business. I have a lot of wonderful memories of working with the TV guys in Eindhoven and it pains me to see everything move to a JV in China.

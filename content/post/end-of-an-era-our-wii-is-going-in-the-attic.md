@@ -5,8 +5,9 @@ draft = false
 title = "End of an era - Our Wii is going in the attic"
 description = " "
 slug = "end-of-an-era-our-wii-is-going-in-the-attic"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "gaming", "retro-computing"]
 +++
-
 Last night I setup a monitor in the 12yo's room for his Android media box and his Nintendo Switch. He told me not to bother setting up the Wii. And I was kinda sad.
 
 We became a Nintendo house in 2005 with my US purchase of the original DS for the 6yo. This September he started college. In that time we have bought DS Lites, DSis and 3DSes. And some of them are still in intermittent use from the 18yo down to the 11yo.

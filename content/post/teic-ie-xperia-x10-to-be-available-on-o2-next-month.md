@@ -5,8 +5,8 @@ draft = false
 title = "Teic.ie Xperia X10 to be available on O2 next month"
 description = ""
 slug = "teic-ie-xperia-x10-to-be-available-on-o2-next-month"
+categories = ["Mobile & Apps"]
 +++
-
 #"Teic.ie \u00bb Xperia X10 to be available on O2 next month"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Mini-Review of Google App Inventor Beginner's Guide by Ralph Roberts"
 description = ""
 slug = "mini-review-of-google-app-inventor-beginners-guide-by-ralph-roberts"
+categories = ["Gaming & Retro Computing"]
+tags = ["education", "google", "lego", "linux", "low-code"]
 +++
-
 #"Mini-Review of Google App Inventor Beginner's Guide by Ralph Roberts"
 
 

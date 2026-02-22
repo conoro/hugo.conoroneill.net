@@ -5,8 +5,8 @@ draft = false
 title = "If Old Spice made ads for Apple..."
 description = ""
 slug = "if-old-spice-made-ads-for-apple"
+categories = ["Media & Entertainment"]
 +++
-
 #"If Old Spice made ads for Apple..."
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Google's Most Infuriating Feature Finally About to be Fixed"
 description = ""
 slug = "googles-most-infuriating-feature-finally-about-to-be-fixed"
+categories = ["Web & Blogging"]
+tags = ["google"]
 +++
-
 #"Google's Most Infuriating Feature Finally About to be Fixed"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "The return of Sidetalking or Cocked Pinkies?"
 description = ""
 slug = "the-return-of-sidetalking-or-cocked-pinkies"
+categories = ["Mobile & Apps"]
+tags = ["ios", "nokia"]
 +++
-
 #"The return of Sidetalking or Cocked Pinkies?"
 
 

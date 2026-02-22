@@ -5,8 +5,9 @@ draft = false
 title = "MIT App Inventor Open Beta Preview"
 description = ""
 slug = "mit-app-inventor-open-beta-preview"
+categories = ["Mobile & Apps"]
+tags = ["education", "google", "low-code"]
 +++
-
 #"MIT App Inventor Open Beta Preview"
 
 <blockquote>For the past two months, we have been conducting a closed test of the system for an increasing number of testers, and weve currently scaled to 5000 testers. Today, were taking the next step, and opening the MIT App Inventor service to everyone. All you will need is a Google ID for log-in (for example, a Gmail account).</blockquote>

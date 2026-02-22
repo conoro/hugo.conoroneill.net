@@ -5,8 +5,9 @@ draft = false
 title = "Wow, Symbian-Guru give up on Nokia, goes Android"
 description = ""
 slug = "wow-symbian-guru-give-up-on-nokia-goes-android"
+categories = ["Mobile & Apps"]
+tags = ["android", "nokia"]
 +++
-
 #"Wow, Symbian-Guru give up on Nokia, goes Android"
 
 

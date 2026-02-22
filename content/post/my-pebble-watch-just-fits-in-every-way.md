@@ -5,8 +5,9 @@ draft = false
 title = "My Pebble watch just fits, in every way."
 description = ""
 slug = "my-pebble-watch-just-fits-in-every-way"
+categories = ["Running & Fitness"]
+tags = ["bluetooth", "fitness-tracker", "ireland", "led", "running", "sensors", "wifi"]
 +++
-
 #"My Pebble watch just fits, in every way."
 
 I have hovered over the Buy button on the <a href="https://getpebble.com/">Pebble site</a> more times than I'd like to admit. But I always stopped at the last minute. $150 is a lot of money for a watch when you haven't worn one in years, even if it's a "Smart" watch. The dreadful reviews of the RunKeeper App didn't help, since that was going to be my main use case.

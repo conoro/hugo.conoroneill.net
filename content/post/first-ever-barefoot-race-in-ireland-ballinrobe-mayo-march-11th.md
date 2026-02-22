@@ -5,8 +5,9 @@ draft = false
 title = "First ever Barefoot race in IRELAND - Ballinrobe, Mayo - March 11th"
 description = ""
 slug = "first-ever-barefoot-race-in-ireland-ballinrobe-mayo-march-11th"
+categories = ["Running & Fitness"]
+tags = ["ireland"]
 +++
-
 #"First ever Barefoot race in IRELAND - Ballinrobe, Mayo - March 11th"
 
 <blockquote>First ever Barefoot race in IRELAND, both 5km and 10km - Ballinrobe, Mayo, March 11th</blockquote>

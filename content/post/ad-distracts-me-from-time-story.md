@@ -5,8 +5,9 @@ draft = false
 title = "Ad Distracts Me from TIME Story"
 description = ""
 slug = "ad-distracts-me-from-time-story"
+categories = ["General Tech"]
+tags = ["facebook", "ireland"]
 +++
-
 #"Ad Distracts Me from TIME Story"
 
 

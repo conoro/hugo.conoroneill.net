@@ -5,8 +5,8 @@ draft = false
 title = "My laugh out loud moment today"
 description = ""
 slug = "my-laugh-out-loud-moment-today"
+categories = ["Software Development"]
 +++
-
 #"My laugh out loud moment today"
 
 

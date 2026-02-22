@@ -5,8 +5,8 @@ draft = false
 title = "littleBits looks perfect for younger kids to experiment. Anyone using?"
 description = ""
 slug = "littlebits-looks-perfect-for-younger-kids-to-experiment-anyone-using"
+categories = ["IoT & Electronics"]
 +++
-
 #"littleBits looks perfect for younger kids to experiment. Anyone using?"
 
 I might be able to wean my youngest off Barbie with these cool <a href="http://littlebits.cc/">littleBits</a>. She's bloody obsessed with dolls and she didn't get the obsession from us!

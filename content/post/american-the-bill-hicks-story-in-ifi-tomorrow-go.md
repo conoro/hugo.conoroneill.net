@@ -5,8 +5,9 @@ draft = false
 title = "American: The Bill Hicks Story in IFI tomorrow. Go."
 description = ""
 slug = "american-the-bill-hicks-story-in-ifi-tomorrow-go"
+categories = ["Media & Entertainment"]
+tags = ["ireland"]
 +++
-
 #"American: The Bill Hicks Story in IFI tomorrow. Go."
 
 

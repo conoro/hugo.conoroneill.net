@@ -5,8 +5,9 @@ draft = false
 title = "Despite all the hype, Google has a ways to go with +1"
 description = ""
 slug = "despite-all-the-hype-google-has-a-ways-to-go-with-1"
+categories = ["General Tech"]
+tags = ["twitter"]
 +++
-
 #"Despite all the hype, Google has a ways to go with +1"
 
 

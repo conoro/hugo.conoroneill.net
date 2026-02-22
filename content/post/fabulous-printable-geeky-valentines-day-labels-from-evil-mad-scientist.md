@@ -5,8 +5,8 @@ draft = false
 title = "Fabulous printable geeky Valentine's Day labels from Evil Mad Scientist"
 description = ""
 slug = "fabulous-printable-geeky-valentines-day-labels-from-evil-mad-scientist"
+categories = ["General Tech"]
 +++
-
 #"Fabulous printable geeky Valentine's Day labels from Evil Mad Scientist"
 
 Dare ya. Click image for full set. <a href="http://www.evilmadscientist.com/2014/valentine/">Best company name</a> of all time.

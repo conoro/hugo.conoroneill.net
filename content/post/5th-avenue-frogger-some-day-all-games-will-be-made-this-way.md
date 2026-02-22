@@ -5,8 +5,9 @@ draft = false
 title = "5th Avenue Frogger - Some day all games will be made this way"
 description = ""
 slug = "5th-avenue-frogger-some-day-all-games-will-be-made-this-way"
+categories = ["Gaming & Retro Computing"]
+tags = ["gaming"]
 +++
-
 #"5th Avenue Frogger - Some day all games will be made this way"
 
 <a href="http://5thavefrogger.com/">Fan-bloody-tastic idea</a>. My only disappointment is that you are not controlling real robotic squishy frogs but I guess that would be illegal. And a bit too close to Ender's Game.

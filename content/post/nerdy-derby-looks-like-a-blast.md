@@ -5,8 +5,8 @@ draft = false
 title = "Nerdy Derby - Looks like a blast"
 description = ""
 slug = "nerdy-derby-looks-like-a-blast"
+categories = ["General Tech"]
 +++
-
 #"Nerdy Derby - Looks like a blast"
 
 <iframe src="http://player.vimeo.com/video/47628478?title=0&amp;byline=0&amp;portrait=0&amp;color=0685b1" width="800" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>

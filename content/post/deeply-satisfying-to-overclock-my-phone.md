@@ -5,8 +5,8 @@ draft = false
 title = "Deeply satisfying to overclock my phone"
 description = ""
 slug = "deeply-satisfying-to-overclock-my-phone"
+categories = ["Mobile & Apps"]
 +++
-
 #"Deeply satisfying to overclock my phone"
 
 

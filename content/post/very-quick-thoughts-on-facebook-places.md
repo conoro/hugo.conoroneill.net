@@ -5,8 +5,9 @@ draft = false
 title = "Very quick thoughts on Facebook Places"
 description = ""
 slug = "very-quick-thoughts-on-facebook-places"
+categories = ["Mobile & Apps"]
+tags = ["android", "facebook", "ios"]
 +++
-
 #"Very quick thoughts on Facebook Places"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "I look a bit like a mentalist with this Standing Desk setup"
 description = ""
 slug = "i-look-a-bit-like-a-mentalist-with-this-standing-desk-setup"
+categories = ["Running & Fitness"]
+tags = ["running", "sensors", "twitter"]
 +++
-
 #"I look a bit like a mentalist with this Standing Desk setup"
 
 

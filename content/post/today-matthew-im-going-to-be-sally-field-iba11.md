@@ -5,8 +5,9 @@ draft = false
 title = "Today Matthew, I'm going to be Sally Field. #IBA11"
 description = ""
 slug = "today-matthew-im-going-to-be-sally-field-iba11"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"Today Matthew, I'm going to be Sally Field. #IBA11"
 
 

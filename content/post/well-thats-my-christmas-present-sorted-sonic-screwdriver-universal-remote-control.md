@@ -5,8 +5,8 @@ draft = false
 title = "Well that's my Christmas present sorted - Sonic Screwdriver Universal Remote Control"
 description = ""
 slug = "well-thats-my-christmas-present-sorted-sonic-screwdriver-universal-remote-control"
+categories = ["General Tech"]
 +++
-
 #"Well that's my Christmas present sorted - Sonic Screwdriver Universal Remote Control"
 
 Kinda speaks for itself really. OK, <a href="http://www.thewandcompany.com/sonic/">it doesn't actually speak</a>, but you know what I mean.

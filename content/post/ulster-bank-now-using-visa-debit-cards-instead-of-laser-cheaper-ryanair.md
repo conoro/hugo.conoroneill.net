@@ -5,8 +5,9 @@ draft = false
 title = "Ulster Bank now using Visa Debit Cards instead of Laser. Cheaper Ryanair?"
 description = ""
 slug = "ulster-bank-now-using-visa-debit-cards-instead-of-laser-cheaper-ryanair"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"Ulster Bank now using Visa Debit Cards instead of Laser. Cheaper Ryanair?"
 
 

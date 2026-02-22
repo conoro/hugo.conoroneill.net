@@ -5,8 +5,9 @@ draft = false
 title = "Any Thoughts on this as a Half-Marathon Playlist?"
 description = ""
 slug = "any-thoughts-on-this-as-a-half-marathon-playlist"
+categories = ["Running & Fitness"]
+tags = ["facebook", "led", "running"]
 +++
-
 #"Any Thoughts on this as a Half-Marathon Playlist?"
 
 

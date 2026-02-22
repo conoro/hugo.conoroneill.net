@@ -5,8 +5,9 @@ draft = false
 title = "The Importance of Interfaces"
 description = ""
 slug = "the-importance-of-interfaces"
+categories = ["Media & Entertainment"]
+tags = ["bluetooth", "video", "wifi"]
 +++
-
 #"The Importance of Interfaces"
 
 

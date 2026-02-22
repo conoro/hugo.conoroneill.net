@@ -3,8 +3,9 @@ date = "2026-02-20T07:40:48.313Z"
 draft = false
 title = "The AWS Bedrock Mantle Model Names You've Been Looking For"
 slug = "aws-bedrock-mantle-model-names-youve-been-looking-for"
+categories = ["AI & Machine Learning"]
+tags = ["ai", "amazon", "api", "aws", "cloud", "open-source", "python", "sensors", "twitter"]
 +++
-
 I honestly can't understand how Amazon is doing such a dreadful job of communicating how to use Bedrock Mantle or even what it is. Every blogpost about new supported models links to information pages that are factually useless if you want to use them.
 
 ![Bedrock Cartoon](/images/2026/02/bedrock-cartoon.jpg)

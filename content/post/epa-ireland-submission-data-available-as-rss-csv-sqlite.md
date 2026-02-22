@@ -4,8 +4,9 @@ draft = false
 title = "EPA Ireland Submission Data available as RSS, CSV and SQLite"
 description = "I bashed this together quickly last week after a request from Ashley of the Irish River Project"
 slug = "epa-ireland-submission-data-available-as-rss-csv-sqlite"
+categories = ["Software Development"]
+tags = ["amazon", "database", "ireland", "open-source", "rss", "twitter"]
 +++
-
 Whilst there is a ton of useful data on the [EPA Ireland](https://www.epa.ie/) web-site, it's not exactly easy to track what's going on. After my recent [RSS post](https://conoroneill.net/2022/07/18/rss-is-on-fire-again-and-its-all-down-to-slackops/), I got a request from [Ashley](https://twitter.com/gloverstweets) to see if something better was doable with the EPA data.
 
 After a bit of playing around I was able to scrape the thousands of individual RSS feeds and generate what is hopefully helpful to those of you who wish to monitor submissions on the site. Ashley has [a good thread](https://twitter.com/gloverstweets/status/1573322689745412099) about it here on Twitter.

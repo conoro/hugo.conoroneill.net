@@ -5,8 +5,8 @@ draft = false
 title = "A stench of evil, starting at the top"
 description = ""
 slug = "a-stench-of-evil-starting-at-the-top"
+categories = ["Opinion & Commentary"]
 +++
-
 #"A stench of evil, starting at the top"
 
 

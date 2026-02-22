@@ -5,8 +5,9 @@ draft = false
 title = "Sen Sherlock Needs to Watch and Listen To This "
 description = ""
 slug = "sean-sherlock-needs-to-watch-and-listen-to-this"
+categories = ["Mobile & Apps"]
+tags = ["ireland", "podcast"]
 +++
-
 #"Se\u00e1n Sherlock Needs to Watch and Listen To This"
 
 

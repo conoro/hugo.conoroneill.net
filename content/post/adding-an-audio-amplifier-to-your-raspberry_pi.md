@@ -5,8 +5,9 @@ draft = false
 title = "Adding an audio amplifier to your @Raspberry_Pi"
 description = ""
 slug = "adding-an-audio-amplifier-to-your-raspberry_pi"
+categories = ["Running & Fitness"]
+tags = ["amazon", "education", "gaming", "ireland", "led", "nokia", "raspberry-pi", "running", "video"]
 +++
-
 #"Adding an audio amplifier to your @Raspberry_Pi"
 
 We have a treadmill setup in our house which has always faced some sort of media centre setup. It's the only way I don't lose my mind with boredom when running during Irish bad weather (August to June).Originallyit was an XBOX-1 with XBMC on a 14" Philips portable CRT. Then it became a Patriot PBO connected with a HDMI-VGA adapter to an LCD monitor and now it's a <a href="http://www.raspberrypi.org/">Raspberry Pi</a> running <a href="http://www.raspbmc.com/">Raspbmc</a> connected to the same monitor.

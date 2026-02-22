@@ -5,8 +5,9 @@ draft = false
 title = "Android not suitable for the Enterprise?"
 description = ""
 slug = "android-not-suitable-for-the-enterprise"
+categories = ["Mobile & Apps"]
+tags = ["android", "facebook", "security", "wifi"]
 +++
-
 #"Android not suitable for the Enterprise?"
 
 

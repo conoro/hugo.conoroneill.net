@@ -5,8 +5,9 @@ draft = false
 title = "Sorry Google, Plus Local without a Platform won't save Google Plus"
 description = ""
 slug = "sorry-google-plus-local-without-a-platform-wont-save-google-plus"
+categories = ["Software Development"]
+tags = ["api", "facebook", "google"]
 +++
-
 #"Sorry Google, Plus Local without a Platform won't save Google Plus"
 
 6 days ago, I posted this on Google+

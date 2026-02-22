@@ -5,8 +5,9 @@ draft = false
 title = "Arduino and Raspberry Pi communicating over 2.4GHz with cheap nRF24L01+ modules"
 description = ""
 slug = "arduino-and-raspberry-pi-communicating-over-2-4ghz-with-cheap-nrf24l01-modules"
+categories = ["IoT & Electronics"]
+tags = ["amazon", "arduino", "bluetooth", "database", "google", "javascript", "python", "raspberry-pi", "sensors", "wifi"]
 +++
-
 #"Arduino and Raspberry Pi communicating over 2.4GHz with cheap nRF24L01+ modules"
 
 I've had a lot of fun over the past year messing with wireless comms. The 433Mhz/434MHz dirt-cheap modules are fantastic for Arduino, particularly when used with the <a href="http://www.airspayce.com/mikem/arduino/">VirtualWire library</a> which makes them trivial to setup. I've been able to send sensor data and RC car commands using them with just a few lines of code. However, there isn't a version of VirtualWire for RaspberryPi and I don't have the time/skills to port the Arduino one.

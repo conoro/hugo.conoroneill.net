@@ -5,8 +5,9 @@ draft = false
 title = "A Tech Halloween mainly made of fail"
 description = ""
 slug = "a-tech-halloween-mainly-made-of-fail"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "gaming", "halloween", "led", "minecraft", "sensors"]
 +++
-
 #"A Tech Halloween mainly made of fail"
 
 This year I decided to be completely out of character and start Halloween preparations over a month ahead of time. The plans were ambitious to put it mildly. Vampires flying along guidewires, 10 feet in the air. Screaming skeletons jumping up out of bushes. Creepy crawlies automatically lowering on the heads of trick-or-treaters. You get the idea.

@@ -5,8 +5,9 @@ draft = false
 title = "AdBlock on Chrome enabling insertion of invisible spam into Zoho CRM e-mail signatures"
 description = ""
 slug = "adblock-on-chrome-enabling-insertion-of-invisible-spam-into-zoho-crm-e-mail-signatures"
+categories = ["Cloud & Infrastructure"]
+tags = ["linux"]
 +++
-
 #"AdBlock on Chrome enabling insertion of invisible spam into Zoho CRM e-mail signatures"
 
 

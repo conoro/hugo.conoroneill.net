@@ -5,8 +5,9 @@ draft = false
 title = "Another opportunity missed by old-school media"
 description = ""
 slug = "another-opportunity-missed-by-old-school-media"
+categories = ["Mobile & Apps"]
+tags = ["ireland", "video"]
 +++
-
 #"Another opportunity missed by old-school media"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Solved - Missing synced contacts on new iPhone 8"
 description = " "
 slug = "solved-missing-synced-contacts-on-iphone-8"
+categories = ["Mobile & Apps"]
+tags = ["ai", "android", "bluetooth", "google", "ios"]
 +++
-
 The parents both got new iPhone 8's for Christmas. I figured it'd take 10 minutes to tranfer them from a 5s and a 6 respectively. Boy was I wrong.
 
 

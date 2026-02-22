@@ -5,8 +5,9 @@ draft = false
 title = "If the Nokia N8-00 is for real, Nokia may have just kept me as a customer"
 description = ""
 slug = "if-the-nokia-n8-00-is-for-real-nokia-may-have-just-kept-me-as-a-customer"
+categories = ["Gaming & Retro Computing"]
+tags = ["linux", "nokia", "photography"]
 +++
-
 #"If the Nokia N8-00 is for real, Nokia may have just kept me as a customer"
 
 

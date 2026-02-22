@@ -5,8 +5,8 @@ draft = false
 title = "Free Willie - A friendship you could never imagine"
 description = ""
 slug = "free-willie-a-friendship-you-could-never-imagine"
+categories = ["Web & Blogging"]
 +++
-
 #"Free Willie - A friendship you could never imagine"
 
 

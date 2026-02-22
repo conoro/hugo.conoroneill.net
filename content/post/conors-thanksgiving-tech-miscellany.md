@@ -5,8 +5,9 @@ draft = false
 title = "Conor's Thanksgiving Tech Miscellany"
 description = "As always, so many great tech things happening out there, so little time to blog them, let alone do anything useful with them."
 slug = "conors-thanksgiving-tech-miscellany"
+categories = ["IoT & Electronics"]
+tags = ["amazon", "android", "api", "arduino", "aws", "bluetooth", "database", "espruino", "gaming", "google", "ios", "ireland", "javascript", "linux", "open-source", "photography", "raspberry-pi", "twitter", "video", "wifi"]
 +++
-
 As always, so many great tech things happening out there, so little time to blog them, let alone do anything useful with them.
 
 These posts are like a curated, contextualised version of my [Pinboard account](https://pinboard.in/u:conoro). Here's hoping y'all find something useful below.

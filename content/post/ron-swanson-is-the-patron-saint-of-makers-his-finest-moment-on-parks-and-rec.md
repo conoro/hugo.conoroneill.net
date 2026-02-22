@@ -5,8 +5,8 @@ draft = false
 title = "Ron Swanson is the Patron Saint of Makers - His Finest Moment on Parks and Rec"
 description = ""
 slug = "ron-swanson-is-the-patron-saint-of-makers-his-finest-moment-on-parks-and-rec"
+categories = ["General Tech"]
 +++
-
 #"Ron Swanson is the Patron Saint of Makers - His Finest Moment on Parks and Rec"
 
 I am going to miss this show so much when it ends. Leslie needed two wedding rings asap. Ron took care of it.

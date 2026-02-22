@@ -5,8 +5,8 @@ draft = false
 title = "Praise Allah, Chris Morris is back and he's packing"
 description = ""
 slug = "praise-allah-chris-morris-is-back-and-hes-packing"
+categories = ["General Tech"]
 +++
-
 #"Praise Allah, Chris Morris is back and he's packing"
 
 

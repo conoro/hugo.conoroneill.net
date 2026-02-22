@@ -5,8 +5,9 @@ draft = false
 title = "Get a proper OS for your iPhone"
 description = ""
 slug = "get-a-proper-os-for-your-iphone"
+categories = ["Mobile & Apps"]
+tags = ["android", "ios"]
 +++
-
 #"Get a proper OS for your iPhone"
 
 

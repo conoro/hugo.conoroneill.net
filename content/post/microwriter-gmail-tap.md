@@ -5,8 +5,9 @@ draft = false
 title = "Microwriter should sue Google for GMail Tap"
 description = ""
 slug = "microwriter-gmail-tap"
+categories = ["General Tech"]
+tags = ["google"]
 +++
-
 #"Microwriter should sue Google for GMail Tap"
 
 Google's April Fool was my dream of the future of typing in the 1980s

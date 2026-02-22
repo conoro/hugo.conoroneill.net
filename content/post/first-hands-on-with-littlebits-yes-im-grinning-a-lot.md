@@ -5,8 +5,8 @@ draft = false
 title = "First Hands-On with littleBits. Yes I'm grinning a lot."
 description = ""
 slug = "first-hands-on-with-littlebits-yes-im-grinning-a-lot"
+categories = ["IoT & Electronics"]
 +++
-
 #"First Hands-On with littleBits. Yes I'm grinning a lot."
 
 The lovely lovely people in <a href="http://sugru.com/">Sugru</a> sent me a <a href="http://littlebits.cc/">littleBits</a> kit and a great book yesterday. I have been intrigued by littleBits since I saw discovered it via the <a href="http://www.adafruit.com/">Adafruit</a> site a while back. Soon afterwards they raised bunch of money and I was pleased to see Ireland's own PCH involved in the production.

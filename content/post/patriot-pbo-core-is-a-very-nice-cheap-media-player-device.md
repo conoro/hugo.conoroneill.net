@@ -5,8 +5,9 @@ draft = false
 title = "Patriot PBO Core is a very nice cheap Media Player device"
 description = ""
 slug = "patriot-pbo-core-is-a-very-nice-cheap-media-player-device"
+categories = ["Gaming & Retro Computing"]
+tags = ["amazon", "android", "bluetooth", "facebook", "gaming", "open-source", "security", "video"]
 +++
-
 #"Patriot PBO Core is a very nice cheap Media Player device"
 
 I've written at length about our media setup at home. The main box remains a low-end PC with a decent graphics card and HDMI-out. It mainly runs <a href="http://xbmc.org/">XBMC</a>but we switch over to Windows Media Centre for playing/recording satellite/terrestial.

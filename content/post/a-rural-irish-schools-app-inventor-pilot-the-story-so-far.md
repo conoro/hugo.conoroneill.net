@@ -5,8 +5,9 @@ draft = false
 title = "A Rural Irish School's App Inventor Pilot. The Story So Far."
 description = ""
 slug = "a-rural-irish-schools-app-inventor-pilot-the-story-so-far"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "education", "food-tech", "gaming", "google", "ireland", "lego", "low-code", "retro-computing"]
 +++
-
 #"A Rural Irish School's App Inventor Pilot. The Story So Far."
 
 Last May I started playing around with the idea of doing some sessions on <a href="http://appinventoredu.mit.edu/">Google App Inventor</a> in my kids' Primary School. I'd had great success trying it out with three of my own kids aged 12 to 7.

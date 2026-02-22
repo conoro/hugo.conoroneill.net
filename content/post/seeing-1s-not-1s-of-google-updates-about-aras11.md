@@ -5,8 +5,9 @@ draft = false
 title = "Seeing 1's (not +1's) of Google+ Updates about #aras11"
 description = ""
 slug = "seeing-1s-not-1s-of-google-updates-about-aras11"
+categories = ["Software Development"]
+tags = ["api", "google", "lego", "twitter"]
 +++
-
 #"Seeing 1's (not +1's) of Google+ Updates about #aras11"
 
 

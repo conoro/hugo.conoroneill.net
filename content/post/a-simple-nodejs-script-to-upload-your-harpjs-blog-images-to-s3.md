@@ -5,8 +5,9 @@ draft = false
 title = "A simple Node.js script to upload your Harp.js blog images to S3"
 description = "Whilst there are tons of tools to do S3 upload, I wanted something tuned to how I blog, particularly with a static blog that used to be a WordPress one. I hope you find it useful."
 slug = "a-simple-nodejs-script-to-upload-your-harpjs-blog-images-to-s3"
+categories = ["Cloud & Infrastructure"]
+tags = ["amazon", "aws", "cloud", "facebook", "javascript", "nodejs", "open-source", "wordpress"]
 +++
-
 Whilst there are tons of tools to do S3 upload, I wanted something tuned to how I blog, particularly with a static blog that used to be a WordPress one with year/month directories for images. 
 
 Usage: 

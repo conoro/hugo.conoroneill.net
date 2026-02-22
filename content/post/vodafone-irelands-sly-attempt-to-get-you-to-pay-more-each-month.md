@@ -5,8 +5,9 @@ draft = false
 title = "Vodafone Ireland's sly attempt to get you to pay more each month"
 description = ""
 slug = "vodafone-irelands-sly-attempt-to-get-you-to-pay-more-each-month"
+categories = ["Mobile & Apps"]
+tags = ["ireland", "nokia", "photography", "samsung"]
 +++
-
 #"Vodafone Ireland's sly attempt to get you to pay more each month"
 
 I suddenly realised two weeks ago that I was probably due a phone upgrade on Vodafone. They kindly gave me a HTC Sensation as a prize in a competition last year so I hadn't bothered think about it.

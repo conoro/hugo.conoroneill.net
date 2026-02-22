@@ -5,8 +5,9 @@ draft = false
 title = "Android Running Perfectly on an EeePC Netbook. Totally Mad."
 description = ""
 slug = "android-running-perfectly-on-an-eeepc-netbook-totally-mad"
+categories = ["General Tech"]
+tags = ["android", "google", "linux", "wifi"]
 +++
-
 #"Android Running Perfectly on an EeePC Netbook. Totally Mad."
 
 

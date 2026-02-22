@@ -5,8 +5,9 @@ draft = false
 title = "I think I've found the ultimate alarm clock project"
 description = ""
 slug = "i-think-ive-found-the-ultimate-alarm-clock-project"
+categories = ["IoT & Electronics"]
+tags = ["amazon", "arduino"]
 +++
-
 #"I think I've found the ultimate alarm clock project"
 
 As part of the kids and I playing around with Arduino, Sibal thought that we should try and find an alarm clock project for her to build. I've found some amazing ones with features like Vacuum Flourescent Tubes but they are a very pricey and the mechanical learning ones on Amazon don't really keep time

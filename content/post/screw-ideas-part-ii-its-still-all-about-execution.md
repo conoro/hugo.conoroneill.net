@@ -5,8 +5,9 @@ draft = false
 title = "Screw Ideas Part II. It's still all about execution "
 description = ""
 slug = "screw-ideas-part-ii-its-still-all-about-execution"
+categories = ["Web & Blogging"]
+tags = ["ireland"]
 +++
-
 #"Screw Ideas Part II. It's still all about execution"
 
 

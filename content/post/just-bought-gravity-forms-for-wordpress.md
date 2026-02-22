@@ -5,8 +5,8 @@ draft = false
 title = "Just bought Gravity Forms for WordPress"
 description = ""
 slug = "just-bought-gravity-forms-for-wordpress"
+categories = ["Web & Blogging"]
 +++
-
 #"Just bought Gravity Forms for WordPress"
 
 

@@ -5,8 +5,8 @@ draft = false
 title = "Anyone got a workflow engine for Wordpress?"
 description = ""
 slug = "anyone-got-a-workflow-engine-for-wordpress"
+categories = ["Mobile & Apps"]
 +++
-
 #"Anyone got a workflow engine for Wordpress?"
 
 

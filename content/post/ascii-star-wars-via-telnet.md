@@ -5,8 +5,9 @@ draft = false
 title = "ASCII Star Wars via Telnet"
 description = ""
 slug = "ascii-star-wars-via-telnet"
+categories = ["Mobile & Apps"]
+tags = ["ios"]
 +++
-
 #"ASCII Star Wars via Telnet"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "One guy in Netherlands vs Nokia+Microsoft"
 description = ""
 slug = "one-guy-in-netherlands-vs-nokiamicrosoft"
+categories = ["Mobile & Apps"]
+tags = ["android", "nokia"]
 +++
-
 #"One guy in Netherlands vs Nokia+Microsoft"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Your teens going mental in all this Irish rain? Send them over to Maker Camp now"
 description = ""
 slug = "your-teens-going-mental-in-all-this-irish-rain-send-them-over-to-maker-camp-now"
+categories = ["IoT & Electronics"]
+tags = ["api", "education", "facebook", "google", "ireland"]
 +++
-
 #"Your teens going mental in all this Irish rain? Send them over to Maker Camp now"
 
 <blockquote><a href="http://makezine.com/maker-camp/">Maker Camp</a>, sponsored by MAKE magazine, is a virtual summer camp for teens, with a focus on creating, building, and discovering. We'll be making 30 awesome projects in 30 days on Google+. Maker Camp is free and open to all, and runs from July 16th through August 24th.

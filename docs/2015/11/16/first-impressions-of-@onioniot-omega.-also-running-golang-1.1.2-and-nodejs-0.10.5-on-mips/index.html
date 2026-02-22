@@ -1,1 +1,844 @@
-<!DOCTYPE html><html><head><title>https://conoroneill.net/2015/11/16/first-impressions-of-onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/</title><link rel="canonical" href="https://conoroneill.net/2015/11/16/first-impressions-of-onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/"/><meta name="robots" content="noindex"><meta charset="utf-8" /><meta http-equiv="refresh" content="0; url=https://conoroneill.net/2015/11/16/first-impressions-of-onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/" /></head></html>
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" ">
+<title>First impressions of @OnionIoT Omega. Also running golang 1.1.2 and nodejs 0.10.5 on MIPS</title>
+
+
+<link rel="canonical" href="https://conoroneill.net/2015/11/16/first-impressions-of-@onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+
+
+<link rel="stylesheet" href="/scss/style.min.390cc81d180d80110703ea467e355a4f3a0f44f25d4e957842790824fb5f2ef2.css"><meta property='og:title' content="First impressions of @OnionIoT Omega. Also running golang 1.1.2 and nodejs 0.10.5 on MIPS">
+<meta property='og:description' content=" ">
+<meta property='og:url' content='https://conoroneill.net/2015/11/16/first-impressions-of-@onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/'>
+<meta property='og:site_name' content='Mixed Laterality'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='api' /><meta property='article:tag' content='golang' /><meta property='article:tag' content='javascript' /><meta property='article:tag' content='linux' /><meta property='article:tag' content='nodejs' /><meta property='article:tag' content='open-source' /><meta property='article:tag' content='python' /><meta property='article:tag' content='raspberry-pi' /><meta property='article:tag' content='security' /><meta property='article:tag' content='twitter' /><meta property='article:published_time' content='2015-11-16T22:35:48&#43;00:00'/><meta property='article:modified_time' content='2015-11-16T22:35:48&#43;00:00'/>
+<meta name="twitter:title" content="First impressions of @OnionIoT Omega. Also running golang 1.1.2 and nodejs 0.10.5 on MIPS">
+<meta name="twitter:description" content=" ">
+    <link rel="shortcut icon" href="/images/Blog_Flow_Icon.jpg" />
+<style>
+    .site-header-image {
+        margin-bottom: var(--section-separation);
+        border-radius: var(--card-border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow-l1);
+    }
+    .site-header-image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    @media (min-width: 768px) {
+        .site-header-image img {
+            height: 280px;
+        }
+    }
+    @media (min-width: 1024px) {
+        .site-header-image img {
+            height: 350px;
+        }
+    }
+
+    .article-list .article-subtitle {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 1.5rem;
+    }
+</style>
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="/images/Blog_Flow_Icon.jpg" 
+                        width=""
+                        height=""
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Mixed Laterality</a></h1>
+            <h2 class="site-description">Tech Blogging since 2001</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/conoro'
+                        
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/conoroneill'
+                        
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+  <path d="M8 11l0 5" />
+  <path d="M8 8l0 .01" />
+  <path d="M12 16l0 -5" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/conoro'
+                        
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav class="toc-nav" id="TableOfContents">
+                
+  <ul>
+    <li><a href="#summary-opinion">Summary Opinion</a></li>
+    <li><a href="#nodejs-partial-success">Node.js partial success</a></li>
+    <li><a href="#golang-112-first-failed-attempt">Golang 1.1.2 first failed attempt</a></li>
+    <li><a href="#golang-112-second-successful-attempt">Golang 1.1.2 second successful attempt</a></li>
+    <li><a href="#hello-world-web-server-in-go-on-the-onion-omega">Hello World Web Server in Go on the Onion Omega</a></li>
+    <li><a href="#tweeting-from-the-onion-omega-in-go">Tweeting from the Onion Omega in Go</a></li>
+    <li><a href="#final-notes">Final notes</a></li>
+  </ul>
+
+            </nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+            
+            
+            <a href="/categories/iot--electronics/" style="background-color: hsl(62, 60%, 84%); color: hsl(62, 60%, 15%);">
+                IoT &amp; Electronics
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/2015/11/16/first-impressions-of-@onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/">First impressions of @OnionIoT Omega. Also running golang 1.1.2 and nodejs 0.10.5 on MIPS</a>
+        </h2>
+
+        
+            
+            <h3 class="article-subtitle">
+                 
+            </h3>
+            
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2015-11-16T22:35:48Z'>Monday, November 16, 2015</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+
+    
+</div>
+
+</header>
+
+    
+    <aside class="article-toc">
+        <details>
+            <summary>
+                <div class="article-toc-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                    <span>Table of contents</span>
+                </div>
+            </summary>
+            <nav class="toc-nav">
+                
+  <ul>
+    <li><a href="#summary-opinion">Summary Opinion</a></li>
+    <li><a href="#nodejs-partial-success">Node.js partial success</a></li>
+    <li><a href="#golang-112-first-failed-attempt">Golang 1.1.2 first failed attempt</a></li>
+    <li><a href="#golang-112-second-successful-attempt">Golang 1.1.2 second successful attempt</a></li>
+    <li><a href="#hello-world-web-server-in-go-on-the-onion-omega">Hello World Web Server in Go on the Onion Omega</a></li>
+    <li><a href="#tweeting-from-the-onion-omega-in-go">Tweeting from the Onion Omega in Go</a></li>
+    <li><a href="#final-notes">Final notes</a></li>
+  </ul>
+
+            </nav>
+        </details>
+    </aside>
+    
+
+    <section class="article-content">
+    
+    
+    <p>I did a splurge of backing IoT KickStarters a few months ago and the <a class="link" href="https://onion.io/omega/"  target="_blank" rel="noopener"
+    >Onion Omega</a> is the first one to land in my postbox. It&rsquo;s a tiny (barely bigger than an SD card) board running the same basic guts as many OpenWRT routers i.e. 400 MHz Atheros MIPS CPU with 64MB of DRAM and 16MB of Flash.</p>
+<p><img src="/omega_sd_459971356057970275.jpg"
+	width="800"
+	height="561"
+	loading="lazy"
+	
+		alt="Onion Omega"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="142"
+		data-flex-basis="342px"
+	
+></p>
+<p>If you&rsquo;re not familiar with <a class="link" href="https://openwrt.org/"  target="_blank" rel="noopener"
+    >OpenWRT</a>, it&rsquo;s an Open Source community replacement firmware for many routers (similar to DD-WRT that I&rsquo;ve used many times) and is Linux under the hood. You generally do your own custom Firmware builds which bundle exactly what you want but you can also install packages via the opkg tool.</p>
+<p>Obviously 400MHz with tiny RAM cannot compete with an RPi but it is far more powerful than most MCUs and runs Linux. The question is whether this middle ground addresses a big enough market, particularly when the price point is almost the same as an RPi Model A and you need to buy add-on cards to work easily with it. I&rsquo;m not sure yet.</p>
+<p>The Onion team are currently building a Web UI and an IoT &ldquo;Cloud&rdquo; as value-adds and of course everything is OpenSource.</p>
+<p>The fact that it just launched means that the software story isn&rsquo;t great right now. The KickStarter mentions things like Node but that isn&rsquo;t available in a supported way. Also the effort around accessing GPIOs etc is focused on Python. And add-on boards like the OLED screen I bought have no support yet.</p>
+<p><img src="/omega_kit_4676336103893621286.jpg"
+	width="800"
+	height="493"
+	loading="lazy"
+	
+		alt="Onion Omega Kit"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="162"
+		data-flex-basis="389px"
+	
+></p>
+<h2 id="summary-opinion"><a href="#summary-opinion" class="header-anchor"></a>Summary Opinion
+</h2><p>Overall it&rsquo;s a nice board but the lack of &ldquo;buzz&rdquo; around it has me a little worried. The number one thing that projects like this need is community. I think the CHiP might steal a lot of its thunder with more welly at a much lower pricepoint. But perhaps a focus on realtime embedded applications will help here.</p>
+<p>I&rsquo;d like to see a library like WiringPi built for it that can easily have wrappers for others languages implemented.</p>
+<p>I think it&rsquo;ll be ideal as a home API server that I can put anywhere and forget about.</p>
+<p>Another area it could shine, due to its tiny size and low power consumption is robotics. See my comment below about <a class="link" href="http://gobot.io/"  target="_blank" rel="noopener"
+    >Gobot</a>.</p>
+<h2 id="nodejs-partial-success"><a href="#nodejs-partial-success" class="header-anchor"></a>Node.js partial success
+</h2><p>After an initial play around with it, I decided to try out Node and Go. Node was <a class="link" href="https://community.onion.io/topic/46/simple-node-js-wrapper-samples"  target="_blank" rel="noopener"
+    >built by a community member</a> but is back on version 0.10.5.</p>
+<p>I copied the Node executable and libv8 to a USB stick and plugged that into the Onion standard &ldquo;dock&rdquo;. I mounted it and ran hello world successfully. Hurrah!</p>
+<p>But then I realised it doesn&rsquo;t have NPM. So I put together a simple Tweeting App, did the NPM install on my Fedora VM and then copied everything to the USB stick.</p>
+<p>The code which ran fine on Fedora crapped out with &ldquo;not authenticated&rdquo; on the Onion. I tried two other Twitter modules with the same result. I wasn&rsquo;t able to see any other error apart from Twitter complaining about authentication.</p>
+<p>So I gave up on Node for the moment.</p>
+<h2 id="golang-112-first-failed-attempt"><a href="#golang-112-first-failed-attempt" class="header-anchor"></a>Golang 1.1.2 first failed attempt
+</h2><p>On to Go and a giant big rabbit hole.</p>
+<p>So you can&rsquo;t get a recent version of Go for MIPS. However, one smart person <a class="link" href="https://github.com/GeertJohan/openwrt-go"  target="_blank" rel="noopener"
+    >forked OpenWRT and added Go support</a> via <a class="link" href="https://gcc.gnu.org/onlinedocs/gccgo/Invoking-gccgo.html"  target="_blank" rel="noopener"
+    >gccgo</a>. Yay it&rsquo;s Go, boo it&rsquo;s Go 1.1.2.</p>
+<p>But I thought it&rsquo;d be a good experience to try building OpenWRT from scratch anyway. The <a class="link" href="https://github.com/GeertJohan/openwrt-go/issues/2"  target="_blank" rel="noopener"
+    >instructions here</a> and <a class="link" href="http://www.sajalkayan.com/post/golang-openwrt-mips.html"  target="_blank" rel="noopener"
+    >here</a> are pretty straightforward and I managed to build the Gnu cross-compile toolchain inside a Fedora 22 VM on Windows 10.</p>
+<p>NOTE: DO NOT DO THE FOLLOWING. IT DIDN&rsquo;T WORK. FOLLOW THE STEPS LATER FOR CLEAN NEW OPENWRT</p>
+<pre tabindex="0"><code>git clone git@github.com:GeertJohan/openwrt-go.git openwrt
+cd openwrt
+./scripts/feeds update -a
+./scripts/feeds install -a
+cp ~/Desktop/scons-2.3.5.tar.gz dl (needed to download this manually as it was missing)
+cp ~/Desktop/openssl-1.0.2c.tar.gz dl (needed to download this manually as it was missing)
+make menuconfig
+</code></pre><p>In menuconfig you have to enable a few things:</p>
+<ul>
+<li>-&gt; Advanced configuration options</li>
+<li>&ndash;&gt; Toolchain options</li>
+<li>&mdash;&gt; C library implementation</li>
+<li>&mdash;-&gt; Use eglibc</li>
+<li>-&gt; Advanced configuration options</li>
+<li>&ndash;&gt; Toolchain options</li>
+<li>&mdash;&gt; Select Build/Install gccgo</li>
+</ul>
+<p>Then save and exit, followed by:</p>
+<pre tabindex="0"><code>make
+</code></pre><p>Several hours later on my old i7 laptop, I had everything I needed.</p>
+<p>Then a simple helloworld Web Server helloweb.go that only uses standard library features:</p>
+<pre tabindex="0"><code>package main
+
+import (
+    &#34;fmt&#34;
+    &#34;net/http&#34;
+)
+
+func handler(w http.ResponseWriter, r *http.Request) {
+    fmt.Fprintf(w, &#34;Hi there, I love %s!&#34;, r.URL.Path[1:])
+}
+
+func main() {
+    http.HandleFunc(&#34;/&#34;, handler)
+    http.ListenAndServe(&#34;:8080&#34;, nil)
+}
+</code></pre><p>Create ~/openwrt.config which consists of</p>
+<pre tabindex="0"><code>export STAGING_DIR=/home/conor/openwrt/staging_dir 
+export TOOLCHAIN_DIR=$STAGING_DIR/toolchain-mips_34kc_gcc-4.8-linaro_glibc-2.19 
+export LDCFLAGS=$TOOLCHAIN_DIR/usr/lib 
+export LD_LIBRARY_PATH=$TOOLCHAIN_DIR/usr/lib 
+export PATH=$TOOLCHAIN_DIR/bin:$PATH
+</code></pre><p>Then build it:</p>
+<pre tabindex="0"><code>. ~/openwrt.config
+mips_gccgo -Wall -o helloweb_static_libgo helloweb.go -static-libgo
+</code></pre><p>I copied it over to the Onion but no joy. It just kept saying &ldquo;not found&rdquo;. Distant memories told me this was related to libraries and versions but nothing I tried worked. So I took a break.</p>
+<h2 id="golang-112-second-successful-attempt"><a href="#golang-112-second-successful-attempt" class="header-anchor"></a>Golang 1.1.2 second successful attempt
+</h2><p>A while later I decided that what I needed to do was build OpenWRT for the Onion but then I hit a blocker. Onion support was added to OpenWRT in July but the latest version of the toolchain that included Go was from May. So I bit the bullet and manually &ldquo;cherry-picked&rdquo; <a class="link" href="https://github.com/GeertJohan/openwrt-go/commits/add-gccgo-and-libgo?author=GeertJohan"  target="_blank" rel="noopener"
+    >all of the author&rsquo;s changes</a> from the older toolchain into the latest version of OpenWRT.</p>
+<p>You can get <a class="link" href="https://gist.github.com/conoro/887362ebdbbada2cfbc6"  target="_blank" rel="noopener"
+    >the patchfile I generated here</a> and apply it.</p>
+<p>NOTE: THESE STEPS WORK OK.</p>
+<p>Now to build from scratch again:</p>
+<pre tabindex="0"><code>sudo dnf install -y subversion binutils bzip2 gcc gcc-c++ gawk gettext flex ncurses-devel zlib-devel zlib-static make patch unzip perl-ExtUtils-MakeMaker glibc glibc-devel glibc-static quilt sed sdcc intltool sharutils bison wget
+
+. ~/openwrt.config   (see the contents of that file in the first failed attempt)
+
+rm -rf ~/openwrt
+git clone git://git.openwrt.org/openwrt.git openwrt
+cd openwrt
+</code></pre><pre tabindex="0"><code>nano feeds.conf.default
+</code></pre><p>and append the following:</p>
+<pre tabindex="0"><code>src-git onion https://github.com/OnionIoT/OpenWRT-Packages.git
+</code></pre><p>Then:</p>
+<pre tabindex="0"><code>scripts/feeds update -a
+
+make menuconfig
+</code></pre><p>Note you have to include the same menuconfig settings as before i.e.</p>
+<ul>
+<li>-&gt; Advanced configuration options</li>
+<li>&ndash;&gt; Toolchain options</li>
+<li>&mdash;&gt; C library implementation</li>
+<li>&mdash;-&gt; Use eglibc</li>
+<li>-&gt; Advanced configuration options</li>
+<li>&ndash;&gt; Toolchain options</li>
+<li>&mdash;&gt; Select Build/Install gccgo</li>
+</ul>
+<p>Plus the following for both the Onion and USB stick. This uses <a class="link" href="https://github.com/OnionIoT/OpenWRT-Packages/wiki/Setting-Up-the-Cross-Compile-Environment"  target="_blank" rel="noopener"
+    >some instructions from the Onion site</a>:</p>
+<ol>
+<li>Target System is Atheros AR7xxx/AR9xxx</li>
+<li>Subtarget is Generic</li>
+<li>Target Profile is Onion Omega</li>
+<li>Target Images is squashfs</li>
+<li>Add kmod-fs-vfat</li>
+<li>Add kmod-nls-cp437</li>
+</ol>
+<pre tabindex="0"><code>make
+</code></pre><p>Several hours later again, I finally had <a class="link" href="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin"  target="_blank" rel="noopener"
+    >a version of the firmware that included Go support</a> and ran on the Onion by doing the following on the Onion:</p>
+<pre tabindex="0"><code>cd /tmp
+scp conor@192.168.0.9:/mnt/disk2/software/openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin .
+sysupgrade openwrt-ar71xx-generic-onion-omega-squashfs-factory.bin 
+</code></pre><h2 id="hello-world-web-server-in-go-on-the-onion-omega"><a href="#hello-world-web-server-in-go-on-the-onion-omega" class="header-anchor"></a>Hello World Web Server in Go on the Onion Omega
+</h2><p>Back to helloworld on the Fedora 22 VM:</p>
+<pre tabindex="0"><code>alias mips_gccgo=&#39;mips-openwrt-linux-gccgo -Wl,-R,/home/conor/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_glibc-2.19/lib/gcc/mips-openwrt-linux-gnu/4.8.3 -L /home/conor/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8.0-linaro_glibc-2.19/lib&#39;
+
+mips_gccgo -Wall -o helloweb_static_libgo helloweb.go -static-libgo
+</code></pre><p>Copy to the Onion and run it with a simple ./helloweb_static_libgo</p>
+<p>Hurrah, Hello World in Go on the Onion!</p>
+<p><img src="/go_on_onion_omega_02_12682686022318378718.jpg"
+	width="776"
+	height="427"
+	loading="lazy"
+	
+		alt="I love mac and cheese"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="181"
+		data-flex-basis="436px"
+	
+></p>
+<h2 id="tweeting-from-the-onion-omega-in-go"><a href="#tweeting-from-the-onion-omega-in-go" class="header-anchor"></a>Tweeting from the Onion Omega in Go
+</h2><p>I should have left it at that but no, I wanted to Tweet from the Onion. My problems multiplied. Basically, gccgo doesn&rsquo;t have all the bells and whistles of recent Go and can&rsquo;t handle included packages easily. After some reading and playing, I managed to build a Tweeting App that used the <a class="link" href="https://github.com/kurrik/twittergo"  target="_blank" rel="noopener"
+    >Twittergo package</a>. Note you need a local Fedora version of <a class="link" href="https://golang.org/dl/"  target="_blank" rel="noopener"
+    >Go installed and configured</a> for &ldquo;go get&rdquo; to work (or just git clone). My $GOPATH is /home/conor/gitwork/go</p>
+<p>I used the <a class="link" href="https://github.com/kurrik/twittergo-examples/blob/master/tweet/main.go"  target="_blank" rel="noopener"
+    >example from Twittergo</a> to send the tweet, with the same mods to remove paths from the imports as the other files.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>. ~/openwrt.config
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>cd ~/gitwork/go/src/github.com
+</span></span><span style="display:flex;"><span>go get github.com/kurrik/twittergo
+</span></span><span style="display:flex;"><span>go get github.com/kurrik/oauth1a
+</span></span><span style="display:flex;"><span>go get github.com/kurrik/json
+</span></span><span style="display:flex;"><span>cd kurrik/json
+</span></span><span style="display:flex;"><span>mips-openwrt-linux-gccgo -c json.go
+</span></span><span style="display:flex;"><span>cd ../oauth1a
+</span></span><span style="display:flex;"><span>mips-openwrt-linux-gccgo -c oauth1a.go userconfig.go
+</span></span><span style="display:flex;"><span>cd ../twittergo
+</span></span><span style="display:flex;"><span>cp ../json/json.o .
+</span></span><span style="display:flex;"><span>cp ../oauth1a/oauth1a.o .
+</span></span><span style="display:flex;"><span>emacs twittergo.go  <span style="color:#f92672">(</span>change github.com/kurrik/oauth1a to oauth1a<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>emacs models.go  <span style="color:#f92672">(</span>change github.com/kurrik/json to json<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>mips-openwrt-linux-gccgo -c twittergo.go models.go
+</span></span><span style="display:flex;"><span>emacs tweetomega.go
+</span></span><span style="display:flex;"><span>mips_gccgo -Wall -o tweetomega main.go -static-libgo json.o  oauth1a.o twittergo.o
+</span></span><span style="display:flex;"><span>gedit CREDENTIALS
+</span></span></code></pre></div><p>I was nearly there. The code ran but threw an error almost immediately about x509 root certs being missing. I ran all of the following, which seemed to fix it (but I&rsquo;m not sure if all needed):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>opkg update
+</span></span><span style="display:flex;"><span>opkg install ca-certificates
+</span></span><span style="display:flex;"><span>opkg install openssl-util
+</span></span><span style="display:flex;"><span>opkg install curl
+</span></span><span style="display:flex;"><span>wget http://curl.haxx.se/ca/cacert.pem
+</span></span><span style="display:flex;"><span>mv cacert.pem /etc/ssl/certs/ca-certificates.crt
+</span></span><span style="display:flex;"><span>scp conor@192.168.0.9:/mnt/disk2/software/CREDENTIALS .
+</span></span><span style="display:flex;"><span>scp conor@192.168.0.9:/mnt/disk2/software/tweetomega .
+</span></span><span style="display:flex;"><span>./tweetomega
+</span></span></code></pre></div><p>And finally ta-daaaa, a Tweet from the Omega:</p>
+<p><img src="/hushvine_onion_01_11409995367451519022.jpg"
+	width="669"
+	height="616"
+	loading="lazy"
+	
+		alt="Tweetin Omega"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="108"
+		data-flex-basis="260px"
+	
+></p>
+<p>I now suspect that the Node.js error may have been exactly the same thing but just hidden so I&rsquo;ll go back and try the same for it.</p>
+<h2 id="final-notes"><a href="#final-notes" class="header-anchor"></a>Final notes
+</h2><ol>
+<li>That custom firmware I built is missing all of the Onion&rsquo;s own stuff and I&rsquo;m not sure how to add that. However you can easily re-install the latest factory Onion image by wgetting it using the URL you find <a class="link" href="http://cloud.onion.io/api/firmware/stable.json"  target="_blank" rel="noopener"
+    >in this file</a> into /tmp using sysupgrade name_of_image.</li>
+<li>We really need Go 1.6 to support MIPS. I think the Onion is a great device for running Go. We might even get <a class="link" href="http://gobot.io/"  target="_blank" rel="noopener"
+    >Gobots</a> running.</li>
+</ol>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/api/">Api</a>
+        
+            <a href="/tags/golang/">Golang</a>
+        
+            <a href="/tags/javascript/">Javascript</a>
+        
+            <a href="/tags/linux/">Linux</a>
+        
+            <a href="/tags/nodejs/">Nodejs</a>
+        
+            <a href="/tags/open-source/">Open-Source</a>
+        
+            <a href="/tags/python/">Python</a>
+        
+            <a href="/tags/raspberry-pi/">Raspberry-Pi</a>
+        
+            <a href="/tags/security/">Security</a>
+        
+            <a href="/tags/twitter/">Twitter</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/2014/10/30/as-promised-yet-more-tech-goodie-backlog-for-your-entertainment/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">As promised, yet more tech goodie backlog for your entertainment</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2013/06/15/a-year-of-falling-back-in-love-with-makingelectronics-on-raspberry-pi-and-arduino/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">A year of falling back in love with Making/Electronics on Raspberry Pi and Arduino</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2015/06/06/save-your-yahoo-pipes-as-nodejs-apps-for-posterity/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Save your Yahoo Pipes as Node.js Apps for posterity</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2015/05/01/a-nodejs-web-server-running-on-windows-10-iot-on-a-raspberry_pi-2-wow/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">A Node.js web-server running on Windows 10 IoT on a @Raspberry_Pi 2. Wow!</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2015/01/04/bandon-flood-warning-data-now-scraped-to-google-fusion-tables-using-nodejs/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Bandon Flood Warning data now scraped to Google Fusion Tables using Node.js on ODROID-C1 and OpenShift</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+        <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "crossdominant" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2001 - 
+        
+        2026 Mixed Laterality
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="4.0.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+
+
+    </body>
+</html>

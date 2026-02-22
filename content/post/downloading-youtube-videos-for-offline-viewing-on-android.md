@@ -5,8 +5,9 @@ draft = false
 title = "Downloading YouTube videos  on Android for offline viewing later"
 description = " "
 slug = "downloading-youtube-videos-for-offline-viewing-on-android"
+categories = ["Mobile & Apps"]
+tags = ["android", "podcast", "python", "video"]
 +++
-
 One of the all-time great tools of the internet era is [youtube-dl](https://rg3.github.io/youtube-dl/). It enables you to download any YouTube video for watching offline/later. It has been a fantastic boon over the years for watching all my hundreds of subscribed channels when in planes, trains, automobiles and treadmills. It's also the basis for my own [YTPodders](https://ytpodders.com/) tool for generating podcasts from videos.
 
 Normally I run it on the PC and copy the files to the mobile devices, tablets or media players. On Wednesday I was cut short in the middle of watching the latest episode of the wonderful [Project Binky](https://www.youtube.com/channel/UCHvBHWBzzB7NyU5tIiEZHBg) on the tarmac in Heathrow when it came time to take-off. There would have been no viewing interruption if I'd had a mobile version of youtube-dl. Of course I immediately checked to see if that existed when I got home.

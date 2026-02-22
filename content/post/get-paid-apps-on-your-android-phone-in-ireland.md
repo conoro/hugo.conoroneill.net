@@ -5,8 +5,9 @@ draft = false
 title = "Get Paid Apps on your Android Phone in Ireland"
 description = ""
 slug = "get-paid-apps-on-your-android-phone-in-ireland"
+categories = ["Mobile & Apps"]
+tags = ["android", "ireland"]
 +++
-
 #"Get Paid Apps on your Android Phone in Ireland"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Facebook Places is a Total Winner"
 description = ""
 slug = "facebook-places-is-a-total-winner"
+categories = ["Startups & Business"]
+tags = ["facebook", "startup", "twitter"]
 +++
-
 #"Facebook Places is a Total Winner"
 
 

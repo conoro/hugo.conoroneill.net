@@ -5,8 +5,9 @@ draft = false
 title = "About....Bloody......Time... Android - More Countries, More sellers, More buyers"
 description = ""
 slug = "about-bloody-time-android-more-countries-more-sellers-more-buyers"
+categories = ["Mobile & Apps"]
+tags = ["android", "ireland"]
 +++
-
 #"About....Bloody......Time...: Android - More Countries, More sellers, More buyers"
 
 

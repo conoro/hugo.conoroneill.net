@@ -5,8 +5,8 @@ draft = false
 title = "We'll miss you Guy Kewney"
 description = ""
 slug = "well-miss-you-guy-kewney"
+categories = ["Web & Blogging"]
 +++
-
 #"We'll miss you Guy Kewney"
 
 

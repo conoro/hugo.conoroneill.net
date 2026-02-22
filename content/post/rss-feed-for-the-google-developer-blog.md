@@ -4,8 +4,9 @@ draft = false
 title = "An RSS Feed for the Google Chrome Developer Blog"
 description = "Because these things matter"
 slug = "rss-feed-for-the-google-developer-blog"
+categories = ["AI & Machine Learning"]
+tags = ["ai", "javascript", "open-source", "python", "rss"]
 +++
-
 Yesterday I was amused and faux-shocked to see that the company who did more to damage RSS than any other, got rid of the [RSS feed](https://developer.chrome.com/feeds) for [its Chrome Developer Blog](https://developer.chrome.com/blog).
 
 So this morning I gave ChatGPT a few nudges/samples and it generated a basic Python script to create the feed. GitHub Copilot took care of some refinements and GitHub Actions took care of generating the feed once per hour and providing it via GitHub Pages.

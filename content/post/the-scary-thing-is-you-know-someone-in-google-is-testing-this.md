@@ -5,8 +5,9 @@ draft = false
 title = "The scary thing is, you know someone in Google is testing this"
 description = ""
 slug = "the-scary-thing-is-you-know-someone-in-google-is-testing-this"
+categories = ["Mobile & Apps"]
+tags = ["android"]
 +++
-
 #"The scary thing is, you know someone in Google is testing this"
 
 

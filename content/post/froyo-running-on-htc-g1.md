@@ -5,8 +5,8 @@ draft = false
 title = "Froyo running on HTC G1"
 description = ""
 slug = "froyo-running-on-htc-g1"
+categories = ["Mobile & Apps"]
 +++
-
 #"Froyo running on HTC G1"
 
 

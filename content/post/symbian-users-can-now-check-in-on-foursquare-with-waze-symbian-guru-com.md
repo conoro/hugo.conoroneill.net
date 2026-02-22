@@ -5,8 +5,9 @@ draft = false
 title = "Symbian Users Can Now Check-In On Foursquare With Waze | Symbian-Guru.com"
 description = ""
 slug = "symbian-users-can-now-check-in-on-foursquare-with-waze-symbian-guru-com"
+categories = ["Web & Blogging"]
+tags = ["gps", "nokia"]
 +++
-
 #"Symbian Users Can Now Check-In On Foursquare With Waze | Symbian-Guru.com"
 
 

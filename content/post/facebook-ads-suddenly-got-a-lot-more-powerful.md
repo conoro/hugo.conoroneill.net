@@ -5,8 +5,9 @@ draft = false
 title = "Facebook Ads suddenly got a lot more powerful"
 description = ""
 slug = "facebook-ads-suddenly-got-a-lot-more-powerful"
+categories = ["Media & Entertainment"]
+tags = ["api", "facebook", "google"]
 +++
-
 #"Facebook Ads suddenly got a lot more powerful"
 
 

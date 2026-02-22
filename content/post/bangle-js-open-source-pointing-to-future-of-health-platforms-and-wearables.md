@@ -4,8 +4,9 @@ draft = false
 title = "Bangle.js and Open Source pointing to the future of health platforms and wearables"
 description = "Our NodeConf EU 2019 badge is about a lot more than fun hacking. But it's good at that too."
 slug = "bangle-js-open-source-pointing-to-future-of-health-platforms-and-wearables"
+categories = ["Running & Fitness"]
+tags = ["ai", "api", "espruino", "fitness-tracker", "javascript", "open-source"]
 +++
-
 First things first, Gordon Williams's [KickStarter for Bangle.js](https://www.kickstarter.com/projects/gfw/banglejs-the-hackable-smart-watch) finishes in three days. If you have interest in any of: sustainable Open Source, JavaScript, Machine Learning, wearables, Open APIs, health, hacking or IOT, you should back it. Heck even if you want to see what Chinese manufacturers are able to cram into an inexpensive device in 2019, you should get one.
 
 ![Bangle.js](/images/2019/11/watch_blog.jpg)

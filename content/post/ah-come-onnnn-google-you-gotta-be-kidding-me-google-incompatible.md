@@ -5,8 +5,9 @@ draft = false
 title = "Ah come onnnn Google, you gotta be kidding me. Google+ incompatible?"
 description = ""
 slug = "ah-come-onnnn-google-you-gotta-be-kidding-me-google-incompatible"
+categories = ["General Tech"]
+tags = ["android"]
 +++
-
 #"Ah come onnnn Google, you gotta be kidding me. Google+ incompatible?"
 
 

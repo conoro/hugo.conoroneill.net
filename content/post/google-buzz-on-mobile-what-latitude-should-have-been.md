@@ -5,8 +5,9 @@ draft = false
 title = "Google Buzz on Mobile - What Latitude should have been"
 description = ""
 slug = "google-buzz-on-mobile-what-latitude-should-have-been"
+categories = ["Mobile & Apps"]
+tags = ["android", "api", "facebook", "google", "nokia", "twitter"]
 +++
-
 #"Google Buzz on Mobile - What Latitude should have been"
 
 

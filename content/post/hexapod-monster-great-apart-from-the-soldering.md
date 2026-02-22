@@ -5,8 +5,9 @@ draft = false
 title = "Hexapod Monster great - apart from the soldering"
 description = ""
 slug = "hexapod-monster-great-apart-from-the-soldering"
+categories = ["IoT & Electronics"]
+tags = ["google", "lego", "photography", "retro-computing", "security"]
 +++
-
 #"Hexapod Monster great - apart from the soldering"
 
 

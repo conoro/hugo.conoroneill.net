@@ -5,8 +5,9 @@ draft = false
 title = "Imagine if the iPhone 4 was a Porsche 911"
 description = ""
 slug = "imagine-if-the-iphone-4-was-a-porsche-911"
+categories = ["Mobile & Apps"]
+tags = ["ios"]
 +++
-
 #"Imagine if the iPhone 4 was a Porsche 911"
 
 

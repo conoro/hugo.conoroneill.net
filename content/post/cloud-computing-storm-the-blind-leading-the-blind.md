@@ -5,8 +5,9 @@ draft = false
 title = "Cloud computing storm - The blind leading the blind"
 description = ""
 slug = "cloud-computing-storm-the-blind-leading-the-blind"
+categories = ["Web & Blogging"]
+tags = ["cloud"]
 +++
-
 #"Cloud computing storm - The blind leading the blind"
 
 

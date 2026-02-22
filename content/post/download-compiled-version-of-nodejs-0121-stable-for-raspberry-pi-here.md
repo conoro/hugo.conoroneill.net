@@ -5,8 +5,9 @@ draft = false
 title = "Download compiled version of Node.js 0.12.1 Stable for Raspberry Pi here"
 description = "Unfortunately, just like 0.12.0, the 0.12.1 release of Node won't compile on Raspberry Pi so I took a patch from io.js and was able to build it."
 slug = "download-compiled-version-of-nodejs-0121-stable-for-raspberry-pi-here"
+categories = ["IoT & Electronics"]
+tags = ["javascript", "linux", "nodejs", "raspberry-pi"]
 +++
-
 Unfortunately, just like 0.12.0, the 0.12.1 release of Node won't compile on Raspberry Pi (pre 2) so I took a patch from [io.js](http://iojs.org) and was able to build it.
 
 ![Node.js](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/02/nodejs.jpg)

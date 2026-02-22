@@ -5,8 +5,9 @@ draft = false
 title = "An oldie but a goodie - Venture Capitalist T-Shirts"
 description = ""
 slug = "an-oldie-but-a-goodie-venture-capitalist-t-shirts"
+categories = ["Startups & Business"]
+tags = ["startup"]
 +++
-
 #"An oldie but a goodie - Venture Capitalist T-Shirts"
 
 

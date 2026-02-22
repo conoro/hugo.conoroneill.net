@@ -5,8 +5,9 @@ draft = false
 title = "SwiftKey X - Instantly the best on-screen Android Keyboard"
 description = ""
 slug = "swiftkey-x-instantly-the-best-on-screen-android-keyboard"
+categories = ["Web & Blogging"]
+tags = ["android"]
 +++
-
 #"SwiftKey X - Instantly the best on-screen Android Keyboard"
 
 

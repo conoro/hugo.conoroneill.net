@@ -5,8 +5,9 @@ draft = false
 title = "Genus Aves Iratus (Angry Birds)"
 description = ""
 slug = "genus-aves-iratus-angry-birds"
+categories = ["Gaming & Retro Computing"]
+tags = ["gaming"]
 +++
-
 #"Genus Aves Iratus (Angry Birds)"
 
 

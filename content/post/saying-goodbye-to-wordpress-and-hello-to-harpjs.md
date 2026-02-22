@@ -5,8 +5,9 @@ draft = false
 title = "Saying goodbye to WordPress and hello to HarpJS"
 description = "WordPress enabled a huge number of people to get their blogs and web-sites online with almost zero effort. But the ongoing effort of maintaining it has many people, including me, reverting to more complex tools like HarpJS"
 slug = "saying-goodbye-to-wordpress-and-hello-to-harpjs"
+categories = ["Low Code & No Code"]
+tags = ["api", "database", "facebook", "google", "javascript", "lego", "linux", "nodejs", "open-source", "twitter", "wordpress"]
 +++
-
 My blogging history goes back to 2001 when I setup a Blogger/Blogspot blog in the hope that I would update things more quickly than with Geocities or my Frontpage98 home page. 4 months later I wrote my second post :-) For a long time it involved writing the posts on Blogger and then publishing them via FTP to my own domain. It was fiddly but it worked ok. 
 
 Then around 2005 I discovered WordPress and realised blogging could be much much much easier. In the past 9 years I've done an incredible amount of stuff with WP. From personal blogging to building core parts of a business on top of it. It has been both a delight and the source of my greatest frustrations (glares at the "WYSIWYG" editor).

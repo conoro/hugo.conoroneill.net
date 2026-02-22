@@ -5,8 +5,9 @@ draft = false
 title = "Analogue TV RIP - No of course it's not Ireland"
 description = ""
 slug = "analogue-tv-rip-no-of-course-its-not-ireland"
+categories = ["Web & Blogging"]
+tags = ["ireland"]
 +++
-
 #"Analogue TV RIP - No of course it's not Ireland"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Sony Ericsson LiveView = Calculator Watch 2.0"
 description = ""
 slug = "sony-ericsson-liveview-calculator-watch-2-0"
+categories = ["Software Development"]
+tags = ["android"]
 +++
-
 #"Sony Ericsson LiveView = Calculator Watch 2.0"
 
 

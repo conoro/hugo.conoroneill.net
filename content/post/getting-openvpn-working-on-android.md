@@ -5,8 +5,9 @@ draft = false
 title = "Getting OpenVPN working on Android"
 description = ""
 slug = "getting-openvpn-working-on-android"
+categories = ["Mobile & Apps"]
+tags = ["android", "ios", "security", "wifi"]
 +++
-
 #"Getting OpenVPN working on Android"
 
 

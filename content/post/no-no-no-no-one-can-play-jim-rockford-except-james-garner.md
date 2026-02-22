@@ -5,8 +5,8 @@ draft = false
 title = "No No No. No-one can play Jim Rockford except James Garner"
 description = ""
 slug = "no-no-no-no-one-can-play-jim-rockford-except-james-garner"
+categories = ["Web & Blogging"]
 +++
-
 #"No No No. No-one can play Jim Rockford except James Garner"
 
 

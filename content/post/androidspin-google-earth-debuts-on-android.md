@@ -5,8 +5,9 @@ draft = false
 title = "AndroidSPIN | Google Earth Debuts On Android"
 description = ""
 slug = "androidspin-google-earth-debuts-on-android"
+categories = ["Mobile & Apps"]
+tags = ["android", "google", "nokia"]
 +++
-
 #"AndroidSPIN | Google Earth Debuts On Android"
 
 

@@ -5,8 +5,8 @@ draft = false
 title = "I know what the 3 y/o is getting for her birthday this year."
 description = ""
 slug = "i-know-what-the-3-yo-is-getting-for-her-birthday-this-year"
+categories = ["Web & Blogging"]
 +++
-
 #"I know what the 3 y/o is getting for her birthday this year."
 
 

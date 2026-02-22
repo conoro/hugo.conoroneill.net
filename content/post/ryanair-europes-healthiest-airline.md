@@ -5,8 +5,9 @@ draft = false
 title = "Ryanair, Europe's Healthiest Airline"
 description = ""
 slug = "ryanair-europes-healthiest-airline"
+categories = ["Media & Entertainment"]
+tags = ["facebook"]
 +++
-
 #"Ryanair, Europe's Healthiest Airline"
 
 

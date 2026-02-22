@@ -5,8 +5,9 @@ draft = false
 title = "I could honestly listen to Anssi Vanjoki speak all day."
 description = ""
 slug = "i-could-honestly-listen-to-anssi-vanjoki-speak-all-day"
+categories = ["Mobile & Apps"]
+tags = ["nokia"]
 +++
-
 #"I could honestly listen to Anssi Vanjoki speak all day."
 
 

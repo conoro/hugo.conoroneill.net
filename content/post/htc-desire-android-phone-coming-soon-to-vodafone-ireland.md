@@ -5,8 +5,9 @@ draft = false
 title = "HTC Desire Android phone coming soon to Vodafone Ireland"
 description = ""
 slug = "htc-desire-android-phone-coming-soon-to-vodafone-ireland"
+categories = ["Mobile & Apps"]
+tags = ["android", "ios", "ireland", "nokia", "photography", "twitter"]
 +++
-
 #"HTC Desire Android phone coming soon to Vodafone Ireland"
 
 

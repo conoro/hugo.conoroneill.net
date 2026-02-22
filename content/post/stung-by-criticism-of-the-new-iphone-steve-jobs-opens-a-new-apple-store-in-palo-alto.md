@@ -5,8 +5,9 @@ draft = false
 title = "Stung by criticism of the new iPhone, Steve Jobs opens a new Apple store in Palo Alto"
 description = ""
 slug = "stung-by-criticism-of-the-new-iphone-steve-jobs-opens-a-new-apple-store-in-palo-alto"
+categories = ["Mobile & Apps"]
+tags = ["ios"]
 +++
-
 #"Stung by criticism of the new iPhone, Steve Jobs opens a new Apple store in Palo Alto"
 
 

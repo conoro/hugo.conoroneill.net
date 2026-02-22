@@ -5,8 +5,9 @@ draft = false
 title = "An evening in the company of the delightful Mr Samsung Galaxy S4"
 description = ""
 slug = "an-evening-in-the-company-of-the-delightful-mr-samsung-galaxy-s4"
+categories = ["Running & Fitness"]
+tags = ["amazon", "android", "bluetooth", "fitness-tracker", "gps", "lego", "photography", "samsung", "twitter"]
 +++
-
 #"An evening in the company of the delightful Mr Samsung Galaxy S4"
 
 I'm sure you're dying to know how I'm getting on with the S4. How many of you struggled to sleep last night with the anticipation?

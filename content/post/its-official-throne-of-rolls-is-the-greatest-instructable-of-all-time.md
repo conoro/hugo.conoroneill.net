@@ -5,8 +5,8 @@ draft = false
 title = "It's official - Throne of Rolls is the greatest Instructable of all time"
 description = ""
 slug = "its-official-throne-of-rolls-is-the-greatest-instructable-of-all-time"
+categories = ["General Tech"]
 +++
-
 #"It's official - Throne of Rolls is the greatest Instructable of all time"
 
 A Game of Thrones themed <a href="http://www.instructables.com/id/Game-of-Thrones-themed-toilet-roll-holder/?ALLSTEPS">toilet roll holder</a>you can make yourself.

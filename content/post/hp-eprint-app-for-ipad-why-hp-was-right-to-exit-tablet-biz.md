@@ -5,8 +5,9 @@ draft = false
 title = "HP ePrint App for iPad - Why HP was right to exit Tablet Biz"
 description = ""
 slug = "hp-eprint-app-for-ipad-why-hp-was-right-to-exit-tablet-biz"
+categories = ["Mobile & Apps"]
+tags = ["ios", "wifi"]
 +++
-
 #"HP ePrint App for iPad - Why HP was right to exit Tablet Biz"
 
 &nbsp;

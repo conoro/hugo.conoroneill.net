@@ -5,8 +5,9 @@ draft = false
 title = "A simple tool to bulk import your RunKeeper data into Endomondo"
 description = ""
 slug = "a-simple-tool-to-bulk-import-your-runkeeper-data-into-endomondo"
+categories = ["Running & Fitness"]
+tags = ["facebook", "fitness-tracker", "linux", "running", "twitter"]
 +++
-
 #"A simple tool to bulk import your RunKeeper data into Endomondo"
 
 UPDATE 17th Aug 2013: The tool should now be able to import Sports Tracker files into Endomondo too.

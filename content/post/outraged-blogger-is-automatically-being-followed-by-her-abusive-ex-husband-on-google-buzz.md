@@ -5,8 +5,9 @@ draft = false
 title = "Outraged Blogger Is Automatically Being Followed By Her Abusive Ex-Husband On Google Buzz"
 description = ""
 slug = "outraged-blogger-is-automatically-being-followed-by-her-abusive-ex-husband-on-google-buzz"
+categories = ["Opinion & Commentary"]
+tags = ["google"]
 +++
-
 #"Outraged Blogger Is Automatically Being Followed By Her Abusive Ex-Husband On Google Buzz"
 
 

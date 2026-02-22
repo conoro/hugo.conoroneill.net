@@ -5,8 +5,8 @@ draft = false
 title = "Awesome - Posterous unveils Post Editor 2.0"
 description = ""
 slug = "awesome-posterous-unveils-post-editor-2-0"
+categories = ["Web & Blogging"]
 +++
-
 #"Awesome - Posterous unveils Post Editor 2.0"
 
 

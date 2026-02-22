@@ -5,8 +5,8 @@ draft = false
 title = "I've never met an Engineer who could turn their hand to business"
 description = ""
 slug = "ive-never-met-an-engineer-who-could-turn-their-hand-to-business"
+categories = ["Mobile & Apps"]
 +++
-
 #"I've never met an Engineer who could turn their hand to business"
 
 

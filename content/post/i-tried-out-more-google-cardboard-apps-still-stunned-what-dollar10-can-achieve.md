@@ -5,9 +5,9 @@ draft = false
 title = "I tried out more Google Cardboard Apps and I'm still stunned what $10 can achieve"
 description = ""
 slug = "i-tried-out-more-google-cardboard-apps-still-stunned-what-dollar10-can-achieve"
+categories = ["General Tech"]
+tags = ["google"]
 +++
-
-
 Of course Google Cardboard isn't up there with Oculus but I still have my jaw on the floor over what it can do. These are some of the apps I've tried out this week.
 
 ![Cardboard](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/12/cardboard.png "Cardboard")

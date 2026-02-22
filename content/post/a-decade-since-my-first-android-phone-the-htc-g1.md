@@ -4,8 +4,9 @@ draft = false
 title = "A decade since my first Android phone - The HTC G1"
 description = "It's nice to be right about a technology and a platform"
 slug = "a-decade-since-my-first-android-phone-the-htc-g1"
+categories = ["Mobile & Apps"]
+tags = ["amazon", "android", "ios", "ireland", "nokia", "samsung"]
 +++
-
 Ten years ago today, I received my first Android phone, an HTC G1, from a US eBay seller.
 
 Here it is, still working! It's sitting on an Amazon Fire HD (stunningly good value) beside a Huawei Honor Play (a stand-in for my broken Galaxy S8+ and a fantastic phone at a crazy low price).

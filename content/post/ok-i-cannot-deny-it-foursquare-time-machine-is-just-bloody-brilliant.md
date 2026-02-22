@@ -5,8 +5,8 @@ draft = false
 title = "OK, I cannot deny it, Foursquare Time Machine is just bloody brilliant"
 description = ""
 slug = "ok-i-cannot-deny-it-foursquare-time-machine-is-just-bloody-brilliant"
+categories = ["General Tech"]
 +++
-
 #"OK, I cannot deny it, Foursquare Time Machine is just bloody brilliant"
 
 So we start with <a href="https://foursquare.com/conoro/checkin/4af19aaea4de2f5efd936dbb">Ireland's first Foursquare check-in</a>, courtesy of yours truly.

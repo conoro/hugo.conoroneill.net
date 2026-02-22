@@ -5,8 +5,8 @@ draft = false
 title = "Just got my first ever 500 Error from YouTube"
 description = ""
 slug = "just-got-my-first-ever-500-error-from-youtube"
+categories = ["General Tech"]
 +++
-
 #"Just got my first ever 500 Error from YouTube"
 
 

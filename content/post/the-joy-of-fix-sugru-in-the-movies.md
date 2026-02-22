@@ -5,8 +5,8 @@ draft = false
 title = "The Joy of Fix Sugru in the Movies"
 description = ""
 slug = "the-joy-of-fix-sugru-in-the-movies"
+categories = ["Media & Entertainment"]
 +++
-
 #"The Joy of Fix \u0096 Sugru in the Movies"
 
 

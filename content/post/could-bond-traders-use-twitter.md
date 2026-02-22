@@ -5,8 +5,9 @@ draft = false
 title = "Could Bond Traders use Twitter?"
 description = ""
 slug = "could-bond-traders-use-twitter"
+categories = ["Low Code & No Code"]
+tags = ["twitter"]
 +++
-
 #"Could Bond Traders use Twitter?"
 
 

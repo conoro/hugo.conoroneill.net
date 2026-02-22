@@ -5,8 +5,9 @@ draft = false
 title = "Facebook Puts a Wooden Stake Through Orkut's Heart"
 description = ""
 slug = "facebook-puts-a-wooden-stake-through-orkuts-heart"
+categories = ["Web & Blogging"]
+tags = ["facebook", "ireland"]
 +++
-
 #"Facebook Puts a Wooden Stake Through Orkut's Heart"
 
 

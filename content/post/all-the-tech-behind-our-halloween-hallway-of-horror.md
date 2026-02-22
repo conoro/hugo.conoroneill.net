@@ -5,8 +5,9 @@ draft = false
 title = "All the gory tech behind our Halloween Hallway of Horror"
 description = " "
 slug = "all-the-gory-tech-behind-our-halloween-hallway-of-horror"
+categories = ["IoT & Electronics"]
+tags = ["3d-printing", "amazon", "android", "arduino", "golang", "halloween", "led", "linux", "raspberry-pi", "video", "wifi"]
 +++
-
 Despite starting weeks earlier than usual, Halloween still involved a day of last minute panic to bring everything together. The end result was this:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FClhSNwFfT0" frameborder="0" allowfullscreen></iframe>

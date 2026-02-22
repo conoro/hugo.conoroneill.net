@@ -5,8 +5,9 @@ draft = false
 title = "Xperia X10 lands on Vodafone UK in April -- Engadget"
 description = ""
 slug = "xperia-x10-lands-on-vodafone-uk-in-april-engadget"
+categories = ["Mobile & Apps"]
+tags = ["android", "ireland", "nokia", "photography"]
 +++
-
 #"Xperia X10 lands on Vodafone UK in April -- Engadget"
 
 

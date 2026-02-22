@@ -5,8 +5,9 @@ draft = false
 title = "Some thoughts on Twitter rebuilding a developer ecosystem and how they might succeed"
 description = "As someone who built my first Twitter apps in 2007 but completely gave up in 2011, I have some suggestions how they can grow from the Fabric launch to create something that developers really want to use. It's about more than trust, it's about having the confidence to go backwards in order to go forwards and fully embracing the fact that Twitter is a platform, not a site."
 slug = "some-thoughts-on-twitter-rebuilding-a-developer-ecosystem-and-how-they-might-succeed"
+categories = ["IoT & Electronics"]
+tags = ["api", "facebook", "flooding", "ireland", "javascript", "nokia", "rss", "startup", "twitter"]
 +++
-
 First some very detailed background.
 
 **The Beginning**: I joined Twitter in Feb 2007 so that I could live-Tweet the Irish Blog Awards results via SMS. It was when Twitter finally clicked with me. 2007-2008 was a fantastic time to be on Twitter if you had even a modicum of programming ability. There's a chance it could be so again.

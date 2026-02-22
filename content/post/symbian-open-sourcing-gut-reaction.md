@@ -5,8 +5,9 @@ draft = false
 title = "Symbian Open-Sourcing Gut Reaction"
 description = ""
 slug = "symbian-open-sourcing-gut-reaction"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "golang", "ios", "nokia", "open-source", "wifi"]
 +++
-
 #"Symbian Open-Sourcing Gut Reaction"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "My first stab at silicone mould making to cast an RC car suspension part"
 description = ""
 slug = "my-first-stab-at-silicone-mould-making-to-cast-an-rc-car-suspension-part"
+categories = ["IoT & Electronics"]
+tags = ["3d-printing", "bluetooth", "facebook", "ireland"]
 +++
-
 #"My first stab at silicone mould making to cast an RC car suspension part"
 
 Regular readers will know that I'm a huge fan of the <a href="http://conoroneill.net/makey-makey-raspberry-pi-iracer-bluetooth-cheese-controlled-car-ccc/">Dagu Arexx i-racer RC car</a>. It's cheap, light, fast, uses Bluetooth, has a removable shell and is perfect for n00b families like us who have never really done the RC thing properly.

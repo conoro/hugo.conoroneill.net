@@ -5,8 +5,8 @@ draft = false
 title = "Was anyone else a member of Fireball's Club from the 1970s Bullet comic?"
 description = ""
 slug = "was-anyone-else-a-member-of-fireballs-club-from-the-1970s-bullet-comic"
+categories = ["General Tech"]
 +++
-
 #"Was anyone else a member of Fireball's Club from the 1970s Bullet comic?"
 
 It was huge in our school. I even had the special plastic medallion/key. For some reason I managed to block out his 'tache in my memory. Here are two pics from Google Images which match my own experience.

@@ -5,8 +5,9 @@ draft = false
 title = "Huge mistake by Google with Earth on Android"
 description = ""
 slug = "huge-mistake-by-google-with-earth-on-android"
+categories = ["Mobile & Apps"]
+tags = ["android", "google", "ios", "lego", "nokia", "samsung"]
 +++
-
 #"Huge mistake by Google with Earth on Android"
 
 

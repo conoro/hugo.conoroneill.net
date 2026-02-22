@@ -3,8 +3,9 @@ date = "2026-02-20T09:23:48.313Z"
 draft = false
 title = "The Era of Disposable Apps and Disposable UIs"
 slug = "era-of-disposable-apps-and-disposable-uis"
+categories = ["AI & Machine Learning"]
+tags = ["ai", "api", "aws"]
 +++
-
 Two posts in one day? Monsieur, with these Rocher you are really spoiling us.
 
 I realised earlier this week that we have now entered the era of Disposable Apps and Disposable UIs.

@@ -5,8 +5,9 @@ draft = false
 title = "Google cancels Listen. I'm cancelling all non-core products by large corporations"
 description = ""
 slug = "google-cancels-listen-im-cancelling-all-non-core-products-by-large-corporations"
+categories = ["Mobile & Apps"]
+tags = ["android", "podcast"]
 +++
-
 #"Google cancels Listen. I'm cancelling all non-core products by large corporations"
 
 <blockquote>We launched Google Listen through Google Labs in August 2009, to give people a way to discover and listen to podcasts. However, with Google Play, people now have access to a wider variety of podcast apps, so <a href="http://googleblog.blogspot.ie/2012/08/giving-you-better-google.html">weve discontinued Listen</a>.</blockquote>

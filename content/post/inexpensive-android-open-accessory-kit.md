@@ -5,8 +5,9 @@ draft = false
 title = "Inexpensive Android Open Accessory Kit"
 description = ""
 slug = "inexpensive-android-open-accessory-kit"
+categories = ["Web & Blogging"]
+tags = ["android"]
 +++
-
 #"Inexpensive Android Open Accessory Kit"
 
 

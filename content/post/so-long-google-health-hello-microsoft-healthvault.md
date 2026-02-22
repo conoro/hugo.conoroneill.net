@@ -5,8 +5,9 @@ draft = false
 title = "So long Google Health. Hello Microsoft HealthVault."
 description = ""
 slug = "so-long-google-health-hello-microsoft-healthvault"
+categories = ["Running & Fitness"]
+tags = ["fitness-tracker", "google", "nokia"]
 +++
-
 #"So long Google Health. Hello Microsoft HealthVault."
 
 

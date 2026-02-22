@@ -5,8 +5,9 @@ draft = false
 title = "Time for an Irish Technology Industry Lobby?"
 description = ""
 slug = "time-for-an-irish-technology-industry-lobby"
+categories = ["Media & Entertainment"]
+tags = ["amazon", "food-tech", "ireland", "javascript", "podcast", "security", "twitter"]
 +++
-
 #"Time for an Irish Technology Industry Lobby?"
 
 The concern that many people have over the upcoming legislation around<a href="http://www.scribd.com/doc/39104491/EMI-v-UPC" target="_blank">the Charleton judgement</a>went into high gear when it was announced recently that The Data Protection Commission<a href="http://www.siliconrepublic.com/comms/item/25072-eircom-has-21-days-to-respo" target="_blank">had instructed Eircom</a>to halt its three strikes policy against music piracy. This fear was compounded by the relevant Junior Minister being shockingly dismissive and flippant towards anyone who expressed concern on Twitter. Finally, in the same week, initial<a href="http://en.wikipedia.org/wiki/Anti-Counterfeiting_Trade_Agreement" target="_blank">ACTA</a>legislation was weaseled through the EU Council by<a href="http://www.techdirt.com/articles/20111219/02385917123/eu-council-quietly-adopts-acta-hiding-it-agriculture-fisheries-meeting.shtml" target="_blank">hiding it in an Agricultural &amp; Fisheries session</a>!

@@ -5,8 +5,9 @@ draft = false
 title = "Underground Lakes, Antarctic UFOs, Nazis on The Moon and The Mayans"
 description = ""
 slug = "underground-lakes-antarctic-ufos-nazis-on-the-moon-and-the-mayans"
+categories = ["Media & Entertainment"]
+tags = ["ireland"]
 +++
-
 #"Underground Lakes, Antarctic UFOs, Nazis on The Moon and The Mayans"
 
 It's a funny old week when all of the above come together in your head isn't it? Bear with me for a sec.

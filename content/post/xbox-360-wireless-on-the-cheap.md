@@ -5,8 +5,9 @@ draft = false
 title = "Xbox 360 Wireless on the cheap"
 description = ""
 slug = "xbox-360-wireless-on-the-cheap"
+categories = ["Gaming & Retro Computing"]
+tags = ["gaming", "video", "wifi"]
 +++
-
 #"Xbox 360 Wireless on the cheap"
 
 

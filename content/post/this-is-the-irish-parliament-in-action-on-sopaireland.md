@@ -5,8 +5,9 @@ draft = false
 title = "This is the Irish Parliament in Action on #sopaireland"
 description = ""
 slug = "this-is-the-irish-parliament-in-action-on-sopaireland"
+categories = ["Opinion & Commentary"]
+tags = ["api", "ireland"]
 +++
-
 #"This is the Irish Parliament in Action on #sopaireland"
 
 We're all very proud to be Irish today........

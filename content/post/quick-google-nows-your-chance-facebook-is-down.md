@@ -5,8 +5,9 @@ draft = false
 title = "Quick Google+, Now's Your Chance, Facebook is Down"
 description = ""
 slug = "quick-google-nows-your-chance-facebook-is-down"
+categories = ["Mobile & Apps"]
+tags = ["facebook", "ios", "twitter"]
 +++
-
 #"Quick Google+, Now's Your Chance, Facebook is Down"
 
 Ah blast, it's not 2007 and this isn't Jaiku vs Twitter.

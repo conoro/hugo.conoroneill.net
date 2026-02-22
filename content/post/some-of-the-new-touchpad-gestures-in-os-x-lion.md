@@ -5,8 +5,8 @@ draft = false
 title = "Some of the new touchpad gestures in OS X Lion"
 description = ""
 slug = "some-of-the-new-touchpad-gestures-in-os-x-lion"
+categories = ["Web & Blogging"]
 +++
-
 #"Some of the new touchpad gestures in OS X Lion"
 
 

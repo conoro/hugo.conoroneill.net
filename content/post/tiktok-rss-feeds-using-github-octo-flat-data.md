@@ -4,8 +4,9 @@ draft = false
 title = "TikTok RSS Flat - Generate RSS feeds from TikTok using GitHub OCTO Flat Data"
 description = "Using GitHub Flat Data, GitHub Actions and GitHub Pages to fix the internet"
 slug = "tiktok-rss-feeds-using-github-octo-flat-data"
+categories = ["Low Code & No Code"]
+tags = ["amazon", "aws", "cloud", "facebook", "ireland", "javascript", "low-code", "nodejs", "open-source", "python", "rss", "running", "twitter"]
 +++
-
 Gen-X nerds continue to ruin the internet for Gen-Z by implementing RSS feeds for [TikTok](https://www.tiktok.com/@conor.runs?lang=en) 😁
 
 ![TikTok RSS Flat Logo](/images/2021/07/tiktok-rss-flat.png)

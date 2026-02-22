@@ -5,8 +5,8 @@ draft = false
 title = "Dear Posterous, please fix media upload from Chrome"
 description = ""
 slug = "dear-posterous-please-fix-media-upload-from-chrome"
+categories = ["Web & Blogging"]
 +++
-
 #"Dear Posterous, please fix media upload from Chrome"
 
 

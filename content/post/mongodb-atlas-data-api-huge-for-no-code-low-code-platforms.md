@@ -4,8 +4,9 @@ draft = false
 title = "The new MongoDB Atlas Data API is huge for No-Code and Low-Code Automation Platforms"
 description = "Removing the need for an SDK to access a database empowers a legion of Citizen Non-Developers"
 slug = "mongodb-atlas-data-api-huge-for-no-code-low-code-automation-platforms"
+categories = ["Low Code & No Code"]
+tags = ["amazon", "api", "aws", "database", "google", "home-automation", "lego", "low-code", "open-source", "sensors", "twitter"]
 +++
-
 It looks like I first started talking about MongoDB online back in 2011 - We've come a long way baby.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Right, need to finish watching the MongoDB vids (easier than I thought) and then do an Amazon ELB setup for kicks.</p>&mdash; Conor O&#39;Neill (@conoro) <a href="https://twitter.com/conoro/status/74460796041695232?ref_src=twsrc%5Etfw">May 28, 2011</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 

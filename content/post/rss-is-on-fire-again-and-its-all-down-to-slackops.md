@@ -4,8 +4,9 @@ draft = false
 title = "RSS is on fire again, and it's all down to SlackOps"
 description = "RSS is the API they couldn't kill. It's back stronger than ever as an underpinning of SlackOps in many organizations."
 slug = "rss-is-on-fire-again-and-its-all-down-to-slackops"
+categories = ["Cloud & Infrastructure"]
+tags = ["amazon", "api", "aws", "cloud", "linux", "open-source", "podcast", "rss", "twitter"]
 +++
-
 ![RSS and SlackOps](/images/2022/07/RSS_plus_bounding_box_05.png)
 
 ## Bring out your dead

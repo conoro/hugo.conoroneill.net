@@ -5,8 +5,9 @@ draft = false
 title = "Oh here we go again with Android ebookstore and country-specific crap"
 description = ""
 slug = "oh-here-we-go-again-with-android-ebookstore-and-country-specific-crap"
+categories = ["General Tech"]
+tags = ["amazon", "android", "ireland"]
 +++
-
 #"Oh here we go again with Android ebookstore and country-specific crap"
 
 

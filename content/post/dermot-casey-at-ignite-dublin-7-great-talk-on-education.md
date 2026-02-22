@@ -5,8 +5,9 @@ draft = false
 title = "Dermot Casey at IGNITE Dublin #7 - Great talk on Education"
 description = ""
 slug = "dermot-casey-at-ignite-dublin-7-great-talk-on-education"
+categories = ["Web & Blogging"]
+tags = ["ireland"]
 +++
-
 #"?Dermot Casey at IGNITE Dublin #7 - Great talk on Education??"
 
 

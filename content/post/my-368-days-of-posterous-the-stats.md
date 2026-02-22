@@ -5,8 +5,9 @@ draft = false
 title = "My 368 Days of Posterous - The Stats"
 description = ""
 slug = "my-368-days-of-posterous-the-stats"
+categories = ["Web & Blogging"]
+tags = ["facebook", "food-tech", "twitter"]
 +++
-
 #"My 368 Days of Posterous - The Stats"
 
 

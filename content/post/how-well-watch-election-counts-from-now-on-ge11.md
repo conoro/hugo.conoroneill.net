@@ -5,8 +5,9 @@ draft = false
 title = "How we'll watch election counts from now on? #ge11"
 description = ""
 slug = "how-well-watch-election-counts-from-now-on-ge11"
+categories = ["Mobile & Apps"]
+tags = ["android", "golang", "gps", "ireland", "twitter", "video"]
 +++
-
 #"How we'll watch election counts from now on? #ge11"
 
 

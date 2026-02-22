@@ -5,8 +5,9 @@ draft = false
 title = "Install Firefox 3.6 in Ubuntu the Super Easy Way using Ubuntuzilla | Tech Drive"
 description = ""
 slug = "install-firefox-3-6-in-ubuntu-the-super-easy-way-using-ubuntuzilla-tech-drive"
+categories = ["Cloud & Infrastructure"]
+tags = ["linux", "python"]
 +++
-
 #"Install Firefox 3.6 in Ubuntu the Super Easy Way using Ubuntuzilla | Tech Drive"
 
 

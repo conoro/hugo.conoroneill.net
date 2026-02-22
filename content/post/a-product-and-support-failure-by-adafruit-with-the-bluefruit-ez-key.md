@@ -5,8 +5,9 @@ draft = false
 title = "[No Longer] a Product and Support failure by Adafruit with the Bluefruit EZ-Key"
 description = ""
 slug = "a-product-and-support-failure-by-adafruit-with-the-bluefruit-ez-key"
+categories = ["IoT & Electronics"]
+tags = ["android", "bluetooth", "halloween", "led"]
 +++
-
 #"[No Longer] a Product and Support failure by Adafruit with the Bluefruit EZ-Key"
 
 <strong>UPDATE: Incredibly fast response and resolution from Adafruit. Feel free to ignore my negative post below. But still some good tips for any biz about handling product change and support. Back in? with Adafruit.</strong>

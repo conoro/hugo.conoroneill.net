@@ -5,8 +5,9 @@ draft = false
 title = "BBC iPlayer Global on iPad - Nice App if you need it"
 description = ""
 slug = "bbc-iplayer-global-on-ipad-nice-app-if-you-need-it"
+categories = ["Mobile & Apps"]
+tags = ["ios", "ireland", "lego", "video"]
 +++
-
 #"BBC iPlayer Global on iPad - Nice App if you need it"
 
 I was contacted recently by a Social Media Agency working on the <a href="http://itunes.apple.com/ie/app/bbc-iplayer-global/id449130604?mt=8">BBC iPlayer Global</a> project. They were interested in my thoughts on the iPlayer and very kindly gave me a month free on the iPad.

@@ -5,8 +5,9 @@ draft = false
 title = "App Inventor Source Code Now Available"
 description = ""
 slug = "app-inventor-source-code-now-available"
+categories = ["Mobile & Apps"]
+tags = ["education", "ios", "low-code"]
 +++
-
 #"App Inventor Source Code Now Available"
 
 <a href="https://groups.google.com/forum/#!topic/app-inventor-announcements/jTfW1d2OMxo">Thrilled to see</a> that the<a href="http://code.google.com/p/app-inventor-releases/">code is now available</a> for anyone to grab and modify. Once MIT is up and running well, they'll start accepting contributions.

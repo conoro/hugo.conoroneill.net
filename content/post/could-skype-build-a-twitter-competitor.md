@@ -5,8 +5,9 @@ draft = false
 title = "Could Skype build a Twitter competitor?"
 description = ""
 slug = "could-skype-build-a-twitter-competitor"
+categories = ["General Tech"]
+tags = ["twitter"]
 +++
-
 #"Could Skype build a Twitter competitor?"
 
 

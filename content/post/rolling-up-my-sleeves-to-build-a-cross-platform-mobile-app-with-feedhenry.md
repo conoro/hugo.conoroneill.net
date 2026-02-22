@@ -5,8 +5,9 @@ draft = false
 title = "Rolling Up My Sleeves to Build a Cross-Platform Mobile App with FeedHenry"
 description = ""
 slug = "rolling-up-my-sleeves-to-build-a-cross-platform-mobile-app-with-feedhenry"
+categories = ["Mobile & Apps"]
+tags = ["android", "api", "database", "gps", "ios", "javascript", "nokia", "open-source", "photography"]
 +++
-
 #"Rolling Up My Sleeves to Build a Cross-Platform Mobile App with FeedHenry"
 
 

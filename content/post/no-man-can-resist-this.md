@@ -5,8 +5,8 @@ draft = false
 title = "No man can resist this"
 description = ""
 slug = "no-man-can-resist-this"
+categories = ["Web & Blogging"]
 +++
-
 #"No man can resist this"
 
 

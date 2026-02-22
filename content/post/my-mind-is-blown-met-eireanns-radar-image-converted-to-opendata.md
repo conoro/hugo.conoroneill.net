@@ -5,8 +5,9 @@ draft = false
 title = "My mind is blown - Met Eireanns radar image converted to #OpenData"
 description = ""
 slug = "my-mind-is-blown-met-eireanns-radar-image-converted-to-opendata"
+categories = ["General Tech"]
+tags = ["flooding", "gps", "ireland"]
 +++
-
 #"My mind is blown - Met Eireann\u0092s radar image converted to #OpenData"
 
 Brendan Cunningham has just left <a href="http://conoroneill.net/bandon-flood-data-fews-now-available-on-cosmpachube/#comment-2311">the most exciting comment</a> this blog has ever received. He has thrown some serious smarts at the <a href="http://www.met.ie/weathermaps/Web_radar.gif">Met Eireann radar image</a> of rain and converted in to actual numbers you can use!

@@ -5,8 +5,9 @@ draft = false
 title = "Bye Bye Boxee (for now)"
 description = ""
 slug = "bye-bye-boxee-for-now"
+categories = ["Media & Entertainment"]
+tags = ["linux", "open-source", "video"]
 +++
-
 #"Bye Bye Boxee (for now)"
 
 

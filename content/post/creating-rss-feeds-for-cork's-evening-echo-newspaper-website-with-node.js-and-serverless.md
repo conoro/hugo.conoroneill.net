@@ -3,8 +3,9 @@ date = "2018-09-08T09:34:48.313Z"
 draft = false
 title = "Creating RSS feeds for Cork's Evening Echo newspaper website with Node.js and Serverless"
 slug = "creating-rss-feeds-for-cork's-evening-echo-newspaper-website-with-node.js-and-serverless"
+categories = ["Cloud & Infrastructure"]
+tags = ["amazon", "aws", "cloud", "facebook", "ireland", "javascript", "nodejs", "open-source", "rss", "twitter"]
 +++
-
 For nearly 10 years I relied on Twitter as my primary source of news. Now that I have left Twitter and Facebook mostly behind, I have turned back to email newsletters and RSS for non-tech news. I never stopped using RSS for tech news. 
 
   

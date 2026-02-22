@@ -5,8 +5,9 @@ draft = false
 title = "I never knew reCAPTCHA was used to help digitize old books"
 description = ""
 slug = "i-never-knew-recaptcha-was-used-to-help-digitize-old-books"
+categories = ["General Tech"]
+tags = ["facebook", "twitter"]
 +++
-
 #"I never knew reCAPTCHA was used to help digitize old books"
 
 Yesterday on Twitter I jokingly suggested that Facebook's CAPTCHA had a "sure that's close enough" setting since there was no way I'd guessed the second word correctly. Then two people pointed out that the second word was optional. I was gobsmacked. Years of hitting refresh until I got a word I could read, followed by the stress of guesssing, wasted!

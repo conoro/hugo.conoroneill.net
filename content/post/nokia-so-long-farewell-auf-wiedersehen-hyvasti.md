@@ -5,8 +5,9 @@ draft = false
 title = "Nokia - So long, farewell, auf Wiedersehen, Hyvsti"
 description = ""
 slug = "nokia-so-long-farewell-auf-wiedersehen-hyvasti"
+categories = ["Mobile & Apps"]
+tags = ["api", "nokia", "photography"]
 +++
-
 #"Nokia - So long, farewell, auf Wiedersehen, Hyv\u00e4sti"
 
 

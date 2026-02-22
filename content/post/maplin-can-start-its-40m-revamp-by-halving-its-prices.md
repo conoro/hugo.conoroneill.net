@@ -5,8 +5,9 @@ draft = false
 title = "Maplin can start its 40m revamp by halving its prices"
 description = ""
 slug = "maplin-can-start-its-40m-revamp-by-halving-its-prices"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "ireland"]
 +++
-
 #"Maplin can start its \u00a340m revamp by halving its prices"
 
 I see the <a href="http://www.retail-week.com/sectors/electricals/maplin-invests-40m-to-improve-business/5038305.article">new management team in Maplin is going to spend 40m</a> to improve the business.

@@ -5,8 +5,9 @@ draft = false
 title = "RT Radio launches its first Android Apps - Install them now!"
 description = ""
 slug = "rte-radio-launches-its-first-android-apps-install-them-now"
+categories = ["Mobile & Apps"]
+tags = ["android", "ireland"]
 +++
-
 #"RT\u00c9 Radio launches its first Android Apps - Install them now!"
 
 

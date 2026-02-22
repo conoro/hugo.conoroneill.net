@@ -5,8 +5,8 @@ draft = false
 title = "DeLorean DMC-12 EV at CES. Wipes drool off keyboard."
 description = ""
 slug = "delorean-dmc-12-ev-at-ces-wipes-drool-off-keyboard"
+categories = ["General Tech"]
 +++
-
 #"DeLorean DMC-12 EV at CES. Wipes drool off keyboard."
 
 &nbsp;

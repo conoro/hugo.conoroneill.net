@@ -5,8 +5,9 @@ draft = false
 title = "The Next Big Battle: Google Places vs Facebook Fan Pages"
 description = ""
 slug = "the-next-big-battle-google-places-vs-facebook-fan-pages"
+categories = ["Mobile & Apps"]
+tags = ["facebook", "google", "gps"]
 +++
-
 #"The Next Big Battle: Google Places vs Facebook Fan Pages"
 
 

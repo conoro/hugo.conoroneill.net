@@ -5,8 +5,8 @@ draft = false
 title = "Plink is joining Google! PlinkArt Blog"
 description = ""
 slug = "plink-is-joining-google-plinkart-blog"
+categories = ["Web & Blogging"]
 +++
-
 #"Plink is joining Google! \u0096 PlinkArt Blog"
 
 

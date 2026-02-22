@@ -5,8 +5,9 @@ draft = false
 title = "17 Years of Cork Ancestral Project - Nothing Online"
 description = ""
 slug = "17-years-of-cork-ancestral-project-nothing-online"
+categories = ["Opinion & Commentary"]
+tags = ["ireland"]
 +++
-
 #"17 Years of Cork Ancestral Project - Nothing Online"
 
 

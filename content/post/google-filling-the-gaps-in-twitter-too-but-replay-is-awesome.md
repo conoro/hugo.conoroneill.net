@@ -5,8 +5,9 @@ draft = false
 title = "Google filling the gaps in Twitter too? But Replay is awesome."
 description = ""
 slug = "google-filling-the-gaps-in-twitter-too-but-replay-is-awesome"
+categories = ["Web & Blogging"]
+tags = ["ireland", "twitter"]
 +++
-
 #"Google filling the gaps in Twitter too? But Replay is awesome."
 
 

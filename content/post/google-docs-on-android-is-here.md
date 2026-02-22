@@ -5,8 +5,9 @@ draft = false
 title = "Google Docs on Android is Here"
 description = ""
 slug = "google-docs-on-android-is-here"
+categories = ["Web & Blogging"]
+tags = ["android"]
 +++
-
 #"Google Docs on Android is Here"
 
 

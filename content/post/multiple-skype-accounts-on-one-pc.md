@@ -5,8 +5,8 @@ draft = false
 title = "Multiple Skype Accounts on one PC"
 description = ""
 slug = "multiple-skype-accounts-on-one-pc"
+categories = ["General Tech"]
 +++
-
 #"Multiple Skype Accounts on one PC"
 
 

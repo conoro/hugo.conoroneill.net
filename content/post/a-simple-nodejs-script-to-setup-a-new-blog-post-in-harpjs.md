@@ -5,8 +5,9 @@ draft = false
 title = "A simple Node.js script to setup a new blog post in Harp.js"
 description = "This little script generates the relevant metadata in the _data.json file including epoch time and optional Facebook thumbnail URL if you are using the Baseline boilerplate."
 slug = "a-simple-nodejs-script-to-setup-a-new-blog-post-in-harpjs"
+categories = ["Software Development"]
+tags = ["facebook", "javascript", "nodejs", "open-source"]
 +++
-
 One small annoyance with the Baseline bolierplate in harp.js is that every blogpost needs to be listed in a file called _data.json with all the relevant metadata. Whilst it's not a huge job to slug-ify a title and add the ID and epoch time, it's sufficiently annoying to add friction to me blogging more. Here's the entry for this blogpost:
 
 ```javascript

@@ -5,8 +5,8 @@ draft = false
 title = "Google ChromeOS Flow is a speedy wee thing"
 description = ""
 slug = "google-chromeos-flow-is-a-speedy-wee-thing"
+categories = ["General Tech"]
 +++
-
 #"Google ChromeOS Flow is a speedy wee thing"
 
 

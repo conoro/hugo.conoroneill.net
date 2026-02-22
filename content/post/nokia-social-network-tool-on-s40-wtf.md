@@ -5,8 +5,9 @@ draft = false
 title = "Nokia Social Network tool on S40. WTF?"
 description = ""
 slug = "nokia-social-network-tool-on-s40-wtf"
+categories = ["Mobile & Apps"]
+tags = ["nokia"]
 +++
-
 #"Nokia Social Network tool on S40. WTF?"
 
 

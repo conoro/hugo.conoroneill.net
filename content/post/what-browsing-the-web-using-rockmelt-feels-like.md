@@ -5,8 +5,9 @@ draft = false
 title = "What browsing the web using RockMelt feels like"
 description = ""
 slug = "what-browsing-the-web-using-rockmelt-feels-like"
+categories = ["General Tech"]
+tags = ["facebook", "twitter"]
 +++
-
 #"What browsing the web using RockMelt feels like"
 
 

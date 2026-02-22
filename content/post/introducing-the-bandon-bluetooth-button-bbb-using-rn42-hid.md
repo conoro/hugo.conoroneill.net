@@ -5,8 +5,9 @@ draft = false
 title = "Introducing the Bandon Bluetooth Button (BBB) using RN42 HID"
 description = ""
 slug = "introducing-the-bandon-bluetooth-button-bbb-using-rn42-hid"
+categories = ["IoT & Electronics"]
+tags = ["android", "arduino", "bluetooth", "ios", "ireland", "podcast", "samsung"]
 +++
-
 #"Introducing the Bandon Bluetooth Button (BBB) using RN42 HID"
 
 TL;DR - A Bluetooth-enabled Button/Joystick to control music/podcasts on your phone whilst driving.

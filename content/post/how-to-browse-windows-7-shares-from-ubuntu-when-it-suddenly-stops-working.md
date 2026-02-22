@@ -5,8 +5,9 @@ draft = false
 title = "How to browse Windows 7 shares from Ubuntu when it suddenly stops working"
 description = ""
 slug = "how-to-browse-windows-7-shares-from-ubuntu-when-it-suddenly-stops-working"
+categories = ["Gaming & Retro Computing"]
+tags = ["gaming", "linux", "photography", "video"]
 +++
-
 #"How to browse Windows 7 shares from Ubuntu when it suddenly stops working"
 
 

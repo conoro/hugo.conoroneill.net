@@ -5,8 +5,9 @@ draft = false
 title = "The Utter Imbecilic Brain-dead Stupidity of the Amazon App Store for Android"
 description = ""
 slug = "the-utter-imbecilic-brain-dead-stupidity-of-the-amazon-app-store-for-android"
+categories = ["Gaming & Retro Computing"]
+tags = ["amazon", "android", "gaming", "ireland"]
 +++
-
 #"The Utter Imbecilic Brain-dead Stupidity of the Amazon App Store for Android"
 
 

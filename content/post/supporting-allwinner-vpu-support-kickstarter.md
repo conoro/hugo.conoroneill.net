@@ -5,8 +5,9 @@ draft = false
 title = "Fund this project to add Allwinner VPU support to the official Linux kernel"
 description = "If you really support OSS then you need to put your hand in your pocket sometimes."
 slug = "fund-allwinner-vpu-support-kickstarter"
+categories = ["IoT & Electronics"]
+tags = ["android", "lego", "linux", "open-source", "raspberry-pi", "startup"]
 +++
-
 Anyone who has any interaction with technology benefits from all of the work done by Open Source developers around the world from the past few decades. Unfortunately there are far more takers than givers. I think there is a strong chance that many OSS developers will become burnt out and disenchanted with building things for free when others reap the commercial rewards.
 
 Many of the Chinese silicon and box companies are particularly bad at providing proper _maintanined_ OS support for their devices. How many Android TV boxes or SBCs have been released that have never been updated? I have a big problem with most of the board makers who rely 100% on the fabled "community" to do all of the software for free.

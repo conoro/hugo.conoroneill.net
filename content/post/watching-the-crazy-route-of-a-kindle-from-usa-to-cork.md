@@ -5,8 +5,9 @@ draft = false
 title = "Watching the crazy route of a Kindle from USA to Cork"
 description = ""
 slug = "watching-the-crazy-route-of-a-kindle-from-usa-to-cork"
+categories = ["General Tech"]
+tags = ["amazon", "ireland"]
 +++
-
 #"Watching the crazy route of a Kindle from USA to Cork"
 
 

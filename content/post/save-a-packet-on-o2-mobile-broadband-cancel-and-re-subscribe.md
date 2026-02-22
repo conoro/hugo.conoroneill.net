@@ -5,8 +5,9 @@ draft = false
 title = "Save a packet on O2 Mobile broadband. Cancel and re-subscribe"
 description = ""
 slug = "save-a-packet-on-o2-mobile-broadband-cancel-and-re-subscribe"
+categories = ["Mobile & Apps"]
+tags = ["ireland", "twitter"]
 +++
-
 #"Save a packet on O2 Mobile broadband. Cancel and re-subscribe"
 
 

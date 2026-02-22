@@ -5,8 +5,9 @@ draft = false
 title = "Google Buzz Team. Stop. Now."
 description = ""
 slug = "google-buzz-team-stop-now"
+categories = ["Opinion & Commentary"]
+tags = ["google", "twitter"]
 +++
-
 #"Google Buzz Team. Stop. Now."
 
 

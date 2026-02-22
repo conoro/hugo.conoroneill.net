@@ -5,8 +5,9 @@ draft = false
 title = "I will not vote for Fianna Fail again as long as Mary Coughlan is in cabinet"
 description = ""
 slug = "i-will-not-vote-for-fianna-fail-again-as-long-as-mary-coughlan-is-in-cabinet"
+categories = ["IoT & Electronics"]
+tags = ["led"]
 +++
-
 #"I will not vote for Fianna Fail again as long as Mary Coughlan is in cabinet"
 
 

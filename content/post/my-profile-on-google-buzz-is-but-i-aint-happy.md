@@ -5,8 +5,9 @@ draft = false
 title = "My Profile on Google Buzz is...., but I ain't happy"
 description = ""
 slug = "my-profile-on-google-buzz-is-but-i-aint-happy"
+categories = ["Mobile & Apps"]
+tags = ["amazon", "android", "google"]
 +++
-
 #"My Profile on Google Buzz is...., but I ain't happy"
 
 

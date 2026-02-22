@@ -5,8 +5,9 @@ draft = false
 title = "All the grisly details of Skeletony and the Halloween Doorbell of Doooooom V2.0"
 description = " "
 slug = "all-the-grisly-details-of-skeletony-and-the-halloween-doorbell-of-doom-v20"
+categories = ["IoT & Electronics"]
+tags = ["3d-printing", "api", "arduino", "espruino", "facebook", "golang", "halloween", "led", "linux", "open-source", "video", "wifi"]
 +++
-
 ## Intro
 After the [silly complexity](http://conoroneill.net/all-the-tech-behind-our-halloween-hallway-of-horror/) and [Hackaday article](http://hackaday.com/2015/11/14/halloween-doorbell-prop-in-rube-goldberg-overdrive/)! of last year, I decided to keep it simple for Halloween this year. Of course that worked out :-)
 

@@ -5,8 +5,9 @@ draft = false
 title = "Woot CEO writes greatest post-acquisition employee email of all time"
 description = ""
 slug = "woot-ceo-writes-greatest-post-acquisition-employee-email-of-all-time"
+categories = ["Startups & Business"]
+tags = ["amazon"]
 +++
-
 #"Woot CEO writes greatest post-acquisition employee email of all time"
 
 

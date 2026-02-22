@@ -5,8 +5,9 @@ draft = false
 title = "Yahoo Kills Maps and OpenSources Sled/Postmile"
 description = ""
 slug = "yahoo-kills-maps-and-opensources-sledpostmile"
+categories = ["Startups & Business"]
+tags = ["database", "javascript", "open-source", "startup"]
 +++
-
 #"Yahoo Kills Maps and OpenSources Sled/Postmile"
 
 

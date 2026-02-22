@@ -5,8 +5,8 @@ draft = false
 title = "Dave Barry: Super Bowl was great - and so was the game "
 description = ""
 slug = "dave-barry-super-bowl-was-great-and-so-was-the-game"
+categories = ["Web & Blogging"]
 +++
-
 #"Dave Barry: Super Bowl was great - and so was the game"
 
 

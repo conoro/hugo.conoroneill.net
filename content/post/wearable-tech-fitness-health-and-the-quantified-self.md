@@ -5,8 +5,9 @@ draft = false
 title = "Wearable tech, fitness, health and the 'Quantified Self'"
 description = ""
 slug = "wearable-tech-fitness-health-and-the-quantified-self"
+categories = ["Running & Fitness"]
+tags = ["arduino", "fitness-tracker", "gps", "nokia", "sensors"]
 +++
-
 #"Wearable tech, fitness, health and the \"Quantified Self\""
 
 Nice quick intro by iJustine into this entire <a href="http://quantifiedself.com/">Quantified Self</a> area. The section about using all of the data for predictive prevention of problems really caught my attention.

@@ -5,8 +5,9 @@ draft = false
 title = "The Technical Magic of Playing a Song in Our Car in 2011"
 description = ""
 slug = "the-technical-magic-of-playing-a-song-in-our-car-in-2011"
+categories = ["IoT & Electronics"]
+tags = ["bluetooth", "ireland", "led", "lego", "wifi"]
 +++
-
 #"The Technical Magic of Playing a Song in Our Car in 2011"
 
 

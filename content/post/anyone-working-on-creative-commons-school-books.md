@@ -5,8 +5,9 @@ draft = false
 title = "Anyone working on Creative Commons School Books?"
 description = ""
 slug = "anyone-working-on-creative-commons-school-books"
+categories = ["General Tech"]
+tags = ["ireland", "open-source"]
 +++
-
 #"Anyone working on Creative Commons School Books?"
 
 

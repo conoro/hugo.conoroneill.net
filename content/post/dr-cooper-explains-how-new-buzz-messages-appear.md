@@ -5,8 +5,8 @@ draft = false
 title = "Dr Cooper explains how new Buzz messages appear"
 description = ""
 slug = "dr-cooper-explains-how-new-buzz-messages-appear"
+categories = ["General Tech"]
 +++
-
 #"Dr Cooper explains how new Buzz messages appear"
 
 

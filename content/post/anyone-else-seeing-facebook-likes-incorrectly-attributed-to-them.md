@@ -5,8 +5,9 @@ draft = false
 title = "Anyone else seeing Facebook Likes incorrectly attributed to them?"
 description = ""
 slug = "anyone-else-seeing-facebook-likes-incorrectly-attributed-to-them"
+categories = ["General Tech"]
+tags = ["facebook", "food-tech"]
 +++
-
 #"Anyone else seeing Facebook Likes incorrectly attributed to them?"
 
 

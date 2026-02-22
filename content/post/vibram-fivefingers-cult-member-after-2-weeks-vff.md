@@ -5,8 +5,9 @@ draft = false
 title = "Vibram FiveFingers Cult Member After 2 Weeks #VFF"
 description = ""
 slug = "vibram-fivefingers-cult-member-after-2-weeks-vff"
+categories = ["Running & Fitness"]
+tags = ["halloween", "ireland", "lego", "running", "twitter"]
 +++
-
 #"Vibram FiveFingers Cult Member After 2 Weeks #VFF"
 
 

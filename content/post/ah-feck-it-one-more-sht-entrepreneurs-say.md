@@ -5,8 +5,9 @@ draft = false
 title = "Ah feck it, one more - Sh*t Entrepreneurs Say"
 description = ""
 slug = "ah-feck-it-one-more-sht-entrepreneurs-say"
+categories = ["Startups & Business"]
+tags = ["startup"]
 +++
-
 #"Ah feck it, one more - Sh*t Entrepreneurs Say"
 
 Starts badly but comes into its own as soon as it pivots :-)

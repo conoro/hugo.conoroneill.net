@@ -5,8 +5,8 @@ draft = false
 title = "Bugatti stealing my Sugru design concepts?"
 description = ""
 slug = "bugatti-stealing-my-sugru-design-concepts"
+categories = ["General Tech"]
 +++
-
 #"Bugatti stealing my Sugru design concepts?"
 
 

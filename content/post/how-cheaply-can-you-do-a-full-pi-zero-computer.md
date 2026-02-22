@@ -5,8 +5,9 @@ draft = false
 title = "How cheaply can you build a full Raspberry PiZero computer?"
 description = " "
 slug = "how-cheaply-can-you-build-a-full-raspberry-pizero-computer"
+categories = ["IoT & Electronics"]
+tags = ["amazon", "ireland", "raspberry-pi", "wifi"]
 +++
-
 When the incredible [$5 Pi Zero was launched](https://www.raspberrypi.org/blog/raspberry-pi-zero/), the usual suspects were so busy snarking how it wasn't really $5, that they completely missed what an important moment in computer history this is. You know the type. The ones who would have ridiculed Tim Berners-Lee's design for the web. Or would have told Linus in no uncertain terms that he was misguided and that microkernels were the future.
 
 Whilst you can't turn on a #PiZero for $5, you also can't connect to the LAN with your $1500 Macbook Pro without buying an adapter.

@@ -5,8 +5,9 @@ draft = false
 title = "Loving the sexy new cover on my iPad2"
 description = ""
 slug = "loving-the-sexy-new-cover-on-my-ipad2"
+categories = ["Mobile & Apps"]
+tags = ["ios"]
 +++
-
 #"Loving the sexy new cover on my iPad2"
 
 

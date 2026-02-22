@@ -5,8 +5,9 @@ draft = false
 title = "TIL you can import 3D models from Tinkercad to Minecraft. How cool is that?"
 description = "WE had US visitors last weekend and the kids loved my Printrbot 3D printer. They had learned Tinkercad in school so that's what they used to create things and print them out. I noticed a 'Download to Minecraft' option and finally just had a chance to try it out. Wow!"
 slug = "til-you-can-import-3d-models-from-tinkercad-to-minecraft-how-cool-is-that"
+categories = ["IoT & Electronics"]
+tags = ["3d-printing", "education", "gaming", "minecraft"]
 +++
-
 We had friends over from the US last weekend and their kids loved my [Printrbot 3D printer](http://printrbot.com/project/simple-makers/). They had learned [Tinkercad](https://www.tinkercad.com/) in school so that's what they used to create things so they could print them out. They are now hounding their parents for a printer. Oops :-) But I noticed a "Download to Minecraft" option in Tinkercad and finally just had a chance to try it out. Wow!
 
 ![In Tinkercad](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/08/tinker02b.jpg)

@@ -5,6 +5,8 @@ draft = false
 title = "My 2015 Christmas turkey oven thermometer and clock"
 description = " "
 slug = "my-2015-christmas-turkey-oven-thermometer-and-clock"
+categories = ["IoT & Electronics"]
+tags = ["3d-printing", "arduino", "food-tech", "lego", "open-source", "sensors"]
 +++
 For the [third year](http://conoroneill.net/our-first-arduino-christmas-turkey/) in a row I decided to build a new oven thermometer for the Christmas turkey, as all of the markings on our temperature knob have been gone for years. We also have one of those mechanical dial thermometers you place inside the oven but they are hard to read and get in the way. My last two attempts worked ok but I was concerned about accuracy. I also used a temperature probe in the meat for belt and braces. The setup was as follows:
 

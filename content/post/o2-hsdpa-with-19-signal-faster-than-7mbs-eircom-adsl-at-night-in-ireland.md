@@ -5,8 +5,9 @@ draft = false
 title = "O2 HSDPA with 19% signal faster than 7Mbs Eircom ADSL at night in Ireland"
 description = ""
 slug = "o2-hsdpa-with-19-signal-faster-than-7mbs-eircom-adsl-at-night-in-ireland"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"O2 HSDPA with 19% signal faster than 7Mbs Eircom ADSL at night in Ireland"
    
 

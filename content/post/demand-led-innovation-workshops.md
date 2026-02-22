@@ -5,8 +5,9 @@ draft = false
 title = "Demand Led Innovation Workshops"
 description = ""
 slug = "demand-led-innovation-workshops"
+categories = ["IoT & Electronics"]
+tags = ["ireland", "led"]
 +++
-
 #"Demand Led Innovation Workshops"
 
 

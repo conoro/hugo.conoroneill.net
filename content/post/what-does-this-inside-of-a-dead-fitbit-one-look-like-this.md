@@ -5,8 +5,9 @@ draft = false
 title = "What does this inside of a dead Fitbit One look like? This:"
 description = ""
 slug = "what-does-this-inside-of-a-dead-fitbit-one-look-like-this"
+categories = ["Running & Fitness"]
+tags = ["bluetooth", "fitness-tracker", "gaming", "home-automation", "ireland"]
 +++
-
 #"What does this inside of a dead Fitbit One look like? This:"
 
 After my <a href="https://www.blocbuy.com/87/product">Fitbit One</a> took a swim in a full washing machine cycle, it died. Many attempts with rice and pampers and warm air over a few days failed to bring it back. The utterly fantastic customer support people in Fitbit then offered me a free replacement! The only tiny downside is that they don't deliver to Ireland so I needed to use a <a href="http://www.parcelmotel.com/">Parcel Motel</a> address. It just arrived yesterday so I thought I may as well have a look inside the dead one.

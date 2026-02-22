@@ -5,8 +5,9 @@ draft = false
 title = "Running Your Own Private Copy of AppInventor for Your School"
 description = ""
 slug = "running-your-own-private-copy-of-appinventor-for-your-school"
+categories = ["Cloud & Infrastructure"]
+tags = ["aws", "linux", "python"]
 +++
-
 #"Running Your Own Private Copy of AppInventor for Your School"
 
 

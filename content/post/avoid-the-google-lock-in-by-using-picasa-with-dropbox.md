@@ -5,8 +5,9 @@ draft = false
 title = "Avoid Google+ lock-in by using Picasa with Dropbox"
 description = ""
 slug = "avoid-the-google-lock-in-by-using-picasa-with-dropbox"
+categories = ["General Tech"]
+tags = ["photography"]
 +++
-
 #"Avoid Google+ lock-in by using Picasa with Dropbox"
 
 We all know that Picasa Web Albums will be shut down in 2013. Or given a lobotomy and renamed to Google+ Photos.

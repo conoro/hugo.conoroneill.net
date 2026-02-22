@@ -5,8 +5,9 @@ draft = false
 title = "Sorry Foursquare, Forget Europe, Facebook Wins"
 description = ""
 slug = "sorry-foursquare-forget-europe-facebook-wins"
+categories = ["Opinion & Commentary"]
+tags = ["facebook", "gps", "ireland"]
 +++
-
 #"Sorry Foursquare, Forget Europe, Facebook Wins"
 
 

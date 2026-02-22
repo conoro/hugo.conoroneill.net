@@ -5,8 +5,9 @@ draft = false
 title = "Really Amazon, my Facebook Friends like Monty Python? Wow!"
 description = ""
 slug = "really-amazon-my-facebook-friends-like-monty-python-wow"
+categories = ["Media & Entertainment"]
+tags = ["amazon", "facebook", "python"]
 +++
-
 #"Really Amazon, my Facebook Friends like Monty Python? Wow!"
 
 

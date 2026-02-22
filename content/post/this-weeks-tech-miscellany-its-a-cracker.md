@@ -5,8 +5,9 @@ draft = false
 title = "This week's Tech Miscellany. It's a cracker."
 description = ""
 slug = "this-weeks-tech-miscellany-its-a-cracker"
+categories = ["Running & Fitness"]
+tags = ["amazon", "android", "arduino", "halloween", "ireland", "raspberry-pi", "running", "twitter", "video", "wifi"]
 +++
-
 #"This week's Tech Miscellany. It's a cracker."
 
 <ul>

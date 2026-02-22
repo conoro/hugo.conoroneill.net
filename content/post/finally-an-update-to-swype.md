@@ -5,8 +5,8 @@ draft = false
 title = "Finally, an update to Swype"
 description = ""
 slug = "finally-an-update-to-swype"
+categories = ["Web & Blogging"]
 +++
-
 #"Finally, an update to Swype"
 
 

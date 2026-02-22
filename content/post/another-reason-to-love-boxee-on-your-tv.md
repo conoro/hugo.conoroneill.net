@@ -5,8 +5,9 @@ draft = false
 title = "Another reason to love Boxee on your TV"
 description = ""
 slug = "another-reason-to-love-boxee-on-your-tv"
+categories = ["Media & Entertainment"]
+tags = ["video"]
 +++
-
 #"Another reason to love Boxee on your TV"
 
 

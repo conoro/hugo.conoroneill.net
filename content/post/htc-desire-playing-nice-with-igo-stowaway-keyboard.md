@@ -5,8 +5,9 @@ draft = false
 title = "HTC Desire Playing Nice with iGo Stowaway Keyboard"
 description = ""
 slug = "htc-desire-playing-nice-with-igo-stowaway-keyboard"
+categories = ["Mobile & Apps"]
+tags = ["android", "nokia"]
 +++
-
 #"HTC Desire Playing Nice with iGo Stowaway Keyboard"
 
 

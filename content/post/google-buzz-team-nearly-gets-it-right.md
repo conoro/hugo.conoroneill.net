@@ -5,8 +5,9 @@ draft = false
 title = "Google Buzz Team Nearly Gets It Right"
 description = ""
 slug = "google-buzz-team-nearly-gets-it-right"
+categories = ["General Tech"]
+tags = ["android", "facebook", "google", "photography", "twitter"]
 +++
-
 #"Google Buzz Team Nearly Gets It Right"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "I'm no fan of Flash but"
 description = ""
 slug = "im-no-fan-of-flash-but"
+categories = ["Mobile & Apps"]
+tags = ["android"]
 +++
-
 #"I'm no fan of Flash but"
 
 

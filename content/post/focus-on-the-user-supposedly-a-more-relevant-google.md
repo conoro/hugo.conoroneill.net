@@ -5,8 +5,9 @@ draft = false
 title = "Focus on the User - Supposedly a more 'relevant' Google"
 description = ""
 slug = "focus-on-the-user-supposedly-a-more-relevant-google"
+categories = ["General Tech"]
+tags = ["api", "facebook", "google", "twitter"]
 +++
-
 #"Focus on the User - Supposedly a more \"relevant\" Google"
 
 <blockquote>How much better would social search be if Google surfaced results from all across the web? The results speak for themselves. We created a tool that uses Googles own relevance measurethe ranking of their organic search resultsto determine what social content should appear in the areas where Google+ results are currently hardcoded.

@@ -5,8 +5,9 @@ draft = false
 title = "Wantsies - Angry Birds on the Advent Vega Android Tablet"
 description = ""
 slug = "wantsies-angry-birds-on-the-advent-vega-android-tablet"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "gaming"]
 +++
-
 #"Wantsies - Angry Birds on the Advent Vega Android Tablet"
 
 

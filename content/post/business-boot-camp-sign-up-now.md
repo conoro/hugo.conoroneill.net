@@ -5,8 +5,9 @@ draft = false
 title = "Business Boot Camp. Sign-Up Now."
 description = ""
 slug = "business-boot-camp-sign-up-now"
+categories = ["Startups & Business"]
+tags = ["startup"]
 +++
-
 #"Business Boot Camp. Sign-Up Now."
 
 

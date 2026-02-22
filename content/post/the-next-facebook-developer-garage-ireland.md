@@ -5,8 +5,9 @@ draft = false
 title = "The next Facebook Developer Garage Ireland"
 description = ""
 slug = "the-next-facebook-developer-garage-ireland"
+categories = ["Software Development"]
+tags = ["facebook", "gps", "ireland"]
 +++
-
 #"The next Facebook Developer Garage Ireland"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Progress so far with a kids 21 self-assemble Remote Control Car"
 description = ""
 slug = "progress-so-far-with-a-kids-e21-self-assemble-remote-control-car"
+categories = ["IoT & Electronics"]
+tags = ["facebook", "gps", "ireland", "lego"]
 +++
-
 #"Progress so far with a kids \u008021 self-assemble Remote Control Car"
 
 After our CDG security debacle in February, where the French confiscated the kids' Nerf guns due to their foam-dart plane-downing properties, I promised to find them some treats as replacements.

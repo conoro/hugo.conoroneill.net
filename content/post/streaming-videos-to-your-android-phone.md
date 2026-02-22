@@ -5,8 +5,9 @@ draft = false
 title = "Streaming Videos to your Android Phone"
 description = ""
 slug = "streaming-videos-to-your-android-phone"
+categories = ["Mobile & Apps"]
+tags = ["android", "ios", "nokia", "video"]
 +++
-
 #"Streaming Videos to your Android Phone"
 
 

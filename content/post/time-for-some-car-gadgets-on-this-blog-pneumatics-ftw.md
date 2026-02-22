@@ -5,8 +5,8 @@ draft = false
 title = "Time for some car gadgets on this blog. Pneumatics FTW."
 description = ""
 slug = "time-for-some-car-gadgets-on-this-blog-pneumatics-ftw"
+categories = ["General Tech"]
 +++
-
 #"Time for some car gadgets on this blog. Pneumatics FTW."
 
 

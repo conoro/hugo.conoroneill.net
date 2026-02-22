@@ -5,8 +5,9 @@ draft = false
 title = "Hi I'm Batman. Check out my motorised Lego helicopter."
 description = "Take one Lego Batman set, a rumble motor from an original XBOX controller, a battery and some hot glue to do an obvious upgrade. "
 slug = "hi-im-batman-check-out-my-motorised-lego-helicopter"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "facebook", "gaming", "led", "lego", "raspberry-pi"]
 +++
-
 I have long bemoaned Lego's approach to adding electronics/power to their kits. Technics seems to be its own little sub-section and Mindstorms is a crazy waste of money in an Arduino and Raspberry Pi world. Now that they are the biggest toy company globally, I'd love to see how either of those product ranges are adding to the bottom line.
 
 In that spirit I was very excited about the possibilities of the Lego Batman kit I got in Hamley's recently. After beating back the sales people who tried to sell me blue or white Batmen (are they completely insane?), I finally found a proper black one from the movie.

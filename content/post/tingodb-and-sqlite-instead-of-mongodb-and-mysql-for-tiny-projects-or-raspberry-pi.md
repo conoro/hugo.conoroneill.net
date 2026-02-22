@@ -5,8 +5,9 @@ draft = false
 title = "TingoDB and SQLite instead of MongoDB and MySQL for tiny projects or Raspberry Pi"
 description = "As an old Embedded guy who actually cares about resource usage, I've been bothered for quite a while by the number of trivial projects out there that require a full-blown MongoDB or MySQL server to operate. It's a particular problem on the Raspberry Pi or small DigitalOcean Droplets. In many cases a simple SQLite DB or TingoDB is more than sufficient. Here's some notes on using them. "
 slug = "tingodb-and-sqlite-instead-of-mongodb-and-mysql-for-tiny-projects-or-raspberry-pi"
+categories = ["IoT & Electronics"]
+tags = ["api", "database", "javascript", "nodejs", "open-source", "raspberry-pi"]
 +++
-
 As an old Embedded guy who actually cares about resource usage, I've been bothered for quite a while by the number of trivial Node.js projects out there that require a full-blown MongoDB or MySQL server to operate. It's a particular problem on the Raspberry Pi or small [DigitalOcean](https://www.digitalocean.com/) Droplets. In many cases a simple SQLite DB or TingoDB is more than sufficient.  
 
 If your Web App has 2 registered users and 100 visitors per day, may just maybe you don't need MongoDB or MySQL. I have a set of small Node.js projects now where I use the following combinations and they all work well. Anything you are doing in-house on a Raspberry Pi should absolutely use one of these. In fact I'm not even sure recent Mongos run on the RPi 1?

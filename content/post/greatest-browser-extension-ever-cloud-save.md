@@ -5,8 +5,9 @@ draft = false
 title = "Greatest Browser Extension Ever? Cloud Save."
 description = ""
 slug = "greatest-browser-extension-ever-cloud-save"
+categories = ["Web & Blogging"]
+tags = ["amazon", "facebook", "google", "photography"]
 +++
-
 #"Greatest Browser Extension Ever? Cloud Save."
 
 

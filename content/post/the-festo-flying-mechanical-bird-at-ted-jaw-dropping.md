@@ -5,8 +5,8 @@ draft = false
 title = "The Festo Flying Mechanical Bird at TED. Jaw Dropping."
 description = ""
 slug = "the-festo-flying-mechanical-bird-at-ted-jaw-dropping"
+categories = ["Media & Entertainment"]
 +++
-
 #"The Festo Flying Mechanical Bird at TED. Jaw Dropping."
 
 

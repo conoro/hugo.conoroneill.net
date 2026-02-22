@@ -3,8 +3,9 @@ date = "2025-05-26T02:34:48.313Z"
 draft = false
 title = "We need more than Vibe Coding, we need an entire Vibe Pipeline"
 slug = "we-need-more-than-vibe-coding-we-need-an-entire-vibe-pipeline"
+categories = ["AI & Machine Learning"]
+tags = ["ai", "api", "cloud", "javascript", "nodejs", "python"]
 +++
-
 Whilst we're all accelerating 10x with Vibe Coding, it's only one piece of the process.
 
 We need an entire Vibe Pipeline.

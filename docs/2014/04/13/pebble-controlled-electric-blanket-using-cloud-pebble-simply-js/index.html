@@ -1,136 +1,376 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  	<meta property="og:title" content=" My Pebble controlled electric blanket using CloudPebble and Simply.js &middot;  Cross Dominant" />
-  	<meta property="og:site_name" content="Cross Dominant" />
-  	<meta property="og:url" content="https://conoroneill.net/2014/04/13/pebble-controlled-electric-blanket-using-cloud-pebble-simply-js/" />
-
-    
-  	<meta property="og:type" content="article" />
-
-    <meta property="og:article:published_time" content="2014-04-13T10:48:56&#43;01:00" />
-
-    
-    
-
-  <title>
-     My Pebble controlled electric blanket using CloudPebble and Simply.js &middot;  Cross Dominant
-  </title>
-
-    <meta name="description" content="Mixed laterality since 1968" />
-
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="shortcut icon" href="https://conoroneill.net/favicon.ico">
-	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
-
-    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous">
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="It literally took 5 minutes to remotely control the Efergy RC mains sockets using the brilliant Cloud Pebble and Simply.js">
+<title>My Pebble controlled electric blanket using CloudPebble and Simply.js</title>
 
 
+<link rel="canonical" href="https://conoroneill.net/2014/04/13/pebble-controlled-electric-blanket-using-cloud-pebble-simply-js/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
-    
-      
-          <link href="https://conoroneill.net/index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
-      
-      
-    
-    <meta name="generator" content="Hugo 0.84.4" />
 
-    <link rel="canonical" href="https://conoroneill.net/2014/04/13/pebble-controlled-electric-blanket-using-cloud-pebble-simply-js/" />
+<link rel="stylesheet" href="/scss/style.min.390cc81d180d80110703ea467e355a4f3a0f44f25d4e957842790824fb5f2ef2.css"><meta property='og:title' content="My Pebble controlled electric blanket using CloudPebble and Simply.js">
+<meta property='og:description' content="It literally took 5 minutes to remotely control the Efergy RC mains sockets using the brilliant Cloud Pebble and Simply.js">
+<meta property='og:url' content='https://conoroneill.net/2014/04/13/pebble-controlled-electric-blanket-using-cloud-pebble-simply-js/'>
+<meta property='og:site_name' content='Mixed Laterality'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='arduino' /><meta property='article:tag' content='espruino' /><meta property='article:tag' content='fitness-tracker' /><meta property='article:tag' content='home-automation' /><meta property='article:tag' content='ireland' /><meta property='article:tag' content='javascript' /><meta property='article:tag' content='raspberry-pi' /><meta property='article:tag' content='retro-computing' /><meta property='article:tag' content='twitter' /><meta property='article:tag' content='wifi' /><meta property='article:published_time' content='2014-04-13T10:48:56&#43;01:00'/><meta property='article:modified_time' content='2014-04-13T10:48:56&#43;01:00'/>
+<meta name="twitter:title" content="My Pebble controlled electric blanket using CloudPebble and Simply.js">
+<meta name="twitter:description" content="It literally took 5 minutes to remotely control the Efergy RC mains sockets using the brilliant Cloud Pebble and Simply.js">
+    <link rel="shortcut icon" href="/images/Blog_Flow_Icon.jpg" />
+<style>
+    .site-header-image {
+        margin-bottom: var(--section-separation);
+        border-radius: var(--card-border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow-l1);
+    }
+    .site-header-image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    @media (min-width: 768px) {
+        .site-header-image img {
+            height: 280px;
+        }
+    }
+    @media (min-width: 1024px) {
+        .site-header-image img {
+            height: 350px;
+        }
+    }
 
-    
+    .article-list .article-subtitle {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 1.5rem;
+    }
+</style>
+
+    </head>
+    <body class="
+    article-page
+    ">
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-      ga('create', 'UA-88610-4', 'auto');
-      ga('send', 'pageview');
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
 
-    </script>
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="/images/Blog_Flow_Icon.jpg" 
+                        width=""
+                        height=""
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Mixed Laterality</a></h1>
+            <h2 class="site-description">Tech Blogging since 2001</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/conoro'
+                        
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/conoroneill'
+                        
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+  <path d="M8 11l0 5" />
+  <path d="M8 8l0 .01" />
+  <path d="M12 16l0 -5" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/conoro'
+                        
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
     
 
-    
-</head>
-<body class="nav-closed">
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
 
-  <div class="nav">
-    <h3 class="nav-title">Menu</h3>
-    <a href="#" class="nav-close">
-        <span class="hidden">Close</span>
-    </a>
-    <ul>
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+            
+            
+            <a href="/categories/iot--electronics/" style="background-color: hsl(62, 60%, 84%); color: hsl(62, 60%, 15%);">
+                IoT &amp; Electronics
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/2014/04/13/pebble-controlled-electric-blanket-using-cloud-pebble-simply-js/">My Pebble controlled electric blanket using CloudPebble and Simply.js</a>
+        </h2>
+
+        
+            
+            <h3 class="article-subtitle">
+                It literally took 5 minutes to remotely control the Efergy RC mains sockets using the brilliant Cloud Pebble and Simply.js
+            </h3>
+            
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2014-04-13T10:48:56&#43;01:00'>Sunday, April 13, 2014</time>
+            </div>
         
 
         
-    </ul>
-
+    </footer>
+    
 
     
-    <a class="subscribe-button icon-feed" href="https://conoroneill.net/index.xml">Subscribe</a>
+
     
 </div>
-<span class="nav-cover"></span>
 
-
- <div class="site-wrapper">
-
-
-
-
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
-
-
-  
-      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/cross_dominant.png" alt="Home" /></a>
-  
-  
-      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
-  
-  </nav>
 </header>
 
+    
 
-
-<main class="content" role="main">
-
-
-
-
-  <article class="post post">
-
-    <header class="post-header">
-        <h1 class="post-title">My Pebble controlled electric blanket using CloudPebble and Simply.js</h1>
-        <small>It literally took 5 minutes to remotely control the Efergy RC mains sockets using the brilliant Cloud Pebble and Simply.js</small>
-
-        <section class="post-meta">
-        
-          <time class="post-date" datetime="2014-04-13T10:48:56&#43;01:00">
-            Apr 13, 2014
-          </time>
-        
-         
-        </section>
-    </header>
-
-    <section class="post-content">
-      <p>Messing with hardware and software can be both a joy and incredibly infuriating. Yesterday I spent a few intermittent hours trying to get Arduino and Espruino communicating reliably over NRF24L01+ wireless transceivers. I only half succeeded. I followed this with some reading up on both <a href="https://cloudpebble.net">CloudPebble</a> and <a href="http://simplyjs.io/">Simply.js</a>. Literally 5 minutes later I had my first Pebble App installed on my watch and was remotely controlling the <a href="http://conoroneill.net/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets">electric blanket in our bed</a>.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/04/pebble_blanket.jpg" alt="Bandon Blanket" title="Bandon Bed Button"></p>
-<p>CloudPebble is a web-based IDE for building Pebble Apps. I believe it was started independently but is now run by <a href="http://getpebble.com">Pebble</a> themselves. Simply.js is a library/SDK for building Pebble Apps using only JavaScript. Pebble recently announced that CloudPebble now supports Simply.js and boy they weren&rsquo;t kidding. It&rsquo;s now childsplay to build Pebble Apps.</p>
+    <section class="article-content">
+    
+    
+    <p>Messing with hardware and software can be both a joy and incredibly infuriating. Yesterday I spent a few intermittent hours trying to get Arduino and Espruino communicating reliably over NRF24L01+ wireless transceivers. I only half succeeded. I followed this with some reading up on both <a class="link" href="https://cloudpebble.net"  target="_blank" rel="noopener"
+    >CloudPebble</a> and <a class="link" href="http://simplyjs.io/"  target="_blank" rel="noopener"
+    >Simply.js</a>. Literally 5 minutes later I had my first Pebble App installed on my watch and was remotely controlling the <a class="link" href="http://conoroneill.net/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets"  target="_blank" rel="noopener"
+    >electric blanket in our bed</a>.</p>
+<p><img src="/pebble_blanket_15203117956997309269.jpg"
+	width="732"
+	height="1301"
+	loading="lazy"
+	
+		alt="Bandon Blanket"
+	
+    
+        title="Bandon Bed Button"
+        data-title-escaped="Bandon Bed Button"
+    
+	
+		class="gallery-image" 
+		data-flex-grow="56"
+		data-flex-basis="135px"
+	
+></p>
+<p>CloudPebble is a web-based IDE for building Pebble Apps. I believe it was started independently but is now run by <a class="link" href="http://getpebble.com"  target="_blank" rel="noopener"
+    >Pebble</a> themselves. Simply.js is a library/SDK for building Pebble Apps using only JavaScript. Pebble recently announced that CloudPebble now supports Simply.js and boy they weren&rsquo;t kidding. It&rsquo;s now childsplay to build Pebble Apps.</p>
 <p>This is how quickly I built the App:</p>
 <ul>
-<li>Create a free Pebble <a href="https://developer.getpebble.com/">Developer account</a></li>
+<li>Create a free Pebble <a class="link" href="https://developer.getpebble.com/"  target="_blank" rel="noopener"
+    >Developer account</a></li>
 <li>Login to CloudPebble using your Pebble credentials</li>
 <li>Create a project and pick Simply.js as the type</li>
 <li>You automatically get the sample Simply.js App in the IDE</li>
@@ -138,132 +378,275 @@
 <li>I&rsquo;ve found that I can&rsquo;t install from desktop but if I load the IDE URL on my phone I can do it from there. I assume this is because I&rsquo;m on house wifi and behind a firewall with a private IP.</li>
 </ul>
 <p>That first App looks like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Simply.js demo!&#39;</span>);
-
-<span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;singleClick&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>) {
-  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">util2</span>.<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;single clicked $button!&#39;</span>, <span style="color:#a6e22e">e</span>));
-  <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">subtitle</span>(<span style="color:#e6db74">&#39;Pressed &#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">button</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;!&#39;</span>);
-});
-
-<span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;longClick&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>) {
-  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">util2</span>.<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;long clicked $button!&#39;</span>, <span style="color:#a6e22e">e</span>));
-  <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">vibe</span>();
-  <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">scrollable</span>(<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">button</span> <span style="color:#f92672">!==</span> <span style="color:#e6db74">&#39;select&#39;</span>);
-});
-
-<span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;accelTap&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>) {
-  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">util2</span>.<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;tapped accel axis $axis $direction!&#39;</span>, <span style="color:#a6e22e">e</span>));
-  <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">subtitle</span>(<span style="color:#e6db74">&#39;Tapped &#39;</span> <span style="color:#f92672">+</span> (<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">direction</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">?</span> <span style="color:#e6db74">&#39;+&#39;</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;-&#39;</span>) <span style="color:#f92672">+</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">axis</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;!&#39;</span>);
-});
-
-<span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">setText</span>({
-  <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Simply Demo!&#39;</span>,
-  <span style="color:#a6e22e">body</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;This is a demo. Press buttons or tap the watch!&#39;</span>,
-}, <span style="color:#66d9ef">true</span>);
-</code></pre></div><p>And it you read the Simply.js site, you can access URLs like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">ajax</span>({ <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;http://simplyjs.io&#39;</span> }, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">data</span>){
-  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">headline</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">data</span>.<span style="color:#a6e22e">match</span>(<span style="color:#e6db74">/&lt;h1&gt;(.*?)&lt;\/h1&gt;/</span>)[<span style="color:#ae81ff">1</span>];
-  <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">title</span>(<span style="color:#a6e22e">headline</span>);
-});
-</code></pre></div><p>Merge the two together and ta-daaaaa, the Bandon Bed Button Pebble App.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Bandon Bed Button!&#39;</span>);
-
-<span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;singleClick&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>) {
-  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">util2</span>.<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;single clicked $button!&#39;</span>, <span style="color:#a6e22e">e</span>));
-  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">button</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;up&#34;</span>){
-    <span style="color:#a6e22e">ajax</span>({ <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;http://url-of-conors-thing-to-turn-on&#39;</span> }, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">data</span>){
-      <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">subtitle</span>(<span style="color:#e6db74">&#39;Turned on Blanket!&#39;</span>);  
-    });    
-  } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">button</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;down&#34;</span>){
-    <span style="color:#a6e22e">ajax</span>({ <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;http://url-of-conors-thing-to-turn-off&#39;</span> }, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">data</span>){
-      <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">subtitle</span>(<span style="color:#e6db74">&#39;Turned off Blanket!&#39;</span>);  
-    });        
-  }
-});
-
-<span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">setText</span>({
-  <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Bandon Bed Button!&#39;</span>,
-  <span style="color:#a6e22e">body</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Press Up to turn on the blanket. Press Down to turn off the blanket.&#39;</span>,
-}, <span style="color:#66d9ef">true</span>);
-</code></pre></div><p>Just in case the data route for this is not clear, here&rsquo;s what it looks like:</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/04/pebble_data_flow.png" alt="From Pebble to Switch" title="Pebble Data Flow"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Simply.js demo!&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;singleClick&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">util2</span>.<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;single clicked $button!&#39;</span>, <span style="color:#a6e22e">e</span>));
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">subtitle</span>(<span style="color:#e6db74">&#39;Pressed &#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">button</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;!&#39;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;longClick&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">util2</span>.<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;long clicked $button!&#39;</span>, <span style="color:#a6e22e">e</span>));
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">vibe</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">scrollable</span>(<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">button</span> <span style="color:#f92672">!==</span> <span style="color:#e6db74">&#39;select&#39;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;accelTap&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">util2</span>.<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;tapped accel axis $axis $direction!&#39;</span>, <span style="color:#a6e22e">e</span>));
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">subtitle</span>(<span style="color:#e6db74">&#39;Tapped &#39;</span> <span style="color:#f92672">+</span> (<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">direction</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">?</span> <span style="color:#e6db74">&#39;+&#39;</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;-&#39;</span>) <span style="color:#f92672">+</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">axis</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;!&#39;</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">setText</span>({
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Simply Demo!&#39;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">body</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;This is a demo. Press buttons or tap the watch!&#39;</span>,
+</span></span><span style="display:flex;"><span>}, <span style="color:#66d9ef">true</span>);
+</span></span></code></pre></div><p>And it you read the Simply.js site, you can access URLs like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">ajax</span>({ <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;http://simplyjs.io&#39;</span> }, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">data</span>){
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">headline</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">data</span>.<span style="color:#a6e22e">match</span>(<span style="color:#e6db74">/&lt;h1&gt;(.*?)&lt;\/h1&gt;/</span>)[<span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">title</span>(<span style="color:#a6e22e">headline</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>Merge the two together and ta-daaaaa, the Bandon Bed Button Pebble App.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Bandon Bed Button!&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;singleClick&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">util2</span>.<span style="color:#a6e22e">format</span>(<span style="color:#e6db74">&#39;single clicked $button!&#39;</span>, <span style="color:#a6e22e">e</span>));
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">button</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;up&#34;</span>){
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">ajax</span>({ <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;http://url-of-conors-thing-to-turn-on&#39;</span> }, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">data</span>){
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">subtitle</span>(<span style="color:#e6db74">&#39;Turned on Blanket!&#39;</span>);  
+</span></span><span style="display:flex;"><span>    });    
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">button</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;down&#34;</span>){
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">ajax</span>({ <span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;http://url-of-conors-thing-to-turn-off&#39;</span> }, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">data</span>){
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">subtitle</span>(<span style="color:#e6db74">&#39;Turned off Blanket!&#39;</span>);  
+</span></span><span style="display:flex;"><span>    });        
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">simply</span>.<span style="color:#a6e22e">setText</span>({
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">title</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Bandon Bed Button!&#39;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">body</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Press Up to turn on the blanket. Press Down to turn off the blanket.&#39;</span>,
+</span></span><span style="display:flex;"><span>}, <span style="color:#66d9ef">true</span>);
+</span></span></code></pre></div><p>Just in case the data route for this is not clear, here&rsquo;s what it looks like:</p>
+<p><img src="/pebble_data_flow_1522812767302235058.png"
+	width="570"
+	height="289"
+	loading="lazy"
+	
+		alt="From Pebble to Switch"
+	
+    
+        title="Pebble Data Flow"
+        data-title-escaped="Pebble Data Flow"
+    
+	
+		class="gallery-image" 
+		data-flex-grow="197"
+		data-flex-basis="473px"
+	
+></p>
 <p>I referred to this on Twitter last night as The Internet of Thangs. I&rsquo;m already sick of The Internet of Things. The IoT hype cycle is completely out of control before the first killer apps/products have even been created. Big Data has become Big Bullshit. I sincerely hope that the winner in this area hasn&rsquo;t even incorporated as a business yet. If we leave it to Google, Cisco, GE or any of the other behemoths, we&rsquo;ll end up with whatever they read in the last Suarez book rather than something that is a fundamental change in how we benefit from technology. The Pebble is never going to end up on everyone&rsquo;s wrists but by providing simple tools that any idiot like me can play with, it could be the seed that eventually leads to something huge. cf Altair, ZX Spectrum, BBC Micro, ARM, Arduino, Raspberry Pi.</p>
 
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/arduino/">Arduino</a>
+        
+            <a href="/tags/espruino/">Espruino</a>
+        
+            <a href="/tags/fitness-tracker/">Fitness-Tracker</a>
+        
+            <a href="/tags/home-automation/">Home-Automation</a>
+        
+            <a href="/tags/ireland/">Ireland</a>
+        
+            <a href="/tags/javascript/">Javascript</a>
+        
+            <a href="/tags/raspberry-pi/">Raspberry-Pi</a>
+        
+            <a href="/tags/retro-computing/">Retro-Computing</a>
+        
+            <a href="/tags/twitter/">Twitter</a>
+        
+            <a href="/tags/wifi/">Wifi</a>
+        
     </section>
 
 
-  <footer class="post-footer">
+    </footer>
 
 
     
-    <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
-    </figure>
-    
-
-    
-
-
-
-
-
-<section class="author">
-  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
-  
-  <p>Tech guy who likes running slowly</p>
-  
-  <div class="author-meta">
-    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
-    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
-  </div>
-</section>
-
-
-
-    
-<section class="share">
-  <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=My%20Pebble%20controlled%20electric%20blanket%20using%20CloudPebble%20and%20Simply.js&amp;url=https%3a%2f%2fconoroneill.net%2f2014%2f04%2f13%2fpebble-controlled-electric-blanket-using-cloud-pebble-simply-js%2f"
-      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-      <span class="hidden">Twitter</span>
-  </a>
-</section>
-
-
-
-    
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname = 'crossdominant';
-  var disqus_url = 'https:\/\/conoroneill.net\/2014\/04\/13\/pebble-controlled-electric-blanket-using-cloud-pebble-simply-js\/';
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-
-    
-
-  </footer>
 </article>
 
-</main>
-    <footer class="site-footer clearfix">
-        <section class="copyright"><a href="">Cross Dominant</a> </section>
-        
-        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
-        
-    </footer>
-    </div>
-    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
-    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
     
-</body>
-</html>
 
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/2013/06/15/a-year-of-falling-back-in-love-with-makingelectronics-on-raspberry-pi-and-arduino/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">A year of falling back in love with Making/Electronics on Raspberry Pi and Arduino</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2014/03/23/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Our web and mobile enabled electric blanket using Electric Ireland&#39;s Efergy RC sockets</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2013/09/28/this-weeks-tech-miscellany-its-a-cracker/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">This week&#39;s Tech Miscellany. It&#39;s a cracker.</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2013/02/10/electronic-tinkering-on-the-raspberry_pi/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Electronic Tinkering on the @Raspberry_Pi and @Arduino</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2012/11/26/conors-2012-raspberry_pi-christmas-gift-guide/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Conor&#39;s 2012 @Raspberry_Pi Christmas Gift Guide</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+        <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "crossdominant" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2001 - 
+        
+        2026 Mixed Laterality
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="4.0.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+
+
+    </body>
+</html>

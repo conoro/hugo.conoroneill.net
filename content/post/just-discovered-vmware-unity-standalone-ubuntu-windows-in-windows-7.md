@@ -5,8 +5,9 @@ draft = false
 title = "Just discovered VMware Unity - Standalone Ubuntu Windows in Windows 7!"
 description = ""
 slug = "just-discovered-vmware-unity-standalone-ubuntu-windows-in-windows-7"
+categories = ["Cloud & Infrastructure"]
+tags = ["aws", "linux"]
 +++
-
 #"Just discovered VMware Unity - Standalone Ubuntu Windows in Windows 7!"
 
 

@@ -5,8 +5,8 @@ draft = false
 title = "The Fixer's Manifesto - Spread The Word"
 description = ""
 slug = "the-fixers-manifesto-spread-the-word"
+categories = ["General Tech"]
 +++
-
 #"The Fixer's Manifesto - Spread The Word"
 
 Just got this from Jane in Sugru. Already printed and on my wall.

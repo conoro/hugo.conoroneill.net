@@ -5,8 +5,9 @@ draft = false
 title = "Oops a bit late - Irish Blog Awards Nominations Open"
 description = ""
 slug = "oops-a-bit-late-irish-blog-awards-nominations-open"
+categories = ["General Tech"]
+tags = ["facebook", "ireland", "twitter"]
 +++
-
 #"Oops a bit late - Irish Blog Awards Nominations Open"
 
 

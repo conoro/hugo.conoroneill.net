@@ -5,8 +5,8 @@ draft = false
 title = "Here's hoping that bunch stay in Rome"
 description = ""
 slug = "heres-hoping-that-bunch-stay-in-rome"
+categories = ["Media & Entertainment"]
 +++
-
 #"Here's hoping that bunch stay in Rome"
 
 

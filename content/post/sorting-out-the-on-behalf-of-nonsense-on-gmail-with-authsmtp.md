@@ -5,8 +5,9 @@ draft = false
 title = "Sorting out the 'On Behalf Of' Nonsense on GMail with AuthSMTP"
 description = ""
 slug = "sorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp"
+categories = ["General Tech"]
+tags = ["google"]
 +++
-
 #"Sorting out the \"On Behalf Of\" Nonsense on GMail with AuthSMTP"
 
 

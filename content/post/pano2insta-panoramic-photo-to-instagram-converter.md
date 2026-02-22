@@ -4,8 +4,9 @@ draft = false
 title = "Pano2Insta - Panoramic photo to Instagram converter"
 description = "Python script that runs almost anywhere including Android"
 slug = "pano2insta-panoramic-photo-to-instagram-converter"
+categories = ["Mobile & Apps"]
+tags = ["android", "facebook", "photography", "python"]
 +++
-
 My Huawei P30 Pro takes great panoramic photos but Instagram isn't able to use them properly. The trick is to split them into multiple 1080x1080 photos (up to 10 of them) and include all of them in one post. People can then swipe right and left to get a pseudo-panoramic view.
 
 ![Beara Way](/images/2021/07/beara_panorama.jpg)

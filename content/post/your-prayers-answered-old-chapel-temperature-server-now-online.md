@@ -5,8 +5,9 @@ draft = false
 title = "Your prayers answered, Old Chapel temperature server now online"
 description = ""
 slug = "your-prayers-answered-old-chapel-temperature-server-now-online"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "retro-computing", "sensors"]
 +++
-
 #"Your prayers answered, Old Chapel temperature server now online"
 
 I must get 20 emails a day asking the same question: "Conor, what temperature is it,<em>right now,</em> outside your office window?". Thankfully, after literally several minutes work, <a href="http://nano.conoroneill.com:9999/">you have your answer</a>.

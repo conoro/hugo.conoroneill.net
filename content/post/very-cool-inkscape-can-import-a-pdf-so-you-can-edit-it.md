@@ -5,8 +5,9 @@ draft = false
 title = "Very cool, Inkscape can import a PDF so you can edit it"
 description = ""
 slug = "very-cool-inkscape-can-import-a-pdf-so-you-can-edit-it"
+categories = ["Software Development"]
+tags = ["ai", "api", "linux", "podcast"]
 +++
-
 #"Very cool, Inkscape can import a PDF so you can edit it"
 
 

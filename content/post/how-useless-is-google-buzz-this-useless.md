@@ -5,8 +5,9 @@ draft = false
 title = "How useless is Google Buzz? This useless."
 description = ""
 slug = "how-useless-is-google-buzz-this-useless"
+categories = ["Mobile & Apps"]
+tags = ["android", "google"]
 +++
-
 #"How useless is Google Buzz? This useless."
 
 

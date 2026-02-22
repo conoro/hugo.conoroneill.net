@@ -5,8 +5,8 @@ draft = false
 title = "Click & Buy make themselves look like scammers"
 description = ""
 slug = "click-buy-make-themselves-look-like-scammers"
+categories = ["General Tech"]
 +++
-
 #"Click & Buy make themselves look like scammers"
 
 

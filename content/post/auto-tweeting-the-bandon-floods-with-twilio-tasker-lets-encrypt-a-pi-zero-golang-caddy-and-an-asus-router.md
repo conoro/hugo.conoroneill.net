@@ -5,8 +5,9 @@ draft = false
 title = "Auto-tweeting the Bandon floods with Twilio, Tasker, Let's Encrypt, a PiZero, golang, Caddy and an Asus router"
 description = " "
 slug = "auto-tweeting-the-bandon-floods-with-twilio-tasker-let's-encrypt-a-pizero-golang-caddy-and-an-asus-router"
+categories = ["IoT & Electronics"]
+tags = ["android", "api", "database", "flooding", "golang", "ireland", "javascript", "nodejs", "open-source", "raspberry-pi", "security", "twitter", "wifi"]
 +++
-
 ## Intro
 I haven't blogged properly about the $5 [Raspberry Pi Zero](https://www.raspberrypi.org/blog/raspberry-pi-zero/) computer yet, despite Tweeting non-stop about it. I will soon. In the meantime, I'll just repeat that
 

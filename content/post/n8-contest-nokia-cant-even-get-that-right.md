@@ -5,8 +5,9 @@ draft = false
 title = "N8 Contest - Nokia Can't Even Get That Right"
 description = ""
 slug = "n8-contest-nokia-cant-even-get-that-right"
+categories = ["Software Development"]
+tags = ["nokia"]
 +++
-
 #"N8 Contest - Nokia Can't Even Get That Right"
 
 

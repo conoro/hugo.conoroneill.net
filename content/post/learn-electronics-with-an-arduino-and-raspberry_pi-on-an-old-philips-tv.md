@@ -5,8 +5,9 @@ draft = false
 title = "Learn electronics with an Arduino and @Raspberry_Pi on an old Philips TV"
 description = ""
 slug = "learn-electronics-with-an-arduino-and-raspberry_pi-on-an-old-philips-tv"
+categories = ["IoT & Electronics"]
+tags = ["api", "arduino", "education", "raspberry-pi", "retro-computing", "wifi"]
 +++
-
 #"Learn electronics with an Arduino and @Raspberry_Pi on an old Philips TV"
 
 Been slammed with work for two weeks (will never complain about that!) which means blogging has been a bit light. But the big excitement yesterday was my <a href="http://www.seeedstudio.com/depot/ardx-the-starter-kit-for-arduino-p-1153.html?cPath=138">ARDX Arduino Starter Kit</a> arriving from Seeedstudio.

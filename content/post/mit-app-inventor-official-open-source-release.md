@@ -5,8 +5,9 @@ draft = false
 title = "MIT App Inventor Official Open-Source Release"
 description = ""
 slug = "mit-app-inventor-official-open-source-release"
+categories = ["Mobile & Apps"]
+tags = ["education", "linux", "low-code", "open-source", "wifi"]
 +++
-
 #"MIT App Inventor Official Open-Source Release"
 
 I'm really pleased to see this release happen. Dec/Jan was an awkward time as Google dropped App Inventor and MIT didn't have their site ready. MIT has done a sterling job since and it's great to know that the <a href="http://appinventor.mit.edu/appinventor-sources/">full up-to-date source code is available</a>. I hope a community of contributors to the codebase now starts building up.

@@ -5,8 +5,8 @@ draft = false
 title = "Of course you know what we're all racing to do with Google +1 right now"
 description = ""
 slug = "of-course-you-know-what-were-all-racing-to-do-with-google-1-right-now"
+categories = ["General Tech"]
 +++
-
 #"Of course you know what we're all racing to do with Google +1 right now"
 
 

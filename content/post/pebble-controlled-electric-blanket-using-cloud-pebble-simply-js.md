@@ -5,8 +5,9 @@ draft = false
 title = "My Pebble controlled electric blanket using CloudPebble and Simply.js"
 description = "It literally took 5 minutes to remotely control the Efergy RC mains sockets using the brilliant Cloud Pebble and Simply.js"
 slug = "pebble-controlled-electric-blanket-using-cloud-pebble-simply-js"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "espruino", "fitness-tracker", "home-automation", "ireland", "javascript", "raspberry-pi", "retro-computing", "twitter", "wifi"]
 +++
-
 Messing with hardware and software can be both a joy and incredibly infuriating. Yesterday I spent a few intermittent hours trying to get Arduino and Espruino communicating reliably over NRF24L01+ wireless transceivers. I only half succeeded. I followed this with some reading up on both [CloudPebble](https://cloudpebble.net) and [Simply.js](http://simplyjs.io/). Literally 5 minutes later I had my first Pebble App installed on my watch and was remotely controlling the [electric blanket in our bed](http://conoroneill.net/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets).
 
 ![Bandon Blanket](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/04/pebble_blanket.jpg "Bandon Bed Button")

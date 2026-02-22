@@ -5,8 +5,9 @@ draft = false
 title = "Interfacing Node.js to Raspberry Pi hardware like 433Mhz transmitters with node-ffi"
 description = "Now that I can control the Efergy RC mains sockets easily with a DigiX Arduino, it's time to make the same thing work on Node.js running on a Raspberry Pi. Turns out it's not quite so easy!"
 slug = "interfacing-nodejs-to-raspberry-pi-hardware-with-node-ffi"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "gps", "javascript", "lego", "linux", "nodejs", "raspberry-pi"]
 +++
-
 Now that I can talk to the Efergy remote control switches using Arduino and [DigiX](http://digistump.com/products/50), it's time to do the same thing with Raspberry Pi and Node.js.
 
 But first, check out this gorgeous [Pimoroni Pibow Timber](http://shop.pimoroni.com/products/pibow-timber) case that the RPi now lives in. Makes me smile every time I look at it.

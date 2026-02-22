@@ -5,8 +5,8 @@ draft = false
 title = "Klouchebag score for @conoro: 36, or 'a bit of a prat'"
 description = ""
 slug = "klouchebag-score-for-conoro-36-or-a-bit-of-a-prat"
+categories = ["General Tech"]
 +++
-
 #"Klouchebag score for @conoro: 36, or 'a bit of a prat'"
 
 A far superior alternative to Klout - <a href="http://klouchebag.com">Klouchebag.com</a>

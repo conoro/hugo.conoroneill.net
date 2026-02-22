@@ -5,8 +5,9 @@ draft = false
 title = "Node v0.12.2 for ARM V6/V7 including Raspberry Pi, Raspberry Pi 2 and ODROID-C1"
 description = "Download compiled versions of Node.js 0.12.2 for all our fave tiny computers"
 slug = "node-v0122-for-arm-v6v7-including-raspberry-pi-raspberry-pi-2-and-odroid-c1"
+categories = ["IoT & Electronics"]
+tags = ["javascript", "nodejs", "raspberry-pi"]
 +++
-
 As with Node 0.12.0 and 0.12.1, there are no-precompiled ARM versions of [0.12.2](http://blog.nodejs.org/2015/03/31/node-v0-12-2-stable/) on the main site.
 
 ![Node.js](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/02/nodejs.jpg)

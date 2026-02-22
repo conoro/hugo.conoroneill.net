@@ -3,8 +3,9 @@ date = "2024-08-18T06:34:48.313Z"
 draft = false
 title = "Running Postgres inside Node-RED via WASM and PGlite"
 slug = "running-postgres-inside-node-red-via-wasm-and-pglite"
+categories = ["Low Code & No Code"]
+tags = ["database", "home-automation", "javascript", "low-code", "nodejs", "open-source", "raspberry-pi", "wasm"]
 +++
-
 I've been using [Node-RED](https://nodered.org/) for many years, mostly for fun and personal projects. The coolest thing I did with it was to build the prototype for the [NodeConf EU 2018 badge](https://www.youtube.com/watch?v=jSirIWSbF7g) back-end. 
 
 But 2024 is the first time I've worked with it in production, with the [ServisBOT](https://servisbot.com) team doing some pretty incredible things using it. One aspect I've been interested in recently is local persistence beyond context stores. Of course my first port of call was the world's greatest database, SQLite. The Node-RED module for this works really well and I've been very happy with the results I'm seeing so far.

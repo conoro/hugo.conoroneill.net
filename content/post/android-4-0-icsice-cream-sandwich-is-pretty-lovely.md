@@ -5,8 +5,9 @@ draft = false
 title = "Android 4.0 (ICS/Ice Cream Sandwich) is Pretty Lovely"
 description = ""
 slug = "android-4-0-icsice-cream-sandwich-is-pretty-lovely"
+categories = ["Mobile & Apps"]
+tags = ["android", "ios"]
 +++
-
 #"Android 4.0 (ICS/Ice Cream Sandwich) is Pretty Lovely"
 
 

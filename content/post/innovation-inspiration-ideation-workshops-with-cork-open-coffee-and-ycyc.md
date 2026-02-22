@@ -5,8 +5,9 @@ draft = false
 title = "Innovation, inspiration & ideation workshops with Cork Open Coffee and YCYC"
 description = ""
 slug = "innovation-inspiration-ideation-workshops-with-cork-open-coffee-and-ycyc"
+categories = ["Mobile & Apps"]
+tags = ["ireland", "startup"]
 +++
-
 #"Innovation, inspiration & ideation workshops with Cork Open Coffee and YCYC"
 
 

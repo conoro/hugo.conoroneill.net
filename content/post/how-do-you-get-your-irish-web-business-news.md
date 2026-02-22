@@ -5,8 +5,9 @@ draft = false
 title = "How do you get your Irish web business news?"
 description = ""
 slug = "how-do-you-get-your-irish-web-business-news"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"How do you get your Irish web business news?"
 
 

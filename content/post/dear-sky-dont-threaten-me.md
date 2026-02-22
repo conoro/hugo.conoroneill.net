@@ -5,8 +5,8 @@ draft = false
 title = "Dear Sky, don't threaten me"
 description = ""
 slug = "dear-sky-dont-threaten-me"
+categories = ["IoT & Electronics"]
 +++
-
 #"Dear Sky, don't threaten me"
 
 

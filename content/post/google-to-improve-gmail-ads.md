@@ -5,8 +5,9 @@ draft = false
 title = "Google to improve GMail Ads"
 description = ""
 slug = "google-to-improve-gmail-ads"
+categories = ["General Tech"]
+tags = ["google"]
 +++
-
 #"Google to improve GMail Ads"
 
 

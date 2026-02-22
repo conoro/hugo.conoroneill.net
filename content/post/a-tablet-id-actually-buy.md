@@ -5,8 +5,9 @@ draft = false
 title = "A tablet I'd actually buy"
 description = ""
 slug = "a-tablet-id-actually-buy"
+categories = ["IoT & Electronics"]
+tags = ["amazon", "android", "bluetooth", "education", "gaming", "ios", "sensors", "wifi"]
 +++
-
 #"A tablet I'd actually buy"
 
 

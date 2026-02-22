@@ -5,8 +5,9 @@ draft = false
 title = "Monitoring EC2 Servers with Zabbix"
 description = ""
 slug = "monitoring-ec2-servers-with-zabbix"
+categories = ["Cloud & Infrastructure"]
+tags = ["amazon", "aws", "database"]
 +++
-
 #"Monitoring EC2 Servers with Zabbix"
 
 

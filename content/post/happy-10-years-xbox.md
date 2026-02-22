@@ -5,8 +5,9 @@ draft = false
 title = "Happy 10 Years XBOX"
 description = ""
 slug = "happy-10-years-xbox"
+categories = ["Gaming & Retro Computing"]
+tags = ["gaming", "python", "video"]
 +++
-
 #"Happy 10 Years XBOX"
 
 

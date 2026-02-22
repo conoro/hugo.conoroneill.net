@@ -5,8 +5,9 @@ draft = false
 title = "TP-Link TL-WA830RE Wifi Extender - A pile of junk until you install DD-WRT"
 description = ""
 slug = "tp-link-tl-wa830re-wifi-extender-a-pile-of-junk-until-you-install-dd-wrt"
+categories = ["General Tech"]
+tags = ["android", "wifi"]
 +++
-
 #"TP-Link TL-WA830RE Wifi Extender - A pile of junk until you install DD-WRT"
 
 I use a lot of TP-Link gear for home stuff. It's as cheap as chips and the hardware is usually totally reliable. But the software, dear god the software. I cannot understand why Chinese manufacturers of cheap networking gear don't take a leaf out of the book of Chinese manufacturers of cheap phones. The latter _all_ use Android now, so why don't the former all use <a href="http://www.dd-wrt.com/">DD-WRT</a> or <a href="https://openwrt.org/">OpenWRT</a>? When free software is 10x better than anything you have built yourself, save time and effort and point all your engineers at improving DD-WRT instead of your own crappy code.

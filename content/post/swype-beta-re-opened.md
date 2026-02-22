@@ -5,8 +5,9 @@ draft = false
 title = "Swype Beta Re-Opened"
 description = ""
 slug = "swype-beta-re-opened"
+categories = ["Web & Blogging"]
+tags = ["android"]
 +++
-
 #"Swype Beta Re-Opened"
 
 

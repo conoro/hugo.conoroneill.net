@@ -5,8 +5,9 @@ draft = false
 title = "That Lidl car Stereo I mentioned"
 description = ""
 slug = "that-lidl-car-stereo-i-mentioned"
+categories = ["Cloud & Infrastructure"]
+tags = ["aws", "bluetooth", "ireland", "podcast"]
 +++
-
 #"That Lidl car Stereo I mentioned"
 
 

@@ -5,8 +5,8 @@ draft = false
 title = "Huawei dongle with external antenna is in da house"
 description = ""
 slug = "huawei-dongle-with-external-antenna-is-in-da-house"
+categories = ["Mobile & Apps"]
 +++
-
 #"Huawei dongle with external antenna is in da house"
 
 

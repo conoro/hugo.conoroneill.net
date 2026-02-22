@@ -5,8 +5,9 @@ draft = false
 title = "Can't we do threaded conversations on Twitter now?"
 description = ""
 slug = "cant-we-do-threaded-conversations-on-twitter-now"
+categories = ["General Tech"]
+tags = ["twitter"]
 +++
-
 #"Can't we do threaded conversations on Twitter now?"
 
 

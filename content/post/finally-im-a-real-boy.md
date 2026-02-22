@@ -5,8 +5,8 @@ draft = false
 title = "Finally I'm a real boy"
 description = ""
 slug = "finally-im-a-real-boy"
+categories = ["General Tech"]
 +++
-
 #"Finally I'm a real boy"
 
 Conor's First Dremel.

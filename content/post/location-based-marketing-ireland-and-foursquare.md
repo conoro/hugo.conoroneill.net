@@ -5,8 +5,9 @@ draft = false
 title = "Location Based Marketing, Ireland and Foursquare"
 description = ""
 slug = "location-based-marketing-ireland-and-foursquare"
+categories = ["Mobile & Apps"]
+tags = ["api", "facebook", "gps", "ireland", "nokia", "twitter"]
 +++
-
 #"Location Based Marketing, Ireland and Foursquare"
 
 

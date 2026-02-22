@@ -5,8 +5,8 @@ draft = false
 title = "The Man Your Man Could Smell Like"
 description = ""
 slug = "the-man-your-man-could-smell-like"
+categories = ["Media & Entertainment"]
 +++
-
 #"The Man Your Man Could Smell Like"
 
 

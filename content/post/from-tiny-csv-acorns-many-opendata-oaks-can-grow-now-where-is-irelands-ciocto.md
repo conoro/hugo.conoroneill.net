@@ -5,8 +5,9 @@ draft = false
 title = "From tiny CSV acorns, many #OpenData oaks can grow. Now where is Ireland's CIO/CTO?"
 description = ""
 slug = "from-tiny-csv-acorns-many-opendata-oaks-can-grow-now-where-is-irelands-ciocto"
+categories = ["Opinion & Commentary"]
+tags = ["api", "ireland", "lego"]
 +++
-
 #"From tiny CSV acorns, many #OpenData oaks can grow. Now where is Ireland's CIO/CTO?"
 
 This has been a superb week in Ireland for showing what motivated geeks can do with even the most clunky of Government data. After the Oireachtas XML debacle, it was a joy to see the new <a href="http://www.propertypriceregister.ie/">Residential Property Price Register</a> site make its data available. Sure, it was poxy old CSV files per year and it was<a href="http://www.irishtimes.com/newspaper/ireland/2012/1003/1224324777284.html">riddled with errors</a> but I really am pleased with what it triggered.

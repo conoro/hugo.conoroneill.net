@@ -5,8 +5,9 @@ draft = false
 title = "Microsoft really taking Node.js seriously"
 description = ""
 slug = "microsoft-really-taking-node-js-seriously"
+categories = ["Cloud & Infrastructure"]
+tags = ["cloud", "database", "javascript", "nodejs"]
 +++
-
 #"Microsoft really taking Node.js seriously"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Possible alternative to my HDVP-2 Media Player - Patriot Box Office 1080p "
 description = ""
 slug = "possible-alternative-to-my-hdvp-2-media-player-patriot-box-office-1080p"
+categories = ["Media & Entertainment"]
+tags = ["amazon", "ireland", "video", "wifi"]
 +++
-
 #"Possible alternative to my HDVP-2 Media Player - Patriot Box Office 1080p"
 
 

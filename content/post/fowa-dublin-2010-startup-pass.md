@@ -5,8 +5,9 @@ draft = false
 title = "FOWA Dublin 2010 Startup Pass"
 description = ""
 slug = "fowa-dublin-2010-startup-pass"
+categories = ["Mobile & Apps"]
+tags = ["ireland", "startup"]
 +++
-
 #"FOWA Dublin 2010 Startup Pass"
 
 

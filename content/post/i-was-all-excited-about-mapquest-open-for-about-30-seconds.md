@@ -5,8 +5,9 @@ draft = false
 title = "I was all excited about Mapquest Open for about 30 Seconds"
 description = ""
 slug = "i-was-all-excited-about-mapquest-open-for-about-30-seconds"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"I was all excited about Mapquest Open for about 30 Seconds"
 
 

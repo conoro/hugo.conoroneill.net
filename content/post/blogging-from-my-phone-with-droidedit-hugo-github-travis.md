@@ -5,8 +5,9 @@ draft = false
 title = "Blogging from my phone with DroidEdit, Hugo, GitHub Pages and Travis"
 description = " "
 slug = "blogging-from-my-phone-with-droidedit-hugo-github-pages-and-travis"
+categories = ["Mobile & Apps"]
+tags = ["amazon", "android", "google", "hugo", "open-source", "security", "wordpress"]
 +++
-
 I switched this blog to the superb Go-based tool [Hugo](https://gohugo.io/overview/usage/) earlier in the year. Its staggering speed compared to HarpJS and Hexo plus a single executable you can drop in anywhere, make it a no-brainer for static blogs.
 
 I continued to host for free on [GitHub Pages](https://pages.github.com/) which means I never ever ever have to worry about WordPress security exploits or badly written plugins again. However using GH Pages means you are quite limited in how things work.

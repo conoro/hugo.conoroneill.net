@@ -5,8 +5,9 @@ draft = false
 title = "The Death of Boxee"
 description = ""
 slug = "the-death-of-boxee"
+categories = ["Mobile & Apps"]
+tags = ["android", "ios", "linux", "video"]
 +++
-
 #"The Death of Boxee"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Tats and piercings are so over. True hipsters are now sporting Nose LEDs."
 description = ""
 slug = "tats-and-piercings-are-so-over-true-hipsters-are-now-sporting-nose-leds"
+categories = ["IoT & Electronics"]
+tags = ["led"]
 +++
-
 #"Tats and piercings are so over. True hipsters are now sporting Nose LEDs."
 
 <a href="http://www.seeedstudio.com/depot/nose-led-kit-p-1274.html?cPath=202">Get in there quick</a> before the normals get their hands on them. Warning: I'm not sure if they are compatible with large hipster glasses.

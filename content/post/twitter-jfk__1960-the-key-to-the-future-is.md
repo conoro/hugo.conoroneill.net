@@ -5,8 +5,9 @@ draft = false
 title = "Twitter / JFK__1960: The key to the future is ..."
 description = ""
 slug = "twitter-jfk__1960-the-key-to-the-future-is"
+categories = ["Web & Blogging"]
+tags = ["twitter"]
 +++
-
 #"Twitter / JFK__1960: \u0093The key to the future is ..."
 
 

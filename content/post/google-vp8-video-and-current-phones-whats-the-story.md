@@ -5,8 +5,9 @@ draft = false
 title = "Google VP8 Video and current Phones. What's the story?"
 description = ""
 slug = "google-vp8-video-and-current-phones-whats-the-story"
+categories = ["Mobile & Apps"]
+tags = ["android"]
 +++
-
 #"Google VP8 Video and current Phones. What's the story?"
 
 

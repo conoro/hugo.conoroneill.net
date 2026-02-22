@@ -5,8 +5,9 @@ draft = false
 title = "Happy 30th Birthday ZX Spectrum - Here's mine, still in action"
 description = ""
 slug = "happy-30th-birthday-zx-spectrum-heres-mine-still-in-action"
+categories = ["IoT & Electronics"]
+tags = ["ios", "raspberry-pi", "retro-computing"]
 +++
-
 #"Happy 30th Birthday ZX Spectrum - Here's mine, still in action"
 
 Of course I write too much about the ZX Spectrum. Heck look at the header image. But when a tiny little computer has such an impact on your life, it deserves your attention, even 30 years later. I hope all of you who built the first iPhone Apps have held on to your first device and do the same in 25 years time.

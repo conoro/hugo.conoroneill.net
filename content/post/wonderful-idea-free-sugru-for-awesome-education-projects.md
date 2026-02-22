@@ -5,8 +5,8 @@ draft = false
 title = "Wonderful Idea - Free Sugru for awesome education projects"
 description = ""
 slug = "wonderful-idea-free-sugru-for-awesome-education-projects"
+categories = ["Web & Blogging"]
 +++
-
 #"Wonderful Idea - Free Sugru for awesome education projects"
 
 

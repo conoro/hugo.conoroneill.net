@@ -5,8 +5,9 @@ draft = false
 title = "The most ridiculous thing I've read this year"
 description = ""
 slug = "the-most-ridiculous-thing-ive-read-this-year"
+categories = ["Opinion & Commentary"]
+tags = ["ireland"]
 +++
-
 #"The most ridiculous thing I've read this year"
 
 The Revenue lawyers must have been wetting themselves with laughter putting this one together. From the new Form EII 1:

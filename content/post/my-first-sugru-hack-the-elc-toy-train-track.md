@@ -5,8 +5,8 @@ draft = false
 title = "My First Sugru Hack. The ELC Toy Train Track."
 description = ""
 slug = "my-first-sugru-hack-the-elc-toy-train-track"
+categories = ["General Tech"]
 +++
-
 #"My First Sugru Hack. The ELC Toy Train Track."
 
 

@@ -4,8 +4,9 @@ draft = false
 title = "No-Code Halloween Hacking with Blockly, Espruino and Node-RED"
 description = "Low-Code/No-Code Tools are easily capable of building fun Halloween scare setups and are much more inclusive"
 slug = "no-code-halloween-hacking-with-blockly-espruino-node-red"
+categories = ["Low Code & No Code"]
+tags = ["api", "arduino", "bluetooth", "espruino", "golang", "halloween", "home-automation", "javascript", "led", "low-code", "nodejs", "open-source", "python", "raspberry-pi", "sensors", "wifi"]
 +++
-
 Every Halloween for the past decade or so, I've built something silly to scare or entertain the trick-or-treaters. Some years it works brilliantly, other years, not so well. But the basic idea is always the same - detect arrival of kids and use sound/light/motion to jump-scare them.
 
 And every Halloween is a last-minute race to assemble electronics, plastic, duct-tape and code. That code is often a horrendous unreliable mish-mash of Arduino, Espruino, Python, Node.js and Bash scripts. 

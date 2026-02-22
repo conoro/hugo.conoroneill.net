@@ -4,8 +4,9 @@ draft = false
 title = "Getting PCManFM on your Raspberry Pi to remember SMB/Samba passwords"
 description = "A simple solution to an infuriating problem"
 slug = "pcmanfm-raspberry-pi-smb-samba-password"
+categories = ["IoT & Electronics"]
+tags = ["raspberry-pi"]
 +++
-
 It's always this time of year when I say I'll definitely blog more next year. I was also sure I'd blog tons during lockdown but I was busy doing other things.
 
 This is the type of post I used to do very regularly on this blog so I thought I'd ease myself back in with a simple one.

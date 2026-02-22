@@ -5,8 +5,9 @@ draft = false
 title = "Twitter forgets to register earlybird_uk, earlybird-uk, earlybird_irl, earlybird_ire........"
 description = ""
 slug = "twitter-forgets-to-register-earlybird_uk-earlybird-uk-earlybird_irl-earlybird_ire"
+categories = ["General Tech"]
+tags = ["twitter"]
 +++
-
 #"Twitter forgets to register earlybird_uk, earlybird-uk, earlybird_irl, earlybird_ire........"
 
 

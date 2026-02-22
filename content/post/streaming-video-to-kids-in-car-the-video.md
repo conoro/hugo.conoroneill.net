@@ -5,8 +5,9 @@ draft = false
 title = "Streaming video to kids in car. The Video. "
 description = ""
 slug = "streaming-video-to-kids-in-car-the-video"
+categories = ["Mobile & Apps"]
+tags = ["android", "ios", "linux", "nokia", "video"]
 +++
-
 #"Streaming video to kids in car. The Video."
 
 

@@ -5,8 +5,8 @@ draft = false
 title = "My Ever Decreasing List of Desktop Apps"
 description = ""
 slug = "my-ever-decreasing-list-of-desktop-apps"
+categories = ["General Tech"]
 +++
-
 #"My Ever Decreasing List of Desktop Apps"
 
 

@@ -5,8 +5,8 @@ draft = false
 title = "Bill Hicks had it right all those years ago"
 description = ""
 slug = "bill-hicks-had-it-right-all-those-years-ago"
+categories = ["Media & Entertainment"]
 +++
-
 #"Bill Hicks had it right all those years ago"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Super-Smart Use of Android Portable Hotspot from 11 y/o Son"
 description = ""
 slug = "super-smart-use-of-android-portable-hotspot-from-11-yo-son"
+categories = ["Mobile & Apps"]
+tags = ["android", "facebook", "ios", "ireland", "nokia", "video", "wifi"]
 +++
-
 #"Super-Smart Use of Android Portable Hotspot from 11 y/o Son"
 
 

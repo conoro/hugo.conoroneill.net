@@ -5,8 +5,9 @@ draft = false
 title = "UK and Ireland Businesses to Lose 4 Billion Work Hours Due To Olympics"
 description = ""
 slug = "uk-and-ireland-businesses-to-lose-4-billion-work-hours-due-to-olympics"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"UK and Ireland Businesses to Lose 4 Billion Work Hours Due To Olympics"
 
 I figured I'd get the nonsense headline in before anyone else :-)

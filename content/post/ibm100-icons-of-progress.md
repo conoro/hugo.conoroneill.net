@@ -5,8 +5,8 @@ draft = false
 title = "IBM100 - Icons of Progress"
 description = ""
 slug = "ibm100-icons-of-progress"
+categories = ["Web & Blogging"]
 +++
-
 #"IBM100 - Icons of Progress"
 
 

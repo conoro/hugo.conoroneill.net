@@ -5,8 +5,9 @@ draft = false
 title = "Run the @espruino JS interpreter on Windows"
 description = ""
 slug = "run-the-espruino-js-interpreter-on-windows"
+categories = ["IoT & Electronics"]
+tags = ["espruino", "javascript", "linux", "raspberry-pi", "retro-computing"]
 +++
-
 #"Run the @espruino JS interpreter on Windows"
 
 I just got my Kickstarter <a href="http://www.espruino.com/">Espruino</a> yesterday. It's one of those projects that just makes me smile. A tiny board with an ST ARM MCU running a special JavaScript interpreter that can do all the stuff with hardware you would normally associate with C/C++/Assembler/Wiring.

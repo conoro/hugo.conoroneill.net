@@ -5,8 +5,9 @@ draft = false
 title = "How to get a US Phone Number for your Irish Business for Free"
 description = ""
 slug = "how-to-get-a-us-phone-number-for-your-irish-business-for-free"
+categories = ["General Tech"]
+tags = ["google", "ireland", "security"]
 +++
-
 #"How to get a US Phone Number for your Irish Business for Free"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Avoid @wittertainment loss, install doubleTwist on Android"
 description = ""
 slug = "avoid-wittertainment-loss-install-doubletwist-on-android"
+categories = ["Mobile & Apps"]
+tags = ["android", "google", "ios", "podcast", "wifi"]
 +++
-
 #"Avoid @wittertainment loss, install doubleTwist on Android"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "We Need a Shrine to Tomorrow's World in The Grafton Arcade"
 description = ""
 slug = "we-need-a-shrine-to-tomorrows-world-in-the-grafton-arcade"
+categories = ["IoT & Electronics"]
+tags = ["android", "education", "ios", "ireland", "javascript", "led", "low-code", "python", "retro-computing"]
 +++
-
 #"We Need a Shrine to Tomorrow's World in The Grafton Arcade"
 
 

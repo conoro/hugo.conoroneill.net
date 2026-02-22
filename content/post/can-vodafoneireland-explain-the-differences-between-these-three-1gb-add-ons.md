@@ -5,8 +5,8 @@ draft = false
 title = "Can @vodafoneireland Explain The Differences Between These Three 1GB Add-Ons?"
 description = ""
 slug = "can-vodafoneireland-explain-the-differences-between-these-three-1gb-add-ons"
+categories = ["General Tech"]
 +++
-
 #"Can @vodafoneireland Explain The Differences Between These Three 1GB Add-Ons?"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Brace yourself Belfast. Here We Come."
 description = ""
 slug = "brace-yourself-belfast-here-we-come"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"Brace yourself Belfast. Here We Come."
 
 

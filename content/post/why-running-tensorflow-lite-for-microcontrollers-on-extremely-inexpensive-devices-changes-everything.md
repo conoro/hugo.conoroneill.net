@@ -4,8 +4,9 @@ draft = false
 title = "Why running TensorFlow Lite Micro on very inexpensive devices changes everything"
 description = "Most people missed the buried lede about TensorFlow Lite Micro on Bangle.js so I thought I'd lay it out more clearly."
 slug = "why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything"
+categories = ["Low Code & No Code"]
+tags = ["ai", "arduino", "bluetooth", "espruino", "fitness-tracker", "google", "home-automation", "javascript", "low-code", "python", "wifi"]
 +++
-
 When [NearForm Research](https://www.nearform.com/research/) announced [Bangle.js](https://www.nearform.com/blog?_sf_s=bangle.js) at [NodeConf EU](https://www.nodeconf.eu/) with Gordon Williams from [Espruino](https://espruino.com), we highlighted the uniqueness of having an inexpensive off-the-shelf Chinese smartwatch running both JavaScript and Google's [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers).
 
 Whilst hardcore technology people got the implications of this, most people didn't. You can now run Machine Learning models directly on the $5 chip inside a watch and do all of the interaction inside a web browser. If you can't wait until Bangle.js is available in March 2020 to try it out, Gordon has gone one better and [emulated the watch](https://www.espruino.com/ide/emulator.html?codeurl=https://banglejs.com/apps/apps/flappy/app.js&upload) using Emscripten. So you can run everything inside the browser! 

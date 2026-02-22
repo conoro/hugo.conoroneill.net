@@ -5,8 +5,9 @@ draft = false
 title = "My Smartphone evolution from N95-8GB to Samsung Galaxy S4 #SGS4"
 description = ""
 slug = "my-smartphone-evolution-from-n95-8gb-to-samsung-galaxy-s4-sgs4"
+categories = ["Mobile & Apps"]
+tags = ["android", "bluetooth", "ios", "nokia", "photography", "samsung"]
 +++
-
 #"My Smartphone evolution from N95-8GB to Samsung Galaxy S4 #SGS4"
 
 <a href="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2013/04/smartphones.jpg"><img class="aligncenter size-large wp-image-1010" alt="smartphones" src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2013/04/smartphones-1024x469.jpg" width="584" height="267" /></a>

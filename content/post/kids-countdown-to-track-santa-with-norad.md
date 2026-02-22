@@ -5,8 +5,8 @@ draft = false
 title = "Kids' Countdown to Track Santa with Norad"
 description = ""
 slug = "kids-countdown-to-track-santa-with-norad"
+categories = ["Web & Blogging"]
 +++
-
 #"Kids' Countdown to Track Santa with Norad"
 
 

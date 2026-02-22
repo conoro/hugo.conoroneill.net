@@ -5,8 +5,8 @@ draft = false
 title = "Art + Tech = Oyster Ring. Go on, someone do a Leap Card like this"
 description = ""
 slug = "art-tech-oyster-ring-go-on-someone-do-a-leap-card-like-this"
+categories = ["General Tech"]
 +++
-
 #"Art + Tech = Oyster Ring. Go on, someone do a Leap Card like this"
 
 Take an Oyster Card and <a href="http://www.ds72.com/latest-works/oyster-ring">turn it into a ring</a>. Love it.

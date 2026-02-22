@@ -5,8 +5,9 @@ draft = false
 title = "The @RaspberryPi Doorbell of Dooooooooommmmmmmm"
 description = ""
 slug = "the-raspberrypi-doorbell-of-dooooooooommmmmmmm"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "halloween", "linux", "python", "raspberry-pi", "video", "wifi"]
 +++
-
 #"The @RaspberryPi Doorbell of Dooooooooommmmmmmm"
 
 We had some good fun last night with the neighbourhood kids making use of ourDoorbell of Dooooooooommmmmmmm.

@@ -5,8 +5,9 @@ draft = false
 title = "And yea verily did the Paid Apps magically appear on the Honourable Conor's Android Phone"
 description = ""
 slug = "and-yea-verily-did-the-paid-apps-magically-appear-on-the-honourable-conors-android-phone"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "gaming"]
 +++
-
 #"And yea verily did the Paid Apps magically appear on the Honourable Conor's Android Phone"
 
 

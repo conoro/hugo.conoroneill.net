@@ -5,8 +5,8 @@ draft = false
 title = "OpenVPN on Windows 8"
 description = ""
 slug = "openvpn-on-windows-8"
+categories = ["General Tech"]
 +++
-
 #"OpenVPN on Windows 8"
 
 I'm two months using Windows 8 64-bit on my desktop and I'm still ok with it. The only real weirdness is a lot of disk churning even when nothing is happening. I turned off indexing but to no avail.

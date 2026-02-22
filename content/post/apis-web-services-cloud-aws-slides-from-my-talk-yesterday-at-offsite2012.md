@@ -5,8 +5,9 @@ draft = false
 title = "APIs, Web Services, Cloud, AWS - Slides from my talk yesterday at #OFFSITE2012"
 description = ""
 slug = "apis-web-services-cloud-aws-slides-from-my-talk-yesterday-at-offsite2012"
+categories = ["Cloud & Infrastructure"]
+tags = ["amazon", "api", "aws", "cloud", "ireland"]
 +++
-
 #"APIs, Web Services, Cloud, AWS - Slides from my talk yesterday at #OFFSITE2012"
 
 The first ever <a href="http://www.offsite.ie">OFFSITE</a> event in West Cork yesterday was a big success. I learned a lot from all the other speakers both about technology and business. The real stand-out for me was <a href="http://twitter.com/sf9">Ger Keohane</a>'s talk on eCommerce conversions. It was pretty stunning how you can seriously improve conversions to actual purchase with some very non-obvious changes.

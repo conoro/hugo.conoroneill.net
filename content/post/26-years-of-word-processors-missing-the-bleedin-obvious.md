@@ -5,8 +5,9 @@ draft = false
 title = "26 Years of Word Processors Missing the Bleedin' Obvious"
 description = ""
 slug = "26-years-of-word-processors-missing-the-bleedin-obvious"
+categories = ["General Tech"]
+tags = ["education", "open-source"]
 +++
-
 #"26 Years of Word Processors Missing the Bleedin' Obvious"
 
 

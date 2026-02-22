@@ -5,8 +5,9 @@ draft = false
 title = "Tech brain-dump round-up"
 description = ""
 slug = "tech-brain-dump-round-up"
+categories = ["Running & Fitness"]
+tags = ["bluetooth", "fitness-tracker", "raspberry-pi", "samsung", "sensors"]
 +++
-
 #"Tech brain-dump round-up"
 
 Over a month without a blogpost. Possibly a 12 year record. Busy. Good busy. All of these were supposed to be standalone posts but that'll never happen, so here's some stuff that caught my eye in the past few weeks.

@@ -5,8 +5,9 @@ draft = false
 title = "Quick review of the BLU Life Mark £80 Android phone"
 description = " "
 slug = "quick-review-of-the-blu-life-mark-android-phone"
+categories = ["Gaming & Retro Computing"]
+tags = ["amazon", "android", "bluetooth", "facebook", "gps", "ios", "ireland", "photography", "podcast", "retro-computing", "samsung"]
 +++
-
 A couple of weeks ago, I took my Galaxy S6 out for a run in the rain and it died. Based on previous experience with the horror known as Vodafone Ireland Insurance, I figured I'd be looking at 10 days minimum to get a replacement. This proved 100% accurate as the usual completely inept software that connects Vodafone's PDP-11 to Stay Mobile's Commodore 64 had cancelled my insurance without notification several months previously. It took them a week to sort this out before they could even look at replacing the phone.
 
 So the same day it died, I ordered a cheap replacement backup phone which arrived within 2 days from [Amazon UK](https://www.amazon.co.uk/BLU-Life-Mark-SIM-Free-Smartphone/dp/B01CG0U6U0/). Yep, you can order and receive a new phone from the UK faster than two groups of circus clowns in Dublin can fix a mistake they made.

@@ -5,8 +5,9 @@ draft = false
 title = "Jolicloud not what I expected"
 description = ""
 slug = "jolicloud-not-what-i-expected"
+categories = ["Cloud & Infrastructure"]
+tags = ["cloud", "linux"]
 +++
-
 #"Jolicloud not what I expected"
 
 

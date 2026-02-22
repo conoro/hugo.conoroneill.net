@@ -5,8 +5,9 @@ draft = false
 title = "Android soon for 30?"
 description = ""
 slug = "android-soon-for-e30"
+categories = ["Mobile & Apps"]
+tags = ["android", "bluetooth", "ireland", "linux", "nokia", "photography", "wifi"]
 +++
-
 #"Android soon for \u008030?"
 
 

@@ -1,152 +1,519 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  	<meta property="og:title" content=" All the gory tech behind our Halloween Hallway of Horror &middot;  Cross Dominant" />
-  	<meta property="og:site_name" content="Cross Dominant" />
-  	<meta property="og:url" content="https://conoroneill.net/2015/11/03/all-the-gory-tech-behind-our-halloween-hallway-of-horror/" />
-
-    
-  	<meta property="og:type" content="article" />
-
-    <meta property="og:article:published_time" content="2015-11-03T08:22:29Z" />
-
-    
-    
-
-  <title>
-     All the gory tech behind our Halloween Hallway of Horror &middot;  Cross Dominant
-  </title>
-
-    <meta name="description" content="Mixed laterality since 1968" />
-
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="shortcut icon" href="https://conoroneill.net/favicon.ico">
-	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
-
-    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous">
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" ">
+<title>All the gory tech behind our Halloween Hallway of Horror</title>
 
 
+<link rel="canonical" href="https://conoroneill.net/2015/11/03/all-the-gory-tech-behind-our-halloween-hallway-of-horror/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
-    
-      
-          <link href="https://conoroneill.net/index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
-      
-      
-    
-    <meta name="generator" content="Hugo 0.84.4" />
 
-    <link rel="canonical" href="https://conoroneill.net/2015/11/03/all-the-gory-tech-behind-our-halloween-hallway-of-horror/" />
+<link rel="stylesheet" href="/scss/style.min.390cc81d180d80110703ea467e355a4f3a0f44f25d4e957842790824fb5f2ef2.css"><meta property='og:title' content="All the gory tech behind our Halloween Hallway of Horror">
+<meta property='og:description' content=" ">
+<meta property='og:url' content='https://conoroneill.net/2015/11/03/all-the-gory-tech-behind-our-halloween-hallway-of-horror/'>
+<meta property='og:site_name' content='Mixed Laterality'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='3d-printing' /><meta property='article:tag' content='amazon' /><meta property='article:tag' content='android' /><meta property='article:tag' content='arduino' /><meta property='article:tag' content='golang' /><meta property='article:tag' content='halloween' /><meta property='article:tag' content='led' /><meta property='article:tag' content='linux' /><meta property='article:tag' content='raspberry-pi' /><meta property='article:tag' content='video' /><meta property='article:tag' content='wifi' /><meta property='article:published_time' content='2015-11-03T08:22:29&#43;00:00'/><meta property='article:modified_time' content='2015-11-03T08:22:29&#43;00:00'/>
+<meta name="twitter:title" content="All the gory tech behind our Halloween Hallway of Horror">
+<meta name="twitter:description" content=" ">
+    <link rel="shortcut icon" href="/images/Blog_Flow_Icon.jpg" />
+<style>
+    .site-header-image {
+        margin-bottom: var(--section-separation);
+        border-radius: var(--card-border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow-l1);
+    }
+    .site-header-image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    @media (min-width: 768px) {
+        .site-header-image img {
+            height: 280px;
+        }
+    }
+    @media (min-width: 1024px) {
+        .site-header-image img {
+            height: 350px;
+        }
+    }
 
-    
+    .article-list .article-subtitle {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 1.5rem;
+    }
+</style>
+
+    </head>
+    <body class="
+    article-page
+    ">
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-      ga('create', 'UA-88610-4', 'auto');
-      ga('send', 'pageview');
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
 
-    </script>
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="/images/Blog_Flow_Icon.jpg" 
+                        width=""
+                        height=""
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Mixed Laterality</a></h1>
+            <h2 class="site-description">Tech Blogging since 2001</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/conoro'
+                        
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/conoroneill'
+                        
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+  <path d="M8 11l0 5" />
+  <path d="M8 8l0 .01" />
+  <path d="M12 16l0 -5" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/conoro'
+                        
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav class="toc-nav" id="TableOfContents">
+                
+  <ul>
+    <li><a href="#3d-printed-mummy-in-coffin-doorbell">3D-printed Mummy in Coffin Doorbell</a></li>
+    <li><a href="#adafruit-audio-breakout-board-and-amp-with-speakers">Adafruit Audio breakout board and amp with speakers</a></li>
+    <li><a href="#wifi-controlled-rgb-led-strip-using-a-banana-pi">Wifi Controlled RGB LED Strip using a Banana Pi</a></li>
+    <li><a href="#an-anatomically-correct-skull-with-scary-eyes">An anatomically correct skull with scary eyes</a></li>
+    <li><a href="#making-the-skull-rotate">Making the skull rotate</a></li>
+    <li><a href="#tying-it-all-together">Tying it all together</a></li>
+    <li><a href="#next-year">Next year?</a></li>
+  </ul>
+
+            </nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+            
+            
+            <a href="/categories/iot--electronics/" style="background-color: hsl(62, 60%, 84%); color: hsl(62, 60%, 15%);">
+                IoT &amp; Electronics
+            </a>
+        
+    </header>
     
 
-    
-</head>
-<body class="nav-closed">
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/2015/11/03/all-the-gory-tech-behind-our-halloween-hallway-of-horror/">All the gory tech behind our Halloween Hallway of Horror</a>
+        </h2>
 
-  <div class="nav">
-    <h3 class="nav-title">Menu</h3>
-    <a href="#" class="nav-close">
-        <span class="hidden">Close</span>
-    </a>
-    <ul>
+        
+            
+            <h3 class="article-subtitle">
+                 
+            </h3>
+            
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2015-11-03T08:22:29Z'>Tuesday, November 3, 2015</time>
+            </div>
         
 
         
-    </ul>
-
+    </footer>
+    
 
     
-    <a class="subscribe-button icon-feed" href="https://conoroneill.net/index.xml">Subscribe</a>
+
     
 </div>
-<span class="nav-cover"></span>
 
-
- <div class="site-wrapper">
-
-
-
-
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
-
-
-  
-      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/cross_dominant.png" alt="Home" /></a>
-  
-  
-      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
-  
-  </nav>
 </header>
 
+    
+    <aside class="article-toc">
+        <details>
+            <summary>
+                <div class="article-toc-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                    <span>Table of contents</span>
+                </div>
+            </summary>
+            <nav class="toc-nav">
+                
+  <ul>
+    <li><a href="#3d-printed-mummy-in-coffin-doorbell">3D-printed Mummy in Coffin Doorbell</a></li>
+    <li><a href="#adafruit-audio-breakout-board-and-amp-with-speakers">Adafruit Audio breakout board and amp with speakers</a></li>
+    <li><a href="#wifi-controlled-rgb-led-strip-using-a-banana-pi">Wifi Controlled RGB LED Strip using a Banana Pi</a></li>
+    <li><a href="#an-anatomically-correct-skull-with-scary-eyes">An anatomically correct skull with scary eyes</a></li>
+    <li><a href="#making-the-skull-rotate">Making the skull rotate</a></li>
+    <li><a href="#tying-it-all-together">Tying it all together</a></li>
+    <li><a href="#next-year">Next year?</a></li>
+  </ul>
 
+            </nav>
+        </details>
+    </aside>
+    
 
-<main class="content" role="main">
-
-
-
-
-  <article class="post post">
-
-    <header class="post-header">
-        <h1 class="post-title">All the gory tech behind our Halloween Hallway of Horror</h1>
-        <small> </small>
-
-        <section class="post-meta">
-        
-          <time class="post-date" datetime="2015-11-03T08:22:29Z">
-            Nov 3, 2015
-          </time>
-        
-         
-        </section>
-    </header>
-
-    <section class="post-content">
-      <p>Despite starting weeks earlier than usual, Halloween still involved a day of last minute panic to bring everything together. The end result was this:</p>
+    <section class="article-content">
+    
+    
+    <p>Despite starting weeks earlier than usual, Halloween still involved a day of last minute panic to bring everything together. The end result was this:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FClhSNwFfT0" frameborder="0" allowfullscreen></iframe>
 <p>The basic setup was an update of ideas from previous years and consisted of the following.</p>
-<h2 id="3d-printed-mummy-in-coffin-doorbell">3D-printed Mummy in Coffin Doorbell</h2>
-<p>This was my favourite aspect of the whole thing. I spotted a <a href="http://www.thingiverse.com/thing:32905">cool 3D design on Thingiverse</a> and realised I could turn it into a doorbell by dremeling a hole in the back and hot-glueing the mummy to a simple push button.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/mummy01b.jpg" alt="Mummy Doorbell 1"></p>
+<h2 id="3d-printed-mummy-in-coffin-doorbell"><a href="#3d-printed-mummy-in-coffin-doorbell" class="header-anchor"></a>3D-printed Mummy in Coffin Doorbell
+</h2><p>This was my favourite aspect of the whole thing. I spotted a <a class="link" href="http://www.thingiverse.com/thing:32905"  target="_blank" rel="noopener"
+    >cool 3D design on Thingiverse</a> and realised I could turn it into a doorbell by dremeling a hole in the back and hot-glueing the mummy to a simple push button.</p>
+<p><img src="/mummy01b_16594470135812823467.jpg"
+	width="800"
+	height="784"
+	loading="lazy"
+	
+		alt="Mummy Doorbell 1"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="102"
+		data-flex-basis="244px"
+	
+></p>
 <p>In fact the button was one I originally bought in 2012 when I got back into electronics. There was a small bug in my debounce code which I discovered too late and meant that kids had to press the button twice. But overall only a few failed to figure it out.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/mummy02b.jpg" alt="Mummy Doorbell 2"></p>
-<h2 id="adafruit-audio-breakout-board-and-amp-with-speakers">Adafruit Audio breakout board and amp with speakers</h2>
-<p>I had intended everything to be Arduino and ESP8266 (running Arduino code) only so I needed some way of playing the scream. In previous years <a href="http://conoroneill.net/the-raspberrypi-doorbell-of-dooooooooommmmmmmm/">I used a Raspberry Pi</a> (successfully) and <a href="http://conoroneill.net/a-tech-halloween-mainly-made-of-fail/">a really crappy device</a> (less successfully).</p>
-<p>In a bizarre twist to the <a href="https://www.indiegogo.com/projects/be-maker-kit-plus-free-lessons-on-electronics-from-zero-to-internet-of-things">BE Maker Kit Indiegogo scam</a>, one of the people involved somehow got a Florida company to provide free electronics to the right amount. I used this to buy the <a href="http://www.adafruit.com/products/1381">Adafruit VS1053 Audio board</a> and <a href="https://www.adafruit.com/products/987">Adafruit MAX98306 Audio Amp</a>. The wiring on this looks complicated but it&rsquo;s straight out of their tutorial.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/vs1053.jpg" alt="Scary Sounds"></p>
-<p>Audio was courtesy of <a href="https://rg3.github.io/youtube-dl/">youtube-dl</a> and <a href="http://winff.org/html_new/">WinFF</a> on <a href="https://www.youtube.com/watch?v=BFqHyCoypfM">this clip from YouTube</a>.</p>
-<p>The Arduino Nano for this was the &ldquo;Master&rdquo; device. It detected the doorbell press and then started playing the file on the SD card and sent a high signal both to the Banana Pi for the LED strip and the Arduino Uno for the relays controlling the skull. It&rsquo;s basically the Adafruit demo VS1053 code with a few extra lines added by me. The code for that <a href="https://gist.github.com/conoro/58a028f7399b4e50619e">is here on Gist</a>.</p>
-<h2 id="wifi-controlled-rgb-led-strip-using-a-banana-pi">Wifi Controlled RGB LED Strip using a Banana Pi</h2>
-<p>I finally ordered a bog-standard <a href="http://eud.dx.com/product/waterproof-72w-4300lm-300-5050-smd-led-rgb-light-flexible-strip-w-44-key-controller-844233947">5 metre 5050 RGB LED strip from dx.com</a> over the summer. The value on these things is just staggering at less than €20.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/sku_233947_1.jpg" alt="RGB LED"></p>
+<p><img src="/mummy02b_12188305108430210588.jpg"
+	width="800"
+	height="737"
+	loading="lazy"
+	
+		alt="Mummy Doorbell 2"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="108"
+		data-flex-basis="260px"
+	
+></p>
+<h2 id="adafruit-audio-breakout-board-and-amp-with-speakers"><a href="#adafruit-audio-breakout-board-and-amp-with-speakers" class="header-anchor"></a>Adafruit Audio breakout board and amp with speakers
+</h2><p>I had intended everything to be Arduino and ESP8266 (running Arduino code) only so I needed some way of playing the scream. In previous years <a class="link" href="http://conoroneill.net/the-raspberrypi-doorbell-of-dooooooooommmmmmmm/"  target="_blank" rel="noopener"
+    >I used a Raspberry Pi</a> (successfully) and <a class="link" href="http://conoroneill.net/a-tech-halloween-mainly-made-of-fail/"  target="_blank" rel="noopener"
+    >a really crappy device</a> (less successfully).</p>
+<p>In a bizarre twist to the <a class="link" href="https://www.indiegogo.com/projects/be-maker-kit-plus-free-lessons-on-electronics-from-zero-to-internet-of-things"  target="_blank" rel="noopener"
+    >BE Maker Kit Indiegogo scam</a>, one of the people involved somehow got a Florida company to provide free electronics to the right amount. I used this to buy the <a class="link" href="http://www.adafruit.com/products/1381"  target="_blank" rel="noopener"
+    >Adafruit VS1053 Audio board</a> and <a class="link" href="https://www.adafruit.com/products/987"  target="_blank" rel="noopener"
+    >Adafruit MAX98306 Audio Amp</a>. The wiring on this looks complicated but it&rsquo;s straight out of their tutorial.</p>
+<p><img src="/vs1053_5274848583795851994.jpg"
+	width="800"
+	height="998"
+	loading="lazy"
+	
+		alt="Scary Sounds"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="80"
+		data-flex-basis="192px"
+	
+></p>
+<p>Audio was courtesy of <a class="link" href="https://rg3.github.io/youtube-dl/"  target="_blank" rel="noopener"
+    >youtube-dl</a> and <a class="link" href="http://winff.org/html_new/"  target="_blank" rel="noopener"
+    >WinFF</a> on <a class="link" href="https://www.youtube.com/watch?v=BFqHyCoypfM"  target="_blank" rel="noopener"
+    >this clip from YouTube</a>.</p>
+<p>The Arduino Nano for this was the &ldquo;Master&rdquo; device. It detected the doorbell press and then started playing the file on the SD card and sent a high signal both to the Banana Pi for the LED strip and the Arduino Uno for the relays controlling the skull. It&rsquo;s basically the Adafruit demo VS1053 code with a few extra lines added by me. The code for that <a class="link" href="https://gist.github.com/conoro/58a028f7399b4e50619e"  target="_blank" rel="noopener"
+    >is here on Gist</a>.</p>
+<h2 id="wifi-controlled-rgb-led-strip-using-a-banana-pi"><a href="#wifi-controlled-rgb-led-strip-using-a-banana-pi" class="header-anchor"></a>Wifi Controlled RGB LED Strip using a Banana Pi
+</h2><p>I finally ordered a bog-standard <a class="link" href="http://eud.dx.com/product/waterproof-72w-4300lm-300-5050-smd-led-rgb-light-flexible-strip-w-44-key-controller-844233947"  target="_blank" rel="noopener"
+    >5 metre 5050 RGB LED strip from dx.com</a> over the summer. The value on these things is just staggering at less than €20.</p>
+<p><img src="/sku_233947_1_16291888348293055531.jpg"
+	width="600"
+	height="600"
+	loading="lazy"
+	
+		alt="RGB LED"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+></p>
 <p>They come with a dedicated remote control and just need a decent PSU to provide the power. Myself and the kids had great fun illuminating my entire home office in a range of colours.</p>
-<p>But the challenge for Halloween was how to control it. I could have run <a href="http://www.lirc.org/html/irrecord.html">irrecord</a> on an <a href="http://www.hardkernel.com/main/products/prdt_info.php?g_code=G141578608433">ODROID C1</a> or <a href="http://www.bananapi.org/p/product.html">Banana Pi</a> to reverse engineer the remote control protocol and then use <a href="http://eud.dx.com/product/38khz-ir-infrared-transmitter-module-for-arduino-844135040">the RC transmitter</a> I bought on DX. But luckily someone <a href="http://hackaday.com/2015/08/25/esp8266-in-commercial-products/">told Hackaday about the first ESP8266-powered commercial product</a> they had found. It was a <a href="http://es.aliexpress.com/item/rgb-strip-WiFi-controller-1-port-control-15-rgb-lights-communicate-with-Android-phone-to-dim/32301423622.html">€9 Wifi H801 control module</a> for RGB LED strips! I just had to get one.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/Rgbww-tira-llevada-regulador-wifi-1-port-control-200-luces-comunicar-con-tel%C3%A9fono-Android-a-trav%C3%A9s.jpg_350x350.jpg" alt="Wifi RGB LED"></p>
+<p>But the challenge for Halloween was how to control it. I could have run <a class="link" href="http://www.lirc.org/html/irrecord.html"  target="_blank" rel="noopener"
+    >irrecord</a> on an <a class="link" href="http://www.hardkernel.com/main/products/prdt_info.php?g_code=G141578608433"  target="_blank" rel="noopener"
+    >ODROID C1</a> or <a class="link" href="http://www.bananapi.org/p/product.html"  target="_blank" rel="noopener"
+    >Banana Pi</a> to reverse engineer the remote control protocol and then use <a class="link" href="http://eud.dx.com/product/38khz-ir-infrared-transmitter-module-for-arduino-844135040"  target="_blank" rel="noopener"
+    >the RC transmitter</a> I bought on DX. But luckily someone <a class="link" href="http://hackaday.com/2015/08/25/esp8266-in-commercial-products/"  target="_blank" rel="noopener"
+    >told Hackaday about the first ESP8266-powered commercial product</a> they had found. It was a <a class="link" href="http://es.aliexpress.com/item/rgb-strip-WiFi-controller-1-port-control-15-rgb-lights-communicate-with-Android-phone-to-dim/32301423622.html"  target="_blank" rel="noopener"
+    >€9 Wifi H801 control module</a> for RGB LED strips! I just had to get one.</p>
+<p><img src="/Rgbww-tira-llevada-regulador-wifi-1-port-control-200-luces-comunicar-con-tel%C3%A9fono-Android-a-trav%C3%A9s.jpg_350x350_8667263489376548635.jpg"
+	width="350"
+	height="350"
+	loading="lazy"
+	
+		alt="Wifi RGB LED"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+></p>
 <p>It&rsquo;s a brilliant little box that is easy to wire up and has a simple Android App for control. You connect to the internal Wifi Access Point it provides to do this. Here is the brilliant piece: You then use the app to tell the module to connect to your own Wifi router and then you do the same with the phone. Now your RGB LED strip is on your network!</p>
-<p>But it gets better. A very smart person <a href="https://www.domoticz.com/forum/viewtopic.php?f=38&amp;t=7957">reverse-engineered the basic over-the-air protocol</a> that the app uses to control the Wifi module. Unfortunately he was using a slightly different module to me and it didn&rsquo;t work. I then spent a week of evenings learning all about <a href="https://www.wireshark.org/">Wireshark</a> and <a href="https://en.wikipedia.org/wiki/Netcat">Netcat</a>. I was able to do the same as him and find the basic UDP control protocol (only minor difference in the packets)</p>
+<p>But it gets better. A very smart person <a class="link" href="https://www.domoticz.com/forum/viewtopic.php?f=38&amp;t=7957"  target="_blank" rel="noopener"
+    >reverse-engineered the basic over-the-air protocol</a> that the app uses to control the Wifi module. Unfortunately he was using a slightly different module to me and it didn&rsquo;t work. I then spent a week of evenings learning all about <a class="link" href="https://www.wireshark.org/"  target="_blank" rel="noopener"
+    >Wireshark</a> and <a class="link" href="https://en.wikipedia.org/wiki/Netcat"  target="_blank" rel="noopener"
+    >Netcat</a>. I was able to do the same as him and find the basic UDP control protocol (only minor difference in the packets)</p>
 <p>In summary:</p>
 <ul>
 <li>OFF: \xfb\xeb\x00\x00\x00\x00\x00\x9f\x97\x9d\x00</li>
@@ -154,39 +521,45 @@
 <li>GREEN: \xfb\xeb\x00\xff\x00\x00\x00\x9f\x97\x9d\x00</li>
 <li>BLUE: \xfb\xeb\x00\x00\xff\x00\x00\x9f\x97\x9d\x00</li>
 </ul>
-<p>My plan was to use a <a href="http://nodemcu.com/index_en.html">NodeMCU ESP8266 module</a> to send the relevant commands, using either NodeMCU LUA or the <a href="https://github.com/esp8266/Arduino">Arduino port to ESP8266</a> but I ran out of time to experiment.</p>
-<p>So I had Netcat working happily on the Banana Pi running Fedora but I also needed to be able to use the GPIO pins to tell the BPi when to turn on/off the LED strip. I then made the classic mistake of panicking on Halloween morning and switching to the RaspberryPi so I could use <a href="http://wiringpi.com/">WiringPi</a> for GPIO. Except the Netcat commands hung on the RPi (still no idea why).</p>
-<p>Some Googling revealed that WiringPi had been <a href="https://github.com/LeMaker/WiringBP">ported to Raspbian on the BPi</a> so I tried that. Same Netcat problem! So I took a chance and re-inserted the Fedora SD card and downloaded the BPi version of WiringPi. Result! It compiled and ran perfectly.</p>
+<p>My plan was to use a <a class="link" href="http://nodemcu.com/index_en.html"  target="_blank" rel="noopener"
+    >NodeMCU ESP8266 module</a> to send the relevant commands, using either NodeMCU LUA or the <a class="link" href="https://github.com/esp8266/Arduino"  target="_blank" rel="noopener"
+    >Arduino port to ESP8266</a> but I ran out of time to experiment.</p>
+<p>So I had Netcat working happily on the Banana Pi running Fedora but I also needed to be able to use the GPIO pins to tell the BPi when to turn on/off the LED strip. I then made the classic mistake of panicking on Halloween morning and switching to the RaspberryPi so I could use <a class="link" href="http://wiringpi.com/"  target="_blank" rel="noopener"
+    >WiringPi</a> for GPIO. Except the Netcat commands hung on the RPi (still no idea why).</p>
+<p>Some Googling revealed that WiringPi had been <a class="link" href="https://github.com/LeMaker/WiringBP"  target="_blank" rel="noopener"
+    >ported to Raspbian on the BPi</a> so I tried that. Same Netcat problem! So I took a chance and re-inserted the Fedora SD card and downloaded the BPi version of WiringPi. Result! It compiled and ran perfectly.</p>
 <p>The I moved on to several hours of trying to write a Bash script to monitor a GPIO pin using WiringPi and control the RGB LED strip with echo/netcat. All I will say about that is I am never ever writing a Bash script again (space-sensitive around brackets/equals for the love of god). This is the final result and, to be fair, it worked seamlessly:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
-<span style="color:#75715e">#!/bin/bash</span>
-sets<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>/usr/local/bin/gpio mode <span style="color:#ae81ff">7</span> down<span style="color:#e6db74">`</span>
-setit<span style="color:#f92672">=</span>$sets
-state<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;low&#34;</span>
-echo -e <span style="color:#e6db74">&#39;\xfb\xeb\x00\x00\x00\x00\x00\x9f\x97\x9d\x00&#39;</span> | nc -v -u 192.168.0.128 <span style="color:#ae81ff">30977</span>
-sleep <span style="color:#ae81ff">1</span>
-<span style="color:#66d9ef">while</span> :
-<span style="color:#66d9ef">do</span>
-    pins<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>/usr/local/bin/gpio read 7<span style="color:#e6db74">`</span>
-    <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $pins <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;1&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
-        <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $state <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;low&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
-            echo -e <span style="color:#e6db74">&#39;\xfb\xeb\xff\x00\x00\x00\x00\x9f\x97\x9d\x00&#39;</span> | nc -v -u 192.168.0.128 <span style="color:#ae81ff">30977</span>
-            state<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;high&#34;</span>
-            echo high 
-        <span style="color:#66d9ef">fi</span>
-    <span style="color:#66d9ef">else</span>
-        <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $state <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;high&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
-           echo -e <span style="color:#e6db74">&#39;\xfb\xeb\x00\x00\x00\x00\x00\x9f\x97\x9d\x00&#39;</span> | nc -v -u 192.168.0.128 <span style="color:#ae81ff">30977</span>
-           state<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;low&#34;</span>
-           echo low
-        <span style="color:#66d9ef">fi</span>
-    <span style="color:#66d9ef">fi</span>
-<span style="color:#66d9ef">done</span>
-
-</code></pre></div><p>But I was so horrified by Bash, I did a quick and dirty re-write <a href="https://gist.github.com/conoro/935e0fa3acc90d066b9a">to Go this morning</a>. It uses the <a href="https://github.com/hugozhu/rpi">Golang bindings to WiringPi</a> and seems to work very well.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash</span>
+</span></span><span style="display:flex;"><span>sets<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>/usr/local/bin/gpio mode <span style="color:#ae81ff">7</span> down<span style="color:#e6db74">`</span>
+</span></span><span style="display:flex;"><span>setit<span style="color:#f92672">=</span>$sets
+</span></span><span style="display:flex;"><span>state<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;low&#34;</span>
+</span></span><span style="display:flex;"><span>echo -e <span style="color:#e6db74">&#39;\xfb\xeb\x00\x00\x00\x00\x00\x9f\x97\x9d\x00&#39;</span> | nc -v -u 192.168.0.128 <span style="color:#ae81ff">30977</span>
+</span></span><span style="display:flex;"><span>sleep <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> :
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>    pins<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>/usr/local/bin/gpio read 7<span style="color:#e6db74">`</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $pins <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;1&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $state <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;low&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>            echo -e <span style="color:#e6db74">&#39;\xfb\xeb\xff\x00\x00\x00\x00\x9f\x97\x9d\x00&#39;</span> | nc -v -u 192.168.0.128 <span style="color:#ae81ff">30977</span>
+</span></span><span style="display:flex;"><span>            state<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;high&#34;</span>
+</span></span><span style="display:flex;"><span>            echo high 
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $state <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;high&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>           echo -e <span style="color:#e6db74">&#39;\xfb\xeb\x00\x00\x00\x00\x00\x9f\x97\x9d\x00&#39;</span> | nc -v -u 192.168.0.128 <span style="color:#ae81ff">30977</span>
+</span></span><span style="display:flex;"><span>           state<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;low&#34;</span>
+</span></span><span style="display:flex;"><span>           echo low
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">done</span>
+</span></span></code></pre></div><p>But I was so horrified by Bash, I did a quick and dirty re-write <a class="link" href="https://gist.github.com/conoro/935e0fa3acc90d066b9a"  target="_blank" rel="noopener"
+    >to Go this morning</a>. It uses the <a class="link" href="https://github.com/hugozhu/rpi"  target="_blank" rel="noopener"
+    >Golang bindings to WiringPi</a> and seems to work very well.</p>
 <p>So the strip was now sorted. On to the rotating skull.</p>
-<h2 id="an-anatomically-correct-skull-with-scary-eyes">An anatomically correct skull with scary eyes</h2>
-<p>The skull idea came from a wonderful <a href="http://www.tested.com/art/makers/530668-how-make-realistic-horror-skull-prop/">tested.com video</a> where special effects artist Frank Ippolito bought a cheap skull on Amazon and then used latex, cotton wool and paint to turn it into a horrific burn-victim thing.</p>
+<h2 id="an-anatomically-correct-skull-with-scary-eyes"><a href="#an-anatomically-correct-skull-with-scary-eyes" class="header-anchor"></a>An anatomically correct skull with scary eyes
+</h2><p>The skull idea came from a wonderful <a class="link" href="http://www.tested.com/art/makers/530668-how-make-realistic-horror-skull-prop/"  target="_blank" rel="noopener"
+    >tested.com video</a> where special effects artist Frank Ippolito bought a cheap skull on Amazon and then used latex, cotton wool and paint to turn it into a horrific burn-victim thing.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v8w4hufoujg" frameborder="0" allowfullscreen></iframe>
 <p>I thought we could do the same and found a skull on Amazon UK. It arrived and looked great apart from the lack of a movable jaw. But it then sat there for months with no progress due to me being artistically challenged.</p>
 <p>As an alternative I thought about doing something with eyes so I got some half-eyes from Amazon too They were a smidge small but fit for purpose. I grabbed some of my old tiny micro-servos which I have never found a use for and hot-glued the eyes to them. A bit of messing with the range of movement and I had a vaguely spooky setup.</p>
@@ -194,103 +567,325 @@ sleep <span style="color:#ae81ff">1</span>
 <p>But the fact that you could see the servos and they move pretty slowly meant I was a bit disappointed. I tried to vamp them up a bit more by adding neopixel ring but it was too big so I switched to a single funky Adafruit RGB neopixel on each one. So now I had 6 wires coming out of each eye.</p>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/30LBjo5oG3I" frameborder="0" allowfullscreen></iframe>
 <p>Finally on Saturday morning I went to finish this bit and decided it was too much work to get the Arduino code tweaked to do 2x Neopixels and 2x servos and somehow trigger them on/off on a potentially rotating head. At this point I found the silly fake-eye pingpong balls from last year. A quick cut in the back and I hot-glued a Neopixel to each one. I then hot-glued the eyes into the skull and wired the Neopixels to an Arduino Nano.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/skull_top.jpg" alt="Skull Arduino"></p>
-<p>I stuck the Nano and a Lipo battery to the top of the skull and covered it with a cool Buff. Having the eyes on permanently removed a little bit of the element of surprise but I still thought it worked well. The code for the Neopixels was just the <a href="https://github.com/adafruit/Adafruit_NeoPixel/blob/master/examples/strandtest/strandtest.ino">standard Adafruit strand test</a>.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/buff_skull.jpg" alt="Buff Skull"></p>
-<h2 id="making-the-skull-rotate">Making the skull rotate</h2>
-<p>I had always known I would rotate the skull in some fashion but for a while I wasn&rsquo;t sure how. Quite a few weeks ago I came up with the idea to cement a hex driver into the bottom of the skull and sit it on top of a cheap crap €20 electric screwdriver I got ages ago from Woodies.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/screwdriver1.jpg" alt="Screwdriver1"></p>
+<p><img src="/skull_top_11444258068233074994.jpg"
+	width="800"
+	height="1014"
+	loading="lazy"
+	
+		alt="Skull Arduino"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="78"
+		data-flex-basis="189px"
+	
+></p>
+<p>I stuck the Nano and a Lipo battery to the top of the skull and covered it with a cool Buff. Having the eyes on permanently removed a little bit of the element of surprise but I still thought it worked well. The code for the Neopixels was just the <a class="link" href="https://github.com/adafruit/Adafruit_NeoPixel/blob/master/examples/strandtest/strandtest.ino"  target="_blank" rel="noopener"
+    >standard Adafruit strand test</a>.</p>
+<p><img src="/buff_skull_8582826576530667806.jpg"
+	width="800"
+	height="1193"
+	loading="lazy"
+	
+		alt="Buff Skull"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="67"
+		data-flex-basis="160px"
+	
+></p>
+<h2 id="making-the-skull-rotate"><a href="#making-the-skull-rotate" class="header-anchor"></a>Making the skull rotate
+</h2><p>I had always known I would rotate the skull in some fashion but for a while I wasn&rsquo;t sure how. Quite a few weeks ago I came up with the idea to cement a hex driver into the bottom of the skull and sit it on top of a cheap crap €20 electric screwdriver I got ages ago from Woodies.</p>
+<p><img src="/screwdriver1_8440972757555170777.jpg"
+	width="800"
+	height="450"
+	loading="lazy"
+	
+		alt="Screwdriver1"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
 <p>As a screwdriver it was rubbish due to slowness and lack of torque. As a skull-rotator it was awesome, spinning the skull around at high speed.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/screwdriver2.jpg" alt="Screwdriver2"></p>
-<p>Of course I left the difficult bits until a week before Halloween when I sat down and tried to figure out how to control it all. The first attempt was with a dirt cheap double relay board I got 3 years ago and never used. But I couldn&rsquo;t figure out how to make it go forwards and reverse. I then tried an old knock-off Adafruit Motor Shield but it couldn&rsquo;t deliver enough juice (even with a 7.2V LiPo) to overcome the motor&rsquo;s inertia. Finally I <a href="http://arduino-info.wikispaces.com/ArduinoPower">found a relay circuit</a> that did forward/reverse and it worked like a charm.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/DC_Motor_2SPDT_Relay-450.jpg" alt="Circuit"></p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/relay2.jpg" alt="Relay"></p>
+<p><img src="/screwdriver2_1112738402359253815.jpg"
+	width="800"
+	height="450"
+	loading="lazy"
+	
+		alt="Screwdriver2"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
+<p>Of course I left the difficult bits until a week before Halloween when I sat down and tried to figure out how to control it all. The first attempt was with a dirt cheap double relay board I got 3 years ago and never used. But I couldn&rsquo;t figure out how to make it go forwards and reverse. I then tried an old knock-off Adafruit Motor Shield but it couldn&rsquo;t deliver enough juice (even with a 7.2V LiPo) to overcome the motor&rsquo;s inertia. Finally I <a class="link" href="http://arduino-info.wikispaces.com/ArduinoPower"  target="_blank" rel="noopener"
+    >found a relay circuit</a> that did forward/reverse and it worked like a charm.</p>
+<p><img src="/DC_Motor_2SPDT_Relay-450_1454451407037978142.jpg"
+	width="450"
+	height="384"
+	loading="lazy"
+	
+		alt="Circuit"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="117"
+		data-flex-basis="281px"
+	
+></p>
+<p><img src="/relay2_6432279605881495157.jpg"
+	width="800"
+	height="944"
+	loading="lazy"
+	
+		alt="Relay"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="84"
+		data-flex-basis="203px"
+	
+></p>
 <p>But how was I going to handle starting/stopping the skull so it was facing away (and potentially covered) initially and then rotating at the right time and stopping in the right position? Of course I left that to Halloween itself.</p>
 <p>I used polystyrene and duct tape to brace the screwdriver. Then I setup two limit switches. I then applied power. The head spun around and ripped the switches off their mounts. Damn. So another quick executive decision was made. The head would start rotating when the doorbell was pressed and then stop after 10-15 seconds. Which meant some kids would get the full scary effect whilst others would see the flashing eyes before they got to the door.</p>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/_alMNaewNXw" frameborder="0" allowfullscreen></iframe>
-<h2 id="tying-it-all-together">Tying it all together</h2>
-<p>This turned out to be pretty easy. I have a ton of decent wire from a dead Christmas tree light string and used that to connect everything up. The doorbell connected to one Arudino which then toggled a pin which the other Arduinos were connected to. After N seconds, it toggled the pin the other way to shut it all down.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/11/wiring.jpg" alt="Wiring"></p>
+<h2 id="tying-it-all-together"><a href="#tying-it-all-together" class="header-anchor"></a>Tying it all together
+</h2><p>This turned out to be pretty easy. I have a ton of decent wire from a dead Christmas tree light string and used that to connect everything up. The doorbell connected to one Arudino which then toggled a pin which the other Arduinos were connected to. After N seconds, it toggled the pin the other way to shut it all down.</p>
+<p><img src="/wiring_6096659515462339208.jpg"
+	width="800"
+	height="450"
+	loading="lazy"
+	
+		alt="Wiring"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
 <p>It worked very very well.</p>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/JvAI6WQglpk" frameborder="0" allowfullscreen></iframe>
-<h2 id="next-year">Next year?</h2>
-<p>Hmm not sure. I wanted to do something with ghosts flying down zip wires a few years ago but I just didn&rsquo;t have the knowhow. I&rsquo;m feeling a lot more confident about that now.</p>
+<h2 id="next-year"><a href="#next-year" class="header-anchor"></a>Next year?
+</h2><p>Hmm not sure. I wanted to do something with ghosts flying down zip wires a few years ago but I just didn&rsquo;t have the knowhow. I&rsquo;m feeling a lot more confident about that now.</p>
 
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/3d-printing/">3d-Printing</a>
+        
+            <a href="/tags/amazon/">Amazon</a>
+        
+            <a href="/tags/android/">Android</a>
+        
+            <a href="/tags/arduino/">Arduino</a>
+        
+            <a href="/tags/golang/">Golang</a>
+        
+            <a href="/tags/halloween/">Halloween</a>
+        
+            <a href="/tags/led/">Led</a>
+        
+            <a href="/tags/linux/">Linux</a>
+        
+            <a href="/tags/raspberry-pi/">Raspberry-Pi</a>
+        
+            <a href="/tags/video/">Video</a>
+        
+            <a href="/tags/wifi/">Wifi</a>
+        
     </section>
 
 
-  <footer class="post-footer">
+    </footer>
 
 
     
-    <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
-    </figure>
-    
-
-    
-
-
-
-
-
-<section class="author">
-  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
-  
-  <p>Tech guy who likes running slowly</p>
-  
-  <div class="author-meta">
-    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
-    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
-  </div>
-</section>
-
-
-
-    
-<section class="share">
-  <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=All%20the%20gory%20tech%20behind%20our%20Halloween%20Hallway%20of%20Horror&amp;url=https%3a%2f%2fconoroneill.net%2f2015%2f11%2f03%2fall-the-gory-tech-behind-our-halloween-hallway-of-horror%2f"
-      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-      <span class="hidden">Twitter</span>
-  </a>
-</section>
-
-
-
-    
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname = 'crossdominant';
-  var disqus_url = 'https:\/\/conoroneill.net\/2015\/11\/03\/all-the-gory-tech-behind-our-halloween-hallway-of-horror\/';
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-
-    
-
-  </footer>
 </article>
 
-</main>
-    <footer class="site-footer clearfix">
-        <section class="copyright"><a href="">Cross Dominant</a> </section>
-        
-        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
-        
-    </footer>
-    </div>
-    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
-    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
     
-</body>
-</html>
 
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/2013/06/15/a-year-of-falling-back-in-love-with-makingelectronics-on-raspberry-pi-and-arduino/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">A year of falling back in love with Making/Electronics on Raspberry Pi and Arduino</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2014/11/29/conors-thanksgiving-tech-miscellany/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Conor&#39;s Thanksgiving Tech Miscellany</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2013/09/28/this-weeks-tech-miscellany-its-a-cracker/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">This week&#39;s Tech Miscellany. It&#39;s a cracker.</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2014/10/29/months-behind-in-my-blogging-here-are-some-tech-things-for-your-enjoyment-that-have-caught-my-eye-recently/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Months behind in my blogging. Here are some tech things for your enjoyment that have caught my eye recently</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2012/11/01/the-raspberrypi-doorbell-of-dooooooooommmmmmmm/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">The @RaspberryPi Doorbell of Dooooooooommmmmmmm</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+        <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "crossdominant" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2001 - 
+        
+        2026 Mixed Laterality
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="4.0.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+
+
+    </body>
+</html>

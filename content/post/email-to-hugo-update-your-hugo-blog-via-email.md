@@ -3,8 +3,9 @@ date = "2018-08-15T09:39:28.928Z"
 draft = false
 title = "email-to-hugo - Update your Hugo blog via email"
 slug = "email-to-hugo-update-your-hugo-blog-via-email"
+categories = ["Cloud & Infrastructure"]
+tags = ["amazon", "aws", "cloud", "golang", "google", "hugo", "linux", "open-source", "wordpress"]
 +++
-
 My most productive period of blogging here was when I used the late lamented [Posterous](https://en.wikipedia.org/wiki/Posterous). That was due to its blogging-by-email feature. Whilst a similar feature is available for hosted blogs like WordPress, things are a lot more difficult if you have a static blog. 
 
   

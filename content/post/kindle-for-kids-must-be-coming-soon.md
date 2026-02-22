@@ -5,8 +5,9 @@ draft = false
 title = "Kindle for Kids Must Be Coming Soon"
 description = ""
 slug = "kindle-for-kids-must-be-coming-soon"
+categories = ["General Tech"]
+tags = ["amazon"]
 +++
-
 #"Kindle for Kids Must Be Coming Soon"
 
 

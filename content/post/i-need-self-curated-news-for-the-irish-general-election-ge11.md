@@ -5,8 +5,9 @@ draft = false
 title = "I need self-curated news for the Irish General Election #ge11"
 description = ""
 slug = "i-need-self-curated-news-for-the-irish-general-election-ge11"
+categories = ["Opinion & Commentary"]
+tags = ["facebook", "ireland", "twitter"]
 +++
-
 #"I need self-curated news for the Irish General Election #ge11"
 
 

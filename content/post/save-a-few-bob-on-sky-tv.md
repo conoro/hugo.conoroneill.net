@@ -5,8 +5,9 @@ draft = false
 title = "Save a few bob on Sky TV"
 description = ""
 slug = "save-a-few-bob-on-sky-tv"
+categories = ["Media & Entertainment"]
+tags = ["ireland", "video"]
 +++
-
 #"Save a few bob on Sky TV"
 
 

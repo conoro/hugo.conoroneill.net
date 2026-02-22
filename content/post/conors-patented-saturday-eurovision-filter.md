@@ -5,8 +5,9 @@ draft = false
 title = "Conor's Patented Saturday Eurovision Filter"
 description = ""
 slug = "conors-patented-saturday-eurovision-filter"
+categories = ["General Tech"]
+tags = ["food-tech", "ireland", "twitter"]
 +++
-
 #"Conor's Patented Saturday Eurovision Filter"
 
 

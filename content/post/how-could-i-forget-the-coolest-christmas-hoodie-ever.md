@@ -5,8 +5,9 @@ draft = false
 title = "How could I forget the coolest Christmas Hoodie ever?"
 description = ""
 slug = "how-could-i-forget-the-coolest-christmas-hoodie-ever"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"How could I forget the coolest Christmas Hoodie ever?"
 
 I keep forgetting to blog this despite the fact that I wear it every day.

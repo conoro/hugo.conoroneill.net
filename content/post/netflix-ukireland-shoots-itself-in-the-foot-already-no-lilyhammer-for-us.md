@@ -5,8 +5,9 @@ draft = false
 title = "Netflix UK/Ireland shoots itself in the foot already. No Lilyhammer for us."
 description = ""
 slug = "netflix-ukireland-shoots-itself-in-the-foot-already-no-lilyhammer-for-us"
+categories = ["AI & Machine Learning"]
+tags = ["ireland", "javascript", "twitter"]
 +++
-
 #"Netflix UK/Ireland shoots itself in the foot already. No Lilyhammer for us."
 
 For me, in my innocence, the arrival of Netflix over here represented far more than justanothersource of media at a good price. I hoped it was the beginning of the end for the nonsensical region-limiting of media based on pre-internet, pre-airplane, business models.

@@ -5,8 +5,9 @@ draft = false
 title = "Paid Apps in Android Market in Ireland, Sorta."
 description = ""
 slug = "paid-apps-in-android-market-in-ireland-sorta"
+categories = ["Mobile & Apps"]
+tags = ["android", "ireland"]
 +++
-
 #"Paid Apps in Android Market in Ireland, Sorta."
 
 

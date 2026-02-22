@@ -5,8 +5,9 @@ draft = false
 title = "Just had a Horrible Thought. Could I move from Posterous to Google+?"
 description = ""
 slug = "just-had-a-horrible-thought-could-i-move-from-posterous-to-google"
+categories = ["Software Development"]
+tags = ["api"]
 +++
-
 #"Just had a Horrible Thought. Could I move from Posterous to Google+?"
 
 

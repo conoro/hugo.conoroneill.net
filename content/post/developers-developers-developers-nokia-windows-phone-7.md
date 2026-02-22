@@ -5,8 +5,9 @@ draft = false
 title = "Developers Developers Developers ---> Nokia + Windows Phone 7"
 description = ""
 slug = "developers-developers-developers-nokia-windows-phone-7"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "education", "gaming", "google", "ios", "nokia", "photography", "python", "rss", "samsung", "startup", "twitter"]
 +++
-
 #"Developers Developers Developers ---> Nokia + Windows Phone 7"
 
 

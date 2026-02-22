@@ -5,8 +5,9 @@ draft = false
 title = "LEGO - Bring Back Beautiful"
 description = ""
 slug = "lego-bring-back-beautiful"
+categories = ["Media & Entertainment"]
+tags = ["lego"]
 +++
-
 #"LEGO - Bring Back Beautiful"
 
 

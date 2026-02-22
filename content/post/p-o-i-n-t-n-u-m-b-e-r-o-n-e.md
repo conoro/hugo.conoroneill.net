@@ -5,8 +5,8 @@ draft = false
 title = "P-O-I-N-T N-U-M-B-E-R O-N-E"
 description = ""
 slug = "p-o-i-n-t-n-u-m-b-e-r-o-n-e"
+categories = ["Web & Blogging"]
 +++
-
 #"P-O-I-N-T N-U-M-B-E-R O-N-E"
 
 

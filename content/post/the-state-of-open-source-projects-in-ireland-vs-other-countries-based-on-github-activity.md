@@ -5,8 +5,9 @@ draft = false
 title = "The state of Open Source projects in Ireland vs other countries, based on GitHub activity"
 description = ""
 slug = "the-state-of-open-source-projects-in-ireland-vs-other-countries-based-on-github-activity"
+categories = ["Software Development"]
+tags = ["gps", "ireland", "open-source"]
 +++
-
 #"The state of Open Source projects in Ireland vs other countries, based on GitHub activity"
 
 Last weekend I was working away on a personal side-project of mine and I suddenly realised I follow almost no Irish projects or developers on <a href="http://github.com/conoro">GitHub</a>. I then started writing this post which was going to be an attack on our lack of people who work on OSS projects outside of work.

@@ -5,8 +5,8 @@ draft = false
 title = "They're just jealous cos my toes are models"
 description = ""
 slug = "theyre-just-jealous-cos-my-toes-are-models"
+categories = ["General Tech"]
 +++
-
 #"They're just jealous cos my toes are models"
 
 Well I laughed.

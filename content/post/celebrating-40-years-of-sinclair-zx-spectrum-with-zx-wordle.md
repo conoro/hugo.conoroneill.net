@@ -4,8 +4,9 @@ draft = false
 title = "Celebrating 40 years of the Sinclair ZX Spectrum with ZX Wordle"
 description = "Oh I went there! And for real. A playable version of Wordle with 2 years of answers built-in"
 slug = "celebrating-40-years-of-sinclair-zx-spectrum-with-zx-wordle"
+categories = ["Gaming & Retro Computing"]
+tags = ["gaming", "javascript", "linux", "retro-computing"]
 +++
-
 Sir Clive launched the greatest home computer of all time on April 23rd 1982, almost 40 years ago. I got mine in late 1982 and I still have it. Better, faster, stronger.
 
 ![Bionic Speccy](/images/2022/03/bionic_speccy.jpg)

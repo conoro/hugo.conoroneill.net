@@ -5,8 +5,8 @@ draft = false
 title = "Ooh I like - Samuel L. Ipsum Placeholder Text"
 description = ""
 slug = "ooh-i-like-samuel-l-ipsum-placeholder-text"
+categories = ["General Tech"]
 +++
-
 #"Ooh I like - Samuel L. Ipsum Placeholder Text"
 
 

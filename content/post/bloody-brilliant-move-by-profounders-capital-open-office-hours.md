@@ -5,8 +5,9 @@ draft = false
 title = "Bloody Brilliant Move by PROfounders Capital - Open-Office Hours"
 description = ""
 slug = "bloody-brilliant-move-by-profounders-capital-open-office-hours"
+categories = ["Startups & Business"]
+tags = ["ireland", "startup"]
 +++
-
 #"Bloody Brilliant Move by PROfounders Capital - Open-Office Hours"
 
 

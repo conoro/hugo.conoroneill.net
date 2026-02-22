@@ -4,8 +4,9 @@ draft = false
 title = "Empowering Citizen Non-Developers"
 description = "All this talk of low-code and no-code forgets the millions of citizen non-developer Excel ninjas"
 slug = "empowering-citizen-non-developers"
+categories = ["Low Code & No Code"]
+tags = ["bluetooth", "cloud", "database", "espruino", "fitness-tracker", "google", "gps", "ireland", "javascript", "lego", "linux", "low-code", "rss", "startup"]
 +++
-
 I've been thinking about tools for non-developers for several years. It seems to me that all the big players are leaving behind this important group. They keep talking about citizen developers, low-code and no-code. But the focus is on "code", so most of the world will self-select out of using any of those tools, including the no-code ones. Even the title of Satya Nadella's article this week is ["Want a More Equitable Future? Empower Citizen Developers"](https://www.wired.com/story/want-a-more-equitable-future-empower-citizen-developers/). And Google [announced a big revamp of Apps Script](https://developers.googleblog.com/2020/12/get-ready-to-up-your-apps-script.html) with a cool new IDE. For developers.
 
 

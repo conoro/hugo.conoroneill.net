@@ -5,8 +5,9 @@ draft = false
 title = "Connecting an Arduino to Raspberry Pi for the best of both worlds"
 description = ""
 slug = "connecting-an-arduino-to-raspberry-pi-for-the-best-of-both-worlds"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "linux", "python", "raspberry-pi", "sensors", "wifi"]
 +++
-
 #"Connecting an Arduino to Raspberry Pi for the best of both worlds"
 
 Rather than struggle with the very basic unprotected IO pins on the Raspberry Pi and the lack of real-time performance in Linux, the ideal setup for many real-world-interfacing projects is Raspberry Pi + Arduino.

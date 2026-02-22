@@ -5,8 +5,8 @@ draft = false
 title = "Can anyone remember the name of this phone testing tool?"
 description = ""
 slug = "can-anyone-remember-the-name-of-this-phone-testing-tool"
+categories = ["General Tech"]
 +++
-
 #"Can anyone remember the name of this phone testing tool?"
 
 

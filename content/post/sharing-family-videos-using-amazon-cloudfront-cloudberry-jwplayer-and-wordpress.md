@@ -5,8 +5,9 @@ draft = false
 title = "Sharing Family Videos using Amazon Cloudfront, CloudBerry, JWPlayer and Wordpress"
 description = ""
 slug = "sharing-family-videos-using-amazon-cloudfront-cloudberry-jwplayer-and-wordpress"
+categories = ["Mobile & Apps"]
+tags = ["amazon", "cloud", "wordpress"]
 +++
-
 #"Sharing Family Videos using Amazon Cloudfront, CloudBerry, JWPlayer and Wordpress"
 
 

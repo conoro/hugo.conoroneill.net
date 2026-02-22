@@ -5,8 +5,9 @@ draft = false
 title = "Any Irish Incubators Signed-Up with Rackspace Startup Programme @scobleizer e.g. @ndrc_i2i ?"
 description = ""
 slug = "any-irish-incubators-signed-up-with-rackspace-startup-programme-scobleizer-e-g-ndrc_i2i"
+categories = ["Mobile & Apps"]
+tags = ["amazon", "aws", "cloud", "ireland", "startup"]
 +++
-
 #"Any Irish Incubators Signed-Up with Rackspace Startup Programme @scobleizer e.g. @ndrc_i2i ?"
 
 

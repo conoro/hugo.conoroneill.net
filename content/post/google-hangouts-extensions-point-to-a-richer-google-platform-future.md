@@ -5,8 +5,9 @@ draft = false
 title = "Google Hangouts Extensions point to a richer Google+ Platform future"
 description = ""
 slug = "google-hangouts-extensions-point-to-a-richer-google-platform-future"
+categories = ["IoT & Electronics"]
+tags = ["api", "arduino", "facebook", "google", "javascript", "led", "nodejs", "twitter"]
 +++
-
 #"Google Hangouts Extensions point to a richer Google+ Platform future"
 
 Yesterday <a href="http://hackaday.com/2012/10/22/add-an-arduino-to-a-google-hangout/">I read about</a> a delightful project involving LEDs, Arduino, Processing, Node.js, Google+ and Google Hangouts.

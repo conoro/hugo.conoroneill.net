@@ -5,8 +5,9 @@ draft = false
 title = "Visualisation of Irish Property Price Register Data using Interactive Map from Google Fusion Tables"
 description = ""
 slug = "quick-n-dirty-visualisation-of-2010-property-price-register-data-into-interactive-map"
+categories = ["Software Development"]
+tags = ["database", "gps", "ireland"]
 +++
-
 #"Visualisation of Irish Property Price Register Data using Interactive Map from Google Fusion Tables"
 
 UPDATE:

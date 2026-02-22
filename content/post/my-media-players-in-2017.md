@@ -5,8 +5,9 @@ draft = false
 title = "My Media Players in 2017"
 description = " "
 slug = "my-media-players-in-2017"
+categories = ["IoT & Electronics"]
+tags = ["android", "gaming", "raspberry-pi", "video", "wifi"]
 +++
-
 Our journey with media players started a long time ago by adding a hardware hack to an original pre-360 XBOX so it could run XBMC. We've gone through a bunch of devices since, with the Raspberry Pi being the mainstay since 2012, until its lack of x265, 4K and Netflix meant we had to look elsewhere in 2017.
 
 Quick side-note: By complete coincidence, [XMBC has just been released today on the XBOX One](https://kodi.tv/article/kodi-xbox-one). It really has come full circle.

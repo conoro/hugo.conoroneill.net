@@ -5,8 +5,9 @@ draft = false
 title = "Imagine if Facebook Events allowed Apps for TV Shows"
 description = ""
 slug = "imagine-if-facebook-events-allowed-apps-for-tv-shows"
+categories = ["General Tech"]
+tags = ["facebook", "twitter"]
 +++
-
 #"Imagine if Facebook Events allowed Apps for TV Shows"
 
 

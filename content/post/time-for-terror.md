@@ -5,8 +5,9 @@ draft = false
 title = "Time for TERROR"
 description = ""
 slug = "time-for-terror"
+categories = ["General Tech"]
+tags = ["flooding", "ireland", "twitter"]
 +++
-
 #"Time for TERROR"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Check out Scratch for Arduino S4A. Easier electronics for kids"
 description = ""
 slug = "check-out-scratch-for-arduino-s4a-easier-electronics-for-kids"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "led", "retro-computing", "sensors", "wifi"]
 +++
-
 #"Check out Scratch for Arduino (S4A). Easier electronics for kids"
 
 Whilst I'm a huge fan of the Arduinoinitiative(is "initiative"the right word?), its programming language, Wiring, is still fundamentally C with most of its power but also most of its difficulty.

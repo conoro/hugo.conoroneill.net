@@ -5,8 +5,9 @@ draft = false
 title = "Ubuntu Announces the Unity Mouse"
 description = ""
 slug = "ubuntu-announces-the-unity-mouse"
+categories = ["Cloud & Infrastructure"]
+tags = ["linux"]
 +++
-
 #"Ubuntu Announces the Unity Mouse"
 
 

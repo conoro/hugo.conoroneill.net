@@ -5,8 +5,9 @@ draft = false
 title = "My App Inventor post about our kids' school is now on the MIT site"
 description = ""
 slug = "my-app-inventor-post-about-our-kids-school-is-now-on-the-mit-site"
+categories = ["Mobile & Apps"]
+tags = ["education", "ireland", "low-code"]
 +++
-
 #"My App Inventor post about our kids' school is now on the MIT site"
 
 You have no idea how proud I am of this. The lovely people in <a href="http://cs4hs.com/">Google CS4HS</a>and MIT have put my blogpost about our experiences with App Inventor in a rural Irish school up <a href="http://appinventoredu.mit.edu/stories/after-school-app-inventor-ireland">on the MIT site</a>.

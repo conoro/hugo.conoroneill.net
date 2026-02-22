@@ -5,8 +5,9 @@ draft = false
 title = "Child abuse and cover-ups are about power."
 description = ""
 slug = "child-abuse-and-cover-ups-are-about-power"
+categories = ["Opinion & Commentary"]
+tags = ["ireland"]
 +++
-
 #"Child abuse and cover-ups are about power."
 
 

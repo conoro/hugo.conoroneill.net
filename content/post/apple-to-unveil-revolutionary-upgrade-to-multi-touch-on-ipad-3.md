@@ -5,8 +5,9 @@ draft = false
 title = "Apple to unveil revolutionary upgrade to multi-touch on iPad 3"
 description = ""
 slug = "apple-to-unveil-revolutionary-upgrade-to-multi-touch-on-ipad-3"
+categories = ["Mobile & Apps"]
+tags = ["android", "food-tech", "ios"]
 +++
-
 #"Apple to unveil revolutionary upgrade to multi-touch on iPad 3"
 
 In response to many complaints from users of the iPad 2 that the 8finger-2thumb gesture to switch between Apps was too simplistic, we can exclusively reveal that Apple will shortly announce their <strong>Multi-Toe Interface</strong>.

@@ -5,8 +5,9 @@ draft = false
 title = "The AND100 Android Box is perfect for Netflix, RTE Player etc"
 description = ""
 slug = "the-and100-android-box-is-perfect-for-netflix-rte-player-etc"
+categories = ["IoT & Electronics"]
+tags = ["android", "raspberry-pi", "security", "video", "wifi"]
 +++
-
 #"The AND100 Android Box is perfect for Netflix, RTE Player etc"
 
 David in <a href="http://www.tvtrade.ie/">TV Trade</a> very kindly gave me an AND100 <a href="http://www.tvtrade.ie/android-box.html">Android Box</a> before Christmas and I'm only now finally getting around to reviewing it.

@@ -5,8 +5,9 @@ draft = false
 title = "Android Fanboi Aged 72"
 description = ""
 slug = "android-fanboi-aged-72"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "gaming", "google", "gps", "halloween", "ios", "ireland", "lego", "nokia", "photography", "wifi"]
 +++
-
 #"Android Fanboi Aged 72"
 
 

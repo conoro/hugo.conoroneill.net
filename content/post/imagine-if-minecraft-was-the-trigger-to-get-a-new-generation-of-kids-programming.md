@@ -5,8 +5,9 @@ draft = false
 title = "Imagine if Minecraft was the trigger to get a new generation of kids programming?"
 description = ""
 slug = "imagine-if-minecraft-was-the-trigger-to-get-a-new-generation-of-kids-programming"
+categories = ["IoT & Electronics"]
+tags = ["android", "facebook", "gaming", "minecraft", "raspberry-pi", "twitter"]
 +++
-
 #"Imagine if Minecraft was the trigger to get a new generation of kids programming?"
 
 <blockquote class="twitter-tweet tw-align-center">If you want to know what the social network of the future will look like, forget twitter, facebook &amp; <a title="http://App.net" href="http://t.co/Dw8wVfPG">App.net</a>. Look at Minecraft

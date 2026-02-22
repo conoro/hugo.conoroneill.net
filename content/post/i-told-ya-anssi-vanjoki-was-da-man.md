@@ -5,8 +5,9 @@ draft = false
 title = "I told ya Anssi Vanjoki was da man"
 description = ""
 slug = "i-told-ya-anssi-vanjoki-was-da-man"
+categories = ["Mobile & Apps"]
+tags = ["nokia"]
 +++
-
 #"I told ya Anssi Vanjoki was da man"
 
 

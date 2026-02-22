@@ -5,8 +5,9 @@ draft = false
 title = "Creativity not Consumption - Origo a 3D printer for everyone"
 description = ""
 slug = "creativity-not-consumption-origo-a-3d-printer-for-everyone"
+categories = ["IoT & Electronics"]
+tags = ["3d-printing", "gaming"]
 +++
-
 #"Creativity not Consumption - Origo a 3D printer for everyone"
 
 

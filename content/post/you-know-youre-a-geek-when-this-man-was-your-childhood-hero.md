@@ -5,8 +5,9 @@ draft = false
 title = "You know you're a geek when this man was your childhood hero"
 description = ""
 slug = "you-know-youre-a-geek-when-this-man-was-your-childhood-hero"
+categories = ["Web & Blogging"]
+tags = ["retro-computing"]
 +++
-
 #"You know you're a geek when this man was your childhood hero"
 
 

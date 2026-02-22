@@ -5,8 +5,8 @@ draft = false
 title = "This Season I'll Be Mostly Wearing Bing"
 description = ""
 slug = "this-season-ill-be-mostly-wearing-bing"
+categories = ["Media & Entertainment"]
 +++
-
 #"This Season I'll Be Mostly Wearing Bing"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Cent The Pete running on Raspberry Pi"
 description = ""
 slug = "cent-the-pete-running-on-raspberry-pi"
+categories = ["IoT & Electronics"]
+tags = ["raspberry-pi", "retro-computing"]
 +++
-
 #"Cent The Pete running on Raspberry Pi"
 
 A Centipede clone written by me in Z80 Assembler in 1985. Now running on the Fuse ZX Spectrum emulator on the Speccy's spiritual successor, the Raspberry Pi.

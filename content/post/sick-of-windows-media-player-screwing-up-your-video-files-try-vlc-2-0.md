@@ -5,8 +5,8 @@ draft = false
 title = "Sick of Windows Media Player screwing up your video files? Try VLC 2.0"
 description = ""
 slug = "sick-of-windows-media-player-screwing-up-your-video-files-try-vlc-2-0"
+categories = ["General Tech"]
 +++
-
 #"Sick of Windows Media Player screwing up your video files? Try VLC 2.0"
 
 I love <a href="http://www.videolan.org/">VLC</a>. It's a media player than can handle any piece of crap video you throw at it. When WMP can't keep audio/video in sync for more than a minute, VLC nails it. There is an incredible set of features in there, of which I have only barely scratched the surface.

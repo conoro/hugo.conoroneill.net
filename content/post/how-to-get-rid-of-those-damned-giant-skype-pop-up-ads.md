@@ -5,8 +5,8 @@ draft = false
 title = "How to Get Rid of Those Damned Giant Skype Pop-Up Ads"
 description = ""
 slug = "how-to-get-rid-of-those-damned-giant-skype-pop-up-ads"
+categories = ["General Tech"]
 +++
-
 #"How to Get Rid of Those Damned Giant Skype Pop-Up Ads"
 
 

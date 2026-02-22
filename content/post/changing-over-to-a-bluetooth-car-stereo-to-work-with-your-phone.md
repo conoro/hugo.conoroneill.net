@@ -5,8 +5,9 @@ draft = false
 title = "Changing over to a Bluetooth car stereo to work with your phone"
 description = ""
 slug = "changing-over-to-a-bluetooth-car-stereo-to-work-with-your-phone"
+categories = ["Mobile & Apps"]
+tags = ["bluetooth", "facebook", "ireland", "podcast"]
 +++
-
 #"Changing over to a Bluetooth car stereo to work with your phone"
 
 I blogged about this before ages ago but had some recent questions on it so I thought I'd do a quick update. If, like me, you drive an old car, your car stereo probably doesn't have an audio jack and almost definitely doesn't have bluetooth.

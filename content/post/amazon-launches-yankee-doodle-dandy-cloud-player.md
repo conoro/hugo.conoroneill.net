@@ -5,8 +5,9 @@ draft = false
 title = "Amazon launches Yankee Doodle Dandy Cloud Player"
 description = ""
 slug = "amazon-launches-yankee-doodle-dandy-cloud-player"
+categories = ["Cloud & Infrastructure"]
+tags = ["amazon", "aws", "cloud"]
 +++
-
 #"Amazon launches Yankee Doodle Dandy Cloud Player"
 
 

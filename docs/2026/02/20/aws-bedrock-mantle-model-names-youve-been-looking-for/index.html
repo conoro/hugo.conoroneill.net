@@ -1,289 +1,638 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  	<meta property="og:title" content=" The AWS Bedrock Mantle Model Names You&#39;ve Been Looking For &middot;  Cross Dominant" />
-  	<meta property="og:site_name" content="Cross Dominant" />
-  	<meta property="og:url" content="https://conoroneill.net/2026/02/20/aws-bedrock-mantle-model-names-youve-been-looking-for/" />
-
-    
-  	<meta property="og:type" content="article" />
-
-    <meta property="og:article:published_time" content="2026-02-20T07:40:48Z" />
-
-    
-    
-
-  <title>
-     The AWS Bedrock Mantle Model Names You&#39;ve Been Looking For &middot;  Cross Dominant
-  </title>
-
-    <meta name="description" content="Mixed laterality since 1968" />
-
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="shortcut icon" href="https://conoroneill.net/favicon.ico">
-	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
-
-    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous">
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="I honestly can&rsquo;t understand how Amazon is doing such a dreadful job of communicating how to use Bedrock Mantle or even what it is. Every blogpost about new supported models links to information pages that are factually useless if you want to use them.\nYesterday I finally figured out, with the help of some random Python script in a random GitHub repo, not made by Amazon, how to get a list of the real model names you need to use.\n">
+<title>The AWS Bedrock Mantle Model Names You&#39;ve Been Looking For</title>
 
 
+<link rel="canonical" href="https://conoroneill.net/2026/02/20/aws-bedrock-mantle-model-names-youve-been-looking-for/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
-    
-      
-          <link href="https://conoroneill.net/index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
-      
-      
-    
-    <meta name="generator" content="Hugo 0.84.4" />
 
-    <link rel="canonical" href="https://conoroneill.net/2026/02/20/aws-bedrock-mantle-model-names-youve-been-looking-for/" />
+<link rel="stylesheet" href="/scss/style.min.390cc81d180d80110703ea467e355a4f3a0f44f25d4e957842790824fb5f2ef2.css"><meta property='og:title' content="The AWS Bedrock Mantle Model Names You've Been Looking For">
+<meta property='og:description' content="I honestly can&rsquo;t understand how Amazon is doing such a dreadful job of communicating how to use Bedrock Mantle or even what it is. Every blogpost about new supported models links to information pages that are factually useless if you want to use them.\nYesterday I finally figured out, with the help of some random Python script in a random GitHub repo, not made by Amazon, how to get a list of the real model names you need to use.\n">
+<meta property='og:url' content='https://conoroneill.net/2026/02/20/aws-bedrock-mantle-model-names-youve-been-looking-for/'>
+<meta property='og:site_name' content='Mixed Laterality'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='ai' /><meta property='article:tag' content='amazon' /><meta property='article:tag' content='api' /><meta property='article:tag' content='aws' /><meta property='article:tag' content='cloud' /><meta property='article:tag' content='open-source' /><meta property='article:tag' content='python' /><meta property='article:tag' content='sensors' /><meta property='article:tag' content='twitter' /><meta property='article:published_time' content='2026-02-20T07:40:48&#43;00:00'/><meta property='article:modified_time' content='2026-02-20T07:40:48&#43;00:00'/>
+<meta name="twitter:title" content="The AWS Bedrock Mantle Model Names You've Been Looking For">
+<meta name="twitter:description" content="I honestly can&rsquo;t understand how Amazon is doing such a dreadful job of communicating how to use Bedrock Mantle or even what it is. Every blogpost about new supported models links to information pages that are factually useless if you want to use them.\nYesterday I finally figured out, with the help of some random Python script in a random GitHub repo, not made by Amazon, how to get a list of the real model names you need to use.\n">
+    <link rel="shortcut icon" href="/images/Blog_Flow_Icon.jpg" />
+<style>
+    .site-header-image {
+        margin-bottom: var(--section-separation);
+        border-radius: var(--card-border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow-l1);
+    }
+    .site-header-image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    @media (min-width: 768px) {
+        .site-header-image img {
+            height: 280px;
+        }
+    }
+    @media (min-width: 1024px) {
+        .site-header-image img {
+            height: 350px;
+        }
+    }
 
-    
+    .article-list .article-subtitle {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 1.5rem;
+    }
+</style>
+
+    </head>
+    <body class="
+    article-page
+    ">
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-      ga('create', 'UA-88610-4', 'auto');
-      ga('send', 'pageview');
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
 
-    </script>
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="/images/Blog_Flow_Icon.jpg" 
+                        width=""
+                        height=""
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Mixed Laterality</a></h1>
+            <h2 class="site-description">Tech Blogging since 2001</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/conoro'
+                        
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/conoroneill'
+                        
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+  <path d="M8 11l0 5" />
+  <path d="M8 8l0 .01" />
+  <path d="M12 16l0 -5" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/conoro'
+                        
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
     
 
-    
-</head>
-<body class="nav-closed">
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
 
-  <div class="nav">
-    <h3 class="nav-title">Menu</h3>
-    <a href="#" class="nav-close">
-        <span class="hidden">Close</span>
-    </a>
-    <ul>
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+            
+            
+            <a href="/categories/ai--machine-learning/" style="background-color: hsl(282, 60%, 84%); color: hsl(282, 60%, 15%);">
+                AI &amp; Machine Learning
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/2026/02/20/aws-bedrock-mantle-model-names-youve-been-looking-for/">The AWS Bedrock Mantle Model Names You&#39;ve Been Looking For</a>
+        </h2>
+
+        
+            
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2026-02-20T07:40:48Z'>Friday, February 20, 2026</time>
+            </div>
         
 
         
-    </ul>
-
+    </footer>
+    
 
     
-    <a class="subscribe-button icon-feed" href="https://conoroneill.net/index.xml">Subscribe</a>
+
     
 </div>
-<span class="nav-cover"></span>
 
-
- <div class="site-wrapper">
-
-
-
-
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
-
-
-  
-      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/cross_dominant.png" alt="Home" /></a>
-  
-  
-      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
-  
-  </nav>
 </header>
 
+    
 
-
-<main class="content" role="main">
-
-
-
-
-  <article class="post post">
-
-    <header class="post-header">
-        <h1 class="post-title">The AWS Bedrock Mantle Model Names You&#39;ve Been Looking For</h1>
-        <small></small>
-
-        <section class="post-meta">
-        
-          <time class="post-date" datetime="2026-02-20T07:40:48Z">
-            Feb 20, 2026
-          </time>
-        
-         
-        </section>
-    </header>
-
-    <section class="post-content">
-      <p>I honestly can&rsquo;t understand how Amazon is doing such a dreadful job of communicating how to use Bedrock Mantle or even what it is. Every blogpost about new supported models links to information pages that are factually useless if you want to use them.</p>
-<p><img src="/images/2026/02/bedrock-cartoon.jpg" alt="Bedrock Cartoon"></p>
+    <section class="article-content">
+    
+    
+    <p>I honestly can&rsquo;t understand how Amazon is doing such a dreadful job of communicating how to use Bedrock Mantle or even what it is. Every blogpost about new supported models links to information pages that are factually useless if you want to use them.</p>
+<p><img src="/images/2026/02/bedrock-cartoon.jpg"
+	
+	
+	loading="lazy"
+	
+		alt="Bedrock Cartoon"
+	
+    
+	
+></p>
 <p>Yesterday I finally figured out, with the help of some random Python script in a random GitHub repo, not made by Amazon, how to get a list of the real model names you need to use.</p>
 <p>Of course this post will be out of date as soon as I publish it, but hopefully you&rsquo;ll read this and I&rsquo;ll have saved you banging your head off a desk like I have been doing since Mantle was announced.</p>
 <p>So here are the basics.</p>
 <p>Bedrock Mantle is many things but the only thing of interest to me is that it provides a range of LLMs on OpenAI-compatible endpoints using API keys for access. So no need for Amazon SDKs or IAM or any of that malarkey. Just use the OpenAI API and the right model names.</p>
-<p>If you go to this page: <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-mantle.html">https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-mantle.html</a> you&rsquo;ll see the list of regional end-points. These are now correct. They weren&rsquo;t originally.🤦‍♂️</p>
+<p>If you go to this page: <a class="link" href="https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-mantle.html"  target="_blank" rel="noopener"
+    >https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-mantle.html</a> you&rsquo;ll see the list of regional end-points. These are now correct. They weren&rsquo;t originally.🤦‍♂️</p>
 <p>Nowhere on that page does it link to the list of actual models available on Mantle. It links to OpenAI&rsquo;s list of models 🤦‍♂️</p>
 <p>I asked AWS support on Twitter for the list and they told me to ask a question on their support forums.🤦‍♂️</p>
-<p>You&rsquo;ll probably Google for the names of Bedrock models and find <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html">this page</a>. Then you&rsquo;ll discover that Mantle only has a subset of those and those model IDs are not correct for Mantle in many cases.🤦‍♂️</p>
+<p>You&rsquo;ll probably Google for the names of Bedrock models and find <a class="link" href="https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html"  target="_blank" rel="noopener"
+    >this page</a>. Then you&rsquo;ll discover that Mantle only has a subset of those and those model IDs are not correct for Mantle in many cases.🤦‍♂️</p>
 <p>So, as of Feb 20th 2026, here are the correct model names available on Bedrock Mantle:</p>
-<pre><code class="language-csv" data-lang="csv">mistral.ministral-3-3b-instruct,
-moonshotai.kimi-k2.5,
-openai.gpt-oss-20b,
-qwen.qwen3-coder-next,
-qwen.qwen3-235b-a22b-2507,
-mistral.mistral-large-3-675b-instruct,
-qwen.qwen3-next-80b-a3b-instruct,
-google.gemma-3-27b-it,
-nvidia.nemotron-nano-12b-v2,
-mistral.magistral-small-2509,
-openai.gpt-oss-safeguard-20b,
-zai.glm-4.7,
-minimax.minimax-m2.1,
-zai.glm-4.7-flash,
-openai.gpt-oss-safeguard-120b,
-mistral.voxtral-mini-3b-2507,
-qwen.qwen3-coder-30b-a3b-instruct,
-google.gemma-3-12b-it,
-mistral.ministral-3-8b-instruct,
-zai.glm-4.6,
-deepseek.v3.1,
-qwen.qwen3-coder-480b-a35b-instruct,
-mistral.voxtral-small-24b-2507,
-openai.gpt-oss-120b,
-qwen.qwen3-32b,
-minimax.minimax-m2,
-google.gemma-3-4b-it,
-nvidia.nemotron-nano-3-30b,
-qwen.qwen3-vl-235b-a22b-instruct,
-mistral.ministral-3-14b-instruct,
-deepseek.v3.2,
-moonshotai.kimi-k2-thinking,
-nvidia.nemotron-nano-9b-v2
-</code></pre><p>The relevant end-points for me are:</p>
-<pre><code>https://bedrock-mantle.us-east-1.api.aws/v1/chat/completions
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csv" data-lang="csv"><span style="display:flex;"><span><span style="color:#e6db74">mistral.ministral-3-3b-instruct</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">moonshotai.kimi-k2.5</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">openai.gpt-oss-20b</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">qwen.qwen3-coder-next</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">qwen.qwen3-235b-a22b-2507</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">mistral.mistral-large-3-675b-instruct</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">qwen.qwen3-next-80b-a3b-instruct</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">google.gemma-3-27b-it</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">nvidia.nemotron-nano-12b-v2</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">mistral.magistral-small-2509</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">openai.gpt-oss-safeguard-20b</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">zai.glm-4.7</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">minimax.minimax-m2.1</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">zai.glm-4.7-flash</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">openai.gpt-oss-safeguard-120b</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">mistral.voxtral-mini-3b-2507</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">qwen.qwen3-coder-30b-a3b-instruct</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">google.gemma-3-12b-it</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">mistral.ministral-3-8b-instruct</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">zai.glm-4.6</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">deepseek.v3.1</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">qwen.qwen3-coder-480b-a35b-instruct</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">mistral.voxtral-small-24b-2507</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">openai.gpt-oss-120b</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">qwen.qwen3-32b</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">minimax.minimax-m2</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">google.gemma-3-4b-it</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">nvidia.nemotron-nano-3-30b</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">qwen.qwen3-vl-235b-a22b-instruct</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">mistral.ministral-3-14b-instruct</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">deepseek.v3.2</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">moonshotai.kimi-k2-thinking</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">nvidia.nemotron-nano-9b-v2</span>
+</span></span></code></pre></div><p>The relevant end-points for me are:</p>
+<pre tabindex="0"><code>https://bedrock-mantle.us-east-1.api.aws/v1/chat/completions
 
 https://bedrock-mantle.eu-west-1.api.aws/v1/chat/completions
-
 </code></pre><p>You create long-term API keys in the Bedrock Console (set expiry to never). You&rsquo;ll need Administrator-level permissions to do this or a very specific set of IAM creds.</p>
 <p>You can&rsquo;t name the keys yourself, Amazon will pick obtuse random nonsense for those. So you&rsquo;ll have to track what keys are used by what somewhere else.🤦‍♂️</p>
 <p>AWS is where UX goes to die.</p>
 <p>A sample Curl command to use Z.ai GLM-4.7-flash is as follows:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -X POST https://bedrock-mantle.us-east-1.api.aws/v1/chat/completions <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>   -H <span style="color:#e6db74">&#34;Content-Type: application/json&#34;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>   -H <span style="color:#e6db74">&#34;Authorization: Bearer YOUR_API_KEY_HERE&#34;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>   -d <span style="color:#e6db74">&#39;{
-</span><span style="color:#e6db74">    &#34;model&#34;: &#34;zai.glm-4.7-flash&#34;,
-</span><span style="color:#e6db74">    &#34;reasoning&#34;: { &#34;enabled&#34;: false },
-</span><span style="color:#e6db74">    &#34;messages&#34;: [
-</span><span style="color:#e6db74">        {
-</span><span style="color:#e6db74">            &#34;role&#34;: &#34;user&#34;,
-</span><span style="color:#e6db74">            &#34;content&#34;: &#34;Hello! What model are you?&#34;
-</span><span style="color:#e6db74">        }
-</span><span style="color:#e6db74">    ],
-</span><span style="color:#e6db74">    &#34;max_tokens&#34;: 512,
-</span><span style="color:#e6db74">    &#34;temperature&#34;: 0.7
-</span><span style="color:#e6db74">}&#39;</span>
-
-</code></pre></div><p>I still don&rsquo;t know if it&rsquo;s <code>&quot;reasoning&quot;: { &quot;enabled&quot;: false }</code> or <code>&quot;extra_params&quot;: { &quot;reasoning&quot;: { &quot;effort&quot;: &quot;low&quot; } }</code> for each of the reasoning models. The latter seems to shut GPT-OSS-120B up correctly.</p>
-<p>Finally, I recommend installing that <a href="https://github.com/danilop/bedrock-mantle">simple Python tool</a> I used if you ever need to get a list of the current models available. I had tried to use the API call provided on one of the AWS pages and it returned an empty list.🤦‍♂️</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
-git clone git@github.com:danilop/bedrock-mantle.git
-cd bedrock-mantle
-uv tool install .
-export OPENAI_BASE_URL<span style="color:#f92672">=</span>https://bedrock-mantle.us-east-1.api.aws/v1
-export OPENAI_API_KEY<span style="color:#f92672">=</span> YOUR_API_KEY_HERE
-
-bedrock-mantle list-models | awk -F<span style="color:#e6db74">&#39;: &#39;</span> <span style="color:#e6db74">&#39;/ID:/ {print $2}&#39;</span>
-
-</code></pre></div><p>Hope that Helps.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -X POST https://bedrock-mantle.us-east-1.api.aws/v1/chat/completions <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>   -H <span style="color:#e6db74">&#34;Content-Type: application/json&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>   -H <span style="color:#e6db74">&#34;Authorization: Bearer YOUR_API_KEY_HERE&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>   -d <span style="color:#e6db74">&#39;{
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;model&#34;: &#34;zai.glm-4.7-flash&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;reasoning&#34;: { &#34;enabled&#34;: false },
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;messages&#34;: [
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        {
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            &#34;role&#34;: &#34;user&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            &#34;content&#34;: &#34;Hello! What model are you?&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        }
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    ],
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;max_tokens&#34;: 512,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;temperature&#34;: 0.7
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">}&#39;</span>
+</span></span></code></pre></div><p>I still don&rsquo;t know if it&rsquo;s <code>&quot;reasoning&quot;: { &quot;enabled&quot;: false }</code> or <code>&quot;extra_params&quot;: { &quot;reasoning&quot;: { &quot;effort&quot;: &quot;low&quot; } }</code> for each of the reasoning models. The latter seems to shut GPT-OSS-120B up correctly.</p>
+<p>Finally, I recommend installing that <a class="link" href="https://github.com/danilop/bedrock-mantle"  target="_blank" rel="noopener"
+    >simple Python tool</a> I used if you ever need to get a list of the current models available. I had tried to use the API call provided on one of the AWS pages and it returned an empty list.🤦‍♂️</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>git clone git@github.com:danilop/bedrock-mantle.git
+</span></span><span style="display:flex;"><span>cd bedrock-mantle
+</span></span><span style="display:flex;"><span>uv tool install .
+</span></span><span style="display:flex;"><span>export OPENAI_BASE_URL<span style="color:#f92672">=</span>https://bedrock-mantle.us-east-1.api.aws/v1
+</span></span><span style="display:flex;"><span>export OPENAI_API_KEY<span style="color:#f92672">=</span> YOUR_API_KEY_HERE
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>bedrock-mantle list-models | awk -F<span style="color:#e6db74">&#39;: &#39;</span> <span style="color:#e6db74">&#39;/ID:/ {print $2}&#39;</span>
+</span></span></code></pre></div><p>Hope that Helps.</p>
 <p>AWS, feel free to copy and paste this post on to the Bedrock docs site and save your users a lot of wasted time and frustration.</p>
 <p>Finally, to end on a non-snarky note, Mantle is a huge improvement over the previous dog slow unreliable GPT-OSS endpoints and I&rsquo;m seeing some superb TTFT numbers on the newer models.</p>
 
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/ai/">Ai</a>
+        
+            <a href="/tags/amazon/">Amazon</a>
+        
+            <a href="/tags/api/">Api</a>
+        
+            <a href="/tags/aws/">Aws</a>
+        
+            <a href="/tags/cloud/">Cloud</a>
+        
+            <a href="/tags/open-source/">Open-Source</a>
+        
+            <a href="/tags/python/">Python</a>
+        
+            <a href="/tags/sensors/">Sensors</a>
+        
+            <a href="/tags/twitter/">Twitter</a>
+        
     </section>
 
 
-  <footer class="post-footer">
+    </footer>
 
 
     
-    <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
-    </figure>
-    
-
-    
-
-
-
-
-
-<section class="author">
-  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
-  
-  <p>Tech guy who likes running slowly</p>
-  
-  <div class="author-meta">
-    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
-    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
-  </div>
-</section>
-
-
-
-    
-<section class="share">
-  <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=The%20AWS%20Bedrock%20Mantle%20Model%20Names%20You%27ve%20Been%20Looking%20For&amp;url=https%3a%2f%2fconoroneill.net%2f2026%2f02%2f20%2faws-bedrock-mantle-model-names-youve-been-looking-for%2f"
-      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-      <span class="hidden">Twitter</span>
-  </a>
-</section>
-
-
-
-    
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname = 'crossdominant';
-  var disqus_url = 'https:\/\/conoroneill.net\/2026\/02\/20\/aws-bedrock-mantle-model-names-youve-been-looking-for\/';
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-
-    
-
-  </footer>
 </article>
 
-</main>
-    <footer class="site-footer clearfix">
-        <section class="copyright"><a href="">Cross Dominant</a> </section>
-        
-        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
-        
-    </footer>
-    </div>
-    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
-    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
     
-</body>
-</html>
 
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/2022/07/18/rss-is-on-fire-again-and-its-all-down-to-slackops/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">RSS is on fire again, and it&#39;s all down to SlackOps</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2021/11/22/mongodb-atlas-data-api-huge-for-no-code-low-code-automation-platforms/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">The new MongoDB Atlas Data API is huge for No-Code and Low-Code Automation Platforms</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2021/07/15/tiktok-rss-feeds-using-github-octo-flat-data/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">TikTok RSS Flat - Generate RSS feeds from TikTok using GitHub OCTO Flat Data</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2015/12/31/what-excited-conor-in-tech-in-2015/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">What excited Conor in tech in 2015?</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2024/02/13/saving-all-your-github-stars-to-pinboard/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Saving all your GitHub Stars to Pinboard</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+        <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "crossdominant" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2001 - 
+        
+        2026 Mixed Laterality
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="4.0.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+
+
+    </body>
+</html>

@@ -5,8 +5,9 @@ draft = false
 title = "The HTC Sensation is........no I'm not going to say it"
 description = ""
 slug = "the-htc-sensation-is-no-im-not-going-to-say-it"
+categories = ["IoT & Electronics"]
+tags = ["android", "bluetooth", "ireland", "led", "photography", "samsung", "wifi"]
 +++
-
 #"The HTC Sensation is........no I'm not going to say it"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "The Happy Foot Co is feeding my #VFFs Addiction"
 description = ""
 slug = "the-happy-foot-co-is-feeding-my-vffs-addiction"
+categories = ["Running & Fitness"]
+tags = ["ireland"]
 +++
-
 #"The Happy Foot Co is feeding my #VFFs Addiction"
 
 

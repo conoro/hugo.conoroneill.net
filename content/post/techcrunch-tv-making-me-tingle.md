@@ -5,8 +5,9 @@ draft = false
 title = "TechCrunch TV Making me tingle"
 description = ""
 slug = "techcrunch-tv-making-me-tingle"
+categories = ["Startups & Business"]
+tags = ["golang", "ireland", "startup"]
 +++
-
 #"TechCrunch TV \u0096 Making me tingle"
 
 

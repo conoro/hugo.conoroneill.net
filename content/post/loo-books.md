@@ -5,8 +5,9 @@ draft = false
 title = "Loo Books"
 description = ""
 slug = "loo-books"
+categories = ["Media & Entertainment"]
+tags = ["food-tech"]
 +++
-
 #"Loo Books"
 
 

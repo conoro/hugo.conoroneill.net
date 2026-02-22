@@ -5,8 +5,8 @@ draft = false
 title = "Migrating Google Rich Snippets to schema.org"
 description = ""
 slug = "migrating-google-rich-snippets-to-schema-org"
+categories = ["Opinion & Commentary"]
 +++
-
 #"Migrating Google Rich Snippets to schema.org"
 
 

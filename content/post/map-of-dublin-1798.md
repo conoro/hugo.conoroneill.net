@@ -5,8 +5,9 @@ draft = false
 title = "Map Of Dublin 1798."
 description = ""
 slug = "map-of-dublin-1798"
+categories = ["Web & Blogging"]
+tags = ["ireland", "twitter"]
 +++
-
 #"Map Of Dublin 1798."
 
 

@@ -5,8 +5,8 @@ draft = false
 title = "Seriously unimpressed with Wavesecure's Purchase Page"
 description = ""
 slug = "seriously-unimpressed-with-wavesecures-purchase-page"
+categories = ["General Tech"]
 +++
-
 #"Seriously unimpressed with Wavesecure's Purchase Page"
 
 

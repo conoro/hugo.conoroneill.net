@@ -5,8 +5,9 @@ draft = false
 title = "What the hell ever happened to Twitter Annotations?"
 description = ""
 slug = "what-the-hell-ever-happened-to-twitter-annotations"
+categories = ["Web & Blogging"]
+tags = ["facebook", "twitter"]
 +++
-
 #"What the hell ever happened to Twitter Annotations?"
 
 

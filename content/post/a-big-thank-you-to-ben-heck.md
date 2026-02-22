@@ -5,8 +5,9 @@ draft = false
 title = "A Big Thank You to Ben Heck"
 description = "I just want to express my appreciation now that the Ben Heck Show is at an end"
 slug = "a-big-thank-you-to-ben-heck"
+categories = ["IoT & Electronics"]
+tags = ["3d-printing", "arduino", "raspberry-pi", "retro-computing", "video"]
 +++
-
 ![Ben Heck](/images/2018/09/Ben-Heck-Xbox-One-S-laptop.png)
 
 [Ben Heckendorn](https://www.benheck.com/) recently ended his YouTube show with Element14 after several years of wonderful maker videos. Whilst [the channel continues](https://www.youtube.com/channel/UChturLXwYxwTOf_5krs0qvA) with a new name and other presenters, Ben has moved on.

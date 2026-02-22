@@ -5,8 +5,9 @@ draft = false
 title = "Lego Case and Sugru for Raspberry Pi"
 description = ""
 slug = "lego-case-and-sugru-for-raspberry-pi"
+categories = ["IoT & Electronics"]
+tags = ["lego", "raspberry-pi"]
 +++
-
 #"Lego Case and Sugru for Raspberry Pi"
 
 <a href="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/05/DSCF1499.jpg"><img class="alignnone size-large wp-image-734" title="DSCF1499" src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/05/DSCF1499-1024x768.jpg" alt="" width="584" height="438" /></a>

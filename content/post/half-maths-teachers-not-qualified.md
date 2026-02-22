@@ -5,8 +5,9 @@ draft = false
 title = "Half maths teachers not qualified"
 description = ""
 slug = "half-maths-teachers-not-qualified"
+categories = ["Low Code & No Code"]
+tags = ["ireland"]
 +++
-
 #"Half maths teachers not qualified"
 
 

@@ -1,31 +1,108 @@
 baseurl = "https://conoroneill.net/"
 languageCode = "en-us"
-title = "Cross Dominant"
-theme = "casper"
-Paginate = 10
-disqusShortname = "crossdominant"
-uglyUrls=false
+title = "Mixed Laterality"
+#theme = "casper"
+theme = "hugo-theme-stack"
+uglyUrls = false
 publishdir = "docs"
-rssLimit = 20
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[pagination]
+  pagerSize = 10
+
+[services.disqus]
+  shortname = "crossdominant"
 
 [markup.goldmark.renderer]
-  unsafe= true
+  unsafe = true
 
 [permalinks]
-  post="/:year/:month/:day/:slug/"
+  post = "/:year/:month/:day/:slug/"
+  page = "/:slug/"
+
+[author]
+  name = "Conor O'Neill"
+  email = ""
 
 [params]
+  mainSections = ["post"]
+  rssFullContent = true
+  favicon = "/images/Blog_Flow_Icon.jpg"
+  description = "Mixed laterality since 1968"
+  headerImage = "/images/Blog_Flow_Header.jpg"
+
+  # Legacy params kept for reference
   githubName = "conoro"
   instagramName = "conor_runs"
   otherblog = "https://conoroneill.com"
   linkedinName = "conoroneill"
-  description = "Mixed laterality since 1968"
-  google_analytics = "UA-88610-4"
-  googleAnalyticsUserID = "UA-88610-4"
-  cover = "images/ZXSpectrum48k.jpg"
   author = "Conor O'Neill"
   authorlocation = "Bandon, Cork, Ireland"
   authorwebsite = "https://conoroneill.net"
-  bio= "Tech guy who likes running slowly"
-  logo = "images/cross_dominant.png"
+  bio = "Tech Blogging since 2001"
 
+  [params.footer]
+    since = 2001
+    customText = ""
+
+  [params.sidebar]
+    subtitle = "Tech Blogging since 2001"
+    avatar = "/images/Blog_Flow_Icon.jpg"
+
+  [params.article]
+    headingAnchor = true
+    readingTime = true
+    toc = true
+    [params.article.license]
+      enabled = false
+
+  [params.widgets]
+    homepage = [
+      { type = "search" },
+      { type = "archives", params = { limit = 5 } },
+      { type = "categories", params = { limit = 20, showLink = true } },
+      { type = "tag-cloud", params = { limit = 100, showLink = true } },
+    ]
+    page = [{ type = "toc" }]
+
+  [params.comments]
+    enabled = true
+    provider = "disqus"
+
+  [params.colorScheme]
+    toggle = true
+    default = "auto"
+
+# Main navigation menu (About, Archives, Search are defined in their page front matter)
+
+# Social links in sidebar
+[[menu.social]]
+  identifier = "rss"
+  name = "RSS"
+  url = "/index.xml"
+  [menu.social.params]
+    icon = "rss"
+
+[[menu.social]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/conoro"
+  [menu.social.params]
+    icon = "brand-github"
+
+[[menu.social]]
+  identifier = "linkedin"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/conoroneill"
+  [menu.social.params]
+    icon = "brand-linkedin"
+
+[[menu.social]]
+  identifier = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/conoro"
+  [menu.social.params]
+    icon = "brand-twitter"

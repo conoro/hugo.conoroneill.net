@@ -5,8 +5,8 @@ draft = false
 title = "Sugru + Old Mondeo = Yay"
 description = ""
 slug = "sugru-old-mondeo-yay"
+categories = ["Mobile & Apps"]
 +++
-
 #"Sugru + Old Mondeo = Yay"
 
 My ancient old Ford Mondeo (2001) is still going strong. In some ways I hate it for doing so. It's an appliance and I don't like appliances, I like things with character. Prior to it I only bought Citroens (BX, AX, Xantia) and I loved them dearly. But they were unreliable piles of junk assembled by drunks. Then, once we had kids, an appliance became necessary.

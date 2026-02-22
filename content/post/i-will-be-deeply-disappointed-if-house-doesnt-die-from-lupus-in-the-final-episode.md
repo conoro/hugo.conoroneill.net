@@ -5,8 +5,8 @@ draft = false
 title = "I will be deeply disappointed if House doesn't die from Lupus in the final episode"
 description = ""
 slug = "i-will-be-deeply-disappointed-if-house-doesnt-die-from-lupus-in-the-final-episode"
+categories = ["General Tech"]
 +++
-
 #"I will be deeply disappointed if House doesn't die from Lupus in the final episode"
 
 <blockquote>In a statement just released to the media, Executive Producers David Shore, Katie Jacobs and Hugh Laurie have announced that this current 8th season of the hit Fox series HOUSE will in fact be its last. See for yourself after the jump.</blockquote>

@@ -5,8 +5,9 @@ draft = false
 title = "Paid Apps Imminent for Android in Ireland?"
 description = ""
 slug = "paid-apps-imminent-for-android-in-ireland"
+categories = ["Mobile & Apps"]
+tags = ["android", "ireland", "twitter"]
 +++
-
 #"Paid Apps Imminent for Android in Ireland?"
 
 

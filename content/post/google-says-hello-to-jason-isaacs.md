@@ -5,8 +5,9 @@ draft = false
 title = "Google Says Hello to Jason Isaacs"
 description = ""
 slug = "google-says-hello-to-jason-isaacs"
+categories = ["Media & Entertainment"]
+tags = ["podcast"]
 +++
-
 #"Google Says Hello to Jason Isaacs"
 
 Ah this is just lovely. As anyone who listens to Kermode and Mayo's film reviews on BBC Radio 5 Live (mostly via podcast) knows, they say hello to Jason Isaacs almost every week.

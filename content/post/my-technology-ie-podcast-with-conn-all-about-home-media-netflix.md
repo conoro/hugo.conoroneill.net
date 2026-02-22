@@ -5,8 +5,9 @@ draft = false
 title = "My Technology.ie podcast with Conn - All about Home Media & Netflix"
 description = ""
 slug = "my-technology-ie-podcast-with-conn-all-about-home-media-netflix"
+categories = ["Media & Entertainment"]
+tags = ["ireland", "open-source", "podcast"]
 +++
-
 #"My Technology.ie podcast with Conn - All about Home Media & Netflix"
 
 I had a great auld natter with Conn Muneachin last week all about the launch of Netflix in Ireland and the cobbled together home media setup we have in the house. It's amazing what you can build with some old gear, Cat-5e cable and Open Source software. Hope you enjoy.

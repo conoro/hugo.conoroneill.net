@@ -5,8 +5,9 @@ draft = false
 title = "App Inventor suitable for younger kids too (and mention of wee project I'm working on)"
 description = ""
 slug = "app-inventor-suitable-for-younger-kids-too-and-mention-of-wee-project-im-working-on"
+categories = ["Mobile & Apps"]
+tags = ["education", "google", "lego", "low-code", "video", "wifi"]
 +++
-
 #"App Inventor suitable for younger kids too (and mention of wee project I'm working on)"
 
 

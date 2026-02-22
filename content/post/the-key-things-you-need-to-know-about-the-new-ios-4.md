@@ -5,8 +5,9 @@ draft = false
 title = "The key things you need to know about the new IOS 4"
 description = ""
 slug = "the-key-things-you-need-to-know-about-the-new-ios-4"
+categories = ["Web & Blogging"]
+tags = ["ios", "ireland"]
 +++
-
 #"The key things you need to know about the new IOS 4"
 
 

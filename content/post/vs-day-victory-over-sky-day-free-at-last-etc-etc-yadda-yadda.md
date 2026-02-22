@@ -5,8 +5,9 @@ draft = false
 title = "VS Day - Victory Over Sky Day. Free at last etc etc yadda yadda"
 description = ""
 slug = "vs-day-victory-over-sky-day-free-at-last-etc-etc-yadda-yadda"
+categories = ["Media & Entertainment"]
+tags = ["food-tech", "video"]
 +++
-
 #"VS Day - Victory Over Sky Day. Free at last etc etc yadda yadda"
 
 

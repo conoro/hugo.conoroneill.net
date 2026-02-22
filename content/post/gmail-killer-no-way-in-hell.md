@@ -5,8 +5,9 @@ draft = false
 title = "GMail Killer? No way in hell."
 description = ""
 slug = "gmail-killer-no-way-in-hell"
+categories = ["General Tech"]
+tags = ["facebook", "google"]
 +++
-
 #"GMail Killer? No way in hell."
 
 

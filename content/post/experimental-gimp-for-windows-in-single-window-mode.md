@@ -5,8 +5,8 @@ draft = false
 title = "Experimental GIMP for Windows in Single-Window Mode"
 description = ""
 slug = "experimental-gimp-for-windows-in-single-window-mode"
+categories = ["General Tech"]
 +++
-
 #"Experimental GIMP for Windows in Single-Window Mode"
 
 We use <a href="http://www.gimp.org/">GIMP</a> for all of our basic bitmap manipulations. Whether it's changing the colour of stars or modifying logos for Facebook Connect, it gets the job done brilliantly. I've tried many others like Paint.net and nothing comes close. But as anyone who has used it knows, they have had that horrible multi-window setup for years.

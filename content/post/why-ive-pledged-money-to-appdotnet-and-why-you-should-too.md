@@ -5,8 +5,9 @@ draft = false
 title = "Why I've pledged money to @AppDotNet and why you should too"
 description = ""
 slug = "why-ive-pledged-money-to-appdotnet-and-why-you-should-too"
+categories = ["Software Development"]
+tags = ["amazon", "api", "facebook", "google", "twitter"]
 +++
-
 #"Why I've pledged money to @AppDotNet and why you should too"
 
 There have been lots of concerns about the future of Twitter recently<a href="https://join.app.net/" target="_blank">. App.net</a>was recently announced as a pay-for alternative to Twitter with a powerful API, no ads and a deep commitment to not constantly change the rules on users and developers to suit an ever-changing business plan.

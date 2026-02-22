@@ -5,8 +5,8 @@ draft = false
 title = "Slightly obsessing about the Doctor Who theme music"
 description = ""
 slug = "slightly-obsessing-about-the-doctor-who-theme-music"
+categories = ["Media & Entertainment"]
 +++
-
 #"Slightly obsessing about the Doctor Who theme music"
 
 I watched a superb Culture Show documentary on Doctor Who last week. Several people really stood out for me including <a href="http://www.delia-derbyshire.org/">Delia Derbyshire</a>, the absolute genius who, at the BBC Radiophonic Workshop in 1963,turned Ron Grainer's simple tune into the iconic music that is burned into my brain since I first heard it around 1972, aged 4.

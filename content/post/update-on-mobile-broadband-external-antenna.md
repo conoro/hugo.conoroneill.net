@@ -5,8 +5,9 @@ draft = false
 title = "Update on Mobile Broadband External Antenna"
 description = ""
 slug = "update-on-mobile-broadband-external-antenna"
+categories = ["Mobile & Apps"]
+tags = ["flooding", "gps", "linux", "wifi"]
 +++
-
 #"Update on Mobile Broadband External Antenna"
 
 

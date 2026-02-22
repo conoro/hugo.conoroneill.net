@@ -4,8 +4,9 @@ draft = false
 title = "Saving all your GitHub Stars to Pinboard"
 description = "A simple Serverless function"
 slug = "saving-all-your-github-stars-to-pinboard"
+categories = ["Low Code & No Code"]
+tags = ["amazon", "aws", "cloud", "low-code", "open-source", "python"]
 +++
-
 Over the past 18 months or so, I've been replacing various IFTTT and Low-Code functions with my own code running either in GitHub Actions or AWS Lambda. The [latest one](https://github.com/conoro/github-stars-to-pinboard) is a simple function to save all my latest GitHub Stars to [Pinboard](https://pinboard.in/) once an hour.
 
 This way, no matter what IFTTT/Zapier/etc decide to change this month, I don't have to change anything. Some of my Serverless functions have been running for years with no updates required.

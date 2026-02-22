@@ -5,8 +5,9 @@ draft = false
 title = "A new lease of life for the Nokia N95-8GB"
 description = ""
 slug = "a-new-lease-of-life-for-the-nokia-n95-8gb"
+categories = ["Mobile & Apps"]
+tags = ["linux", "nokia", "video"]
 +++
-
 #"A new lease of life for the Nokia N95-8GB"
 
 

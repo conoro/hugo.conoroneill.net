@@ -5,8 +5,9 @@ draft = false
 title = "Podcast-listening car-driving heaven, with Android"
 description = ""
 slug = "podcast-listening-car-driving-heaven-with-android"
+categories = ["Mobile & Apps"]
+tags = ["android", "aws", "bluetooth", "ios", "ireland", "nokia", "podcast", "wifi"]
 +++
-
 #"Podcast-listening car-driving heaven, with Android"
 
 

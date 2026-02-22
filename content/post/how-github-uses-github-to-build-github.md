@@ -5,8 +5,9 @@ draft = false
 title = "How GitHub Uses GitHub to Build GitHub"
 description = ""
 slug = "how-github-uses-github-to-build-github"
+categories = ["Software Development"]
+tags = ["open-source"]
 +++
-
 #"How GitHub Uses GitHub to Build GitHub"
 
 

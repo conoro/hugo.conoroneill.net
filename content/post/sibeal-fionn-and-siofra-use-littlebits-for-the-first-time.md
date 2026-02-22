@@ -5,8 +5,9 @@ draft = false
 title = "Sibal, Fionn and Sofra use littleBits for the first time"
 description = ""
 slug = "sibeal-fionn-and-siofra-use-littlebits-for-the-first-time"
+categories = ["IoT & Electronics"]
+tags = ["android", "halloween", "led", "lego", "sensors"]
 +++
-
 #"Sib\u00e9al, Fionn and S\u00edofra use littleBits for the first time"
 
 Last night, just before bedtime, I handed over <a href="http://littlebits.cc/">littleBits</a> to our three younger kids. They had never seen or used it before and I wanted to gauge their reaction to it.

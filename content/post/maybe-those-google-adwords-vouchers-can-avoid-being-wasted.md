@@ -5,8 +5,9 @@ draft = false
 title = "Maybe those Google AdWords Vouchers can avoid being wasted"
 description = ""
 slug = "maybe-those-google-adwords-vouchers-can-avoid-being-wasted"
+categories = ["Startups & Business"]
+tags = ["google", "ireland", "startup"]
 +++
-
 #"Maybe those Google AdWords Vouchers can avoid being wasted"
 
 

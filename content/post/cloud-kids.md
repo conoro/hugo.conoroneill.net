@@ -5,8 +5,9 @@ draft = false
 title = "Cloud Kids"
 description = ""
 slug = "cloud-kids"
+categories = ["IoT & Electronics"]
+tags = ["google", "led", "linux", "rss"]
 +++
-
 #"Cloud Kids"
 
 

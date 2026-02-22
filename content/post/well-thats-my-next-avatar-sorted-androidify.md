@@ -5,8 +5,9 @@ draft = false
 title = "Well that's my next Avatar sorted - Androidify"
 description = ""
 slug = "well-thats-my-next-avatar-sorted-androidify"
+categories = ["Web & Blogging"]
+tags = ["android"]
 +++
-
 #"Well that's my next Avatar sorted - Androidify"
 
 

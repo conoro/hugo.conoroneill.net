@@ -5,8 +5,9 @@ draft = false
 title = "Quite clear that Google doesn't understand its own product, Buzz"
 description = ""
 slug = "quite-clear-that-google-doesnt-understand-its-own-product-buzz"
+categories = ["Web & Blogging"]
+tags = ["google"]
 +++
-
 #"Quite clear that Google doesn't understand its own product, Buzz"
 
 

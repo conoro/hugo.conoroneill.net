@@ -5,8 +5,9 @@ draft = false
 title = "Three ways to build Go 1.4 binaries for MIPS32 Onion Omega"
 description = " "
 slug = "three-ways-to-build-go-1.4-binaries-for-mips32-onion-omega"
+categories = ["IoT & Electronics"]
+tags = ["android", "database", "docker", "golang", "javascript", "linux", "nodejs", "open-source"]
 +++
-
 I previously [wrote about using gccgo](http://conoroneill.net/onion-omega-first-impressions-running-golang-nodejs/) to build Go binaries for the [Onion Omega](https://onion.io/) due to Go's lack of support for MIPS CPUs. But TBH it's a pain in the butt. Things were looking up when it was revealed that Go 1.6 would have MIPS support but sadly it's for MIPS64 only, for datacenter applications I guess.
 
 ![Onion Omega](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2016/02/onion_omega_small.jpg)

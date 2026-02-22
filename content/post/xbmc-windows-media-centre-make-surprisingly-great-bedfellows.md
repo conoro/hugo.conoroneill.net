@@ -5,8 +5,9 @@ draft = false
 title = "XBMC + Windows Media Center make surprisingly great bedfellows"
 description = ""
 slug = "xbmc-windows-media-centre-make-surprisingly-great-bedfellows"
+categories = ["Media & Entertainment"]
+tags = ["linux", "video"]
 +++
-
 #"XBMC + Windows Media Center make surprisingly great bedfellows"
 
 Our main TV PC spends most of its time running the awesome <a href="http://xbmc.org">XBMC</a> software. It has everything you need in a media player except one - recording. Whilst <a href="http://wiki.xbmc.org/index.php?title=HOW-TO:Watch_TV_in_XBMC">there are forks</a> of it out there which work with the <a href="http://www.mythtv.org/wiki/MythTV_on_Windows">MythTV</a> or <a href="http://www.team-mediaportal.com/">Media Portal</a> recording software, I've never had much success configuring either reliably.

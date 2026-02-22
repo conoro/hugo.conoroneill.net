@@ -5,8 +5,9 @@ draft = false
 title = "Rough n Ready Unboxing and Booting of Raspberry Pi"
 description = ""
 slug = "rough-n-ready-unboxing-and-booting-of-raspberry-pi"
+categories = ["IoT & Electronics"]
+tags = ["linux", "raspberry-pi", "video", "wifi"]
 +++
-
 #"Rough n Ready Unboxing and Booting of Raspberry Pi"
 
 Sorry, very busy, so zero production values in this video. Three snippets jammed together but I go from closed delivery packet to fully booted and operational <a href="http://raspberrypi.org">Raspberry Pi</a> with browser running in a few minutes.

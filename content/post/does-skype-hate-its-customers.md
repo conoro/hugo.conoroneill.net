@@ -5,8 +5,8 @@ draft = false
 title = "Does Skype hate its customers?"
 description = ""
 slug = "does-skype-hate-its-customers"
+categories = ["General Tech"]
 +++
-
 #"Does Skype hate its customers?"
 
 

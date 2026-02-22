@@ -5,8 +5,9 @@ draft = false
 title = "Running the latest Chromium 45 on Debian Jessie on your Raspberry Pi 2"
 description = "This Blogpost is out-dated. There is no need to follow the instructions here. Just use the Chromium that now comes with Raspbian."
 slug = "running-the-latest-chromium-45-on-debian-jessie-on-your-raspberry-pi-2"
+categories = ["IoT & Electronics"]
+tags = ["espruino", "linux", "raspberry-pi"]
 +++
-
 # Stop reading now. Blogpost no longer valid.
 
 For some odd reason, Google and others stopped auto-generating armhf binaries of [Chromium](https://www.chromium.org/Home) last year. Version 37 was the last one I could find. Luckily the Ubuntu guys have been building it all along and their version 45 installs really easily on the [all-new Debian/Raspbian Jessie](https://www.raspberrypi.org/blog/raspbian-jessie-is-here/) on your Raspberry Pi 2.

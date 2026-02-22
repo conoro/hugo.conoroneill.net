@@ -5,8 +5,9 @@ draft = false
 title = "Nintendo's Penny Pinching Bites Them In The Ass"
 description = ""
 slug = "nintendos-penny-pinching-bites-them-in-the-ass"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "facebook", "gaming"]
 +++
-
 #"Nintendo's Penny Pinching Bites Them In The Ass"
 
 

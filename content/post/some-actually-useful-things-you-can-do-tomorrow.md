@@ -5,8 +5,8 @@ draft = false
 title = "Some Actually Useful Things You Can Do Tomorrow"
 description = ""
 slug = "some-actually-useful-things-you-can-do-tomorrow"
+categories = ["General Tech"]
 +++
-
 #"Some Actually Useful Things You Can Do Tomorrow"
 
 

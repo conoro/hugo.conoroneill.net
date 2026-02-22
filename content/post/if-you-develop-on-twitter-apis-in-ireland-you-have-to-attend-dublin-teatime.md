@@ -5,8 +5,9 @@ draft = false
 title = "If you develop on Twitter APIs in Ireland, you have to attend Dublin Teatime"
 description = ""
 slug = "if-you-develop-on-twitter-apis-in-ireland-you-have-to-attend-dublin-teatime"
+categories = ["Software Development"]
+tags = ["api", "ireland", "lego", "twitter"]
 +++
-
 #"If you develop on Twitter APIs in Ireland, you have to attend Dublin Teatime"
 
 I attended the first London Twitter Teatime back in October. It was an organisational disaster but an absolute must-not-miss. We were in a big room with not just some key Twitter technical people but also with many of the key third party developers in the UK including the <a href="http://www.datasift.com">DataSift</a> and <a href="http://www.peerindex.com">PeerIndex</a> guys.

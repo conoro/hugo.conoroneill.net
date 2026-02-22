@@ -5,8 +5,8 @@ draft = false
 title = "My kinda ad, from the Goog"
 description = ""
 slug = "my-kinda-ad-from-the-goog"
+categories = ["General Tech"]
 +++
-
 #"My kinda ad, from the Goog"
 
 

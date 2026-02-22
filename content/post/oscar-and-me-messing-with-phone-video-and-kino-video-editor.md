@@ -5,8 +5,9 @@ draft = false
 title = "Oscar and me messing with phone video and Kino video editor"
 description = ""
 slug = "oscar-and-me-messing-with-phone-video-and-kino-video-editor"
+categories = ["Media & Entertainment"]
+tags = ["linux", "nokia"]
 +++
-
 #"Oscar and me messing with phone video and Kino video editor"
 
 

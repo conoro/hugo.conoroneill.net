@@ -5,8 +5,9 @@ draft = false
 title = "Watch out Bear Grylls, here comes Oscar Wild"
 description = ""
 slug = "watch-out-bear-grylls-here-comes-oscar-wild"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"Watch out Bear Grylls, here comes Oscar Wild"
 
 Our 12 y/o son, named after the Grouch, not the playwright, has been making lots of funny short videos in the past year with his friends in the estate. But today's deserved a blogpost all of its own.

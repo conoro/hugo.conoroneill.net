@@ -5,8 +5,9 @@ draft = false
 title = "20 Years of WWW - I think I started in 1995 with RTEMS"
 description = ""
 slug = "20-years-of-www-i-think-i-started-in-1995-with-rtems"
+categories = ["Software Development"]
+tags = ["lego", "open-source", "twitter"]
 +++
-
 #"20 Years of WWW - I think I started in 1995 with RTEMS"
 
 

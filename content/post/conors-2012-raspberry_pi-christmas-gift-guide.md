@@ -5,8 +5,9 @@ draft = false
 title = "Conor's 2012 @Raspberry_Pi Christmas Gift Guide"
 description = ""
 slug = "conors-2012-raspberry_pi-christmas-gift-guide"
+categories = ["IoT & Electronics"]
+tags = ["amazon", "facebook", "ireland", "linux", "raspberry-pi", "retro-computing", "twitter", "wifi"]
 +++
-
 #"Conor's 2012 @Raspberry_Pi Christmas Gift Guide"
 
 This post was prompted by <a href="http://twitter.com/mollydot">@mollydot</a> asking me last night on Twitter what accessories make sense if you are buying a <a href="http://www.raspberrypi.org/">Raspberry Pi</a> as a Christmas Gift and<a href="http://twitter.com/jkeyes">@jkeyes</a>rightly suggesting that a post with links would be useful.

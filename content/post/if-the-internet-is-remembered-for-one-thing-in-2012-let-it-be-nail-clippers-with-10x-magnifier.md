@@ -5,8 +5,8 @@ draft = false
 title = "If the internet is remembered for one thing in 2012, let it be Nail Clippers with 10X Magnifier"
 description = ""
 slug = "if-the-internet-is-remembered-for-one-thing-in-2012-let-it-be-nail-clippers-with-10x-magnifier"
+categories = ["General Tech"]
 +++
-
 #"If the internet is remembered for one thing in 2012, let it be Nail Clippers with 10X Magnifier"
 
 Now that you know they exist, you have to buy them, don't you? <a href="http://www.dealextreme.com/p/nail-clippers-with-10x-magnifier-black-silver-114719?item=18">I did</a>.

@@ -5,8 +5,9 @@ draft = false
 title = "One of the many reasons I love Zoho CRM"
 description = ""
 slug = "one-of-the-many-reasons-i-love-zoho-crm"
+categories = ["General Tech"]
+tags = ["google"]
 +++
-
 #"One of the many reasons I love Zoho CRM"
 
 

@@ -5,8 +5,8 @@ draft = false
 title = "Kulula Airplane Rebranding"
 description = ""
 slug = "kulula-airplane-rebranding"
+categories = ["Web & Blogging"]
 +++
-
 #"Kulula Airplane Rebranding"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Android crashes WWDC. Love the song"
 description = ""
 slug = "android-crashes-wwdc-love-the-song"
+categories = ["Mobile & Apps"]
+tags = ["android", "ios"]
 +++
-
 #"Android crashes WWDC. Love the song"
 
 

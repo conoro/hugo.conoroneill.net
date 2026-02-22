@@ -5,8 +5,9 @@ draft = false
 title = "Separated at birth - Philips VR512 and XBOX One?"
 description = ""
 slug = "separated-at-birth-philips-vr512-and-xbox-one"
+categories = ["Gaming & Retro Computing"]
+tags = ["gaming"]
 +++
-
 #"Separated at birth - Philips VR512 and XBOX One?"
 
 The VR512 cost me around 399 in 1992 in the Philips employee sale. A staggeringly good top-of-the-range VCR that did sterling service for over a decade.

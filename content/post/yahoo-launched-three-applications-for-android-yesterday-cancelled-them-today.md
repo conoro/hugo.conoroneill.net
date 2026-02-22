@@ -5,8 +5,9 @@ draft = false
 title = "Yahoo launched three applications for Android yesterday. Cancelled them today."
 description = ""
 slug = "yahoo-launched-three-applications-for-android-yesterday-cancelled-them-today"
+categories = ["Mobile & Apps"]
+tags = ["android"]
 +++
-
 #"Yahoo launched three applications for Android yesterday. Cancelled them today."
 
 

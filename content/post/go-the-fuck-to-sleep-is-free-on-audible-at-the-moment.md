@@ -5,8 +5,9 @@ draft = false
 title = "'Go The Fuck to Sleep' is free on Audible at the moment"
 description = ""
 slug = "go-the-fuck-to-sleep-is-free-on-audible-at-the-moment"
+categories = ["Web & Blogging"]
+tags = ["amazon"]
 +++
-
 #"\"Go The Fuck to Sleep\" is free on Audible at the moment"
 
 

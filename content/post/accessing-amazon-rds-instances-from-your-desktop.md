@@ -5,8 +5,9 @@ draft = false
 title = "Accessing Amazon RDS Instances from your Desktop"
 description = ""
 slug = "accessing-amazon-rds-instances-from-your-desktop"
+categories = ["Cloud & Infrastructure"]
+tags = ["amazon", "aws", "cloud", "database", "linux"]
 +++
-
 #"Accessing Amazon RDS Instances from your Desktop"
 
 

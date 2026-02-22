@@ -5,8 +5,8 @@ draft = false
 title = "Google be very scared, PayPal search is spookily brilliant"
 description = ""
 slug = "google-be-very-scared-paypal-search-is-spookily-brilliant"
+categories = ["General Tech"]
 +++
-
 #"Google be very scared, PayPal search is spookily brilliant"
 
 

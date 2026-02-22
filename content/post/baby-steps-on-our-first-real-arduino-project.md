@@ -5,8 +5,9 @@ draft = false
 title = "Baby Steps on our first real Arduino Project"
 description = ""
 slug = "baby-steps-on-our-first-real-arduino-project"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "raspberry-pi"]
 +++
-
 #"Baby Steps on our first real Arduino Project"
 
 The kids and I have a silly idea for an Arduino project involving doorbells. So I ordered some parts from <a href="http://sparkfun.com">Sparkfun</a> in the US (love that site so much) and they arrived quickly:

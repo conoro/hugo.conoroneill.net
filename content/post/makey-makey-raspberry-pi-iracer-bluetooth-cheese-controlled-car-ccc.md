@@ -5,8 +5,9 @@ draft = false
 title = "MaKey MaKey + Raspberry Pi + iRacer + Bluetooth = Cheese Controlled Car (CCC)"
 description = ""
 slug = "makey-makey-raspberry-pi-iracer-bluetooth-cheese-controlled-car-ccc"
+categories = ["IoT & Electronics"]
+tags = ["android", "arduino", "bluetooth", "food-tech", "lego", "linux", "nokia", "open-source", "python", "raspberry-pi", "sensors", "wifi"]
 +++
-
 #"MaKey MaKey + Raspberry Pi + iRacer + Bluetooth = Cheese Controlled Car (CCC)"
 
 When Santa told me that he was getting an <a href="http://www.coolcomponents.co.uk/catalog/racer-p-993.html">i-Racer</a> remote controlled car for Fionn, I was very excited. This is a remote controlled car that, on the surface looks very crude. Heck it doesn't even come with a remote control.

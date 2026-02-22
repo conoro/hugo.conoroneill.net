@@ -5,8 +5,9 @@ draft = false
 title = "A year of falling back in love with Making/Electronics on Raspberry Pi and Arduino"
 description = ""
 slug = "a-year-of-falling-back-in-love-with-makingelectronics-on-raspberry-pi-and-arduino"
+categories = ["Running & Fitness"]
+tags = ["3d-printing", "android", "api", "arduino", "facebook", "fitness-tracker", "flooding", "gps", "halloween", "home-automation", "ireland", "javascript", "lego", "linux", "nokia", "open-source", "python", "raspberry-pi", "retro-computing", "sensors", "twitter", "video", "wifi"]
 +++
-
 #"A year of falling back in love with Making/Electronics on Raspberry Pi and Arduino"
 
 <h2>The 80s</h2>

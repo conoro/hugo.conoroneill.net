@@ -5,8 +5,9 @@ draft = false
 title = "LinkedIn on Android is rather nice"
 description = ""
 slug = "linkedin-on-android-is-rather-nice"
+categories = ["General Tech"]
+tags = ["android"]
 +++
-
 #"LinkedIn on Android is rather nice"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Ah c'mon, is this not the cutest @raspberry_pi setup of all time?"
 description = ""
 slug = "ah-cmon-is-this-not-the-cutest-raspberry_pi-setup-of-all-time"
+categories = ["IoT & Electronics"]
+tags = ["raspberry-pi", "video"]
 +++
-
 #"Ah c'mon, is this not the cutest @raspberry_pi setup of all time?"
 
 I splashed out a little on my main dev Raspberry Pi and finally got it a <a href="http://shop.pimoroni.com/collections/pibow/products/pibow">PiBow case</a>. I've loved that design for so long, I had to succumb.

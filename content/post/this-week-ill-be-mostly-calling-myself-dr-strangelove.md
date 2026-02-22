@@ -5,8 +5,9 @@ draft = false
 title = "This week I'll be mostly calling myself Dr Strangelove "
 description = ""
 slug = "this-week-ill-be-mostly-calling-myself-dr-strangelove"
+categories = ["Mobile & Apps"]
+tags = ["android", "education", "low-code"]
 +++
-
 #"This week I'll be mostly calling myself Dr Strangelove"
 
 

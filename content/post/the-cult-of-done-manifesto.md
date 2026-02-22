@@ -5,8 +5,8 @@ draft = false
 title = "The Cult of Done Manifesto"
 description = ""
 slug = "the-cult-of-done-manifesto"
+categories = ["General Tech"]
 +++
-
 #"The Cult of Done Manifesto"
 
 I feel a bit stupid that I only just discovered <a href="http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html">this 4 year old post</a> by Makerbot's Bre Pettis via <a href="http://seanbonner.tumblr.com/post/40185903436/new-blog-post-fuckitshipit">Sean Bonner</a>. Everything about it resonates with me. Not in some GTD process way but in an attitude to everything.

@@ -5,8 +5,8 @@ draft = false
 title = "Pit of Despair Projects"
 description = ""
 slug = "pit-of-despair-projects"
+categories = ["General Tech"]
 +++
-
 #"Pit of Despair Projects"
 
 I have a bunch of blogposts bouncing around in my head which I'll hopefully start writing on my holliers, from Friday. Stuff around the tactile nature of hardware, Makers, having a Masters in Electronics I never really used, low volume production, crowd-sourcing solutions to problems instead of relying on guv'ment, moving production back to the first world, education, Kickstarter, doing vs learning etc etc etc.

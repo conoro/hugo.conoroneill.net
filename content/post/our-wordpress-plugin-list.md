@@ -5,8 +5,9 @@ draft = false
 title = "Our Wordpress plugin list"
 description = ""
 slug = "our-wordpress-plugin-list"
+categories = ["Web & Blogging"]
+tags = ["database", "google", "rss", "wordpress"]
 +++
-
 #"Our Wordpress plugin list"
 
 

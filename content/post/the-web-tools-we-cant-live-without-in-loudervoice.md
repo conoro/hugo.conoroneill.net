@@ -5,8 +5,9 @@ draft = false
 title = "The web tools we can't live without in LouderVoice"
 description = ""
 slug = "the-web-tools-we-cant-live-without-in-loudervoice"
+categories = ["Mobile & Apps"]
+tags = ["amazon", "android", "api", "aws", "cloud", "database", "linux", "python", "wordpress"]
 +++
-
 #"The web tools we can't live without in LouderVoice"
 
 

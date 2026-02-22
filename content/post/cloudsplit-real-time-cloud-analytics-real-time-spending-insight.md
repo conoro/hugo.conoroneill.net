@@ -5,8 +5,9 @@ draft = false
 title = "CloudSplit - Real-time Cloud Analytics. Real-time spending insight"
 description = ""
 slug = "cloudsplit-real-time-cloud-analytics-real-time-spending-insight"
+categories = ["Cloud & Infrastructure"]
+tags = ["amazon", "aws"]
 +++
-
 #"CloudSplit - Real-time Cloud Analytics. Real-time spending insight"
 
 

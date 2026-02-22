@@ -5,8 +5,9 @@ draft = false
 title = "Facebook Places Check-ins in Ireland really kicking off"
 description = ""
 slug = "facebook-places-check-ins-in-ireland-really-kicking-off"
+categories = ["Mobile & Apps"]
+tags = ["android", "facebook", "ireland"]
 +++
-
 #"Facebook Places Check-ins in Ireland really kicking off"
 
 

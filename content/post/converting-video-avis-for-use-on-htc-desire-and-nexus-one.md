@@ -5,8 +5,9 @@ draft = false
 title = "Converting Video AVIs for use on HTC Desire and Nexus One"
 description = ""
 slug = "converting-video-avis-for-use-on-htc-desire-and-nexus-one"
+categories = ["Mobile & Apps"]
+tags = ["ios"]
 +++
-
 #"Converting Video AVIs for use on HTC Desire and Nexus One"
 
 

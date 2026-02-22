@@ -5,8 +5,9 @@ draft = false
 title = "Android is now perfectly complete"
 description = ""
 slug = "android-is-now-perfectly-complete"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "api", "ireland", "retro-computing"]
 +++
-
 #"Android is now perfectly complete"
 
 

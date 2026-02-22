@@ -5,8 +5,9 @@ draft = false
 title = "This is Facebook's Idea of Chronological"
 description = ""
 slug = "this-is-facebooks-idea-of-chronological"
+categories = ["General Tech"]
+tags = ["facebook"]
 +++
-
 #"This is Facebook's Idea of Chronological"
 
  Oh I just give up.<br /> <div><div class='p_embed p_image_embed'>

@@ -5,8 +5,9 @@ draft = false
 title = "My Mobile Broadband setup due to Eircom's Uselessness"
 description = ""
 slug = "my-mobile-broadband-setup-due-to-eircoms-uselessness"
+categories = ["IoT & Electronics"]
+tags = ["ireland"]
 +++
-
 #"My Mobile Broadband setup due to Eircom's Uselessness"
 
 

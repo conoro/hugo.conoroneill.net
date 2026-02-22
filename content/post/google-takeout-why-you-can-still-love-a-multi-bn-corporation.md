@@ -5,8 +5,8 @@ draft = false
 title = "Google Takeout - Why You Can Still Love A Multi-$Bn Corporation"
 description = ""
 slug = "google-takeout-why-you-can-still-love-a-multi-bn-corporation"
+categories = ["Web & Blogging"]
 +++
-
 #"Google Takeout - Why You Can Still Love A Multi-$Bn Corporation"
 
 

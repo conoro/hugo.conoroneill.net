@@ -5,8 +5,9 @@ draft = false
 title = "Sibal's Halloween Eye of Deatttttttttth"
 description = ""
 slug = "sibeals-halloween-eye-of-deatttttttttth"
+categories = ["IoT & Electronics"]
+tags = ["halloween", "led"]
 +++
-
 #"Sib\u00e9al's Halloween Eye of Deatttttttttth"
 
 Myself and Sibal put together a really simple but effective spooky eye for Halloween recently. It caused great interest in her school during Halloween dress-up day just before mid-term. 

@@ -5,8 +5,9 @@ draft = false
 title = "Running new C code on a 1982 ZX Spectrum in 2018"
 description = " "
 slug = "running-c-code-on-a-1982-zx-spectrum-in-2018"
+categories = ["Gaming & Retro Computing"]
+tags = ["retro-computing"]
 +++
-
 The 1980s home computer retro scene remains very vibrant. I dip a toe in every so often and recently have been enjoying the new Speccy games that I've found on [Indie Retro News](http://www.indieretronews.com/2018/02/fantasy-zone-escape-from-pyramid-final.html).
 
 One thing that caught my eye with these releases was the mentions of "engines". It turns out that people have been building games engines for the ZX Spectrum for years. Mostly in C it seems and mostly using the [z88dk](https://www.z88dk.org/forum/) toolchain.

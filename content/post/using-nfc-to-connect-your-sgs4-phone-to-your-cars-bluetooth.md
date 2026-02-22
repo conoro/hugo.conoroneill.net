@@ -5,8 +5,9 @@ draft = false
 title = "Using NFC to connect your #SGS4 phone to your car's Bluetooth"
 description = ""
 slug = "using-nfc-to-connect-your-sgs4-phone-to-your-cars-bluetooth"
+categories = ["Mobile & Apps"]
+tags = ["android", "bluetooth"]
 +++
-
 #"Using NFC to connect your #SGS4 phone to your car's Bluetooth"
 
 I've been wanting to play with NFC for ages so when I got an SGS4 recently, my chance finally came. I ordered a pack of 10 stickers from <a href="http://www.shop4nfc.com/product-details/NTAG203-type-2-nfc-tags-shop4nfc">Shop4NFC.com</a> in China for $8.99 and they arrived about a week later.

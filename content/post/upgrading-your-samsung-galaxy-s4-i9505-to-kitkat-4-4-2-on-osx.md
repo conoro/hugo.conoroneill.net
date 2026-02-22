@@ -5,8 +5,9 @@ draft = false
 title = "Upgrading your Samsung Galaxy S4 i9505 to KitKat 4.4.2 on OSX"
 description = "Avoiding all the horror of Samsung Kies"
 slug = "upgrading-your-samsung-galaxy-s4-i9505-to-kitkat-4-4-2-on-osx"
+categories = ["Mobile & Apps"]
+tags = ["android", "linux", "open-source", "samsung"]
 +++
-
 Using an S4 on a Mac Book Pro is an exercise in futility now that it and other phones no longer appear as a disk drive but as a weird media device. The Samsung Kies software doesn't help and actually seems to make things worse. If you run Windows 7 inside VirtualBox you can see the phone's storage but doesn't see it when the phone is in upgrade mode. So you can't run the usual Odin software there.
 
 Then I found out about Heimdall, an open source tool for upgrading Galaxy phones on Windows, Linux and OSX. It looks scary and the UI is a horror but once you find out the command required, the whole thing only takes a few minutes.

@@ -5,8 +5,9 @@ draft = false
 title = "The @RaspberryPi Programming Contest for Kids - Win $1000"
 description = ""
 slug = "the-raspberrypi-programming-contest-for-kids-win-1000"
+categories = ["IoT & Electronics"]
+tags = ["raspberry-pi", "retro-computing"]
 +++
-
 #"The @RaspberryPi Programming Contest for Kids - Win $1000"
 
 <a href="http://www.raspberrypi.org/wp-content/uploads/2012/07/Summer-Code-001c.pdf"><img class="size-full wp-image-789 alignnone" title="competition" src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/07/competition.png" alt="" width="855" height="856" /></a>

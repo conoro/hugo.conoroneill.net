@@ -5,8 +5,9 @@ draft = false
 title = "Don't Forget to Download Your App Inventor Projects - Shutdown on Dec 31st"
 description = ""
 slug = "dont-forget-to-download-your-app-inventor-projects-shutdown-on-dec-31st"
+categories = ["Mobile & Apps"]
+tags = ["aws", "education", "low-code"]
 +++
-
 #"Don't Forget to Download Your App Inventor Projects - Shutdown on Dec 31st"
 
 

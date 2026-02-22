@@ -5,8 +5,9 @@ draft = false
 title = "The very real danger of cheap Lithium Polymer (LiPo) batteries and accessories"
 description = ""
 slug = "the-very-real-danger-of-cheap-lithium-polymer-lipo-batteries-and-accessories"
+categories = ["Running & Fitness"]
+tags = ["amazon", "bluetooth", "fitness-tracker", "food-tech", "gaming", "gps", "ios", "running"]
 +++
-
 #"The very real danger of cheap Lithium Polymer (LiPo) batteries and accessories"
 
 We've all heard the horror stories of phones exploding in people's faces and it turned out to be due to aftermarket cheap LiPo batteries. TBH I've always pooh-poohed that stuff and figured they had been doing something stupid with their phones.

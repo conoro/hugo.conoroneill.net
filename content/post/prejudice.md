@@ -5,8 +5,8 @@ draft = false
 title = "Prejudice"
 description = ""
 slug = "prejudice"
+categories = ["Media & Entertainment"]
 +++
-
 #"Prejudice"
 
 

@@ -5,8 +5,8 @@ draft = false
 title = "'Anchor Made by Cows' is the work of an evil genius"
 description = ""
 slug = "anchor-made-by-cows-is-the-work-of-an-evil-genius"
+categories = ["Media & Entertainment"]
 +++
-
 #"\"Anchor Made by Cows\" is the work of an evil genius"
 
 

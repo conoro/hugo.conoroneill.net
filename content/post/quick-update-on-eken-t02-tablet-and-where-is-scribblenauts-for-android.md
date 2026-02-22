@@ -5,8 +5,9 @@ draft = false
 title = "Quick update on Eken T02 Tablet and where is Scribblenauts for Android?"
 description = ""
 slug = "quick-update-on-eken-t02-tablet-and-where-is-scribblenauts-for-android"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "gaming", "ios"]
 +++
-
 #"Quick update on Eken T02 Tablet and where is Scribblenauts for Android?"
 
 I asked my 8 y/o daughter on Monday if there was anything she didn't like about her 88 Tablet after a week of ownership. I assumed she'd gripe about the touch sensitivity of the screen, which I still see as a problem. Nope, she had a single criticism - the battery only lasts a couple of hours on a charge. Otherwise she loves it. She streams TV shows and movies across the homenetwork, browses the web and plays lots of games. Exactly what you want in a tablet.

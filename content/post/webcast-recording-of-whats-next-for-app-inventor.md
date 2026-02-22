@@ -5,8 +5,9 @@ draft = false
 title = "Webcast Recording of 'What's Next for App Inventor?'"
 description = ""
 slug = "webcast-recording-of-whats-next-for-app-inventor"
+categories = ["Mobile & Apps"]
+tags = ["education", "low-code"]
 +++
-
 #"Webcast Recording of \"What's Next for App Inventor?\""
 
 

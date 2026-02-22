@@ -5,8 +5,9 @@ draft = false
 title = "Google Delicious Importer Tool - But which Google Bookmarks?"
 description = ""
 slug = "google-delicious-importer-tool-but-which-google-bookmarks"
+categories = ["Software Development"]
+tags = ["api"]
 +++
-
 #"Google Delicious Importer Tool - But which Google Bookmarks?"
 
 

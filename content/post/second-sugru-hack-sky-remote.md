@@ -5,8 +5,8 @@ draft = false
 title = "Second Sugru Hack - Sky+ Remote"
 description = ""
 slug = "second-sugru-hack-sky-remote"
+categories = ["General Tech"]
 +++
-
 #"Second Sugru Hack - Sky+ Remote"
 
 

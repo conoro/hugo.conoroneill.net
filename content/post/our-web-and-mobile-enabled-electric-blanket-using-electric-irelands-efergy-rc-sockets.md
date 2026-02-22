@@ -5,8 +5,9 @@ draft = false
 title = "Our web and mobile enabled electric blanket using Electric Ireland's Efergy RC sockets"
 description = "Take some simple RC electric sockets that arrive in the post from Electric Ireland and make them web-powered, with almost no effort."
 slug = "our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets"
+categories = ["IoT & Electronics"]
+tags = ["android", "api", "arduino", "home-automation", "ios", "ireland", "javascript", "nodejs", "open-source", "samsung", "wifi"]
 +++
-
 A major ongoing struggle in our household is convincing one of our many children to go upstairs and put on the electric blanket for us. I honestly don't know how we get through the winter.
 
 Wouldn't it be fantastic if we could use technology instead of children to do this?

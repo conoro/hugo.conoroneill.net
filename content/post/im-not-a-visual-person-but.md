@@ -5,8 +5,9 @@ draft = false
 title = "I'm not a visual person but"
 description = ""
 slug = "im-not-a-visual-person-but"
+categories = ["Cloud & Infrastructure"]
+tags = ["linux"]
 +++
-
 #"I'm not a visual person but"
 
 

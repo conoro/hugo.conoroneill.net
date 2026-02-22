@@ -5,8 +5,8 @@ draft = false
 title = "Google Calendar Borked?"
 description = ""
 slug = "google-calendar-borked"
+categories = ["General Tech"]
 +++
-
 #"Google Calendar Borked?"
 
 

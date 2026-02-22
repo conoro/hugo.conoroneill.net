@@ -5,8 +5,9 @@ draft = false
 title = "Don't throw out that standalone phone battery charger"
 description = ""
 slug = "dont-throw-out-that-standalone-phone-battery-charger"
+categories = ["Mobile & Apps"]
+tags = ["ios"]
 +++
-
 #"Don't throw out that standalone phone battery charger"
 
 An old hack I had forgotten about.

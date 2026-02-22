@@ -5,8 +5,8 @@ draft = false
 title = "Google (and all of us) should revolutionise the interview process using @Sugru"
 description = ""
 slug = "google-and-all-of-us-should-revolutionise-the-interview-process-using-sugru"
+categories = ["General Tech"]
 +++
-
 #"Google (and all of us) should revolutionise the interview process using @Sugru"
 
 I've interviewed many many people myself over the years and only hired two real duds in that time. Mostly I did it with gut rather than asking people to write code on a whiteboard or drilling them on software lifecycle. My aim was to get a sense of "can I work with this person?", "does it look like they have a creative streak?" and "have they any interest in software outside of work?".

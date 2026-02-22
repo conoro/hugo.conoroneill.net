@@ -5,8 +5,9 @@ draft = false
 title = "What excited Conor in tech in 2015?"
 description = " "
 slug = "what-excited-conor-in-tech-in-2015"
+categories = ["Low Code & No Code"]
+tags = ["3d-printing", "amazon", "android", "api", "arduino", "cloud", "database", "espruino", "facebook", "gaming", "golang", "google", "home-automation", "hugo", "ios", "ireland", "javascript", "led", "lego", "linux", "low-code", "minecraft", "nodejs", "open-source", "photography", "python", "raspberry-pi", "samsung", "security", "startup", "twitter", "video", "wifi", "wordpress"]
 +++
-
 A completely random braindump of stuff that got my juices flowing this year.
 
 # ESP8266 $1 Wifi modules

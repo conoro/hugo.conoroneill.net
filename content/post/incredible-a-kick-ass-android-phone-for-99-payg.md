@@ -5,8 +5,9 @@ draft = false
 title = "Incredible: A Kick-Ass Android Phone for 99 PAYG!"
 description = ""
 slug = "incredible-a-kick-ass-android-phone-for-99-payg"
+categories = ["Mobile & Apps"]
+tags = ["android", "flooding", "gps", "ios", "photography", "sensors", "wifi"]
 +++
-
 #"Incredible: A Kick-Ass Android Phone for \u00a399 PAYG!"
 
 

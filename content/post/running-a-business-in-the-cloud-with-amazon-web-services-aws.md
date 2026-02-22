@@ -5,8 +5,9 @@ draft = false
 title = "Running a business in the Cloud with Amazon Web Services #AWS"
 description = ""
 slug = "running-a-business-in-the-cloud-with-amazon-web-services-aws"
+categories = ["Startups & Business"]
+tags = ["amazon", "aws", "cloud", "startup"]
 +++
-
 #"Running a business in the Cloud with Amazon Web Services #AWS"
 
 These are the slides from a talk I gave back in March to the UCC SME Cloud Incubator Workshop. It goes through all the details of our use of Amazon Web Services with some mentions of other cloud providers too.

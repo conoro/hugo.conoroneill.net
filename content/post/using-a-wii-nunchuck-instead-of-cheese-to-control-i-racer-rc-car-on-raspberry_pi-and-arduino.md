@@ -5,8 +5,9 @@ draft = false
 title = "Using a Wii Nunchuck instead of Cheese to control i-Racer RC car on @Raspberry_Pi and @Arduino"
 description = ""
 slug = "using-a-wii-nunchuck-instead-of-cheese-to-control-i-racer-rc-car-on-raspberry_pi-and-arduino"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "bluetooth", "gaming", "linux", "photography", "python", "raspberry-pi", "sensors"]
 +++
-
 #"Using a Wii Nunchuck instead of Cheese to control i-Racer RC car on @Raspberry_Pi and @Arduino"
 
 <h2>Following up from the Cheese</h2>

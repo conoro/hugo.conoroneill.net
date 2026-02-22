@@ -5,8 +5,9 @@ draft = false
 title = "Some HTC Desire Problems"
 description = ""
 slug = "some-htc-desire-problems"
+categories = ["Mobile & Apps"]
+tags = ["bluetooth", "gps", "ios", "ireland", "nokia", "photography", "podcast", "wifi"]
 +++
-
 #"Some HTC Desire Problems"
 
 

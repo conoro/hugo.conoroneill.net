@@ -5,8 +5,9 @@ draft = false
 title = "Facebook kicks Geni's butt for real family histories"
 description = ""
 slug = "facebook-kicks-genis-butt-for-real-family-histories"
+categories = ["Mobile & Apps"]
+tags = ["facebook", "ios", "ireland"]
 +++
-
 #"Facebook kicks Geni's butt for real family histories"
 
 A few years back, quite a few of us put effort into building our family tree on Geni. For a while I was a fan. Then someone connected two big trees via marriage and it has been a disaster ofirrelevant birthday notifications about people I have never heard of since.

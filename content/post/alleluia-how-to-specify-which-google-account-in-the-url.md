@@ -5,8 +5,9 @@ draft = false
 title = "Alleluia - How to specify which Google Account in the URL"
 description = ""
 slug = "alleluia-how-to-specify-which-google-account-in-the-url"
+categories = ["Startups & Business"]
+tags = ["google", "photography", "rss"]
 +++
-
 #"Alleluia - How to specify which Google Account in the URL"
 
 I have been driven demented by Google's multi-login feature since it launched. Every damned tool of theirs seems to do it differently. The good ones let you flick seamlessly between accounts (Google+). The awful ones won't let you select an alternative (yes you Picasa Web) and if you logout, you logout of everything. And of course, they always default to the one you don't want (hellooo Google Reader).

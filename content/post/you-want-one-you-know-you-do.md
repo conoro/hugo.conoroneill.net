@@ -5,8 +5,8 @@ draft = false
 title = "You want one. You know you do."
 description = ""
 slug = "you-want-one-you-know-you-do"
+categories = ["General Tech"]
 +++
-
 #"You want one. You know you do."
 
 

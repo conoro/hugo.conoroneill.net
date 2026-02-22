@@ -5,8 +5,8 @@ draft = false
 title = "Make an image of a live XP machine and then run it elsewhere"
 description = ""
 slug = "make-an-image-of-a-live-xp-machine-and-then-run-it-elsewhere"
+categories = ["General Tech"]
 +++
-
 #"Make an image of a live XP machine and then run it elsewhere"
 
 

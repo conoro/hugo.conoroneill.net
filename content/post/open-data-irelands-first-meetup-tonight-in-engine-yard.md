@@ -5,8 +5,9 @@ draft = false
 title = "Open Data Ireland's first meetup tonight in Engine Yard"
 description = ""
 slug = "open-data-irelands-first-meetup-tonight-in-engine-yard"
+categories = ["Startups & Business"]
+tags = ["ireland", "lego"]
 +++
-
 #"Open Data Ireland's first meetup tonight in Engine Yard"
 
 Great to see this <a href="http://meetup.opendata.ie/">Meetup</a> happen and big props to Eamon and the crew for hosting.If you are interested in getting involved in OpenData in Ireland please attend. <a href="http://meetup.opendata.ie/">Registration is here</a> but the event is free.

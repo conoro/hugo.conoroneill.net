@@ -5,8 +5,9 @@ draft = false
 title = "Orson Scott Card Comments About Ender's Game on Amazon"
 description = ""
 slug = "orson-scott-card-comments-about-enders-game-on-amazon"
+categories = ["Opinion & Commentary"]
+tags = ["amazon", "api"]
 +++
-
 #"Orson Scott Card Comments About Ender's Game on Amazon"
   
 

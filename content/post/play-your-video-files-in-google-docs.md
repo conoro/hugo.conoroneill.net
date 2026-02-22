@@ -5,8 +5,9 @@ draft = false
 title = "Play your video files in Google Docs"
 description = ""
 slug = "play-your-video-files-in-google-docs"
+categories = ["Web & Blogging"]
+tags = ["photography"]
 +++
-
 #"Play your video files in Google Docs"
 
 

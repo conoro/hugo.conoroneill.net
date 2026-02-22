@@ -5,8 +5,8 @@ draft = false
 title = "ThinkUp - Why Gina Trapani is an absolute bloody legend."
 description = ""
 slug = "thinkup-why-gina-trapani-is-an-absolute-bloody-legend"
+categories = ["Web & Blogging"]
 +++
-
 #"ThinkUp - Why Gina Trapani is an absolute bloody legend."
 
 

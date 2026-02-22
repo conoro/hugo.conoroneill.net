@@ -5,8 +5,9 @@ draft = false
 title = "Amazon 'Send to Kindle' should be built on RSS to replace Google Reader"
 description = ""
 slug = "amazon-send-to-kindle-should-be-built-on-rss-to-replace-google-reader"
+categories = ["Mobile & Apps"]
+tags = ["amazon", "android", "cloud", "google", "rss"]
 +++
-
 #"Amazon \"Send to Kindle\" should be built on RSS to replace Google Reader"
 
 I've seen a few mentions today of a new "<a href="http://techcrunch.com/2013/03/19/amazon-launches-send-to-kindle-button-for-web-developers-wordpress-blogs/">Send to Kindle</a>" button that you can add to your site/blog. It means people can send clips of your web content to their fave e-reader.

@@ -5,8 +5,9 @@ draft = false
 title = "Facebook Like + Facebook Credits = Workable Micro-Payments?"
 description = ""
 slug = "facebook-like-facebook-credits-workable-micro-payments"
+categories = ["General Tech"]
+tags = ["facebook"]
 +++
-
 #"Facebook Like + Facebook Credits = Workable Micro-Payments?"
 
 

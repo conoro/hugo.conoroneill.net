@@ -5,8 +5,9 @@ draft = false
 title = "My Next Radio ain't a Radio"
 description = ""
 slug = "my-next-radio-aint-a-radio"
+categories = ["Mobile & Apps"]
+tags = ["android", "bluetooth", "cloud", "google", "ireland", "wifi"]
 +++
-
 #"My Next Radio ain't a Radio"
 
 

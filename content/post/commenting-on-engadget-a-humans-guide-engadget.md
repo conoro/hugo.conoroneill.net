@@ -5,8 +5,8 @@ draft = false
 title = "Commenting on Engadget: a human's guide -- Engadget"
 description = ""
 slug = "commenting-on-engadget-a-humans-guide-engadget"
+categories = ["Web & Blogging"]
 +++
-
 #"Commenting on Engadget: a human's guide -- Engadget"
 
 

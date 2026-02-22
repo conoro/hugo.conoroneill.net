@@ -5,8 +5,8 @@ draft = false
 title = "Nexus S, no headphone jack. This has to be a typo, right?"
 description = ""
 slug = "nexus-s-no-headphone-jack-this-has-to-be-a-typo-right"
+categories = ["Mobile & Apps"]
 +++
-
 #"Nexus S, no headphone jack. This has to be a typo, right?"
 
 

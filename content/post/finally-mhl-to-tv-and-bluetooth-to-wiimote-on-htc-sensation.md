@@ -5,8 +5,9 @@ draft = false
 title = "Finally MHL to TV and Bluetooth to Wiimote on HTC Sensation"
 description = ""
 slug = "finally-mhl-to-tv-and-bluetooth-to-wiimote-on-htc-sensation"
+categories = ["Mobile & Apps"]
+tags = ["android", "bluetooth", "lego", "photography"]
 +++
-
 #"Finally MHL to TV and Bluetooth to Wiimote on HTC Sensation"
 
 Yes I know it's a stupid thing to want to do but dammit, if it's technically possible, we should at least try.

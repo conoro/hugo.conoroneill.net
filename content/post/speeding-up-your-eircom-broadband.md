@@ -5,8 +5,9 @@ draft = false
 title = "Speeding up your Eircom Broadband"
 description = ""
 slug = "speeding-up-your-eircom-broadband"
+categories = ["IoT & Electronics"]
+tags = ["ireland", "linux", "wifi"]
 +++
-
 #"Speeding up your Eircom Broadband"
 
 

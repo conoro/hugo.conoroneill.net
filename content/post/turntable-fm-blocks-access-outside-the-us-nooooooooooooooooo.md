@@ -5,8 +5,8 @@ draft = false
 title = "Turntable.fm blocks access outside the US - Nooooooooooooooooo"
 description = ""
 slug = "turntable-fm-blocks-access-outside-the-us-nooooooooooooooooo"
+categories = ["Media & Entertainment"]
 +++
-
 #"Turntable.fm blocks access outside the US - Nooooooooooooooooo"
 
 

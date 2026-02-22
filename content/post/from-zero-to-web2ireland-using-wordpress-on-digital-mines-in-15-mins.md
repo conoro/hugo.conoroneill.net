@@ -5,8 +5,9 @@ draft = false
 title = "From Zero to Web2Ireland using Wordpress on Digital Mines in 15 mins"
 description = ""
 slug = "from-zero-to-web2ireland-using-wordpress-on-digital-mines-in-15-mins"
+categories = ["Cloud & Infrastructure"]
+tags = ["amazon", "aws", "cloud", "database", "wordpress"]
 +++
-
 #"From Zero to Web2Ireland using Wordpress on Digital Mines in 15 mins"
 
 

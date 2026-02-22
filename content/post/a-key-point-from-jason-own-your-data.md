@@ -5,8 +5,9 @@ draft = false
 title = "A key point from Jason. Own your data."
 description = ""
 slug = "a-key-point-from-jason-own-your-data"
+categories = ["Opinion & Commentary"]
+tags = ["facebook", "twitter"]
 +++
-
 #"A key point from Jason. Own your data."
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Android Bing Tastic"
 description = ""
 slug = "android-bing-tastic"
+categories = ["Mobile & Apps"]
+tags = ["android"]
 +++
-
 #"Android Bing Tastic"
 
 

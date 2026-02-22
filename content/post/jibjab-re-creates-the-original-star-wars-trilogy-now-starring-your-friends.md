@@ -5,8 +5,8 @@ draft = false
 title = "JibJab Re-Creates The Original Star Wars Trilogy, Now Starring Your Friends"
 description = ""
 slug = "jibjab-re-creates-the-original-star-wars-trilogy-now-starring-your-friends"
+categories = ["Web & Blogging"]
 +++
-
 #"JibJab Re-Creates The Original Star Wars Trilogy, Now Starring Your Friends"
 
 

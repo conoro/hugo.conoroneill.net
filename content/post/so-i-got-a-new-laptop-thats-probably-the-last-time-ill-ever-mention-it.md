@@ -5,8 +5,9 @@ draft = false
 title = "So I got a new laptop. That's probably the last time I'll ever mention it"
 description = ""
 slug = "so-i-got-a-new-laptop-thats-probably-the-last-time-ill-ever-mention-it"
+categories = ["IoT & Electronics"]
+tags = ["gaming", "gps", "led", "linux", "samsung", "video", "wifi"]
 +++
-
 #"So I got a new laptop. That's probably the last time I'll ever mention it"
 
 

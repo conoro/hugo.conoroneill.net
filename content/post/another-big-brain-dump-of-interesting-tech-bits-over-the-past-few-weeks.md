@@ -5,8 +5,9 @@ draft = false
 title = "Another big brain dump of interesting tech bits over the past few weeks"
 description = ""
 slug = "another-big-brain-dump-of-interesting-tech-bits-over-the-past-few-weeks"
+categories = ["IoT & Electronics"]
+tags = ["android", "arduino", "bluetooth", "ios", "raspberry-pi", "video", "wifi"]
 +++
-
 #"Another big brain dump of interesting tech bits over the past few weeks"
 
 <ul>

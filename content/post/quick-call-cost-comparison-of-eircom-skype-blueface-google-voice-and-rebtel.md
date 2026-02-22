@@ -5,8 +5,9 @@ draft = false
 title = "Quick Call Cost Comparison of Eircom, Skype, Blueface, Google Voice and Rebtel"
 description = ""
 slug = "quick-call-cost-comparison-of-eircom-skype-blueface-google-voice-and-rebtel"
+categories = ["General Tech"]
+tags = ["google", "ireland"]
 +++
-
 #"Quick Call Cost Comparison of Eircom, Skype, Blueface, Google Voice and Rebtel"
 
 

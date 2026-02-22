@@ -5,8 +5,9 @@ draft = false
 title = "Oisn, aged 9, may have just invented the next generation of treadmill"
 description = ""
 slug = "oisin-aged-9-may-have-just-invented-the-next-generation-of-treadmill"
+categories = ["Running & Fitness"]
+tags = ["android", "running"]
 +++
-
 #"Ois\u00edn, aged 9, may have just invented the next generation of treadmill"
 
 

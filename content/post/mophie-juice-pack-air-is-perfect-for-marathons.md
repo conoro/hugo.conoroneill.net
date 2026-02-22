@@ -5,8 +5,9 @@ draft = false
 title = "Mophie Juice Pack Air is perfect for Marathons "
 description = ""
 slug = "mophie-juice-pack-air-is-perfect-for-marathons"
+categories = ["Running & Fitness"]
+tags = ["fitness-tracker", "ios", "running"]
 +++
-
 #"Mophie Juice Pack Air is perfect for Marathons"
 
 One of the niche problems with the iPhone 4 is full-length marathons. If you, like my wife, run 26 miles with music playing and Runkeeper recording all your stats, you will get to mile 25 and the battery will run out. Annoying to say the least.

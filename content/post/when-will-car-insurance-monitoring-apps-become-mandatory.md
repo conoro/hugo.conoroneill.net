@@ -5,6 +5,7 @@ draft = false
 title = "When will Car Insurance Monitoring Apps become mandatory? 5yrs?"
 description = " "
 slug = "when-will-car-insurance-monitoring-apps-become-mandatory-5yrs"
+categories = ["General Tech"]
 +++
 My Car Insurance Broker, 123.ie just offered me up to 10% off my 2016 premium if I installed a driving monitoring app on my phone.
 

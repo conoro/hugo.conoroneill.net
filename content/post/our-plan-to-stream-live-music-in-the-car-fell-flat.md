@@ -5,8 +5,9 @@ draft = false
 title = "Our Plan to Stream Live Music in the Car Fell Flat"
 description = ""
 slug = "our-plan-to-stream-live-music-in-the-car-fell-flat"
+categories = ["Media & Entertainment"]
+tags = ["bluetooth", "ireland"]
 +++
-
 #"Our Plan to Stream Live Music in the Car Fell Flat"
 
 

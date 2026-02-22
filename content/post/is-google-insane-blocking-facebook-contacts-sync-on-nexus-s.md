@@ -5,8 +5,9 @@ draft = false
 title = "Is Google Insane? Blocking Facebook Contacts Sync on Nexus S"
 description = ""
 slug = "is-google-insane-blocking-facebook-contacts-sync-on-nexus-s"
+categories = ["Mobile & Apps"]
+tags = ["android", "facebook"]
 +++
-
 #"Is Google Insane? Blocking Facebook Contacts Sync on Nexus S"
 
 

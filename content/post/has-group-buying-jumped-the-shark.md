@@ -5,8 +5,8 @@ draft = false
 title = "Has group buying jumped the shark?"
 description = ""
 slug = "has-group-buying-jumped-the-shark"
+categories = ["Web & Blogging"]
 +++
-
 #"Has group buying jumped the shark?"
 
 

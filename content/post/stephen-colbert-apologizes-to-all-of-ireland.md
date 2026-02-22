@@ -5,8 +5,9 @@ draft = false
 title = "Stephen Colbert Apologizes to all of Ireland"
 description = ""
 slug = "stephen-colbert-apologizes-to-all-of-ireland"
+categories = ["Opinion & Commentary"]
+tags = ["ireland", "security"]
 +++
-
 #"Stephen Colbert Apologizes to all of Ireland"
 
 

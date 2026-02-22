@@ -5,8 +5,8 @@ draft = false
 title = "That means 7,000 out of 26m people on Skype are using Video Chat right now"
 description = ""
 slug = "that-means-7000-out-of-26m-people-on-skype-are-using-video-chat-right-now"
+categories = ["Low Code & No Code"]
 +++
-
 #"That means 7,000 out of 26m people on Skype are using Video Chat right now"
 
 

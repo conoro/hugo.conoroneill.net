@@ -5,8 +5,9 @@ draft = false
 title = "Oi Nokia. I'm still waiting for my free Ovi Maps"
 description = ""
 slug = "oi-nokia-im-still-waiting-for-my-free-ovi-maps"
+categories = ["General Tech"]
+tags = ["lego", "nokia"]
 +++
-
 #"Oi Nokia. I'm still waiting for my free Ovi Maps"
 
 

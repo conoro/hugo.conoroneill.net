@@ -5,8 +5,9 @@ draft = false
 title = "As promised, yet more tech goodie backlog for your entertainment"
 description = "This time it's more about software than hardware."
 slug = "as-promised-yet-more-tech-goodie-backlog-for-your-entertainment"
+categories = ["Low Code & No Code"]
+tags = ["android", "database", "docker", "flooding", "golang", "google", "javascript", "linux", "low-code", "nodejs", "open-source", "python", "raspberry-pi", "rss", "twitter", "wordpress"]
 +++
-
 This time it's more about software than hardware. But first, hardware.
 
 * **Lightning**: We had a lightning strike near our home a few weeks back and my main Windows desktop has been acting dodgy ever since. I swapped the PSU but that didn't help and finally came to the conclusion that some of the USB ports were damaged on the motherboard. One replacement Gigabyte 970A-DS3P later and all seems to be well. I also replaced an older hard-disk that sounded like a machine-gun since day 1 with a combo one that has a small amount of SSD. The silence is a joy.

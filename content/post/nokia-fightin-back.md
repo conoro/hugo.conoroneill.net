@@ -5,8 +5,9 @@ draft = false
 title = "Nokia fightin' back"
 description = ""
 slug = "nokia-fightin-back"
+categories = ["Mobile & Apps"]
+tags = ["android", "nokia"]
 +++
-
 #"Nokia fightin' back"
 
 

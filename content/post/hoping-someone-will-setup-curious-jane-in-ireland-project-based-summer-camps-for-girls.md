@@ -5,8 +5,9 @@ draft = false
 title = "Hoping someone will setup Curious Jane in Ireland - Project-based Summer Camps for Girls "
 description = ""
 slug = "hoping-someone-will-setup-curious-jane-in-ireland-project-based-summer-camps-for-girls"
+categories = ["IoT & Electronics"]
+tags = ["education", "ireland", "twitter"]
 +++
-
 #"Hoping someone will setup Curious Jane in Ireland - Project-based Summer Camps for Girls"
 
 <blockquote>We run summer camps for girls! <a href="http://www.curiousjanecamp.com/">Curious Jane</a> is a dynamic after-school and day camp program for elementary school aged girls. We offer highly-creative, project-based activities that encourage open-ended problem-solving. Our programs give girls the opportunity to explore design, building, and science in a positive, gender affirming environment. Girls attend for single or multiple weeks, and each week they choose their favorite theme popular options include: Toy Design, Story Arts, Life Science, DIY Fashion, Zine Scene, Building Workshop and Wired 101.</blockquote>

@@ -5,8 +5,9 @@ draft = false
 title = "Summary of Setting Up Your Own Private App Inventor Server For Your School"
 description = ""
 slug = "summary-of-setting-up-your-own-private-app-inventor-server-for-your-school"
+categories = ["Gaming & Retro Computing"]
+tags = ["amazon", "aws", "cloud", "education", "google", "ireland", "linux", "low-code"]
 +++
-
 #"Summary of Setting Up Your Own Private App Inventor Server For Your School"
 
 It turns out that the setup of a private App Inventor server is easier than I thought. If you are used to Amazon EC2, it'll be a doddle for you. The Google App Engine bit is absolutely trivial. Full <a href="https://docs.google.com/document/d/124V0q-Jzs8n9LqAlFKnSWxGLei_KZAUQGJUZwlALVws/edit?hl=en_US">MIT documentation is here</a>.

@@ -5,8 +5,8 @@ draft = false
 title = "If VT-220 terminals had been invented in the 80s"
 description = ""
 slug = "if-vt-220-terminals-had-been-invented-in-the-80s"
+categories = ["General Tech"]
 +++
-
 #"If VT-220 terminals had been invented in the 80s"
 
 <a href="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/04/800px-DEC-VT220-0a.jpg"><img class="alignnone wp-image-660" title="800px-DEC-VT220-0a" src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/04/800px-DEC-VT220-0a.jpg" alt="" width="640" height="480" /></a>

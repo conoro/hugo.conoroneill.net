@@ -5,8 +5,9 @@ draft = false
 title = "Node v0.10.40 and v0.12.7 for ARM v7 and v6 (Raspberry Pi, Raspberry Pi 2, Banana Pi, ODroid C1) available"
 description = "I compiled both on a Banana Pi for a change. Nothing special for the 0.12 build, and ./configure --without-snapshot for the 0.10 build"
 slug = "node-v01040-and-v0127-for-arm-v7-raspberry-pi-2-banana-pi-odroid-c1-available"
+categories = ["IoT & Electronics"]
+tags = ["linux", "raspberry-pi"]
 +++
-
 I compiled both on a Banana Pi for a change. Nothing special for the 0.12 build, and ./configure --without-snapshot for the 0.10 build.
 
 "make test" threw up the usual 7 minor errors or so.

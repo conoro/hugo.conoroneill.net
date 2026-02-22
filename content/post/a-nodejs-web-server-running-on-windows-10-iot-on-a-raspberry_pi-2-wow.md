@@ -5,8 +5,9 @@ draft = false
 title = "A Node.js web-server running on Windows 10 IoT on a @Raspberry_Pi 2. Wow!"
 description = "I've been Snarky McSnarkenstein about Windows 10 IoT on Raspberry Pi but for Windows shops looking to get into Embedded (WinCE 1.0 eh?), this is a no-brainer."
 slug = "a-nodejs-web-server-running-on-windows-10-iot-on-a-raspberry_pi-2-wow"
+categories = ["IoT & Electronics"]
+tags = ["golang", "javascript", "linux", "nodejs", "raspberry-pi", "twitter"]
 +++
-
 I've been Snarky McSnarkenstein about Windows 10 IoT on Raspberry Pi for quite a while. When it was originally announced, everyone seemed to think they were getting full-blown Windows for free on Pi. Many still think this. What you actually get is a GUI-less version of Windows on to which you can deploy Universal Apps (and others). So unlike Raspbian on Pi, you can't actually develop on it, you have to have full Windows 10 running somewhere else to develop, compile, deploy and debug. Or as I said on Twitter:
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">&quot;Install Visual Studio 2015 on your PC to develop Win10 IoT Apps for <a href="https://twitter.com/Raspberry_Pi">@Raspberry_Pi</a>&quot;. Install Fortran on your PDP-11 to use your ZX Spectrum?</p>&mdash; Conor O&#39;Neill (@conoro) <a href="https://twitter.com/conoro/status/593662573347794944">April 30, 2015</a></blockquote>

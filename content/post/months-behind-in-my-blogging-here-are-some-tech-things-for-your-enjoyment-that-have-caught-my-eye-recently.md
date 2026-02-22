@@ -5,8 +5,9 @@ draft = false
 title = "Months behind in my blogging. Here are some tech things for your enjoyment that have caught my eye recently"
 description = "Once you get out of the habit of blogging it can take ages to get back in the zone. A week's vacation this week should do the trick for me."
 slug = "months-behind-in-my-blogging-here-are-some-tech-things-for-your-enjoyment-that-have-caught-my-eye-recently"
+categories = ["IoT & Electronics"]
+tags = ["3d-printing", "android", "api", "arduino", "bluetooth", "google", "halloween", "ireland", "linux", "open-source", "security", "wifi"]
 +++
-
 Once you get out of the habit of blogging it can take ages to get back in the zone. A week's vacation this week should do the trick for me. This is partially a link dump and partially the subjects of a bunch of upcoming posts.
 
 * [Red Hat acquired FeedHenry](http://www.feedhenry.com/red-hat-to-acquire-feedhenry/). I first installed Linux in 2006 when working in San Jose and was a Red Hat user all through those early years and into the initial Fedora years. I launched a start-up on 2 CentOS servers. After a period in the Ubuntu wilderness, it feels like I'm coming home :-)

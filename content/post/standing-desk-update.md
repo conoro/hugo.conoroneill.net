@@ -5,8 +5,9 @@ draft = false
 title = "Standing Desk Update"
 description = ""
 slug = "standing-desk-update"
+categories = ["Running & Fitness"]
+tags = ["running"]
 +++
-
 #"Standing Desk Update"
 
 

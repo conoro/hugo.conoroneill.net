@@ -5,8 +5,9 @@ draft = false
 title = "Fuji Finepix 4200 + iPad + USB Adapter = Fab"
 description = ""
 slug = "fuji-finepix-4200-ipad-usb-adapter-fab"
+categories = ["Mobile & Apps"]
+tags = ["android", "ios", "photography"]
 +++
-
 #"Fuji Finepix 4200 + iPad + USB Adapter = Fab"
 
 <a href="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/04/20120408-1322452.jpg"><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2012/04/20120408-1322452.jpg" alt="20120408-132245.jpg" class="alignnone size-full" /></a><br /><br />So far I really love the Fuji Finepix 4200 bridge camera. Barely scratched the surface of it but it's like being in a different century to our old point n shoots.

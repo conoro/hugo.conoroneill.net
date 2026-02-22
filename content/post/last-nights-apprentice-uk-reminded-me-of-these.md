@@ -5,8 +5,9 @@ draft = false
 title = "Last night's Apprentice UK reminded me of these"
 description = ""
 slug = "last-nights-apprentice-uk-reminded-me-of-these"
+categories = ["General Tech"]
+tags = ["ireland"]
 +++
-
 #"Last night's Apprentice UK reminded me of these"
 
 

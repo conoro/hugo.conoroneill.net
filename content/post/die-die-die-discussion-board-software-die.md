@@ -5,8 +5,9 @@ draft = false
 title = "Die Die Die, Discussion Board Software, Die."
 description = ""
 slug = "die-die-die-discussion-board-software-die"
+categories = ["Mobile & Apps"]
+tags = ["ireland", "lego"]
 +++
-
 #"Die Die Die, Discussion Board Software, Die."
 
 

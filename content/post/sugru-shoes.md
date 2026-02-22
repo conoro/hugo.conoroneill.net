@@ -5,8 +5,8 @@ draft = false
 title = "Sugru Shoes"
 description = ""
 slug = "sugru-shoes"
+categories = ["General Tech"]
 +++
-
 #"Sugru Shoes"
 
 

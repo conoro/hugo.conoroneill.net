@@ -5,8 +5,9 @@ draft = false
 title = "RTE should mark this day"
 description = ""
 slug = "rte-should-mark-this-day"
+categories = ["Media & Entertainment"]
+tags = ["ireland", "video"]
 +++
-
 #"RTE should mark this day"
 
 

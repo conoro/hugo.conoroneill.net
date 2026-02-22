@@ -5,8 +5,8 @@ draft = false
 title = "Adam Savage's home office cabinet - Wow."
 description = ""
 slug = "adam-savages-home-office-cabinet-wow"
+categories = ["General Tech"]
 +++
-
 #"Adam Savage's home office cabinet - Wow."
 
 I'm having a fantastic time watching <a href="http://twitter.com/donttrythis">Adam</a> and the gang on <a href="http://tested.com">tested.com</a>. The older kids are enjoying some of them too. The <a href="http://www.tested.com/food/454088-cooking-perfect-omelettes-adam-savage-and-traci-des-jardins/">omelette episode</a> caused 11yo Oisn to make his first ever omelette and I fully expect Adam to announce Dishbusters soon.

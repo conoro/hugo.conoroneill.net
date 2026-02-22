@@ -5,8 +5,9 @@ draft = false
 title = "I may have over-blinged my NodeConf EU badge"
 description = " "
 slug = "i-may-have-over-blinged-my-nodeconf-eu-badge"
+categories = ["IoT & Electronics"]
+tags = ["bluetooth", "espruino", "ireland", "javascript", "led", "open-source"]
 +++
-
 If you attended [NodeConf EU](http://www.nodeconf.eu/) 2017 in Kilkenny, Ireland, you'll know all about the digital badge powered by [Espruino](https://www.espruino.com/) that we created with Gordon Williams. You can read more about it on the [nearForm blog](https://www.nearform.com/blog/say-hello-to-the-nodeconf-eu-hackable-badge/) and check out the [docs site](https://nodeconfeubadge.org/).
 
 I hope you've continued to learn about Espruino and the power of JavaScript on tiny microcontrollers. Don't forget it's entirely Open Source Software and Hardware. Our [Github repo is here](https://github.com/nearform/nceubadge).

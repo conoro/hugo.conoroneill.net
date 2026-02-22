@@ -5,8 +5,8 @@ draft = false
 title = "Gina's One Year at Her Standing Desk"
 description = ""
 slug = "ginas-one-year-at-her-standing-desk"
+categories = ["Running & Fitness"]
 +++
-
 #"Gina's One Year at Her Standing Desk"
 
 <blockquote>Over the past 12 months, standing desks went from popular life hacks meme to eyeroll-inducing sign of a certain type of tightly-wound techie, similar to emptying your email inbox. Several people have asked me if I'm still standing. The answer is yes. Here's what I've learned from 365 days of being a professional stander.</blockquote>

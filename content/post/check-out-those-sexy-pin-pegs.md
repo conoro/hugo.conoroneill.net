@@ -5,8 +5,8 @@ draft = false
 title = "Check out those sexy pin pegs"
 description = ""
 slug = "check-out-those-sexy-pin-pegs"
+categories = ["Opinion & Commentary"]
 +++
-
 #"Check out those sexy pin pegs"
 
 

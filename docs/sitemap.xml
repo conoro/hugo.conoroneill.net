@@ -2,23 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://conoroneill.net/about/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/page/</loc>
+    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/ai/</loc>
+    <lastmod>2026-02-20T09:23:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/categories/ai--machine-learning/</loc>
+    <lastmod>2026-02-20T09:23:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/api/</loc>
+    <lastmod>2026-02-20T09:23:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/aws/</loc>
+    <lastmod>2026-02-20T09:23:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/categories/</loc>
     <lastmod>2026-02-20T09:23:48+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/post/</loc>
     <lastmod>2026-02-20T09:23:48+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/</loc>
+    <lastmod>2026-02-20T09:23:48+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2026/02/20/era-of-disposable-apps-and-disposable-uis/</loc>
     <lastmod>2026-02-20T09:23:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/amazon/</loc>
+    <lastmod>2026-02-20T07:40:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/cloud/</loc>
+    <lastmod>2026-02-20T07:40:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/open-source/</loc>
+    <lastmod>2026-02-20T07:40:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/python/</loc>
+    <lastmod>2026-02-20T07:40:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/sensors/</loc>
+    <lastmod>2026-02-20T07:40:48+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2026/02/20/aws-bedrock-mantle-model-names-youve-been-looking-for/</loc>
     <lastmod>2026-02-20T07:40:48+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/twitter/</loc>
+    <lastmod>2026-02-20T07:40:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/arduino/</loc>
+    <lastmod>2025-12-26T06:40:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/espruino/</loc>
+    <lastmod>2025-12-26T06:40:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/food-tech/</loc>
+    <lastmod>2025-12-26T06:40:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/categories/iot--electronics/</loc>
+    <lastmod>2025-12-26T06:40:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/javascript/</loc>
+    <lastmod>2025-12-26T06:40:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/led/</loc>
+    <lastmod>2025-12-26T06:40:48+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2025/12/26/vibe-coding-an-esp32-version-of-micro-quickjs-mquickjs/</loc>
     <lastmod>2025-12-26T06:40:48+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/wifi/</loc>
+    <lastmod>2025-12-26T06:40:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/ireland/</loc>
+    <lastmod>2025-06-10T06:35:48+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2025/06/10/mcp-can-be-a-supercharger-for-open-data-projects-and-vibe-coding/</loc>
     <lastmod>2025-06-10T06:35:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/rss/</loc>
+    <lastmod>2025-06-10T06:35:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/nodejs/</loc>
+    <lastmod>2025-05-26T02:34:48+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2025/05/26/we-need-more-than-vibe-coding-we-need-an-entire-vibe-pipeline/</loc>
     <lastmod>2025-05-26T02:34:48+00:00</lastmod>
@@ -26,7 +98,25 @@
     <loc>https://conoroneill.net/2025/05/20/microsofts-nlweb-and-agentic-ai-could-trigger-the-resurgence-of-rss/</loc>
     <lastmod>2025-05-20T02:34:48+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/database/</loc>
+    <lastmod>2024-08-18T06:34:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/home-automation/</loc>
+    <lastmod>2024-08-18T06:34:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/categories/low-code--no-code/</loc>
+    <lastmod>2024-08-18T06:34:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/low-code/</loc>
+    <lastmod>2024-08-18T06:34:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/raspberry-pi/</loc>
+    <lastmod>2024-08-18T06:34:48+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2024/08/18/running-postgres-inside-node-red-via-wasm-and-pglite/</loc>
+    <lastmod>2024-08-18T06:34:48+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/wasm/</loc>
     <lastmod>2024-08-18T06:34:48+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2024/02/13/saving-all-your-github-stars-to-pinboard/</loc>
@@ -41,22 +131,67 @@
     <loc>https://conoroneill.net/2022/09/26/epa-ireland-submission-data-available-as-rss-csv-sqlite/</loc>
     <lastmod>2022-09-26T08:30:22+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/categories/software-development/</loc>
+    <lastmod>2022-09-26T08:30:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/categories/cloud--infrastructure/</loc>
+    <lastmod>2022-07-18T13:30:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/linux/</loc>
+    <lastmod>2022-07-18T13:30:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/podcast/</loc>
+    <lastmod>2022-07-18T13:30:22+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2022/07/18/rss-is-on-fire-again-and-its-all-down-to-slackops/</loc>
     <lastmod>2022-07-18T13:30:22+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2022/03/26/celebrating-40-years-of-sinclair-zx-spectrum-with-zx-wordle/</loc>
     <lastmod>2022-03-26T07:00:22+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/gaming/</loc>
+    <lastmod>2022-03-26T07:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/categories/gaming--retro-computing/</loc>
+    <lastmod>2022-03-26T07:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/retro-computing/</loc>
+    <lastmod>2022-03-26T07:00:22+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2021/12/12/the-arduino-uno-mini-limited-edition-is-a-bit-odd/</loc>
     <lastmod>2021-12-12T12:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/google/</loc>
+    <lastmod>2021-11-22T05:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/lego/</loc>
+    <lastmod>2021-11-22T05:00:22+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2021/11/22/mongodb-atlas-data-api-huge-for-no-code-low-code-automation-platforms/</loc>
     <lastmod>2021-11-22T05:00:22+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/bluetooth/</loc>
+    <lastmod>2021-11-01T05:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/golang/</loc>
+    <lastmod>2021-11-01T05:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/halloween/</loc>
+    <lastmod>2021-11-01T05:00:22+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2021/11/01/no-code-halloween-hacking-with-blockly-espruino-node-red/</loc>
     <lastmod>2021-11-01T05:00:22+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/3d-printing/</loc>
+    <lastmod>2021-09-23T05:00:22+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2021/09/23/almost-a-decade-of-espruino-leading-to-the-bangle-js-2/</loc>
+    <lastmod>2021-09-23T05:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/fitness-tracker/</loc>
+    <lastmod>2021-09-23T05:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/security/</loc>
     <lastmod>2021-09-23T05:00:22+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2021/09/20/using-low-code-for-home-iot-automation/</loc>
@@ -65,16 +200,43 @@
     <loc>https://conoroneill.net/2021/09/19/a-quick-thought-on-failed-computers-in-education/</loc>
     <lastmod>2021-09-19T07:00:22+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/education/</loc>
+    <lastmod>2021-09-19T07:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/facebook/</loc>
+    <lastmod>2021-07-15T05:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/running/</loc>
+    <lastmod>2021-07-15T05:00:22+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2021/07/15/tiktok-rss-feeds-using-github-octo-flat-data/</loc>
     <lastmod>2021-07-15T05:00:22+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/android/</loc>
+    <lastmod>2021-07-12T05:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/categories/mobile--apps/</loc>
+    <lastmod>2021-07-12T05:00:22+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2021/07/12/pano2insta-panoramic-photo-to-instagram-converter/</loc>
+    <lastmod>2021-07-12T05:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/photography/</loc>
     <lastmod>2021-07-12T05:00:22+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2021/01/17/preserving-old-sites-importance-of-github/</loc>
     <lastmod>2021-01-17T17:00:22+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/wordpress/</loc>
+    <lastmod>2021-01-17T17:00:22+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2020/12/10/empowering-citizen-non-developers/</loc>
+    <lastmod>2020-12-10T07:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/gps/</loc>
+    <lastmod>2020-12-10T07:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/startup/</loc>
     <lastmod>2020-12-10T07:00:22+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2020/12/08/pcmanfm-raspberry-pi-smb-samba-password/</loc>
@@ -83,13 +245,31 @@
     <loc>https://conoroneill.net/2019/12/04/why-running-tensorflow-lite-for-microcontrollers-on-extremely-inexpensive-devices-changes-everything/</loc>
     <lastmod>2019-12-04T07:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/docker/</loc>
+    <lastmod>2019-12-02T07:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2019/12/02/running-wasmer-on-a-raspberry-pi-4-with-64bit-userland/</loc>
     <lastmod>2019-12-02T07:00:00+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2019/11/25/bangle-js-open-source-pointing-to-future-of-health-platforms-and-wearables/</loc>
     <lastmod>2019-11-25T09:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/categories/running--fitness/</loc>
+    <lastmod>2019-11-25T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2018/11/25/a-decade-since-my-first-android-phone-the-htc-g1/</loc>
+    <lastmod>2018-11-25T17:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/ios/</loc>
+    <lastmod>2018-11-25T17:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/nokia/</loc>
+    <lastmod>2018-11-25T17:00:22+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/samsung/</loc>
     <lastmod>2018-11-25T17:00:22+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2018/09/08/creating-rss-feeds-for-corks-evening-echo-newspaper-website-with-node.js-and-serverless/</loc>
@@ -98,16 +278,28 @@
     <loc>https://conoroneill.net/2018/09/07/a-big-thank-you-to-ben-heck/</loc>
     <lastmod>2018-09-07T07:00:22+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/video/</loc>
+    <lastmod>2018-09-07T07:00:22+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2018/08/30/i-may-be-totally-done-with-twitter-style-sites-including-mastodon/</loc>
     <lastmod>2018-08-30T12:02:07+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/categories/opinion--commentary/</loc>
+    <lastmod>2018-08-30T12:02:07+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2018/08/15/email-to-hugo-update-your-hugo-blog-via-email/</loc>
+    <lastmod>2018-08-15T09:39:28+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/hugo/</loc>
     <lastmod>2018-08-15T09:39:28+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2018/08/13/first-few-minutes-with-the-raspad/</loc>
     <lastmod>2018-08-13T14:14:28+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2018/08/12/first-live-test-of-my-new-email-to-hugo-blogging-tool/</loc>
+    <lastmod>2018-08-12T16:51:28+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/categories/web--blogging/</loc>
     <lastmod>2018-08-12T16:51:28+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2018/03/17/fund-allwinner-vpu-support-kickstarter/</loc>
@@ -149,11 +341,17 @@
     <loc>https://conoroneill.net/2016/02/08/three-ways-to-build-go-1.4-binaries-for-mips32-onion-omega/</loc>
     <lastmod>2016-02-08T17:43:26+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/categories/general-tech/</loc>
+    <lastmod>2016-01-02T13:00:29+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2016/01/02/when-will-car-insurance-monitoring-apps-become-mandatory-5yrs/</loc>
     <lastmod>2016-01-02T13:00:29+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2016/01/01/how-cheaply-can-you-build-a-full-raspberry-pizero-computer/</loc>
     <lastmod>2016-01-01T10:59:32+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/tags/minecraft/</loc>
+    <lastmod>2015-12-31T21:20:12+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2015/12/31/what-excited-conor-in-tech-in-2015/</loc>
     <lastmod>2015-12-31T21:20:12+00:00</lastmod>
@@ -164,19 +362,25 @@
     <loc>https://conoroneill.net/2015/12/30/auto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router/</loc>
     <lastmod>2015-12-30T17:15:23+00:00</lastmod>
   </url><url>
+    <loc>https://conoroneill.net/tags/flooding/</loc>
+    <lastmod>2015-12-30T17:15:23+00:00</lastmod>
+  </url><url>
     <loc>https://conoroneill.net/2015/12/27/blogging-from-my-phone-with-droidedit-hugo-github-pages-and-travis/</loc>
     <lastmod>2015-12-27T16:38:29+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2015/12/27/simple-christmas-control-of-each-led-in-a-150-rgb-led-ws2812-strip/</loc>
     <lastmod>2015-12-27T11:34:18+00:00</lastmod>
   </url><url>
-    <loc>https://conoroneill.net/2015/11/16/first-impressions-of-onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/</loc>
+    <loc>https://conoroneill.net/2015/11/16/first-impressions-of-@onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/</loc>
     <lastmod>2015-11-16T22:35:48+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2015/11/03/all-the-gory-tech-behind-our-halloween-hallway-of-horror/</loc>
     <lastmod>2015-11-03T08:22:29+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2015/10/23/facebook-is-the-amazon-aws-killer/</loc>
+    <lastmod>2015-10-23T13:54:25+01:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/categories/startups--business/</loc>
     <lastmod>2015-10-23T13:54:25+01:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2015/09/29/running-the-latest-chromium-45-on-debian-jessie-on-your-raspberry-pi-2/</loc>
@@ -334,6 +538,9 @@
   </url><url>
     <loc>https://conoroneill.net/2013/12/25/our-first-arduino-christmas-turkey/</loc>
     <lastmod>2013-12-25T13:43:19+00:00</lastmod>
+  </url><url>
+    <loc>https://conoroneill.net/categories/media--entertainment/</loc>
+    <lastmod>2013-12-01T13:20:57+00:00</lastmod>
   </url><url>
     <loc>https://conoroneill.net/2013/12/01/slightly-obsessing-about-the-doctor-who-theme-music/</loc>
     <lastmod>2013-12-01T13:20:57+00:00</lastmod>
@@ -2336,8 +2543,6 @@
     <loc>https://conoroneill.net/2010/02/03/the-in-betweeners/</loc>
     <lastmod>2010-02-03T09:06:13+00:00</lastmod>
   </url><url>
-    <loc>https://conoroneill.net/categories/</loc>
-  </url><url>
-    <loc>https://conoroneill.net/tags/</loc>
+    <loc>https://conoroneill.net/search/</loc>
   </url>
 </urlset>

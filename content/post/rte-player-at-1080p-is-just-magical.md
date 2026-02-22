@@ -5,8 +5,8 @@ draft = false
 title = "RTE Player at 1080p is Just Magical"
 description = ""
 slug = "rte-player-at-1080p-is-just-magical"
+categories = ["General Tech"]
 +++
-
 #"RTE Player at 1080p is Just Magical"
 
 

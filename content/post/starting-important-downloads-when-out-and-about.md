@@ -5,8 +5,9 @@ draft = false
 title = "Starting important downloads when out and about"
 description = ""
 slug = "starting-important-downloads-when-out-and-about"
+categories = ["Mobile & Apps"]
+tags = ["android", "linux", "twitter"]
 +++
-
 #"Starting important downloads when out and about"
 
 

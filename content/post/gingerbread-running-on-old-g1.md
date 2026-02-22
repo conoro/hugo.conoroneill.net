@@ -5,8 +5,9 @@ draft = false
 title = "Gingerbread running on old G1"
 description = ""
 slug = "gingerbread-running-on-old-g1"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "gaming"]
 +++
-
 #"Gingerbread running on old G1"
 
 

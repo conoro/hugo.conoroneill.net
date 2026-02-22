@@ -5,8 +5,9 @@ draft = false
 title = "Google App Inventor Just had a Rocket Strapped to its Back!"
 description = ""
 slug = "google-app-inventor-just-had-a-rocket-strapped-to-its-back"
+categories = ["Mobile & Apps"]
+tags = ["api", "education", "golang", "low-code", "rss", "twitter"]
 +++
-
 #"Google App Inventor Just had a Rocket Strapped to its Back!"
 
 

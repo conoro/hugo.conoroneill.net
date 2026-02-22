@@ -5,8 +5,9 @@ draft = false
 title = "Two tutorials later and the kids are liking the Arduino a lot"
 description = ""
 slug = "two-tutorials-later-and-the-kids-are-liking-the-arduino-a-lot"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "led", "sensors"]
 +++
-
 #"Two tutorials later and the kids are liking the Arduino a lot"
 
 I sat down with 8 y/o daughter and 10 y/o son this afternoon to try out our <a href="http://www.seeedstudio.com/depot/ardx-the-starter-kit-for-arduino-p-1153.html?cPath=138">ARDX starter kit</a> for <a href="http://arduino.cc/">Arduino</a>. The first tutorial is a simple single LED which you flash on/off in software. But I was horrified to find myself stumped!

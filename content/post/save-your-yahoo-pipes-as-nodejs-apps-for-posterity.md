@@ -5,8 +5,9 @@ draft = false
 title = "Save your Yahoo Pipes as Node.js Apps for posterity"
 description = "I swore I'd never use another Yahoo product after the cultural terrorism of their Geocities shutdown. Now one of their few bright lights of the past decade is biting the dust. However some very very smart person wrote some code two years ago which you may find useful. It converts your Pipes to Node.js apps."
 slug = "save-your-yahoo-pipes-as-nodejs-apps-for-posterity"
+categories = ["Cloud & Infrastructure"]
+tags = ["api", "javascript", "linux", "nodejs", "open-source", "twitter"]
 +++
-
 I swore I'd never use another Yahoo product after the cultural terrorism of their Geocities shutdown. Now one of their few bright lights of the past decade, Pipes, is biting the dust. However a very very smart person wrote a program called [pipes2js](https://github.com/neyric/pipes2js) three years ago which you may find useful. It converts your Pipes to Node.js apps!
 
 ![RIP Pipes](https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/06/rip_pipes.png)

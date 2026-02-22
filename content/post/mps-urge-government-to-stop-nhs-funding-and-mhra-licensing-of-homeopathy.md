@@ -5,8 +5,9 @@ draft = false
 title = "MPs urge government to stop NHS funding, and MHRA licensing, of homeopathy"
 description = ""
 slug = "mps-urge-government-to-stop-nhs-funding-and-mhra-licensing-of-homeopathy"
+categories = ["Startups & Business"]
+tags = ["startup"]
 +++
-
 #"MPs urge government to stop NHS funding, and MHRA licensing, of homeopathy"
 
 

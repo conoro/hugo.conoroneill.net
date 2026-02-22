@@ -5,8 +5,8 @@ draft = false
 title = "Pat is right about Haiti Connect"
 description = ""
 slug = "pat-is-right-about-haiti-connect"
+categories = ["Web & Blogging"]
 +++
-
 #"Pat is right about Haiti Connect"
 
 

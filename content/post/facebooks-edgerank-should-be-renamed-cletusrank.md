@@ -5,8 +5,9 @@ draft = false
 title = "Facebook's EdgeRank should be renamed CletusRank"
 description = ""
 slug = "facebooks-edgerank-should-be-renamed-cletusrank"
+categories = ["Web & Blogging"]
+tags = ["facebook", "twitter"]
 +++
-
 #"Facebook's EdgeRank should be renamed CletusRank"
 
  <p><div class='p_embed p_image_embed'>

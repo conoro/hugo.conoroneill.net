@@ -5,8 +5,9 @@ draft = false
 title = "Any opinions on 15.4' laptops?"
 description = ""
 slug = "any-opinions-on-15-4-laptops"
+categories = ["Opinion & Commentary"]
+tags = ["samsung"]
 +++
-
 #"Any opinions on 15.4\" laptops?"
 
 

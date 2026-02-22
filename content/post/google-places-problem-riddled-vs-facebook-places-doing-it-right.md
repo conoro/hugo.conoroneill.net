@@ -5,8 +5,9 @@ draft = false
 title = "Google Places Problem-Riddled vs Facebook Places Doing It Right"
 description = ""
 slug = "google-places-problem-riddled-vs-facebook-places-doing-it-right"
+categories = ["Mobile & Apps"]
+tags = ["android", "api", "education", "facebook", "food-tech", "google", "ireland", "startup", "twitter"]
 +++
-
 #"Google Places Problem-Riddled vs Facebook Places Doing It Right"
 
 

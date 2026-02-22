@@ -5,8 +5,8 @@ draft = false
 title = "Anyone want paddysvalley.org and .com?"
 description = ""
 slug = "anyone-want-paddysvalley-org-and-com"
+categories = ["General Tech"]
 +++
-
 #"Anyone want paddysvalley.org and .com?"
 
 I've been renewing those two domains since 2007 despite the fact that I never actually went on the trip.

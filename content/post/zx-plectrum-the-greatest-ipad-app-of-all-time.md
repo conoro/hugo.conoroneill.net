@@ -5,8 +5,9 @@ draft = false
 title = "ZX Plectrum - The Greatest iPad App of ALL TIME"
 description = ""
 slug = "zx-plectrum-the-greatest-ipad-app-of-all-time"
+categories = ["Mobile & Apps"]
+tags = ["ios"]
 +++
-
 #"ZX Plectrum - The Greatest iPad App of ALL TIME"
 
 No words needed, just watch the video. Best 79c I ever spent.

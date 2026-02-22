@@ -5,8 +5,8 @@ draft = false
 title = "Lovely Brabantia Bin - Sugru to the Rescue"
 description = ""
 slug = "lovely-brabantia-bin-sugru-to-the-rescue"
+categories = ["General Tech"]
 +++
-
 #"Lovely Brabantia Bin - Sugru to the Rescue"
 
 

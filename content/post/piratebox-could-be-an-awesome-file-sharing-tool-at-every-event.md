@@ -5,8 +5,9 @@ draft = false
 title = "PirateBox could be an awesome file sharing tool at every event, particularly where internet is poor i.e. all of them."
 description = "The lack of bandwidth at most events whether free or pay-for means that local file-sharing via something like PirateBox could be a god-send. Has anyone tried this at BarCamps or Coder Dojos?"
 slug = "piratebox-could-be-an-awesome-file-sharing-tool-at-every-event"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "education", "wifi"]
 +++
-
 One thing I've run into many times is the lack of internet bandwidth at events. It doesn't seem to matter whether it is a big pay-for thing or a BarCamp - once everyone was online, things slowed to a crawl. This was a really big problem at Dojo Camp last year where we had to get a ton of kids setup with the Arduino IDE and other tools. In the end it was faster to pass around a USB key but we lost a lot of valuable time doing this.
 
 [PirateBox](http://piratebox.de/) has been around for ages as an anonymous drop box (not DropBox!). Basically it's software and configuration using dirt cheap TP-Link routers to provide a wifi access point with connected storage and files. Version 1.0 was just released which is a ground-up rebuild.

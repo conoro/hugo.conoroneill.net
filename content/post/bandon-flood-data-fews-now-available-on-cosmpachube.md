@@ -5,8 +5,9 @@ draft = false
 title = "Bandon Flood Data (FEWS) now available on Cosm/Pachube"
 description = ""
 slug = "bandon-flood-data-fews-now-available-on-cosmpachube"
+categories = ["IoT & Electronics"]
+tags = ["amazon", "api", "arduino", "aws", "database", "flooding", "ireland", "raspberry-pi", "wifi"]
 +++
-
 #"Bandon Flood Data (FEWS) now available on Cosm/Pachube"
 
 When <a href="http://conoroneill.com/2011/11/17/bandon-flood-fews-open-data-now-available/">I announced the availablity of Open Data</a> on Google Fusion Tables for the <a href="http://bandonfloodwarning.ie/">Bandon Flood Early Warning System (FEWS)</a> last year, one suggestion that was made to me by Imogen Bertin was to put it up on <a href="http://cosm.com">Pachube</a> (now renamed to the slightly less obscure <a href="http://cosm.com">Cosm</a>). I gave it a go but couldn't figure it out. Despite providing it with the CSV link to the Fusion Table, it never did anything with the data. So I gave up due to busyness.

@@ -5,8 +5,9 @@ draft = false
 title = "I need Boxee for Families"
 description = ""
 slug = "i-need-boxee-for-families"
+categories = ["Gaming & Retro Computing"]
+tags = ["facebook", "gaming", "golang", "ireland", "twitter", "video"]
 +++
-
 #"I need Boxee for Families"
 
 

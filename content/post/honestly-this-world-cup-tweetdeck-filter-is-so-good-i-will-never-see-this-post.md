@@ -5,8 +5,9 @@ draft = false
 title = "Honestly, this World Cup TweetDeck Filter is so good, I will never see this post"
 description = ""
 slug = "honestly-this-world-cup-tweetdeck-filter-is-so-good-i-will-never-see-this-post"
+categories = ["General Tech"]
+tags = ["facebook", "twitter"]
 +++
-
 #"Honestly, this World Cup TweetDeck Filter is so good, I will never see this post"
 
 

@@ -5,8 +5,8 @@ draft = false
 title = "Colm O'Gorman's response to Ratzinger's 'it was all someone else's fault'"
 description = ""
 slug = "colm-ogormans-response-to-ratzingers-it-was-all-someone-elses-fault"
+categories = ["Opinion & Commentary"]
 +++
-
 #"Colm O'Gorman's response to Ratzinger's \"it was all someone else's fault\""
 
 

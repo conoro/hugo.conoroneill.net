@@ -5,8 +5,9 @@ draft = false
 title = "Jesus Christ Facebook, Now You Decide to Fuck-Up Python Users?"
 description = ""
 slug = "jesus-christ-facebook-now-you-decide-to-fuck-up-python-users"
+categories = ["Software Development"]
+tags = ["api", "facebook", "open-source", "python"]
 +++
-
 #"Jesus Christ Facebook, Now You Decide to Fuck-Up Python Users?"
 
  <div class='p_embed p_image_embed'>

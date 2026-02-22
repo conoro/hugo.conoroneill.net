@@ -5,8 +5,8 @@ draft = false
 title = "schema.org - About Bloody Time"
 description = ""
 slug = "schema-org-about-bloody-time"
+categories = ["Web & Blogging"]
 +++
-
 #"schema.org - About Bloody Time"
 
 

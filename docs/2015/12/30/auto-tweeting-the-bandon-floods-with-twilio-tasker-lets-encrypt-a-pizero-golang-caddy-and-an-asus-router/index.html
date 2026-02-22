@@ -1,178 +1,516 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  	<meta property="og:title" content=" Auto-tweeting the Bandon floods with Twilio, Tasker, Let&#39;s Encrypt, a PiZero, golang, Caddy and an Asus router &middot;  Cross Dominant" />
-  	<meta property="og:site_name" content="Cross Dominant" />
-  	<meta property="og:url" content="https://conoroneill.net/2015/12/30/auto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router/" />
-
-    
-  	<meta property="og:type" content="article" />
-
-    <meta property="og:article:published_time" content="2015-12-30T17:15:23Z" />
-
-    
-    
-
-  <title>
-     Auto-tweeting the Bandon floods with Twilio, Tasker, Let&#39;s Encrypt, a PiZero, golang, Caddy and an Asus router &middot;  Cross Dominant
-  </title>
-
-    <meta name="description" content="Mixed laterality since 1968" />
-
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="shortcut icon" href="https://conoroneill.net/favicon.ico">
-	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
-
-    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous">
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" ">
+<title>Auto-tweeting the Bandon floods with Twilio, Tasker, Let&#39;s Encrypt, a PiZero, golang, Caddy and an Asus router</title>
 
 
+<link rel="canonical" href="https://conoroneill.net/2015/12/30/auto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
-    
-      
-          <link href="https://conoroneill.net/index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
-      
-      
-    
-    <meta name="generator" content="Hugo 0.84.4" />
 
-    <link rel="canonical" href="https://conoroneill.net/2015/12/30/auto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router/" />
+<link rel="stylesheet" href="/scss/style.min.390cc81d180d80110703ea467e355a4f3a0f44f25d4e957842790824fb5f2ef2.css"><meta property='og:title' content="Auto-tweeting the Bandon floods with Twilio, Tasker, Let's Encrypt, a PiZero, golang, Caddy and an Asus router">
+<meta property='og:description' content=" ">
+<meta property='og:url' content='https://conoroneill.net/2015/12/30/auto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router/'>
+<meta property='og:site_name' content='Mixed Laterality'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='android' /><meta property='article:tag' content='api' /><meta property='article:tag' content='database' /><meta property='article:tag' content='flooding' /><meta property='article:tag' content='golang' /><meta property='article:tag' content='ireland' /><meta property='article:tag' content='javascript' /><meta property='article:tag' content='nodejs' /><meta property='article:tag' content='open-source' /><meta property='article:tag' content='raspberry-pi' /><meta property='article:tag' content='security' /><meta property='article:tag' content='twitter' /><meta property='article:tag' content='wifi' /><meta property='article:published_time' content='2015-12-30T17:15:23&#43;00:00'/><meta property='article:modified_time' content='2015-12-30T17:15:23&#43;00:00'/>
+<meta name="twitter:title" content="Auto-tweeting the Bandon floods with Twilio, Tasker, Let's Encrypt, a PiZero, golang, Caddy and an Asus router">
+<meta name="twitter:description" content=" ">
+    <link rel="shortcut icon" href="/images/Blog_Flow_Icon.jpg" />
+<style>
+    .site-header-image {
+        margin-bottom: var(--section-separation);
+        border-radius: var(--card-border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow-l1);
+    }
+    .site-header-image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    @media (min-width: 768px) {
+        .site-header-image img {
+            height: 280px;
+        }
+    }
+    @media (min-width: 1024px) {
+        .site-header-image img {
+            height: 350px;
+        }
+    }
 
-    
+    .article-list .article-subtitle {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 1.5rem;
+    }
+</style>
+
+    </head>
+    <body class="
+    article-page
+    ">
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-      ga('create', 'UA-88610-4', 'auto');
-      ga('send', 'pageview');
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
 
-    </script>
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="/images/Blog_Flow_Icon.jpg" 
+                        width=""
+                        height=""
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Mixed Laterality</a></h1>
+            <h2 class="site-description">Tech Blogging since 2001</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/conoro'
+                        
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/conoroneill'
+                        
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+  <path d="M8 11l0 5" />
+  <path d="M8 8l0 .01" />
+  <path d="M12 16l0 -5" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/conoro'
+                        
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav class="toc-nav" id="TableOfContents">
+                
+  <ul>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#the-details">The Details</a></li>
+    <li><a href="#lets-encrypt-and-caddy">Let&rsquo;s Encrypt and Caddy</a></li>
+    <li><a href="#alternatives">Alternatives</a></li>
+    <li><a href="#go-code-see-for-httpsgistgithubcomconorof1a3f7c5b96e2b033119-for-latest">Go Code (See for https://gist.github.com/conoro/f1a3f7c5b96e2b033119 for latest)</a></li>
+    <li><a href="#asus-dnsmadeeasy-update">Asus DNSMadeEasy Update</a></li>
+  </ul>
+
+            </nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+            
+            
+            <a href="/categories/iot--electronics/" style="background-color: hsl(62, 60%, 84%); color: hsl(62, 60%, 15%);">
+                IoT &amp; Electronics
+            </a>
+        
+    </header>
     
 
-    
-</head>
-<body class="nav-closed">
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/2015/12/30/auto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router/">Auto-tweeting the Bandon floods with Twilio, Tasker, Let&#39;s Encrypt, a PiZero, golang, Caddy and an Asus router</a>
+        </h2>
 
-  <div class="nav">
-    <h3 class="nav-title">Menu</h3>
-    <a href="#" class="nav-close">
-        <span class="hidden">Close</span>
-    </a>
-    <ul>
+        
+            
+            <h3 class="article-subtitle">
+                 
+            </h3>
+            
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2015-12-30T17:15:23Z'>Wednesday, December 30, 2015</time>
+            </div>
         
 
         
-    </ul>
-
+    </footer>
+    
 
     
-    <a class="subscribe-button icon-feed" href="https://conoroneill.net/index.xml">Subscribe</a>
+
     
 </div>
-<span class="nav-cover"></span>
 
-
- <div class="site-wrapper">
-
-
-
-
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
-
-
-  
-      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/cross_dominant.png" alt="Home" /></a>
-  
-  
-      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
-  
-  </nav>
 </header>
 
+    
+    <aside class="article-toc">
+        <details>
+            <summary>
+                <div class="article-toc-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                    <span>Table of contents</span>
+                </div>
+            </summary>
+            <nav class="toc-nav">
+                
+  <ul>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#the-details">The Details</a></li>
+    <li><a href="#lets-encrypt-and-caddy">Let&rsquo;s Encrypt and Caddy</a></li>
+    <li><a href="#alternatives">Alternatives</a></li>
+    <li><a href="#go-code-see-for-httpsgistgithubcomconorof1a3f7c5b96e2b033119-for-latest">Go Code (See for https://gist.github.com/conoro/f1a3f7c5b96e2b033119 for latest)</a></li>
+    <li><a href="#asus-dnsmadeeasy-update">Asus DNSMadeEasy Update</a></li>
+  </ul>
 
+            </nav>
+        </details>
+    </aside>
+    
 
-<main class="content" role="main">
-
-
-
-
-  <article class="post post">
-
-    <header class="post-header">
-        <h1 class="post-title">Auto-tweeting the Bandon floods with Twilio, Tasker, Let&#39;s Encrypt, a PiZero, golang, Caddy and an Asus router</h1>
-        <small> </small>
-
-        <section class="post-meta">
-        
-          <time class="post-date" datetime="2015-12-30T17:15:23Z">
-            Dec 30, 2015
-          </time>
-        
-         
-        </section>
-    </header>
-
-    <section class="post-content">
-      <h2 id="intro">Intro</h2>
-<p>I haven&rsquo;t blogged properly about the $5 <a href="https://www.raspberrypi.org/blog/raspberry-pi-zero/">Raspberry Pi Zero</a> computer yet, despite Tweeting non-stop about it. I will soon. In the meantime, I&rsquo;ll just repeat that</p>
+    <section class="article-content">
+    
+    
+    <h2 id="intro"><a href="#intro" class="header-anchor"></a>Intro
+</h2><p>I haven&rsquo;t blogged properly about the $5 <a class="link" href="https://www.raspberrypi.org/blog/raspberry-pi-zero/"  target="_blank" rel="noopener"
+    >Raspberry Pi Zero</a> computer yet, despite Tweeting non-stop about it. I will soon. In the meantime, I&rsquo;ll just repeat that</p>
 <p><em>It&rsquo;s a major moment in computing</em></p>
 <iframe src="https://player.vimeo.com/video/146893658" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p>The inclusion of a free one on the cover of the <a href="https://www.raspberrypi.org/magpi/raspberry-pi-zero-out-today-get-it-free-with-the-magpi-40/">MagPi Magazine</a> will be remembered for years to come.</p>
-<p>The town in which I live, Bandon, flooded again recently, because Ireland. I&rsquo;ve had <a href="https://github.com/conoro/bandonfews-nodejs">a simple Node.js app</a> running on a Gen 1 Raspberry Pi B, scraping the <a href="http://www.bandonfloodwarning.ie/">Bandon Flood Warning</a> site every 15 minutes for the past four years and saving the data in <a href="https://www.google.com/fusiontables/DataSource?docid=103YIcARoxuaWT7NfZ8mVBzY554sF_3ONYC1N3DE&amp;pli=1#chartnew:id=5">Google Fusion Tables</a>.</p>
+<p>The inclusion of a free one on the cover of the <a class="link" href="https://www.raspberrypi.org/magpi/raspberry-pi-zero-out-today-get-it-free-with-the-magpi-40/"  target="_blank" rel="noopener"
+    >MagPi Magazine</a> will be remembered for years to come.</p>
+<p>The town in which I live, Bandon, flooded again recently, because Ireland. I&rsquo;ve had <a class="link" href="https://github.com/conoro/bandonfews-nodejs"  target="_blank" rel="noopener"
+    >a simple Node.js app</a> running on a Gen 1 Raspberry Pi B, scraping the <a class="link" href="http://www.bandonfloodwarning.ie/"  target="_blank" rel="noopener"
+    >Bandon Flood Warning</a> site every 15 minutes for the past four years and saving the data in <a class="link" href="https://www.google.com/fusiontables/DataSource?docid=103YIcARoxuaWT7NfZ8mVBzY554sF_3ONYC1N3DE&amp;pli=1#chartnew:id=5"  target="_blank" rel="noopener"
+    >Google Fusion Tables</a>.</p>
 <p>Yes that&rsquo;s how Cork County Council&rsquo;s/OPW&rsquo;s Flood Warning site looks in the middle of one of our biggest floods ever:</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/service_unavailable.jpg" alt="FEWS Unavailable"></p>
-<p>With all this flooding, I decided to finally create a related setup which takes the SMS Flood alerts from the County Council and auto-tweets them to the <a href="https://twitter.com/bandonfews">@BandonFEWS</a> Twitter account which I created and have manually updated since 2011.</p>
-<h2 id="the-details">The Details</h2>
-<p>So the final $7 hardware (including Wifi adapter) now looks as follows:</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/pizero_fews.jpg" alt="PiZero FEWS"></p>
+<p><img src="/service_unavailable_6575692424521683693.jpg"
+	width="821"
+	height="507"
+	loading="lazy"
+	
+		alt="FEWS Unavailable"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="161"
+		data-flex-basis="388px"
+	
+></p>
+<p>With all this flooding, I decided to finally create a related setup which takes the SMS Flood alerts from the County Council and auto-tweets them to the <a class="link" href="https://twitter.com/bandonfews"  target="_blank" rel="noopener"
+    >@BandonFEWS</a> Twitter account which I created and have manually updated since 2011.</p>
+<h2 id="the-details"><a href="#the-details" class="header-anchor"></a>The Details
+</h2><p>So the final $7 hardware (including Wifi adapter) now looks as follows:</p>
+<p><img src="/pizero_fews_9296641464216187350.jpg"
+	width="300"
+	height="496"
+	loading="lazy"
+	
+		alt="PiZero FEWS"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="60"
+		data-flex-basis="145px"
+	
+></p>
 <ul>
 <li>My phone is registered with the Bandon Flood Warning site (it has been for years)</li>
-<li>I have a <a href="https://www.twilio.com/">Twilio</a> account with a $1 per month UK SMS number. Irish numbers are $6 per month :-(</li>
+<li>I have a <a class="link" href="https://www.twilio.com/"  target="_blank" rel="noopener"
+    >Twilio</a> account with a $1 per month UK SMS number. Irish numbers are $6 per month :-(</li>
 <li>SMSes are sent to my phone from Cork CoCo announcing a new flood warning level or severe weather alert (two different systems and numbers)</li>
-<li>The Android <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=en">Tasker App</a> watches for SMS from these sources with particular contents</li>
+<li>The Android <a class="link" href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=en"  target="_blank" rel="noopener"
+    >Tasker App</a> watches for SMS from these sources with particular contents</li>
 <li>Tasker auto-forwards these SMSes to my Twilio number</li>
 </ul>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/tasker.jpg" alt="Tasker"></p>
+<p><img src="/tasker_574371656582767494.jpg"
+	width="300"
+	height="533"
+	loading="lazy"
+	
+		alt="Tasker"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="56"
+		data-flex-basis="135px"
+	
+></p>
 <ul>
 <li>I have the Twilio number configured to call a my simple API end-point with the SMS contents</li>
-<li>The API end-point is running on one of my $5 Raspberry Pi Zeros and is written in <a href="https://golang.org/">Go</a>. Code below.</li>
-<li>The PiZero is behind my home router which is an <a href="https://www.asus.com/ie/Networking/RTAC68U/">Asus RT-AC68</a> so somehow Twilio had to connect through that to the Zero</li>
-<li>I initially setup a simple port forward to the Zero and I already use <a href="http://no-IP.com">no-IP.com</a> for Dynamic DNS. So Twilio called <a href="http://something.no-ip.net:1234">http://something.no-ip.net:1234</a> and my router passed the request to the PiZero server app on port blah</li>
-<li>The PiZero server app parsed the POST request and extracted out the SMS. It split this into multiple Tweets (a la Tweetstorm) if more than 140 chars and used the <a href="https://github.com/ChimeraCoder/anaconda">Anaconda Go client library</a> to post that to @BandonFEWS on Twitter</li>
+<li>The API end-point is running on one of my $5 Raspberry Pi Zeros and is written in <a class="link" href="https://golang.org/"  target="_blank" rel="noopener"
+    >Go</a>. Code below.</li>
+<li>The PiZero is behind my home router which is an <a class="link" href="https://www.asus.com/ie/Networking/RTAC68U/"  target="_blank" rel="noopener"
+    >Asus RT-AC68</a> so somehow Twilio had to connect through that to the Zero</li>
+<li>I initially setup a simple port forward to the Zero and I already use <a class="link" href="http://no-IP.com"  target="_blank" rel="noopener"
+    >no-IP.com</a> for Dynamic DNS. So Twilio called <a class="link" href="http://something.no-ip.net:1234"  target="_blank" rel="noopener"
+    >http://something.no-ip.net:1234</a> and my router passed the request to the PiZero server app on port blah</li>
+<li>The PiZero server app parsed the POST request and extracted out the SMS. It split this into multiple Tweets (a la Tweetstorm) if more than 140 chars and used the <a class="link" href="https://github.com/ChimeraCoder/anaconda"  target="_blank" rel="noopener"
+    >Anaconda Go client library</a> to post that to @BandonFEWS on Twitter</li>
 <li>Done</li>
 </ul>
-<p>But I wasn&rsquo;t happy with http, nooooo, I wanted https and I wanted to use <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>. Cue rabbit hole.</p>
-<h2 id="lets-encrypt-and-caddy">Let&rsquo;s Encrypt and Caddy</h2>
-<p>Let&rsquo;s Encrypt offers free https certs.</p>
+<p>But I wasn&rsquo;t happy with http, nooooo, I wanted https and I wanted to use <a class="link" href="https://letsencrypt.org/"  target="_blank" rel="noopener"
+    >Let&rsquo;s Encrypt</a>. Cue rabbit hole.</p>
+<h2 id="lets-encrypt-and-caddy"><a href="#lets-encrypt-and-caddy" class="header-anchor"></a>Let&rsquo;s Encrypt and Caddy
+</h2><p>Let&rsquo;s Encrypt offers free https certs.</p>
 <p><em>It&rsquo;s as revolutionary as the PiZero.</em></p>
 <p>It also provides APIs so this can be done completely automatically. This resulted in lots of people adding easy Let&rsquo;s Encrypt integration and client libraries very quickly.</p>
 <ul>
-<li><a href="https://caddyserver.com/">Caddy</a> is a really nice simple-to-use web-server written in Go. It runs perfectly on the PiZero. It also has completely automatic Let&rsquo;s Encrypt integration if you want it. So I stuck it in front of my Go server to turn it into a https server. Except life is never that easy.</li>
+<li><a class="link" href="https://caddyserver.com/"  target="_blank" rel="noopener"
+    >Caddy</a> is a really nice simple-to-use web-server written in Go. It runs perfectly on the PiZero. It also has completely automatic Let&rsquo;s Encrypt integration if you want it. So I stuck it in front of my Go server to turn it into a https server. Except life is never that easy.</li>
 <li>I hit two immediate problems:
 <ul>
 <li>I&rsquo;d have to drop no-IP for Dynamic DNS since I&rsquo;m trying to register for my own https cert</li>
 <li>To stop baddies registering domains they don&rsquo;t own, Let&rsquo;s Encrypt calls back to you and insists on doing that on port 443. So my random high port number on my router wasn&rsquo;t going to work</li>
 </ul>
 </li>
-<li>Then I realised that my DNS provider, <a href="http://www.dnsmadeeasy.com/">DNSMadeEasy</a> has Dynamic DNS built-in. So I grabbed one of my parked domains and set it up with a Dynamic DNS A Record, giving it a dedicated password. But then of course I discovered that my Asus Router doesn&rsquo;t have support for Custom Dynamic DNS out of the box.</li>
-<li>I quickly found the <a href="http://asuswrt.lostrealm.ca/">Merlin Firmware</a> which is interesting. The standard Asus firmware is just a simplified fork of <a href="http://www.polarcloud.com/tomato">Tomato</a> so Merlin forks again and adds back in the stuff that Asus removed. So you keep the same UI and general functionality, just with more customisation.</li>
-<li><a href="https://github.com/RMerl/asuswrt-merlin/wiki/Installation">Installation was a doddle</a> and then I just had to whip up a simple script a few lines long to call out to DNSMadeEasy whenever the router&rsquo;s IP address changed (see below).</li>
+<li>Then I realised that my DNS provider, <a class="link" href="http://www.dnsmadeeasy.com/"  target="_blank" rel="noopener"
+    >DNSMadeEasy</a> has Dynamic DNS built-in. So I grabbed one of my parked domains and set it up with a Dynamic DNS A Record, giving it a dedicated password. But then of course I discovered that my Asus Router doesn&rsquo;t have support for Custom Dynamic DNS out of the box.</li>
+<li>I quickly found the <a class="link" href="http://asuswrt.lostrealm.ca/"  target="_blank" rel="noopener"
+    >Merlin Firmware</a> which is interesting. The standard Asus firmware is just a simplified fork of <a class="link" href="http://www.polarcloud.com/tomato"  target="_blank" rel="noopener"
+    >Tomato</a> so Merlin forks again and adds back in the stuff that Asus removed. So you keep the same UI and general functionality, just with more customisation.</li>
+<li><a class="link" href="https://github.com/RMerl/asuswrt-merlin/wiki/Installation"  target="_blank" rel="noopener"
+    >Installation was a doddle</a> and then I just had to whip up a simple script a few lines long to call out to DNSMadeEasy whenever the router&rsquo;s IP address changed (see below).</li>
 <li>I then temporarily port forwarded 443 on the router to the Pi Zero and started Caddy with this incredibly complicated config file :-)</li>
 </ul>
 <p>Caddyfile:</p>
-<pre><code>file
+<pre tabindex="0"><code>file
 https://www.conorsdomain.com
 proxy / localhost:9998
 </code></pre><ul>
@@ -181,128 +519,144 @@ proxy / localhost:9998
 <p><em>Jaw-drop time</em></p>
 <ul>
 <li>Once the registration was done I could remove the 443 port forward and switch to a non-standard port</li>
-<li>I went over to Twilio and provided the new <a href="https://conorsdomain.com:9999">https://conorsdomain.com:9999</a> as the end-point to call. No joy. But a quick support ticket later and they made a change over the weekend(!) to fix it. Boom, everything working fine.</li>
+<li>I went over to Twilio and provided the new <a class="link" href="https://conorsdomain.com:9999"  target="_blank" rel="noopener"
+    >https://conorsdomain.com:9999</a> as the end-point to call. No joy. But a quick support ticket later and they made a change over the weekend(!) to fix it. Boom, everything working fine.</li>
 <li>With the terrible weather, I didn&rsquo;t have to wait long for the first non-test SMS to appear. A couple of seconds later it was on Twitter:</li>
 </ul>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2015/12/flood_alert.jpg" alt="Bandon Flood Warning"></p>
-<h2 id="alternatives">Alternatives</h2>
-<ul>
+<p><img src="/flood_alert_7079631188821776242.jpg"
+	width="654"
+	height="397"
+	loading="lazy"
+	
+		alt="Bandon Flood Warning"
+	
+    
+	
+		class="gallery-image" 
+		data-flex-grow="164"
+		data-flex-basis="395px"
+	
+></p>
+<h2 id="alternatives"><a href="#alternatives" class="header-anchor"></a>Alternatives
+</h2><ul>
 <li>Of course I could exclude Twilio from this entire flow and call the end-point directly from Tasker but SMS will often work when no data connection is available.</li>
 <li>Having said that, the connection to the phone is a big worry as we are in a poor signal area. But registering my UK Twilio number on the Flood Warning site didn&rsquo;t work (local warnings for local people) and I&rsquo;m not paying $6 a month for an Irish number.</li>
 <li>In theory I could take the scraped data from the site and generate my own alerts but the Council rightly overrides the default trigger levels on occasion to warn people of impending flooding.</li>
 </ul>
-<h2 id="go-code-see-for-httpsgistgithubcomconorof1a3f7c5b96e2b033119httpsgistgithubcomconorof1a3f7c5b96e2b033119-for-latest">Go Code (See for <a href="https://gist.github.com/conoro/f1a3f7c5b96e2b033119">https://gist.github.com/conoro/f1a3f7c5b96e2b033119</a> for latest)</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
-
-<span style="color:#f92672">import</span> (
-	<span style="color:#e6db74">&#34;encoding/json&#34;</span>
-	<span style="color:#e6db74">&#34;fmt&#34;</span>
-	<span style="color:#e6db74">&#34;log&#34;</span>
-	<span style="color:#e6db74">&#34;net/http&#34;</span>
-	<span style="color:#e6db74">&#34;net/url&#34;</span>
-	<span style="color:#e6db74">&#34;os&#34;</span>
-	<span style="color:#e6db74">&#34;strconv&#34;</span>
-	<span style="color:#e6db74">&#34;strings&#34;</span>
-	<span style="color:#e6db74">&#34;time&#34;</span>
-
-	<span style="color:#e6db74">&#34;github.com/ChimeraCoder/anaconda&#34;</span>
-)
-
-<span style="color:#66d9ef">type</span> <span style="color:#a6e22e">Configuration</span> <span style="color:#66d9ef">struct</span> {
-	<span style="color:#a6e22e">ConsumerKey</span>       <span style="color:#66d9ef">string</span>
-	<span style="color:#a6e22e">ConsumerSecret</span>    <span style="color:#66d9ef">string</span>
-	<span style="color:#a6e22e">AccessToken</span>       <span style="color:#66d9ef">string</span>
-	<span style="color:#a6e22e">AccessTokenSecret</span> <span style="color:#66d9ef">string</span>
-}
-
-<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
-	<span style="color:#a6e22e">file</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Open</span>(<span style="color:#e6db74">&#34;conf.json&#34;</span>)
-	<span style="color:#75715e">//file, _ := os.Open(&#34;conf-test.json&#34;)
-</span><span style="color:#75715e"></span>	<span style="color:#a6e22e">decoder</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">json</span>.<span style="color:#a6e22e">NewDecoder</span>(<span style="color:#a6e22e">file</span>)
-	<span style="color:#a6e22e">configuration</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">Configuration</span>{}
-	<span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">decoder</span>.<span style="color:#a6e22e">Decode</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">configuration</span>)
-	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
-		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;config error:&#34;</span>, <span style="color:#a6e22e">err</span>)
-	}
-	<span style="color:#a6e22e">anaconda</span>.<span style="color:#a6e22e">SetConsumerKey</span>(<span style="color:#a6e22e">configuration</span>.<span style="color:#a6e22e">ConsumerKey</span>)
-	<span style="color:#a6e22e">anaconda</span>.<span style="color:#a6e22e">SetConsumerSecret</span>(<span style="color:#a6e22e">configuration</span>.<span style="color:#a6e22e">ConsumerSecret</span>)
-	<span style="color:#a6e22e">api</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">anaconda</span>.<span style="color:#a6e22e">NewTwitterApi</span>(<span style="color:#a6e22e">configuration</span>.<span style="color:#a6e22e">AccessToken</span>, <span style="color:#a6e22e">configuration</span>.<span style="color:#a6e22e">AccessTokenSecret</span>)
-
-	<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">HandleFunc</span>(<span style="color:#e6db74">&#34;/&#34;</span>, <span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">w</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ResponseWriter</span>, <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Request</span>) {
-		<span style="color:#a6e22e">body</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">PostFormValue</span>(<span style="color:#e6db74">&#34;Body&#34;</span>)
-		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Println</span>(string(<span style="color:#a6e22e">body</span>))
-		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Contains</span>(<span style="color:#a6e22e">body</span>, <span style="color:#e6db74">&#34;Bandon FEWS&#34;</span>) <span style="color:#f92672">||</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Contains</span>(<span style="color:#a6e22e">body</span>, <span style="color:#e6db74">&#34;Met Eireann&#34;</span>) {
-			<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Fprintf</span>(<span style="color:#a6e22e">w</span>, <span style="color:#e6db74">&#34;Thanks for the update&#34;</span>)
-
-			<span style="color:#a6e22e">a</span> <span style="color:#f92672">:=</span> []rune(<span style="color:#a6e22e">body</span>)
-			<span style="color:#66d9ef">if</span> len(<span style="color:#a6e22e">a</span>) <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">140</span> {
-				<span style="color:#75715e">// Just post normal Tweet
-</span><span style="color:#75715e"></span>				<span style="color:#a6e22e">result</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">api</span>.<span style="color:#a6e22e">PostTweet</span>(<span style="color:#a6e22e">body</span>, <span style="color:#66d9ef">nil</span>)
-				<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
-					<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
-				} <span style="color:#66d9ef">else</span> {
-					<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">result</span>)
-					<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Tweet ID: &#34;</span>, <span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">Id</span>)
-				}
-			} <span style="color:#66d9ef">else</span> {
-				<span style="color:#75715e">// have to split into a Tweetstorm
-</span><span style="color:#75715e"></span>				<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">originalTweetID</span> <span style="color:#66d9ef">int64</span>
-				<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">subTweet</span> <span style="color:#66d9ef">string</span> = <span style="color:#e6db74">&#34;&#34;</span>
-				<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">tweetCount</span> <span style="color:#66d9ef">int64</span> = <span style="color:#ae81ff">0</span>
-				<span style="color:#a6e22e">tweetParams</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">url</span>.<span style="color:#a6e22e">Values</span>{}
-				<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span>, <span style="color:#a6e22e">r</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">a</span> {
-					<span style="color:#a6e22e">subTweet</span> = <span style="color:#a6e22e">subTweet</span> <span style="color:#f92672">+</span> string(<span style="color:#a6e22e">r</span>)
-					<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">i</span> &gt; <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> (<span style="color:#a6e22e">i</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span><span style="color:#ae81ff">137</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> {
-						<span style="color:#a6e22e">tweetCount</span><span style="color:#f92672">++</span>
-						<span style="color:#75715e">// Need to do normal first tweet but in_reply_to successive tweets
-</span><span style="color:#75715e"></span>						<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">tweetCount</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span> {
-							<span style="color:#75715e">// Just Tweet and extract the ID from the response
-</span><span style="color:#75715e"></span>							<span style="color:#a6e22e">result</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">api</span>.<span style="color:#a6e22e">PostTweet</span>(<span style="color:#e6db74">&#34;1/ &#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">subTweet</span>, <span style="color:#66d9ef">nil</span>)
-							<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
-								<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
-							} <span style="color:#66d9ef">else</span> {
-								<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">result</span>)
-								<span style="color:#a6e22e">originalTweetID</span> = <span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">Id</span>
-							}
-						} <span style="color:#66d9ef">else</span> {
-							<span style="color:#75715e">// adding one second delay in Tweetstorm to prevent any throttling by Twitter
-</span><span style="color:#75715e"></span>							<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Second</span>)
-							<span style="color:#75715e">// Tweet in reply to the first tweet by setting in_reply_to_status_id
-</span><span style="color:#75715e"></span>							<span style="color:#75715e">// originalTweetID
-</span><span style="color:#75715e"></span>							<span style="color:#a6e22e">tweetParams</span>.<span style="color:#a6e22e">Set</span>(<span style="color:#e6db74">&#34;in_reply_to_status_id&#34;</span>, <span style="color:#a6e22e">strconv</span>.<span style="color:#a6e22e">FormatInt</span>(<span style="color:#a6e22e">originalTweetID</span>, <span style="color:#ae81ff">10</span>))
-							<span style="color:#a6e22e">result</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">api</span>.<span style="color:#a6e22e">PostTweet</span>(<span style="color:#a6e22e">strconv</span>.<span style="color:#a6e22e">FormatInt</span>(<span style="color:#a6e22e">tweetCount</span>, <span style="color:#ae81ff">10</span>)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;/ &#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">subTweet</span>, <span style="color:#a6e22e">tweetParams</span>)
-							<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
-								<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
-							} <span style="color:#66d9ef">else</span> {
-								<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">result</span>)
-							}
-						}
-						<span style="color:#a6e22e">subTweet</span> = <span style="color:#e6db74">&#34;&#34;</span>
-					}
-					<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">==</span> len(<span style="color:#a6e22e">a</span>)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">subTweet</span> <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;&#34;</span> {
-						<span style="color:#75715e">// just Tweet whatever text is left at the end
-</span><span style="color:#75715e"></span>						<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Second</span>)
-						<span style="color:#a6e22e">tweetCount</span><span style="color:#f92672">++</span>
-						<span style="color:#75715e">// Tweet in reply to the first tweet by setting in_reply_to_status_id
-</span><span style="color:#75715e"></span>						<span style="color:#75715e">// originalTweetID
-</span><span style="color:#75715e"></span>						<span style="color:#a6e22e">tweetParams</span>.<span style="color:#a6e22e">Set</span>(<span style="color:#e6db74">&#34;in_reply_to_status_id&#34;</span>, <span style="color:#a6e22e">strconv</span>.<span style="color:#a6e22e">FormatInt</span>(<span style="color:#a6e22e">originalTweetID</span>, <span style="color:#ae81ff">10</span>))
-						<span style="color:#a6e22e">result</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">api</span>.<span style="color:#a6e22e">PostTweet</span>(<span style="color:#a6e22e">strconv</span>.<span style="color:#a6e22e">FormatInt</span>(<span style="color:#a6e22e">tweetCount</span>, <span style="color:#ae81ff">10</span>)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;/ &#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">subTweet</span>, <span style="color:#a6e22e">tweetParams</span>)
-						<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
-							<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
-						} <span style="color:#66d9ef">else</span> {
-							<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">result</span>)
-						}
-					}
-				}
-			}
-		}
-	})
-
-	<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>(<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ListenAndServe</span>(<span style="color:#e6db74">&#34;:8333&#34;</span>, <span style="color:#66d9ef">nil</span>))
-
-}
-</code></pre></div><h2 id="asus-dnsmadeeasy-update">Asus DNSMadeEasy Update</h2>
-<p>This is smidge fiddly. <a href="https://github.com/RMerl/asuswrt-merlin/wiki/Custom-DDNS">More details here</a>. Once you have Merlin installed and you are happily connected to the internet again (you did remember to write down all the settings for your ISP didn&rsquo;t you?). You need to:</p>
+<h2 id="go-code-see-for-httpsgistgithubcomconorof1a3f7c5b96e2b033119-for-latest"><a href="#go-code-see-for-httpsgistgithubcomconorof1a3f7c5b96e2b033119-for-latest" class="header-anchor"></a>Go Code (See for <a class="link" href="https://gist.github.com/conoro/f1a3f7c5b96e2b033119"  target="_blank" rel="noopener"
+    >https://gist.github.com/conoro/f1a3f7c5b96e2b033119</a> for latest)
+</h2><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;encoding/json&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;log&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;net/http&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;net/url&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;os&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;strconv&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;strings&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;time&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;github.com/ChimeraCoder/anaconda&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">Configuration</span> <span style="color:#66d9ef">struct</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">ConsumerKey</span>       <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">ConsumerSecret</span>    <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">AccessToken</span>       <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">AccessTokenSecret</span> <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">file</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Open</span>(<span style="color:#e6db74">&#34;conf.json&#34;</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">//file, _ := os.Open(&#34;conf-test.json&#34;)</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">decoder</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">json</span>.<span style="color:#a6e22e">NewDecoder</span>(<span style="color:#a6e22e">file</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">configuration</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">Configuration</span>{}
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">decoder</span>.<span style="color:#a6e22e">Decode</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">configuration</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;config error:&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">anaconda</span>.<span style="color:#a6e22e">SetConsumerKey</span>(<span style="color:#a6e22e">configuration</span>.<span style="color:#a6e22e">ConsumerKey</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">anaconda</span>.<span style="color:#a6e22e">SetConsumerSecret</span>(<span style="color:#a6e22e">configuration</span>.<span style="color:#a6e22e">ConsumerSecret</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">api</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">anaconda</span>.<span style="color:#a6e22e">NewTwitterApi</span>(<span style="color:#a6e22e">configuration</span>.<span style="color:#a6e22e">AccessToken</span>, <span style="color:#a6e22e">configuration</span>.<span style="color:#a6e22e">AccessTokenSecret</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">HandleFunc</span>(<span style="color:#e6db74">&#34;/&#34;</span>, <span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">w</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ResponseWriter</span>, <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Request</span>) {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">body</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">PostFormValue</span>(<span style="color:#e6db74">&#34;Body&#34;</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Println</span>(string(<span style="color:#a6e22e">body</span>))
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Contains</span>(<span style="color:#a6e22e">body</span>, <span style="color:#e6db74">&#34;Bandon FEWS&#34;</span>) <span style="color:#f92672">||</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Contains</span>(<span style="color:#a6e22e">body</span>, <span style="color:#e6db74">&#34;Met Eireann&#34;</span>) {
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Fprintf</span>(<span style="color:#a6e22e">w</span>, <span style="color:#e6db74">&#34;Thanks for the update&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">a</span> <span style="color:#f92672">:=</span> []rune(<span style="color:#a6e22e">body</span>)
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> len(<span style="color:#a6e22e">a</span>) <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">140</span> {
+</span></span><span style="display:flex;"><span>				<span style="color:#75715e">// Just post normal Tweet</span>
+</span></span><span style="display:flex;"><span>				<span style="color:#a6e22e">result</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">api</span>.<span style="color:#a6e22e">PostTweet</span>(<span style="color:#a6e22e">body</span>, <span style="color:#66d9ef">nil</span>)
+</span></span><span style="display:flex;"><span>				<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>					<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>				} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>					<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">result</span>)
+</span></span><span style="display:flex;"><span>					<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Tweet ID: &#34;</span>, <span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">Id</span>)
+</span></span><span style="display:flex;"><span>				}
+</span></span><span style="display:flex;"><span>			} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>				<span style="color:#75715e">// have to split into a Tweetstorm</span>
+</span></span><span style="display:flex;"><span>				<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">originalTweetID</span> <span style="color:#66d9ef">int64</span>
+</span></span><span style="display:flex;"><span>				<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">subTweet</span> <span style="color:#66d9ef">string</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>				<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">tweetCount</span> <span style="color:#66d9ef">int64</span> = <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>				<span style="color:#a6e22e">tweetParams</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">url</span>.<span style="color:#a6e22e">Values</span>{}
+</span></span><span style="display:flex;"><span>				<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span>, <span style="color:#a6e22e">r</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">a</span> {
+</span></span><span style="display:flex;"><span>					<span style="color:#a6e22e">subTweet</span> = <span style="color:#a6e22e">subTweet</span> <span style="color:#f92672">+</span> string(<span style="color:#a6e22e">r</span>)
+</span></span><span style="display:flex;"><span>					<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">i</span> &gt; <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> (<span style="color:#a6e22e">i</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span><span style="color:#ae81ff">137</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> {
+</span></span><span style="display:flex;"><span>						<span style="color:#a6e22e">tweetCount</span><span style="color:#f92672">++</span>
+</span></span><span style="display:flex;"><span>						<span style="color:#75715e">// Need to do normal first tweet but in_reply_to successive tweets</span>
+</span></span><span style="display:flex;"><span>						<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">tweetCount</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span> {
+</span></span><span style="display:flex;"><span>							<span style="color:#75715e">// Just Tweet and extract the ID from the response</span>
+</span></span><span style="display:flex;"><span>							<span style="color:#a6e22e">result</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">api</span>.<span style="color:#a6e22e">PostTweet</span>(<span style="color:#e6db74">&#34;1/ &#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">subTweet</span>, <span style="color:#66d9ef">nil</span>)
+</span></span><span style="display:flex;"><span>							<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>								<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>							} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>								<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">result</span>)
+</span></span><span style="display:flex;"><span>								<span style="color:#a6e22e">originalTweetID</span> = <span style="color:#a6e22e">result</span>.<span style="color:#a6e22e">Id</span>
+</span></span><span style="display:flex;"><span>							}
+</span></span><span style="display:flex;"><span>						} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>							<span style="color:#75715e">// adding one second delay in Tweetstorm to prevent any throttling by Twitter</span>
+</span></span><span style="display:flex;"><span>							<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Second</span>)
+</span></span><span style="display:flex;"><span>							<span style="color:#75715e">// Tweet in reply to the first tweet by setting in_reply_to_status_id</span>
+</span></span><span style="display:flex;"><span>							<span style="color:#75715e">// originalTweetID</span>
+</span></span><span style="display:flex;"><span>							<span style="color:#a6e22e">tweetParams</span>.<span style="color:#a6e22e">Set</span>(<span style="color:#e6db74">&#34;in_reply_to_status_id&#34;</span>, <span style="color:#a6e22e">strconv</span>.<span style="color:#a6e22e">FormatInt</span>(<span style="color:#a6e22e">originalTweetID</span>, <span style="color:#ae81ff">10</span>))
+</span></span><span style="display:flex;"><span>							<span style="color:#a6e22e">result</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">api</span>.<span style="color:#a6e22e">PostTweet</span>(<span style="color:#a6e22e">strconv</span>.<span style="color:#a6e22e">FormatInt</span>(<span style="color:#a6e22e">tweetCount</span>, <span style="color:#ae81ff">10</span>)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;/ &#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">subTweet</span>, <span style="color:#a6e22e">tweetParams</span>)
+</span></span><span style="display:flex;"><span>							<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>								<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>							} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>								<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">result</span>)
+</span></span><span style="display:flex;"><span>							}
+</span></span><span style="display:flex;"><span>						}
+</span></span><span style="display:flex;"><span>						<span style="color:#a6e22e">subTweet</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>					}
+</span></span><span style="display:flex;"><span>					<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">==</span> len(<span style="color:#a6e22e">a</span>)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">subTweet</span> <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;&#34;</span> {
+</span></span><span style="display:flex;"><span>						<span style="color:#75715e">// just Tweet whatever text is left at the end</span>
+</span></span><span style="display:flex;"><span>						<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Second</span>)
+</span></span><span style="display:flex;"><span>						<span style="color:#a6e22e">tweetCount</span><span style="color:#f92672">++</span>
+</span></span><span style="display:flex;"><span>						<span style="color:#75715e">// Tweet in reply to the first tweet by setting in_reply_to_status_id</span>
+</span></span><span style="display:flex;"><span>						<span style="color:#75715e">// originalTweetID</span>
+</span></span><span style="display:flex;"><span>						<span style="color:#a6e22e">tweetParams</span>.<span style="color:#a6e22e">Set</span>(<span style="color:#e6db74">&#34;in_reply_to_status_id&#34;</span>, <span style="color:#a6e22e">strconv</span>.<span style="color:#a6e22e">FormatInt</span>(<span style="color:#a6e22e">originalTweetID</span>, <span style="color:#ae81ff">10</span>))
+</span></span><span style="display:flex;"><span>						<span style="color:#a6e22e">result</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">api</span>.<span style="color:#a6e22e">PostTweet</span>(<span style="color:#a6e22e">strconv</span>.<span style="color:#a6e22e">FormatInt</span>(<span style="color:#a6e22e">tweetCount</span>, <span style="color:#ae81ff">10</span>)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;/ &#34;</span><span style="color:#f92672">+</span><span style="color:#a6e22e">subTweet</span>, <span style="color:#a6e22e">tweetParams</span>)
+</span></span><span style="display:flex;"><span>						<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>							<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>						} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>							<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">result</span>)
+</span></span><span style="display:flex;"><span>						}
+</span></span><span style="display:flex;"><span>					}
+</span></span><span style="display:flex;"><span>				}
+</span></span><span style="display:flex;"><span>			}
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>(<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ListenAndServe</span>(<span style="color:#e6db74">&#34;:8333&#34;</span>, <span style="color:#66d9ef">nil</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="asus-dnsmadeeasy-update"><a href="#asus-dnsmadeeasy-update" class="header-anchor"></a>Asus DNSMadeEasy Update
+</h2><p>This is smidge fiddly. <a class="link" href="https://github.com/RMerl/asuswrt-merlin/wiki/Custom-DDNS"  target="_blank" rel="noopener"
+    >More details here</a>. Once you have Merlin installed and you are happily connected to the internet again (you did remember to write down all the settings for your ISP didn&rsquo;t you?). You need to:</p>
 <ul>
 <li>Go to Administration -&gt; System</li>
 <li>Enable SSH, which also obviously gives you SFTP</li>
@@ -314,99 +668,231 @@ proxy / localhost:9998
 <li>Make it executable (chmod 755 ddns-start)</li>
 <li>Copy these contents into ddns-start</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/sh
-</span><span style="color:#75715e"></span>USERNAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;yourDNSMadeEasyUsername&#34;</span>
-PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;TheSpecificPasswordYouSetOnThatDNSRecord&#34;</span>
-IP<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>1<span style="color:#e6db74">}</span>
-ID<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;TheSpecificRecordIDAssignedbyDNSMaseEasy&#34;</span>
-
-curl -k <span style="color:#e6db74">&#34;https://cp.dnsmadeeasy.com/servlet/updateip?username=</span><span style="color:#e6db74">${</span>USERNAME<span style="color:#e6db74">}</span><span style="color:#e6db74">&amp;password=</span><span style="color:#e6db74">${</span>PASSWORD<span style="color:#e6db74">}</span><span style="color:#e6db74">&amp;id=</span><span style="color:#e6db74">${</span>ID<span style="color:#e6db74">}</span><span style="color:#e6db74">&amp;ip=</span><span style="color:#e6db74">${</span>IP<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> &gt;/dev/null
-
-<span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $? -eq <span style="color:#ae81ff">0</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
-    /sbin/ddns_custom_updated <span style="color:#ae81ff">1</span>
-<span style="color:#66d9ef">else</span>
-    /sbin/ddns_custom_updated <span style="color:#ae81ff">0</span>
-<span style="color:#66d9ef">fi</span>
-
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/sh
+</span></span></span><span style="display:flex;"><span>USERNAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;yourDNSMadeEasyUsername&#34;</span>
+</span></span><span style="display:flex;"><span>PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;TheSpecificPasswordYouSetOnThatDNSRecord&#34;</span>
+</span></span><span style="display:flex;"><span>IP<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>1<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>ID<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;TheSpecificRecordIDAssignedbyDNSMaseEasy&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>curl -k <span style="color:#e6db74">&#34;https://cp.dnsmadeeasy.com/servlet/updateip?username=</span><span style="color:#e6db74">${</span>USERNAME<span style="color:#e6db74">}</span><span style="color:#e6db74">&amp;password=</span><span style="color:#e6db74">${</span>PASSWORD<span style="color:#e6db74">}</span><span style="color:#e6db74">&amp;id=</span><span style="color:#e6db74">${</span>ID<span style="color:#e6db74">}</span><span style="color:#e6db74">&amp;ip=</span><span style="color:#e6db74">${</span>IP<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> &gt;/dev/null
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $? -eq <span style="color:#ae81ff">0</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    /sbin/ddns_custom_updated <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>    /sbin/ddns_custom_updated <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span></code></pre></div><ul>
 <li>Do a reboot for good measure and you should see DDNS displaying success on the main dashboard</li>
 </ul>
 
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/android/">Android</a>
+        
+            <a href="/tags/api/">Api</a>
+        
+            <a href="/tags/database/">Database</a>
+        
+            <a href="/tags/flooding/">Flooding</a>
+        
+            <a href="/tags/golang/">Golang</a>
+        
+            <a href="/tags/ireland/">Ireland</a>
+        
+            <a href="/tags/javascript/">Javascript</a>
+        
+            <a href="/tags/nodejs/">Nodejs</a>
+        
+            <a href="/tags/open-source/">Open-Source</a>
+        
+            <a href="/tags/raspberry-pi/">Raspberry-Pi</a>
+        
+            <a href="/tags/security/">Security</a>
+        
+            <a href="/tags/twitter/">Twitter</a>
+        
+            <a href="/tags/wifi/">Wifi</a>
+        
     </section>
 
 
-  <footer class="post-footer">
+    </footer>
 
 
     
-    <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
-    </figure>
-    
-
-    
-
-
-
-
-
-<section class="author">
-  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
-  
-  <p>Tech guy who likes running slowly</p>
-  
-  <div class="author-meta">
-    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
-    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
-  </div>
-</section>
-
-
-
-    
-<section class="share">
-  <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Auto-tweeting%20the%20Bandon%20floods%20with%20Twilio%2c%20Tasker%2c%20Let%27s%20Encrypt%2c%20a%20PiZero%2c%20golang%2c%20Caddy%20and%20an%20Asus%20router&amp;url=https%3a%2f%2fconoroneill.net%2f2015%2f12%2f30%2fauto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router%2f"
-      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-      <span class="hidden">Twitter</span>
-  </a>
-</section>
-
-
-
-    
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname = 'crossdominant';
-  var disqus_url = 'https:\/\/conoroneill.net\/2015\/12\/30\/auto-tweeting-the-bandon-floods-with-twilio-tasker-lets-encrypt-a-pizero-golang-caddy-and-an-asus-router\/';
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-
-    
-
-  </footer>
 </article>
 
-</main>
-    <footer class="site-footer clearfix">
-        <section class="copyright"><a href="">Cross Dominant</a> </section>
-        
-        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
-        
-    </footer>
-    </div>
-    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
-    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
     
-</body>
-</html>
 
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/2014/11/29/conors-thanksgiving-tech-miscellany/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Conor&#39;s Thanksgiving Tech Miscellany</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2014/10/30/as-promised-yet-more-tech-goodie-backlog-for-your-entertainment/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">As promised, yet more tech goodie backlog for your entertainment</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2013/06/15/a-year-of-falling-back-in-love-with-makingelectronics-on-raspberry-pi-and-arduino/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">A year of falling back in love with Making/Electronics on Raspberry Pi and Arduino</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2015/11/16/first-impressions-of-@onioniot-omega.-also-running-golang-1.1.2-and-nodejs-0.10.5-on-mips/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">First impressions of @OnionIoT Omega. Also running golang 1.1.2 and nodejs 0.10.5 on MIPS</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2015/01/04/bandon-flood-warning-data-now-scraped-to-google-fusion-tables-using-nodejs/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Bandon Flood Warning data now scraped to Google Fusion Tables using Node.js on ODROID-C1 and OpenShift</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+        <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "crossdominant" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2001 - 
+        
+        2026 Mixed Laterality
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="4.0.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+
+
+    </body>
+</html>

@@ -5,8 +5,9 @@ draft = false
 title = "ClassicMap - Google Map overlays on Apple Maps in iOS 6"
 description = ""
 slug = "classicmap-google-map-overlays-on-apple-maps-in-ios-6"
+categories = ["Mobile & Apps"]
+tags = ["ios"]
 +++
-
 #"ClassicMap - Google Map overlays on Apple Maps in iOS 6"
 
 Oh look, Rosscarbery has a lagoon again. 

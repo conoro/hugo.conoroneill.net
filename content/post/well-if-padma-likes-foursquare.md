@@ -5,8 +5,9 @@ draft = false
 title = "Well if Padma likes Foursquare"
 description = ""
 slug = "well-if-padma-likes-foursquare"
+categories = ["Media & Entertainment"]
+tags = ["twitter"]
 +++
-
 #"Well if Padma likes Foursquare"
 
 

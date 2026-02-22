@@ -5,8 +5,9 @@ draft = false
 title = "Harbour Hopping in West Cork - Apple uses Google Maps hand-me-downs"
 description = ""
 slug = "harbour-hopping-in-west-cork-apple-uses-google-mapss-hand-me-downs"
+categories = ["Mobile & Apps"]
+tags = ["ios", "ireland"]
 +++
-
 #"Harbour Hopping in West Cork - Apple uses Google Maps hand-me-downs"
 
 We've had much hilarity online today over the awfulness of Apple's new iOS6 Maps. I finally just got it installed on the iPad and of course decided to check the local situation. Actually notdisastrous. The golf club is notlabelledas an airship landing strip for a start. But then I spotted something interesting.

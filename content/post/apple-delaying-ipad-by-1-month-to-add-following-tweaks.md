@@ -5,8 +5,9 @@ draft = false
 title = "Apple Delaying iPad by 1 Month to Add Following Tweaks"
 description = ""
 slug = "apple-delaying-ipad-by-1-month-to-add-following-tweaks"
+categories = ["Mobile & Apps"]
+tags = ["ios"]
 +++
-
 #"Apple Delaying iPad by 1 Month to Add Following Tweaks"
 
 

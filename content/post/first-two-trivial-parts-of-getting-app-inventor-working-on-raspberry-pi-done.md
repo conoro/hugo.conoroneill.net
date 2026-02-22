@@ -5,8 +5,9 @@ draft = false
 title = "First two trivial parts of getting App Inventor working on Raspberry Pi done"
 description = ""
 slug = "first-two-trivial-parts-of-getting-app-inventor-working-on-raspberry-pi-done"
+categories = ["IoT & Electronics"]
+tags = ["android", "docker", "education", "linux", "low-code", "raspberry-pi"]
 +++
-
 #"First two trivial parts of getting App Inventor working on Raspberry Pi done"
 
 I've been playing a small bit with the Raspberry Pi VM on VMware to see what's possible and what isn't. One thing I am eager to try when it arrives on the week of May 14th (YAY!), is to get App Inventor working on it.

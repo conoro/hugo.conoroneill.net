@@ -5,8 +5,9 @@ draft = false
 title = "Got a Facebook App? Now you have to go get an SSL Cert."
 description = ""
 slug = "got-a-facebook-app-now-you-have-to-go-get-an-ssl-cert"
+categories = ["Software Development"]
+tags = ["facebook", "security"]
 +++
-
 #"Got a Facebook App? Now you have to go get an SSL Cert."
 
 

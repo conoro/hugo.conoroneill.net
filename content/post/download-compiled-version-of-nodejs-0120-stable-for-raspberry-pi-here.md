@@ -5,9 +5,9 @@ draft = false
 title = "Download compiled version of Node.js 0.12.0 Stable for Raspberry Pi here"
 description = "Unfortunately the 0.12.0 release of Node won't compile on Raspberry Pi so I took a patch from io.js and was able to build it. "
 slug = "download-compiled-version-of-nodejs-0120-stable-for-raspberry-pi-here"
+categories = ["IoT & Electronics"]
+tags = ["javascript", "linux", "nodejs", "raspberry-pi"]
 +++
-
-
 ## This post is completely out-of-date. Do not follow the instructions here. Node 0.12 should not be used anywhere.
 
 You can just download the latest Node directly from the Node Foundation site for Raspberry Pi 1. e.g. in June 2017: https://nodejs.org/dist/latest-v8.x/ and https://nodejs.org/dist/latest-v8.x/node-v8.1.0-linux-armv6l.tar.gz

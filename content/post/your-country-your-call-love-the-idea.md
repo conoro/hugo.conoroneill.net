@@ -5,8 +5,8 @@ draft = false
 title = "Your Country, Your Call - Love the idea"
 description = ""
 slug = "your-country-your-call-love-the-idea"
+categories = ["Web & Blogging"]
 +++
-
 #"Your Country, Your Call - Love the idea"
 
 

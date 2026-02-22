@@ -5,8 +5,9 @@ draft = false
 title = "Could UberCab work in Ireland?"
 description = ""
 slug = "could-ubercab-work-in-ireland"
+categories = ["Mobile & Apps"]
+tags = ["gps", "ios", "ireland"]
 +++
-
 #"Could UberCab work in Ireland?"
 
 

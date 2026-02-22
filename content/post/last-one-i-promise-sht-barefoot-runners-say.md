@@ -5,8 +5,9 @@ draft = false
 title = "Last one I promise - Sh*t Barefoot Runners Say"
 description = ""
 slug = "last-one-i-promise-sht-barefoot-runners-say"
+categories = ["Running & Fitness"]
+tags = ["ireland", "running"]
 +++
-
 #"Last one I promise - Sh*t Barefoot Runners Say"
 
 Even a plodding came-last-in-Bandon-half-marathon obese blob like me has said nearly everything in this video in the past year.

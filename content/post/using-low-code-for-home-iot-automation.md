@@ -4,8 +4,9 @@ draft = false
 title = "Using Low Code for Home IoT Automation"
 description = "Once I realised that Low Code could be used to automate anything, I let my imagination take over"
 slug = "using-low-code-for-home-iot-automation"
+categories = ["Low Code & No Code"]
+tags = ["api", "arduino", "database", "golang", "google", "home-automation", "low-code", "sensors", "twitter", "wifi"]
 +++
-
 As long-time readers of my blog(s) know, I come from an Embedded Systems background and still love to play with home electronics and IoT. And of course, since last year I've been noodling around with CO2 monitors and other environmental sensors because of you-know-what.
 
 So I decided to see if I could connect my sensor setup to Low Code platforms like Node-RED, parse the values, persist them and alert me somehow if CO2 in particular got too high. I was stunned how easy it was.

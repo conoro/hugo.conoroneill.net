@@ -5,8 +5,8 @@ draft = false
 title = "Some day I want to make a promo video this good - Swype 3.0"
 description = ""
 slug = "some-day-i-want-to-make-a-promo-video-this-good-swype-3-0"
+categories = ["Web & Blogging"]
 +++
-
 #"Some day I want to make a promo video this good - Swype 3.0"
 
 

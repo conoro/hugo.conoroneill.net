@@ -5,8 +5,9 @@ draft = false
 title = "Electronic Tinkering on the @Raspberry_Pi and @Arduino"
 description = ""
 slug = "electronic-tinkering-on-the-raspberry_pi"
+categories = ["IoT & Electronics"]
+tags = ["arduino", "bluetooth", "ireland", "led", "linux", "python", "raspberry-pi", "retro-computing", "sensors", "wifi"]
 +++
-
 #"Electronic Tinkering on the @Raspberry_Pi and @Arduino"
 
 I've been lucky to-date that I haven't killed the RPi stone dead with my little projects. I find the simplest way to help avoid any catastrophic shorts is to use an old 40-core IDE cable (note, the "newer" 80-core ones don't work even tho they fit). I Dremeled mine last week to fit in this <a href="http://www.ebay.co.uk/itm/Pi-Box-Case-Box-Enclosure-for-Raspberry-Pi-Computer-New-From-PiWorks-/390538699061?pt=UK_Computing_DesktopComponents_RL&hash=item5aedeba135">very nice inexpensive case</a>.

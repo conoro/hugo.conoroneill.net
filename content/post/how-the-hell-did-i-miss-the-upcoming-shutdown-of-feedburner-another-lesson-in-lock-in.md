@@ -5,8 +5,9 @@ draft = false
 title = "How the hell did I miss the upcoming shutdown of FeedBurner? Another lesson in lock-in."
 description = ""
 slug = "how-the-hell-did-i-miss-the-upcoming-shutdown-of-feedburner-another-lesson-in-lock-in"
+categories = ["General Tech"]
+tags = ["api", "facebook", "google", "halloween", "twitter"]
 +++
-
 #"How the hell did I miss the upcoming shutdown of FeedBurner? Another lesson in lock-in."
 
 How the hell did I miss the fact that Google is shutting down FeedBurner in October?

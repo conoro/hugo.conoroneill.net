@@ -5,8 +5,9 @@ draft = false
 title = "WordPress To Posterous Users: Graduate to a Full Blog. Eh, no."
 description = ""
 slug = "wordpress-to-posterous-users-graduate-to-a-full-blog-eh-no"
+categories = ["Web & Blogging"]
+tags = ["facebook", "twitter", "wordpress"]
 +++
-
 #"WordPress To Posterous Users: Graduate to a Full Blog. Eh, no."
 
 

@@ -5,8 +5,8 @@ draft = false
 title = "IntoNow Looks Great - Pity it's by Yahoo"
 description = ""
 slug = "intonow-looks-great-pity-its-by-yahoo"
+categories = ["Web & Blogging"]
 +++
-
 #"IntoNow Looks Great - Pity it's by Yahoo"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Some of my old Red Hat floppy disks from 2000-2004"
 description = "We had to empty our attic to get the house insulated this week. I uncovered some old Red Hat and Fedora floppies and CDs. I had older ones but was quite ruthless about reusing floppies in the old days! "
 slug = "some-of-my-old-red-hat-floppy-disks-from-2000-2004"
+categories = ["Cloud & Infrastructure"]
+tags = ["linux"]
 +++
-
 We had to empty our attic to get the house insulated this week. I uncovered some old Red Hat and Fedora floppies and CDs. I previously had much older ones but was quite ruthless about reusing floppies in the old days!
 
 The very first Linux I installed was Slackware on a self-built AMD K5 PC in Sunnyvale in 1996 (I've never built a PC with Intel CPUs! Current box is self-built FX-8 Eight Core 8370). I was so traumatised by the Slackware experience, as a Windows 95 user, that I didn't try again until '97 with Red Hat Linux 4. My oldest floppy is from Red Hat 6.2 in 2000:

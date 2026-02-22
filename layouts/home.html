@@ -1,0 +1,22 @@
+{{ define "main" }}
+    {{ with .Site.Params.headerImage }}
+    <section class="site-header-image">
+        <img src="{{ . }}" alt="{{ $.Site.Title }}">
+    </section>
+    {{ end }}
+
+    {{- $paginator := partial "helper/paginator.html" . -}}
+
+    <section class="article-list">
+        {{ range $index, $element := $paginator.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{- partial "pagination.html" . -}}
+    {{- partial "footer/footer" . -}}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}

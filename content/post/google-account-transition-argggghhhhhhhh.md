@@ -5,8 +5,9 @@ draft = false
 title = "Google Account Transition - Argggghhhhhhhh"
 description = ""
 slug = "google-account-transition-argggghhhhhhhh"
+categories = ["Mobile & Apps"]
+tags = ["google", "ios"]
 +++
-
 #"Google Account Transition - Argggghhhhhhhh"
 
 

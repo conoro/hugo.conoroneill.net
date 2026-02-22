@@ -5,8 +5,9 @@ draft = false
 title = "Cyanogenmod - The Community Android Firmware - Now 1 million users!"
 description = ""
 slug = "cyanogenmod-the-community-android-firmware-now-1-million-users"
+categories = ["Mobile & Apps"]
+tags = ["android", "javascript", "open-source", "samsung", "twitter"]
 +++
-
 #"Cyanogenmod - The Community Android Firmware - Now 1 million users!"
 
 As a longtime <a href="http://www.cyanogenmod.com/">Cyanogenmod</a> user even I'm a bit shocked by this number.

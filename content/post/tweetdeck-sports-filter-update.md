@@ -5,8 +5,9 @@ draft = false
 title = "Tweetdeck Sports Filter Update"
 description = ""
 slug = "tweetdeck-sports-filter-update"
+categories = ["General Tech"]
+tags = ["twitter"]
 +++
-
 #"Tweetdeck Sports Filter Update"
 
 

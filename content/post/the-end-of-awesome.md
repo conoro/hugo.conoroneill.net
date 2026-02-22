@@ -5,8 +5,9 @@ draft = false
 title = "The End of Awesome"
 description = ""
 slug = "the-end-of-awesome"
+categories = ["Mobile & Apps"]
+tags = ["ireland", "nokia"]
 +++
-
 #"The End of Awesome"
 
 What have the following words got in common?

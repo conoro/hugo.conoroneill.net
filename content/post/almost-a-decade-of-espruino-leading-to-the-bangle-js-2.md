@@ -4,8 +4,9 @@ draft = false
 title = "Almost a decade of Espruino leading to the Bangle.js 2"
 description = "You've Come a Long Way, Baby"
 slug = "almost-a-decade-of-espruino-leading-to-the-bangle-js-2"
+categories = ["IoT & Electronics"]
+tags = ["3d-printing", "ai", "arduino", "bluetooth", "cloud", "espruino", "fitness-tracker", "javascript", "led", "open-source", "raspberry-pi", "security", "wifi"]
 +++
-
 TL;DR - Gordon Williams has a new [Espruino Kickstarter](https://www.kickstarter.com/projects/gfw/banglejs-2-the-open-smart-watch?ref=conor) for the fabulous [Bangle.js 2](https://www.kickstarter.com/projects/gfw/banglejs-2-the-open-smart-watch?ref=conor). Go and back the project and enjoy every geeky minute of playing with it. I have one of the devices already and it's a massive leap forward over V1. Imagine running JavaScript and TensorFlow Micro machine learning on your wrist!
 
 ![Bangle.js 2](/images/2021/09/banglejs2.jpg)

@@ -5,8 +5,9 @@ draft = false
 title = "Ireland Finally Gets Its Own Oyster Card - LeapCard"
 description = ""
 slug = "ireland-finally-gets-its-own-oyster-card-leapcard"
+categories = ["Web & Blogging"]
+tags = ["ireland"]
 +++
-
 #"Ireland Finally Gets Its Own Oyster Card - LeapCard"
 
 

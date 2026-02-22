@@ -5,8 +5,9 @@ draft = false
 title = "Irish Blogs are Dead. Long Live Irish Blogs"
 description = ""
 slug = "irish-blogs-are-dead-long-live-irish-blogs"
+categories = ["Web & Blogging"]
+tags = ["ireland"]
 +++
-
 #"Irish Blogs are Dead. Long Live Irish Blogs"
 
 

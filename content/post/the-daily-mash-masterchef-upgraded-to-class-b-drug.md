@@ -5,8 +5,8 @@ draft = false
 title = "The Daily Mash - MASTERCHEF UPGRADED TO CLASS B DRUG"
 description = ""
 slug = "the-daily-mash-masterchef-upgraded-to-class-b-drug"
+categories = ["Web & Blogging"]
 +++
-
 #"The Daily Mash - MASTERCHEF UPGRADED TO CLASS B DRUG"
 
 

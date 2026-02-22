@@ -4,8 +4,9 @@ draft = false
 title = "Adding a countdown timer to a new George Foreman grill"
 description = "A fun Christmas break project"
 slug = "adding-a-countdown-timer-to-a-new-george-foreman-grill"
+categories = ["IoT & Electronics"]
+tags = ["amazon", "arduino", "food-tech", "sensors", "wifi"]
 +++
-
 My wonderful late mother-in-law Mary bought us an original massive George Foreman Lean Mean Grilling Machine more than 10 years ago. Like most people we discovered it was pretty rubbish at cooking almost everything but was a superb toasted sandwich maker. With 5 kids, we have easily toasted thousands of cheese-based sambos.
 
 ![Old George Foreman Lean Mean Grilling Machine](/images/2023/12/gf1.jpg)

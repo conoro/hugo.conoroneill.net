@@ -5,8 +5,9 @@ draft = false
 title = "Virtual hurling with the xbox kinect"
 description = ""
 slug = "virtual-hurling-with-the-xbox-kinect"
+categories = ["Gaming & Retro Computing"]
+tags = ["gaming"]
 +++
-
 #"Virtual hurling with the xbox kinect"
 
 

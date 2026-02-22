@@ -5,8 +5,9 @@ draft = false
 title = "Android 2.3 Details Announced"
 description = ""
 slug = "android-2-3-details-announced"
+categories = ["Mobile & Apps"]
+tags = ["android", "api", "photography"]
 +++
-
 #"Android 2.3 Details Announced"
 
 

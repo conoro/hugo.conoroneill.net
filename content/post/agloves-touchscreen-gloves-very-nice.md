@@ -5,8 +5,9 @@ draft = false
 title = "Agloves Touchscreen Gloves - Very Nice."
 description = ""
 slug = "agloves-touchscreen-gloves-very-nice"
+categories = ["Mobile & Apps"]
+tags = ["ireland", "nokia"]
 +++
-
 #"Agloves Touchscreen Gloves - Very Nice."
 
 

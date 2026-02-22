@@ -5,8 +5,9 @@ draft = false
 title = "Unofficial Mario Kart 64 on Android and an $89 Tablet"
 description = ""
 slug = "unofficial-mario-kart-64-on-android-and-an-89-tablet"
+categories = ["Gaming & Retro Computing"]
+tags = ["android", "gaming", "ios", "wifi"]
 +++
-
 #"Unofficial Mario Kart 64 on Android and an $89 Tablet"
 
 Two completely separate stories joined together nicely this morning.

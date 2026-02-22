@@ -5,8 +5,9 @@ draft = false
 title = "Motorola S10-HD are brilliant Bluetooth running headphones"
 description = ""
 slug = "motorola-s10-hd-are-brilliant-bluetooth-running-headphones"
+categories = ["Running & Fitness"]
+tags = ["bluetooth", "ios", "ireland", "podcast", "running"]
 +++
-
 #"Motorola S10-HD are brilliant Bluetooth running headphones"
 
 The lovely people in Mobile Fun in the UK, home of a bajillion mobile and iPad accessories,contacted me recently. I'm a long-time customer of theirs and I'm a huge fan. Their Dash Genie in-car phone holder is a wonderful thing that just works.

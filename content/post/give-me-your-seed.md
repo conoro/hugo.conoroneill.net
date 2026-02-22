@@ -5,8 +5,8 @@ draft = false
 title = "Give me your seed"
 description = ""
 slug = "give-me-your-seed"
+categories = ["Web & Blogging"]
 +++
-
 #"Give me your seed"
 
 

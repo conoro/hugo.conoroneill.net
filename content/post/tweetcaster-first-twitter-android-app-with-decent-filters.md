@@ -5,8 +5,9 @@ draft = false
 title = "Tweetcaster - First Twitter Android App with Decent Filters"
 description = ""
 slug = "tweetcaster-first-twitter-android-app-with-decent-filters"
+categories = ["Mobile & Apps"]
+tags = ["android", "twitter"]
 +++
-
 #"Tweetcaster - First Twitter Android App with Decent Filters"
 
 

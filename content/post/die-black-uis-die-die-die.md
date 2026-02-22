@@ -5,8 +5,9 @@ draft = false
 title = "Die, Black UIs, Die Die Die"
 description = ""
 slug = "die-black-uis-die-die-die"
+categories = ["Cloud & Infrastructure"]
+tags = ["linux", "nokia", "twitter"]
 +++
-
 #"Die, Black UIs, Die Die Die"
 
 

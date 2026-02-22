@@ -5,8 +5,9 @@ draft = false
 title = "Celebrities read tweets about themselves"
 description = ""
 slug = "celebrities-read-tweets-about-themselves"
+categories = ["Media & Entertainment"]
+tags = ["twitter"]
 +++
-
 #"Celebrities read tweets about themselves"
 
 Some of my fave comedians and comic actors in there. Very smileworthy.

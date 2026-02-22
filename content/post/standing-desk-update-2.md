@@ -5,8 +5,9 @@ draft = false
 title = "Standing Desk Update"
 description = ""
 slug = "standing-desk-update-2"
+categories = ["Running & Fitness"]
+tags = ["lego"]
 +++
-
 #"Standing Desk Update"
 
 My standing desk experiments have been intermittent but I've put some renewed effort in recently due to some back twinges. I finally cleared out the tiny annex office off my main office and changed the standing desk over to my main laptop.

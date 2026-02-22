@@ -5,8 +5,9 @@ draft = false
 title = "Don't buy one Raspberry Pi, buy two and donate one to your local programming club"
 description = ""
 slug = "dont-buy-one-raspbery-pi-buy-two-and-donate-one-to-your-local-programming-club"
+categories = ["IoT & Electronics"]
+tags = ["android", "bluetooth", "education", "ios", "linux", "low-code", "raspberry-pi", "retro-computing"]
 +++
-
 #"Don't buy one Raspberry Pi, buy two and donate one to your local programming club"
 
 What a seriously great idea from <a href="https://twitter.com/#!/elana/statuses/174828991495143425">@Elana</a>.

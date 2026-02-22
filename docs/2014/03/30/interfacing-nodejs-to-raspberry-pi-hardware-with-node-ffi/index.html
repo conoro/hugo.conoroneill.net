@@ -1,387 +1,833 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  	<meta property="og:title" content=" Interfacing Node.js to Raspberry Pi hardware like 433Mhz transmitters with node-ffi &middot;  Cross Dominant" />
-  	<meta property="og:site_name" content="Cross Dominant" />
-  	<meta property="og:url" content="https://conoroneill.net/2014/03/30/interfacing-nodejs-to-raspberry-pi-hardware-with-node-ffi/" />
-
-    
-  	<meta property="og:type" content="article" />
-
-    <meta property="og:article:published_time" content="2014-03-30T13:36:22&#43;01:00" />
-
-    
-    
-
-  <title>
-     Interfacing Node.js to Raspberry Pi hardware like 433Mhz transmitters with node-ffi &middot;  Cross Dominant
-  </title>
-
-    <meta name="description" content="Mixed laterality since 1968" />
-
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="shortcut icon" href="https://conoroneill.net/favicon.ico">
-	  <link rel="apple-touch-icon" href="https://conoroneill.net/images/apple-touch-icon.png" />
-
-    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="https://conoroneill.net/css/nav.css" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous">
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Now that I can control the Efergy RC mains sockets easily with a DigiX Arduino, it's time to make the same thing work on Node.js running on a Raspberry Pi. Turns out it's not quite so easy!">
+<title>Interfacing Node.js to Raspberry Pi hardware like 433Mhz transmitters with node-ffi</title>
 
 
+<link rel="canonical" href="https://conoroneill.net/2014/03/30/interfacing-nodejs-to-raspberry-pi-hardware-with-node-ffi/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
-    
-      
-          <link href="https://conoroneill.net/index.xml" rel="alternate" type="application/rss+xml" title="Cross Dominant" />
-      
-      
-    
-    <meta name="generator" content="Hugo 0.84.4" />
 
-    <link rel="canonical" href="https://conoroneill.net/2014/03/30/interfacing-nodejs-to-raspberry-pi-hardware-with-node-ffi/" />
+<link rel="stylesheet" href="/scss/style.min.390cc81d180d80110703ea467e355a4f3a0f44f25d4e957842790824fb5f2ef2.css"><meta property='og:title' content="Interfacing Node.js to Raspberry Pi hardware like 433Mhz transmitters with node-ffi">
+<meta property='og:description' content="Now that I can control the Efergy RC mains sockets easily with a DigiX Arduino, it's time to make the same thing work on Node.js running on a Raspberry Pi. Turns out it's not quite so easy!">
+<meta property='og:url' content='https://conoroneill.net/2014/03/30/interfacing-nodejs-to-raspberry-pi-hardware-with-node-ffi/'>
+<meta property='og:site_name' content='Mixed Laterality'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='arduino' /><meta property='article:tag' content='gps' /><meta property='article:tag' content='javascript' /><meta property='article:tag' content='lego' /><meta property='article:tag' content='linux' /><meta property='article:tag' content='nodejs' /><meta property='article:tag' content='raspberry-pi' /><meta property='article:published_time' content='2014-03-30T13:36:22&#43;01:00'/><meta property='article:modified_time' content='2014-03-30T13:36:22&#43;01:00'/>
+<meta name="twitter:title" content="Interfacing Node.js to Raspberry Pi hardware like 433Mhz transmitters with node-ffi">
+<meta name="twitter:description" content="Now that I can control the Efergy RC mains sockets easily with a DigiX Arduino, it's time to make the same thing work on Node.js running on a Raspberry Pi. Turns out it's not quite so easy!">
+    <link rel="shortcut icon" href="/images/Blog_Flow_Icon.jpg" />
+<style>
+    .site-header-image {
+        margin-bottom: var(--section-separation);
+        border-radius: var(--card-border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow-l1);
+    }
+    .site-header-image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    @media (min-width: 768px) {
+        .site-header-image img {
+            height: 280px;
+        }
+    }
+    @media (min-width: 1024px) {
+        .site-header-image img {
+            height: 350px;
+        }
+    }
 
-    
+    .article-list .article-subtitle {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 1.5rem;
+    }
+</style>
+
+    </head>
+    <body class="
+    article-page
+    ">
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-      ga('create', 'UA-88610-4', 'auto');
-      ga('send', 'pageview');
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
 
-    </script>
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="/images/Blog_Flow_Icon.jpg" 
+                        width=""
+                        height=""
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Mixed Laterality</a></h1>
+            <h2 class="site-description">Tech Blogging since 2001</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/conoro'
+                        
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/conoroneill'
+                        
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+  <path d="M8 11l0 5" />
+  <path d="M8 8l0 .01" />
+  <path d="M12 16l0 -5" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/conoro'
+                        
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav class="toc-nav" id="TableOfContents">
+                
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#install-wiringpi">Install WiringPi</a></li>
+        <li><a href="#build-an-rcswitch-pi-library">Build an RCSwitch-Pi library</a></li>
+        <li><a href="#simple-c-test-to-make-sure-you-can-talk-to-efergy">Simple C++ test to make sure you can talk to Efergy</a></li>
+        <li><a href="#install-nodenpm-on-raspberry-pi">Install Node/NPM on Raspberry Pi</a></li>
+        <li><a href="#wrapping-c-so-it-can-be-called-by-c">Wrapping C++ so it can be called by C</a></li>
+        <li><a href="#compile-everything">Compile everything</a></li>
+        <li><a href="#run-the-c-program">Run the C program</a></li>
+        <li><a href="#install-node-ffi">Install Node FFI</a></li>
+        <li><a href="#create-sendjs">Create send.js</a></li>
+        <li><a href="#compile-the-libraries">Compile the libraries</a></li>
+        <li><a href="#run-sendjs">Run send.js</a></li>
+      </ul>
+    </li>
+  </ul>
+
+            </nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+            
+            
+            <a href="/categories/iot--electronics/" style="background-color: hsl(62, 60%, 84%); color: hsl(62, 60%, 15%);">
+                IoT &amp; Electronics
+            </a>
+        
+    </header>
     
 
-    
-</head>
-<body class="nav-closed">
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/2014/03/30/interfacing-nodejs-to-raspberry-pi-hardware-with-node-ffi/">Interfacing Node.js to Raspberry Pi hardware like 433Mhz transmitters with node-ffi</a>
+        </h2>
 
-  <div class="nav">
-    <h3 class="nav-title">Menu</h3>
-    <a href="#" class="nav-close">
-        <span class="hidden">Close</span>
-    </a>
-    <ul>
+        
+            
+            <h3 class="article-subtitle">
+                Now that I can control the Efergy RC mains sockets easily with a DigiX Arduino, it&#39;s time to make the same thing work on Node.js running on a Raspberry Pi. Turns out it&#39;s not quite so easy!
+            </h3>
+            
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2014-03-30T13:36:22&#43;01:00'>Sunday, March 30, 2014</time>
+            </div>
         
 
         
-    </ul>
-
+    </footer>
+    
 
     
-    <a class="subscribe-button icon-feed" href="https://conoroneill.net/index.xml">Subscribe</a>
+
     
 </div>
-<span class="nav-cover"></span>
 
-
- <div class="site-wrapper">
-
-
-
-
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
-
-
-  
-      <a class="blog-logo" href="https://conoroneill.net/"><img src="https://conoroneill.net/images/cross_dominant.png" alt="Home" /></a>
-  
-  
-      <a class="menu-button icon-feed" href="https://conoroneill.net/index.xml">&nbsp;&nbsp;Subscribe</a>
-  
-  </nav>
 </header>
 
+    
+    <aside class="article-toc">
+        <details>
+            <summary>
+                <div class="article-toc-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                    <span>Table of contents</span>
+                </div>
+            </summary>
+            <nav class="toc-nav">
+                
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#install-wiringpi">Install WiringPi</a></li>
+        <li><a href="#build-an-rcswitch-pi-library">Build an RCSwitch-Pi library</a></li>
+        <li><a href="#simple-c-test-to-make-sure-you-can-talk-to-efergy">Simple C++ test to make sure you can talk to Efergy</a></li>
+        <li><a href="#install-nodenpm-on-raspberry-pi">Install Node/NPM on Raspberry Pi</a></li>
+        <li><a href="#wrapping-c-so-it-can-be-called-by-c">Wrapping C++ so it can be called by C</a></li>
+        <li><a href="#compile-everything">Compile everything</a></li>
+        <li><a href="#run-the-c-program">Run the C program</a></li>
+        <li><a href="#install-node-ffi">Install Node FFI</a></li>
+        <li><a href="#create-sendjs">Create send.js</a></li>
+        <li><a href="#compile-the-libraries">Compile the libraries</a></li>
+        <li><a href="#run-sendjs">Run send.js</a></li>
+      </ul>
+    </li>
+  </ul>
 
+            </nav>
+        </details>
+    </aside>
+    
 
-<main class="content" role="main">
-
-
-
-
-  <article class="post post">
-
-    <header class="post-header">
-        <h1 class="post-title">Interfacing Node.js to Raspberry Pi hardware like 433Mhz transmitters with node-ffi</h1>
-        <small>Now that I can control the Efergy RC mains sockets easily with a DigiX Arduino, it&#39;s time to make the same thing work on Node.js running on a Raspberry Pi. Turns out it&#39;s not quite so easy!</small>
-
-        <section class="post-meta">
-        
-          <time class="post-date" datetime="2014-03-30T13:36:22&#43;01:00">
-            Mar 30, 2014
-          </time>
-        
-         
-        </section>
-    </header>
-
-    <section class="post-content">
-      <p>Now that I can talk to the Efergy remote control switches using Arduino and <a href="http://digistump.com/products/50">DigiX</a>, it&rsquo;s time to do the same thing with Raspberry Pi and Node.js.</p>
-<p>But first, check out this gorgeous <a href="http://shop.pimoroni.com/products/pibow-timber">Pimoroni Pibow Timber</a> case that the RPi now lives in. Makes me smile every time I look at it.</p>
-<p><img src="https://d2j17b10ywb1i7.cloudfront.net/wp-content/uploads/2014/03/pibow_timber.jpg" alt="Pibow" title="Pibow Timber Raspberry Pi case"></p>
-<p>Start by plugging in one of the Efergy switches and using its remote control to set its code. Use the sniffer program from <a href="http://conoroneill.net/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets">the last post</a> to find out what that code is.</p>
-<p>Connecting the 433MHz transmitter to the RPi is dead easy. Connect GND to pin 6, VCC to PIN 1 and DATA to PIN 11. More details on the <a href="https://projects.drogon.net/raspberry-pi/wiringpi/pins/">WiringPi Pinout</a>. For our purposes: BCM GPIO 17 == WiringPi 0 == Pin 11 == GPIO #0</p>
-<p>The simplest way of doing this is to create a command-line program in C or C++ and then shell out to it in Node. But where&rsquo;s the fun in that? The core approach I decided to use was via a Node module called <a href="https://github.com/rbranson/node-ffi/wiki/Node-FFI-Tutorial">Node FFI</a> which makes it relatively easy to call out to C libraries from Node. The alternative is to build a Node module in C++. But that wasn&rsquo;t going to work, given that I haven&rsquo;t written a line of C++ in my life, after the trauma of doing a training course in it in the late 90s and seeing the horror inflicted on my beloved C.</p>
-<p>Unfortunately I quickly realised that node-ffi only does C whilst the <a href="https://github.com/r10r/rcswitch-pi/">RCSWitch-Pi</a> library is C++ (but the <a href="https://projects.drogon.net/raspberry-pi/wiringpi/functions/">WiringPi library</a> under that is C again!).</p>
-<p>An abortive attempt at using <a href="https://github.com/tjfontaine/node-ffi-generate">ffi-generate</a> went nowhere as it wouldn&rsquo;t even run on the RPi due to some libclang problem. Running in an Ubuntu VM worked after a lot of llvm messing but I couldn&rsquo;t make any sense of the output.</p>
-<p>Cue a lonnnngggg session Googling how to interface C to C++ and realising that I hate C++ even more now :-) Eventually I found an <a href="http://www.teddy.ch/c++_library_in_c/">idiot&rsquo;s guide to wrapping C++</a> so it can be called by C. Bit by bit I figured it all out but hit a brick wall at one point. This forced me to use the GDB debugger for the first time in 15 years. Luckily I spotted the problem using GDB in about a minute flat and got a test C program working which would call the C++ functions correctly.</p>
+    <section class="article-content">
+    
+    
+    <p>Now that I can talk to the Efergy remote control switches using Arduino and <a class="link" href="http://digistump.com/products/50"  target="_blank" rel="noopener"
+    >DigiX</a>, it&rsquo;s time to do the same thing with Raspberry Pi and Node.js.</p>
+<p>But first, check out this gorgeous <a class="link" href="http://shop.pimoroni.com/products/pibow-timber"  target="_blank" rel="noopener"
+    >Pimoroni Pibow Timber</a> case that the RPi now lives in. Makes me smile every time I look at it.</p>
+<p><img src="/pibow_timber_9898321469138611945.jpg"
+	width="732"
+	height="412"
+	loading="lazy"
+	
+		alt="Pibow"
+	
+    
+        title="Pibow Timber Raspberry Pi case"
+        data-title-escaped="Pibow Timber Raspberry Pi case"
+    
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
+<p>Start by plugging in one of the Efergy switches and using its remote control to set its code. Use the sniffer program from <a class="link" href="http://conoroneill.net/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets"  target="_blank" rel="noopener"
+    >the last post</a> to find out what that code is.</p>
+<p>Connecting the 433MHz transmitter to the RPi is dead easy. Connect GND to pin 6, VCC to PIN 1 and DATA to PIN 11. More details on the <a class="link" href="https://projects.drogon.net/raspberry-pi/wiringpi/pins/"  target="_blank" rel="noopener"
+    >WiringPi Pinout</a>. For our purposes: BCM GPIO 17 == WiringPi 0 == Pin 11 == GPIO #0</p>
+<p>The simplest way of doing this is to create a command-line program in C or C++ and then shell out to it in Node. But where&rsquo;s the fun in that? The core approach I decided to use was via a Node module called <a class="link" href="https://github.com/rbranson/node-ffi/wiki/Node-FFI-Tutorial"  target="_blank" rel="noopener"
+    >Node FFI</a> which makes it relatively easy to call out to C libraries from Node. The alternative is to build a Node module in C++. But that wasn&rsquo;t going to work, given that I haven&rsquo;t written a line of C++ in my life, after the trauma of doing a training course in it in the late 90s and seeing the horror inflicted on my beloved C.</p>
+<p>Unfortunately I quickly realised that node-ffi only does C whilst the <a class="link" href="https://github.com/r10r/rcswitch-pi/"  target="_blank" rel="noopener"
+    >RCSWitch-Pi</a> library is C++ (but the <a class="link" href="https://projects.drogon.net/raspberry-pi/wiringpi/functions/"  target="_blank" rel="noopener"
+    >WiringPi library</a> under that is C again!).</p>
+<p>An abortive attempt at using <a class="link" href="https://github.com/tjfontaine/node-ffi-generate"  target="_blank" rel="noopener"
+    >ffi-generate</a> went nowhere as it wouldn&rsquo;t even run on the RPi due to some libclang problem. Running in an Ubuntu VM worked after a lot of llvm messing but I couldn&rsquo;t make any sense of the output.</p>
+<p>Cue a lonnnngggg session Googling how to interface C to C++ and realising that I hate C++ even more now :-) Eventually I found an <a class="link" href="http://www.teddy.ch/c&#43;&#43;_library_in_c/"  target="_blank" rel="noopener"
+    >idiot&rsquo;s guide to wrapping C++</a> so it can be called by C. Bit by bit I figured it all out but hit a brick wall at one point. This forced me to use the GDB debugger for the first time in 15 years. Luckily I spotted the problem using GDB in about a minute flat and got a test C program working which would call the C++ functions correctly.</p>
 <p>Then it was back to Node.js and node-ffi for another round of head scratching and non-stop errors. Finally it all clicked and the Efergy module clicked too!</p>
 <p>Now that I have the basics working, I will clean up this code and use it in the Node server that will run on the RPi via the usual exports/require approach. I&rsquo;ll also hopefully be able to apply the same approach to any C++ or C library that accesses any RPi hardware.</p>
 <p>The final set of steps are actually quite simple. All the effort was in the learning.</p>
-<h3 id="install-wiringpi">Install WiringPi</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir ~/gitwork
-cd gitwork
-git clone git://git.drogon.net/wiringPi
-cd wiringPi
-./build
-
-<span style="color:#75715e">### Install RCSwitch-Pi</span>
-cd ~/gitwork
-git clone https://github.com/r10r/rcswitch-pi.git
-cd rcswitch-pi
-make
-</code></pre></div><h3 id="build-an-rcswitch-pi-library">Build an RCSwitch-Pi library</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcc -shared -fpic RCSwitch.cpp -o libRCSwitch.so
-</code></pre></div><h3 id="simple-c-test-to-make-sure-you-can-talk-to-efergy">Simple C++ test to make sure you can talk to Efergy</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ~/gitwork/rcswitch-pi
-</code></pre></div><p>Create a file called efergy.cpp with the following contents</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;RCSwitch.h&#34;</span><span style="color:#75715e">
-</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdlib.h&gt;</span><span style="color:#75715e">
-</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
-</span><span style="color:#75715e"></span>
-<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(<span style="color:#66d9ef">int</span> argc, <span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>argv[]) {
-
-    <span style="color:#75715e">/*
-</span><span style="color:#75715e">     output PIN is hardcoded for testing purposes
-</span><span style="color:#75715e">     see https://projects.drogon.net/raspberry-pi/wiringpi/pins/
-</span><span style="color:#75715e">     for pin mapping of the raspberry pi GPIO connector
-</span><span style="color:#75715e">     */</span>
-    <span style="color:#66d9ef">int</span> PIN <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-    <span style="color:#66d9ef">int</span> unitCode <span style="color:#f92672">=</span> atoi(argv[<span style="color:#ae81ff">1</span>]);
-
-    <span style="color:#66d9ef">if</span> (wiringPiSetup () <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>;
-        printf(<span style="color:#e6db74">&#34;sending unitCode[%i]</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, unitCode);
-        RCSwitch mySwitch <span style="color:#f92672">=</span> RCSwitch();
-        mySwitch.enableTransmit(PIN);
-
-        mySwitch.send(unitCode,<span style="color:#ae81ff">24</span>);
-
-        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
-}
-</code></pre></div><p>Now compile and run it:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">g++ -c -o efergy.o efergy.cpp
-g++ RCSwitch.o efergy.o -o efergy -lwiringPi
-sudo ./efergy <span style="color:#ae81ff">109011</span>
-sudo ./efergy <span style="color:#ae81ff">109019</span>
-</code></pre></div><p>If all is working ok, the switch will turn on and off.</p>
-<h3 id="install-nodenpm-on-raspberry-pi">Install Node/NPM on Raspberry Pi</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    cd ~
-    sudo mkdir /opt/node
-    wget http://nodejs.org/dist/v0.10.23/node-v0.10.23-linux-arm-pi.tar.gz
-    tar xvzf node-v0.10.23-linux-arm-pi.tar.gz
-    sudo cp -r node-v0.10.2-linux-arm-pi/* /opt/node
-    cd ~
-    nano .bash_profile
-     
-    <span style="color:#75715e">#Add these lines to the file you opened</span>
-    PATH<span style="color:#f92672">=</span>$PATH:/opt/node/bin
-    export PATH
-
-    <span style="color:#75715e">#Save and exit</span>
-     
-    <span style="color:#75715e">#Test</span>
-    node -v
-    npm -v
-</code></pre></div><h3 id="wrapping-c-so-it-can-be-called-by-c">Wrapping C++ so it can be called by C</h3>
-<p>Create wrapper.h and wrapper.c</p>
+<h3 id="install-wiringpi"><a href="#install-wiringpi" class="header-anchor"></a>Install WiringPi
+</h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir ~/gitwork
+</span></span><span style="display:flex;"><span>cd gitwork
+</span></span><span style="display:flex;"><span>git clone git://git.drogon.net/wiringPi
+</span></span><span style="display:flex;"><span>cd wiringPi
+</span></span><span style="display:flex;"><span>./build
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">### Install RCSwitch-Pi</span>
+</span></span><span style="display:flex;"><span>cd ~/gitwork
+</span></span><span style="display:flex;"><span>git clone https://github.com/r10r/rcswitch-pi.git
+</span></span><span style="display:flex;"><span>cd rcswitch-pi
+</span></span><span style="display:flex;"><span>make
+</span></span></code></pre></div><h3 id="build-an-rcswitch-pi-library"><a href="#build-an-rcswitch-pi-library" class="header-anchor"></a>Build an RCSwitch-Pi library
+</h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gcc -shared -fpic RCSwitch.cpp -o libRCSwitch.so
+</span></span></code></pre></div><h3 id="simple-c-test-to-make-sure-you-can-talk-to-efergy"><a href="#simple-c-test-to-make-sure-you-can-talk-to-efergy" class="header-anchor"></a>Simple C++ test to make sure you can talk to Efergy
+</h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~/gitwork/rcswitch-pi
+</span></span></code></pre></div><p>Create a file called efergy.cpp with the following contents</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;RCSwitch.h&#34;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdlib.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(<span style="color:#66d9ef">int</span> argc, <span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>argv[]) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     output PIN is hardcoded for testing purposes
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     see https://projects.drogon.net/raspberry-pi/wiringpi/pins/
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     for pin mapping of the raspberry pi GPIO connector
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     */</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> PIN <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> unitCode <span style="color:#f92672">=</span> <span style="color:#a6e22e">atoi</span>(argv[<span style="color:#ae81ff">1</span>]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">wiringPiSetup</span> () <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;sending unitCode[%i]</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, unitCode);
+</span></span><span style="display:flex;"><span>        RCSwitch mySwitch <span style="color:#f92672">=</span> <span style="color:#a6e22e">RCSwitch</span>();
+</span></span><span style="display:flex;"><span>        mySwitch.<span style="color:#a6e22e">enableTransmit</span>(PIN);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        mySwitch.<span style="color:#a6e22e">send</span>(unitCode,<span style="color:#ae81ff">24</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Now compile and run it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>g++ -c -o efergy.o efergy.cpp
+</span></span><span style="display:flex;"><span>g++ RCSwitch.o efergy.o -o efergy -lwiringPi
+</span></span><span style="display:flex;"><span>sudo ./efergy <span style="color:#ae81ff">109011</span>
+</span></span><span style="display:flex;"><span>sudo ./efergy <span style="color:#ae81ff">109019</span>
+</span></span></code></pre></div><p>If all is working ok, the switch will turn on and off.</p>
+<h3 id="install-nodenpm-on-raspberry-pi"><a href="#install-nodenpm-on-raspberry-pi" class="header-anchor"></a>Install Node/NPM on Raspberry Pi
+</h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    cd ~
+</span></span><span style="display:flex;"><span>    sudo mkdir /opt/node
+</span></span><span style="display:flex;"><span>    wget http://nodejs.org/dist/v0.10.23/node-v0.10.23-linux-arm-pi.tar.gz
+</span></span><span style="display:flex;"><span>    tar xvzf node-v0.10.23-linux-arm-pi.tar.gz
+</span></span><span style="display:flex;"><span>    sudo cp -r node-v0.10.2-linux-arm-pi/* /opt/node
+</span></span><span style="display:flex;"><span>    cd ~
+</span></span><span style="display:flex;"><span>    nano .bash_profile
+</span></span><span style="display:flex;"><span>     
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#Add these lines to the file you opened</span>
+</span></span><span style="display:flex;"><span>    PATH<span style="color:#f92672">=</span>$PATH:/opt/node/bin
+</span></span><span style="display:flex;"><span>    export PATH
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#Save and exit</span>
+</span></span><span style="display:flex;"><span>     
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#Test</span>
+</span></span><span style="display:flex;"><span>    node -v
+</span></span><span style="display:flex;"><span>    npm -v
+</span></span></code></pre></div><h3 id="wrapping-c-so-it-can-be-called-by-c"><a href="#wrapping-c-so-it-can-be-called-by-c" class="header-anchor"></a>Wrapping C++ so it can be called by C
+</h3><p>Create wrapper.h and wrapper.c</p>
 <p>wrapper.h:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#ifndef __MYWRAPPER_H
-</span><span style="color:#75715e">#define __MYWRAPPER_H
-</span><span style="color:#75715e"></span>
-<span style="color:#75715e">#ifdef __cplusplus
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">extern</span> <span style="color:#e6db74">&#34;C&#34;</span> {
-<span style="color:#75715e">#endif
-</span><span style="color:#75715e"></span>
-  <span style="color:#66d9ef">typedef</span> <span style="color:#66d9ef">struct</span> RCSwitch RCSwitch;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#75715e">#ifndef __MYWRAPPER_H
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#define __MYWRAPPER_H
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#ifdef __cplusplus
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">extern</span> <span style="color:#e6db74">&#34;C&#34;</span> {
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#endif
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">typedef</span> <span style="color:#66d9ef">struct</span> RCSwitch RCSwitch;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  RCSwitch<span style="color:#f92672">*</span> <span style="color:#a6e22e">newRCSwitch</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">RCSwitch_send</span>(RCSwitch<span style="color:#f92672">*</span> v, <span style="color:#66d9ef">unsigned</span> <span style="color:#66d9ef">long</span> Code, <span style="color:#66d9ef">unsigned</span> <span style="color:#66d9ef">int</span> length);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">RCSwitch_enableTransmit</span>(RCSwitch<span style="color:#f92672">*</span> v, <span style="color:#66d9ef">int</span> nTransmitterPin);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">deleteRCSwitch</span>(RCSwitch<span style="color:#f92672">*</span> v);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#ifdef __cplusplus
+</span></span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#endif
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#endif
+</span></span></span></code></pre></div><p>wrapper.c:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;RCSwitch.h&#34;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span>    <span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;wrapper.h&#34;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span>    <span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">extern</span> <span style="color:#e6db74">&#34;C&#34;</span> {
+</span></span><span style="display:flex;"><span>      RCSwitch<span style="color:#f92672">*</span> <span style="color:#a6e22e">newRCSwitch</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">//printf(&#34;Inside newRCSwitch&#34;);
+</span></span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> new <span style="color:#a6e22e">RCSwitch</span>();
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">RCSwitch_send</span>(RCSwitch<span style="color:#f92672">*</span> v, <span style="color:#66d9ef">unsigned</span> <span style="color:#66d9ef">long</span> Code, <span style="color:#66d9ef">unsigned</span> <span style="color:#66d9ef">int</span> length) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">//printf(&#34;Inside RCSwitch_send&#34;);
+</span></span></span><span style="display:flex;"><span>        v<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">send</span>(Code, length);
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">RCSwitch_enableTransmit</span>(RCSwitch<span style="color:#f92672">*</span> v, <span style="color:#66d9ef">int</span> nTransmitterPin) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">//printf(&#34;Inside RCSwitch_enableTransmit&#34;);
+</span></span></span><span style="display:flex;"><span>        v<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">enableTransmit</span>(nTransmitterPin);
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">deleteRCSwitch</span>(RCSwitch<span style="color:#f92672">*</span> v) {
+</span></span><span style="display:flex;"><span>        delete v;
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><h3 id="compile-everything"><a href="#compile-everything" class="header-anchor"></a>Compile everything
+</h3><p>Use -g flag everywhere if you want to debug with GDB (gdb efergy2, break main, run 109011, next, next). Simple <a class="link" href="http://web.eecs.umich.edu/~sugih/pointers/summary.html"  target="_blank" rel="noopener"
+    >GDB Tutorial here</a> and some tips on <a class="link" href="http://www.raspberrypi.org/forum/viewtopic.php?f=33&amp;t=15312"  target="_blank" rel="noopener"
+    >RPi Forums</a>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>g++ -g -c wrapper.c -o wrapper.o
+</span></span><span style="display:flex;"><span>gcc -g -c efergy.c -o efergy.o
+</span></span><span style="display:flex;"><span>g++ -shared -fpic -g RCSwitch.cpp -L ./ -l wiringPi -o libRCSwitch.so
+</span></span><span style="display:flex;"><span>g++ -g efergy.o wrapper.o ./libRCSwitch.so -o efergy2
+</span></span></code></pre></div><h3 id="run-the-c-program"><a href="#run-the-c-program" class="header-anchor"></a>Run the C program
+</h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>export LD_LIBRARY_PATH<span style="color:#f92672">=</span>$LD_LIBRARY_PATH:./
+</span></span><span style="display:flex;"><span>sudo ./efergy2 <span style="color:#ae81ff">109011</span>
+</span></span></code></pre></div><p>Now to get everything running in Node/JavaScript</p>
+<h3 id="install-node-ffi"><a href="#install-node-ffi" class="header-anchor"></a>Install Node FFI
+</h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo npm install -g ffi
+</span></span></code></pre></div><h3 id="create-sendjs"><a href="#create-sendjs" class="header-anchor"></a>Create send.js
+</h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">ffi</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;ffi&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">libwiringPi</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ffi</span>.<span style="color:#a6e22e">Library</span>(<span style="color:#e6db74">&#39;/usr/local/lib/libwiringPi&#39;</span>, {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;wiringPiSetup&#39;</span> <span style="color:#f92672">:</span> [ <span style="color:#e6db74">&#39;int&#39;</span>, [] ],
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;digitalWrite&#39;</span> <span style="color:#f92672">:</span> [ <span style="color:#e6db74">&#39;void&#39;</span>, [<span style="color:#e6db74">&#39;int&#39;</span>, <span style="color:#e6db74">&#39;int&#39;</span>] ],
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;pinMode&#39;</span><span style="color:#f92672">:</span> [ <span style="color:#e6db74">&#39;void&#39;</span>, [<span style="color:#e6db74">&#39;int&#39;</span>, <span style="color:#e6db74">&#39;int&#39;</span>] ],
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;delayMicroseconds&#39;</span> <span style="color:#f92672">:</span>  [ <span style="color:#e6db74">&#39;void&#39;</span>, [<span style="color:#e6db74">&#39;int&#39;</span>, <span style="color:#e6db74">&#39;int&#39;</span>] ]
+</span></span><span style="display:flex;"><span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">libRCSwitch</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ffi</span>.<span style="color:#a6e22e">Library</span>(<span style="color:#e6db74">&#39;./libwrapper&#39;</span>, {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#39;newRCSwitch&#39;</span> <span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;pointer&#39;</span>, [] ],
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#39;RCSwitch_send&#39;</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;void&#39;</span>, [ <span style="color:#e6db74">&#39;pointer&#39;</span>, <span style="color:#e6db74">&#39;int&#39;</span>, <span style="color:#e6db74">&#39;int&#39;</span> ] ],
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#39;RCSwitch_enableTransmit&#39;</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;void&#39;</span>, [<span style="color:#e6db74">&#39;pointer&#39;</span>, <span style="color:#e6db74">&#39;int&#39;</span>] ]
+</span></span><span style="display:flex;"><span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">argv</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">3</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Arguments: Efergy Switch Code&#39;</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">exit</span>()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">PIN</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">unitCode</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">argv</span>[<span style="color:#ae81ff">2</span>]);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">mySwitch</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">libRCSwitch</span>.<span style="color:#a6e22e">newRCSwitch</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">libwiringPi</span>.<span style="color:#a6e22e">wiringPiSetup</span>() <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;Error initialising WiringPi&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">mySwitch</span>.<span style="color:#a6e22e">isNull</span>()) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Oh no! Couldn&#39;t create object!\n&#34;</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">libRCSwitch</span>.<span style="color:#a6e22e">RCSwitch_enableTransmit</span>(<span style="color:#a6e22e">mySwitch</span>, <span style="color:#a6e22e">PIN</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">libRCSwitch</span>.<span style="color:#a6e22e">RCSwitch_send</span>(<span style="color:#a6e22e">mySwitch</span>, <span style="color:#a6e22e">unitCode</span>, <span style="color:#ae81ff">24</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="compile-the-libraries"><a href="#compile-the-libraries" class="header-anchor"></a>Compile the libraries
+</h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>g++ -shared -fpic -g wrapper.c -L ./ -l RCSwitch -o libwrapper.so
+</span></span><span style="display:flex;"><span>g++ -shared -fpic -g RCSwitch.cpp -L ./ -l wiringPi -o libRCSwitch.so
+</span></span></code></pre></div><h3 id="run-sendjs"><a href="#run-sendjs" class="header-anchor"></a>Run send.js
+</h3><p>Note that anything which uses WiringPi has to be run sudo. A bit of a pain. Not sure I want to be running the Node process as root?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo env PATH<span style="color:#f92672">=</span>$PATH LD_LIBRARY_PATH<span style="color:#f92672">=</span>$LD_LIBRARY_PATH:./ node send.js <span style="color:#ae81ff">109011</span>
+</span></span></code></pre></div><p>That&rsquo;s it. You can now turn on and off your Efergy socket using Node. Next up, a simple Node server to handle remote requests to do this.</p>
 
-  RCSwitch<span style="color:#f92672">*</span> <span style="color:#a6e22e">newRCSwitch</span>();
+</section>
 
-  <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">RCSwitch_send</span>(RCSwitch<span style="color:#f92672">*</span> v, <span style="color:#66d9ef">unsigned</span> <span style="color:#66d9ef">long</span> Code, <span style="color:#66d9ef">unsigned</span> <span style="color:#66d9ef">int</span> length);
 
-  <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">RCSwitch_enableTransmit</span>(RCSwitch<span style="color:#f92672">*</span> v, <span style="color:#66d9ef">int</span> nTransmitterPin);
-
-  <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">deleteRCSwitch</span>(RCSwitch<span style="color:#f92672">*</span> v);
-
-<span style="color:#75715e">#ifdef __cplusplus
-</span><span style="color:#75715e"></span>}
-<span style="color:#75715e">#endif
-</span><span style="color:#75715e">#endif
-</span></code></pre></div><p>wrapper.c:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">
-    <span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;RCSwitch.h&#34;</span><span style="color:#75715e">
-</span><span style="color:#75715e"></span>    <span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;wrapper.h&#34;</span><span style="color:#75715e">
-</span><span style="color:#75715e"></span>    <span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
-</span><span style="color:#75715e"></span>
-    <span style="color:#66d9ef">extern</span> <span style="color:#e6db74">&#34;C&#34;</span> {
-      RCSwitch<span style="color:#f92672">*</span> newRCSwitch() {
-        <span style="color:#75715e">//printf(&#34;Inside newRCSwitch&#34;);
-</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">return</span> new RCSwitch();
-      }
-
-      <span style="color:#66d9ef">void</span> RCSwitch_send(RCSwitch<span style="color:#f92672">*</span> v, <span style="color:#66d9ef">unsigned</span> <span style="color:#66d9ef">long</span> Code, <span style="color:#66d9ef">unsigned</span> <span style="color:#66d9ef">int</span> length) {
-        <span style="color:#75715e">//printf(&#34;Inside RCSwitch_send&#34;);
-</span><span style="color:#75715e"></span>        v<span style="color:#f92672">-&gt;</span>send(Code, length);
-      }
-
-      <span style="color:#66d9ef">void</span> RCSwitch_enableTransmit(RCSwitch<span style="color:#f92672">*</span> v, <span style="color:#66d9ef">int</span> nTransmitterPin) {
-        <span style="color:#75715e">//printf(&#34;Inside RCSwitch_enableTransmit&#34;);
-</span><span style="color:#75715e"></span>        v<span style="color:#f92672">-&gt;</span>enableTransmit(nTransmitterPin);
-      }
-
-      <span style="color:#66d9ef">void</span> deleteRCSwitch(RCSwitch<span style="color:#f92672">*</span> v) {
-        delete v;
-      }
-    }
-</code></pre></div><h3 id="compile-everything">Compile everything</h3>
-<p>Use -g flag everywhere if you want to debug with GDB (gdb efergy2, break main, run 109011, next, next). Simple <a href="http://web.eecs.umich.edu/~sugih/pointers/summary.html">GDB Tutorial here</a> and some tips on <a href="http://www.raspberrypi.org/forum/viewtopic.php?f=33&amp;t=15312">RPi Forums</a>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">g++ -g -c wrapper.c -o wrapper.o
-gcc -g -c efergy.c -o efergy.o
-g++ -shared -fpic -g RCSwitch.cpp -L ./ -l wiringPi -o libRCSwitch.so
-g++ -g efergy.o wrapper.o ./libRCSwitch.so -o efergy2
-</code></pre></div><h3 id="run-the-c-program">Run the C program</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">export LD_LIBRARY_PATH<span style="color:#f92672">=</span>$LD_LIBRARY_PATH:./
-sudo ./efergy2 <span style="color:#ae81ff">109011</span>
-</code></pre></div><p>Now to get everything running in Node/JavaScript</p>
-<h3 id="install-node-ffi">Install Node FFI</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo npm install -g ffi
-</code></pre></div><h3 id="create-sendjs">Create send.js</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">ffi</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;ffi&#34;</span>)
-
-<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">libwiringPi</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ffi</span>.<span style="color:#a6e22e">Library</span>(<span style="color:#e6db74">&#39;/usr/local/lib/libwiringPi&#39;</span>, {
-    <span style="color:#e6db74">&#39;wiringPiSetup&#39;</span> <span style="color:#f92672">:</span> [ <span style="color:#e6db74">&#39;int&#39;</span>, [] ],
-    <span style="color:#e6db74">&#39;digitalWrite&#39;</span> <span style="color:#f92672">:</span> [ <span style="color:#e6db74">&#39;void&#39;</span>, [<span style="color:#e6db74">&#39;int&#39;</span>, <span style="color:#e6db74">&#39;int&#39;</span>] ],
-    <span style="color:#e6db74">&#39;pinMode&#39;</span><span style="color:#f92672">:</span> [ <span style="color:#e6db74">&#39;void&#39;</span>, [<span style="color:#e6db74">&#39;int&#39;</span>, <span style="color:#e6db74">&#39;int&#39;</span>] ],
-    <span style="color:#e6db74">&#39;delayMicroseconds&#39;</span> <span style="color:#f92672">:</span>  [ <span style="color:#e6db74">&#39;void&#39;</span>, [<span style="color:#e6db74">&#39;int&#39;</span>, <span style="color:#e6db74">&#39;int&#39;</span>] ]
-})
-
-<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">libRCSwitch</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ffi</span>.<span style="color:#a6e22e">Library</span>(<span style="color:#e6db74">&#39;./libwrapper&#39;</span>, {
-  <span style="color:#e6db74">&#39;newRCSwitch&#39;</span> <span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;pointer&#39;</span>, [] ],
-  <span style="color:#e6db74">&#39;RCSwitch_send&#39;</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;void&#39;</span>, [ <span style="color:#e6db74">&#39;pointer&#39;</span>, <span style="color:#e6db74">&#39;int&#39;</span>, <span style="color:#e6db74">&#39;int&#39;</span> ] ],
-  <span style="color:#e6db74">&#39;RCSwitch_enableTransmit&#39;</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;void&#39;</span>, [<span style="color:#e6db74">&#39;pointer&#39;</span>, <span style="color:#e6db74">&#39;int&#39;</span>] ]
-})
-
-<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">argv</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">3</span>) {
-  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Arguments: Efergy Switch Code&#39;</span>)
-  <span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">exit</span>()
-}
-
-<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">PIN</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">unitCode</span> <span style="color:#f92672">=</span> parseInt(<span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">argv</span>[<span style="color:#ae81ff">2</span>]);
-<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">mySwitch</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">libRCSwitch</span>.<span style="color:#a6e22e">newRCSwitch</span>();
-
-<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">libwiringPi</span>.<span style="color:#a6e22e">wiringPiSetup</span>() <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>){
-    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>;
-    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;Error initialising WiringPi&#34;</span>);
-}
-
-<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">mySwitch</span>.<span style="color:#a6e22e">isNull</span>()) {
-    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Oh no! Couldn&#39;t create object!\n&#34;</span>);
-} <span style="color:#66d9ef">else</span> {
-    <span style="color:#a6e22e">libRCSwitch</span>.<span style="color:#a6e22e">RCSwitch_enableTransmit</span>(<span style="color:#a6e22e">mySwitch</span>, <span style="color:#a6e22e">PIN</span>);
-    <span style="color:#a6e22e">libRCSwitch</span>.<span style="color:#a6e22e">RCSwitch_send</span>(<span style="color:#a6e22e">mySwitch</span>, <span style="color:#a6e22e">unitCode</span>, <span style="color:#ae81ff">24</span>);
-}
-</code></pre></div><h3 id="compile-the-libraries">Compile the libraries</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">g++ -shared -fpic -g wrapper.c -L ./ -l RCSwitch -o libwrapper.so
-g++ -shared -fpic -g RCSwitch.cpp -L ./ -l wiringPi -o libRCSwitch.so
-</code></pre></div><h3 id="run-sendjs">Run send.js</h3>
-<p>Note that anything which uses WiringPi has to be run sudo. A bit of a pain. Not sure I want to be running the Node process as root?</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo env PATH<span style="color:#f92672">=</span>$PATH LD_LIBRARY_PATH<span style="color:#f92672">=</span>$LD_LIBRARY_PATH:./ node send.js <span style="color:#ae81ff">109011</span>
-</code></pre></div><p>That&rsquo;s it. You can now turn on and off your Efergy socket using Node. Next up, a simple Node server to handle remote requests to do this.</p>
-
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/arduino/">Arduino</a>
+        
+            <a href="/tags/gps/">Gps</a>
+        
+            <a href="/tags/javascript/">Javascript</a>
+        
+            <a href="/tags/lego/">Lego</a>
+        
+            <a href="/tags/linux/">Linux</a>
+        
+            <a href="/tags/nodejs/">Nodejs</a>
+        
+            <a href="/tags/raspberry-pi/">Raspberry-Pi</a>
+        
     </section>
 
 
-  <footer class="post-footer">
+    </footer>
 
 
     
-    <figure class="author-image">
-        <a class="img" href="https://conoroneill.net/" style="background-image: url(https://conoroneill.net/images/cross_dominant.png)"><span class="hidden">Conor O&#39;Neill's Picture</span></a>
-    </figure>
-    
-
-    
-
-
-
-
-
-<section class="author">
-  <h4><a href="https://conoroneill.net/">Conor O&#39;Neill</a></h4>
-  
-  <p>Tech guy who likes running slowly</p>
-  
-  <div class="author-meta">
-    <span class="author-location icon-location">Bandon, Cork, Ireland</span>
-    <span class="author-link icon-link"><a href="https://conoroneill.net">https://conoroneill.net</a></span>
-  </div>
-</section>
-
-
-
-    
-<section class="share">
-  <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Interfacing%20Node.js%20to%20Raspberry%20Pi%20hardware%20like%20433Mhz%20transmitters%20with%20node-ffi&amp;url=https%3a%2f%2fconoroneill.net%2f2014%2f03%2f30%2finterfacing-nodejs-to-raspberry-pi-hardware-with-node-ffi%2f"
-      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-      <span class="hidden">Twitter</span>
-  </a>
-</section>
-
-
-
-    
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname = 'crossdominant';
-  var disqus_url = 'https:\/\/conoroneill.net\/2014\/03\/30\/interfacing-nodejs-to-raspberry-pi-hardware-with-node-ffi\/';
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-
-    
-
-  </footer>
 </article>
 
-</main>
-    <footer class="site-footer clearfix">
-        <section class="copyright"><a href="">Cross Dominant</a> </section>
-        
-        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
-        
-    </footer>
-    </div>
-    <script type="text/javascript" src="https://conoroneill.net/js/jquery.js"></script>
-    <script type="text/javascript" src="https://conoroneill.net/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="https://conoroneill.net/js/index.js"></script>
     
-</body>
-</html>
 
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/2013/06/15/a-year-of-falling-back-in-love-with-makingelectronics-on-raspberry-pi-and-arduino/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">A year of falling back in love with Making/Electronics on Raspberry Pi and Arduino</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2014/03/16/saying-goodbye-to-wordpress-and-hello-to-harpjs/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Saying goodbye to WordPress and hello to HarpJS</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2014/03/14/running-debian-linux-gcc-emacs-git-node-js-npm-and-harpjs-on-samsung-galaxy-s4-oh-my/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Running Debian Linux, GCC, Emacs, Git, Node.js, npm and HarpJS on Samsung Galaxy S4. Oh my.</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2012/12/29/makey-makey-raspberry-pi-iracer-bluetooth-cheese-controlled-car-ccc/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">MaKey MaKey &#43; Raspberry Pi &#43; iRacer &#43; Bluetooth = Cheese Controlled Car (CCC)</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/2014/03/23/our-web-and-mobile-enabled-electric-blanket-using-electric-irelands-efergy-rc-sockets/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Our web and mobile enabled electric blanket using Electric Ireland&#39;s Efergy RC sockets</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+        <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "crossdominant" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2001 - 
+        
+        2026 Mixed Laterality
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="4.0.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+
+
+    </body>
+</html>

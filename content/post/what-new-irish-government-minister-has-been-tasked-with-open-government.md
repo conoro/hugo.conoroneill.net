@@ -5,8 +5,9 @@ draft = false
 title = "What new Irish Government Minister has been tasked with Open Government?"
 description = ""
 slug = "what-new-irish-government-minister-has-been-tasked-with-open-government"
+categories = ["Opinion & Commentary"]
+tags = ["ireland"]
 +++
-
 #"What new Irish Government Minister has been tasked with Open Government?"
 
 

@@ -5,8 +5,9 @@ draft = false
 title = "Android gets it own Sky+ app - Pocket-lint"
 description = ""
 slug = "android-gets-it-own-sky-app-pocket-lint"
+categories = ["Mobile & Apps"]
+tags = ["android", "ireland"]
 +++
-
 #"Android gets it own Sky+ app - Pocket-lint"
 
 

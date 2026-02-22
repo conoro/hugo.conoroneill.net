@@ -5,8 +5,9 @@ draft = false
 title = "Machform nicely formed"
 description = ""
 slug = "machform-nicely-formed"
+categories = ["Web & Blogging"]
+tags = ["wordpress"]
 +++
-
 #"Machform nicely formed"
 
 

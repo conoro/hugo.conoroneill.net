@@ -5,8 +5,8 @@ draft = false
 title = "NY Times Review of Treme"
 description = ""
 slug = "ny-times-review-of-treme"
+categories = ["Web & Blogging"]
 +++
-
 #"NY Times Review of Treme"
 
 

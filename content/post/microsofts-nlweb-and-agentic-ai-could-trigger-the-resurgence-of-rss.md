@@ -3,8 +3,9 @@ date = "2025-05-20T02:34:48.313Z"
 draft = false
 title = "Microsoft's NLWeb and Agentic AI could trigger the resurgence of RSS"
 slug = "microsofts-nlweb-and-agentic-ai-could-trigger-the-resurgence-of-rss"
+categories = ["AI & Machine Learning"]
+tags = ["ai", "api", "ireland", "open-source", "rss"]
 +++
-
 I've never given up on RSS. It still provides enormous utility for me. The silly number of RSS converters in my [GitHub account](https://github.com/conoro?tab=repositories) are testament to that.
 
 The recent removal of all RSS feeds from the EPA Ireland site was a major disappointment and I've been forced to Vibe Code a horror of a replacement scraper using their dreadful API instead.

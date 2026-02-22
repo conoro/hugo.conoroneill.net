@@ -5,8 +5,9 @@ draft = false
 title = "Playing 1980s games on your Raspberry Pi and remembering Mike Singleton"
 description = ""
 slug = "playing-1980s-games-on-your-raspberry-pi-and-remembering-mike-singleton"
+categories = ["IoT & Electronics"]
+tags = ["gaming", "linux", "raspberry-pi", "retro-computing"]
 +++
-
 #"Playing 1980s games on your Raspberry Pi and remembering Mike Singleton"
 
 This post was going to be just an up-to-date summary of many other articles out there on this subject. With the rapid rate of change in the RPi world, even very recent guides have proven to be unusable quite quickly.

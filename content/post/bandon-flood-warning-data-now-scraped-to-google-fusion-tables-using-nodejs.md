@@ -5,8 +5,9 @@ draft = false
 title = "Bandon Flood Warning data now scraped to Google Fusion Tables using Node.js on ODROID-C1 and OpenShift"
 description = "After 3 years running as a Python script on a file server, the Bandon FEWS scraper is now running on an ODROID-C1 under Node.js and soon on OpenShift."
 slug = "bandon-flood-warning-data-now-scraped-to-google-fusion-tables-using-nodejs"
+categories = ["Cloud & Infrastructure"]
+tags = ["api", "database", "flooding", "google", "ireland", "javascript", "linux", "nodejs", "open-source", "python"]
 +++
-
 After 3 years running as a Python script on a file server, the Bandon FEWS scraper is now running on an ODROID-C1 under Node.js and soon on OpenShift.
 
 ## Introduction

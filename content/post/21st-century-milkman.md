@@ -5,8 +5,9 @@ draft = false
 title = "21st Century Milkman"
 description = ""
 slug = "21st-century-milkman"
+categories = ["Mobile & Apps"]
+tags = ["ireland"]
 +++
-
 #"21st Century Milkman"
 
 

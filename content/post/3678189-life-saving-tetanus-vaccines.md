@@ -5,8 +5,9 @@ draft = false
 title = "3,678,189 life-saving tetanus vaccines"
 description = ""
 slug = "3678189-life-saving-tetanus-vaccines"
+categories = ["Web & Blogging"]
+tags = ["ireland", "open-source"]
 +++
-
 #"3,678,189 life-saving tetanus vaccines"
 
 

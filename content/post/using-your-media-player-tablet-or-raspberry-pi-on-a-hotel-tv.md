@@ -5,8 +5,9 @@ draft = false
 title = "Using your Media Player, Tablet or Raspberry Pi on a Hotel TV"
 description = ""
 slug = "using-your-media-player-tablet-or-raspberry-pi-on-a-hotel-tv"
+categories = ["IoT & Electronics"]
+tags = ["android", "raspberry-pi", "video"]
 +++
-
 #"Using your Media Player, Tablet or Raspberry Pi on a Hotel TV"
 
 One thing that has driven me mad for the past several years is hotels making it hard to connect your gear to their TVs. Older TVs are usually easier and have a SCART at the back. LCDs bolted into a wall-unit tend to be the worst.

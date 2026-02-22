@@ -5,8 +5,9 @@ draft = false
 title = "Has the Horror of upgrading Windows on your Sage machine improved?"
 description = ""
 slug = "has-the-horror-of-upgrading-windows-on-your-sage-machine-improved"
+categories = ["Cloud & Infrastructure"]
+tags = ["ireland"]
 +++
-
 #"Has the Horror of upgrading Windows on your Sage machine improved?"
 
 

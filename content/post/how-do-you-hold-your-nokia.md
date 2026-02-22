@@ -5,8 +5,9 @@ draft = false
 title = "How do you hold your Nokia?"
 description = ""
 slug = "how-do-you-hold-your-nokia"
+categories = ["Mobile & Apps"]
+tags = ["nokia"]
 +++
-
 #"How do you hold your Nokia?"
 
 
