@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="#&ldquo;Sorting out the &quot;On Behalf Of&quot; Nonsense on GMail with AuthSMTP&rdquo;\nI have long been pained by GMails handling of multiple &quot;From&quot; accounts. We use Google Apps For Your Domain which we generally like apart from that one feature.Obviously we have accounts like sales@ and support@ which are accessed by more than one of us. On the face of it GMail allows you to send from these addresses using your main account. So I can send a mail when logged in as conor@ but have it appear to be From sales@. But Google insists on sticking an additional header called &quot;Sender&quot; which identifies that it really was conor@ who sent the mail. That then appears in the recipients Outlook Inbox as &quot;From conor@blah on behalf of sales@blah&quot;. This completely defeats the purpose of having generic group addresses. It means we can't have seamless &quot;tonight Matthew I'm going to be Support&quot;. But it turns out Google does have a solution for it and you can continue to use the web interface. When you are setting up those extra accounts you can tell Google not to use their servers to send but to use another SMTP server. They generally expect that to be your own mail server but we actually use AuthSMTP for all our automated sending from EC2 and it works perfectly here too. It's a very inexpensive solution which has never let us down. Highly recommended. (Note - enable SSL on your AuthSMTP account but don't on GMail). Job done!\n">
 <title>Sorting out the &#39;On Behalf Of&#39; Nonsense on GMail with AuthSMTP</title>
 
 
-<link rel="canonical" href="https://conoroneill.net/2011/01/07/sorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp/">
+<link rel="canonical" href="http://localhost:1313/2011/01/07/sorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
@@ -14,7 +14,7 @@
 
 <link rel="stylesheet" href="/scss/style.min.390cc81d180d80110703ea467e355a4f3a0f44f25d4e957842790824fb5f2ef2.css"><meta property='og:title' content="Sorting out the 'On Behalf Of' Nonsense on GMail with AuthSMTP">
 <meta property='og:description' content="#&ldquo;Sorting out the &quot;On Behalf Of&quot; Nonsense on GMail with AuthSMTP&rdquo;\nI have long been pained by GMails handling of multiple &quot;From&quot; accounts. We use Google Apps For Your Domain which we generally like apart from that one feature.Obviously we have accounts like sales@ and support@ which are accessed by more than one of us. On the face of it GMail allows you to send from these addresses using your main account. So I can send a mail when logged in as conor@ but have it appear to be From sales@. But Google insists on sticking an additional header called &quot;Sender&quot; which identifies that it really was conor@ who sent the mail. That then appears in the recipients Outlook Inbox as &quot;From conor@blah on behalf of sales@blah&quot;. This completely defeats the purpose of having generic group addresses. It means we can't have seamless &quot;tonight Matthew I'm going to be Support&quot;. But it turns out Google does have a solution for it and you can continue to use the web interface. When you are setting up those extra accounts you can tell Google not to use their servers to send but to use another SMTP server. They generally expect that to be your own mail server but we actually use AuthSMTP for all our automated sending from EC2 and it works perfectly here too. It's a very inexpensive solution which has never let us down. Highly recommended. (Note - enable SSL on your AuthSMTP account but don't on GMail). Job done!\n">
-<meta property='og:url' content='https://conoroneill.net/2011/01/07/sorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp/'>
+<meta property='og:url' content='http://localhost:1313/2011/01/07/sorting-out-the-on-behalf-of-nonsense-on-gmail-with-authsmtp/'>
 <meta property='og:site_name' content='Mixed Laterality'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='google' /><meta property='article:published_time' content='2011-01-07T10:18:42&#43;00:00'/><meta property='article:modified_time' content='2011-01-07T10:18:42&#43;00:00'/>
 <meta name="twitter:title" content="Sorting out the 'On Behalf Of' Nonsense on GMail with AuthSMTP">
@@ -506,7 +506,7 @@
             </main>
         </div>
         
-<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+<script type="text/javascript" src="/ts/main.0a071e5abd2ae3c1e5c8693d303795dece656685493ad5c6f49b9d121f339a29.js" defer></script>
 
 
     </body>

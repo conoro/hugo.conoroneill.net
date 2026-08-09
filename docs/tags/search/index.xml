@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Search on Mixed Laterality</title>
+        <link>http://localhost:1313/tags/search/</link>
+        <description>Recent content in Search on Mixed Laterality</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 09 Aug 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/search/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>A local hybrid search plugin for Obsidian, powered by ZVec BM25 and semantic embeddings</title>
+            <link>http://localhost:1313/2026/08/09/zvec-local-hybrid-search-plugin-for-obsidian/</link>
+            <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/2026/08/09/zvec-local-hybrid-search-plugin-for-obsidian/</guid>
+            <description>&lt;p&gt;I recently created a local hybrid search plugin for &lt;a class=&#34;link&#34; href=&#34;https://obsidian.md&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;Obsidian&lt;/a&gt;, powered by &lt;a class=&#34;link&#34; href=&#34;https://zvec.org/en/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;ZVec&lt;/a&gt; BM25 and semantic embeddings. The original announcement is over on my Substack &lt;a class=&#34;link&#34; href=&#34;https://atomiccurrents.substack.com/p/an-all-new-hybrid-search-plugin-for&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;Atomic Currents&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve used it heavily over the past two weeks and it has proven invaluable. It just works better for me than anything else I&amp;rsquo;ve tried. As a result, I decided to bundle it up and mkae it a proper Community Plugin with single click install from Obsidian itself.&lt;/p&gt;&#xA;&lt;p&gt;You can see it in the &lt;a class=&#34;link&#34; href=&#34;https://community.obsidian.md/plugins/zvec-hybrid-search&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;Obsidian Community Plugin Directory here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t intend to make any major additions to the functionality as it &amp;ldquo;just works&amp;rdquo; for me. The only two improvements since the first release are date filters and making sure it searches front-matter/metadata from other plugins like Web Clipper.&lt;/p&gt;&#xA;&lt;p&gt;However if you spot bugs or any bad behaviour, please &lt;a class=&#34;link&#34; href=&#34;https://github.com/conoro/obsidian-zvec-hybrid-search/issues&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;    &gt;open an issue on GitHub&lt;/a&gt;. I&amp;rsquo;ll obviously stay on top of security alerts etc.&lt;/p&gt;&#xA;&lt;p&gt;![[/images/2026/08/zvec-obsidian-plugin.png]]&lt;/p&gt;&#xA;</description>
+        </item></channel>
+</rss>

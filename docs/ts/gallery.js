@@ -1,1 +1,76 @@
-var c=i=>{let n=document.createElement("div");n.className="gallery";let o=i[0].parentNode,t=i[0];o.insertBefore(n,t);for(let e of i)n.appendChild(e)},d=i=>i.replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/&#39;/g,"'"),m=i=>{let n=i.querySelectorAll("img.gallery-image");for(let e of Array.from(n)){let s=e.closest("p");if(!s||!i.contains(s)||(s.textContent.trim()==""&&s.classList.add("no-text"),!s.classList.contains("no-text")))continue;let p=e.parentElement.tagName=="A",r=e,l=document.createElement("figure");if(l.classList.add("gallery-image"),l.style.setProperty("flex-grow",e.getAttribute("data-flex-grow")||"1"),l.style.setProperty("flex-basis",e.getAttribute("data-flex-basis")||"0"),p)r=e.parentElement,r.classList.add("image-link"),r.setAttribute("data-pswp-width",e.getAttribute("width")),r.setAttribute("data-pswp-height",e.getAttribute("height"));else{let a=document.createElement("a");a.href=e.src,a.setAttribute("class","image-link"),a.setAttribute("target","_blank"),a.setAttribute("data-pswp-width",e.getAttribute("width")),a.setAttribute("data-pswp-height",e.getAttribute("height")),e.parentNode.insertBefore(a,e),a.appendChild(e),r=a}r.parentElement.insertBefore(l,r),l.appendChild(r);let g=e.getAttribute("alt");if(e.getAttribute("data-title-escaped")&&(g=d(e.getAttribute("data-title-escaped"))),g){let a=document.createElement("figcaption");a.innerHTML=g,l.appendChild(a)}}let o=i.querySelectorAll("figure.gallery-image"),t=[];for(let e of Array.from(o))t.length?e.previousElementSibling===t[t.length-1]?t.push(e):t.length&&(c(t),t=[e]):t=[e];t.length>0&&c(t)};export{m as default};
+// <stdin>
+var wrap = (figures) => {
+  const galleryContainer = document.createElement("div");
+  galleryContainer.className = "gallery";
+  const parentNode = figures[0].parentNode, first = figures[0];
+  parentNode.insertBefore(galleryContainer, first);
+  for (const figure of figures) {
+    galleryContainer.appendChild(figure);
+  }
+};
+var unescapeHtml = (html) => {
+  return html.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+};
+var stdin_default = (container) => {
+  const images = container.querySelectorAll("img.gallery-image");
+  for (const img of Array.from(images)) {
+    const paragraph = img.closest("p");
+    if (!paragraph || !container.contains(paragraph)) continue;
+    if (paragraph.textContent.trim() == "") {
+      paragraph.classList.add("no-text");
+    }
+    let isNewLineImage = paragraph.classList.contains("no-text");
+    if (!isNewLineImage) continue;
+    const hasLink = img.parentElement.tagName == "A";
+    let el = img;
+    const figure = document.createElement("figure");
+    figure.classList.add("gallery-image");
+    figure.style.setProperty("flex-grow", img.getAttribute("data-flex-grow") || "1");
+    figure.style.setProperty("flex-basis", img.getAttribute("data-flex-basis") || "0");
+    if (hasLink) {
+      el = img.parentElement;
+      el.classList.add("image-link");
+      el.setAttribute("data-pswp-width", img.getAttribute("width"));
+      el.setAttribute("data-pswp-height", img.getAttribute("height"));
+    } else {
+      const a = document.createElement("a");
+      a.href = img.src;
+      a.setAttribute("class", "image-link");
+      a.setAttribute("target", "_blank");
+      a.setAttribute("data-pswp-width", img.getAttribute("width"));
+      a.setAttribute("data-pswp-height", img.getAttribute("height"));
+      img.parentNode.insertBefore(a, img);
+      a.appendChild(img);
+      el = a;
+    }
+    el.parentElement.insertBefore(figure, el);
+    figure.appendChild(el);
+    let caption = img.getAttribute("alt");
+    if (img.getAttribute("data-title-escaped")) {
+      caption = unescapeHtml(img.getAttribute("data-title-escaped"));
+    }
+    if (caption) {
+      const figcaption = document.createElement("figcaption");
+      figcaption.innerHTML = caption;
+      figure.appendChild(figcaption);
+    }
+  }
+  const figuresEl = container.querySelectorAll("figure.gallery-image");
+  let currentGallery = [];
+  for (const figure of Array.from(figuresEl)) {
+    if (!currentGallery.length) {
+      currentGallery = [figure];
+    } else if (figure.previousElementSibling === currentGallery[currentGallery.length - 1]) {
+      currentGallery.push(figure);
+    } else if (currentGallery.length) {
+      wrap(currentGallery);
+      currentGallery = [figure];
+    }
+  }
+  if (currentGallery.length > 0) {
+    wrap(currentGallery);
+  }
+};
+export {
+  stdin_default as default
+};

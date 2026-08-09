@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Mixed Laterality</title>
-        <link>https://conoroneill.net/categories/</link>
+        <link>http://localhost:1313/categories/</link>
         <description>Recent content in Categories on Mixed Laterality</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 20 Feb 2026 09:23:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 09 Aug 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>AI &amp; Machine Learning</title>
-            <link>https://conoroneill.net/categories/ai--machine-learning/</link>
-            <pubDate>Fri, 20 Feb 2026 09:23:48 +0000</pubDate>
-            <guid>https://conoroneill.net/categories/ai--machine-learning/</guid>
+            <link>http://localhost:1313/categories/ai--machine-learning/</link>
+            <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/categories/ai--machine-learning/</guid>
             <description></description>
         </item><item>
             <title>IoT &amp; Electronics</title>
-            <link>https://conoroneill.net/categories/iot--electronics/</link>
+            <link>http://localhost:1313/categories/iot--electronics/</link>
             <pubDate>Fri, 26 Dec 2025 06:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/categories/iot--electronics/</guid>
+            <guid>http://localhost:1313/categories/iot--electronics/</guid>
             <description></description>
         </item><item>
             <title>Low Code &amp; No Code</title>
-            <link>https://conoroneill.net/categories/low-code--no-code/</link>
+            <link>http://localhost:1313/categories/low-code--no-code/</link>
             <pubDate>Sun, 18 Aug 2024 06:34:48 +0000</pubDate>
-            <guid>https://conoroneill.net/categories/low-code--no-code/</guid>
+            <guid>http://localhost:1313/categories/low-code--no-code/</guid>
             <description></description>
         </item><item>
             <title>Software Development</title>
-            <link>https://conoroneill.net/categories/software-development/</link>
+            <link>http://localhost:1313/categories/software-development/</link>
             <pubDate>Mon, 26 Sep 2022 08:30:22 +0000</pubDate>
-            <guid>https://conoroneill.net/categories/software-development/</guid>
+            <guid>http://localhost:1313/categories/software-development/</guid>
             <description></description>
         </item><item>
             <title>Cloud &amp; Infrastructure</title>
-            <link>https://conoroneill.net/categories/cloud--infrastructure/</link>
+            <link>http://localhost:1313/categories/cloud--infrastructure/</link>
             <pubDate>Mon, 18 Jul 2022 13:30:22 +0000</pubDate>
-            <guid>https://conoroneill.net/categories/cloud--infrastructure/</guid>
+            <guid>http://localhost:1313/categories/cloud--infrastructure/</guid>
             <description></description>
         </item><item>
             <title>Gaming &amp; Retro Computing</title>
-            <link>https://conoroneill.net/categories/gaming--retro-computing/</link>
+            <link>http://localhost:1313/categories/gaming--retro-computing/</link>
             <pubDate>Sat, 26 Mar 2022 07:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/categories/gaming--retro-computing/</guid>
+            <guid>http://localhost:1313/categories/gaming--retro-computing/</guid>
             <description></description>
         </item><item>
             <title>Mobile &amp; Apps</title>
-            <link>https://conoroneill.net/categories/mobile--apps/</link>
+            <link>http://localhost:1313/categories/mobile--apps/</link>
             <pubDate>Mon, 12 Jul 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/categories/mobile--apps/</guid>
+            <guid>http://localhost:1313/categories/mobile--apps/</guid>
             <description></description>
         </item><item>
             <title>Running &amp; Fitness</title>
-            <link>https://conoroneill.net/categories/running--fitness/</link>
+            <link>http://localhost:1313/categories/running--fitness/</link>
             <pubDate>Mon, 25 Nov 2019 09:00:00 +0000</pubDate>
-            <guid>https://conoroneill.net/categories/running--fitness/</guid>
+            <guid>http://localhost:1313/categories/running--fitness/</guid>
             <description></description>
         </item><item>
             <title>Opinion &amp; Commentary</title>
-            <link>https://conoroneill.net/categories/opinion--commentary/</link>
+            <link>http://localhost:1313/categories/opinion--commentary/</link>
             <pubDate>Thu, 30 Aug 2018 12:02:07 +0000</pubDate>
-            <guid>https://conoroneill.net/categories/opinion--commentary/</guid>
+            <guid>http://localhost:1313/categories/opinion--commentary/</guid>
             <description></description>
         </item><item>
             <title>Web &amp; Blogging</title>
-            <link>https://conoroneill.net/categories/web--blogging/</link>
+            <link>http://localhost:1313/categories/web--blogging/</link>
             <pubDate>Sun, 12 Aug 2018 16:51:28 +0000</pubDate>
-            <guid>https://conoroneill.net/categories/web--blogging/</guid>
+            <guid>http://localhost:1313/categories/web--blogging/</guid>
             <description></description>
         </item><item>
             <title>General Tech</title>
-            <link>https://conoroneill.net/categories/general-tech/</link>
+            <link>http://localhost:1313/categories/general-tech/</link>
             <pubDate>Sat, 02 Jan 2016 13:00:29 +0000</pubDate>
-            <guid>https://conoroneill.net/categories/general-tech/</guid>
+            <guid>http://localhost:1313/categories/general-tech/</guid>
             <description></description>
         </item><item>
             <title>Startups &amp; Business</title>
-            <link>https://conoroneill.net/categories/startups--business/</link>
+            <link>http://localhost:1313/categories/startups--business/</link>
             <pubDate>Fri, 23 Oct 2015 13:54:25 +0100</pubDate>
-            <guid>https://conoroneill.net/categories/startups--business/</guid>
+            <guid>http://localhost:1313/categories/startups--business/</guid>
             <description></description>
         </item><item>
             <title>Media &amp; Entertainment</title>
-            <link>https://conoroneill.net/categories/media--entertainment/</link>
+            <link>http://localhost:1313/categories/media--entertainment/</link>
             <pubDate>Sun, 01 Dec 2013 13:20:57 +0000</pubDate>
-            <guid>https://conoroneill.net/categories/media--entertainment/</guid>
+            <guid>http://localhost:1313/categories/media--entertainment/</guid>
             <description></description>
         </item></channel>
 </rss>

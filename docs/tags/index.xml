@@ -1,315 +1,339 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Mixed Laterality</title>
-        <link>https://conoroneill.net/tags/</link>
+        <link>http://localhost:1313/tags/</link>
         <description>Recent content in Tags on Mixed Laterality</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 20 Feb 2026 09:23:48 +0000</lastBuildDate><atom:link href="https://conoroneill.net/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 09 Aug 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>Ai</title>
-            <link>https://conoroneill.net/tags/ai/</link>
-            <pubDate>Fri, 20 Feb 2026 09:23:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/ai/</guid>
+            <link>http://localhost:1313/tags/ai/</link>
+            <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/tags/ai/</guid>
+            <description></description>
+        </item><item>
+            <title>Llm</title>
+            <link>http://localhost:1313/tags/llm/</link>
+            <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/tags/llm/</guid>
+            <description></description>
+        </item><item>
+            <title>Local-Llm</title>
+            <link>http://localhost:1313/tags/local-llm/</link>
+            <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/tags/local-llm/</guid>
+            <description></description>
+        </item><item>
+            <title>Obsidian</title>
+            <link>http://localhost:1313/tags/obsidian/</link>
+            <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/tags/obsidian/</guid>
+            <description></description>
+        </item><item>
+            <title>Search</title>
+            <link>http://localhost:1313/tags/search/</link>
+            <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/tags/search/</guid>
             <description></description>
         </item><item>
             <title>Api</title>
-            <link>https://conoroneill.net/tags/api/</link>
-            <pubDate>Fri, 20 Feb 2026 09:23:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/api/</guid>
+            <link>http://localhost:1313/tags/api/</link>
+            <pubDate>Fri, 06 Mar 2026 10:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/tags/api/</guid>
             <description></description>
         </item><item>
             <title>Aws</title>
-            <link>https://conoroneill.net/tags/aws/</link>
-            <pubDate>Fri, 20 Feb 2026 09:23:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/aws/</guid>
-            <description></description>
-        </item><item>
-            <title>Amazon</title>
-            <link>https://conoroneill.net/tags/amazon/</link>
-            <pubDate>Fri, 20 Feb 2026 07:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/amazon/</guid>
+            <link>http://localhost:1313/tags/aws/</link>
+            <pubDate>Fri, 06 Mar 2026 10:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/tags/aws/</guid>
             <description></description>
         </item><item>
             <title>Cloud</title>
-            <link>https://conoroneill.net/tags/cloud/</link>
-            <pubDate>Fri, 20 Feb 2026 07:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/cloud/</guid>
+            <link>http://localhost:1313/tags/cloud/</link>
+            <pubDate>Fri, 06 Mar 2026 10:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/tags/cloud/</guid>
             <description></description>
         </item><item>
             <title>Open-Source</title>
-            <link>https://conoroneill.net/tags/open-source/</link>
-            <pubDate>Fri, 20 Feb 2026 07:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/open-source/</guid>
+            <link>http://localhost:1313/tags/open-source/</link>
+            <pubDate>Fri, 06 Mar 2026 10:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/tags/open-source/</guid>
             <description></description>
         </item><item>
             <title>Python</title>
-            <link>https://conoroneill.net/tags/python/</link>
+            <link>http://localhost:1313/tags/python/</link>
+            <pubDate>Fri, 06 Mar 2026 10:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/tags/python/</guid>
+            <description></description>
+        </item><item>
+            <title>Amazon</title>
+            <link>http://localhost:1313/tags/amazon/</link>
             <pubDate>Fri, 20 Feb 2026 07:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/python/</guid>
+            <guid>http://localhost:1313/tags/amazon/</guid>
             <description></description>
         </item><item>
             <title>Sensors</title>
-            <link>https://conoroneill.net/tags/sensors/</link>
+            <link>http://localhost:1313/tags/sensors/</link>
             <pubDate>Fri, 20 Feb 2026 07:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/sensors/</guid>
+            <guid>http://localhost:1313/tags/sensors/</guid>
             <description></description>
         </item><item>
             <title>Twitter</title>
-            <link>https://conoroneill.net/tags/twitter/</link>
+            <link>http://localhost:1313/tags/twitter/</link>
             <pubDate>Fri, 20 Feb 2026 07:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/twitter/</guid>
+            <guid>http://localhost:1313/tags/twitter/</guid>
             <description></description>
         </item><item>
             <title>Arduino</title>
-            <link>https://conoroneill.net/tags/arduino/</link>
+            <link>http://localhost:1313/tags/arduino/</link>
             <pubDate>Fri, 26 Dec 2025 06:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/arduino/</guid>
+            <guid>http://localhost:1313/tags/arduino/</guid>
             <description></description>
         </item><item>
             <title>Espruino</title>
-            <link>https://conoroneill.net/tags/espruino/</link>
+            <link>http://localhost:1313/tags/espruino/</link>
             <pubDate>Fri, 26 Dec 2025 06:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/espruino/</guid>
+            <guid>http://localhost:1313/tags/espruino/</guid>
             <description></description>
         </item><item>
             <title>Food-Tech</title>
-            <link>https://conoroneill.net/tags/food-tech/</link>
+            <link>http://localhost:1313/tags/food-tech/</link>
             <pubDate>Fri, 26 Dec 2025 06:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/food-tech/</guid>
+            <guid>http://localhost:1313/tags/food-tech/</guid>
             <description></description>
         </item><item>
             <title>Javascript</title>
-            <link>https://conoroneill.net/tags/javascript/</link>
+            <link>http://localhost:1313/tags/javascript/</link>
             <pubDate>Fri, 26 Dec 2025 06:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/javascript/</guid>
+            <guid>http://localhost:1313/tags/javascript/</guid>
             <description></description>
         </item><item>
             <title>Led</title>
-            <link>https://conoroneill.net/tags/led/</link>
+            <link>http://localhost:1313/tags/led/</link>
             <pubDate>Fri, 26 Dec 2025 06:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/led/</guid>
+            <guid>http://localhost:1313/tags/led/</guid>
             <description></description>
         </item><item>
             <title>Wifi</title>
-            <link>https://conoroneill.net/tags/wifi/</link>
+            <link>http://localhost:1313/tags/wifi/</link>
             <pubDate>Fri, 26 Dec 2025 06:40:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/wifi/</guid>
+            <guid>http://localhost:1313/tags/wifi/</guid>
             <description></description>
         </item><item>
             <title>Ireland</title>
-            <link>https://conoroneill.net/tags/ireland/</link>
+            <link>http://localhost:1313/tags/ireland/</link>
             <pubDate>Tue, 10 Jun 2025 06:35:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/ireland/</guid>
+            <guid>http://localhost:1313/tags/ireland/</guid>
             <description></description>
         </item><item>
             <title>Rss</title>
-            <link>https://conoroneill.net/tags/rss/</link>
+            <link>http://localhost:1313/tags/rss/</link>
             <pubDate>Tue, 10 Jun 2025 06:35:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/rss/</guid>
+            <guid>http://localhost:1313/tags/rss/</guid>
             <description></description>
         </item><item>
             <title>Nodejs</title>
-            <link>https://conoroneill.net/tags/nodejs/</link>
+            <link>http://localhost:1313/tags/nodejs/</link>
             <pubDate>Mon, 26 May 2025 02:34:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/nodejs/</guid>
+            <guid>http://localhost:1313/tags/nodejs/</guid>
             <description></description>
         </item><item>
             <title>Database</title>
-            <link>https://conoroneill.net/tags/database/</link>
+            <link>http://localhost:1313/tags/database/</link>
             <pubDate>Sun, 18 Aug 2024 06:34:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/database/</guid>
+            <guid>http://localhost:1313/tags/database/</guid>
             <description></description>
         </item><item>
             <title>Home-Automation</title>
-            <link>https://conoroneill.net/tags/home-automation/</link>
+            <link>http://localhost:1313/tags/home-automation/</link>
             <pubDate>Sun, 18 Aug 2024 06:34:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/home-automation/</guid>
+            <guid>http://localhost:1313/tags/home-automation/</guid>
             <description></description>
         </item><item>
             <title>Low-Code</title>
-            <link>https://conoroneill.net/tags/low-code/</link>
+            <link>http://localhost:1313/tags/low-code/</link>
             <pubDate>Sun, 18 Aug 2024 06:34:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/low-code/</guid>
+            <guid>http://localhost:1313/tags/low-code/</guid>
             <description></description>
         </item><item>
             <title>Raspberry-Pi</title>
-            <link>https://conoroneill.net/tags/raspberry-pi/</link>
+            <link>http://localhost:1313/tags/raspberry-pi/</link>
             <pubDate>Sun, 18 Aug 2024 06:34:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/raspberry-pi/</guid>
+            <guid>http://localhost:1313/tags/raspberry-pi/</guid>
             <description></description>
         </item><item>
             <title>Wasm</title>
-            <link>https://conoroneill.net/tags/wasm/</link>
+            <link>http://localhost:1313/tags/wasm/</link>
             <pubDate>Sun, 18 Aug 2024 06:34:48 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/wasm/</guid>
+            <guid>http://localhost:1313/tags/wasm/</guid>
             <description></description>
         </item><item>
             <title>Linux</title>
-            <link>https://conoroneill.net/tags/linux/</link>
+            <link>http://localhost:1313/tags/linux/</link>
             <pubDate>Mon, 18 Jul 2022 13:30:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/linux/</guid>
+            <guid>http://localhost:1313/tags/linux/</guid>
             <description></description>
         </item><item>
             <title>Podcast</title>
-            <link>https://conoroneill.net/tags/podcast/</link>
+            <link>http://localhost:1313/tags/podcast/</link>
             <pubDate>Mon, 18 Jul 2022 13:30:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/podcast/</guid>
+            <guid>http://localhost:1313/tags/podcast/</guid>
             <description></description>
         </item><item>
             <title>Gaming</title>
-            <link>https://conoroneill.net/tags/gaming/</link>
+            <link>http://localhost:1313/tags/gaming/</link>
             <pubDate>Sat, 26 Mar 2022 07:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/gaming/</guid>
+            <guid>http://localhost:1313/tags/gaming/</guid>
             <description></description>
         </item><item>
             <title>Retro-Computing</title>
-            <link>https://conoroneill.net/tags/retro-computing/</link>
+            <link>http://localhost:1313/tags/retro-computing/</link>
             <pubDate>Sat, 26 Mar 2022 07:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/retro-computing/</guid>
+            <guid>http://localhost:1313/tags/retro-computing/</guid>
             <description></description>
         </item><item>
             <title>Google</title>
-            <link>https://conoroneill.net/tags/google/</link>
+            <link>http://localhost:1313/tags/google/</link>
             <pubDate>Mon, 22 Nov 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/google/</guid>
+            <guid>http://localhost:1313/tags/google/</guid>
             <description></description>
         </item><item>
             <title>Lego</title>
-            <link>https://conoroneill.net/tags/lego/</link>
+            <link>http://localhost:1313/tags/lego/</link>
             <pubDate>Mon, 22 Nov 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/lego/</guid>
+            <guid>http://localhost:1313/tags/lego/</guid>
             <description></description>
         </item><item>
             <title>Bluetooth</title>
-            <link>https://conoroneill.net/tags/bluetooth/</link>
+            <link>http://localhost:1313/tags/bluetooth/</link>
             <pubDate>Mon, 01 Nov 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/bluetooth/</guid>
+            <guid>http://localhost:1313/tags/bluetooth/</guid>
             <description></description>
         </item><item>
             <title>Golang</title>
-            <link>https://conoroneill.net/tags/golang/</link>
+            <link>http://localhost:1313/tags/golang/</link>
             <pubDate>Mon, 01 Nov 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/golang/</guid>
+            <guid>http://localhost:1313/tags/golang/</guid>
             <description></description>
         </item><item>
             <title>Halloween</title>
-            <link>https://conoroneill.net/tags/halloween/</link>
+            <link>http://localhost:1313/tags/halloween/</link>
             <pubDate>Mon, 01 Nov 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/halloween/</guid>
+            <guid>http://localhost:1313/tags/halloween/</guid>
             <description></description>
         </item><item>
             <title>3d-Printing</title>
-            <link>https://conoroneill.net/tags/3d-printing/</link>
+            <link>http://localhost:1313/tags/3d-printing/</link>
             <pubDate>Thu, 23 Sep 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/3d-printing/</guid>
+            <guid>http://localhost:1313/tags/3d-printing/</guid>
             <description></description>
         </item><item>
             <title>Fitness-Tracker</title>
-            <link>https://conoroneill.net/tags/fitness-tracker/</link>
+            <link>http://localhost:1313/tags/fitness-tracker/</link>
             <pubDate>Thu, 23 Sep 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/fitness-tracker/</guid>
+            <guid>http://localhost:1313/tags/fitness-tracker/</guid>
             <description></description>
         </item><item>
             <title>Security</title>
-            <link>https://conoroneill.net/tags/security/</link>
+            <link>http://localhost:1313/tags/security/</link>
             <pubDate>Thu, 23 Sep 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/security/</guid>
+            <guid>http://localhost:1313/tags/security/</guid>
             <description></description>
         </item><item>
             <title>Education</title>
-            <link>https://conoroneill.net/tags/education/</link>
+            <link>http://localhost:1313/tags/education/</link>
             <pubDate>Sun, 19 Sep 2021 07:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/education/</guid>
+            <guid>http://localhost:1313/tags/education/</guid>
             <description></description>
         </item><item>
             <title>Facebook</title>
-            <link>https://conoroneill.net/tags/facebook/</link>
+            <link>http://localhost:1313/tags/facebook/</link>
             <pubDate>Thu, 15 Jul 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/facebook/</guid>
+            <guid>http://localhost:1313/tags/facebook/</guid>
             <description></description>
         </item><item>
             <title>Running</title>
-            <link>https://conoroneill.net/tags/running/</link>
+            <link>http://localhost:1313/tags/running/</link>
             <pubDate>Thu, 15 Jul 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/running/</guid>
+            <guid>http://localhost:1313/tags/running/</guid>
             <description></description>
         </item><item>
             <title>Android</title>
-            <link>https://conoroneill.net/tags/android/</link>
+            <link>http://localhost:1313/tags/android/</link>
             <pubDate>Mon, 12 Jul 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/android/</guid>
+            <guid>http://localhost:1313/tags/android/</guid>
             <description></description>
         </item><item>
             <title>Photography</title>
-            <link>https://conoroneill.net/tags/photography/</link>
+            <link>http://localhost:1313/tags/photography/</link>
             <pubDate>Mon, 12 Jul 2021 05:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/photography/</guid>
+            <guid>http://localhost:1313/tags/photography/</guid>
             <description></description>
         </item><item>
             <title>Wordpress</title>
-            <link>https://conoroneill.net/tags/wordpress/</link>
+            <link>http://localhost:1313/tags/wordpress/</link>
             <pubDate>Sun, 17 Jan 2021 17:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/wordpress/</guid>
+            <guid>http://localhost:1313/tags/wordpress/</guid>
             <description></description>
         </item><item>
             <title>Gps</title>
-            <link>https://conoroneill.net/tags/gps/</link>
+            <link>http://localhost:1313/tags/gps/</link>
             <pubDate>Thu, 10 Dec 2020 07:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/gps/</guid>
+            <guid>http://localhost:1313/tags/gps/</guid>
             <description></description>
         </item><item>
             <title>Startup</title>
-            <link>https://conoroneill.net/tags/startup/</link>
+            <link>http://localhost:1313/tags/startup/</link>
             <pubDate>Thu, 10 Dec 2020 07:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/startup/</guid>
+            <guid>http://localhost:1313/tags/startup/</guid>
             <description></description>
         </item><item>
             <title>Docker</title>
-            <link>https://conoroneill.net/tags/docker/</link>
+            <link>http://localhost:1313/tags/docker/</link>
             <pubDate>Mon, 02 Dec 2019 07:00:00 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/docker/</guid>
+            <guid>http://localhost:1313/tags/docker/</guid>
             <description></description>
         </item><item>
             <title>Ios</title>
-            <link>https://conoroneill.net/tags/ios/</link>
+            <link>http://localhost:1313/tags/ios/</link>
             <pubDate>Sun, 25 Nov 2018 17:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/ios/</guid>
+            <guid>http://localhost:1313/tags/ios/</guid>
             <description></description>
         </item><item>
             <title>Nokia</title>
-            <link>https://conoroneill.net/tags/nokia/</link>
+            <link>http://localhost:1313/tags/nokia/</link>
             <pubDate>Sun, 25 Nov 2018 17:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/nokia/</guid>
+            <guid>http://localhost:1313/tags/nokia/</guid>
             <description></description>
         </item><item>
             <title>Samsung</title>
-            <link>https://conoroneill.net/tags/samsung/</link>
+            <link>http://localhost:1313/tags/samsung/</link>
             <pubDate>Sun, 25 Nov 2018 17:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/samsung/</guid>
+            <guid>http://localhost:1313/tags/samsung/</guid>
             <description></description>
         </item><item>
             <title>Video</title>
-            <link>https://conoroneill.net/tags/video/</link>
+            <link>http://localhost:1313/tags/video/</link>
             <pubDate>Fri, 07 Sep 2018 07:00:22 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/video/</guid>
+            <guid>http://localhost:1313/tags/video/</guid>
             <description></description>
         </item><item>
             <title>Hugo</title>
-            <link>https://conoroneill.net/tags/hugo/</link>
+            <link>http://localhost:1313/tags/hugo/</link>
             <pubDate>Wed, 15 Aug 2018 09:39:28 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/hugo/</guid>
+            <guid>http://localhost:1313/tags/hugo/</guid>
             <description></description>
         </item><item>
             <title>Minecraft</title>
-            <link>https://conoroneill.net/tags/minecraft/</link>
+            <link>http://localhost:1313/tags/minecraft/</link>
             <pubDate>Thu, 31 Dec 2015 21:20:12 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/minecraft/</guid>
+            <guid>http://localhost:1313/tags/minecraft/</guid>
             <description></description>
         </item><item>
             <title>Flooding</title>
-            <link>https://conoroneill.net/tags/flooding/</link>
+            <link>http://localhost:1313/tags/flooding/</link>
             <pubDate>Wed, 30 Dec 2015 17:15:23 +0000</pubDate>
-            <guid>https://conoroneill.net/tags/flooding/</guid>
+            <guid>http://localhost:1313/tags/flooding/</guid>
             <description></description>
         </item></channel>
 </rss>
