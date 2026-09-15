@@ -1,6 +1,6 @@
 +++
 date = "2018-08-30T12:02:07.571Z"
-draft = false
+draft = true
 title = "I may be totally done with Twitter-style sites including Mastodon"
 slug = "i-may-be-totally-done-with-twitter-style-sites-including-mastodon"
 categories = ["Opinion & Commentary"]
